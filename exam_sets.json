@@ -5,5 +5,13 @@
     "description": "Học chắc >7 điểm",
     "subject": "Kiến trúc máy tính",
     "question_file": "questions.json"
+  },
+  {
+    "id": "ktmt-500",
+    "title": "Đề 500 câu",
+    "description": "Sắp cập nhật",
+    "subject": "Kiến trúc máy tính",
+    "question_file": null,
+    "coming_soon": true
   }
 ]

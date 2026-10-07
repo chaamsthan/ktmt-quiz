@@ -71,6 +71,10 @@ h3 { margin-bottom: 7px; font-size: 1rem; }
 .exam-card { min-height: 178px; display: grid; align-content: start; gap: 10px; padding: 18px; color: var(--ink); border: 1px solid var(--line); border-radius: 17px; background: #fff; text-align: left; transition: border .15s, transform .15s, box-shadow .15s; }
 .exam-card:hover, .exam-card.is-active { border-color: #79d3c0; box-shadow: 0 11px 25px rgba(23,33,54,.07); transform: translateY(-2px); }
 .exam-card.is-active { background: linear-gradient(145deg, #f9fffd, #fff); }
+.exam-card.is-coming-soon { color: var(--muted); border-style: dashed; background: #fafbfd; cursor: not-allowed; }
+.exam-card.is-coming-soon:hover { border-color: var(--line); box-shadow: none; transform: none; }
+.exam-card.is-coming-soon .exam-card-icon { color: #8d9aab; background: #e9eef3; }
+.exam-card.is-coming-soon .exam-card-status { color: var(--muted); }
 .exam-card-top, .exam-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .exam-card-icon { width: 32px; height: 32px; display: grid; place-items: center; color: #fff; border-radius: 10px; background: var(--navy); font-weight: 900; }
 .exam-card-status { color: var(--mint); font-size: .68rem; font-weight: 850; }

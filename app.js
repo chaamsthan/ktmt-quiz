@@ -99,13 +99,16 @@ function renderExamLibrary() {
   return `
     <section class="library-section">
       <div class="section-heading"><div><p class="eyebrow">Thư viện bộ đề</p><h2>Chọn mục tiêu học</h2><p class="muted">Mỗi bộ đề có ngân hàng câu hỏi và mô tả học riêng.</p></div><span class="panel-kicker">${state.sets.length} bộ đề</span></div>
-      <div class="exam-grid">${state.sets.map((set) => `
-        <button type="button" class="exam-card ${state.activeSet?.id === set.id ? "is-active" : ""}" data-set-id="${escapeHtml(set.id)}">
-          <span class="exam-card-top"><span class="exam-card-icon">Q</span><span class="exam-card-status">${state.activeSet?.id === set.id ? "Đang chọn" : "Mở bộ đề"}</span></span>
+      <div class="exam-grid">${state.sets.map((set) => {
+        const unavailable = Boolean(set.coming_soon || !set.question_file);
+        return `
+        <button type="button" class="exam-card ${state.activeSet?.id === set.id ? "is-active" : ""} ${unavailable ? "is-coming-soon" : ""}" data-set-id="${escapeHtml(set.id)}" ${unavailable ? "disabled" : ""}>
+          <span class="exam-card-top"><span class="exam-card-icon">Q</span><span class="exam-card-status">${unavailable ? "Sắp cập nhật" : state.activeSet?.id === set.id ? "Đang chọn" : "Mở bộ đề"}</span></span>
           <span class="exam-card-title">${escapeHtml(set.title)}</span>
           <span class="exam-card-description">${escapeHtml(set.description)}</span>
           <span class="exam-card-meta">${escapeHtml(set.subject || "Kiến trúc máy tính")} <b>→</b></span>
-        </button>`).join("")}</div>
+        </button>`;
+      }).join("")}</div>
     </section>`;
 }
 
@@ -147,7 +150,7 @@ function renderHome() {
     mode = button.dataset.mode;
     document.querySelectorAll(".mode-btn").forEach((item) => item.classList.toggle("active", item === button));
   }));
-  document.querySelectorAll(".exam-card").forEach((button) => button.addEventListener("click", () => selectExamSet(button.dataset.setId)));
+  document.querySelectorAll(".exam-card:not(:disabled)").forEach((button) => button.addEventListener("click", () => selectExamSet(button.dataset.setId)));
   document.querySelectorAll(".quick-chapter").forEach((button) => button.addEventListener("click", () => {
     const scope = document.querySelector("#scope");
     scope.value = button.dataset.chapter;
@@ -165,7 +168,7 @@ function renderHome() {
 
 async function selectExamSet(setId) {
   const selectedSet = state.sets.find((set) => set.id === setId);
-  if (!selectedSet || selectedSet.id === state.activeSet?.id) return;
+  if (!selectedSet || selectedSet.coming_soon || !selectedSet.question_file || selectedSet.id === state.activeSet?.id) return;
   app.innerHTML = `<section class="loading-card"><div class="loader"></div><p>Đang mở ${escapeHtml(selectedSet.title)}…</p></section>`;
   try {
     const response = await fetch(selectedSet.question_file, { cache: "no-store" });
