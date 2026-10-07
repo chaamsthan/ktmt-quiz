@@ -16,6 +16,7 @@ Không mở trực tiếp bằng `file://` vì trình duyệt sẽ chặn `fetch
 
 ## Dữ liệu
 
+- `exam_sets.json`: danh sách các bộ đề; thêm bộ mới bằng cách thêm metadata và file câu hỏi tương ứng.
 - `questions.json`: 300 câu theo đúng thứ tự trong PDF, chia thành 6 chương.
 - `images/`: ảnh/sơ đồ được crop từ PDF cho 27 câu có hình.
 - `extract_questions.py`: script tái tạo JSON và ảnh crop từ PDF nguồn.

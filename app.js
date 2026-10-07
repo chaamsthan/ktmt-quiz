@@ -4,6 +4,8 @@ const LETTERS = ["A", "B", "C", "D"];
 const app = document.querySelector("#app");
 const state = {
   questions: [],
+  sets: [],
+  activeSet: null,
   chapters: [],
   quiz: null,
   persisted: loadPersisted(),
@@ -93,6 +95,20 @@ function renderStats() {
     </div>`;
 }
 
+function renderExamLibrary() {
+  return `
+    <section class="library-section">
+      <div class="section-heading"><div><p class="eyebrow">Thư viện bộ đề</p><h2>Chọn mục tiêu học</h2><p class="muted">Mỗi bộ đề có ngân hàng câu hỏi và mô tả học riêng.</p></div><span class="panel-kicker">${state.sets.length} bộ đề</span></div>
+      <div class="exam-grid">${state.sets.map((set) => `
+        <button type="button" class="exam-card ${state.activeSet?.id === set.id ? "is-active" : ""}" data-set-id="${escapeHtml(set.id)}">
+          <span class="exam-card-top"><span class="exam-card-icon">Q</span><span class="exam-card-status">${state.activeSet?.id === set.id ? "Đang chọn" : "Mở bộ đề"}</span></span>
+          <span class="exam-card-title">${escapeHtml(set.title)}</span>
+          <span class="exam-card-description">${escapeHtml(set.description)}</span>
+          <span class="exam-card-meta">${escapeHtml(set.subject || "Kiến trúc máy tính")} <b>→</b></span>
+        </button>`).join("")}</div>
+    </section>`;
+}
+
 function renderHome() {
   const chapters = chapterCounts();
   app.innerHTML = `
@@ -102,10 +118,11 @@ function renderHome() {
       </div>
       <div class="hero-stamp"><span class="stamp-label">NGÂN HÀNG KTMT</span><strong>${state.questions.length}</strong><span>câu hỏi sẵn sàng để luyện tập</span><i aria-hidden="true">↗</i></div>
     </section>
+    ${renderExamLibrary()}
     ${renderStats()}
     <section class="setup-grid">
       <div class="panel">
-        <div class="panel-header"><div><h2>Tạo một lượt học</h2><p>Chọn một chương và cách sắp xếp câu hỏi.</p></div></div>
+        <div class="panel-header"><div><span class="active-set-label">${escapeHtml(state.activeSet?.title || "Bộ đề hiện tại")}</span><h2>Tạo một lượt học</h2><p>${escapeHtml(state.activeSet?.description || "Chọn một chương và cách sắp xếp câu hỏi.")}</p></div></div>
         <form id="quiz-form" class="form-stack">
           <div class="field"><label for="scope">Chọn chương</label><select id="scope">
             ${chapters.map(({ chapter, count }) => `<option value="${escapeHtml(chapter)}">${escapeHtml(chapter)} · ${count} câu</option>`).join("")}
@@ -130,6 +147,7 @@ function renderHome() {
     mode = button.dataset.mode;
     document.querySelectorAll(".mode-btn").forEach((item) => item.classList.toggle("active", item === button));
   }));
+  document.querySelectorAll(".exam-card").forEach((button) => button.addEventListener("click", () => selectExamSet(button.dataset.setId)));
   document.querySelectorAll(".quick-chapter").forEach((button) => button.addEventListener("click", () => {
     const scope = document.querySelector("#scope");
     scope.value = button.dataset.chapter;
@@ -143,6 +161,23 @@ function renderHome() {
     startQuiz(scope, randomize, mode);
   });
   document.querySelector("#continue-btn")?.addEventListener("click", () => renderProgress());
+}
+
+async function selectExamSet(setId) {
+  const selectedSet = state.sets.find((set) => set.id === setId);
+  if (!selectedSet || selectedSet.id === state.activeSet?.id) return;
+  app.innerHTML = `<section class="loading-card"><div class="loader"></div><p>Đang mở ${escapeHtml(selectedSet.title)}…</p></section>`;
+  try {
+    const response = await fetch(selectedSet.question_file, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Không thể tải ${selectedSet.question_file} (${response.status})`);
+    state.questions = await response.json();
+    state.activeSet = selectedSet;
+    state.chapters = [...new Set(state.questions.map((question) => question.chapter))];
+    renderHome();
+  } catch (error) {
+    app.innerHTML = `<section class="error-card"><h2>Không mở được bộ đề</h2><p>${escapeHtml(error.message)}</p><button class="ghost-btn" type="button" id="reload-home">Quay lại</button></section>`;
+    document.querySelector("#reload-home")?.addEventListener("click", renderHome);
+  }
 }
 
 function getPool(scope) {
@@ -251,7 +286,7 @@ function finishQuiz() {
   const graded = state.quiz.questions.filter((question) => question.correct_answer);
   const correct = graded.filter((question) => state.quiz.answers[question.id] === question.correct_answer).length;
   const answered = state.quiz.questions.filter((question) => state.quiz.answers[question.id]).length;
-  state.persisted.history.push({ date: new Date().toISOString(), mode: state.quiz.mode, total: state.quiz.questions.length, answered, correct, scope: state.quiz.scope });
+  state.persisted.history.push({ date: new Date().toISOString(), mode: state.quiz.mode, total: state.quiz.questions.length, answered, correct, scope: state.quiz.scope, set_id: state.activeSet?.id || null });
   savePersisted();
   renderResults();
 }
@@ -290,8 +325,13 @@ function renderProgress() {
 
 async function boot() {
   try {
-    const response = await fetch("questions.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`Không thể tải questions.json (${response.status})`);
+    const setsResponse = await fetch("exam_sets.json", { cache: "no-store" });
+    if (!setsResponse.ok) throw new Error(`Không thể tải exam_sets.json (${setsResponse.status})`);
+    state.sets = await setsResponse.json();
+    if (!state.sets.length) throw new Error("exam_sets.json chưa có bộ đề nào");
+    state.activeSet = state.sets[0];
+    const response = await fetch(state.activeSet.question_file, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Không thể tải ${state.activeSet.question_file} (${response.status})`);
     state.questions = await response.json();
     state.chapters = [...new Set(state.questions.map((question) => question.chapter))];
     renderHome();
