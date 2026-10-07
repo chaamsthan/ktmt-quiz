@@ -58,6 +58,7 @@ function chapterCounts() {
   return state.chapters.map((chapter) => ({
     chapter,
     count: state.questions.filter((question) => question.chapter === chapter).length,
+    completed: state.questions.filter((question) => question.chapter === chapter && state.persisted.progress[question.id]?.answered).length,
   }));
 }
 
@@ -85,10 +86,10 @@ function renderStats() {
   const accuracy = answered ? `${Math.round(correct / answered * 100)}%` : "—";
   return `
     <div class="stats-grid">
-      <div class="stat-card"><span class="stat-value">${state.questions.length}</span><span class="stat-label">Tổng câu hỏi</span></div>
-      <div class="stat-card"><span class="stat-value">${state.chapters.length}</span><span class="stat-label">Chương học</span></div>
-      <div class="stat-card"><span class="stat-value">${state.persisted.bookmarks.size}</span><span class="stat-label">Câu đã đánh dấu</span></div>
-      <div class="stat-card"><span class="stat-value">${accuracy}</span><span class="stat-label">Độ chính xác đã ghi nhận</span></div>
+      <div class="stat-card"><span class="stat-icon">◎</span><div><span class="stat-value">${state.questions.length}</span><span class="stat-label">Tổng câu hỏi</span></div></div>
+      <div class="stat-card"><span class="stat-icon">⌘</span><div><span class="stat-value">${state.chapters.length}</span><span class="stat-label">Chương học</span></div></div>
+      <div class="stat-card"><span class="stat-icon">☆</span><div><span class="stat-value">${state.persisted.bookmarks.size}</span><span class="stat-label">Câu đã đánh dấu</span></div></div>
+      <div class="stat-card"><span class="stat-icon">↗</span><div><span class="stat-value">${accuracy}</span><span class="stat-label">Độ chính xác</span></div></div>
     </div>`;
 }
 
@@ -100,8 +101,9 @@ function renderHome() {
         <p class="eyebrow">Computer Architecture · interactive study</p>
         <h1>Học KTMT theo cách<br />nhớ được lâu hơn.</h1>
         <p>Ngân hàng câu hỏi được giữ nguyên thứ tự, chia theo chương và có đáp án được đối chiếu từ vùng đánh dấu trong PDF nguồn.</p>
+        <div class="hero-pills"><span>01 · Chọn chương</span><span>02 · Học hoặc thi</span><span>03 · Theo dõi tiến độ</span></div>
       </div>
-      <div class="hero-stamp"><strong>${state.questions.length}</strong><span>câu hỏi sẵn sàng để luyện tập</span></div>
+      <div class="hero-stamp"><span class="stamp-label">NGÂN HÀNG KTMT</span><strong>${state.questions.length}</strong><span>câu hỏi sẵn sàng để luyện tập</span><i aria-hidden="true">↗</i></div>
     </section>
     ${renderStats()}
     <section class="setup-grid">
@@ -118,8 +120,11 @@ function renderHome() {
         <div class="notice">Bạn sẽ làm toàn bộ câu hỏi của chương đã chọn. Các câu có đáp án được xác minh từ highlight vàng trong PDF; dữ liệu và tiến độ được lưu ngay trên trình duyệt.</div>
       </div>
       <div class="panel">
-        <div class="panel-header"><div><h2>Bản đồ chương</h2><p>Đi nhanh đến phần bạn muốn củng cố.</p></div></div>
-        <div class="chapter-list">${chapters.map(({ chapter, count }) => `<div class="chapter-row"><strong>${escapeHtml(chapter)}</strong><span>${count} câu</span></div>`).join("")}</div>
+        <div class="panel-header"><div><h2>Bản đồ chương</h2><p>Đi nhanh đến phần bạn muốn củng cố.</p></div><span class="panel-kicker">${chapters.length} phần</span></div>
+        <div class="chapter-list">${chapters.map(({ chapter, count, completed }) => {
+          const percent = count ? Math.round(completed / count * 100) : 0;
+          return `<button type="button" class="chapter-row quick-chapter" data-chapter="${escapeHtml(chapter)}"><span class="chapter-row-main"><strong>${escapeHtml(chapter)}</strong><small>${completed}/${count} câu đã luyện</small><span class="chapter-progress"><span style="width:${percent}%"></span></span></span><span class="chapter-row-side"><b>${count}</b><span>câu&nbsp; →</span></span></button>`;
+        }).join("")}</div>
       </div>
     </section>`;
 
@@ -127,6 +132,12 @@ function renderHome() {
   document.querySelectorAll(".mode-btn").forEach((button) => button.addEventListener("click", () => {
     mode = button.dataset.mode;
     document.querySelectorAll(".mode-btn").forEach((item) => item.classList.toggle("active", item === button));
+  }));
+  document.querySelectorAll(".quick-chapter").forEach((button) => button.addEventListener("click", () => {
+    const scope = document.querySelector("#scope");
+    scope.value = button.dataset.chapter;
+    scope.focus();
+    document.querySelector("#quiz-form").scrollIntoView({ behavior: "smooth", block: "center" });
   }));
   document.querySelector("#quiz-form").addEventListener("submit", (event) => {
     event.preventDefault();
@@ -195,7 +206,7 @@ function renderQuiz() {
   app.innerHTML = `
     <section class="quiz-shell">
       <div class="quiz-main">
-        <div class="quiz-toolbar"><div class="quiz-toolbar-left"><button class="back-link" id="back-home">← Trang chủ</button><span class="muted">/ ${quiz.mode === "exam" ? "Chế độ thi" : "Chế độ học"}</span></div><span class="muted">${quiz.index + 1}/${quiz.questions.length}</span></div>
+        <div class="quiz-toolbar"><div class="quiz-toolbar-left"><button class="back-link" id="back-home">← Trang chủ</button><span class="muted">/ ${quiz.mode === "exam" ? "Chế độ thi" : "Chế độ học"}</span></div><div class="quiz-toolbar-right"><span class="session-chip">${quiz.randomize ? "Đã trộn" : "Theo thứ tự"}</span><span class="muted">${quiz.index + 1}/${quiz.questions.length}</span></div></div>
         <div class="progress-wrap"><div class="progress-bar" style="width:${progress}%"></div></div>
         <article class="question-card">
           <div class="question-meta"><span><span class="question-id">${escapeHtml(question.id)}</span> · ${escapeHtml(question.chapter)}</span><button id="bookmark" class="bookmark-btn ${marked ? "is-marked" : ""}" type="button">${marked ? "★ Đã đánh dấu" : "☆ Đánh dấu"}</button></div>
@@ -206,7 +217,7 @@ function renderQuiz() {
           <div class="quiz-actions"><div class="left"><button class="ghost-btn" id="prev" type="button" ${quiz.index === 0 ? "disabled" : ""}>← Trước</button></div><div class="right"><button class="ghost-btn" id="next" type="button">${quiz.index === quiz.questions.length - 1 ? "Xem kết quả" : "Câu tiếp →"}</button></div></div>
         </article>
       </div>
-      <aside class="side-panel"><div class="panel"><div class="side-title"><strong>Điều hướng đề</strong><span>${quiz.questions.length} câu</span></div><div class="question-map">${quiz.questions.map((item, index) => `<button type="button" class="map-dot ${index === quiz.index ? "current" : ""} ${quiz.answers[item.id] ? "answered" : ""} ${state.persisted.bookmarks.has(item.id) ? "marked" : ""}" data-index="${index}">${index + 1}</button>`).join("")}</div><p class="side-note">${quiz.mode === "exam" ? "Đáp án sẽ được hiển thị sau khi bạn kết thúc đề." : "Chọn đáp án để nhận phản hồi ngay."}</p></div></aside>
+      <aside class="side-panel"><div class="panel"><div class="side-title"><strong>Điều hướng đề</strong><span>${quiz.questions.length} câu</span></div><div class="question-map">${quiz.questions.map((item, index) => `<button type="button" class="map-dot ${index === quiz.index ? "current" : ""} ${quiz.answers[item.id] ? "answered" : ""} ${state.persisted.bookmarks.has(item.id) ? "marked" : ""}" data-index="${index}" aria-label="Mở câu ${index + 1}">${index + 1}</button>`).join("")}</div><p class="side-note">${quiz.mode === "exam" ? "Đáp án sẽ được hiển thị sau khi bạn kết thúc đề." : "Chọn đáp án để nhận phản hồi ngay."}</p></div></aside>
     </section>`;
 
   document.querySelector("#back-home").addEventListener("click", renderHome);

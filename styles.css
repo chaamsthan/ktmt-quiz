@@ -18,9 +18,10 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; background: var(--paper); }
+body { margin: 0; min-width: 320px; background: radial-gradient(circle at 8% 0%, rgba(22,182,138,.08), transparent 24rem), radial-gradient(circle at 100% 16%, rgba(245,158,85,.08), transparent 22rem), var(--paper); }
 button, select { font: inherit; }
 button { cursor: pointer; }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid rgba(22,182,138,.38); outline-offset: 3px; }
 
 .app-shell { min-height: 100vh; }
 .topbar {
@@ -31,6 +32,7 @@ button { cursor: pointer; }
   justify-content: space-between;
   color: #fff;
   background: var(--navy);
+  box-shadow: 0 1px 0 rgba(255,255,255,.06), 0 12px 30px rgba(16,26,43,.12);
 }
 .brand { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 11px; letter-spacing: .02em; }
 .brand-mark { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 12px; color: var(--navy); background: var(--mint); font-weight: 900; font-size: 1.15rem; }
@@ -52,12 +54,18 @@ h3 { margin-bottom: 7px; font-size: 1rem; }
 .hero { display: grid; grid-template-columns: 1.3fr .7fr; gap: 32px; align-items: end; margin-bottom: 30px; }
 .hero-copy { max-width: 680px; }
 .hero-copy p { max-width: 620px; color: var(--muted); font-size: 1.03rem; line-height: 1.65; }
-.hero-stamp { justify-self: end; width: min(100%, 270px); padding: 22px; border-radius: 20px; color: #d6fff4; background: linear-gradient(145deg, #173451, #102238); box-shadow: var(--shadow); }
+.hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.hero-pills span { padding: 7px 10px; color: #167961; border: 1px solid #bfe9de; border-radius: 999px; background: rgba(228,250,243,.72); font-size: .72rem; font-weight: 800; }
+.hero-stamp { position: relative; justify-self: end; width: min(100%, 270px); min-height: 164px; padding: 22px; overflow: hidden; border-radius: 20px; color: #d6fff4; background: linear-gradient(145deg, #173451, #102238); box-shadow: var(--shadow); }
+.hero-stamp::after { content: ""; position: absolute; width: 120px; height: 120px; right: -36px; bottom: -44px; border: 1px solid rgba(22,182,138,.5); border-radius: 50%; box-shadow: 0 0 0 18px rgba(22,182,138,.08), 0 0 0 38px rgba(22,182,138,.05); }
+.stamp-label { display: block; margin-bottom: 22px; color: #8eb3b5; font-size: .65rem; font-weight: 850; letter-spacing: .18em; }
 .hero-stamp strong { display: block; margin-bottom: 6px; color: #fff; font-size: 2rem; }
 .hero-stamp span { color: #9fb5c7; font-size: .88rem; }
+.hero-stamp i { position: absolute; right: 22px; top: 21px; color: var(--mint); font-size: 1.4rem; font-style: normal; }
 
 .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 25px; }
-.stat-card { padding: 17px 18px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; }
+.stat-card { display: flex; align-items: center; gap: 12px; padding: 16px 17px; background: rgba(255,255,255,.9); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 8px 24px rgba(23,33,54,.035); }
+.stat-icon { width: 34px; height: 34px; display: grid; place-items: center; flex: 0 0 auto; color: #087e63; border-radius: 10px; background: var(--mint-soft); font-size: 1.2rem; font-weight: 800; }
 .stat-card .stat-value { display: block; margin-bottom: 4px; font-size: 1.45rem; font-weight: 850; }
 .stat-card .stat-label { color: var(--muted); font-size: .78rem; }
 
@@ -85,15 +93,25 @@ h3 { margin-bottom: 7px; font-size: 1rem; }
 .danger-btn { color: var(--red); }
 button:disabled { cursor: not-allowed; opacity: .48; transform: none; }
 
+.panel-kicker { padding: 5px 8px; color: var(--muted); border-radius: 999px; background: #f2f5f9; font-size: .68rem; font-weight: 800; }
 .chapter-list { display: grid; gap: 9px; max-height: 310px; overflow: auto; }
-.chapter-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 13px; border: 1px solid var(--line); border-radius: 12px; background: #fcfdff; }
-.chapter-row span { color: var(--muted); font-size: .78rem; }
+.chapter-row { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 13px; color: var(--ink); border: 1px solid var(--line); border-radius: 12px; background: #fcfdff; text-align: left; transition: border .15s, background .15s, transform .15s, box-shadow .15s; }
+.chapter-row:hover { border-color: #a8ded3; background: #f8fffd; transform: translateY(-1px); box-shadow: 0 7px 18px rgba(23,33,54,.05); }
+.chapter-row-main { min-width: 0; display: grid; gap: 5px; }
+.chapter-row-main strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chapter-row-main small { color: var(--muted); font-size: .72rem; }
+.chapter-row-side { display: grid; justify-items: end; gap: 2px; color: var(--muted); font-size: .68rem; white-space: nowrap; }
+.chapter-row-side b { color: var(--ink); font-size: .9rem; }
+.chapter-progress { width: min(180px, 100%); height: 4px; overflow: hidden; border-radius: 99px; background: #e9eef3; }
+.chapter-progress span { display: block; height: 100%; border-radius: inherit; background: var(--mint); }
 .notice { margin-top: 16px; padding: 12px 14px; border-radius: 11px; color: #8a5d1e; background: #fff5df; font-size: .82rem; line-height: 1.45; }
 
 .quiz-shell { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 18px; align-items: start; }
 .quiz-main { min-width: 0; }
 .quiz-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 14px; }
 .quiz-toolbar-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.quiz-toolbar-right { display: flex; align-items: center; gap: 10px; }
+.session-chip { padding: 6px 9px; color: #087e63; border: 1px solid #bfe9de; border-radius: 999px; background: var(--mint-soft); font-size: .68rem; font-weight: 800; }
 .back-link { color: var(--muted); border: 0; background: none; font-size: .86rem; }
 .back-link:hover { color: var(--ink); }
 .progress-wrap { height: 8px; margin-bottom: 17px; overflow: hidden; border-radius: 10px; background: #e8edf3; }
