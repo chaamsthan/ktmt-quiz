@@ -98,10 +98,7 @@ function renderHome() {
   app.innerHTML = `
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Computer Architecture · interactive study</p>
-        <h1>Học KTMT theo cách<br />nhớ được lâu hơn.</h1>
-        <p>Ngân hàng câu hỏi được giữ nguyên thứ tự, chia theo chương và có đáp án được đối chiếu từ vùng đánh dấu trong PDF nguồn.</p>
-        <div class="hero-pills"><span>01 · Chọn chương</span><span>02 · Học hoặc thi</span><span>03 · Theo dõi tiến độ</span></div>
+        <h1>Trắc nghiệm kiến trúc máy tính</h1>
       </div>
       <div class="hero-stamp"><span class="stamp-label">NGÂN HÀNG KTMT</span><strong>${state.questions.length}</strong><span>câu hỏi sẵn sàng để luyện tập</span><i aria-hidden="true">↗</i></div>
     </section>
