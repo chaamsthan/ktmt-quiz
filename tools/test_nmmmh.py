@@ -147,6 +147,7 @@ def browser_checks(url, artifacts, assets):
         page.locator('[data-index="7"]').click()
         assert page.locator(".question-text .source-table").count() == 3
         assert page.locator(".question-text img").count() >= 1
+        page.wait_for_function("[...document.querySelectorAll('.question-text img')].every(i => i.complete && i.naturalWidth > 0)")
         assert value("[...document.querySelectorAll('.question-text img')].every(i => i.complete && i.naturalWidth > 0)")
         print("PASS original content: numbering 2021–2060, question tables, option matrices and source images preserved", flush=True)
 
