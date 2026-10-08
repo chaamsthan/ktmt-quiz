@@ -3,6 +3,8 @@ const LETTERS = ["A", "B", "C", "D"];
 
 const app = document.querySelector("#app");
 const state = {
+  subject: "ktmt",
+  ready: false,
   questions: [],
   sets: [],
   activeSet: null,
@@ -73,6 +75,7 @@ function updateProgress(question, answer, isCorrect) {
   }
   if (isCorrect) current.correct += 1;
   current.lastSeen = new Date().toISOString();
+  if (question.subject_id) current.subject_id = question.subject_id;
   state.persisted.progress[question.id] = current;
 
   if (question.correct_answer && answer) {
@@ -83,14 +86,16 @@ function updateProgress(question, answer, isCorrect) {
 }
 
 function renderStats() {
-  const answered = Object.values(state.persisted.progress).reduce((sum, item) => sum + (item.answered || 0), 0);
-  const correct = Object.values(state.persisted.progress).reduce((sum, item) => sum + (item.correct || 0), 0);
+  const courseProgress = Object.values(state.persisted.progress).filter((item) => item.subject_id !== "nmmmh");
+  const answered = courseProgress.reduce((sum, item) => sum + (item.answered || 0), 0);
+  const correct = courseProgress.reduce((sum, item) => sum + (item.correct || 0), 0);
+  const bookmarks = [...state.persisted.bookmarks].filter((id) => !id.startsWith("nmmmh-")).length;
   const accuracy = answered ? `${Math.round(correct / answered * 100)}%` : "—";
   return `
     <div class="stats-grid">
       <div class="stat-card"><span class="stat-icon">◎</span><div><span class="stat-value">${state.questions.length}</span><span class="stat-label">Tổng câu hỏi</span></div></div>
       <div class="stat-card"><span class="stat-icon">⌘</span><div><span class="stat-value">${state.chapters.length}</span><span class="stat-label">Chương học</span></div></div>
-      <div class="stat-card"><span class="stat-icon">☆</span><div><span class="stat-value">${state.persisted.bookmarks.size}</span><span class="stat-label">Câu đã đánh dấu</span></div></div>
+      <div class="stat-card"><span class="stat-icon">☆</span><div><span class="stat-value">${bookmarks}</span><span class="stat-label">Câu đã đánh dấu</span></div></div>
       <div class="stat-card"><span class="stat-icon">↗</span><div><span class="stat-value">${accuracy}</span><span class="stat-label">Độ chính xác</span></div></div>
     </div>`;
 }
@@ -113,6 +118,10 @@ function renderExamLibrary() {
 }
 
 function renderHome() {
+  if (state.subject === "nmmmh") {
+    const examId = nmmmh.route.exam;
+    return examId && examId !== "all" ? renderNmmmhExam(examId) : renderNmmmhHome();
+  }
   const chapters = chapterCounts();
   app.innerHTML = `
     <section class="hero">
@@ -190,7 +199,7 @@ function getPool(scope) {
   return state.questions.filter((question) => question.chapter === scope);
 }
 
-function startQuiz(scope, randomize = false, mode = "study", fixedQuestions = null) {
+function startQuiz(scope, randomize = false, mode = "study", fixedQuestions = null, context = null) {
   const pool = fixedQuestions || getPool(scope);
   if (!pool.length) {
     window.alert("Phạm vi này chưa có câu hỏi phù hợp.");
@@ -205,6 +214,7 @@ function startQuiz(scope, randomize = false, mode = "study", fixedQuestions = nu
     feedback: {},
     scope,
     randomize: Boolean(randomize),
+    context,
     startedAt: new Date().toISOString(),
   };
   renderQuiz();
@@ -219,8 +229,9 @@ function optionHtml(question, letter) {
     if (letter === question.correct_answer) resultClass = "correct";
     else if (selected) resultClass = "incorrect";
   }
-  return `<button type="button" class="option-btn ${resultClass}" data-option="${letter}">
-    <span class="option-key">${letter}</span><span class="option-text">${escapeHtml(option.text)}${option.image ? `<img class="option-img" src="${escapeHtml(option.image)}" alt="Hình trong đáp án ${letter}" />` : ""}</span>
+  const hasContent = Boolean(option.text || option.image || option.blocks?.some((block) => block.type !== "text"));
+  return `<button type="button" class="option-btn ${resultClass}" data-option="${letter}" ${question.subject_id === "nmmmh" && (!hasContent || state.quiz.finished) ? "disabled" : ""}>
+    <span class="option-key">${letter}</span><span class="option-text">${option.blocks?.length ? richBlocksHtml(option.blocks, false) : `${escapeHtml(option.text)}${option.image ? `<img class="option-img" src="${escapeHtml(option.image)}" alt="Hình trong đáp án ${letter}" />` : ""}`}${!hasContent && question.subject_id === "nmmmh" ? "[Thiếu phương án trong nguồn]" : ""}</span>
   </button>`;
 }
 
@@ -244,18 +255,21 @@ function renderQuiz() {
         <div class="quiz-toolbar"><div class="quiz-toolbar-left"><button class="back-link" id="back-home">← Trang chủ</button><span class="muted">/ ${quiz.mode === "exam" ? "Chế độ thi" : "Chế độ học"}</span></div><div class="quiz-toolbar-right"><span class="session-chip">${quiz.randomize ? "Đã trộn" : "Theo thứ tự"}</span><span class="muted">${quiz.index + 1}/${quiz.questions.length}</span></div></div>
         <div class="progress-wrap"><div class="progress-bar" style="width:${progress}%"></div></div>
         <article class="question-card">
-          <div class="question-meta"><span><span class="question-id">${escapeHtml(question.id)}</span> · ${escapeHtml(question.chapter)}</span><button id="bookmark" class="bookmark-btn ${marked ? "is-marked" : ""}" type="button">${marked ? "★ Đã đánh dấu" : "☆ Đánh dấu"}</button></div>
-          <h2 class="question-text">${escapeHtml(question.question)}</h2>
+          <div class="question-meta"><span><span class="question-id">${escapeHtml(questionLabel(question))}</span> · ${escapeHtml(question.chapter)}</span><button id="bookmark" class="bookmark-btn ${marked ? "is-marked" : ""}" type="button">${marked ? "★ Đã đánh dấu" : "☆ Đánh dấu"}</button></div>
+          ${nmmmhQuestionMeta(question)}
+          ${question.subject_id === "nmmmh" ? `<div class="question-text">${question.question_blocks?.length ? richBlocksHtml(question.question_blocks) : escapeHtml(question.question)}</div>` : `<h2 class="question-text">${escapeHtml(question.question)}</h2>`}
           ${question.question_image ? `<img class="question-image" src="${escapeHtml(question.question_image)}" alt="Sơ đồ minh họa cho câu ${escapeHtml(question.id)}" />` : ""}
           <div class="options">${LETTERS.map((letter) => optionHtml(question, letter)).join("")}</div>
           ${feedbackHtml(question)}
-          <div class="quiz-actions"><div class="left"><button class="ghost-btn" id="prev" type="button" ${quiz.index === 0 ? "disabled" : ""}>← Trước</button></div><div class="right"><button class="ghost-btn" id="next" type="button">${quiz.index === quiz.questions.length - 1 ? "Xem kết quả" : "Câu tiếp →"}</button></div></div>
+          ${answerExplanation(question)}
+          <div class="quiz-actions"><div class="left"><button class="ghost-btn" id="prev" type="button" ${quiz.index === 0 ? "disabled" : ""}>← Trước</button></div><div class="right">${question.subject_id === "nmmmh" ? '<button class="secondary-btn" id="finish-now" type="button">Kết thúc lượt</button>' : ""}<button class="ghost-btn" id="next" type="button">${quiz.index === quiz.questions.length - 1 ? "Xem kết quả" : "Câu tiếp →"}</button></div></div>
         </article>
       </div>
-      <aside class="side-panel"><div class="panel"><div class="side-title"><strong>Điều hướng đề</strong><span>${quiz.questions.length} câu</span></div><div class="question-map">${quiz.questions.map((item, index) => `<button type="button" class="map-dot ${index === quiz.index ? "current" : ""} ${quiz.answers[item.id] ? "answered" : ""} ${state.persisted.bookmarks.has(item.id) ? "marked" : ""}" data-index="${index}" aria-label="Mở câu ${index + 1}">${index + 1}</button>`).join("")}</div><p class="side-note">${quiz.mode === "exam" ? "Đáp án sẽ được hiển thị sau khi bạn kết thúc đề." : "Chọn đáp án để nhận phản hồi ngay."}</p></div></aside>
+      <aside class="side-panel"><div class="panel"><div class="side-title"><strong>Điều hướng đề</strong><span>${quiz.questions.length} câu</span></div>${quiz.context ? `<p class="side-note">${escapeHtml(quiz.context.exam)}<br />${escapeHtml(quiz.context.chapter)}</p>` : ""}<div class="question-map">${quiz.questions.map((item, index) => `<button type="button" class="map-dot ${index === quiz.index ? "current" : ""} ${quiz.answers[item.id] ? "answered" : ""} ${state.persisted.bookmarks.has(item.id) ? "marked" : ""}" data-index="${index}" aria-label="Mở ${escapeHtml(questionLabel(item))}" title="${escapeHtml(item.source_exam_code || "")}">${item.source_question_number ? escapeHtml(item.source_question_number) : index + 1}</button>`).join("")}</div><p class="side-note">${quiz.mode === "exam" ? "Đáp án sẽ được hiển thị sau khi bạn kết thúc đề." : "Chọn đáp án để nhận phản hồi ngay."}</p></div></aside>
     </section>`;
 
-  document.querySelector("#back-home").addEventListener("click", renderHome);
+  document.querySelector("#back-home").addEventListener("click", returnToSubjectHome);
+  document.querySelector("#finish-now")?.addEventListener("click", finishQuiz);
   document.querySelector("#bookmark").addEventListener("click", () => {
     if (state.persisted.bookmarks.has(question.id)) state.persisted.bookmarks.delete(question.id);
     else state.persisted.bookmarks.add(question.id);
@@ -285,12 +299,16 @@ function resultFor(question) {
 }
 
 function finishQuiz() {
+  // Reopening a completed NMMMH question must not create a second attempt.
+  if (state.quiz.context?.subject_id === "nmmmh" && state.quiz.finished) return renderResults();
   state.quiz.questions.forEach((question) => { state.quiz.feedback[question.id] = state.quiz.answers[question.id] || true; });
   const graded = state.quiz.questions.filter((question) => question.correct_answer);
   const correct = graded.filter((question) => state.quiz.answers[question.id] === question.correct_answer).length;
   const answered = state.quiz.questions.filter((question) => state.quiz.answers[question.id]).length;
-  state.persisted.history.push({ date: new Date().toISOString(), mode: state.quiz.mode, total: state.quiz.questions.length, answered, correct, scope: state.quiz.scope, set_id: state.activeSet?.id || null });
+  const context = state.quiz.context || { subject_id: "ktmt", subject: "Kiến trúc máy tính", exam: state.activeSet?.title || "Đề 300 câu", chapter: state.quiz.scope };
+  state.persisted.history.push({ date: new Date().toISOString(), mode: state.quiz.mode, total: state.quiz.questions.length, answered, correct, scope: state.quiz.scope, set_id: state.activeSet?.id || null, ...context, graded: graded.length, ungraded: state.quiz.questions.length - graded.length, score: graded.length ? correct / graded.length * 10 : null });
   savePersisted();
+  if (state.quiz.context?.subject_id === "nmmmh") state.quiz.finished = true;
   renderResults();
 }
 
@@ -299,20 +317,22 @@ function renderResults() {
   const correct = graded.filter((question) => state.quiz.answers[question.id] === question.correct_answer).length;
   const pending = state.quiz.questions.filter((question) => !question.correct_answer).length;
   const wrong = graded.length - correct;
+  const nmmmhSession = state.quiz.context?.subject_id === "nmmmh";
+  const score = graded.length ? (correct / graded.length * 10).toFixed(2) : null;
   app.innerHTML = `
-    <section class="results-head"><div><p class="eyebrow">Session complete</p><h1>Kết quả của bạn</h1><p class="muted">${state.quiz.mode === "exam" ? "Đề đã được chấm sau khi kết thúc." : "Bạn có thể mở lại từng câu để xem đáp án và ôn lại."}</p></div><div class="score-card"><strong>${correct}/${graded.length || state.quiz.questions.length}</strong><span>${pending ? `${pending} câu cần rà soát nguồn` : "câu đúng"}</span></div></section>
+    <section class="results-head"><div><p class="eyebrow">Session complete</p><h1>Kết quả của bạn</h1><p class="muted">${state.quiz.mode === "exam" ? "Đề đã được chấm sau khi kết thúc." : "Bạn có thể mở lại từng câu để xem đáp án và ôn lại."}</p>${nmmmhSession ? `<p>${escapeHtml(state.quiz.context.exam)} · ${escapeHtml(state.quiz.context.chapter)}<br />${correct}/${graded.length} câu có đáp án đúng · ${pending} câu không tính điểm</p>` : ""}</div><div class="score-card"><strong>${nmmmhSession ? (score === null ? "Chưa chấm" : `${score}/10`) : `${correct}/${graded.length || state.quiz.questions.length}`}</strong><span>${pending ? `${pending} câu cần rà soát nguồn` : "câu đúng"}</span></div></section>
     <div class="button-row" style="margin:0 0 20px"><button class="primary-btn" id="retry" type="button">Làm lại đề này</button><button class="secondary-btn" id="review-wrong" type="button" ${wrong ? "" : "disabled"}>Ôn ${wrong} câu sai</button><button class="ghost-btn" id="result-home" type="button">Về trang chủ</button></div>
     <section class="results-grid">${state.quiz.questions.map((question) => {
       const status = resultFor(question);
       const answer = state.quiz.answers[question.id];
       const label = status === "correct" ? "Đúng" : status === "pending" ? "Cần rà soát" : "Sai / bỏ trống";
-      return `<article class="result-item is-${status}"><div class="result-item-head"><strong>${escapeHtml(question.id)}</strong><span class="result-badge">${label}</span></div><p class="result-question">${escapeHtml(question.question)}</p><p class="result-answer">Bạn chọn: <strong>${answer || "—"}</strong> · Đáp án: <strong>${question.correct_answer || "chưa xác minh"}</strong></p><button class="ghost-btn result-open" type="button" data-id="${escapeHtml(question.id)}">Mở câu hỏi</button></article>`;
+      return `<article class="result-item is-${status}"><div class="result-item-head"><strong>${escapeHtml(questionLabel(question))}</strong><span class="result-badge">${label}</span></div>${nmmmhSession ? `<p class="muted">${escapeHtml(question.source_exam_code)} · ${escapeHtml(question.chapter)}</p>` : ""}<p class="result-question">${escapeHtml(question.question)}</p><p class="result-answer">Bạn chọn: <strong>${answer || "—"}</strong> · Đáp án: <strong>${question.correct_answer || "chưa xác minh"}</strong></p><button class="ghost-btn result-open" type="button" data-id="${escapeHtml(question.id)}">Mở câu hỏi</button></article>`;
     }).join("")}</section>`;
-  document.querySelector("#result-home").addEventListener("click", renderHome);
-  document.querySelector("#retry").addEventListener("click", () => startQuiz(state.quiz.scope, state.quiz.randomize, state.quiz.mode, state.quiz.questions));
+  document.querySelector("#result-home").addEventListener("click", returnToSubjectHome);
+  document.querySelector("#retry").addEventListener("click", () => startQuiz(state.quiz.scope, state.quiz.randomize, state.quiz.mode, state.quiz.questions, state.quiz.context));
   document.querySelector("#review-wrong").addEventListener("click", () => {
     const wrongQuestions = state.quiz.questions.filter((question) => resultFor(question) === "wrong");
-    if (wrongQuestions.length) startQuiz("mistakes", false, "study", wrongQuestions);
+    if (wrongQuestions.length) startQuiz("mistakes", false, "study", wrongQuestions, state.quiz.context);
   });
   document.querySelectorAll(".result-open").forEach((button) => button.addEventListener("click", () => {
     const index = state.quiz.questions.findIndex((question) => question.id === button.dataset.id);
@@ -337,10 +357,9 @@ async function boot() {
     if (!response.ok) throw new Error(`Không thể tải ${state.activeSet.question_file} (${response.status})`);
     state.questions = await response.json();
     state.chapters = [...new Set(state.questions.map((question) => question.chapter))];
-    renderHome();
+    state.ready = true;
+    await routeSubject();
   } catch (error) {
     app.innerHTML = `<section class="error-card"><h2>Không tải được ngân hàng câu hỏi</h2><p>${escapeHtml(error.message)}</p><p>Hãy chạy web qua HTTP, ví dụ <code>python3 -m http.server 8000</code>, rồi mở <code>http://localhost:8000</code>.</p></section>`;
   }
 }
-
-boot();

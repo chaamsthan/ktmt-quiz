@@ -1,0 +1,213 @@
+﻿de,cau,dap_an,cac_phuong_an_hop_le,trang_thai,can_ra_soat,giai_thich
+de-thi-at17-bo-1,1,B,B,verified,False,"Các bậc của 18,10,13,4 mod 37 lần lượt 36,3,36,18."
+de-thi-at17-bo-1,2,D,D,verified,False,"Giải mã RSA lấy modulo n, không phải φ(n)."
+de-thi-at17-bo-1,3,B,B,verified,False,"Vector hàng MONDAY nhân [[5,8],[19,13]] mod 26 cho OSSNOA."
+de-thi-at17-bo-1,4,B,B,verified,False,"Rabin dựa vào bài toán phân tích thừa số nguyên, cùng nền tảng thường nêu cho RSA."
+de-thi-at17-bo-1,5,B,B,verified,False,Chữ ký kết hợp mã hóa hỗ trợ xác thực và bí mật; ký+băm riêng không cung cấp bí mật.
+de-thi-at17-bo-1,6,D,D,verified,False,"19a+b ≡9 và 4a+b ≡16 mod26 cho (a,b)=(3,4)."
+de-thi-at17-bo-1,7,B,B,verified,False,"MixColumns hàng 2, cột 1 cho 8D hex."
+de-thi-at17-bo-1,8,A,A,verified,False,"Khóa riêng a=103; k=79 là số ngẫu nhiên. β=133, γ=191, δ=71."
+de-thi-at17-bo-1,9,C,C,verified,False,Z*693 không cyclic và không có phần tử sinh.
+de-thi-at17-bo-1,10,B,B,verified,False,"Tổng 33+74+316+1230=1653, vector 1101010."
+de-thi-at17-bo-1,11,B,B,verified,False,SubBytes tạo phi tuyến/xáo trộn; không phải tầng trộn tuyến tính tạo khuếch tán.
+de-thi-at17-bo-1,12,B,B,verified,False,Khuếch tán của AES đến từ ShiftRows và MixColumns.
+de-thi-at17-bo-1,13,D,D,verified,False,Hàng cuối Euclid: 30;1;-153;551;2;1;5;-153;-18;551. Kiểm tra -153·1120+551·311=1.
+de-thi-nmmmh,1,B,B,verified,False,"FRIDAY·K=ADDHOM với K=[[3,8],[19,7]]."
+de-thi-nmmmh,2,A,A,verified,False,03·A9 trong GF(2^8) bằng E0=11100000₂.
+de-thi-nmmmh,3,B,B,verified,False,(11/17)=-1; 11 không là thặng dư bậc hai mod17. (158/235)=-1.
+de-thi-nmmmh,4,A,A,verified,False,Lỗi bản mã trong ECB chỉ ảnh hưởng khối tương ứng.
+de-thi-nmmmh,5,D,D,verified,False,"Theo slide môn học, xác thực xét toàn vẹn, danh tính/nguồn gốc và chống chối bỏ (trang PDF23)."
+de-thi-nmmmh,6,D,D,verified,False,"ord41(3)=8, trong khi 7,12,11 có bậc40."
+de-thi-nmmmh,7,,"B,C",multiple_valid_options,True,"Bản mã (28,192) đúng và β=41^117 mod211=89 cũng đúng; A sai nên D sai."
+de-thi-nmmmh,8,D,D,verified,False,Nghịch đảo b của a thỏa a*b=e.
+de-thi-nmmmh,9,,"B,D",multiple_valid_options,True,"B sai vì số dư được phép bằng0; D liệt kê các đại diện của cùng một lớp, không phải nhiều lớp tương đương."
+de-thi-nmmmh,10,A,A,verified,False,"S1(110101) lấy hàng3 cột10, giá trị3=0011₂."
+de-thi-nmmmh,11,D,D,verified,False,Mã hóa dùng cặp khóa của người nhận; chữ ký dùng cặp khóa người gửi; có thể kết hợp ký và mã hóa.
+de-thi-nmmmh,12,D,D,verified,False,φ(969)=φ(3·17·19)=2·16·18=576.
+de-thi-nmmmh,13,A,A,verified,False,17^31 mod97=15.
+de-thi-nmmmh,14,C,C,verified,False,"PC-1 → dịch hai nửa → PC-2. Dịch1 ở vòng1,2,9,16; lịch A/B ghi sai."
+de-thi-nmmmh,15,D,D,verified,False,"2G=(2,7); (3,6)+(10,2)=(10,9)."
+de-thi-nmmmh,16,D,D,verified,False,"Dãy siêu tăng; vét cạn O(2^n), greedy cho siêu tăng O(n)."
+de-thi-nmmmh,17,B,B,verified,False,"Kết thúc i=1 của thuật toán trên hình: d=1,r=96,c=8."
+de-thi-nmmmh,18,A,A,verified,False,"gcd(117,391)=1; ba cặp còn lại có gcd17,17,85."
+de-thi-nmmmh,19,D,D,verified,False,Cyclic có phần tử sinh; bậc phần tử chia bậc nhóm; phần tử sinh có bậc φ(n).
+de-thi-nmmmh,20,B,B,verified,False,17^4=1 mod20 và không có số mũ dương nhỏ hơn.
+de-thi-nmmmh,21,B,B,verified,False,"Bí mật dùng khóa công khai người nhận để mã, khóa riêng để giải."
+de-thi-nmmmh,22,C,C,verified,False,"Với một hàm băm cố định, độ dài digest cố định, không tùy độ dài thông báo."
+de-thi-nmmmh,23,D,D,verified,False,Các bước/định nghĩa CA phù hợp slide PDF31.
+de-thi-nmmmh,24,A,A,verified,False,CA ký chứng thư bằng khóa riêng CA; không phải khóa riêng thực thể.
+de-thi-nmmmh,25,A,A,verified,False,"Khóa Affine (3,4) thỏa cả hai cặp rõ-mã."
+de-thi-nmmmh,26,B,B,verified,False,"GCD các phương án lần lượt1,5,2,1; lớn nhất5."
+de-thi-nmmmh,27,D,D,verified,False,"Điều kiện đúng là gcd(e,φ(n))=1, không phải gcd(e,n)=1."
+de-thi-nmmmh,28,,A,ambiguous_wording,True,"Mật mã khóa công khai bổ sung cho đối xứng, không ra đời để thay thế hoàn toàn. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+de-thi-nmmmh,29,,"A,B",multiple_valid_options,True,"m=1234 cho c=11152. A và B đúng. C dùng nhầm m=1731, vốn cho c=15142 nên D sai."
+de-thi-nmmmh,30,C,C,verified,False,"Khóa công khai là (n,e)=(713,367), không phải (660,367). S=284 và verify=439."
+de-thi-nmmmh,31,D,D,verified,False,"3*(2,7)=(8,3) trên đường cong đã cho."
+de-thi-nmmmh,32,D,D,verified,False,Ba khái niệm đúng theo mô tả học phần.
+de-thi-nmmmh,33,D,D,verified,False,"A,B,C lần lượt mô tả kháng va chạm, tiền ảnh thứ hai, tiền ảnh."
+de-thi-nmmmh,34,A,A,verified,False,"KSA i=0 swap0,13; i=1 j=41 rồi swap1,41."
+de-thi-nmmmh,35,D,D,verified,False,Áp dụng P(C) theo hình: bit thiếu0111011.
+de-thi-nmmmh,36,C,C,verified,False,"X=(1,1,109,65,115,90); kiểm tra27^101 mod211=90."
+de-thi-nmmmh,37,B,B,verified,False,"Shannon: confusion và diffusion; phép thế tạo confusion, hoán vị góp diffusion."
+de-thi-nmmmh,38,D,D,verified,False,"a_i=635·M_π(i) mod737 cho (319,650,250,477,29,105)."
+de-thi-nmmmh,39,C,C,verified,False,"x21=8D hex từ cột (EB,93,C7,20)."
+de-thi-nmmmh,40,A,A,verified,False,Autokey SQUIDGAME với SUN cho KKHATAIPK. Ảnh PDF trang 5 xác nhận phương án A có đủ 9 ký tự; DOCX bị mất chữ A.
+de-thi-mat-ma-2021-trac-nghiem,1,A,A,verified,False,"d=1,r=96,c=8 sau i=1."
+de-thi-mat-ma-2021-trac-nghiem,2,B,B,verified,False,KSA cho j=13 ở i=0; j=41 ở i=1.
+de-thi-mat-ma-2021-trac-nghiem,3,D,D,verified,False,Định nghĩa/quá trình tạo chứng thư theo slide PDF31.
+de-thi-mat-ma-2021-trac-nghiem,4,C,C,verified,False,A/B ghi sai lịch dịch; PC-1/dịch/PC-2 là mô tả đúng.
+de-thi-mat-ma-2021-trac-nghiem,5,,"A,C",multiple_valid_options,True,A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai.
+de-thi-mat-ma-2021-trac-nghiem,6,,,no_valid_option,True,"ord50(17)=20, không có trong2,1,8,4."
+de-thi-mat-ma-2021-trac-nghiem,7,B,B,verified,False,"X=(1,1,109,65,115,90)."
+de-thi-mat-ma-2021-trac-nghiem,8,D,D,verified,False,17^31 mod97=15.
+de-thi-mat-ma-2021-trac-nghiem,9,C,C,verified,False,"gcd(117,391)=1."
+de-thi-mat-ma-2021-trac-nghiem,10,C,C,verified,False,S1(110101)=0011₂.
+de-thi-mat-ma-2021-trac-nghiem,11,A,A,verified,False,"a_i=W·M_π(i) modM cho (319,650,250,477,29,105)."
+de-thi-mat-ma-2021-trac-nghiem,12,D,D,verified,False,ECB không lan lỗi bản mã sang khối khác.
+de-thi-mat-ma-2021-trac-nghiem,13,C,C,verified,False,03·A9=E0=11100000₂.
+de-thi-mat-ma-2021-trac-nghiem,14,D,D,verified,False,Chứng thư được ký bởi CA.
+de-thi-mat-ma-2021-trac-nghiem,15,C,C,verified,False,Ảnh nguồn đọc C=0–1–1–1–0–1–1; DOCX A/B/C thừa bit ở bản phiên âm. Kết quả P tính được0111011.
+de-thi-mat-ma-2021-trac-nghiem,16,D,D,verified,False,Cả dãy siêu tăng và hai độ phức tạp đều đúng.
+de-thi-mat-ma-2021-trac-nghiem,17,B,B,verified,False,x21=8D hex.
+de-thi-mat-ma-2021-trac-nghiem,18,D,D,verified,False,"Affine (a,b)=(3,4)."
+de-thi-mat-ma-2021-trac-nghiem,19,D,D,verified,False,"3*(2,7)=(8,3)."
+de-thi-mat-ma-2021-trac-nghiem,20,,"B,C",multiple_valid_options,True,"β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai."
+de-thi-mat-ma-2021-trac-nghiem,21,B,B,verified,False,"n=713, e=367; khóa công khai không phải(660,367)."
+de-thi-mat-ma-2021-trac-nghiem,22,C,C,verified,False,"P_C=[(2,7),(10,9)]."
+de-thi-mat-ma-2021-trac-nghiem,23,D,D,verified,False,Phạm vi xác thực trong slide PDF23 gồm cả ba khía cạnh.
+de-thi-mat-ma-2021-trac-nghiem,24,C,C,verified,False,"FRIDAY·[[3,8],[19,7]] mod26=ADDHOM."
+de-thi-mat-ma-2021-trac-nghiem,25,B,B,verified,False,Nghịch đảo thỏa a*b=e.
+de-thi-mat-ma-2021-trac-nghiem,26,,"A,B",multiple_valid_options,True,"m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai."
+de-thi-mat-ma-2021-trac-nghiem,27,D,D,verified,False,Ba tính chất nhóm cyclic/bậc/phần tử sinh đúng.
+de-thi-mat-ma-2021-trac-nghiem,28,D,D,verified,False,ord41(3)=8 khác40.
+de-thi-mat-ma-2021-trac-nghiem,29,B,B,verified,False,"Các số trong B là đại diện cùng một lớp mod7, không phải các lớp khác nhau."
+de-thi-mat-ma-2021-trac-nghiem,30,C,C,verified,False,Chọn e nguyên tố cùng nhau vớiφ(n).
+de-thi-mat-ma-2021-trac-nghiem,31,D,D,verified,False,φ(969)=576.
+de-thi-mat-ma-2021-trac-nghiem,32,C,C,verified,False,Autokey SQUIDGAME/SUN=KKHATAIPK.
+de-thi-mat-ma-2021-trac-nghiem,33,B,B,verified,False,"GCD theoA–D là1,5,2,1."
+de-thi-mat-ma-2021-trac-nghiem,34,B,B,verified,False,Shannon có hai nguyên lý confusion/diffusion.
+de-thi-mat-ma-2021-trac-nghiem,35,B,B,verified,False,Đảm bảo bí mật không dùng khóa riêng để mã cho mọi người.
+de-thi-mat-ma-2021-trac-nghiem,36,D,D,verified,False,Cả ba khẳng định mô tả vai trò khóa/mã hóa/chữ ký đều đúng.
+de-thi-mat-ma-2021-trac-nghiem,37,,B,ambiguous_wording,True,"Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+de-thi-mat-ma-2021-trac-nghiem,38,A,A,verified,False,"Độ dài băm cố định, không phụ thuộc chiều dài đầu vào."
+de-thi-mat-ma-2021-trac-nghiem,39,D,D,verified,False,Các định nghĩa đúng theo tài liệu môn.
+de-thi-mat-ma-2021-trac-nghiem,40,A,A,verified,False,"Jacobi(11,17)=-1;11 không phải thặng dư."
+de-thi-k16-1,1,,"B,C",multiple_valid_options,True,"(11/17)=-1 và(156/231)=0 do gcd>1; B,C đều sai."
+de-thi-k16-1,2,,"A,B",multiple_valid_options,True,"A,B đúng với c11152; C nhầm m1731."
+de-thi-k16-1,3,D,D,verified,False,Ba mô tả kháng va chạm/tiền ảnh2/tiền ảnh đều đúng.
+de-thi-k16-1,4,D,D,verified,False,"Khóa công khai đã hoán vị=(319,650,250,477,29,105)."
+de-thi-k16-1,5,A,A,verified,False,φ(969)=576.
+de-thi-k16-1,6,C,C,verified,False,03·A9=E0 hex.
+de-thi-k16-1,7,A,A,verified,True,"P_C=[(2,7),(10,9)]."
+de-thi-k16-1,8,B,B,verified,False,Các số trong B thuộc cùng một lớp đồng dư.
+de-thi-k16-1,9,,,insufficient_data,True,"Thân câu hỏi nói về nghịch đảo a*b=e, nhưng không có A–D nên không gán chữ cái."
+de-thi-k16-1,10,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,11,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,12,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,13,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,14,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,15,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,16,,,insufficient_data,True,Không có thân đề. Tọa độ còn lại không đủ xác định phép tính.
+de-thi-k16-1,17,B,B,verified,False,P(C) cho0111011 ở các vị trí dấu?.
+de-thi-k16-1,18,C,C,verified,False,"Khóa công khai đúng=(713,367), không phải(660,367)."
+de-thi-k16-1,19,A,A,verified,False,Digest có độ dài cố định.
+de-thi-k16-1,20,D,D,verified,True,"i=1 cho d=1,r=96,c=8."
+de-thi-k16-1,21,C,C,verified,False,"Lịch dịch1 ở1,2,9,16. Mô tả C đúng."
+de-thi-k16-1,22,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,23,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
+de-thi-k16-1,24,,,insufficient_data,True,"Thân đề vàA/B bị cắt, không xác định được phát biểu cần chọn."
+de-thi-k16-1,25,,,no_valid_option,True,DOCX ghi ADDHCM; các ma trận A–D không sinh bản mã này. D sinh ADDHOM. Nguồn ảnh mờ nên cần xác nhận C/O.
+de-thi-k16-1,26,,,no_valid_option,True,DOCX ghi seedSON và các lựa chọnKXH...; Autokey cho KEHATAIPK. Ảnh gốc có dấu hiệu OCR saiSUN/SON vàKKH/KXH. Chưa chốt.
+de-thi-k16-1,27,,,insufficient_data,True,"Chỉ đọc được A, ba phương án khác bị cắt. Không loại trừ tất cả phương án đúng."
+de-thi-k16-1,28,,,insufficient_data,True,Thân đề và A/B bị cắt; không xác định được câu hỏi yêu cầu đúng hay sai.
+de-thi-k16-1,29,A,A,verified,False,ord29(17)=4.
+de-thi-k16-1,30,C,C,verified,False,"gcd(117,391)=1."
+de-thi-k16-1,31,D,D,verified,False,Ba phát biểu đúng; D là lựa chọn tổng hợp.
+de-thi-k16-1,32,,,insufficient_data,True,"Cặp rõ-mã nhìn thấy cho khóa(3,4) nhưng không có A–D."
+de-thi-k16-1,33,,,insufficient_data,True,"Chỉ có C/D, thân đề và A/B bị cắt."
+de-thi-k16-1,34,D,D,verified,False,Ba khái niệm quản lý/chứng thực/thỏa thuận khóa đúng theo học phần.
+de-thi-k16-1,35,,"B,C",multiple_valid_options,True,"β=89 và bản mã(28,192) đều đúng, A sai."
+de-thi-k16-1,36,,,insufficient_data,True,"C chỉ còn một phần, D và thân câu chưa đủ."
+de-thi-k16-1,33-HP,,D,ambiguous_wording,True,"Hệ khóa công khai không thay thế hoàn toàn khóa bí mật. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+de-thi-k16-1,34-HP,,"A,B",multiple_valid_options,True,"Nguồn nói trùng nguyên văn câu2, có thể đối chiếu A/B đúng như câu2; file không lặp lại phương án."
+de-thi-k16-1,35-HP,,,insufficient_data,True,Có thể tínhS1(110101)=0011 nhưng thiếuA–D và hàng4 của hình.
+de-thi-k16-2,1,B,B,verified,False,"Khóa hoán vị=(319,650,250,477,29,105)."
+de-thi-k16-2,2,B,B,verified,False,Mã dòng không đơn thuần thay thế mã khối để tăng an toàn.
+de-thi-k16-2,3,B,B,verified,False,10^(5·8) mod541=366.
+de-thi-k16-2,4,C,C,verified,False,"Slide liệt kê chữ ký số, hàm băm và MAC như các kỹ thuật hỗ trợ toàn vẹn."
+de-thi-k16-2,5,A,A,verified,False,ord20(13)=4.
+de-thi-k16-2,6,B,B,verified,False,"Hàng3 cột3MixColumns(A0,C0,30,2B)=5D."
+de-thi-k16-2,7,,,ambiguous_wording,True,"A sai vì hash là hàm xác định; D diễn đạt lẫn tiền ảnh/thứhai, cần xác nhận cách hiểu ở đề gốc trước khi chọn duy nhất."
+de-thi-k16-2,8,A,A,verified,False,"a37,p41,b3 cho d1,r18,c9 saui1."
+de-thi-k16-2,9,C,C,verified,False,5 có bậc72 và là phần tử sinh nhỏ nhất mod73.
+de-thi-k16-2,10,A,A,verified,False,"K_mã=[[3,8],[19,7]], K_giải=[[19,8],[19,23]]. BảngA trongDOCX đúng."
+de-thi-k16-2,11,,"A,C",multiple_valid_options,True,"A ghi modn thayφ(n), C ghi gcd(e,n) thaygcd(e,φ(n)); cả hai sai."
+de-thi-k16-2,12,C,C,verified,False,"3*(7,2)=(3,5)."
+de-thi-k16-2,13,B,B,verified,False,ECB không lan lỗi sang các khối tiếp theo.
+de-thi-k16-2,14,D,D,verified,False,"GCD theoA–D là5,1,2,7."
+de-thi-k16-2,15,D,D,verified,False,"Theo các chỉ số số12→14,13→17, khóa=(3,4). Nhãn chữ Q(14) không nhất quán Q=16; dùng chỉ số đề đã ghi."
+de-thi-k16-2,16,B,B,verified,False,"Chữ ký kết hợp mã hóa đảm bảo xác thực và bí mật; mã hóa dùng người nhận, chữ ký dùng người gửi."
+de-thi-k16-2,17,A,A,verified,False,19^23 mod53=12.
+de-thi-k16-2,18,C,C,verified,False,"(5/97)=-1, không phải1."
+de-thi-k16-2,19,D,D,verified,False,"Số phần tử sinh của nhóm cyclic bậcφ(n) làφ(φ(n)), không phảiφ(n)."
+de-thi-k16-2,20,C,C,verified,False,03·AF=EA=11101010₂.
+de-thi-k16-2,21,D,D,verified,False,"DES S1(101010), hàng2 cột5 cho6=0110₂."
+de-thi-k16-2,22,,"C,D",multiple_valid_options,True,C ghi số mũ307 thay367;D ghi n660 thay713. Cả hai sai.
+de-thi-k16-2,23,B,B,verified,False,ord97(2)=48 khác96.
+de-thi-k16-2,24,,"B,C",multiple_valid_options,True,B loại r=0 sai; C nhầm nhiều lớp với các đại diện cùng lớp.
+de-thi-k16-2,25,,,ambiguous_wording,True,"B là nguyên lý đúng; D diễn đạt chung việc thực hiện trênbit, có thể cũng đúng. Chưa có đáp án duy nhất đủ chắc."
+de-thi-k16-2,26,,"B,C",multiple_valid_options,True,"β=131 và bản mã(72,74) đều đúng; A nhầmk67 với khóa bí mậta113."
+de-thi-k16-2,27,B,B,verified,False,Hình gốc cho0111011. DOCX phiên âm2 hàngC cuối sai; giữ ảnh làm căn cứ.
+de-thi-k16-2,28,D,D,verified,False,"3G=(8,3); (3,5)+(7,9)=(2,7)."
+de-thi-k16-2,29,B,B,verified,False,B định nghĩaCIA với truy cập trái phép. A/C/D bỏ mất điều kiện người có quyền.
+de-thi-k16-2,30,C,C,verified,False,"199·211=41989, không phải41898. c1731² mod41989=15142; bốn nghiệm1731,3841,38148,40258."
+de-thi-k16-2,31,D,D,verified,False,234 không lớn hơn13+42+57+123=235; không siêu tăng. Không có subset344.
+de-thi-k16-2,32,B,B,verified,False,Mô tảPC-1/dịch/PC-2 đúng;A/C sai lịch dịch.
+de-thi-k16-2,33,C,C,verified,False,Nghịch đảo thỏa a*b=e.
+de-thi-k16-2,34,A,A,verified,False,"Digest cố định, không tùy thông báo."
+de-thi-k16-2,35,,,no_valid_option,True,φ(785)=φ(5·157)=4·156=624; không có phương án624.
+de-thi-k16-2,36,D,D,verified,False,"Theo slide, xác thực xét toàn vẹn, danh tính/nguồn gốc, không chối từ."
+de-thi-k16-2,37,,A,ambiguous_wording,True,"A có thể là ý ra đề, nhưng cụm “chỉ áp dụng đối với hệ mật khóa đối xứng” mơ hồ: Diffie–Hellman dùng toán học khóa công khai để thiết lập bí mật chung. Chưa chứng nhận một đáp án chuẩn cho cách diễn đạt này."
+de-thi-k16-2,38,B,B,verified,False,"Chứng thư doCAký, không phải thực thểký."
+de-thi-k16-2,39,C,C,verified,False,"X=(1,1,47,99,106,155), kiểm tra41^101 mod211=155."
+de-thi-k16-2,40,,A,ambiguous_wording,True,"Khóa công khai bổ sung, không thay thế đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+de-thi-k16-3,2021,C,C,verified,False,Hash+chữký cung cấp xác thực/toànvẹn nhưng không mã hóa bí mật nội dung.
+de-thi-k16-3,2022,D,D,verified,False,"12a+b≡14 và20a+b≡12 mod26 cho(3,7)."
+de-thi-k16-3,2023,D,D,verified,False,"gcd(45,235)=5 nên45 không thuộc nhóm đơn vị."
+de-thi-k16-3,2024,A,A,verified,False,"FRIDAY·[[5,8],[7,13]]=OBJZMA."
+de-thi-k16-3,2025,A,A,verified,False,"Khóa riêng phải bí mật, không công khai tất cả khóa."
+de-thi-k16-3,2026,B,B,verified,False,Hash không phải phép mã hóa thông điệp có giải mã.
+de-thi-k16-3,2027,,,no_valid_option,True,"ord50(13)=20 không có trong2,8,1,4."
+de-thi-k16-3,2028,B,B,verified,False,MixColumns hàng1cột3 cho40hex.
+de-thi-k16-3,2029,C,C,verified,False,"d làe^-1 modφ(n), không modn."
+de-thi-k16-3,2030,A,A,verified,False,9 mod11 có bậc5; các lựa chọn còn lại có bậc10.
+de-thi-k16-3,2031,A,A,verified,False,"Bậc8mod21 là2,4là3,10và5là6."
+de-thi-k16-3,2032,,,no_valid_option,True,"Autokey theo slide58 choULLRKMVKOVYY, không khớpA–D. B=ULLHNBYLNHBL là Vigenère khóaSUN lặp, không phảiAutokey."
+de-thi-k16-3,2033,D,D,verified,False,"S1(110001),hàng3cột8=5=0101₂."
+de-thi-k16-3,2034,A,A,verified,False,"2*(2,7)=(5,2)."
+de-thi-k16-3,2035,A,A,verified,False,"GCD A–D lần lượt23,1,19,13."
+de-thi-k16-3,2036,,,no_valid_option,True,"n=41989,c=11152;A nhầm49189,B/C thiếu chữ số1,D dùng sai m1731. Không có phát biểu đúng duy nhất theo văn bản."
+de-thi-k16-3,2037,C,C,verified,False,"π=(4,5,2,1,6,3) cho (105,29,477,250,650,319)."
+de-thi-k16-3,2038,C,C,verified,False,C đủ ba khía cạnh xác thực theo slidePDF23.
+de-thi-k16-3,2039,A,A,verified,False,Nghịch đảo thỏa a*b=e.
+de-thi-k16-3,2040,B,B,verified,False,"240<15+47+67+130=259, nên không siêu tăng."
+de-thi-k16-3,2041,C,C,verified,False,"Sốphần tửsinh làφ(φ(n)), khôngφ(n)."
+de-thi-k16-3,2042,B,B,verified,False,Z*50 cyclic;50=2·5². Ba modulus còn lại không dạng có cănnguyênthủy.
+de-thi-k16-3,2043,C,C,verified,False,ElGamal truyềnthống dựa vào logarit rời rạc trong nhóm nhân hữu hạn.
+de-thi-k16-3,2044,C,C,verified,False,Mộtchiều nghĩa khó khảthi tìm tiềnảnh từgiátrịbăm.
+de-thi-k16-3,2045,A,A,verified,False,"CBC xácđịnh với cùngdãy rõ,cùngkhóa,cùngIV."
+de-thi-k16-3,2046,,B,ambiguous_wording,True,"Không thaythế toàn bộ đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+de-thi-k16-3,2047,,"A,D",multiple_valid_options,True,"β=89 đúng;28^(-117) mod211=97 và97·192 mod211=56 đúng. B đảo(γ,δ),Cnhầmk."
+de-thi-k16-3,2048,D,D,verified,False,D đảo vai trò phép thế/xáotrộn và hoánvị/khuếchtán.
+de-thi-k16-3,2049,A,A,verified,False,"X=(1,1,47,99,35,89), kiểm tra41^117 mod211=89."
+de-thi-k16-3,2050,A,A,verified,False,"Hàmφnhân khi m,nnguyên tố cùngnhau."
+de-thi-k16-3,2051,B,B,verified,False,CAký chứngthư.
+de-thi-k16-3,2052,,,no_valid_option,True,"CảA–Dđều đúng: cănmod21=2,5,16,19;(21/233)=-1;(13/17)=1; côngthức(2/n)đúng. ĐềhỏiSAI nhưng không có."
+de-thi-k16-3,2053,A,A,verified,False,Z*666không cóphần tửsinh.
+de-thi-k16-3,2054,C,C,verified,False,"gcd(3765,156)=3;ba cặp khácgcd1."
+de-thi-k16-3,2055,D,D,verified,False,03·2F=71hex=01110001₂.
+de-thi-k16-3,2056,C,C,verified,False,Danh sách trongCthuộc cùng mộtlớpđồngdư.
+de-thi-k16-3,2057,B,B,verified,False,"P_C=[(8,3),(10,2)]."
+de-thi-k16-3,2058,C,C,verified,False,17^13 mod97=21.
+de-thi-k16-3,2059,D,D,verified,False,φ(1001)=6·10·12=720.
+de-thi-k16-3,2060,D,D,verified,False,"S=439^223 mod713=284. A dùng saisốmũ,Bnhầm n,Cgọi nbímật."

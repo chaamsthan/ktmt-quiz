@@ -1,0 +1,1381 @@
+{
+  "exam_count": 6,
+  "record_count": 212,
+  "readable_count": 204,
+  "graded_count": 164,
+  "review_count": 50,
+  "exams": [
+    {
+      "id": "de-thi-at17-bo-1",
+      "source_file": "De_thi_AT17_bo_1.docx",
+      "title": "NHẬP MÔN MẬT MÃ HỌC — AT17, BỘ 1",
+      "source_headings": [
+        "NHẬP MÔN MẬT MÃ HỌC — AT17, BỘ 1",
+        "Trích xuất câu hỏi, sắp theo thứ tự câu 1 đến 13"
+      ],
+      "question_count": 13,
+      "images": 4,
+      "source_exam_code": "De_thi_AT17_bo_1",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-at17-bo-1.json",
+      "graded_count": 13,
+      "review_count": 0,
+      "readable_count": 13,
+      "chapter_counts": {
+        "1": 0,
+        "2": 5,
+        "3": 7,
+        "4": 1,
+        "5": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-nmmmh",
+      "source_file": "De_thi_NMMMH.docx",
+      "title": "ĐỀ THI NHẬP MÔN MẬT MÃ HỌC",
+      "source_headings": [
+        "ĐỀ THI NHẬP MÔN MẬT MÃ HỌC",
+        "Trích xuất câu hỏi và đáp án đang chọn — sắp theo thứ tự câu 1 đến 40"
+      ],
+      "question_count": 40,
+      "images": 8,
+      "source_exam_code": "De_thi_NMMMH",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-nmmmh.json",
+      "graded_count": 36,
+      "review_count": 4,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 1,
+        "2": 11,
+        "3": 20,
+        "4": 7,
+        "5": 1,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "title": "ĐỀ THI MẬT MÃ HỌC 2021",
+      "source_headings": [
+        "ĐỀ THI MẬT MÃ HỌC 2021",
+        "Trắc nghiệm — câu hỏi và đáp án đang chọn, sắp theo thứ tự câu 1 đến 40"
+      ],
+      "question_count": 40,
+      "images": 7,
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "subject": "Mật mã học",
+      "year": "2021",
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-mat-ma-2021-trac-nghiem.json",
+      "graded_count": 35,
+      "review_count": 5,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 1,
+        "2": 11,
+        "3": 20,
+        "4": 7,
+        "5": 1,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-k16-1",
+      "source_file": "de-thi-k16-1.docx",
+      "title": "THI KTHP 2020–2021. LẦN 1",
+      "source_headings": [
+        "THI KTHP 2020–2021. LẦN 1",
+        "TRẮC NGHIỆM",
+        "Môn: An toàn / mật mã học (đề trắc nghiệm trên máy)"
+      ],
+      "question_count": 39,
+      "images": 4,
+      "source_exam_code": "de-thi-k16-1",
+      "subject": "Mật mã học",
+      "year": "2020–2021",
+      "attempt": 1,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-1.json",
+      "graded_count": 15,
+      "review_count": 26,
+      "readable_count": 31,
+      "chapter_counts": {
+        "1": 2,
+        "2": 8,
+        "3": 16,
+        "4": 4,
+        "5": 1,
+        "unclassified": 8
+      }
+    },
+    {
+      "id": "de-thi-k16-2",
+      "source_file": "de-thi-k16-2.docx",
+      "title": "ĐỀ THI KẾT THÚC HỌC PHẦN",
+      "source_headings": [
+        "ĐỀ THI KẾT THÚC HỌC PHẦN",
+        "THI KTHP 2021-2022 · LẦN 1",
+        "Trắc nghiệm · An toàn thông tin / Mật mã"
+      ],
+      "question_count": 40,
+      "images": 5,
+      "source_exam_code": "de-thi-k16-2",
+      "subject": "Mật mã học",
+      "year": "2021-2022",
+      "attempt": 1,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-2.json",
+      "graded_count": 31,
+      "review_count": 9,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 3,
+        "2": 9,
+        "3": 20,
+        "4": 6,
+        "5": 2,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-k16-3",
+      "source_file": "de-thi-k16-3.docx",
+      "title": "ĐỀ THI TRẮC NGHIỆM",
+      "source_headings": [
+        "ĐỀ THI TRẮC NGHIỆM",
+        "An toàn thông tin / Mật mã học",
+        "Trích từ file k16-3.pdf  ·  Câu 2021–2060",
+        "Nguồn và cách đọc. Nội dung được trích từ 10 trang ảnh đề. Lỗi OCR rõ (thiếu dấu, nhầm “bản rõ/bản mã”, nhầm chỉ số) đã được sửa theo ảnh. Đáp án ghi dưới mỗi câu là lựa chọn đang được tô trên ảnh bài làm, không phải đáp án đúng."
+      ],
+      "question_count": 40,
+      "images": 4,
+      "source_exam_code": "de-thi-k16-3",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-3.json",
+      "graded_count": 34,
+      "review_count": 6,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 2,
+        "2": 8,
+        "3": 25,
+        "4": 5,
+        "5": 0,
+        "unclassified": 0
+      }
+    }
+  ],
+  "aggregate": [
+    {
+      "chapter_id": "1",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "raw_count": 9,
+      "unique_count": 9,
+      "excluded_duplicates": 0,
+      "graded_count": 3
+    },
+    {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "raw_count": 52,
+      "unique_count": 49,
+      "excluded_duplicates": 3,
+      "graded_count": 42
+    },
+    {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "raw_count": 108,
+      "unique_count": 96,
+      "excluded_duplicates": 12,
+      "graded_count": 73
+    },
+    {
+      "chapter_id": "4",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "raw_count": 30,
+      "unique_count": 20,
+      "excluded_duplicates": 10,
+      "graded_count": 17
+    },
+    {
+      "chapter_id": "5",
+      "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+      "raw_count": 5,
+      "unique_count": 5,
+      "excluded_duplicates": 0,
+      "graded_count": 4
+    },
+    {
+      "chapter_id": "unclassified",
+      "chapter": "Chưa phân loại",
+      "raw_count": 8,
+      "unique_count": 8,
+      "excluded_duplicates": 0,
+      "graded_count": 0
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "group_id": "984a1ecdde78466a65382f19a2572b5a39b7c6507cc458740c2b30f8a422cae8",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-2",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "2",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-13",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "13",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "91a450058ed8dc35dd475060e7aa766e19ce98383844f3a1d9e4be0064e93b05",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-3",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "3",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-40",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "40",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "240ab90025914b0a48331de26e431ece708bbd9f8aa2d36c72d130f9a8e83209",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-4",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "4",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-13",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "13",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "386bb9508b2a7397f786c11a585e597c5980ac82f22d448d17f2ad2f0acb8732",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-5",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "5",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "23",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "1afc6e379a6f66449a5cab95c30cf6b7854fd78122e8d7a75540ac69599f3c89",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-6",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "6",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-28",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "28",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "7e51f9c3b7c836ab2015c5596fdc548f7566e30fbdf0d64dce30b632172660a9",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-8",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "8",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-25",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "25",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-33",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "33",
+          "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-3-2039",
+          "source_exam_id": "de-thi-k16-3",
+          "source_exam_code": "de-thi-k16-3",
+          "source_question_number": "2039",
+          "source_file": "de-thi-k16-3.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "96ee7bf5f4752c5270ee0866f4b5b9646350491f43d18602fd3d0aedc14fad68",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-12",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "12",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-31",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "31",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-5",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "5",
+          "source_file": "de-thi-k16-1.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "8e851436deb9dc711b32d3a109b1631bda42182b046a87d02863de2a77320117",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-13",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "13",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-8",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "8",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "1d1a7e01200097bf7569c846abb340732c3da26fef0be84e2b28f61443a04597",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-18",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "18",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-9",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "9",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-30",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "30",
+          "source_file": "de-thi-k16-1.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "011f2602a565e2e2a6ec8b25be029a314931be7765654433857089037706e491",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-21",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "21",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-35",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "35",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "5f29d3eb1d6ad96808f0865c28a917182fc5abc18a009ff8601956fa192b46ff",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-22",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "22",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "38",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-19",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "19",
+          "source_file": "de-thi-k16-1.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-34",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "34",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "69c8b06b080c4ebf2fcda621c1a36e37ad31439d569498bee201a02bf0c3488d",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-23",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "23",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-3",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "3",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "204e779d61bfd586cdeaa72cb7a887d13baa4c3778e2e59eebd23943488f3354",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-24",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "24",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-14",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "14",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-38",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "38",
+          "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-3-2051",
+          "source_exam_id": "de-thi-k16-3",
+          "source_exam_code": "de-thi-k16-3",
+          "source_question_number": "2051",
+          "source_file": "de-thi-k16-3.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "a0e0fca59c5159018561ce8afe53a6e6607eadbbc6d009d49ebaf2acf927c0f9",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-26",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "26",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-33",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "33",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "8f5a196da8c776e616eed155b499fd9191a99943e052c627e9dde8766a6524ae",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-28",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "28",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "37",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-33-HP",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "33-HP",
+          "source_file": "de-thi-k16-1.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-40",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "40",
+          "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-3-2046",
+          "source_exam_id": "de-thi-k16-3",
+          "source_exam_code": "de-thi-k16-3",
+          "source_question_number": "2046",
+          "source_file": "de-thi-k16-3.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "e056fbf6f6ebdda1a292578b612b48d6276975e22771dbef7c03576927cd810e",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-29",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "29",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-2",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "2",
+          "source_file": "de-thi-k16-1.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "cee0d7a4eb2eba255a0fa3e5252d00fb7b68e6b76254abc3e75b8720c6792857",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-40",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "40",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-32",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "32",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "35e1b6eee5335a82e442c98c9444573cb4c8e5c423aae0edc019af7c251cfcfd",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "36",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-1-31",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "31",
+          "source_file": "de-thi-k16-1.docx"
+        }
+      ]
+    },
+    {
+      "group_id": "9a96dd5078cc6b85360bfe4789261c20267b2593c338f843ef158393f33db810",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-k16-1-4",
+          "source_exam_id": "de-thi-k16-1",
+          "source_exam_code": "de-thi-k16-1",
+          "source_question_number": "4",
+          "source_file": "de-thi-k16-1.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-1",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "1",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ]
+    }
+  ],
+  "needs_review": [
+    {
+      "id": "nmmmh-de-thi-nmmmh-7",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "7",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Bản mã (28,192) đúng và β=41^117 mod211=89 cũng đúng; A sai nên D sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-9",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "9",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "B sai vì số dư được phép bằng0; D liệt kê các đại diện của cùng một lớp, không phải nhiều lớp tương đương."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-28",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "28",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Mật mã khóa công khai bổ sung cho đối xứng, không ra đời để thay thế hoàn toàn. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-29",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "29",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "m=1234 cho c=11152. A và B đúng. C dùng nhầm m=1731, vốn cho c=15142 nên D sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "5",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "6",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "ord50(17)=20, không có trong2,1,8,4."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "20",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "26",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "37",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-1",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "1",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "(11/17)=-1 và(156/231)=0 do gcd>1; B,C đều sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-2",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "2",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A,B đúng với c11152; C nhầm m1731."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-7",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "7",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF."
+      ],
+      "answer_status": "verified"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-9",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "9",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Thân câu hỏi nói về nghịch đảo a*b=e, nhưng không có A–D nên không gán chữ cái."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-10",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "10",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-11",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "11",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-12",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "12",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-13",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "13",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-14",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "14",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-15",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "15",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-16",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "16",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Không có thân đề. Tọa độ còn lại không đủ xác định phép tính."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-20",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "20",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF."
+      ],
+      "answer_status": "verified"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-22",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "22",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-23",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "23",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chưa phân loại",
+      "reasons": [
+        "Thiếu toàn bộ câu hỏi.",
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Không có câu hỏi trong nguồn ảnh."
+      ],
+      "answer_status": "missing_question"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-24",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "24",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Thân đề vàA/B bị cắt, không xác định được phát biểu cần chọn."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-25",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "25",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "DOCX ghi ADDHCM; các ma trận A–D không sinh bản mã này. D sinh ADDHOM. Nguồn ảnh mờ nên cần xác nhận C/O."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-26",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "26",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "DOCX ghi seedSON và các lựa chọnKXH...; Autokey cho KEHATAIPK. Ảnh gốc có dấu hiệu OCR saiSUN/SON vàKKH/KXH. Chưa chốt."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-27",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "27",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Chỉ đọc được A, ba phương án khác bị cắt. Không loại trừ tất cả phương án đúng."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-28",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "28",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Thân đề và A/B bị cắt; không xác định được câu hỏi yêu cầu đúng hay sai."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-32",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "32",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Cặp rõ-mã nhìn thấy cho khóa(3,4) nhưng không có A–D."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-33",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "33",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Chỉ có C/D, thân đề và A/B bị cắt."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-35",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "35",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "β=89 và bản mã(28,192) đều đúng, A sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-36",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "36",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "C chỉ còn một phần, D và thân câu chưa đủ."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-33-HP",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "33-HP",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Hệ khóa công khai không thay thế hoàn toàn khóa bí mật. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-34-HP",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "34-HP",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Nguồn nói trùng nguyên văn câu2, có thể đối chiếu A/B đúng như câu2; file không lặp lại phương án."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-1-35-HP",
+      "source_exam_id": "de-thi-k16-1",
+      "source_exam_code": "de-thi-k16-1",
+      "source_question_number": "35-HP",
+      "source_file": "de-thi-k16-1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Thiếu phương án A.",
+        "Thiếu phương án B.",
+        "Thiếu phương án C.",
+        "Thiếu phương án D.",
+        "Nguồn có phần mờ/cụt; cần đối chiếu ảnh PDF.",
+        "Có thể tínhS1(110101)=0011 nhưng thiếuA–D và hàng4 của hình."
+      ],
+      "answer_status": "insufficient_data"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-7",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "7",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A sai vì hash là hàm xác định; D diễn đạt lẫn tiền ảnh/thứhai, cần xác nhận cách hiểu ở đề gốc trước khi chọn duy nhất."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-11",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "11",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A ghi modn thayφ(n), C ghi gcd(e,n) thaygcd(e,φ(n)); cả hai sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-22",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "22",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "C ghi số mũ307 thay367;D ghi n660 thay713. Cả hai sai."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-24",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "24",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "B loại r=0 sai; C nhầm nhiều lớp với các đại diện cùng lớp."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-25",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "25",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "B là nguyên lý đúng; D diễn đạt chung việc thực hiện trênbit, có thể cũng đúng. Chưa có đáp án duy nhất đủ chắc."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-26",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "26",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "β=131 và bản mã(72,74) đều đúng; A nhầmk67 với khóa bí mậta113."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-35",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "35",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "φ(785)=φ(5·157)=4·156=624; không có phương án624."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-37",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "37",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A có thể là ý ra đề, nhưng cụm “chỉ áp dụng đối với hệ mật khóa đối xứng” mơ hồ: Diffie–Hellman dùng toán học khóa công khai để thiết lập bí mật chung. Chưa chứng nhận một đáp án chuẩn cho cách diễn đạt này."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-40",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "40",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Khóa công khai bổ sung, không thay thế đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2027",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2027",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "ord50(13)=20 không có trong2,8,1,4."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2032",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2032",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Autokey theo slide58 choULLRKMVKOVYY, không khớpA–D. B=ULLHNBYLNHBL là Vigenère khóaSUN lặp, không phảiAutokey."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2036",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2036",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "n=41989,c=11152;A nhầm49189,B/C thiếu chữ số1,D dùng sai m1731. Không có phát biểu đúng duy nhất theo văn bản."
+      ],
+      "answer_status": "no_valid_option"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2046",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2046",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Không thaythế toàn bộ đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      ],
+      "answer_status": "ambiguous_wording"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2047",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2047",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "β=89 đúng;28^(-117) mod211=97 và97·192 mod211=56 đúng. B đảo(γ,δ),Cnhầmk."
+      ],
+      "answer_status": "multiple_valid_options"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2052",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2052",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "CảA–Dđều đúng: cănmod21=2,5,16,19;(21/233)=-1;(13/17)=1; côngthức(2/n)đúng. ĐềhỏiSAI nhưng không có."
+      ],
+      "answer_status": "no_valid_option"
+    }
+  ]
+}

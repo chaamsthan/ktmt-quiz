@@ -1,0 +1,211 @@
+{
+  "id": "nmmmh",
+  "name": "Mật mã học",
+  "chapters": [
+    {
+      "id": "1",
+      "name": "Tổng quan về mật mã học",
+      "label": "Chương 1. Tổng quan về mật mã học",
+      "source_status": "present"
+    },
+    {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật",
+      "label": "Chương 2. Các hệ mật khóa bí mật",
+      "source_status": "present"
+    },
+    {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai",
+      "label": "Chương 3. Các hệ mật khóa công khai",
+      "source_status": "toc_only"
+    },
+    {
+      "id": "4",
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "label": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "source_status": "toc_only"
+    },
+    {
+      "id": "5",
+      "name": "Vấn đề phân phối và thỏa thuận khóa",
+      "label": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+      "source_status": "toc_only"
+    },
+    {
+      "id": "unclassified",
+      "name": "Chưa phân loại",
+      "label": "Chưa phân loại",
+      "source_status": "missing_source"
+    }
+  ],
+  "exams": [
+    {
+      "id": "de-thi-at17-bo-1",
+      "source_file": "De_thi_AT17_bo_1.docx",
+      "title": "NHẬP MÔN MẬT MÃ HỌC — AT17, BỘ 1",
+      "source_headings": [
+        "NHẬP MÔN MẬT MÃ HỌC — AT17, BỘ 1",
+        "Trích xuất câu hỏi, sắp theo thứ tự câu 1 đến 13"
+      ],
+      "question_count": 13,
+      "images": 4,
+      "source_exam_code": "De_thi_AT17_bo_1",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-at17-bo-1.json",
+      "graded_count": 13,
+      "review_count": 0,
+      "readable_count": 13,
+      "chapter_counts": {
+        "1": 0,
+        "2": 5,
+        "3": 7,
+        "4": 1,
+        "5": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-nmmmh",
+      "source_file": "De_thi_NMMMH.docx",
+      "title": "ĐỀ THI NHẬP MÔN MẬT MÃ HỌC",
+      "source_headings": [
+        "ĐỀ THI NHẬP MÔN MẬT MÃ HỌC",
+        "Trích xuất câu hỏi và đáp án đang chọn — sắp theo thứ tự câu 1 đến 40"
+      ],
+      "question_count": 40,
+      "images": 8,
+      "source_exam_code": "De_thi_NMMMH",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-nmmmh.json",
+      "graded_count": 36,
+      "review_count": 4,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 1,
+        "2": 11,
+        "3": 20,
+        "4": 7,
+        "5": 1,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "title": "ĐỀ THI MẬT MÃ HỌC 2021",
+      "source_headings": [
+        "ĐỀ THI MẬT MÃ HỌC 2021",
+        "Trắc nghiệm — câu hỏi và đáp án đang chọn, sắp theo thứ tự câu 1 đến 40"
+      ],
+      "question_count": 40,
+      "images": 7,
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "subject": "Mật mã học",
+      "year": "2021",
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-mat-ma-2021-trac-nghiem.json",
+      "graded_count": 35,
+      "review_count": 5,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 1,
+        "2": 11,
+        "3": 20,
+        "4": 7,
+        "5": 1,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-k16-1",
+      "source_file": "de-thi-k16-1.docx",
+      "title": "THI KTHP 2020–2021. LẦN 1",
+      "source_headings": [
+        "THI KTHP 2020–2021. LẦN 1",
+        "TRẮC NGHIỆM",
+        "Môn: An toàn / mật mã học (đề trắc nghiệm trên máy)"
+      ],
+      "question_count": 39,
+      "images": 4,
+      "source_exam_code": "de-thi-k16-1",
+      "subject": "Mật mã học",
+      "year": "2020–2021",
+      "attempt": 1,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-1.json",
+      "graded_count": 15,
+      "review_count": 26,
+      "readable_count": 31,
+      "chapter_counts": {
+        "1": 2,
+        "2": 8,
+        "3": 16,
+        "4": 4,
+        "5": 1,
+        "unclassified": 8
+      }
+    },
+    {
+      "id": "de-thi-k16-2",
+      "source_file": "de-thi-k16-2.docx",
+      "title": "ĐỀ THI KẾT THÚC HỌC PHẦN",
+      "source_headings": [
+        "ĐỀ THI KẾT THÚC HỌC PHẦN",
+        "THI KTHP 2021-2022 · LẦN 1",
+        "Trắc nghiệm · An toàn thông tin / Mật mã"
+      ],
+      "question_count": 40,
+      "images": 5,
+      "source_exam_code": "de-thi-k16-2",
+      "subject": "Mật mã học",
+      "year": "2021-2022",
+      "attempt": 1,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-2.json",
+      "graded_count": 31,
+      "review_count": 9,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 3,
+        "2": 9,
+        "3": 20,
+        "4": 6,
+        "5": 2,
+        "unclassified": 0
+      }
+    },
+    {
+      "id": "de-thi-k16-3",
+      "source_file": "de-thi-k16-3.docx",
+      "title": "ĐỀ THI TRẮC NGHIỆM",
+      "source_headings": [
+        "ĐỀ THI TRẮC NGHIỆM",
+        "An toàn thông tin / Mật mã học",
+        "Trích từ file k16-3.pdf  ·  Câu 2021–2060",
+        "Nguồn và cách đọc. Nội dung được trích từ 10 trang ảnh đề. Lỗi OCR rõ (thiếu dấu, nhầm “bản rõ/bản mã”, nhầm chỉ số) đã được sửa theo ảnh. Đáp án ghi dưới mỗi câu là lựa chọn đang được tô trên ảnh bài làm, không phải đáp án đúng."
+      ],
+      "question_count": 40,
+      "images": 4,
+      "source_exam_code": "de-thi-k16-3",
+      "subject": "Mật mã học",
+      "year": null,
+      "attempt": null,
+      "question_file": "subjects/nmmmh/exams/de-thi-k16-3.json",
+      "graded_count": 34,
+      "review_count": 6,
+      "readable_count": 40,
+      "chapter_counts": {
+        "1": 2,
+        "2": 8,
+        "3": 25,
+        "4": 5,
+        "5": 0,
+        "unclassified": 0
+      }
+    }
+  ],
+  "answer_policy": "approved_verified_solutions"
+}

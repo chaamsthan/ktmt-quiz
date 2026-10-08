@@ -1,0 +1,4492 @@
+[
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-1",
+    "source_question_number": "1",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Trong thuật toán tính căn bậc 2 sau (Thuật toán 4), phép tính căn bậc 2 của 75 mod 97 (chọn b = 5) tại vòng lặp i = 1 cho ra kết quả của d, r, c là:\nHình câu 1 — Thuật toán 4 tính căn bậc hai",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong thuật toán tính căn bậc 2 sau (Thuật toán 4), phép tính căn bậc 2 của 75 mod 97 (chọn b = 5) tại vòng lặp i = 1 cho ra kết quả của d, r, c là:"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/860af205a8c8aca7a65f.jpg",
+        "alt": "Hình nguồn — câu 1"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 1 — Thuật toán 4 tính căn bậc hai"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 3,
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [
+      "Không thấy nút nào được đánh dấu trên ảnh."
+    ],
+    "source_text": "Trong thuật toán tính căn bậc 2 sau (Thuật toán 4), phép tính căn bậc 2 của 75 mod 97 (chọn b = 5) tại vòng lặp i = 1 cho ra kết quả của d, r, c là:\nHình câu 1 — Thuật toán 4 tính căn bậc hai\n(A)  d = 1; r = 96; c = 8\n(B)  d = 1; r = 96; c = 28\n(C)  d = 96; r = 69; c = 64\n(D)  d = 96; r = 96; c = 28\nKhông thấy nút nào được đánh dấu trên ảnh.",
+    "A": {
+      "text": "d = 1; r = 96; c = 8",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "d = 1; r = 96; c = 8"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "d = 1; r = 96; c = 28",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "d = 1; r = 96; c = 28"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "d = 96; r = 69; c = 64",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "d = 96; r = 69; c = 64"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "d = 96; r = 96; c = 28",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "d = 96; r = 96; c = 28"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 0,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "d=1,r=96,c=8 sau i=1.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "tonelli",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "9dfdc4dbfb8ca1e6ab21a5e88d0cf4651c8868b2c87b0f6ae35bb5c3e9fae642",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-2",
+    "source_question_number": "2",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Tại vòng lặp i = 1, với T[0] = 13, T[1] = 27, dòng lệnh 7 (Swap) trong thuật toán KSA của RC4 cho kết quả hoán vị mảng S như thế nào?\nHình câu 2 — thuật toán KSA và các bảng hoán vị S",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Tại vòng lặp i = 1, với T[0] = 13, T[1] = 27, dòng lệnh 7 (Swap) trong thuật toán KSA của RC4 cho kết quả hoán vị mảng S như thế nào?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/85711415921289809d9b.jpg",
+        "alt": "Hình nguồn — câu 2"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 2 — thuật toán KSA và các bảng hoán vị S"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 12,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Tại vòng lặp i = 1, với T[0] = 13, T[1] = 27, dòng lệnh 7 (Swap) trong thuật toán KSA của RC4 cho kết quả hoán vị mảng S như thế nào?\nHình câu 2 — thuật toán KSA và các bảng hoán vị S\n(A)  i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 13, 27, 2, …, 0, …, 1, …, 255\n(B)  i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 41, 2, …, 0, …, 1, …, 255    ← đang chọn\n(C)  i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 1, 2, …, 0, …, 41, …, 255\n(D)  i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 27, 13, 2, …, 1, …, 0, …, 255",
+    "A": {
+      "text": "i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 13, 27, 2, …, 0, …, 1, …, 255",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 13, 27, 2, …, 0, …, 1, …, 255"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 41, 2, …, 0, …, 1, …, 255",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 41, 2, …, 0, …, 1, …, 255"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 1, 2, …, 0, …, 41, …, 255",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "i: 0, 1, 2, …, 13, …, 41, …, 255; S[i]: 13, 1, 2, …, 0, …, 41, …, 255"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 27, 13, 2, …, 1, …, 0, …, 255",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "i: 0, 1, 2, …, 13, …, 27, …, 255; S[i]: 27, 13, 2, …, 1, …, 0, …, 255"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 1,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.06.06",
+      "name": "RC4 – KSA (Key Scheduling Algorithm)",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "KSA cho j=13 ở i=0; j=41 ở i=1.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "proof_key": "rc4",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "302d1734f0db34fe59790ea2bbed59d0a9416285f9435cde387baee7a6c756a2",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-3",
+    "source_question_number": "3",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là đúng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là đúng?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 20,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là đúng?\n(A)  CA là trung tâm chứng thực tin cậy nơi phát hành chứng thư số.\n(B)  CA tạo chứng thư số gắn thực thể với khóa công khai.\n(C)  Thực thể đăng kí khóa công khai với CA.\n(D)  Tất cả phương án trên.    ← đang chọn",
+    "A": {
+      "text": "CA là trung tâm chứng thực tin cậy nơi phát hành chứng thư số.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CA là trung tâm chứng thực tin cậy nơi phát hành chứng thư số."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "CA tạo chứng thư số gắn thực thể với khóa công khai.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CA tạo chứng thư số gắn thực thể với khóa công khai."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Thực thể đăng kí khóa công khai với CA.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thực thể đăng kí khóa công khai với CA."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả phương án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả phương án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 2,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.03",
+      "name": "Chữ ký số và chứng thư số",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Định nghĩa/quá trình tạo chứng thư theo slide PDF31.",
+      "sources": [
+        "NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "ed84fc0802d86c456f201616b6485de2f80372a50933431b2cf5ba0502796cc8",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "69c8b06b080c4ebf2fcda621c1a36e37ad31439d569498bee201a02bf0c3488d",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-23",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "23",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-3",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "3",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-4",
+    "source_question_number": "4",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Trong thuật toán sinh khóa vòng của DES, khẳng định nào sau đây là đúng nhất?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong thuật toán sinh khóa vòng của DES, khẳng định nào sau đây là đúng nhất?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 26,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Trong thuật toán sinh khóa vòng của DES, khẳng định nào sau đây là đúng nhất?\n(A)  Trong thủ tục sinh khóa vòng, tại các vòng 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15 ta thực hiện dịch trái 2 bit đối với các C, D.\n(B)  Trong thủ tục sinh khóa vòng, tại các vòng 1, 2, 8, 16 ta thực hiện dịch trái 1 bit đối với các C, D.\n(C)  Khóa đầu vào thuật toán DES là 64 bit, ta loại bỏ các bit tại các vị trí là bội của 8 và thực hiện theo phép hoán vị cố định PC-1, chia hai nửa, dịch trái bit mỗi nửa, hoán vị PC-2 để tạo 16 khóa vòng đầu ra.    ← đang chọn\n(D)  Tất cả đáp án trên.",
+    "A": {
+      "text": "Trong thủ tục sinh khóa vòng, tại các vòng 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15 ta thực hiện dịch trái 2 bit đối với các C, D.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong thủ tục sinh khóa vòng, tại các vòng 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15 ta thực hiện dịch trái 2 bit đối với các C, D."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Trong thủ tục sinh khóa vòng, tại các vòng 1, 2, 8, 16 ta thực hiện dịch trái 1 bit đối với các C, D.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong thủ tục sinh khóa vòng, tại các vòng 1, 2, 8, 16 ta thực hiện dịch trái 1 bit đối với các C, D."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Khóa đầu vào thuật toán DES là 64 bit, ta loại bỏ các bit tại các vị trí là bội của 8 và thực hiện theo phép hoán vị cố định PC-1, chia hai nửa, dịch trái bit mỗi nửa, hoán vị PC-2 để tạo 16 khóa vòng đầu ra.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa đầu vào thuật toán DES là 64 bit, ta loại bỏ các bit tại các vị trí là bội của 8 và thực hiện theo phép hoán vị cố định PC-1, chia hai nửa, dịch trái bit mỗi nửa, hoán vị PC-2 để tạo 16 khóa vòng đầu ra."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 3,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.04",
+      "name": "DES – sinh khóa con (Key Schedule)",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "A/B ghi sai lịch dịch; PC-1/dịch/PC-2 là mô tả đúng.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "32d3a012ad88a7c1a49731c848e3ec41672f7592587cdbdfc6d22f974f5d8bbd",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+    "source_question_number": "5",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 32,
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai."
+    ],
+    "answer_evidence": null,
+    "source_notes": [
+      "Phương án B giữ nguyên chữ trên ảnh: h(x) ≠ h(x')."
+    ],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Hàm băm có tính kháng va chạm mạnh tức là không có khả năng về mặt tính toán để tìm 2 đầu vào khác nhau bất kì x và x' mà h(x) = h(x').    ← đang chọn\n(B)  Hàm băm có tính kháng tiền ảnh thứ hai, tức là với một đầu vào cho trước x không có khả năng tính toán để tìm ra x' ≠ x mà h(x) ≠ h(x').\n(C)  Hàm băm có đặc tính một chiều tức với một giá trị băm y cho trước không có khả năng tính toán để tìm 1 đầu vào x mà h(x) = y.\n(D)  Tất cả đáp án trên.\nPhương án B giữ nguyên chữ trên ảnh: h(x) ≠ h(x').",
+    "A": {
+      "text": "Hàm băm có tính kháng va chạm mạnh tức là không có khả năng về mặt tính toán để tìm 2 đầu vào khác nhau bất kì x và x' mà h(x) = h(x').",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hàm băm có tính kháng va chạm mạnh tức là không có khả năng về mặt tính toán để tìm 2 đầu vào khác nhau bất kì x và x' mà h(x) = h(x')."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Hàm băm có tính kháng tiền ảnh thứ hai, tức là với một đầu vào cho trước x không có khả năng tính toán để tìm ra x' ≠ x mà h(x) ≠ h(x').",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hàm băm có tính kháng tiền ảnh thứ hai, tức là với một đầu vào cho trước x không có khả năng tính toán để tìm ra x' ≠ x mà h(x) ≠ h(x')."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Hàm băm có đặc tính một chiều tức với một giá trị băm y cho trước không có khả năng tính toán để tìm 1 đầu vào x mà h(x) = y.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hàm băm có đặc tính một chiều tức với một giá trị băm y cho trước không có khả năng tính toán để tìm 1 đầu vào x mà h(x) = y."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 4,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.01",
+      "name": "Hàm băm",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "multiple_valid_options",
+      "correct_answer": null,
+      "valid_options": [
+        "A",
+        "C"
+      ],
+      "explanation": "A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "9c302bd50b42da8854b0a130069d93bfbb4566bba7160324a6911bc6028e4c55",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+    "source_question_number": "6",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào sau đây là cấp của phần tử a = 17 trên Z*₅₀?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào sau đây là cấp của phần tử a = 17 trên Z*₅₀?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 39,
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "ord50(17)=20, không có trong2,1,8,4."
+    ],
+    "answer_evidence": null,
+    "source_notes": [],
+    "source_text": "Đáp án nào sau đây là cấp của phần tử a = 17 trên Z*₅₀?\n(A)  2\n(B)  1\n(C)  8\n(D)  4    ← đang chọn",
+    "A": {
+      "text": "2",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "2"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "1",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "8",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "4",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 5,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "no_valid_option",
+      "correct_answer": null,
+      "valid_options": [],
+      "explanation": "ord50(17)=20, không có trong2,1,8,4.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "orders",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "ae8d6aab41601c18466072bb6477598bedfdd1be306be653b9ef0578697740d2",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-7",
+    "source_question_number": "7",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Áp dụng thuật toán nhân bình phương có lặp để tính 27^101 mod 211. Hãy điền các giá trị còn thiếu trong bảng.\nHình câu 7 — bảng nhân bình phương có lặp",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Áp dụng thuật toán nhân bình phương có lặp để tính 27^101 mod 211. Hãy điền các giá trị còn thiếu trong bảng."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/1a3323ef8043a1c147b3.jpg",
+        "alt": "Hình nguồn — câu 7"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 7 — bảng nhân bình phương có lặp"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 45,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Áp dụng thuật toán nhân bình phương có lặp để tính 27^101 mod 211. Hãy điền các giá trị còn thiếu trong bảng.\nHình câu 7 — bảng nhân bình phương có lặp\n(A)  X1 = 1; X2 = 1; X3 = 190; X4 = 19; X5 = 154; X6 = 183\n(B)  X1 = 1; X2 = 1; X3 = 109; X4 = 65; X5 = 115; X6 = 90    ← đang chọn\n(C)  X1 = 0; X2 = 1; X3 = 109; X4 = 65; X5 = 63; X6 = 86\n(D)  X1 = 0; X2 = 1; X3 = 113; X4 = 109; X5 = 63; X6 = 115",
+    "A": {
+      "text": "X1 = 1; X2 = 1; X3 = 190; X4 = 19; X5 = 154; X6 = 183",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "X1 = 1; X2 = 1; X3 = 190; X4 = 19; X5 = 154; X6 = 183"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "X1 = 1; X2 = 1; X3 = 109; X4 = 65; X5 = 115; X6 = 90",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "X1 = 1; X2 = 1; X3 = 109; X4 = 65; X5 = 115; X6 = 90"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "X1 = 0; X2 = 1; X3 = 109; X4 = 65; X5 = 63; X6 = 86",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "X1 = 0; X2 = 1; X3 = 109; X4 = 65; X5 = 63; X6 = 86"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "X1 = 0; X2 = 1; X3 = 113; X4 = 109; X5 = 63; X6 = 115",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "X1 = 0; X2 = 1; X3 = 113; X4 = 109; X5 = 63; X6 = 115"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 6,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "X=(1,1,109,65,115,90).",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "square_multiply",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "17dc780b00418f48d7874be059645804cdbf63ceb5a57efebc121b3ef662f6e8",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-8",
+    "source_question_number": "8",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đâu là kết quả của log₁₇ 15 trên Z*₉₇?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là kết quả của log₁₇ 15 trên Z*₉₇?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 53,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đâu là kết quả của log₁₇ 15 trên Z*₉₇?\n(A)  10\n(B)  13\n(C)  17\n(D)  31    ← đang chọn",
+    "A": {
+      "text": "10",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "13",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "13"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "17",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "17"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "31",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "31"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 7,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "17^31 mod97=15.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "logs",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "405d8a89b642c9643e161d5c1c144d43659175604b04591c29d83152ac0e86ff",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "8e851436deb9dc711b32d3a109b1631bda42182b046a87d02863de2a77320117",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-13",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "13",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-8",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "8",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-9",
+    "source_question_number": "9",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Trong các cặp số sau, cặp số nào là cặp số nguyên tố cùng nhau?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong các cặp số sau, cặp số nào là cặp số nguyên tố cùng nhau?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 59,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Trong các cặp số sau, cặp số nào là cặp số nguyên tố cùng nhau?\n(A)  391, 153\n(B)  85, 255\n(C)  117, 391    ← đang chọn\n(D)  85, 187",
+    "A": {
+      "text": "391, 153",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "391, 153"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "85, 255",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "85, 255"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "117, 391",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "117, 391"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "85, 187",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "85, 187"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 8,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "gcd(117,391)=1.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "gcd",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "c113614f159a4d78279d2083fa406e9f75701ed25d8b97a563ca250bc20a8f6c",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "1d1a7e01200097bf7569c846abb340732c3da26fef0be84e2b28f61443a04597",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-18",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "18",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-9",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "9",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-1-30",
+        "source_exam_id": "de-thi-k16-1",
+        "source_exam_code": "de-thi-k16-1",
+        "source_question_number": "30",
+        "source_file": "de-thi-k16-1.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-10",
+    "source_question_number": "10",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Cho B₁ = 110101₂ và hộp thế S₁, đáp án nào dưới đây là đầu ra của S₁(B₁)?\nHình câu 10 — hộp thế S1 và đầu vào B1",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Cho B₁ = 110101₂ và hộp thế S₁, đáp án nào dưới đây là đầu ra của S₁(B₁)?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/edc94670633b5e2eb69f.jpg",
+        "alt": "Hình nguồn — câu 10"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 10 — hộp thế S1 và đầu vào B1"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 65,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Cho B₁ = 110101₂ và hộp thế S₁, đáp án nào dưới đây là đầu ra của S₁(B₁)?\nHình câu 10 — hộp thế S1 và đầu vào B1\n(A)  1110₂\n(B)  0101₂\n(C)  0011₂    ← đang chọn\n(D)  1011₂",
+    "A": {
+      "text": "1110₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1110₂"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "0101₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0101₂"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "0011₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0011₂"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "1011₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1011₂"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 9,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "S1(110101)=0011₂.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "proof_key": "des_s1",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "6a5d13163705c9404d29b8e2823e09b6801c9d240e23c94dfb3e114cca121e45",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-11",
+    "source_question_number": "11",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Xét hệ mật Merkle–Hellman với hoán vị π(1)=3, π(2)=6, π(3)=1, π(4)=2, π(5)=5, π(6)=4. Dãy siêu tăng (12, 17, 33, 64, 137, 326), W = 635, M = 737. Khóa công khai là tập số?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Xét hệ mật Merkle–Hellman với hoán vị π(1)=3, π(2)=6, π(3)=1, π(4)=2, π(5)=5, π(6)=4. Dãy siêu tăng (12, 17, 33, 64, 137, 326), W = 635, M = 737. Khóa công khai là tập số?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 73,
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Xét hệ mật Merkle–Hellman với hoán vị π(1)=3, π(2)=6, π(3)=1, π(4)=2, π(5)=5, π(6)=4. Dãy siêu tăng (12, 17, 33, 64, 137, 326), W = 635, M = 737. Khóa công khai là tập số?\n(A)  (319, 650, 250, 477, 29, 105)    ← đang chọn\n(B)  (319, 650, 477, 250, 29, 105)\n(C)  (250, 477, 105, 319, 650, 29)\n(D)  (250, 477, 319, 105, 29, 650)",
+    "A": {
+      "text": "(319, 650, 250, 477, 29, 105)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(319, 650, 250, 477, 29, 105)"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "(319, 650, 477, 250, 29, 105)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(319, 650, 477, 250, 29, 105)"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "(250, 477, 105, 319, 650, 29)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(250, 477, 105, 319, 650, 29)"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "(250, 477, 319, 105, 29, 650)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(250, 477, 319, 105, 29, 650)"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 10,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.06",
+      "name": "Hệ mật Merkle–Hellman và bài toán ba lô",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "a_i=W·M_π(i) modM cho (319,650,250,477,29,105).",
+      "sources": [
+        "NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf"
+      ],
+      "proof_key": "merkle",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "10a22adf2dc1534548e5673a640228e9ffb8e959466316fca89e1efc362bc95a",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+    "source_question_number": "12",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 79,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau.\n(B)  Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.\n(C)  Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.\n(D)  Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó.    ← đang chọn",
+    "A": {
+      "text": "Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 11,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.05.01",
+      "name": "ECB – Electronic Codebook",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "ECB không lan lỗi bản mã sang khối khác.",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-38a.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "05424f8db49f9eb422ab19761c03fa95880a160ad3e55621f644fb11f44fcb18",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-13",
+    "source_question_number": "13",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào sau đây là kết quả của phép xtime (03)•(A9) trên GF(2^8) với đa thức rút gọn m(x) = x^8 + x^4 + x^3 + x + 1.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào sau đây là kết quả của phép xtime (03)•(A9) trên GF(2^8) với đa thức rút gọn m(x) = x^8 + x^4 + x^3 + x + 1."
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 85,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đáp án nào sau đây là kết quả của phép xtime (03)•(A9) trên GF(2^8) với đa thức rút gọn m(x) = x^8 + x^4 + x^3 + x + 1.\n(A)  1101 0000₂\n(B)  0101 1111₂\n(C)  1110 0000₂    ← đang chọn\n(D)  0101 1110₂",
+    "A": {
+      "text": "1101 0000₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1101 0000₂"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "0101 1111₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0101 1111₂"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "1110 0000₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1110 0000₂"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "0101 1110₂",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0101 1110₂"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 12,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.08",
+      "name": "AES – toán học GF(2^8) và xtime",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "03·A9=E0=11100000₂.",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "proof_key": "gf",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "7daff1e669d708313fd4d95dd8ec7186e9185d0d3c530e8147a833f3da0c08ed",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "984a1ecdde78466a65382f19a2572b5a39b7c6507cc458740c2b30f8a422cae8",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": false,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-2",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "2",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-13",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "13",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-14",
+    "source_question_number": "14",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đâu không là một bước trong quá trình tạo chứng thư số?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu không là một bước trong quá trình tạo chứng thư số?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 91,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đâu không là một bước trong quá trình tạo chứng thư số?\n(A)  Thực thể đăng kí khóa công khai với CA.\n(B)  CA tạo chứng thư số gắn thực thể với khóa công khai.\n(C)  CA kí vào chứng thư số.\n(D)  Chứng thư số được kí bằng khóa riêng của thực thể.    ← đang chọn",
+    "A": {
+      "text": "Thực thể đăng kí khóa công khai với CA.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thực thể đăng kí khóa công khai với CA."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "CA tạo chứng thư số gắn thực thể với khóa công khai.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CA tạo chứng thư số gắn thực thể với khóa công khai."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "CA kí vào chứng thư số.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CA kí vào chứng thư số."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Chứng thư số được kí bằng khóa riêng của thực thể.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chứng thư số được kí bằng khóa riêng của thực thể."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 13,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.03",
+      "name": "Chữ ký số và chứng thư số",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Chứng thư được ký bởi CA.",
+      "sources": [
+        "NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "4db4b84a5418e724c8f349093502473d2917453741190d5bc884b032e668394c",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "204e779d61bfd586cdeaa72cb7a887d13baa4c3778e2e59eebd23943488f3354",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-24",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "24",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-14",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "14",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-2-38",
+        "source_exam_id": "de-thi-k16-2",
+        "source_exam_code": "de-thi-k16-2",
+        "source_question_number": "38",
+        "source_file": "de-thi-k16-2.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-3-2051",
+        "source_exam_id": "de-thi-k16-3",
+        "source_exam_code": "de-thi-k16-3",
+        "source_question_number": "2051",
+        "source_file": "de-thi-k16-3.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-15",
+    "source_question_number": "15",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào sau đây là các bit tại các vị trí còn thiếu trong đầu ra P(C), theo thứ tự từ trên xuống, từ trái sang phải?\nHình câu 15 — ma trận C, hoán vị P và P(C)",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào sau đây là các bit tại các vị trí còn thiếu trong đầu ra P(C), theo thứ tự từ trên xuống, từ trái sang phải?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/3931815552abfd6db8a8.jpg",
+        "alt": "Hình nguồn — câu 15"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 15 — ma trận C, hoán vị P và P(C)"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 97,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đáp án nào sau đây là các bit tại các vị trí còn thiếu trong đầu ra P(C), theo thứ tự từ trên xuống, từ trái sang phải?\nHình câu 15 — ma trận C, hoán vị P và P(C)\n(A)  0–1–1–1–0–1–0–1\n(B)  0–0–1–1–1–0–1–0    ← đang chọn\n(C)  0–1–1–1–1–0–1–1\n(D)  0–1–0–1–0–1–1",
+    "A": {
+      "text": "0–1–1–0–1–0–1",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0–1–1–0–1–0–1"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "0–0–1–1–0–1–0",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0–0–1–1–0–1–0"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "0–1–1–1–0–1–1",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0–1–1–1–0–1–1"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "0–1–0–1–0–1–1",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0–1–0–1–0–1–1"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 14,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "source_corrections": [
+      {
+        "field": "A",
+        "original": "0–1–1–1–0–1–0–1",
+        "corrected": "0–1–1–0–1–0–1",
+        "evidence": "Ảnh hộp P trong DOCX: images/nmmmh/3931815552abfd6db8a8.jpg"
+      },
+      {
+        "field": "B",
+        "original": "0–0–1–1–1–0–1–0",
+        "corrected": "0–0–1–1–0–1–0",
+        "evidence": "Ảnh hộp P trong DOCX: images/nmmmh/3931815552abfd6db8a8.jpg"
+      },
+      {
+        "field": "C",
+        "original": "0–1–1–1–1–0–1–1",
+        "corrected": "0–1–1–1–0–1–1",
+        "evidence": "Ảnh hộp P trong DOCX: images/nmmmh/3931815552abfd6db8a8.jpg"
+      }
+    ],
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Ảnh nguồn đọc C=0–1–1–1–0–1–1; DOCX A/B/C thừa bit ở bản phiên âm. Kết quả P tính được0111011.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "proof_key": "des_p",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "3ad08dc9609e0f283a3dd328ee338fed424aa2da817808bde554fe344eeb4935",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-16",
+    "source_question_number": "16",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 105,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Dãy (15, 47, 67, 130, 287) là dãy siêu tăng.\n(B)  Giải thuật cho bài toán xếp balo tổng quát bằng phương pháp vét cạn có độ phức tạp O(2^n), với n là số phần tử của dãy.\n(C)  Giải thuật cho bài toán xếp balo trong trường hợp dãy siêu tăng có độ phức tạp O(n), với n là số phần tử của dãy.\n(D)  Tất cả đáp án trên.    ← đang chọn",
+    "A": {
+      "text": "Dãy (15, 47, 67, 130, 287) là dãy siêu tăng.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Dãy (15, 47, 67, 130, 287) là dãy siêu tăng."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Giải thuật cho bài toán xếp balo tổng quát bằng phương pháp vét cạn có độ phức tạp O(2^n), với n là số phần tử của dãy.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Giải thuật cho bài toán xếp balo tổng quát bằng phương pháp vét cạn có độ phức tạp O(2^n), với n là số phần tử của dãy."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Giải thuật cho bài toán xếp balo trong trường hợp dãy siêu tăng có độ phức tạp O(n), với n là số phần tử của dãy.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Giải thuật cho bài toán xếp balo trong trường hợp dãy siêu tăng có độ phức tạp O(n), với n là số phần tử của dãy."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 15,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.06",
+      "name": "Hệ mật Merkle–Hellman và bài toán ba lô",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Cả dãy siêu tăng và hai độ phức tạp đều đúng.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "5dff14eb9d1147d7eedf21e4f166a08738efd26e1b9103ff8c4fd77602cbad6b",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-17",
+    "source_question_number": "17",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào dưới đây là giá trị của x₂₁ trong vòng tính MixColumns của hệ mật AES?\nHình câu 17 — phép nhân MixColumns của AES",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào dưới đây là giá trị của x₂₁ trong vòng tính MixColumns của hệ mật AES?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/0057f59deccda8a2aa8d.jpg",
+        "alt": "Hình nguồn — câu 17"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 17 — phép nhân MixColumns của AES"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 111,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đáp án nào dưới đây là giá trị của x₂₁ trong vòng tính MixColumns của hệ mật AES?\nHình câu 17 — phép nhân MixColumns của AES\n(A)  7A_H\n(B)  8D_H    ← đang chọn\n(C)  32_H\n(D)  F4_H",
+    "A": {
+      "text": "7A_H",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7A_H"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "8D_H",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8D_H"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "32_H",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "32_H"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "F4_H",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "F4_H"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 16,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.12",
+      "name": "AES – MixColumns / InvMixColumns",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "x21=8D hex.",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "proof_key": "mix",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "6109bdddf1ec5cba1f8998d69f7f8469fce5c96757258be86b25553d32ab80c5",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-18",
+    "source_question_number": "18",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Giả sử hệ mã Affine với k = (a, b) và hàm mã y = ax + b mod 26. J(9) là mã hóa của t(19) và Q(16) là mã hóa của e(4). Khóa nào sau đây là khóa đúng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Giả sử hệ mã Affine với k = (a, b) và hàm mã y = ax + b mod 26. J(9) là mã hóa của t(19) và Q(16) là mã hóa của e(4). Khóa nào sau đây là khóa đúng?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 119,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Giả sử hệ mã Affine với k = (a, b) và hàm mã y = ax + b mod 26. J(9) là mã hóa của t(19) và Q(16) là mã hóa của e(4). Khóa nào sau đây là khóa đúng?\n(A)  (3, 7)\n(B)  (4, 3)\n(C)  (7, 3)\n(D)  (3, 4)    ← đang chọn",
+    "A": {
+      "text": "(3, 7)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(3, 7)"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "(4, 3)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(4, 3)"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "(7, 3)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(7, 3)"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "(3, 4)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(3, 4)"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 17,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.01.04",
+      "name": "Mã Affine",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Affine (a,b)=(3,4).",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "proof_key": "affine",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "22686fd15b457f089ea4b2f733a16c658b4288bbe265e5af29de9f95c91c9d6d",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-19",
+    "source_question_number": "19",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (2, 7). Người dùng A chọn khóa riêng n_A = 3. Hãy tính khóa công khai của A.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (2, 7). Người dùng A chọn khóa riêng n_A = 3. Hãy tính khóa công khai của A."
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 125,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [
+      "Không thấy nút nào được đánh dấu trên ảnh."
+    ],
+    "source_text": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (2, 7). Người dùng A chọn khóa riêng n_A = 3. Hãy tính khóa công khai của A.\n(A)  (10, 2)\n(B)  (8, 8)\n(C)  (5, 9)\n(D)  (8, 3)\nKhông thấy nút nào được đánh dấu trên ảnh.",
+    "A": {
+      "text": "(10, 2)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(10, 2)"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "(8, 8)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(8, 8)"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "(5, 9)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(5, 9)"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "(8, 3)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(8, 3)"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 18,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.05",
+      "name": "Mật mã đường cong elliptic",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "3*(2,7)=(8,3).",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": "ecc",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "ca0ac164d66171ad0549a418911d09ea56ab531b18434ec4e75a22b843334da2",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+    "source_question_number": "20",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 132,
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai."
+    ],
+    "answer_evidence": null,
+    "source_notes": [
+      "Không thấy nút nào được đánh dấu trên ảnh."
+    ],
+    "source_text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?\n(A)  Khóa riêng của A là k_A = 33.\n(B)  Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (28, 192).\n(C)  Khóa công khai của A là α^a = 89.\n(D)  Tất cả đáp án trên.\nKhông thấy nút nào được đánh dấu trên ảnh.",
+    "A": {
+      "text": "Khóa riêng của A là k_A = 33.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa riêng của A là k_A = 33."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (28, 192).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (28, 192)."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Khóa công khai của A là α^a = 89.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa công khai của A là α^a = 89."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 19,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.04",
+      "name": "Hệ mật ElGamal",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "multiple_valid_options",
+      "correct_answer": null,
+      "valid_options": [
+        "B",
+        "C"
+      ],
+      "explanation": "β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": "elgamal",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "8fa74a44065d7cb5c0c6ff6da8eeca04d613f6c8fc9547ca5fc578eb2921ee3a",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-21",
+    "source_question_number": "21",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Cho hệ chữ kí RSA với p = 31, q = 23, d = 223 (thỏa mãn gcd(d, n) = 1 theo đề), thông điệp cần kí m = 439. Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Cho hệ chữ kí RSA với p = 31, q = 23, d = 223 (thỏa mãn gcd(d, n) = 1 theo đề), thông điệp cần kí m = 439. Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 139,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Cho hệ chữ kí RSA với p = 31, q = 23, d = 223 (thỏa mãn gcd(d, n) = 1 theo đề), thông điệp cần kí m = 439. Khẳng định nào sau đây là SAI?\n(A)  Ta phải giữ bí mật các giá trị p, q và φ(n).\n(B)  Hệ chữ kí này có khóa công khai là (660, 367); khóa bí mật là 223.    ← đang chọn\n(C)  Để xác minh chữ kí ta tính m' = 284^367 mod 713 và so sánh với m nhận được.\n(D)  Thông điệp sau khi kí có giá trị là S = 284.",
+    "A": {
+      "text": "Ta phải giữ bí mật các giá trị p, q và φ(n).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ta phải giữ bí mật các giá trị p, q và φ(n)."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Hệ chữ kí này có khóa công khai là (660, 367); khóa bí mật là 223.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ chữ kí này có khóa công khai là (660, 367); khóa bí mật là 223."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Để xác minh chữ kí ta tính m' = 284^367 mod 713 và so sánh với m nhận được.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Để xác minh chữ kí ta tính m' = 284^367 mod 713 và so sánh với m nhận được."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Thông điệp sau khi kí có giá trị là S = 284.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thông điệp sau khi kí có giá trị là S = 284."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 20,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.02",
+      "name": "Hệ mật RSA",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "n=713, e=367; khóa công khai không phải(660,367).",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+      ],
+      "proof_key": "rsa_signature",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "2fd05960f7b165c706812e9eaac708010c7abc3f52a99b52844a397ad7cdca91",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-22",
+    "source_question_number": "22",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (7, 2), số ngẫu nhiên k = 2. Khóa công khai của A là P_A = (5, 2) và kP_A = (10, 2). Bản rõ được mã thành điểm P_M = (3, 6). Hãy tìm P_C bằng khóa công khai của A.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (7, 2), số ngẫu nhiên k = 2. Khóa công khai của A là P_A = (5, 2) và kP_A = (10, 2). Bản rõ được mã thành điểm P_M = (3, 6). Hãy tìm P_C bằng khóa công khai của A."
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 145,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Cho đường cong elliptic y^2 = x^3 + x + 6 mod 11, điểm sinh G = (7, 2), số ngẫu nhiên k = 2. Khóa công khai của A là P_A = (5, 2) và kP_A = (10, 2). Bản rõ được mã thành điểm P_M = (3, 6). Hãy tìm P_C bằng khóa công khai của A.\n(A)  [(3, 5); (10, 2)]\n(B)  [(7, 2); (10, 9)]\n(C)  [(2, 7); (10, 9)]    ← đang chọn\n(D)  [(2, 7); (10, 2)]",
+    "A": {
+      "text": "[(3, 5); (10, 2)]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[(3, 5); (10, 2)]"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "[(7, 2); (10, 9)]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[(7, 2); (10, 9)]"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "[(2, 7); (10, 9)]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[(2, 7); (10, 9)]"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "[(2, 7); (10, 2)]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[(2, 7); (10, 2)]"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 21,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.05",
+      "name": "Mật mã đường cong elliptic",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "P_C=[(2,7),(10,9)].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": "ecc",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "fbbde9e238d54eaf4599ded7cf6d16882485089b3d37d77e0f8e165f16522ee2",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+    "source_question_number": "23",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 151,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?\n(A)  Bảo vệ tính toàn vẹn của mẫu tin.\n(B)  Kiểm chứng danh tính và nguồn gốc.\n(C)  Chống chối bỏ.\n(D)  Tất cả đáp án trên.    ← đang chọn",
+    "A": {
+      "text": "Bảo vệ tính toàn vẹn của mẫu tin.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bảo vệ tính toàn vẹn của mẫu tin."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Kiểm chứng danh tính và nguồn gốc.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Kiểm chứng danh tính và nguồn gốc."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Chống chối bỏ.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chống chối bỏ."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 22,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.02",
+      "name": "Xác thực bản tin và MAC",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Phạm vi xác thực trong slide PDF23 gồm cả ba khía cạnh.",
+      "sources": [
+        "NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "02f2b8f2025b15de49a7c3a77afd8eeb96c5914dcc07b9e6671c7883565bcbbf",
+    "duplicate_group": "386bb9508b2a7397f786c11a585e597c5980ac82f22d448d17f2ad2f0acb8732",
+    "duplicate_status": "confirmed",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-5",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "5",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "23",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-24",
+    "source_question_number": "24",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Bản rõ 'Friday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là ADDHOM. Hãy tìm ma trận khóa đúng.\nHình câu 24 — các ma trận khóa Hill trên đề",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Bản rõ 'Friday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là ADDHOM. Hãy tìm ma trận khóa đúng."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/866fa69d4a4e0a1446f9.jpg",
+        "alt": "Hình nguồn — câu 24"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 24 — các ma trận khóa Hill trên đề"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 157,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Bản rõ 'Friday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là ADDHOM. Hãy tìm ma trận khóa đúng.\nHình câu 24 — các ma trận khóa Hill trên đề\n(A)  k = [[9, 1], [2, 15]]\n(B)  k = [[7, 19], [8, 3]]\n(C)  k = [[3, 8], [19, 7]]    ← đang chọn\n(D)  k = [[19, 8], [19, 7]]",
+    "A": {
+      "text": "k = [[9, 1], [2, 15]]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "k = [[9, 1], [2, 15]]"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "k = [[7, 19], [8, 3]]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "k = [[7, 19], [8, 3]]"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "k = [[3, 8], [19, 7]]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "k = [[3, 8], [19, 7]]"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "k = [[19, 8], [19, 7]]",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "k = [[19, 8], [19, 7]]"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 23,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.01.07",
+      "name": "Hệ mật Hill",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "FRIDAY·[[3,8],[19,7]] mod26=ADDHOM.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "proof_key": "hill",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "8e95eb29d7bf7030b6b09f5dad33116a110e949593c94f4ce1e6ad02ae30efcd",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-25",
+    "source_question_number": "25",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đâu là biểu diễn của phần tử nghịch đảo của một phần tử với phép toán * và phần tử đơn vị e?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là biểu diễn của phần tử nghịch đảo của một phần tử với phép toán * và phần tử đơn vị e?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 165,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đâu là biểu diễn của phần tử nghịch đảo của một phần tử với phép toán * và phần tử đơn vị e?\n(A)  a * e = a\n(B)  a * b = e    ← đang chọn\n(C)  a * b = b\n(D)  a * b = a",
+    "A": {
+      "text": "a * e = a",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "a * e = a"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "a * b = e",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "a * b = e"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "a * b = b",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "a * b = b"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "a * b = a",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "a * b = a"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 24,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Nghịch đảo thỏa a*b=e.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "42978467c0e120114bb4201749fc36fe38518c2c2ec77f07953e1459d181063f",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "7e51f9c3b7c836ab2015c5596fdc548f7566e30fbdf0d64dce30b632172660a9",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-8",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "8",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-25",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "25",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-2-33",
+        "source_exam_id": "de-thi-k16-2",
+        "source_exam_code": "de-thi-k16-2",
+        "source_question_number": "33",
+        "source_file": "de-thi-k16-2.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-3-2039",
+        "source_exam_id": "de-thi-k16-3",
+        "source_exam_code": "de-thi-k16-3",
+        "source_question_number": "2039",
+        "source_file": "de-thi-k16-3.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+    "source_question_number": "26",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 171,
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai."
+    ],
+    "answer_evidence": null,
+    "source_notes": [],
+    "source_text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?\n(A)  Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211.\n(B)  Bản mã c = 11152.\n(C)  4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820).\n(D)  Tất cả đáp án trên.    ← đang chọn",
+    "A": {
+      "text": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Bản mã c = 11152.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bản mã c = 11152."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820)."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 25,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.03",
+      "name": "Hệ mật Rabin",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "multiple_valid_options",
+      "correct_answer": null,
+      "valid_options": [
+        "A",
+        "B"
+      ],
+      "explanation": "m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": "rabin",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "87e02f527eca58b51af8cbc405ab800985c7b3789566b73da59927311edeb333",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-27",
+    "source_question_number": "27",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 177,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  G được gọi là nhóm cyclic nếu nó có chứa ít nhất một phần tử sinh.\n(B)  Ta có ord(a) = t, với a thuộc Z*_n, khi đó luôn có t | φ(n).\n(C)  α thuộc Z*_n, nếu ord(α) = φ(n) thì α được gọi là phần tử sinh của Z*_n.\n(D)  Tất cả đáp án trên.    ← đang chọn",
+    "A": {
+      "text": "G được gọi là nhóm cyclic nếu nó có chứa ít nhất một phần tử sinh.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "G được gọi là nhóm cyclic nếu nó có chứa ít nhất một phần tử sinh."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Ta có ord(a) = t, với a thuộc Z*_n, khi đó luôn có t | φ(n).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ta có ord(a) = t, với a thuộc Z*_n, khi đó luôn có t | φ(n)."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "α thuộc Z*_n, nếu ord(α) = φ(n) thì α được gọi là phần tử sinh của Z*_n.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "α thuộc Z*_n, nếu ord(α) = φ(n) thì α được gọi là phần tử sinh của Z*_n."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 26,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Ba tính chất nhóm cyclic/bậc/phần tử sinh đúng.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "85a480bc408914fe9f99deb81350ff505e58677bc037d88052ab68422ba2d382",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-28",
+    "source_question_number": "28",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào dưới đây KHÔNG PHẢI là phần tử sinh của Z*₄₁?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào dưới đây KHÔNG PHẢI là phần tử sinh của Z*₄₁?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 183,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đáp án nào dưới đây KHÔNG PHẢI là phần tử sinh của Z*₄₁?\n(A)  12\n(B)  7\n(C)  11\n(D)  3    ← đang chọn",
+    "A": {
+      "text": "12",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "7",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "11",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "11"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "3",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 27,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "ord41(3)=8 khác40.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "generators",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "c2c77d0725faf7034af3ef83005001cc5f0fe169ec9f51ec1b086b0e3c8f1bad",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "1afc6e379a6f66449a5cab95c30cf6b7854fd78122e8d7a75540ac69599f3c89",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-6",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "6",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-28",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "28",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "source_question_number": "29",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 189,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư.\n(B)  −7 mod 7; 0 mod 7; 7 mod 7; … là các lớp tương đương trên Z₇.    ← đang chọn\n(C)  Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n.\n(D)  a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
+    "A": {
+      "text": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "−7 mod 7; 0 mod 7; 7 mod 7; … là các lớp tương đương trên Z₇.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "−7 mod 7; 0 mod 7; 7 mod 7; … là các lớp tương đương trên Z₇."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 28,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Các số trong B là đại diện cùng một lớp mod7, không phải các lớp khác nhau.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "b4638aba95075421b70430fe714febba8716ddaa965cf6b11cc30ba14cb00092",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-30",
+    "source_question_number": "30",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Trong hệ mã RSA, khóa công khai k_e = (n, e), khóa bí mật k_d = d. Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong hệ mã RSA, khóa công khai k_e = (n, e), khóa bí mật k_d = d. Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 195,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [
+      "Phương án C giữ nguyên điều kiện trên ảnh: gcd(e, n) = 1."
+    ],
+    "source_text": "Trong hệ mã RSA, khóa công khai k_e = (n, e), khóa bí mật k_d = d. Khẳng định nào sau đây là SAI?\n(A)  Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố.\n(B)  Khóa bí mật được tính theo công thức d = e^(−1) mod φ(n).\n(C)  Chọn số mũ e phải thỏa mãn điều kiện gcd(e, n) = 1.    ← đang chọn\n(D)  Để truyền tin mật, bản mã được tính như sau: y = x^e mod n.\nPhương án C giữ nguyên điều kiện trên ảnh: gcd(e, n) = 1.",
+    "A": {
+      "text": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Khóa bí mật được tính theo công thức d = e^(−1) mod φ(n).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa bí mật được tính theo công thức d = e^(−1) mod φ(n)."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, n) = 1.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, n) = 1."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Để truyền tin mật, bản mã được tính như sau: y = x^e mod n.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Để truyền tin mật, bản mã được tính như sau: y = x^e mod n."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 29,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.02",
+      "name": "Hệ mật RSA",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Chọn e nguyên tố cùng nhau vớiφ(n).",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "bbf9e6880a5d12d8dbaf15f9587e8254596a768a5d2522625c648fb94794f240",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-31",
+    "source_question_number": "31",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Đáp án nào dưới đây là kết quả của φ(969)?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào dưới đây là kết quả của φ(969)?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 202,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Đáp án nào dưới đây là kết quả của φ(969)?\n(A)  567\n(B)  304\n(C)  288\n(D)  576    ← đang chọn",
+    "A": {
+      "text": "567",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "567"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "304",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "304"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "288",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "288"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "576",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "576"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 30,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "φ(969)=576.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "euler",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "b3d043715581f26b885ae15a62353cfdb2cc1c74a97a350171e41fa06a1df5ce",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "96ee7bf5f4752c5270ee0866f4b5b9646350491f43d18602fd3d0aedc14fad68",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-12",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "12",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-31",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "31",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-1-5",
+        "source_exam_id": "de-thi-k16-1",
+        "source_exam_code": "de-thi-k16-1",
+        "source_question_number": "5",
+        "source_file": "de-thi-k16-1.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-32",
+    "source_question_number": "32",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Squid game” với mầm khóa k = “sun”.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Squid game” với mầm khóa k = “sun”."
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 208,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Squid game” với mầm khóa k = “sun”.\n(A)  KKHAUAIPK\n(B)  KKHOXTSGR\n(C)  KKHATAIPK    ← đang chọn\n(D)  KKHOXTSKR",
+    "A": {
+      "text": "KKHAUAIPK",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "KKHAUAIPK"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "KKHOXTSGR",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "KKHOXTSGR"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "KKHATAIPK",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "KKHATAIPK"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "KKHOXTSKR",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "KKHOXTSKR"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 31,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.01.08",
+      "name": "Hệ mật khóa chạy (Autokey)",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Autokey SQUIDGAME/SUN=KKHATAIPK.",
+      "sources": [
+        "Slide NMMMH.pdf, trang PDF 57–60"
+      ],
+      "proof_key": "autokey",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "20c0dbbb28829a2f0358020a3d1d85bc774b5fd93ac1f3a2d39d6ae1fefbd7f2",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "cee0d7a4eb2eba255a0fa3e5252d00fb7b68e6b76254abc3e75b8720c6792857",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": false,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-40",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "40",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-32",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "32",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-33",
+    "source_question_number": "33",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Số nào sau đây lớn nhất?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Số nào sau đây lớn nhất?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 214,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Số nào sau đây lớn nhất?\n(A)  GCD(281, 389)\n(B)  GCD(130, 315)    ← đang chọn\n(C)  GCD(42, 286)\n(D)  GCD(137, 479)",
+    "A": {
+      "text": "GCD(281, 389)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "GCD(281, 389)"
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "GCD(130, 315)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "GCD(130, 315)"
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "GCD(42, 286)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "GCD(42, 286)"
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "GCD(137, 479)",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "GCD(137, 479)"
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 32,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "GCD theoA–D là1,5,2,1.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "gcd",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "690cddb2d0d046b4f598a8ce3be0ffabc930f4b089e26ff4526ae77e311413c9",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "a0e0fca59c5159018561ce8afe53a6e6607eadbbc6d009d49ebaf2acf927c0f9",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-26",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "26",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-33",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "33",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-34",
+    "source_question_number": "34",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 220,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Tính xáo trộn được tạo bởi phép hoán vị.\n(B)  Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán.    ← đang chọn\n(C)  Tính khuếch tán được tạo bởi phép thế.\n(D)  Tất cả đáp án trên.",
+    "A": {
+      "text": "Tính xáo trộn được tạo bởi phép hoán vị.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn được tạo bởi phép hoán vị."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Tính khuếch tán được tạo bởi phép thế.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán được tạo bởi phép thế."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 33,
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_parent": {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "02.03.01",
+      "name": "Nguyên lý mã khối của Shannon",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Shannon có hai nguyên lý confusion/diffusion.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "fa2cdb9c1783d68d1faf532681f6d9c3c66dcbe098a4a224ff53c8c019b1ff2a",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": false
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-35",
+    "source_question_number": "35",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là không đúng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là không đúng?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 226,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là không đúng?\n(A)  Trong hệ chữ kí số, ta sử dụng khóa riêng của người gửi để kí thông điệp.    ← đang chọn\n(B)  Trong hệ mã bất đối xứng ta sử dụng khóa riêng để mã thông tin nhằm đảm bảo tính bí mật.\n(C)  Mã khối và mã dòng là các hệ mật khóa đối xứng.\n(D)  Mã đối xứng là hệ mật dùng một khóa cho quá trình mã và giải mã.",
+    "A": {
+      "text": "Trong hệ chữ kí số, ta sử dụng khóa riêng của người gửi để kí thông điệp.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong hệ chữ kí số, ta sử dụng khóa riêng của người gửi để kí thông điệp."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Trong hệ mã bất đối xứng ta sử dụng khóa riêng để mã thông tin nhằm đảm bảo tính bí mật.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong hệ mã bất đối xứng ta sử dụng khóa riêng để mã thông tin nhằm đảm bảo tính bí mật."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Mã khối và mã dòng là các hệ mật khóa đối xứng.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã khối và mã dòng là các hệ mật khóa đối xứng."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Mã đối xứng là hệ mật dùng một khóa cho quá trình mã và giải mã.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã đối xứng là hệ mật dùng một khóa cho quá trình mã và giải mã."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 34,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.03",
+      "name": "Chữ ký số và chứng thư số",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Đảm bảo bí mật không dùng khóa riêng để mã cho mọi người.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "67f5093c0d3a67a45349f76672e6a74058db4ed147cb6de0fc5fda73ffaa39c5",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "011f2602a565e2e2a6ec8b25be029a314931be7765654433857089037706e491",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-21",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "21",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-35",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "35",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+    "source_question_number": "36",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 232,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người nhận để truyền tin mật.\n(B)  Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người gửi.\n(C)  Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp.\n(D)  Tất cả đáp án trên.    ← đang chọn",
+    "A": {
+      "text": "Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người nhận để truyền tin mật.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người nhận để truyền tin mật."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người gửi.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người gửi."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 35,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.03",
+      "name": "Chữ ký số và chứng thư số",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Cả ba khẳng định mô tả vai trò khóa/mã hóa/chữ ký đều đúng.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "02780e6e8f40367f7c08d3eaf269cd3bafd345293aeac3ee4597d3330302664c",
+    "duplicate_group": "35e1b6eee5335a82e442c98c9444573cb4c8e5c423aae0edc019af7c251cfcfd",
+    "duplicate_status": "confirmed",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "36",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-1-31",
+        "source_exam_id": "de-thi-k16-1",
+        "source_exam_code": "de-thi-k16-1",
+        "source_question_number": "31",
+        "source_file": "de-thi-k16-1.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+    "source_question_number": "37",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 238,
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+    ],
+    "answer_evidence": null,
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh.\n(B)  Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật.    ← đang chọn\n(C)  Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).\n(D)  Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
+    "A": {
+      "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện)."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 36,
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_parent": {
+      "id": 1,
+      "name": "Tổng quan về mật mã học",
+      "status": "present"
+    },
+    "chapter_child": {
+      "code": "01.06",
+      "name": "Mật mã đối xứng và bất đối xứng",
+      "source": "knowledge_tree"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "ambiguous_wording",
+      "correct_answer": null,
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false,
+      "likely_course_answer": "B"
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "16486d6dd64af91031ab237f952790fb7a3f76510c88fb5fa0077a8b5fc84c9d",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "8f5a196da8c776e616eed155b499fd9191a99943e052c627e9dde8766a6524ae",
+    "duplicate_status": "potential",
+    "classification_needs_review": false,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-28",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "28",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "37",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-1-33-HP",
+        "source_exam_id": "de-thi-k16-1",
+        "source_exam_code": "de-thi-k16-1",
+        "source_question_number": "33-HP",
+        "source_file": "de-thi-k16-1.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-2-40",
+        "source_exam_id": "de-thi-k16-2",
+        "source_exam_code": "de-thi-k16-2",
+        "source_question_number": "40",
+        "source_file": "de-thi-k16-2.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-3-2046",
+        "source_exam_id": "de-thi-k16-3",
+        "source_exam_code": "de-thi-k16-3",
+        "source_question_number": "2046",
+        "source_file": "de-thi-k16-3.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
+    "source_question_number": "38",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 244,
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Giá trị băm được coi như là đại diện cho một thông báo và nó có độ dài tùy thuộc vào thông báo đầu vào.    ← đang chọn\n(B)  Hàm băm là hàm một chiều, không có khả năng tính ngược lại.\n(C)  Hàm băm tóm lược thông báo M có độ dài tùy ý thành bản băm có độ dài cố định.\n(D)  Ánh xạ hàm băm không phải là một song ánh.",
+    "A": {
+      "text": "Giá trị băm được coi như là đại diện cho một thông báo và nó có độ dài tùy thuộc vào thông báo đầu vào.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Giá trị băm được coi như là đại diện cho một thông báo và nó có độ dài tùy thuộc vào thông báo đầu vào."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Hàm băm là hàm một chiều, không có khả năng tính ngược lại.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hàm băm là hàm một chiều, không có khả năng tính ngược lại."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Hàm băm tóm lược thông báo M có độ dài tùy ý thành bản băm có độ dài cố định.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hàm băm tóm lược thông báo M có độ dài tùy ý thành bản băm có độ dài cố định."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Ánh xạ hàm băm không phải là một song ánh.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ánh xạ hàm băm không phải là một song ánh."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 37,
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "chapter_id": "4",
+    "chapter_parent": {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "04.01",
+      "name": "Hàm băm",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "Độ dài băm cố định, không phụ thuộc chiều dài đầu vào.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "b866a552708787d85f356eb9d9e1eff1c739d27e5364a872b7fb41117303f6a8",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "5f29d3eb1d6ad96808f0865c28a917182fc5abc18a009ff8601956fa192b46ff",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-22",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "22",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "38",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-1-19",
+        "source_exam_id": "de-thi-k16-1",
+        "source_exam_code": "de-thi-k16-1",
+        "source_question_number": "19",
+        "source_file": "de-thi-k16-1.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-2-34",
+        "source_exam_id": "de-thi-k16-2",
+        "source_exam_code": "de-thi-k16-2",
+        "source_question_number": "34",
+        "source_file": "de-thi-k16-2.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+    "source_question_number": "39",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 250,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ kí số.    ← đang chọn\n(B)  Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó.\n(C)  Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng, với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority).\n(D)  Tất cả đáp án trên.",
+    "A": {
+      "text": "Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ kí số.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ kí số."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng, với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority).",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng, với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority)."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "Tất cả đáp án trên.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tất cả đáp án trên."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 38,
+    "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+    "chapter_id": "5",
+    "chapter_parent": {
+      "id": 5,
+      "name": "Vấn đề phân phối và thỏa thuận khóa",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "05.01",
+      "name": "Phân phối và thỏa thuận khóa",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Các định nghĩa đúng theo tài liệu môn.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+      ],
+      "proof_key": null,
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "847719f12efdf3751ebeba39aeccbf8273d61549dc61e60781cdc43e91fdcc2f",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": null,
+    "duplicate_status": null,
+    "classification_needs_review": true
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-40",
+    "source_question_number": "40",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "question_image": null,
+    "source_page": null,
+    "source_docx_block": 256,
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này."
+    ],
+    "answer_evidence": "independently_verified_solution",
+    "source_notes": [],
+    "source_text": "Khẳng định nào sau đây là SAI?\n(A)  11 là thặng dư bậc hai theo modulo 17 vì (11/17) = 1.    ← đang chọn\n(B)  (2/n) = 1 nếu n ≡ 1 (hoặc 7) mod 8.\n(C)  4 căn bậc hai của 4 mod 21 là: 2; 5; 16; 19.\n(D)  (158/235) = −1.",
+    "A": {
+      "text": "11 là thặng dư bậc hai theo modulo 17 vì (11/17) = 1.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "11 là thặng dư bậc hai theo modulo 17 vì (11/17) = 1."
+        }
+      ],
+      "source_label": "A"
+    },
+    "B": {
+      "text": "(2/n) = 1 nếu n ≡ 1 (hoặc 7) mod 8.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(2/n) = 1 nếu n ≡ 1 (hoặc 7) mod 8."
+        }
+      ],
+      "source_label": "B"
+    },
+    "C": {
+      "text": "4 căn bậc hai của 4 mod 21 là: 2; 5; 16; 19.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4 căn bậc hai của 4 mod 21 là: 2; 5; 16; 19."
+        }
+      ],
+      "source_label": "C"
+    },
+    "D": {
+      "text": "(158/235) = −1.",
+      "image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(158/235) = −1."
+        }
+      ],
+      "source_label": "D"
+    },
+    "source_order": 39,
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_parent": {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "status": "toc_only"
+    },
+    "chapter_child": {
+      "code": "03.01",
+      "name": "Số học mô-đun, nhóm và logarit rời rạc",
+      "source": "inferred_from_question_and_toc_only"
+    },
+    "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "Jacobi(11,17)=-1;11 không phải thặng dư.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "proof_key": "jacobi",
+      "official_answer_key": false
+    },
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "content_fingerprint": "80e9fae357a5543c3bad300e5809d9b44fd294f7f19375b8522fd9be68f1dd76",
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "duplicate_group": "91a450058ed8dc35dd475060e7aa766e19ce98383844f3a1d9e4be0064e93b05",
+    "duplicate_status": "confirmed",
+    "classification_needs_review": true,
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-thi-nmmmh-3",
+        "source_exam_id": "de-thi-nmmmh",
+        "source_exam_code": "De_thi_NMMMH",
+        "source_question_number": "3",
+        "source_file": "De_thi_NMMMH.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-40",
+        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+        "source_question_number": "40",
+        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      }
+    ]
+  }
+]
