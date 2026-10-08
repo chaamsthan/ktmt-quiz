@@ -34,9 +34,10 @@ uv run --with pymupdf --with vietnamese python extract_questions.py
 Môn mới dùng cùng HTML/CSS/JavaScript, máy chấm và khóa localStorage `ktmt-quiz-lab-v1` với KTMT. Dữ liệu KTMT trong `questions.json` và `exam_sets.json` không thay đổi.
 
 - `nmmmh.js`: bộ điều phối môn, chọn đề/chương và loại trùng khi gộp.
-- `subjects/nmmmh/manifest.json`: tên/thứ tự chương và metadata sáu đề nguồn.
+- `subjects/nmmmh/manifest.json`: tên/thứ tự chương và metadata năm đề đang xuất bản.
 - `subjects/nmmmh/exams/*.json`: từng đề độc lập, giữ số câu nguồn và các trường câu hỏi hiện có; các trường ảnh/bảng, chương con, căn cứ đáp án và nguồn được thêm tùy chọn.
-- `images/nmmmh/`: 32 ảnh nguồn, không dùng base64.
+- `images/nmmmh/`: 28 ảnh nguồn đang sử dụng, không dùng base64.
+- `subjects/nmmmh/excluded_exams.json`: các đề không xuất bản; hiện bỏ `de-thi-k16-1` theo yêu cầu người dùng, không xóa DOCX/bộ đáp án nguồn.
 - `subjects/nmmmh/REPORT.md`: số câu từng đề/chương, nhóm trùng và danh sách rà soát.
 - `subjects/nmmmh/needs_review.json`: danh sách rà soát máy đọc được.
 - `subjects/nmmmh/import_log.json`: ghi nhận nạp xong từng đề trước khi sang đề tiếp theo.
@@ -58,6 +59,8 @@ python3 tools/import_nmmmh.py --source '/đường/dẫn/NMMMH'
 ```
 
 Thư mục nguồn phải có `DAPAN_KIEMCHUNG/`, `DeThiOCR/PHAN_LOAI_THEO_CHUONG/` và `TONGQUANKIENTHUC/NMMMH_Phan_loai_kien_thuc.json`. Bổ sung/sửa câu tại nguồn rồi chạy importer, kiểm tra báo cáo và commit dữ liệu sinh ra để GitHub Pages cập nhật.
+
+Importer đọc `excluded_exams.json` trước khi tạo đề, nhóm trùng, báo cáo và CSV đáp án. Vì vậy chạy lại sẽ không tự đưa K16-1 trở lại website. Nếu muốn khôi phục, bỏ ID này khỏi danh sách loại rồi nhập lại từ nguồn vẫn còn nguyên.
 
 Kiểm tra dữ liệu và trình duyệt, sau khi chạy HTTP server:
 

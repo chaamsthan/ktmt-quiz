@@ -5,6 +5,7 @@ Usage: uv run --with playwright==1.60.0 python tools/test_nmmmh.py --url http://
 Runs in a fresh browser context and does not modify the source dataset.
 """
 import argparse
+import csv
 import json
 import tempfile
 from pathlib import Path
@@ -45,14 +46,23 @@ def data_checks():
                         assert (WEB / path).is_file()
                         assets.add(path)
         rows.extend(questions)
-    assert len(rows) == 212 and len({q["id"] for q in rows}) == 212
-    assert sum(bool(q["correct_answer"]) for q in rows) == 164
-    assert sum(q["needs_review"] for q in rows) == 50
-    assert len(assets) == 32
-    assert [c["unique_count"] for c in report["aggregate"]] == [9, 49, 96, 20, 5, 8]
-    assert sum(c["excluded_duplicates"] for c in report["aggregate"]) == 25
-    assert len([g for g in report["duplicate_groups"] if g["status"] == "confirmed"]) == 17
-    assert len([g for g in report["duplicate_groups"] if g["status"] == "potential"]) == 2
+    assert len(manifest["exams"]) == 5
+    assert not any(e["id"] == "de-thi-k16-1" for e in manifest["exams"])
+    assert not (WEB / "subjects/nmmmh/exams/de-thi-k16-1.json").exists()
+    assert not any(q["source_exam_id"] == "de-thi-k16-1" for q in rows)
+    assert len(rows) == 173 and len({q["id"] for q in rows}) == 173
+    assert sum(bool(q["correct_answer"]) for q in rows) == 149
+    assert sum(q["needs_review"] for q in rows) == 24
+    assert len(assets) == 28
+    assert {str(p.relative_to(WEB)) for p in (WEB / "images/nmmmh").iterdir() if p.is_file()} == assets
+    assert [c["unique_count"] for c in report["aggregate"]] == [7, 41, 83, 18, 4, 0]
+    assert sum(c["excluded_duplicates"] for c in report["aggregate"]) == 20
+    assert len([g for g in report["duplicate_groups"] if g["status"] == "confirmed"]) == 15
+    assert len([g for g in report["duplicate_groups"] if g["status"] == "potential"]) == 1
+    with (WEB / "subjects/nmmmh/answers.csv").open(encoding="utf-8-sig", newline="") as answer_csv:
+        answer_rows = list(csv.DictReader(answer_csv))
+    assert len(answer_rows) == 173
+    assert not any(r["de"] == "de-thi-k16-1" for r in answer_rows)
     by_id = {q["id"]: q for q in rows}
     for group in report["duplicate_groups"]:
         members = [by_id[s["id"]] for s in group["sources"]]
@@ -63,7 +73,7 @@ def data_checks():
     k16_3 = [q for q in rows if q["source_exam_id"] == "de-thi-k16-3"]
     assert [q["source_question_number"] for q in k16_3] == [str(i) for i in range(2021, 2061)]
     assert next(e for e in manifest["exams"] if e["id"] == "de-thi-k16-3")["year"] is None
-    print("PASS data: 6 exams, 212 records, 164 verified answers, 50 review records, 32 images; aggregate removes 25 duplicate copies", flush=True)
+    print("PASS data: K16-1 excluded; 5 exams, 173 records, 149 verified answers, 24 review records, 28 images; aggregate removes 20 duplicate copies", flush=True)
     return assets
 
 
@@ -116,9 +126,11 @@ def browser_checks(url, artifacts, assets):
 
         page.locator('.subject-nav a[href="#subject=nmmmh"]').click()
         page.wait_for_selector("#aggregate-form")
-        assert page.locator(".exam-detail-card").count() == 6
-        assert value("nmmmh.questions.length") == 212
-        assert value("nmmmhPool('all', '2').length") == 49
+        assert page.locator(".exam-detail-card").count() == 5
+        assert "de-thi-k16-1" not in page.locator(".nmmmh-exams").inner_text()
+        assert value("nmmmh.questions.length") == 173
+        assert value("nmmmh.questions.every(q => q.source_exam_id !== 'de-thi-k16-1')")
+        assert value("nmmmhPool('all', '2').length") == 41
         assert value("richBlocksHtml([{type:'image',src:'images/nmmmh/test.png'}], false).includes('<img')")
         assert not value("richBlocksHtml([{type:'image',src:'images/nmmmh/test.png'}], false).includes('<a ')")
         assert value("state.persisted.bookmarks.has('1.1')")
@@ -126,7 +138,11 @@ def browser_checks(url, artifacts, assets):
         for asset in assets:
             response = context.request.get(url + asset)
             assert response.ok, f"Missing asset: {asset}"
-        print("PASS assets: all 32 source images load through relative project paths", flush=True)
+        print("PASS assets: all 28 retained source images load through relative project paths", flush=True)
+        goto("#subject=nmmmh&exam=de-thi-k16-1&chapter=all&action=start", ".error-card")
+        assert "Mã đề không tồn tại" in page.locator(".error-card").inner_text()
+        page.locator(".error-card a").click()
+        page.wait_for_selector("#aggregate-form")
 
         goto("#subject=nmmmh&exam=de-thi-k16-3&chapter=all&action=start", ".question-card")
         assert value("state.quiz.questions.length") == 40
@@ -214,11 +230,12 @@ def browser_checks(url, artifacts, assets):
         page.locator("#aggregate-chapter").select_option("2")
         page.locator("#aggregate-random").check()
         page.locator('#aggregate-form button[type="submit"]').click()
-        assert value("state.quiz.questions.length") == 49
+        assert value("state.quiz.questions.length") == 41
         assert value("state.quiz.context.scope_kind") == "all_exams_chapter"
         assert value("state.quiz.context.exam") == "Tất cả đề"
         assert value("state.quiz.randomize")
-        assert value("new Set(state.quiz.questions.map(q => q.source_exam_id)).size") == 6
+        assert value("new Set(state.quiz.questions.map(q => q.source_exam_id)).size") == 5
+        assert value("state.quiz.questions.every(q => q.source_exam_id !== 'de-thi-k16-1')")
         assert value("(() => {const keys=state.quiz.questions.map(q=>q.duplicate_status==='confirmed'?q.duplicate_group:q.id);return new Set(keys).size===keys.length;})()")
         assert "Nguồn:" in page.locator(".source-meta").inner_text()
         page.locator("#finish-now").click()
@@ -227,15 +244,15 @@ def browser_checks(url, artifacts, assets):
         page.evaluate("startNmmmhQuiz('de-thi-k16-3', 'all', 'study', true)")
         assert not value("state.quiz.randomize")
         assert value("state.quiz.questions.map(q => q.source_question_number)") == [str(i) for i in range(2021, 2061)]
-        goto("#subject=nmmmh&exam=all&chapter=unclassified&action=start", ".question-card")
-        assert value("state.quiz.questions.length") == 8
-        assert page.locator(".option-btn:disabled").count() == 4
+        goto("#subject=nmmmh&exam=de-thi-nmmmh&chapter=1&action=start", ".question-card")
+        assert value("state.quiz.questions.length") == 1
+        assert value("state.quiz.questions[0].correct_answer") is None
         page.locator("#finish-now").click()
         assert page.locator(".score-card strong").inner_text() == "Chưa chấm"
         assert value("state.persisted.history.at(-1).score") is None
         assert value("state.persisted.history.at(-1).graded") == 0
         assert page.locator("#review-wrong").is_disabled()
-        print("PASS three scopes: full exam order, 11-question exam chapter, 49-question deduplicated aggregate; empty-key group is ungraded, not 0/10", flush=True)
+        print("PASS three scopes: full exam order, 11-question exam chapter, 41-question deduplicated aggregate; no K16-1 questions; unknown-key group is ungraded, not 0/10", flush=True)
 
         goto("#subject=nmmmh", "#aggregate-form")
         page.locator("#nmmmh-bookmarks").click()

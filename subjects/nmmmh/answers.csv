@@ -92,45 +92,6 @@ de-thi-mat-ma-2021-trac-nghiem,37,,B,ambiguous_wording,True,"Hệ khóa công kh
 de-thi-mat-ma-2021-trac-nghiem,38,A,A,verified,False,"Độ dài băm cố định, không phụ thuộc chiều dài đầu vào."
 de-thi-mat-ma-2021-trac-nghiem,39,D,D,verified,False,Các định nghĩa đúng theo tài liệu môn.
 de-thi-mat-ma-2021-trac-nghiem,40,A,A,verified,False,"Jacobi(11,17)=-1;11 không phải thặng dư."
-de-thi-k16-1,1,,"B,C",multiple_valid_options,True,"(11/17)=-1 và(156/231)=0 do gcd>1; B,C đều sai."
-de-thi-k16-1,2,,"A,B",multiple_valid_options,True,"A,B đúng với c11152; C nhầm m1731."
-de-thi-k16-1,3,D,D,verified,False,Ba mô tả kháng va chạm/tiền ảnh2/tiền ảnh đều đúng.
-de-thi-k16-1,4,D,D,verified,False,"Khóa công khai đã hoán vị=(319,650,250,477,29,105)."
-de-thi-k16-1,5,A,A,verified,False,φ(969)=576.
-de-thi-k16-1,6,C,C,verified,False,03·A9=E0 hex.
-de-thi-k16-1,7,A,A,verified,True,"P_C=[(2,7),(10,9)]."
-de-thi-k16-1,8,B,B,verified,False,Các số trong B thuộc cùng một lớp đồng dư.
-de-thi-k16-1,9,,,insufficient_data,True,"Thân câu hỏi nói về nghịch đảo a*b=e, nhưng không có A–D nên không gán chữ cái."
-de-thi-k16-1,10,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,11,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,12,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,13,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,14,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,15,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,16,,,insufficient_data,True,Không có thân đề. Tọa độ còn lại không đủ xác định phép tính.
-de-thi-k16-1,17,B,B,verified,False,P(C) cho0111011 ở các vị trí dấu?.
-de-thi-k16-1,18,C,C,verified,False,"Khóa công khai đúng=(713,367), không phải(660,367)."
-de-thi-k16-1,19,A,A,verified,False,Digest có độ dài cố định.
-de-thi-k16-1,20,D,D,verified,True,"i=1 cho d=1,r=96,c=8."
-de-thi-k16-1,21,C,C,verified,False,"Lịch dịch1 ở1,2,9,16. Mô tả C đúng."
-de-thi-k16-1,22,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,23,,,missing_question,True,Không có câu hỏi trong nguồn ảnh.
-de-thi-k16-1,24,,,insufficient_data,True,"Thân đề vàA/B bị cắt, không xác định được phát biểu cần chọn."
-de-thi-k16-1,25,,,no_valid_option,True,DOCX ghi ADDHCM; các ma trận A–D không sinh bản mã này. D sinh ADDHOM. Nguồn ảnh mờ nên cần xác nhận C/O.
-de-thi-k16-1,26,,,no_valid_option,True,DOCX ghi seedSON và các lựa chọnKXH...; Autokey cho KEHATAIPK. Ảnh gốc có dấu hiệu OCR saiSUN/SON vàKKH/KXH. Chưa chốt.
-de-thi-k16-1,27,,,insufficient_data,True,"Chỉ đọc được A, ba phương án khác bị cắt. Không loại trừ tất cả phương án đúng."
-de-thi-k16-1,28,,,insufficient_data,True,Thân đề và A/B bị cắt; không xác định được câu hỏi yêu cầu đúng hay sai.
-de-thi-k16-1,29,A,A,verified,False,ord29(17)=4.
-de-thi-k16-1,30,C,C,verified,False,"gcd(117,391)=1."
-de-thi-k16-1,31,D,D,verified,False,Ba phát biểu đúng; D là lựa chọn tổng hợp.
-de-thi-k16-1,32,,,insufficient_data,True,"Cặp rõ-mã nhìn thấy cho khóa(3,4) nhưng không có A–D."
-de-thi-k16-1,33,,,insufficient_data,True,"Chỉ có C/D, thân đề và A/B bị cắt."
-de-thi-k16-1,34,D,D,verified,False,Ba khái niệm quản lý/chứng thực/thỏa thuận khóa đúng theo học phần.
-de-thi-k16-1,35,,"B,C",multiple_valid_options,True,"β=89 và bản mã(28,192) đều đúng, A sai."
-de-thi-k16-1,36,,,insufficient_data,True,"C chỉ còn một phần, D và thân câu chưa đủ."
-de-thi-k16-1,33-HP,,D,ambiguous_wording,True,"Hệ khóa công khai không thay thế hoàn toàn khóa bí mật. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
-de-thi-k16-1,34-HP,,"A,B",multiple_valid_options,True,"Nguồn nói trùng nguyên văn câu2, có thể đối chiếu A/B đúng như câu2; file không lặp lại phương án."
-de-thi-k16-1,35-HP,,,insufficient_data,True,Có thể tínhS1(110101)=0011 nhưng thiếuA–D và hàng4 của hình.
 de-thi-k16-2,1,B,B,verified,False,"Khóa hoán vị=(319,650,250,477,29,105)."
 de-thi-k16-2,2,B,B,verified,False,Mã dòng không đơn thuần thay thế mã khối để tăng an toàn.
 de-thi-k16-2,3,B,B,verified,False,10^(5·8) mod541=366.

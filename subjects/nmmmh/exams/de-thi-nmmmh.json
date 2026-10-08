@@ -1370,13 +1370,6 @@
         "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
         "source_question_number": "31",
         "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-k16-1-5",
-        "source_exam_id": "de-thi-k16-1",
-        "source_exam_code": "de-thi-k16-1",
-        "source_question_number": "5",
-        "source_file": "de-thi-k16-1.docx"
       }
     ]
   },
@@ -2030,13 +2023,6 @@
         "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
         "source_question_number": "9",
         "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-k16-1-30",
-        "source_exam_id": "de-thi-k16-1",
-        "source_exam_code": "de-thi-k16-1",
-        "source_question_number": "30",
-        "source_file": "de-thi-k16-1.docx"
       }
     ]
   },
@@ -2479,13 +2465,6 @@
         "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
         "source_question_number": "38",
         "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-k16-1-19",
-        "source_exam_id": "de-thi-k16-1",
-        "source_exam_code": "de-thi-k16-1",
-        "source_question_number": "19",
-        "source_file": "de-thi-k16-1.docx"
       },
       {
         "id": "nmmmh-de-thi-k16-2-34",
@@ -3195,13 +3174,6 @@
         "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
       },
       {
-        "id": "nmmmh-de-thi-k16-1-33-HP",
-        "source_exam_id": "de-thi-k16-1",
-        "source_exam_code": "de-thi-k16-1",
-        "source_question_number": "33-HP",
-        "source_file": "de-thi-k16-1.docx"
-      },
-      {
         "id": "nmmmh-de-thi-k16-2-40",
         "source_exam_id": "de-thi-k16-2",
         "source_exam_code": "de-thi-k16-2",
@@ -3315,27 +3287,11 @@
     },
     "source_exam_code": "De_thi_NMMMH",
     "content_fingerprint": "8227f63c824a31fe20be29d4928252ababd034c71ceacc2f25ebc5a2750aea46",
-    "duplicate_group": "e056fbf6f6ebdda1a292578b612b48d6276975e22771dbef7c03576927cd810e",
-    "duplicate_status": "potential",
+    "duplicate_group": null,
+    "duplicate_status": null,
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "classification_needs_review": true,
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-29",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "29",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-k16-1-2",
-        "source_exam_id": "de-thi-k16-1",
-        "source_exam_code": "de-thi-k16-1",
-        "source_question_number": "2",
-        "source_file": "de-thi-k16-1.docx"
-      }
-    ]
+    "classification_needs_review": true
   },
   {
     "id": "nmmmh-de-thi-nmmmh-30",

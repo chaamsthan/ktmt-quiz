@@ -5,6 +5,7 @@ This only writes subjects/nmmmh and images/nmmmh. Original questions.json and
 exam_sets.json stay intact. Every exam is written and logged before the next.
 """
 import argparse
+import csv
 import hashlib
 import json
 import re
@@ -57,6 +58,16 @@ def main():
     exams=json.loads((stage/'exams.json').read_text())
     source_map={(q['source_file'],q['source_question_number']):q for q in classified['questions']}
     assert len(questions)==len(source_map) and len({q['id'] for q in questions})==len(questions)
+    # Publication exclusions live in the website, not in the original DOCX
+    # or approved answer bank. Re-importing must not restore a removed exam.
+    exclusions_file=WEB/'subjects/nmmmh/excluded_exams.json'
+    exclusions=json.loads(exclusions_file.read_text()) if exclusions_file.is_file() else {}
+    excluded=set(exclusions.get('excluded_exam_ids',[]))
+    known_exam_ids={e['id'] for e in exams}
+    assert excluded <= known_exam_ids, f'Unknown excluded exams: {excluded-known_exam_ids}'
+    exams=[e for e in exams if e['id'] not in excluded]
+    included={e['id'] for e in exams}
+    questions=[q for q in questions if q['source_exam_id'] in included]
     for q in questions:
         original=source_map[(q['source_file'],q['source_question_number'])]
         assert q['chapter_parent']==original['chapter_parent'] and q['chapter_child']==original['chapter_child']
@@ -67,6 +78,7 @@ def main():
         q['source_exam_code']=Path(q['source_file']).stem
         q['duplicate_group']=None
         q['duplicate_status']=None
+        q.pop('duplicate_sources',None)
         q['content_fingerprint']=fingerprint(q)
         q['classification_needs_review']=bool(q['chapter_child'] and q['chapter_child']['source']!='knowledge_tree')
         for holder in [q]+[q[l] for l in 'ABCD']:
@@ -140,12 +152,20 @@ def main():
             if key not in seen:unique.append(q);seen.add(key)
         aggregate.append({'chapter_id':c['id'],'chapter':c['label'],'raw_count':len(pool),'unique_count':len(unique),'excluded_duplicates':len(pool)-len(unique),'graded_count':sum(bool(q['correct_answer']) for q in unique)})
     reviews=[{'id':q['id'],**source_reference(q),'chapter':q['chapter'],'reasons':q['review_reasons'],'answer_status':q['answer_audit']['status']} for q in questions if q['needs_review']]
-    report={'exam_count':len(catalog),'record_count':len(questions),'readable_count':sum(not q.get('source_missing') for q in questions),'graded_count':sum(bool(q['correct_answer']) for q in questions),'review_count':len(reviews),'exams':catalog,'aggregate':aggregate,'duplicate_groups':duplicate_report,'needs_review':reviews}
+    report={'exam_count':len(catalog),'record_count':len(questions),'readable_count':sum(not q.get('source_missing') for q in questions),'graded_count':sum(bool(q['correct_answer']) for q in questions),'review_count':len(reviews),'excluded_exam_ids':sorted(excluded),'exams':catalog,'aggregate':aggregate,'duplicate_groups':duplicate_report,'needs_review':reviews}
     save(target/'manifest.json',{'id':'nmmmh','name':'Mật mã học','chapters':chapters,'exams':catalog,'answer_policy':'approved_verified_solutions'})
     save(target/'import_report.json',report)
     save(target/'needs_review.json',reviews)
-    # Keep the UTF-8 BOM for Excel while normalizing source CRLF to LF.
-    (target/'answers.csv').write_text((stage/'answers.csv').read_text(encoding='utf-8'),encoding='utf-8')
+    # Export only published exams. Preserve Excel's UTF-8 BOM and LF endings.
+    with (stage/'answers.csv').open(encoding='utf-8-sig',newline='') as source_csv:
+        reader=csv.DictReader(source_csv)
+        fieldnames=reader.fieldnames
+        answer_rows=[row for row in reader if row['de'] in included]
+    assert len(answer_rows)==len(questions)
+    with (target/'answers.csv').open('w',encoding='utf-8-sig',newline='') as output_csv:
+        writer=csv.DictWriter(output_csv,fieldnames=fieldnames,lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(answer_rows)
     (target/'answers.csv').chmod(0o644)
     lines=['# Báo cáo nạp môn Mật mã học','',f'{len(catalog)} đề; {len(questions)} bản ghi; {report["readable_count"]} câu có nội dung; {report["graded_count"]} câu có đáp án kiểm chứng.','', 'Đáp án tự giải/đối chiếu đã được người dùng chấp thuận để chấm. Câu chưa chốt không tính điểm. Nhãn chương con được giữ đúng file phân loại; nhãn đề xuất có cờ classification_needs_review.','', '| Mã đề nguồn | Tổng | C1 | C2 | C3 | C4 | C5 | Chưa phân loại | Có đáp án | Cần rà soát |','|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|']
     for e in catalog:lines.append('| '+e['source_exam_code']+' | '+ ' | '.join(str(n) for n in [e['question_count'],*[e['chapter_counts'][c['id']] for c in chapters],e['graded_count'],e['review_count']])+' |')
@@ -155,7 +175,11 @@ def main():
     for group in duplicate_report:lines.append('- '+group['status']+': '+', '.join(f'{r["source_exam_code"]} / câu {r["source_question_number"]}' for r in group['sources']))
     lines+=['','## Cần rà soát','']
     for row in reviews:lines.append(f'- {row["source_exam_code"]} / câu {row["source_question_number"]}: '+ '; '.join(row['reasons']))
-    lines+=['','## Ba màn hình mẫu','', '- Cả đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=all&action=start', '- Chương trong đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=2&action=start', '- Chương trong tất cả đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=all&chapter=2&action=start','', 'K16-1 có 8 vị trí thiếu thân câu (10–15,22–23), cùng ba câu biến thể33-HP,34-HP,35-HP. Cả đề giữ đủ39 bản ghi và số câu nguồn, kể cả các vị trí cần bổ sung.']
+    lines+=['','## Ba màn hình mẫu','', '- Cả đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=all&action=start', '- Chương trong đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=2&action=start', '- Chương trong tất cả đề: https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=all&chapter=2&action=start']
+    if 'de-thi-k16-1' in included:
+        lines+=['', 'K16-1 có 8 vị trí thiếu thân câu (10–15,22–23), cùng ba câu biến thể33-HP,34-HP,35-HP. Cả đề giữ đủ39 bản ghi và số câu nguồn, kể cả các vị trí cần bổ sung.']
+    if excluded:
+        lines+=['', 'Đề không xuất bản trên web: '+', '.join(sorted(excluded))+'. DOCX và bộ đáp án nguồn vẫn được giữ nguyên.']
     (target/'REPORT.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print('Total',len(questions),'records;',len(duplicate_report),'duplicate groups;',len(reviews),'review records')
 

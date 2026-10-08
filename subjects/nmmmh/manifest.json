@@ -122,34 +122,6 @@
       }
     },
     {
-      "id": "de-thi-k16-1",
-      "source_file": "de-thi-k16-1.docx",
-      "title": "THI KTHP 2020–2021. LẦN 1",
-      "source_headings": [
-        "THI KTHP 2020–2021. LẦN 1",
-        "TRẮC NGHIỆM",
-        "Môn: An toàn / mật mã học (đề trắc nghiệm trên máy)"
-      ],
-      "question_count": 39,
-      "images": 4,
-      "source_exam_code": "de-thi-k16-1",
-      "subject": "Mật mã học",
-      "year": "2020–2021",
-      "attempt": 1,
-      "question_file": "subjects/nmmmh/exams/de-thi-k16-1.json",
-      "graded_count": 15,
-      "review_count": 26,
-      "readable_count": 31,
-      "chapter_counts": {
-        "1": 2,
-        "2": 8,
-        "3": 16,
-        "4": 4,
-        "5": 1,
-        "unclassified": 8
-      }
-    },
-    {
       "id": "de-thi-k16-2",
       "source_file": "de-thi-k16-2.docx",
       "title": "ĐỀ THI KẾT THÚC HỌC PHẦN",
