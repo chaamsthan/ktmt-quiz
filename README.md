@@ -29,6 +29,26 @@ uv run --with pymupdf --with vietnamese python extract_questions.py
 
 Đáp án trong JSON được lấy từ vùng highlight vàng có sẵn trong PDF (`answer_evidence: highlighted_in_source_pdf`). Các câu không có bằng chứng đáp án sẽ có `correct_answer: null` và `needs_review: true`.
 
+### Chương 2 KTMT đã đối chiếu lại với PDF
+
+59 câu chương 2 được đọc lại trực tiếp từ hình trang PDF 6–16. Nhãn A–D được giữ theo chữ in trong nguồn, kể cả khi PDF sắp hai cột; không lấy thứ tự từ luồng văn bản PDF. Sáu đáp án sửa lại theo highlight: 2.10 → D, 2.15 → C, 2.19 → B, 2.34 → C, 2.45 → B, 2.57 → D.
+
+- `tools/ktmt_chapter2_source.json`: bản chép đã đối chiếu từng câu, công thức, lựa chọn và đáp án tô vàng.
+- `images/ktmt/chapter-2/`: ba sơ đồ (2.7, 2.8, 2.18) và ba bảng (2.15, 2.17, 2.19), cắt đúng vùng nguồn ở 252 dpi. Bấm ảnh trong bài để mở kích thước đầy đủ.
+- `subjects/ktmt/chapter2_audit.json`: SHA-256 PDF, tọa độ nhãn đáp án và highlight, tọa độ cắt ảnh và các lưu ý nguồn.
+
+Số mũ dùng khối `math` với ký hiệu `^{...}`, được hiển thị bằng `<sup>` an toàn; giữ riêng dấu ×, ⊕, → và −. Câu 2.13, 2.31, 2.42 có mâu thuẫn/lỗi in ngay trong PDF: giữ nguyên nội dung và chấm theo highlight như nguồn, đồng thời hiện lưu ý sau khi trả lời. `needs_review` của các câu này đánh dấu lỗi nguồn, không có nghĩa là chưa xác định được highlight.
+
+Tái tạo riêng chương 2 (không thay đổi 241 câu còn lại):
+
+```bash
+uv run --with pymupdf python tools/rebuild_ktmt_chapter2.py --write
+uv run --with pymupdf python tools/rebuild_ktmt_chapter2.py
+uv run --with playwright==1.60.0 python tools/test_ktmt_chapter2.py --url http://127.0.0.1:8000/
+```
+
+Không chạy bộ trích xuất cũ để ghi đè bản chương 2 đã kiểm chứng; nếu tái tạo cả ngân hàng thì phải áp dụng lại bản chương 2 này. PDF nguồn giữ ở máy, không bị sửa hay đưa vào Git.
+
 ## Môn Mật mã học
 
 Môn mới dùng cùng HTML/CSS/JavaScript, máy chấm và khóa localStorage `ktmt-quiz-lab-v1` với KTMT. Dữ liệu KTMT trong `questions.json` và `exam_sets.json` không thay đổi.

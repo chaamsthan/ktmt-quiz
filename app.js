@@ -258,7 +258,7 @@ function renderQuiz() {
           <div class="question-meta"><span><span class="question-id">${escapeHtml(questionLabel(question))}</span> · ${escapeHtml(question.chapter)}</span><button id="bookmark" class="bookmark-btn ${marked ? "is-marked" : ""}" type="button">${marked ? "★ Đã đánh dấu" : "☆ Đánh dấu"}</button></div>
           ${nmmmhQuestionMeta(question)}
           ${question.subject_id === "nmmmh" ? `<div class="question-text">${question.question_blocks?.length ? richBlocksHtml(question.question_blocks) : escapeHtml(question.question)}</div>` : `<h2 class="question-text">${escapeHtml(question.question)}</h2>`}
-          ${question.question_image ? `<img class="question-image" src="${escapeHtml(question.question_image)}" alt="Sơ đồ minh họa cho câu ${escapeHtml(question.id)}" />` : ""}
+          ${question.question_image ? (question.source_visual ? `<a class="source-image-link" href="${escapeHtml(question.question_image)}" target="_blank" rel="noopener" title="Mở hình gốc để xem rõ"><img class="question-image" src="${escapeHtml(question.question_image)}" alt="${escapeHtml(question.source_visual.alt)}" /><span class="source-image-caption">Mở hình kích thước đầy đủ ↗</span></a>` : `<img class="question-image" src="${escapeHtml(question.question_image)}" alt="Sơ đồ minh họa cho câu ${escapeHtml(question.id)}" />`) : ""}
           <div class="options">${LETTERS.map((letter) => optionHtml(question, letter)).join("")}</div>
           ${feedbackHtml(question)}
           ${answerExplanation(question)}

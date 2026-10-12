@@ -156,8 +156,22 @@ function questionLabel(question) {
   return question.source_question_number ? `Câu ${question.source_question_number}` : question.id;
 }
 
+function mathTextHtml(value) {
+  const text = String(value ?? "");
+  let html = "";
+  let cursor = 0;
+  for (const match of text.matchAll(/([_^])\{([^{}]+)\}/g)) {
+    const tag = match[1] === "^" ? "sup" : "sub";
+    html += escapeHtml(text.slice(cursor, match.index));
+    html += `<${tag}>${escapeHtml(match[2])}</${tag}>`;
+    cursor = match.index + match[0].length;
+  }
+  return `<span class="source-math">${html}${escapeHtml(text.slice(cursor))}</span>`;
+}
+
 function richBlocksHtml(blocks = [], imageLinks = true) {
   return blocks.map((block) => {
+    if (block.type === "math") return mathTextHtml(block.text);
     if (block.type === "image") {
       const img = `<img class="question-image" src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt || "Hình nguồn")}" />`;
       // Options are already buttons; do not nest an interactive link in them.

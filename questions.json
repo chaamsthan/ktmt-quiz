@@ -1303,7 +1303,7 @@
   },
   {
     "id": "2.1",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số nguyên không dấu, 8 bit, giá trị biểu diễn số 261 là:",
     "A": {
       "text": "1001 0001",
@@ -1330,11 +1330,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 6 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 6,
+      "highlight": {
+        "letter": "D",
+        "page": 6,
+        "label_rect": [
+          466.675,
+          473.197,
+          476.46,
+          486.418
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            471.6,
+            532.44,
+            486.12
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.2",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số nguyên không dấu, 8 bit, giá trị biểu diễn số 132 là:",
     "A": {
       "text": "1001 0001",
@@ -1361,11 +1391,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 6 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 6,
+      "highlight": {
+        "letter": "B",
+        "page": 6,
+        "label_rect": [
+          466.675,
+          546.044,
+          476.46,
+          559.265
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            544.44,
+            532.44,
+            558.96
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.3",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số nguyên có dấu, 8 bit, giá trị biểu diễn số 129 là:",
     "A": {
       "text": "1001 0001",
@@ -1392,11 +1452,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 6 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 6,
+      "highlight": {
+        "letter": "D",
+        "page": 6,
+        "label_rect": [
+          466.675,
+          677.316,
+          476.46,
+          690.537
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            675.72,
+            532.44,
+            690.36
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.4",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số nguyên có dấu, 8 bit, giá trị biểu diễn số 124 là:",
     "A": {
       "text": "0111 1100",
@@ -1423,74 +1513,188 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 7 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 7,
+      "highlight": {
+        "letter": "A",
+        "page": 7,
+        "label_rect": [
+          127.675,
+          98.553,
+          136.74,
+          111.774
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            96.96,
+            196.08,
+            111.48
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.5",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Dải biễu diễn số nguyên không dấu, n bit trong máy tính là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Dải biểu diễn số nguyên không dấu, n bit trong máy tính là:",
     "A": {
-      "text": "0 -> 2.n",
+      "text": "0 → 2·n",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "0 -> 2.n - 1",
+      "text": "0 → 2·n − 1",
       "image": null,
       "source_label": "B"
     },
     "C": {
-      "text": "0 -> 2n - 1",
+      "text": "0 → 2^{n} − 1",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "0 → 2^{n} − 1"
+        }
+      ]
     },
     "D": {
-      "text": "0 -> 2n",
+      "text": "0 → 2^{n}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "0 → 2^{n}"
+        }
+      ]
     },
     "correct_answer": "C",
     "source_page": 7,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 7 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 7,
+      "highlight": {
+        "letter": "C",
+        "page": 7,
+        "label_rect": [
+          127.675,
+          229.719,
+          136.74,
+          242.94
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            228.12,
+            193.32,
+            242.76
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.6",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Dải biễu diễn số nguyên có dấu, n bit trong máy tính là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Dải biểu diễn số nguyên có dấu, n bit trong máy tính là:",
     "A": {
-      "text": "- 2(n - 1) -> 2 (n - 1)",
+      "text": "−2(n − 1) → 2(n − 1)",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "- 2.n - 1 -> 2.n +1",
+      "text": "−2·n − 1 → 2·n + 1",
       "image": null,
       "source_label": "B"
     },
     "C": {
-      "text": "- 2n - 1 - 1-> 2n - 1 - 1",
+      "text": "−2^{n − 1} − 1 → 2^{n − 1} − 1",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "−2^{n − 1} − 1 → 2^{n − 1} − 1"
+        }
+      ]
     },
     "D": {
-      "text": "- 2n - 1 -> 2n -1 - 1",
+      "text": "−2^{n − 1} → 2^{n − 1} − 1",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "−2^{n − 1} → 2^{n − 1} − 1"
+        }
+      ]
     },
     "correct_answer": "D",
     "source_page": 7,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 7 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 7,
+      "highlight": {
+        "letter": "D",
+        "page": 7,
+        "label_rect": [
+          364.926,
+          302.672,
+          374.842,
+          315.893
+        ],
+        "yellow_rects": [
+          [
+            364.92,
+            301.08,
+            465.6,
+            315.6
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.7",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Sơ đồ dưới đây là thuật toán thực hiện: Start C:=0; A:=0; Bộ đếm:=n M chứa số bị nhân Q chứa số nhân Q0 = 1? C,A:=A+M Dịch phải C, A, Q Dec(Bộ đếm) Bộ đếm = 0? End Đúng Sai Đúng Sai",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Sơ đồ dưới đây là thuật toán thực hiện:",
     "A": {
       "text": "Phép chia số nguyên không dấu",
       "image": null,
@@ -1507,21 +1711,63 @@
       "source_label": "C"
     },
     "D": {
-      "text": "Phép chia số nguyên có dâu",
+      "text": "Phép chia số nguyên có dấu",
       "image": null,
       "source_label": "D"
     },
     "correct_answer": "B",
     "source_page": 7,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.7-diagram.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 7 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 7,
+      "highlight": {
+        "letter": "B",
+        "page": 7,
+        "label_rect": [
+          127.675,
+          659.798,
+          137.46,
+          673.019
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            658.2,
+            311.4,
+            672.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 7,
+      "rect": [
+        236,
+        400,
+        392,
+        624
+      ],
+      "kind": "diagram",
+      "alt": "Sơ đồ thuật toán câu 2.7, giữ nguyên các nhánh, thanh ghi C, A, Q và bộ đếm.",
+      "src": "images/ktmt/chapter-2/q-2.7-diagram.png"
+    }
   },
   {
     "id": "2.8",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Sơ đồ dưới đây là thuật toán thực hiện: Start A:=0; Q-1:=0; Bộ đếm:=n M chứa số bị nhân Q chứa số nhân Q0, Q-1 A:= A + M Dịch phải A, Q, Q-1 Dec(Bộ đếm) Bộ đếm = 0? End Đúng Sai A:= A - M = 01 = 10 = 11 = 00 Lưu ý: An-1 được tái tạo",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Sơ đồ dưới đây là thuật toán thực hiện:",
     "A": {
       "text": "Phép nhân số nguyên không dấu",
       "image": null,
@@ -1544,15 +1790,57 @@
     },
     "correct_answer": "B",
     "source_page": 8,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.8-diagram.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 8 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 8,
+      "highlight": {
+        "letter": "B",
+        "page": 8,
+        "label_rect": [
+          127.675,
+          361.241,
+          137.46,
+          374.462
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            359.64,
+            290.76,
+            374.28
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 8,
+      "rect": [
+        198,
+        109,
+        431,
+        328
+      ],
+      "kind": "diagram",
+      "alt": "Sơ đồ thuật toán câu 2.8, gồm Q₀, Q₋₁, các nhánh 01, 10, 11, 00 và ghi chú tái tạo Aₙ₋₁.",
+      "src": "images/ktmt/chapter-2/q-2.8-diagram.png"
+    }
   },
   {
     "id": "2.9",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Dấu và độ lớn”, giá trị biểu diễn số - 60 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Dấu và độ lớn”, giá trị biểu diễn số −60 là:",
     "A": {
       "text": "0000 1101",
       "image": null,
@@ -1578,12 +1866,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 8 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 8,
+      "highlight": {
+        "letter": "C",
+        "page": 8,
+        "label_rect": [
+          127.675,
+          463.36,
+          136.74,
+          476.581
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            461.76,
+            196.08,
+            476.28
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.10",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Dấu và độ lớn”, giá trị biểu diễn số - 256 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Dấu và độ lớn”, giá trị biểu diễn số −256 là:",
     "A": {
       "text": "1100 1110",
       "image": null,
@@ -1604,16 +1922,46 @@
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "source_page": 8,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 8 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 8,
+      "highlight": {
+        "letter": "D",
+        "page": 8,
+        "label_rect": [
+          500.521,
+          579.877,
+          510.436,
+          593.098
+        ],
+        "yellow_rects": [
+          [
+            500.52,
+            578.28,
+            510.48,
+            592.92
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.11",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Mã bù 2”, giá trị biểu diễn số 101 là:",
     "A": {
       "text": "0110 0101",
@@ -1640,12 +1988,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 8 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 8,
+      "highlight": {
+        "letter": "A",
+        "page": 8,
+        "label_rect": [
+          127.675,
+          667.479,
+          136.74,
+          680.7
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            665.88,
+            196.08,
+            680.52
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.12",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Mã bù 2”, giá trị biểu diễn số - 29 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Đối với số nguyên có dấu, 8 bit, dùng phương pháp “Mã bù 2”, giá trị biểu diễn số −29 là:",
     "A": {
       "text": "1000 0000",
       "image": null,
@@ -1671,11 +2049,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 9 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 9,
+      "highlight": {
+        "letter": "B",
+        "page": 9,
+        "label_rect": [
+          500.521,
+          127.719,
+          510.436,
+          140.94
+        ],
+        "yellow_rects": [
+          [
+            500.52,
+            126.12,
+            510.48,
+            140.64
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.13",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Có biểu diễn “1110 0010” đối với số nguyên có dấu, 8 bit, dùng phương pháp “Dấu và độ lớn”, giá trị của nó là:",
     "A": {
       "text": "136",
@@ -1688,25 +2096,55 @@
       "source_label": "B"
     },
     "C": {
-      "text": "- 30",
+      "text": "−30",
       "image": null,
       "source_label": "C"
     },
     "D": {
-      "text": "- 136",
+      "text": "−136",
       "image": null,
       "source_label": "D"
     },
     "correct_answer": "C",
     "source_page": 9,
     "question_image": null,
-    "needs_review": false,
-    "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "needs_review": true,
+    "review_reason": "Giữ nguyên câu hỏi và đáp án C được tô vàng trong PDF. Nguồn có mâu thuẫn: 1110 0010 theo dấu và độ lớn là −98, nhưng các lựa chọn của PDF không có −98.",
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 9 của PDF nguồn.\nLưu ý nguồn: Giữ nguyên câu hỏi và đáp án C được tô vàng trong PDF. Nguồn có mâu thuẫn: 1110 0010 theo dấu và độ lớn là −98, nhưng các lựa chọn của PDF không có −98."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 9,
+      "highlight": {
+        "letter": "C",
+        "page": 9,
+        "label_rect": [
+          127.675,
+          273.52,
+          136.74,
+          286.741
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            271.92,
+            160.92,
+            286.44
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.14",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Có biểu diễn “1100 1000” đối với số nguyên có dấu, 8 bit, dùng phương pháp “Mã bù 2”, giá trị của nó là:",
     "A": {
       "text": "Không tồn tại",
@@ -1714,7 +2152,7 @@
       "source_label": "A"
     },
     "B": {
-      "text": "- 56",
+      "text": "−56",
       "image": null,
       "source_label": "B"
     },
@@ -1733,45 +2171,117 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 9 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 9,
+      "highlight": {
+        "letter": "B",
+        "page": 9,
+        "label_rect": [
+          466.675,
+          361.003,
+          476.46,
+          374.224
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            359.4,
+            500.64,
+            374.04
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.15",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Bảng dưới đây mô tả quá trình thực hiệnphép tính: A Q Q-1 M 0000 0011 0 1001 Giá trị khởi tạo 0111 0011 0 1001 A A - M 0011 1001 1 1001 SHR A, Q, Q-1 0001 1100 1 1001 SHR A, Q, Q-1 1010 1100 1 1001 A A + M 1101 0110 0 1001 SHR A, Q, Q-1 1110 1011 1 1001 SHR A, Q, Q-1",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Bảng dưới đây mô tả quá trình thực hiện phép tính:",
     "A": {
-      "text": "3  9 = 27",
+      "text": "3 × 9 = 27",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "(-7)  3 = -21",
-      "image": null,
-      "source_label": "C"
-    },
-    "C": {
-      "text": "15  9 = 135",
+      "text": "15 × 9 = 135",
       "image": null,
       "source_label": "B"
     },
+    "C": {
+      "text": "(−7) × 3 = −21",
+      "image": null,
+      "source_label": "C"
+    },
     "D": {
-      "text": "5  27 = 135",
+      "text": "5 × 27 = 135",
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "source_page": 9,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.15-table.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 9 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 9,
+      "highlight": {
+        "letter": "C",
+        "page": 9,
+        "label_rect": [
+          432.723,
+          669.277,
+          441.899,
+          682.498
+        ],
+        "yellow_rects": [
+          [
+            432.72,
+            666.24,
+            516.96,
+            682.44
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 9,
+      "rect": [
+        178,
+        518,
+        449,
+        655
+      ],
+      "kind": "table",
+      "alt": "Bảng câu 2.15 với các cột A, Q, Q₋₁, M và từng bước tính.",
+      "src": "images/ktmt/chapter-2/q-2.15-table.png"
+    }
   },
   {
     "id": "2.16",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Có biễu diễn “0000 0000 0010 0101” (dùng mã bù 2, có dấu), giá trị của chúng là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Có biểu diễn “0000 0000 0010 0101” (dùng mã bù 2, có dấu), giá trị của chúng là:",
     "A": {
-      "text": "-37",
+      "text": "−37",
       "image": null,
       "source_label": "A"
     },
@@ -1781,7 +2291,7 @@
       "source_label": "B"
     },
     "C": {
-      "text": "- 21",
+      "text": "−21",
       "image": null,
       "source_label": "C"
     },
@@ -1795,43 +2305,115 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 10 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 10,
+      "highlight": {
+        "letter": "B",
+        "page": 10,
+        "label_rect": [
+          500.521,
+          98.553,
+          510.436,
+          111.774
+        ],
+        "yellow_rects": [
+          [
+            500.52,
+            96.96,
+            526.8,
+            111.48
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.17",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Bảng dưới đây mô tả quá trình thực hiện phép tính: A Q M = 0011 1111 0101 Khởi tạo giá trị (số chia và bị chia khác dấu) 1110 1010 Dịch trái 1 bit A, Q 0001 M khác dấu A  A:= A + M 1110 1010 A khác dấu sau khi cộng  Q0 = 0 và phục hồi A 1101 0100 Dịch trái 1 bit A, Q 0000 M khác dấu A  A:= A + M 1101 0100 A khác dấu sau khi cộng  Q0 = 0 và phục hồi A 1010 1000 Dịch trái 1 bit A, Q 1101 M khác dấu A  A:= A + M 1101 1001 A cùng dấu sau khi cộng  Q0 = 1 1011 0010 Dịch trái 1 bit A, Q 1110 M khác dấu A  A:= A + M 1110 0011 A cùng dấu sau khi cộng  Q0=1.",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Bảng dưới đây mô tả quá trình thực hiện phép tính:",
     "A": {
-      "text": "245: 3 = 81, dư 2",
+      "text": "245 : 3 = 81, dư 2",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "59: 15 = 3, dư 14",
+      "text": "59 : 15 = 3, dư 14",
       "image": null,
       "source_label": "B"
     },
     "C": {
-      "text": "11: 3 = 3, dư 2",
+      "text": "11 : 3 = 3, dư 2",
       "image": null,
       "source_label": "C"
     },
     "D": {
-      "text": "(-11): 3 = (-3), dư (-2)",
+      "text": "(−11) : 3 = (−3), dư (−2)",
       "image": null,
       "source_label": "D"
     },
     "correct_answer": "D",
     "source_page": 10,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.17-table.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 10 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 10,
+      "highlight": {
+        "letter": "D",
+        "page": 10,
+        "label_rect": [
+          398.878,
+          430.123,
+          408.663,
+          443.344
+        ],
+        "yellow_rects": [
+          [
+            398.88,
+            428.52,
+            531.84,
+            443.04
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 10,
+      "rect": [
+        138,
+        168,
+        488,
+        401
+      ],
+      "kind": "table",
+      "alt": "Bảng câu 2.17 với các thanh ghi A, Q, M = 0011 và đầy đủ các bước tính.",
+      "src": "images/ktmt/chapter-2/q-2.17-table.png"
+    }
   },
   {
     "id": "2.18",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Sơ đồ dưới đây là thuật toán thực hiện: Start Bộ đếm:= n M chứa số chia (n bit) A,Q chứa số bị chia (2n bit) Dec(Bộ đếm) Bộ đếm = 0? End Đúng Sai Dịch trái A,Q đi 1 bit B:= A M, A cùng dấu? A:= A - M A:= A + M A, B cùng dấu hoặc A = Q = 0? Q0 = 1 Q0 = 0; A:= B Đúng Đúng Sai Sai",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Sơ đồ dưới đây là thuật toán thực hiện:",
     "A": {
       "text": "Phép nhân số nguyên không dấu",
       "image": null,
@@ -1854,45 +2436,129 @@
     },
     "correct_answer": "D",
     "source_page": 10,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.18-diagram.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 10,
+      "highlight": {
+        "letter": "D",
+        "page": 11,
+        "label_rect": [
+          127.675,
+          98.553,
+          137.46,
+          111.774
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            96.96,
+            287.04,
+            111.48
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 10,
+      "rect": [
+        208,
+        459,
+        417,
+        704
+      ],
+      "kind": "diagram",
+      "alt": "Sơ đồ thuật toán câu 2.18, giữ nguyên nhánh kiểm tra dấu, phép dịch, phục hồi A và cập nhật Q₀.",
+      "src": "images/ktmt/chapter-2/q-2.18-diagram.png"
+    }
   },
   {
     "id": "2.19",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Bảng dưới đây mô tả quá trình thực hiện phép tính: C A Q M 0 0000 1011 1100 Giá trị khởi tạo 0 1100 1011 1100 C, A A+M 0 0110 0101 1100 SHR C, A, Q 1 0010 0101 1100 C, A A+M 0 1001 0010 1100 SHR C, A, Q 0 0100 1001 1100 SHR C, A, Q 1 0000 1001 1100 C, A A+M 0 1000 0100 1100 SHR C, A, Q",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Bảng dưới đây mô tả quá trình thực hiện phép tính:",
     "A": {
-      "text": "4  19 = 76",
+      "text": "4 × 19 = 76",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "-4  31 = -124",
-      "image": null,
-      "source_label": "C"
-    },
-    "C": {
-      "text": "11  12 = 132",
+      "text": "11 × 12 = 132",
       "image": null,
       "source_label": "B"
     },
+    "C": {
+      "text": "−4 × 31 = −124",
+      "image": null,
+      "source_label": "C"
+    },
     "D": {
-      "text": "6  22 = 132",
+      "text": "6 × 22 = 132",
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "C",
+    "correct_answer": "B",
     "source_page": 11,
-    "question_image": null,
+    "question_image": "images/ktmt/chapter-2/q-2.19-table.png",
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "B",
+        "page": 11,
+        "label_rect": [
+          107.275,
+          328.242,
+          117.191,
+          341.463
+        ],
+        "yellow_rects": [
+          [
+            107.28,
+            325.2,
+            194.52,
+            341.4
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    },
+    "source_visual": {
+      "page": 11,
+      "rect": [
+        157,
+        154,
+        469,
+        296
+      ],
+      "kind": "table",
+      "alt": "Bảng câu 2.19 với các cột C, A, Q, M và đầy đủ các bước cộng, dịch.",
+      "src": "images/ktmt/chapter-2/q-2.19-table.png"
+    }
   },
   {
     "id": "2.20",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với các số 8 bit, không dấu. Hãy cho biết kết quả khi thực hiện phép cộng: 0100 0111 + 0101 1111:",
     "A": {
       "text": "146",
@@ -1919,11 +2585,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "B",
+        "page": 11,
+        "label_rect": [
+          500.521,
+          386.678,
+          510.436,
+          399.899
+        ],
+        "yellow_rects": [
+          [
+            500.52,
+            385.08,
+            510.48,
+            399.72
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.21",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với các số không dấu, phép cộng trên máy tính cho kết quả sai khi:",
     "A": {
       "text": "Cộng hai số dương, cho kết quả âm",
@@ -1950,11 +2646,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "C",
+        "page": 11,
+        "label_rect": [
+          127.675,
+          488.797,
+          136.74,
+          502.018
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            487.2,
+            282.96,
+            501.72
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.22",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với các số có dấu, phép cộng trên máy tính cho kết quả sai khi:",
     "A": {
       "text": "Cộng hai số dương, cho kết quả âm",
@@ -1981,11 +2707,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "D",
+        "page": 11,
+        "label_rect": [
+          127.675,
+          590.917,
+          137.46,
+          604.138
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            589.32,
+            189.36,
+            603.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.23",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số có dấu, phát biểu nào sau đây là sai:",
     "A": {
       "text": "Cộng hai số cùng dấu, tổng luôn đúng",
@@ -2012,11 +2768,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 11 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "A",
+        "page": 11,
+        "label_rect": [
+          127.675,
+          634.599,
+          136.74,
+          647.82
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            633.0,
+            340.32,
+            647.64
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.24",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số không dấu, phát biểu nào sau đây là đúng:",
     "A": {
       "text": "Khi thực hiện phép cộng, tổng luôn đúng",
@@ -2043,11 +2829,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 11,
+      "highlight": {
+        "letter": "D",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          113.083,
+          137.46,
+          126.304
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            111.48,
+            413.4,
+            126.12
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.25",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số không dấu, 8 bit, xét phép cộng: 240 + 27. Phát biểu nào sau đây là đúng:",
     "A": {
       "text": "Tổng là 267",
@@ -2074,12 +2890,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "B",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          186.037,
+          137.46,
+          199.258
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            184.44,
+            197.52,
+            198.96
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.26",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Đối với số có dấu, 8 bit, xét phép cộng: (-39) + (-42). Phát biểu nào sau đây là đúng:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Đối với số có dấu, 8 bit, xét phép cộng: (−39) + (−42). Phát biểu nào sau đây là đúng:",
     "A": {
       "text": "Không cho kết quả, vì tràn số",
       "image": null,
@@ -2091,7 +2937,7 @@
       "source_label": "B"
     },
     "C": {
-      "text": "Tổng là -81",
+      "text": "Tổng là −81",
       "image": null,
       "source_label": "C"
     },
@@ -2105,12 +2951,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "C",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          302.672,
+          136.74,
+          315.893
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            301.08,
+            201.24,
+            315.6
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.27",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Đối với số có dấu, 8 bit, xét phép cộng: (-73) + (-86). Phát biểu nào sau đây là đúng:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Đối với số có dấu, 8 bit, xét phép cộng: (−73) + (−86). Phát biểu nào sau đây là đúng:",
     "A": {
       "text": "Không cho kết quả, vì tràn số",
       "image": null,
@@ -2127,7 +3003,7 @@
       "source_label": "C"
     },
     "D": {
-      "text": "Tổng là -159",
+      "text": "Tổng là −159",
       "image": null,
       "source_label": "D"
     },
@@ -2136,11 +3012,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "C",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          404.804,
+          136.74,
+          418.025
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            403.2,
+            196.92,
+            417.72
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.28",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với số có dấu, 8 bit, xét phép cộng: 91 + 63. Phát biểu nào sau đây là đúng:",
     "A": {
       "text": "Không cho kết quả, vì tràn số",
@@ -2158,7 +3064,7 @@
       "source_label": "C"
     },
     "D": {
-      "text": "Tổng là -102",
+      "text": "Tổng là −102",
       "image": null,
       "source_label": "D"
     },
@@ -2167,104 +3073,296 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "D",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          521.44,
+          137.46,
+          534.661
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            519.84,
+            208.56,
+            534.36
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.29",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Một số thực X bất kỳ, có thể biểu diễn dưới dạng tổng quát như sau:",
     "A": {
-      "text": "X = (-1).S. M. RE",
+      "text": "X = (−1)·S · M · R^{E}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)·S · M · R^{E}"
+        }
+      ]
     },
     "B": {
-      "text": "X = (-1)S. M. R.E",
+      "text": "X = (−1)^{S} · M · R·E",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · M · R·E"
+        }
+      ]
     },
     "C": {
-      "text": "X = (-1)S. M. RE",
+      "text": "X = (−1)^{S} · M · R^{E}",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · M · R^{E}"
+        }
+      ]
     },
     "D": {
-      "text": "X = (-1)S. M. R.E",
+      "text": "X = (−1)^{S · M} · R·E",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S · M} · R·E"
+        }
+      ]
     },
     "correct_answer": "C",
     "source_page": 12,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 12 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "C",
+        "page": 12,
+        "label_rect": [
+          127.675,
+          594.275,
+          136.74,
+          607.496
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            592.68,
+            232.44,
+            607.32
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.30",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Cho hai số thực X1 và X2 biểu diễn dưới dạng tổng quát. Biểu diễn nào sau đây là đúng đối với phép nhân (X1. X2):",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Cho hai số thực X1 và X2 biểu diễn dưới dạng tổng quát. Biểu diễn nào sau đây là đúng đối với phép nhân (X1 · X2):",
     "A": {
-      "text": "X1. X2 = (-1)S1. S2. (M1.M2). RE1. E2",
+      "text": "X1 · X2 = (−1)^{S1 · S2} · (M1·M2) · R^{E1 · E2}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 · S2} · (M1·M2) · R^{E1 · E2}"
+        }
+      ]
     },
     "B": {
-      "text": "X1. X2 = (-1)S1 S2. (M1.M2). RE1. E2",
+      "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1·M2) · R^{E1 · E2}",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1·M2) · R^{E1 · E2}"
+        }
+      ]
     },
     "C": {
-      "text": "X1. X2 = (-1)S1+ S2. (M1.M2). RE1 + E2",
+      "text": "X1 · X2 = (−1)^{S1 + S2} · (M1·M2) · R^{E1 + E2}",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 + S2} · (M1·M2) · R^{E1 + E2}"
+        }
+      ]
     },
     "D": {
-      "text": "X1. X2 = (-1)S1 S2. (M1.M2). RE1 + E2",
+      "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1·M2) · R^{E1 + E2}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1·M2) · R^{E1 + E2}"
+        }
+      ]
     },
     "correct_answer": "D",
     "source_page": 12,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 12,
+      "highlight": {
+        "letter": "D",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          70.842,
+          137.46,
+          84.063
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            67.8,
+            344.52,
+            84.0
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.31",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": ". Cho hai số thực X1 và X2 biểu diễn dưới dạng tổng quát. Biểu diễn nào sau đây là đúng đối với phép chia (X1 / X2):",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Cho hai số thực X1 và X2 biểu diễn dưới dạng tổng quát. Biểu diễn nào sau đây là đúng đối với phép chia (X1 / X2):",
     "A": {
-      "text": "X1. X2 = (-1)S1/ S2. (M1/M2). RE1 - E2",
+      "text": "X1 · X2 = (−1)^{S1 / S2} · (M1/M2) · R^{E1 − E2}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 / S2} · (M1/M2) · R^{E1 − E2}"
+        }
+      ]
     },
     "B": {
-      "text": "X1. X2 = (-1)S1 S2. (M1/M2). RE1 - E2",
+      "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1/M2) · R^{E1 − E2}",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1/M2) · R^{E1 − E2}"
+        }
+      ]
     },
     "C": {
-      "text": "X1. X2 = (-1)S1 S2. (M1/M2). RE1 + E2",
+      "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1/M2) · R^{E1 + E2}",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 ⊕ S2} · (M1/M2) · R^{E1 + E2}"
+        }
+      ]
     },
     "D": {
-      "text": "X1. X2 = (-1)S1/ S2. (M1/M2). RE1 + E2",
+      "text": "X1 · X2 = (−1)^{S1 / S2} · (M1/M2) · R^{E1 + E2}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X1 · X2 = (−1)^{S1 / S2} · (M1/M2) · R^{E1 + E2}"
+        }
+      ]
     },
     "correct_answer": "B",
     "source_page": 13,
     "question_image": null,
-    "needs_review": false,
-    "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "needs_review": true,
+    "review_reason": "Giữ nguyên các công thức trong PDF: đề hỏi phép chia X1 / X2 nhưng vế trái cả bốn lựa chọn lại in X1 · X2. Đáp án B là phương án được tô vàng trong nguồn.",
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 13 của PDF nguồn.\nLưu ý nguồn: Giữ nguyên các công thức trong PDF: đề hỏi phép chia X1 / X2 nhưng vế trái cả bốn lựa chọn lại in X1 · X2. Đáp án B là phương án được tô vàng trong nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "B",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          145.356,
+          137.46,
+          158.577
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            142.32,
+            342.96,
+            158.4
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.32",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với chuẩn IEEE 754/85 về biểu diễn số thực, phát biểu nào sau đây là sai:",
     "A": {
       "text": "Có tất cả 3 dạng biểu diễn",
@@ -2291,11 +3389,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "C",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          263.684,
+          136.74,
+          276.905
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            262.08,
+            340.44,
+            276.6
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.33",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với chuẩn IEEE 754/85 về biểu diễn số thực, có các dạng sau:",
     "A": {
       "text": "Single, Double, Real",
@@ -2322,11 +3450,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "C",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          351.154,
+          136.74,
+          364.375
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            349.56,
+            317.4,
+            364.08
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.34",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Trong chuẩn IEEE 754/85, dạng đơn (single) có độ dài:",
     "A": {
       "text": "16 bit",
@@ -2348,16 +3506,46 @@
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "source_page": 13,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "C",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          424.001,
+          136.74,
+          437.222
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            422.4,
+            170.4,
+            436.92
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.35",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Trong chuẩn IEEE 754/85, dạng kép (double) có độ dài:",
     "A": {
       "text": "64 bit",
@@ -2384,11 +3572,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "A",
+        "page": 13,
+        "label_rect": [
+          127.675,
+          482.319,
+          136.74,
+          495.54
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            480.72,
+            170.4,
+            495.36
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.36",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Trong chuẩn IEEE 754/85, dạng kép mở rộng (double-extended) có độ dài:",
     "A": {
       "text": "128 bit",
@@ -2415,11 +3633,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "B",
+        "page": 13,
+        "label_rect": [
+          500.521,
+          569.922,
+          510.436,
+          583.143
+        ],
+        "yellow_rects": [
+          [
+            500.52,
+            568.32,
+            532.44,
+            582.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.37",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với dạng đơn (trong chuẩn IEEE 754/85), các bit dành cho các trường (S + E + M) là:",
     "A": {
       "text": "1 + 9 + 22",
@@ -2446,11 +3694,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 13 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 13,
+      "highlight": {
+        "letter": "B",
+        "page": 13,
+        "label_rect": [
+          466.675,
+          671.922,
+          476.46,
+          685.143
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            670.32,
+            532.44,
+            684.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.38",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với dạng kép (trong chuẩn IEEE 754/85), các bit dành cho các trường (S + E + M) là:",
     "A": {
       "text": "1 + 10 + 52",
@@ -2477,11 +3755,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "C",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          171.401,
+          136.74,
+          184.622
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            169.8,
+            201.12,
+            184.44
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.39",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Đối với dạng kép mở rộng (trong chuẩn IEEE 754/85), các bit dành cho các trường (S + E + M) là:",
     "A": {
       "text": "1 + 15 + 64",
@@ -2508,11 +3816,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "A",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          244.354,
+          136.74,
+          257.575
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            242.76,
+            201.12,
+            257.28
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.40",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Dạng biểu diễn IEEE 754/85 của số thực 73,625 là:",
     "A": {
       "text": "42 39 40 00 H",
@@ -2539,12 +3877,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "B",
+        "page": 14,
+        "label_rect": [
+          432.723,
+          331.957,
+          442.639,
+          345.178
+        ],
+        "yellow_rects": [
+          [
+            432.72,
+            330.36,
+            521.28,
+            344.88
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.41",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Dạng biểu diễn IEEE 754/85 của số thực - 53,125 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Dạng biểu diễn IEEE 754/85 của số thực −53,125 là:",
     "A": {
       "text": "2C E0 A0 00 H",
       "image": null,
@@ -2556,7 +3924,7 @@
       "source_label": "B"
     },
     "C": {
-      "text": "C2 54 80 00H",
+      "text": "C2 54 80 00 H",
       "image": null,
       "source_label": "C"
     },
@@ -2570,14 +3938,44 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "C",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          404.804,
+          136.74,
+          418.025
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            403.2,
+            217.2,
+            417.72
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.42",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Dạng biểu diễn IEEE 754/85 của số thực 101,25 là:",
     "A": {
-      "text": "42 CA 80 00 H",
+      "text": "42 CA 00 00 H",
       "image": null,
       "source_label": "A"
     },
@@ -2599,14 +3997,44 @@
     "correct_answer": "A",
     "source_page": 14,
     "question_image": null,
-    "needs_review": false,
-    "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "needs_review": true,
+    "review_reason": "Giữ nguyên đáp án A và chuỗi 42 CA 00 00 H được tô vàng trong PDF. Nguồn có mâu thuẫn: chuỗi này biểu diễn 101,0; số 101,25 tương ứng 42 CA 80 00 H. Không tự sửa nội dung hay đáp án của PDF.",
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 14 của PDF nguồn.\nLưu ý nguồn: Giữ nguyên đáp án A và chuỗi 42 CA 00 00 H được tô vàng trong PDF. Nguồn có mâu thuẫn: chuỗi này biểu diễn 101,0; số 101,25 tương ứng 42 CA 80 00 H. Không tự sửa nội dung hay đáp án của PDF."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "A",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          433.957,
+          136.74,
+          447.178
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            432.36,
+            220.2,
+            446.88
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.43",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Dạng biểu diễn IEEE 754/85 của số thực - 119,5 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Dạng biểu diễn IEEE 754/85 của số thực −119,5 là:",
     "A": {
       "text": "2C 00 00 00 H",
       "image": null,
@@ -2632,29 +4060,59 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "D",
+        "page": 14,
+        "label_rect": [
+          398.878,
+          506.805,
+          408.663,
+          520.026
+        ],
+        "yellow_rects": [
+          [
+            398.88,
+            505.2,
+            491.4,
+            519.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.44",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho biểu diễn dưới dạng IEEE 754/85 như sau: C2 82 80 00 H. Giá trị thập phân của nó là:",
     "A": {
-      "text": "- 65,25",
+      "text": "−65,25",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "- 56,25",
+      "text": "−56,25",
       "image": null,
       "source_label": "B"
     },
     "C": {
-      "text": "- 65,52",
+      "text": "−65,52",
       "image": null,
       "source_label": "C"
     },
     "D": {
-      "text": "- 56,52",
+      "text": "−56,52",
       "image": null,
       "source_label": "D"
     },
@@ -2663,42 +4121,102 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "A",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          550.592,
+          136.74,
+          563.813
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            549.0,
+            177.48,
+            563.52
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.45",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho biểu diễn dưới dạng IEEE 754/85 như sau: C2 BF 00 00 H. Giá trị thập phân của nó là:",
     "A": {
-      "text": "- 95,25",
+      "text": "−95,25",
       "image": null,
       "source_label": "A"
     },
     "B": {
-      "text": "- 95,5",
+      "text": "−95,5",
       "image": null,
       "source_label": "B"
     },
     "C": {
-      "text": "- 59,5",
+      "text": "−59,5",
       "image": null,
       "source_label": "C"
     },
     "D": {
-      "text": "- 59,25",
+      "text": "−59,25",
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "A",
+    "correct_answer": "B",
     "source_page": 14,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "B",
+        "page": 14,
+        "label_rect": [
+          466.675,
+          623.44,
+          476.46,
+          636.661
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            621.84,
+            510.6,
+            636.36
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.46",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho biểu diễn dưới dạng IEEE 754/85 như sau: 42 15 00 00 H. Giá trị thập phân của nó là:",
     "A": {
       "text": "37,52",
@@ -2725,14 +4243,44 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 14 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 14,
+      "highlight": {
+        "letter": "C",
+        "page": 14,
+        "label_rect": [
+          127.675,
+          710.924,
+          136.74,
+          724.145
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            709.32,
+            169.8,
+            723.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.47",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho biểu diễn dưới dạng IEEE 754/85 như sau: 42 22 80 00 H. Giá trị thập phân của nó là:",
     "A": {
-      "text": "- 40,25",
+      "text": "−40,25",
       "image": null,
       "source_label": "A"
     },
@@ -2742,7 +4290,7 @@
       "source_label": "B"
     },
     "C": {
-      "text": "- 40,625",
+      "text": "−40,625",
       "image": null,
       "source_label": "C"
     },
@@ -2756,11 +4304,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "D",
+        "page": 15,
+        "label_rect": [
+          432.723,
+          127.719,
+          442.639,
+          140.94
+        ],
+        "yellow_rects": [
+          [
+            432.72,
+            126.12,
+            482.16,
+            140.64
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.48",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Với bộ mã Unicode để mã hoá ký tự, phát biểu nào sau đây là sai:",
     "A": {
       "text": "Là bộ mã 16 bit",
@@ -2787,11 +4365,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "C",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          200.553,
+          136.74,
+          213.774
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            198.96,
+            282.48,
+            213.6
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.49",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Với bộ mã ASCII để mã hoá ký tự, phát biểu nào sau đây là sai:",
     "A": {
       "text": "Do ANSI thiết kế",
@@ -2818,11 +4426,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "D",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          302.672,
+          137.46,
+          315.893
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            301.08,
+            360.12,
+            315.6
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.50",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Với bộ mã ASCII, phát biểu nào sau đây là sai:",
     "A": {
       "text": "Chứa các ký tự điều khiển màn hình",
@@ -2835,7 +4473,7 @@
       "source_label": "B"
     },
     "C": {
-      "text": "Mã 30 H -> 39 H là mã của các chữ số",
+      "text": "Mã 30 H → 39 H là mã của các chữ số",
       "image": null,
       "source_label": "C"
     },
@@ -2849,104 +4487,296 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "B",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          361.003,
+          137.46,
+          374.224
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            359.4,
+            469.2,
+            374.04
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.51",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Theo chuẩn IEEE 754/85, số thực X biểu diễn dạng đơn (single) là:",
     "A": {
-      "text": "X = (-1).S. 1,M. RE",
+      "text": "X = (−1)·S · 1,M · R^{E}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)·S · 1,M · R^{E}"
+        }
+      ]
     },
     "B": {
-      "text": "X = (-1)S. 1,M. R.(E - 127)",
+      "text": "X = (−1)^{S} · 1,M · R·(E − 127)",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R·(E − 127)"
+        }
+      ]
     },
     "C": {
-      "text": "X = (-1)S. 1,M. RE - 127",
+      "text": "X = (−1)^{S} · 1,M · R^{E − 127}",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R^{E − 127}"
+        }
+      ]
     },
     "D": {
-      "text": "X = (-1)S. 1,M. ER - 127",
+      "text": "X = (−1)^{S} · 1,M · E^{R − 127}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · E^{R − 127}"
+        }
+      ]
     },
     "correct_answer": "C",
     "source_page": 15,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "C",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          463.122,
+          136.74,
+          476.343
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            461.52,
+            261.12,
+            476.04
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.52",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Theo chuẩn IEEE 754/85, số thực X biểu diễn dạng kép (double) là:",
     "A": {
-      "text": "X = (-1).S. 1,M. RE",
+      "text": "X = (−1)·S · 1,M · R^{E}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)·S · 1,M · R^{E}"
+        }
+      ]
     },
     "B": {
-      "text": "X = (-1)S. 1,M. R.(E - 1023)",
+      "text": "X = (−1)^{S} · 1,M · R·(E − 1023)",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R·(E − 1023)"
+        }
+      ]
     },
     "C": {
-      "text": "X = (-1)S. 1,M. ER - 1023",
+      "text": "X = (−1)^{S} · 1,M · E^{R − 1023}",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · E^{R − 1023}"
+        }
+      ]
     },
     "D": {
-      "text": "X = (-1)S. 1,M. RE - 1023",
+      "text": "X = (−1)^{S} · 1,M · R^{E − 1023}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R^{E − 1023}"
+        }
+      ]
     },
     "correct_answer": "D",
     "source_page": 15,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "D",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          565.122,
+          137.46,
+          578.343
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            563.52,
+            265.8,
+            578.16
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.53",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Theo chuẩn IEEE 754/85, số thực X biểu diễn dạng kép mở rộng (double- extended) là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Theo chuẩn IEEE 754/85, số thực X biểu diễn dạng kép mở rộng (double-extended) là:",
     "A": {
-      "text": "X = (-1)S. 1,M. RE - 16383",
+      "text": "X = (−1)^{S} · 1,M · R^{E − 16383}",
       "image": null,
-      "source_label": "A"
+      "source_label": "A",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R^{E − 16383}"
+        }
+      ]
     },
     "B": {
-      "text": "X = (-1).S. 1,M. RE",
+      "text": "X = (−1)·S · 1,M · R^{E}",
       "image": null,
-      "source_label": "B"
+      "source_label": "B",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)·S · 1,M · R^{E}"
+        }
+      ]
     },
     "C": {
-      "text": "X = (-1)S. 1,M. R.(E - 16383)",
+      "text": "X = (−1)^{S} · 1,M · R·(E − 16383)",
       "image": null,
-      "source_label": "C"
+      "source_label": "C",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · R·(E − 16383)"
+        }
+      ]
     },
     "D": {
-      "text": "X = (-1)S. 1,M. ER - 16383",
+      "text": "X = (−1)^{S} · 1,M · E^{R − 16383}",
       "image": null,
-      "source_label": "D"
+      "source_label": "D",
+      "blocks": [
+        {
+          "type": "math",
+          "text": "X = (−1)^{S} · 1,M · E^{R − 16383}"
+        }
+      ]
     },
     "correct_answer": "A",
     "source_page": 15,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "A",
+        "page": 15,
+        "label_rect": [
+          127.675,
+          623.44,
+          136.74,
+          636.661
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            621.84,
+            269.04,
+            636.36
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.54",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Dạng biểu diễn IEEE 754/85 của số thực 31/64 là:",
     "A": {
       "text": "E3 F8 00 00 H",
@@ -2973,12 +4803,42 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 15 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 15,
+      "highlight": {
+        "letter": "B",
+        "page": 15,
+        "label_rect": [
+          432.723,
+          710.924,
+          442.639,
+          724.145
+        ],
+        "yellow_rects": [
+          [
+            432.72,
+            709.32,
+            523.56,
+            723.84
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.55",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
-    "question": "Dạng biểu diễn IEEE 754/85 của số thực - 79/32 là:",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
+    "question": "Dạng biểu diễn IEEE 754/85 của số thực −79/32 là:",
     "A": {
       "text": "C0 1E 00 00 H",
       "image": null,
@@ -3004,11 +4864,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 16 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 16,
+      "highlight": {
+        "letter": "A",
+        "page": 16,
+        "label_rect": [
+          127.675,
+          113.083,
+          136.74,
+          126.304
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            111.48,
+            218.76,
+            126.12
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.56",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho số thực 81,25. Giá trị của nó ở hệ nhị phân là:",
     "A": {
       "text": "100101,10",
@@ -3035,11 +4925,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "B",
+      "explanation": "Đáp án B được tô vàng ở trang 16 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 16,
+      "highlight": {
+        "letter": "B",
+        "page": 16,
+        "label_rect": [
+          466.675,
+          171.401,
+          476.46,
+          184.622
+        ],
+        "yellow_rects": [
+          [
+            466.68,
+            169.8,
+            476.52,
+            184.44
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.57",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho số thực 99,3125. Giá trị của nó ở hệ nhị phân là:",
     "A": {
       "text": "111011,1010",
@@ -3061,16 +4981,46 @@
       "image": null,
       "source_label": "D"
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "source_page": 16,
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "D",
+      "explanation": "Đáp án D được tô vàng ở trang 16 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 16,
+      "highlight": {
+        "letter": "D",
+        "page": 16,
+        "label_rect": [
+          432.723,
+          288.037,
+          442.639,
+          301.258
+        ],
+        "yellow_rects": [
+          [
+            432.72,
+            286.44,
+            521.76,
+            301.08
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.58",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho số thực 51/32. Giá trị của nó ở hệ nhị phân là:",
     "A": {
       "text": "1,01011",
@@ -3078,7 +5028,7 @@
       "source_label": "A"
     },
     "B": {
-      "text": "1, 01110",
+      "text": "1,01110",
       "image": null,
       "source_label": "B"
     },
@@ -3097,11 +5047,41 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "C",
+      "explanation": "Đáp án C được tô vàng ở trang 16 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 16,
+      "highlight": {
+        "letter": "C",
+        "page": 16,
+        "label_rect": [
+          127.675,
+          361.003,
+          136.74,
+          374.224
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            359.4,
+            182.88,
+            374.04
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "2.59",
-    "chapter": "Chương 2. Biễu diễn dữ liệu và số học máy tính",
+    "chapter": "Chương 2. Biểu diễn dữ liệu và số học máy tính",
     "question": "Cho số thực 33/128. Giá trị của nó ở hệ nhị phân là:",
     "A": {
       "text": "0,0100001",
@@ -3128,7 +5108,37 @@
     "question_image": null,
     "needs_review": false,
     "review_reason": null,
-    "answer_evidence": "highlighted_in_source_pdf"
+    "answer_evidence": "highlighted_in_source_pdf",
+    "answer_audit": {
+      "status": "source_highlight_visually_reviewed",
+      "correct_answer": "A",
+      "explanation": "Đáp án A được tô vàng ở trang 16 của PDF nguồn."
+    },
+    "source_audit": {
+      "revision": "ktmt-ch2-2026-10-12",
+      "source_pdf": "300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf",
+      "source_sha256": "6131186974c6837b50295c7b12b1048f58c8991a0a9b5a72e1183df87580f0d4",
+      "question_page": 16,
+      "highlight": {
+        "letter": "A",
+        "page": 16,
+        "label_rect": [
+          127.675,
+          404.804,
+          136.74,
+          418.025
+        ],
+        "yellow_rects": [
+          [
+            127.68,
+            403.2,
+            217.56,
+            417.72
+          ]
+        ]
+      },
+      "visually_reviewed": true
+    }
   },
   {
     "id": "3.1",
