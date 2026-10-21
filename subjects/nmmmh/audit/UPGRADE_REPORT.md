@@ -106,10 +106,10 @@ Lịch sử cũ không bị xóa hoặc tự chấm lại theo khóa mới. Bài
 
 ## Đường dẫn ba màn hình làm bài
 
-- [Cả đề](http://127.0.0.1:8765/#subject=nmmmh&exam=de-thi-nmmmh&chapter=all&action=start)
-- [Chương trong một đề](http://127.0.0.1:8765/#subject=nmmmh&exam=de-thi-nmmmh&chapter=2&action=start)
-- [Chương của tất cả đề](http://127.0.0.1:8765/#subject=nmmmh&exam=all&chapter=2&action=start)
-- [Luyện một/nhiều chương và lọc số câu](http://127.0.0.1:8765/#subject=nmmmh)
+- [Cả đề](https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=all&action=start)
+- [Chương trong một đề](https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=de-thi-nmmmh&chapter=2&action=start)
+- [Chương của tất cả đề](https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh&exam=all&chapter=2&action=start)
+- [Luyện một/nhiều chương và lọc số câu](https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh)
 
 Các hash tương tự dùng tại https://chaamsthan.github.io/ktmt-quiz/ sau khi push/deploy. Trạng thái triển khai và commit được ghi riêng ở DEPLOYMENT.json; không coi kiểm thử local là kiểm thử public.
 

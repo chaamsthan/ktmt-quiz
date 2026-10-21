@@ -205,7 +205,8 @@ function nmmmhQuestionMeta(question) {
     ${question.classification_needs_review ? '<p class="side-note">Phân chương hiện có là đề xuất: cây kiến thức chưa có mục chi tiết cho nội dung này; cần đối chiếu tài liệu bổ sung.</p>' : ""}
     ${question.duplicate_group ? `<span class="session-chip">${question.duplicate_status === "confirmed" ? "Câu trùng đã xác minh" : "Nghi trùng · giữ riêng"}</span>` : ""}
     ${question.needs_review ? `<span class="review-badge">Cần rà soát${question.correct_answer ? " nguồn ảnh" : " · không tính điểm"}</span>` : ""}
-    ${question.source_notes?.length ? `<details><summary>Ghi chú nguồn</summary><p>${question.source_notes.map(escapeHtml).join("<br />")}</p></details>` : ""}</div>`;
+    ${question.source_fidelity_status === "needs_review" ? '<p class="notice" role="note">Nguồn chưa xác minh đầy đủ: có ký tự hoặc ô ma trận chưa đọc/chốt được. Bản chép hiện tại không được coi là chuẩn; hãy đối chiếu ảnh và lưu ý kiểm định.</p>' : ""}
+    ${question.source_notes?.length ? `<details><summary>Ghi chú OCR cũ — không dùng làm đáp án</summary><p>${question.source_notes.map(escapeHtml).join("<br />")}</p></details>` : ""}</div>`;
 }
 
 function answerExplanation(question) {
