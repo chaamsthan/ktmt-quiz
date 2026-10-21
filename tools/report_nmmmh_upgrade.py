@@ -64,7 +64,7 @@ def main():
         f'| Trùng đã kiểm / nghi trùng | {summary["confirmed_duplicate_groups"]} nhóm ({summary["confirmed_duplicate_copies"]} bản lặp chỉ gộp ở màn hình tổng hợp) / {summary["potential_duplicate_groups"]} nhóm giữ riêng |',
         f'| Cần rà soát nguồn/đáp án | {len(pending)}; vẫn có trong đề, không tính điểm |',
         '| Build/test | Website static: node syntax + KaTeX render validator; 9 unit tests; kiểm thử trình duyệt NMMMH/KTMT; xem TEST_RESULTS.md |',
-        '| Triển khai | Đã được phép commit/push sau kiểm thử; xem DEPLOYMENT.json nếu có |','',
+        ('| Triển khai | Pages built; 3 bộ kiểm thử public đạt; 80/80 asset khớp SHA-256. Runtime `'+deployment.get('verified_runtime_commit','')+'`; xem DEPLOYMENT.json |' if deployment.get('status')=='public_verified' else '| Triển khai | Đã được phép commit/push sau kiểm thử; xem DEPLOYMENT.json nếu có |'),'',
         '## Số câu từng đề/chương','',
         'Cột chương có thể giao nhau khi câu thực sự thuộc nhiều chương; không cộng các cột đó để suy ra số câu duy nhất. Giữ nguyên mã đề và số câu nguồn.','',
         '| Đề | Tổng | C1 | C2 | C3 | C4 | C5 | Chưa phân loại | Chấm được | Rà soát |','|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|']

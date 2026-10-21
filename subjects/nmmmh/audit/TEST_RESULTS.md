@@ -29,12 +29,21 @@ Không có bundler/framework nên không có lệnh `npm run build` để chạy
 
 Ảnh QA local của lần chạy cuối:
 
-- `/tmp/nmmmh-browser-t449rvk3`
-- `/tmp/nmmmh-upgrade-browser-b4aczfid`
-- `/tmp/ktmt-ch2-browser-0thfkia5`
+- `/tmp/nmmmh-browser-2wg8fj1a`
+- `/tmp/nmmmh-upgrade-browser-psxxu7mo`
+- `/tmp/ktmt-ch2-browser-io0dhpn1`
 
 Các thư mục screenshot là chứng cứ của phiên kiểm thử, không phải tài liệu nguồn hoặc bảo đảm không có lỗi chưa được test. Báo cáo không thay thế rà soát thủ công 34 câu/59 nhãn còn thiếu căn cứ.
 
 ## Bản public
 
-Trạng thái triển khai, commit và kiểm tra public được ghi riêng trong `DEPLOYMENT.json` sau push. Không lấy kết quả local ở trên để khẳng định public đã cập nhật.
+Đã kiểm tra thật `https://chaamsthan.github.io/ktmt-quiz/` sau khi GitHub Pages báo built cho `eda14db80d5124e921dc02881b40cc7cfd16b529`:
+
+- `uv run --with playwright==1.60.0 python tools/run_quiz_checks.py --url https://chaamsthan.github.io/ktmt-quiz/`: **PASS cả ba bộ**, gồm đủ 173 câu NMMMH và 59 câu hồi quy KTMT, desktop/390/320 px.
+- `python3 tools/verify_nmmmh_deployment.py`: **80/80 file mã/dữ liệu/ảnh khớp SHA-256** với local, không có mismatch.
+- File đề K16-1 bị loại vẫn **HTTP 404**; không nhập lại hoặc trộn sang môn khác.
+- Không có JS error, thiếu ảnh hay tràn viewport trong các kiểm thử đã chạy. Kết quả không chứng minh loại hết mọi lỗi ngoài các tình huống kiểm thử.
+
+Ảnh kiểm thử public: `/tmp/nmmmh-browser-pfbh3sob`, `/tmp/nmmmh-upgrade-browser-eg8ziqhd`, `/tmp/ktmt-ch2-browser-xzukakke`.
+
+Trạng thái và commit được ghi trong `DEPLOYMENT.json`. Commit bàn giao tiếp theo chỉ cập nhật báo cáo, không thay runtime đã kiểm tra. Dữ liệu người dùng trong trình duyệt thật không bị sửa.

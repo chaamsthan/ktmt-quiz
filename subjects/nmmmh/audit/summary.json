@@ -25,5 +25,5 @@
   "confirmed_duplicate_copies": 42,
   "potential_duplicate_groups": 7,
   "additional_documents_inventory_only": true,
-  "deployment_status": "authorized_push_after_final_tests_not_yet_deployed"
+  "deployment_status": "public_verified"
 }

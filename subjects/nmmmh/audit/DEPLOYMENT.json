@@ -1,0 +1,26 @@
+{
+  "status": "public_verified",
+  "verified_date_utc": "2026-10-21",
+  "url": "https://chaamsthan.github.io/ktmt-quiz/#subject=nmmmh",
+  "implementation_commit": "a51930d69baf42ad9bf4f073e22f2a4b2412017c",
+  "verified_runtime_commit": "eda14db80d5124e921dc02881b40cc7cfd16b529",
+  "pages_build": {"status": "built", "error": null},
+  "user_approved_commit_and_push": true,
+  "local_browser_suites": {"test_nmmmh.py": "passed", "test_nmmmh_upgrade.py": "passed", "test_ktmt_chapter2.py": "passed"},
+  "public_browser_suites": {"test_nmmmh.py": "passed", "test_nmmmh_upgrade.py": "passed", "test_ktmt_chapter2.py": "passed"},
+  "deployed_assets_compared_sha256": 80,
+  "all_compared_asset_hashes_match": true,
+  "excluded_k16_1_question_file_http_status": 404,
+  "published_exams": 5,
+  "published_questions": 173,
+  "verified_answer_keys": 139,
+  "source_or_answer_review_questions": 34,
+  "provisional_chapter_assignments": 59,
+  "limits": [
+    "One published question has partly occluded source option cells; its answer key is null.",
+    "The 59 taxonomy-gap assignments are retained proposals, not newly certified official chapter topics.",
+    "Additional native DOCX and midterm PDF sets outside the existing bank are inventoried, not imported or fully audited.",
+    "Excluded K16-1 has 39 source records with only 12 independently unique answers; it remains unpublished."
+  ],
+  "note": "Runtime, data and images were verified at the runtime commit above. A subsequent documentation-only commit records these results; it does not change tested code or question data."
+}

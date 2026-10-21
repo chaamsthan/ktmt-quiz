@@ -24,7 +24,7 @@ Ngân hàng nguồn có thêm **K16-1: 39 dòng/10 trang**, đã được rà �
 | Trùng đã kiểm / nghi trùng | 34 nhóm (42 bản lặp chỉ gộp ở màn hình tổng hợp) / 7 nhóm giữ riêng |
 | Cần rà soát nguồn/đáp án | 34; vẫn có trong đề, không tính điểm |
 | Build/test | Website static: node syntax + KaTeX render validator; 9 unit tests; kiểm thử trình duyệt NMMMH/KTMT; xem TEST_RESULTS.md |
-| Triển khai | Đã được phép commit/push sau kiểm thử; xem DEPLOYMENT.json nếu có |
+| Triển khai | Pages built; 3 bộ kiểm thử public đạt; 80/80 asset khớp SHA-256. Runtime `eda14db80d5124e921dc02881b40cc7cfd16b529`; xem DEPLOYMENT.json |
 
 ## Số câu từng đề/chương
 
