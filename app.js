@@ -19,8 +19,8 @@ function loadPersisted() {
     return {
       bookmarks: new Set(raw.bookmarks || []),
       mistakes: new Set(raw.mistakes || []),
-      progress: raw.progress || {},
-      history: raw.history || [],
+      progress: raw.progress && typeof raw.progress === "object" && !Array.isArray(raw.progress) ? raw.progress : {},
+      history: Array.isArray(raw.history) ? raw.history : [],
     };
   } catch {
     return { bookmarks: new Set(), mistakes: new Set(), progress: {}, history: [] };
@@ -28,12 +28,14 @@ function loadPersisted() {
 }
 
 function savePersisted() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({
+  const value = {
     bookmarks: [...state.persisted.bookmarks],
     mistakes: [...state.persisted.mistakes],
     progress: state.persisted.progress,
     history: state.persisted.history.slice(-40),
-  }));
+  };
+  if (state.subject === "nmmmh") nmmmhWriteStorage(STORAGE_KEY, value);
+  else localStorage.setItem(STORAGE_KEY, JSON.stringify(value));
 }
 
 function escapeHtml(value) {
@@ -217,13 +219,14 @@ function startQuiz(scope, randomize = false, mode = "study", fixedQuestions = nu
     context,
     startedAt: new Date().toISOString(),
   };
+  if (context?.subject_id === "nmmmh") initNmmmhSession(state.quiz);
   renderQuiz();
 }
 
 function optionHtml(question, letter) {
   const option = question[letter] || { text: "", image: null };
   const selected = state.quiz.answers[question.id] === letter;
-  const feedback = state.quiz.feedback[question.id];
+  const feedback = state.quiz.feedback[question.id] || state.quiz.revealed?.[question.id];
   let resultClass = selected ? "selected" : "";
   if (feedback && question.correct_answer) {
     if (letter === question.correct_answer) resultClass = "correct";
@@ -231,16 +234,18 @@ function optionHtml(question, letter) {
   }
   const hasContent = Boolean(option.text || option.image || option.blocks?.some((block) => block.type !== "text"));
   return `<button type="button" class="option-btn ${resultClass}" data-option="${letter}" ${question.subject_id === "nmmmh" && (!hasContent || state.quiz.finished) ? "disabled" : ""}>
-    <span class="option-key">${letter}</span><span class="option-text">${option.blocks?.length ? richBlocksHtml(option.blocks, false) : `${escapeHtml(option.text)}${option.image ? `<img class="option-img" src="${escapeHtml(option.image)}" alt="Hình trong đáp án ${letter}" />` : ""}`}${!hasContent && question.subject_id === "nmmmh" ? "[Thiếu phương án trong nguồn]" : ""}</span>
+    <span class="option-key">${question.subject_id === "nmmmh" ? displayOptionLetter(question, letter) : letter}</span><span class="option-text">${option.blocks?.length ? richBlocksHtml(option.display_blocks || option.blocks, false) : `${escapeHtml(option.text)}${option.image ? `<img class="option-img" src="${escapeHtml(option.image)}" alt="Hình trong đáp án ${letter}" />` : ""}`}${!hasContent && question.subject_id === "nmmmh" ? "[Thiếu phương án trong nguồn]" : ""}</span>
   </button>`;
 }
 
 function feedbackHtml(question) {
-  const feedback = state.quiz.feedback[question.id];
+  const feedback = state.quiz.feedback[question.id] || state.quiz.revealed?.[question.id];
   if (!feedback) return "";
   if (!question.correct_answer) return `<div class="feedback pending"><strong>Chưa có đáp án xác minh.</strong> Câu này được giữ lại để bạn rà soát nguồn.</div>`;
-  if (feedback === question.correct_answer) return `<div class="feedback correct"><strong>Chính xác.</strong> Đáp án đúng là ${question.correct_answer}.</div>`;
-  return `<div class="feedback incorrect"><strong>Chưa đúng.</strong> Đáp án đúng là ${question.correct_answer}.</div>`;
+  const letter = question.subject_id === "nmmmh" ? displayOptionLetter(question, question.correct_answer) : question.correct_answer;
+  if (question.subject_id === "nmmmh" && !state.quiz.answers[question.id]) return `<div class="feedback pending">Đáp án đã kiểm chứng: <strong>${letter}</strong>. Chưa ghi nhận câu trả lời.</div>`;
+  if ((question.subject_id === "nmmmh" ? state.quiz.answers[question.id] : feedback) === question.correct_answer) return `<div class="feedback correct"><strong>Chính xác.</strong> Đáp án đúng là ${letter}.</div>`;
+  return `<div class="feedback incorrect"><strong>Chưa đúng.</strong> Đáp án đúng là ${letter}.</div>`;
 }
 
 function renderQuiz() {
@@ -257,9 +262,10 @@ function renderQuiz() {
         <article class="question-card">
           <div class="question-meta"><span><span class="question-id">${escapeHtml(questionLabel(question))}</span> · ${escapeHtml(question.chapter)}</span><button id="bookmark" class="bookmark-btn ${marked ? "is-marked" : ""}" type="button">${marked ? "★ Đã đánh dấu" : "☆ Đánh dấu"}</button></div>
           ${nmmmhQuestionMeta(question)}
-          ${question.subject_id === "nmmmh" ? `<div class="question-text">${question.question_blocks?.length ? richBlocksHtml(question.question_blocks) : escapeHtml(question.question)}</div>` : `<h2 class="question-text">${escapeHtml(question.question)}</h2>`}
+          ${question.subject_id === "nmmmh" ? `<div class="question-text">${question.question_blocks?.length ? richBlocksHtml(question.display_blocks || question.question_blocks) : escapeHtml(question.question)}</div>` : `<h2 class="question-text">${escapeHtml(question.question)}</h2>`}
           ${question.question_image ? (question.source_visual ? `<a class="source-image-link" href="${escapeHtml(question.question_image)}" target="_blank" rel="noopener" title="Mở hình gốc để xem rõ"><img class="question-image" src="${escapeHtml(question.question_image)}" alt="${escapeHtml(question.source_visual.alt)}" /><span class="source-image-caption">Mở hình kích thước đầy đủ ↗</span></a>` : `<img class="question-image" src="${escapeHtml(question.question_image)}" alt="Sơ đồ minh họa cho câu ${escapeHtml(question.id)}" />`) : ""}
-          <div class="options">${LETTERS.map((letter) => optionHtml(question, letter)).join("")}</div>
+          <div class="options">${(quiz.optionOrders?.[question.id] || LETTERS).map((letter) => optionHtml(question, letter)).join("")}</div>
+          ${question.subject_id === "nmmmh" ? nmmmhQuizTools(question) : ""}
           ${feedbackHtml(question)}
           ${answerExplanation(question)}
           <div class="quiz-actions"><div class="left"><button class="ghost-btn" id="prev" type="button" ${quiz.index === 0 ? "disabled" : ""}>← Trước</button></div><div class="right">${question.subject_id === "nmmmh" ? '<button class="secondary-btn" id="finish-now" type="button">Kết thúc lượt</button>' : ""}<button class="ghost-btn" id="next" type="button">${quiz.index === quiz.questions.length - 1 ? "Xem kết quả" : "Câu tiếp →"}</button></div></div>
@@ -280,7 +286,9 @@ function renderQuiz() {
     state.quiz.answers[question.id] = answer;
     if (quiz.mode === "study") state.quiz.feedback[question.id] = answer;
     const correct = Boolean(question.correct_answer && answer === question.correct_answer);
-    updateProgress(question, answer, correct);
+    if (question.subject_id === "nmmmh") {
+      if (quiz.mode === "study") recordNmmmhProgress(question, answer);
+    } else updateProgress(question, answer, correct);
     renderQuiz();
   }));
   document.querySelector("#prev").addEventListener("click", () => { if (quiz.index > 0) { quiz.index -= 1; renderQuiz(); } });
@@ -289,6 +297,7 @@ function renderQuiz() {
     else { quiz.index += 1; renderQuiz(); }
   });
   document.querySelectorAll(".map-dot").forEach((button) => button.addEventListener("click", () => { quiz.index = Number(button.dataset.index); renderQuiz(); }));
+  if (question.subject_id === "nmmmh") nmmmhAfterQuizRender(question);
 }
 
 function resultFor(question) {
@@ -301,6 +310,7 @@ function resultFor(question) {
 function finishQuiz() {
   // Reopening a completed NMMMH question must not create a second attempt.
   if (state.quiz.context?.subject_id === "nmmmh" && state.quiz.finished) return renderResults();
+  if (state.quiz.context?.subject_id === "nmmmh") finalizeNmmmhProgress();
   state.quiz.questions.forEach((question) => { state.quiz.feedback[question.id] = state.quiz.answers[question.id] || true; });
   const graded = state.quiz.questions.filter((question) => question.correct_answer);
   const correct = graded.filter((question) => state.quiz.answers[question.id] === question.correct_answer).length;
@@ -309,6 +319,7 @@ function finishQuiz() {
   state.persisted.history.push({ date: new Date().toISOString(), mode: state.quiz.mode, total: state.quiz.questions.length, answered, correct, scope: state.quiz.scope, set_id: state.activeSet?.id || null, ...context, graded: graded.length, ungraded: state.quiz.questions.length - graded.length, score: graded.length ? correct / graded.length * 10 : null });
   savePersisted();
   if (state.quiz.context?.subject_id === "nmmmh") state.quiz.finished = true;
+  if (state.quiz.context?.subject_id === "nmmmh") saveNmmmhSession();
   renderResults();
 }
 
@@ -326,7 +337,7 @@ function renderResults() {
       const status = resultFor(question);
       const answer = state.quiz.answers[question.id];
       const label = status === "correct" ? "Đúng" : status === "pending" ? "Cần rà soát" : "Sai / bỏ trống";
-      return `<article class="result-item is-${status}"><div class="result-item-head"><strong>${escapeHtml(questionLabel(question))}</strong><span class="result-badge">${label}</span></div>${nmmmhSession ? `<p class="muted">${escapeHtml(question.source_exam_code)} · ${escapeHtml(question.chapter)}</p>` : ""}<p class="result-question">${escapeHtml(question.question)}</p><p class="result-answer">Bạn chọn: <strong>${answer || "—"}</strong> · Đáp án: <strong>${question.correct_answer || "chưa xác minh"}</strong></p><button class="ghost-btn result-open" type="button" data-id="${escapeHtml(question.id)}">Mở câu hỏi</button></article>`;
+      return `<article class="result-item is-${status}"><div class="result-item-head"><strong>${escapeHtml(questionLabel(question))}</strong><span class="result-badge">${label}</span></div>${nmmmhSession ? `<p class="muted">${escapeHtml(question.source_exam_code)} · ${escapeHtml(question.chapter)}</p>` : ""}<p class="result-question">${escapeHtml(question.question)}</p><p class="result-answer">Bạn chọn: <strong>${nmmmhSession ? displayOptionLetter(question, answer) : answer || "—"}</strong> · Đáp án: <strong>${question.correct_answer ? (nmmmhSession ? displayOptionLetter(question, question.correct_answer) : question.correct_answer) : "chưa xác minh"}</strong></p><button class="ghost-btn result-open" type="button" data-id="${escapeHtml(question.id)}">Mở câu hỏi</button></article>`;
     }).join("")}</section>`;
   document.querySelector("#result-home").addEventListener("click", returnToSubjectHome);
   document.querySelector("#retry").addEventListener("click", () => startQuiz(state.quiz.scope, state.quiz.randomize, state.quiz.mode, state.quiz.questions, state.quiz.context));
@@ -338,6 +349,7 @@ function renderResults() {
     const index = state.quiz.questions.findIndex((question) => question.id === button.dataset.id);
     state.quiz.index = Math.max(index, 0); renderQuiz();
   }));
+  if (nmmmhSession) renderNmmmhMath();
 }
 
 function renderProgress() {

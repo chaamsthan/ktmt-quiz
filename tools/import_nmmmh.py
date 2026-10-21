@@ -13,6 +13,7 @@ import shutil
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
+from nmmmh_enrichment import enrich, load_metadata
 
 WEB = Path(__file__).resolve().parents[1]
 
@@ -53,10 +54,18 @@ def main():
     root=args.source.resolve()
     stage=root/'DAPAN_KIEMCHUNG'
     taxonomy=json.loads((root/'TONGQUANKIENTHUC/NMMMH_Phan_loai_kien_thuc.json').read_text())
-    classified=json.loads((root/'DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json').read_text())
     questions=json.loads((stage/'questions_verified.json').read_text())
     exams=json.loads((stage/'exams.json').read_text())
-    source_map={(q['source_file'],q['source_question_number']):q for q in classified['questions']}
+    classification_file=root/'DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json'
+    if classification_file.is_file():
+        classified=json.loads(classification_file.read_text())['questions']
+    else:
+        # The source DOCX directory was removed outside this repo. Retain
+        # previously recorded assignments, do not invent replacements.
+        classified=questions
+        print('NOTICE: DeThiOCR absent; preserving recorded source classification; PDF review metadata is separate.',flush=True)
+    source_map={(q['source_file'],q['source_question_number']):q for q in classified}
+    overrides,hints=load_metadata()
     assert len(questions)==len(source_map) and len({q['id'] for q in questions})==len(questions)
     # Publication exclusions live in the website, not in the original DOCX
     # or approved answer bank. Re-importing must not restore a removed exam.
@@ -76,19 +85,25 @@ def main():
         q['subject']='Mật mã học'
         # Code is the source file stem, not a newly invented examination code.
         q['source_exam_code']=Path(q['source_file']).stem
+        enrich(q,overrides,hints)
         q['duplicate_group']=None
         q['duplicate_status']=None
         q.pop('duplicate_sources',None)
         q['content_fingerprint']=fingerprint(q)
-        q['classification_needs_review']=bool(q['chapter_child'] and q['chapter_child']['source']!='knowledge_tree')
+        if 'classification_audit' not in q:
+            q['classification_needs_review']=bool(q['chapter_child'] and q['chapter_child']['source']!='knowledge_tree')
         for holder in [q]+[q[l] for l in 'ABCD']:
             blocks=holder.get('question_blocks',holder.get('blocks',[]))
             for b in blocks:
                 if b['type']=='image':
                     src=stage/b['src']; dst=WEB/b['src']
-                    assert src.is_file(),src
-                    dst.parent.mkdir(parents=True,exist_ok=True)
-                    shutil.copy2(src,dst)
+                    # New reviewed crops are repo-owned artifacts, not files
+                    # in the immutable old OCR export. Never overwrite them.
+                    if src.is_file():
+                        dst.parent.mkdir(parents=True,exist_ok=True)
+                        shutil.copy2(src,dst)
+                    else:
+                        assert b['src'].startswith('images/nmmmh/reviewed/') and dst.is_file(),src
                     dst.chmod(0o644)
 
     groups=defaultdict(list)
@@ -114,6 +129,43 @@ def main():
                 q['duplicate_status']='confirmed' if confirmed else 'potential'
                 q['duplicate_sources']=references
 
+    # A source-reviewed manifest can establish semantic identity despite
+    # different scan filenames/notation. No fuzzy matching or deletion: only
+    # explicitly reviewed ID groups are used in the aggregate practice view.
+    reviewed_duplicates=WEB/'subjects/nmmmh/audit/duplicate_review.json'
+    if reviewed_duplicates.is_file():
+        review=json.loads(reviewed_duplicates.read_text())
+        by_id={q['id']:q for q in questions}
+        seen_ids=set();duplicate_report=[]
+        for q in questions:
+            q['duplicate_group']=None;q['duplicate_status']=None;q.pop('duplicate_sources',None)
+        for group in review['groups']:
+            ids=group['ids'];assert len(ids)>1 and set(ids)<=set(by_id)
+            assert not seen_ids.intersection(ids),'Overlapping reviewed duplicate groups'
+            seen_ids.update(ids);members=[by_id[i] for i in ids]
+            confirmed=group['status']=='confirmed'
+            if confirmed:
+                assert group['correct_content_equivalent'] and group['eligible_for_optional_practice_view_collapse']
+                assert all(q['correct_answer'] for q in members)
+                # Pin full option correspondence and current key to prevent
+                # old duplicate decisions collapsing a newly edited question.
+                recorded={r['id']:r for r in group['members']}
+                reference=by_id[group['reference_id']]
+                for q in members:
+                    snapshot=recorded[q['id']]
+                    assert q['question']==snapshot['stem'],(q['id'],'stale duplicate stem')
+                    assert all(q[l]['text']==snapshot['options'][l]['text'] for l in 'ABCD'),(q['id'],'stale duplicate options')
+                    assert all([b['rows'] for b in q[l]['blocks'] if b['type']=='table']==snapshot['options'][l]['tables'] for l in 'ABCD'),(q['id'],'stale duplicate option tables')
+                    assert q['correct_answer']==snapshot['published_correct_answer'],(q['id'],'stale duplicate key')
+                    assert snapshot['option_correspondence_from_reference'][reference['correct_answer']]==q['correct_answer']
+                    for image in snapshot['figures']:
+                        if image.get('sha256'):assert hashlib.sha256((WEB/image['path']).read_bytes()).hexdigest()==image['sha256']
+            references=[source_reference(q) for q in members]
+            duplicate_report.append({'group_id':group['group_id'],'status':group['status'],
+                                     'sources':references,'basis':group['basis'],'evidence':'audit/duplicate_review.json'})
+            for q in members:
+                q['duplicate_group']=group['group_id'];q['duplicate_status']=group['status'];q['duplicate_sources']=references
+
     chapters=[{'id':str(c['id']),'name':c['name'],'label':f'Chương {c["id"]}. {c["name"]}','source_status':c['status']} for c in taxonomy['chapters']]
     chapters.append({'id':'unclassified','name':'Chưa phân loại','label':'Chưa phân loại','source_status':'missing_source'})
     target=WEB/'subjects/nmmmh'
@@ -134,7 +186,7 @@ def main():
               'graded_count':sum(bool(q['correct_answer']) for q in rows),
               'review_count':sum(q['needs_review'] for q in rows),
               'readable_count':sum(not q.get('source_missing') for q in rows),
-              'chapter_counts':{c['id']:sum(q['chapter_id']==c['id'] for q in rows) for c in chapters}}
+              'chapter_counts':{c['id']:sum(c['id'] in q['chapter_ids'] for q in rows) for c in chapters}}
         # Only explicit title text supplies years; 2021–2060 are question
         # numbers in K16-3's third heading and are not an academic year.
         save(WEB/meta['question_file'],rows)
@@ -145,7 +197,7 @@ def main():
 
     aggregate=[]
     for c in chapters:
-        pool=[q for q in questions if q['chapter_id']==c['id']]
+        pool=[q for q in questions if c['id'] in q['chapter_ids']]
         seen=set();unique=[]
         for q in pool:
             key=q['duplicate_group'] if q['duplicate_status']=='confirmed' else q['id']
@@ -157,11 +209,10 @@ def main():
     save(target/'import_report.json',report)
     save(target/'needs_review.json',reviews)
     # Export only published exams. Preserve Excel's UTF-8 BOM and LF endings.
-    with (stage/'answers.csv').open(encoding='utf-8-sig',newline='') as source_csv:
-        reader=csv.DictReader(source_csv)
-        fieldnames=reader.fieldnames
-        answer_rows=[row for row in reader if row['de'] in included]
-    assert len(answer_rows)==len(questions)
+    fieldnames=['de','cau','dap_an','cac_phuong_an_hop_le','trang_thai','can_ra_soat','giai_thich']
+    answer_rows=[{'de':q['source_exam_id'],'cau':q['source_question_number'],'dap_an':q['correct_answer'] or '',
+                  'cac_phuong_an_hop_le':','.join(q['answer_audit'].get('valid_options',[])),
+                  'trang_thai':q['answer_audit']['status'],'can_ra_soat':q['needs_review'],'giai_thich':q['answer_audit']['explanation']} for q in questions]
     with (target/'answers.csv').open('w',encoding='utf-8-sig',newline='') as output_csv:
         writer=csv.DictWriter(output_csv,fieldnames=fieldnames,lineterminator='\n')
         writer.writeheader()

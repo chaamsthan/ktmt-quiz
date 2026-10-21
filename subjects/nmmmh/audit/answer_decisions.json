@@ -1,0 +1,3745 @@
+[
+  {
+    "id": "nmmmh-de-thi-nmmmh-1",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "1",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-1"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"ADDHOM\""
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-2",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "2",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_gf",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-2"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 224. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-3",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "3",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_jacobi",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-3"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"A\": {\"truth\": true, \"residue_classes_mod8\": {\"1\": 1, \"7\": 1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}, \"B\": {\"truth\": false, \"numerator\": 11, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": -1, \"roots_if_residuosity_claimed\": []}, \"C\": {\"truth\": true, \"numerator\": 158, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": -1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-4",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "4",
+    "old_answer": "A",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-4",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-4"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "A chắc chắn sai về lan lỗi ECB; B mơ hồ/không đúng tuyệt đối. Không ép đáp án đơn cho lời văn CBC thiếu điều kiện."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-5",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "5",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-5",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-5"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A,B là khía cạnh chuẩn; chống chối bỏ được thêm trong slide môn học theo nghĩa rộng. Thiếu ràng buộc nghĩa."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-6",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "6",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-6"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"orders\": {\"A\": 40, \"B\": 40, \"C\": 40, \"D\": 8}, \"target\": 40}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-7",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "7",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "B",
+      "C"
+    ],
+    "candidate_options": [
+      "B",
+      "C"
+    ],
+    "method": "independent_calculation_elgamal",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-7"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-8",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "8",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-8",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-8"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Tích bằng e nhận diện phần tử nghịch đảo trong nhóm."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-9",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "9",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "B",
+      "D"
+    ],
+    "candidate_options": [
+      "B",
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-9",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-9"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "B sai vì không cho r=0; D gọi nhiều đại diện cùng lớp là các lớp. Có hai lựa chọn sai theo lời văn."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-10",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "10",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_des_s1",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-10"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 3"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-11",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "11",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-11",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-11"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "Ba phát biểu đúng về cặp khóa người nhận/người gửi và kết hợp chữ ký-mã hóa."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-12",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "12",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_euler",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-12"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 576"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-13",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "13",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_logs",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-13"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"exponents_in_0_phi\": [31]}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-14",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "14",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-14",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-14"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+    ],
+    "explanation": "Lịch DES một bit ở 1,2,9,16, do đó A,B sai và D sai; C mô tả đúng."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-15",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "15",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-15"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [[2, 7], [10, 9]]"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-16",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "16",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "method": "independent_calculation_knapsack",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-16"
+    ],
+    "sources": [],
+    "explanation": "Đã kiểm tra từng mệnh đề. Chọn phương án tổng hợp theo quy ước “tất cả các đáp án trên”. Kết quả: {\"A\": {\"truth\": true, \"sequence\": [15, 47, 67, 130, 287], \"prefix_checks\": [{\"value\": 15, \"previous_sum\": 0, \"greater\": true}, {\"value\": 47, \"previous_sum\": 15, \"greater\": true}, {\"value\": 67, \"previous_sum\": 62, \"greater\": true}, {\"value\": 130, \"previous_sum\": 129, \"greater\": true}, {\"value\": 287, \"previous_sum\": 259, \"greater\": true}], \"matches\": true}}. Arithmetic options are computed; complexity options use operation-count proofs. Merkle-Hellman hardness wording, when present, is assessed as textbook design motivation, not a security theorem."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-17",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "17",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_tonelli",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-17"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [1, 96, 8]"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-18",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "18",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-18"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"A\": 1, \"B\": 17, \"C\": 17, \"D\": 85}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-19",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "19",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-19",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-19"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Ba phát biểu là định nghĩa/tính chất chuẩn; D là đáp án tổng hợp."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-20",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "20",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-20"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-21",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "21",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-21",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-21"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+    ],
+    "explanation": "B nhầm ký bằng khóa riêng với mã hóa để đảm bảo bí mật."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-22",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "22",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-22",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-22"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "C nhầm độ dài digest với độ dài đầu vào; hàm băm đang xét có độ dài đầu ra cố định."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-23",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "23",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-23",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-23"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "A,B,C đều đúng theo quy trình CA; D tổng hợp."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-24",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "24",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-24",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-24"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "Chữ ký phát hành chứng thư là của CA. Không nhầm chữ ký CSR do chủ thể thực hiện."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-25",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "25",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-25"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-26",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "26",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-26"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"A\": 1, \"B\": 5, \"C\": 2, \"D\": 1}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-27",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "27",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-27",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-27"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "D sai về điều kiện cần chọn e: gcd với phi(n), không phải với n."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-28",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "28",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-28",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-28"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "A sai; B cũng sai nếu nói đã chứng minh độ khó của bài toán. Không tự diễn giải B thành chứng minh giảm an toàn để cứu khóa cũ."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-29",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "29",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "A",
+      "B"
+    ],
+    "candidate_options": [
+      "A",
+      "B"
+    ],
+    "method": "independent_calculation_rabin",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-29"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-30",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "30",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_rsa_signature",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-30"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"n\": 713, \"phi\": 660, \"e\": 367, \"signature\": 284, \"verified_message\": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-31",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "31",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-31"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [8, 3]"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-32",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "32",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-32",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-32"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+    ],
+    "explanation": "A đúng; B,C chỉ chấp nhận được khi nêu ngữ cảnh giáo trình cụ thể. Không ép D từ định nghĩa lỏng."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-33",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "33",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-33",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-33"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Cả ba định nghĩa đúng: va chạm không cố định trước đầu vào, tiền ảnh thứ hai cố định x, tiền ảnh cố định digest y."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-34",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "34",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_rc4",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-34"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"trace\": [{\"i\": 0, \"j\": 13, \"swap\": [0, 13]}, {\"i\": 1, \"j\": 41, \"swap\": [1, 41]}], \"final_nonidentity_entries\": {\"0\": 13, \"1\": 41, \"13\": 0, \"41\": 1}}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-35",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "35",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_des_p",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-35"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"output\": \"01100011101100110111000101111110\", \"missing_bits\": \"0111011\", \"fixed_cell_conflicts\": []}"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-36",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "36",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_square_multiply",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-36"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [1, 1, 109, 65, 115, 90]"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-37",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "37",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-37",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-37"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+    ],
+    "explanation": "B nêu hai nguyên lý Shannon đúng; A,C đảo cách phân công chuẩn, D sai."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-38",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "38",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_merkle",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-38"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [319, 650, 250, 477, 29, 105]"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-39",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "39",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_mix",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-39"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 141"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-40",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "40",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_autokey",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-40"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: \"KKHATAIPK\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-1",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "1",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_tonelli",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-1"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [1, 96, 8]"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-2",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "2",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_rc4",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-2"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"trace\": [{\"i\": 0, \"j\": 13, \"swap\": [0, 13]}, {\"i\": 1, \"j\": 41, \"swap\": [1, 41]}], \"final_nonidentity_entries\": {\"0\": 13, \"1\": 41, \"13\": 0, \"41\": 1}}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-3",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "3",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-3",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-3"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "A,B,C đều đúng trong mô hình đăng ký và phát hành CA; chọn mệnh đề tổng hợp D theo quy ước 'tất cả'."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-4",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "4",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-4",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-4"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+    ],
+    "explanation": "A đưa vòng 9 vào dịch hai bit và bỏ vòng 6; B cũng sai lịch một bit; chỉ C đúng. Override B thay 8 bằng 6 vẫn sai vì lịch đúng là 1,2,9,16, không phải 1,2,6,16."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "5",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-5"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Áp dụng B.text từ source override, quan hệ là h(x)=h(x'). A,B,C đều là ba định nghĩa đúng; D đúng theo quy ước chọn 'tất cả'. Kết luận tính trên chuỗi corrected_input bên dưới, không lấy từ đáp án cũ."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "6",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-6"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-7",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "7",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_square_multiply",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-7"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [1, 1, 109, 65, 115, 90]"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-8",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "8",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_logs",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-8"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"exponents_in_0_phi\": [31]}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-9",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "9",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-9"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"A\": 17, \"B\": 85, \"C\": 1, \"D\": 17}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-10",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "10",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_des_s1",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-10"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 3"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-11",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "11",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_merkle",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-11"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [319, 650, 250, 477, 29, 105]"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "12",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-13",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "13",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_gf",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-13"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 224. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-14",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "14",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-14",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-14"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "Chứng thư CA cấp phải có chữ ký CA, không phải chữ ký riêng của chủ thể."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-15",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "15",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_des_p",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-15"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"output\": \"01100011101100110111000101111110\", \"missing_bits\": \"0111011\", \"fixed_cell_conflicts\": []}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-16",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "16",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "method": "independent_calculation_knapsack",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-16"
+    ],
+    "sources": [],
+    "explanation": "Đã kiểm tra từng mệnh đề. Chọn phương án tổng hợp theo quy ước “tất cả các đáp án trên”. Kết quả: {\"A\": {\"truth\": true, \"sequence\": [15, 47, 67, 130, 287], \"prefix_checks\": [{\"value\": 15, \"previous_sum\": 0, \"greater\": true}, {\"value\": 47, \"previous_sum\": 15, \"greater\": true}, {\"value\": 67, \"previous_sum\": 62, \"greater\": true}, {\"value\": 130, \"previous_sum\": 129, \"greater\": true}, {\"value\": 287, \"previous_sum\": 259, \"greater\": true}], \"matches\": true}}. Arithmetic options are computed; complexity options use operation-count proofs. Merkle-Hellman hardness wording, when present, is assessed as textbook design motivation, not a security theorem."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-17",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "17",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_mix",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-17"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 141"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-18",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "18",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-18"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-19",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "19",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-19"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [8, 3]"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "20",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "B",
+      "C"
+    ],
+    "candidate_options": [
+      "B",
+      "C"
+    ],
+    "method": "independent_calculation_elgamal",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-20"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-21",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "21",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_rsa_signature",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-21"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"n\": 713, \"phi\": 660, \"e\": 367, \"signature\": 284, \"verified_message\": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-22",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "22",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-22"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [[2, 7], [10, 9]]"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "23",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-24",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "24",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-24"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: \"ADDHOM\""
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-25",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "25",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-25",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-25"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Nghịch đảo trong nhóm cho tích bằng đơn vị e, không nhầm với luật phần tử đơn vị."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "26",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "A",
+      "B"
+    ],
+    "candidate_options": [
+      "A",
+      "B"
+    ],
+    "method": "independent_calculation_rabin",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-26"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-27",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "27",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-27",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-27"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Ba định nghĩa/tính chất nhóm đều đúng; chọn D tổng hợp."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-28",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "28",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-28"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"orders\": {\"A\": 40, \"B\": 40, \"C\": 40, \"D\": 8}, \"target\": 40}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "29",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "A",
+      "B"
+    ],
+    "candidate_options": [
+      "A",
+      "B"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-30",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "30",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-30",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-30"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "C dùng điều kiện gcd(e,n)=1 không cần/không đủ. Các lựa chọn khác là RSA chuẩn với lưu ý không khẳng định tương đương RSA inversion/factoring."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-31",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "31",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_euler",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-31"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 576"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-32",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "32",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_autokey",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-32"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: \"KKHATAIPK\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-33",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "33",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-33"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"A\": 1, \"B\": 5, \"C\": 2, \"D\": 1}"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-34",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "34",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-34",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-34"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+    ],
+    "explanation": "Trong đối chiếu chức năng thế-hoán vị giáo khoa, A,C đảo vai trò; chỉ B đúng; D sai."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-35",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "35",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-35",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-35"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+    ],
+    "explanation": "B sai vì muốn bí mật phải mã bằng khóa công khai người nhận, không công khai hóa phép riêng kiểu chữ ký."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "36",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-36"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A,B,C đúng về vai trò khóa và khả năng kết hợp chữ ký với mã hóa; chọn D."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "37",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "38",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-38"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Digest cố định không đổi độ dài theo thông điệp; A sai."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "39",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+    ],
+    "explanation": "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-40",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "40",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_jacobi",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-40"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"A\": {\"truth\": false, \"numerator\": 11, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": -1, \"roots_if_residuosity_claimed\": []}, \"B\": {\"truth\": true, \"residue_classes_mod8\": {\"1\": 1, \"7\": 1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}, \"C\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"D\": {\"truth\": true, \"numerator\": 158, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": -1, \"roots_if_residuosity_claimed\": null}}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-1",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "1",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-1"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"orders\": {\"A\": 36, \"B\": 3, \"C\": 36, \"D\": 18}, \"target\": 3}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-2",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "2",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-2",
+      "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-2"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "D dùng sai modulo giải mã; ba lựa chọn còn lại đúng theo mô hình RSA chuẩn."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-3",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "3",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-4",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "4",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-4",
+      "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-4"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "Chọn Rabin theo chung nền phân tích thừa số trong Table 8.1. Không khẳng định đảo RSA đã được chứng minh tương đương factoring."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-5",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "5",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-5",
+      "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-5"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "Chỉ B đồng thời có kỹ thuật cung cấp bí mật và kỹ thuật xác thực với đúng vai trò khóa."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-6",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "6",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-6"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-7",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "7",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_mix",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-7"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 141"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-8",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "8",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_elgamal",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-8"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"beta\": 133, \"gamma\": 191, \"delta\": 71, \"inverse_gamma_a\": 22}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-9",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "9",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_generator_count",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-9"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"count\": 0, \"generators\": []}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-10",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "10",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_knapsack",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-10"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"solutions\": [[1, 1, 0, 1, 0, 1, 0]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-11",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "11",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-11",
+      "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-11"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "B nhầm nhiệm vụ SubBytes với tầng khuếch tán. D diễn đạt trường của ma trận thiếu chuẩn, nhưng hạng của ma trận nhị phân AES không giảm khi mở rộng trường nên không đánh dấu sai chỉ vì GF(2^8)."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-12",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "12",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-12",
+      "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-12"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+    ],
+    "explanation": "SubBytes phi tuyến; ShiftRows/MixColumns mới là tầng tuyến tính. A,D dùng cách phân vai confusion/diffusion giáo khoa."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-13",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "13",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_euclid",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-13"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [30, 1, -153, 551, 2, 1, 5, -153, -18, 551]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-1",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "1",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_merkle",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-1"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [319, 650, 250, 477, 29, 105]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-2",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "2",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-2",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-2"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "Không có bảo đảm mã dòng thay mã khối để an toàn hơn; các đặc tính còn lại phù hợp mô hình mã dòng đang học."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-3",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "3",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_dh",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-3"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 366"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-4",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "4",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-4",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-4"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "Thiếu điều kiện bảo vệ digest cho hàm băm; MAC và chữ ký đều là đáp án đúng độc lập. Slide p15 cho danh sách C nếu hỏi bộ kỹ thuật đầy đủ, nhưng đề không nêu cách chọn này."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-5",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "5",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-5"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-6",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "6",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_mix",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-6"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 93"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-7",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "7",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-7",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-7"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "A sai nếu đọc 'hàm ngẫu nhiên' như thuật toán ngẫu nhiên, nhưng D có lời văn trái với công thức đúng. Không tự chọn D sai hoặc dùng A để ép bỏ lỗi lời văn."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-8",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "8",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_tonelli",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-8"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [1, 18, 9]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-9",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "9",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-9"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"orders\": {\"A\": 12, \"B\": 9, \"C\": 72, \"D\": 72}, \"target\": 5}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-10",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "10",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-10"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: \"FRIDAY\""
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-11",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "11",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-11",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-11"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "Sau override A in f(n), không phải (n) và chưa có định nghĩa f. C vẫn sai vì gcd(e,n)=1 không là điều kiện RSA. Nếu f được xác nhận là phi thì C là đáp án; chưa đủ chứng cứ để ép đọc đó. Cần đối chiếu nguồn: Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n)."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-12",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "12",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-12"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [3, 5]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-13",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "13",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-13",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-13"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "B chắc chắn sai. D thiếu ngữ cảnh toàn bộ thông điệp hay khối lặp và phát biểu quá tuyệt đối khi đổi khóa; không ép một đáp án cho câu mơ hồ."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-14",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "14",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-14"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"A\": 5, \"B\": 1, \"C\": 2, \"D\": 7}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-15",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "15",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-15"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-16",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "16",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-16",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-16"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A,C nhầm vai trò khóa; D sai vì không phải mọi đáp án đều đúng; B đúng."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-17",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "17",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_logs",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-17"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"exponents_in_0_phi\": [23]}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-18",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "18",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_jacobi",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-18"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"A\": {\"truth\": true, \"numerator\": 47, \"denominator\": 97, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"B\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}, \"C\": {\"truth\": false, \"numerator\": 5, \"denominator\": 97, \"claimed_symbol\": 1, \"computed_symbol\": -1, \"roots_if_residuosity_claimed\": []}, \"D\": {\"truth\": true, \"claimed_roots\": [2, 13, 7, 8], \"computed_roots\": [2, 7, 8, 13]}}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-19",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "19",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-19",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-19"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "D nhầm bậc nhóm phi(n) với số phần tử sinh phi(phi(n))."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-20",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "20",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_gf",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-20"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 234. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-21",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "21",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_des_s1",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-21"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 6"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-22",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "22",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_rsa_signature",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-22"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"n\": 713, \"phi\": 660, \"e\": 367, \"signature\": 284, \"verified_message\": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-23",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "23",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-23"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"orders\": {\"A\": 96, \"B\": 48, \"C\": 96, \"D\": 96}, \"target\": 96}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-24",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "24",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "B",
+      "C"
+    ],
+    "candidate_options": [
+      "B",
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-24",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-24"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "B loại số dư bằng 0; C gọi các đại diện cùng lớp là các lớp. Theo lời văn nguyên bản có ít nhất hai phát biểu sai. Override bổ sung 15 mod 7 không đổi việc các biểu thức thuộc cùng một lớp."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-25",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "25",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-25",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-25"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+    ],
+    "explanation": "B đúng về nguyên lý Shannon; D thiếu ý 'chỉ' hay loại đơn vị nên có thể đúng ở mức biểu diễn bit. Không dùng một cách diễn đạt mơ hồ để loại D."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-26",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "26",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "B",
+      "C"
+    ],
+    "candidate_options": [
+      "B",
+      "C"
+    ],
+    "method": "independent_calculation_elgamal",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-26"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 131, \"gamma\": 72, \"delta\": 74, \"inverse_gamma_a\": 92}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-27",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "27",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_des_p",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-27"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"output\": \"01100011101100110111000101111110\", \"missing_bits\": \"0111011\", \"fixed_cell_conflicts\": []}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-28",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "28",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-28"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [[8, 3], [2, 7]]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-29",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "29",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-29",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-29"
+    ],
+    "sources": [],
+    "explanation": "Chỉ B có điều kiện trái phép; A,C,D tuyệt đối hóa đối tượng được truy cập/sửa/đọc."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-30",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "30",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_rabin",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-30"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"n\": 41989, \"ciphertext\": 15142, \"roots\": [1731, 3841, 38148, 40258], \"a_b_r_s\": [-88, 83, 139, 43], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-31",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "31",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_knapsack",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-31"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"C\": {\"truth\": true, \"sequence\": [12, 13, 33, 60, 120, 240, 480], \"target\": 344, \"solutions\": [], \"matches\": false}, \"D\": {\"truth\": false, \"sequence\": [13, 42, 57, 123, 234], \"prefix_checks\": [{\"value\": 13, \"previous_sum\": 0, \"greater\": true}, {\"value\": 42, \"previous_sum\": 13, \"greater\": true}, {\"value\": 57, \"previous_sum\": 55, \"greater\": true}, {\"value\": 123, \"previous_sum\": 112, \"greater\": true}, {\"value\": 234, \"previous_sum\": 235, \"greater\": false}], \"matches\": true}}. Arithmetic options are computed; complexity options use operation-count proofs. Merkle-Hellman hardness wording, when present, is assessed as textbook design motivation, not a security theorem."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-32",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "32",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-32",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-32"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+    ],
+    "explanation": "Lịch dịch chuẩn 1,2,9,16 làm A,C sai, nên D sai; B mô tả đúng tổng thể sinh khóa."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-33",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "33",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-33",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-33"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Tích với phần tử nghịch đảo phải ra đơn vị e. Các đẳng thức còn lại không phải định nghĩa nghịch đảo."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-34",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "34",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-34",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-34"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "A sai về độ dài digest của hàm băm cố định; các phát biểu một chiều dùng nghĩa bất khả thi về tính toán."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-35",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "35",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_calculation_euler",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-35"
+    ],
+    "sources": [],
+    "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: 384"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-36",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "36",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-36",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-36"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A và B là các khía cạnh chuẩn; C,D theo mục tiêu rộng của Slide 138. Thiếu định nghĩa chọn giữa nghĩa rộng và nghĩa bảo đảm chuẩn."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-37",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "37",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-37",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-37"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap12.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "A quá hẹp về phạm vi thỏa thuận khóa; B chỉ là một mô hình phân phối có TA, không phải định nghĩa chung. C,D đúng trong ngữ cảnh cơ quan tin cậy."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-38",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "38",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-38",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-38"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "B nhầm chữ ký của CSR/chủ thể với chữ ký CA phát hành chứng thư."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-39",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "39",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_square_multiply",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-39"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [1, 1, 47, 99, 106, 155]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-40",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "40",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-40",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-40"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "A sai về mục tiêu thay thế; D sai nếu hiểu 'đã chứng minh độ khó' theo nghĩa đen. Không giả vờ giả định độ khó đã được chứng minh."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2021",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2021",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2021",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2021"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Băm và ký không tự có bí mật; cặp khóa mã hóa là của người nhận, cặp khóa ký là của người gửi."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2022",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2022",
+    "old_answer": "D",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2022"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2023",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2023",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_unit_membership",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2023"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"gcds\": {\"A\": 1, \"B\": 1, \"C\": 1, \"D\": 5}}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2024",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2024",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2024"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: \"OBJZMA\""
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2025",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2025",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2025",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2025"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "Khóa riêng phải giữ bí mật; không phải tất cả khóa đều công khai."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2026",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2026",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2026",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2026"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Băm không phải mã hóa có thể giải mã thông điệp; các định nghĩa kháng va chạm, tiền ảnh còn lại đúng."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2027",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2027",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2027"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2028",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2028",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_mix",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2028"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 64"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2029",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2029",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2029",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2029"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "C lấy nghịch đảo sai modulo; RSA dùng phi(n)/lambda(n) cho số mũ và n cho thông điệp."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2030",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2030",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2030"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"orders\": {\"A\": 4, \"B\": 40, \"C\": 40, \"D\": 40}, \"target\": 40}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2031",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2031",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2031"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"orders\": {\"A\": 2, \"B\": 3, \"C\": 6, \"D\": 6}, \"target\": 2}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2032",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2032",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_calculation_autokey",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2032"
+    ],
+    "sources": [],
+    "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2033",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2033",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_des_s1",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2033"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 5"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2034",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2034",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2034"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [5, 2]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2035",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2035",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2035"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"A\": 23, \"B\": 1, \"C\": 19, \"D\": 13}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2036",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2036",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_calculation_rabin",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2036"
+    ],
+    "sources": [],
+    "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2037",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2037",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_merkle",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2037"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [105, 29, 477, 250, 650, 319]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2038",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2038",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2038",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2038"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2039",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2039",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2039",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2039"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Định nghĩa phần tử nghịch đảo trong nhóm cần tích bằng đơn vị e."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2040",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2040",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2040",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2040"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "Kiểm tra đủ A–D độc lập: B là phát biểu sai theo quy ước độ phức tạp đếm phép toán số học và D nói về nền thiết kế giáo khoa. Không lấy kết luận B từ khóa đang lưu. Ghi rõ giới hạn D để tránh dùng độ khó knapsack tổng quát như bằng chứng an toàn của Merkle–Hellman."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2041",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2041",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2041",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2041"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "C phải là phi(phi(n)), không phải phi(n)."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2042",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2042",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_generators",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2042"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"A\": {\"phi\": 12, \"generators\": []}, \"B\": {\"phi\": 20, \"generators\": [3, 13, 17, 23, 27, 33, 37, 47]}, \"C\": {\"phi\": 8, \"generators\": []}, \"D\": {\"phi\": 24, \"generators\": []}}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2043",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2043",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2043",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2043"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "ElGamal cổ điển dựa trên nhóm DLP; phân biệt với biến thể EC và giả định CDH/DDH cụ thể."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2044",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2044",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2044",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2044"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Theo nghĩa hiệu quả tính toán của 'có thể', C là phát biểu một chiều đúng; A,B,D không đúng với hàm băm mật mã cố định."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2045",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2045",
+    "old_answer": "A",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2045",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2045"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2046",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2046",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2046",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2046"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+    ],
+    "explanation": "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2047",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2047",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "A",
+      "D"
+    ],
+    "candidate_options": [
+      "A",
+      "D"
+    ],
+    "method": "independent_calculation_elgamal",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2047"
+    ],
+    "sources": [],
+    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2048",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2048",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2048",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2048"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
+      "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+    ],
+    "explanation": "D đảo chức năng confusion/diffusion trong mô hình thế-hoán vị; C mô tả tầng tuyến tính AES đúng."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2049",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2049",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_square_multiply",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2049"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [1, 1, 47, 99, 35, 89]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2050",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2050",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2050",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2050"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Định lý tính nhân của phi cần hai số nguyên dương nguyên tố cùng nhau."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2051",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2051",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2051",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2051"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf"
+    ],
+    "explanation": "Chủ thể ký CSR có thể là bước chứng minh nắm khóa, nhưng chữ ký chứng thư được hỏi là của CA."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2052",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2052",
+    "old_answer": null,
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_jacobi",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2052"
+    ],
+    "sources": [],
+    "explanation": "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2053",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2053",
+    "old_answer": "A",
+    "new_answer": "A",
+    "status": "verified",
+    "correct_answer": "A",
+    "valid_options": [
+      "A"
+    ],
+    "candidate_options": [
+      "A"
+    ],
+    "method": "independent_calculation_generator_count",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2053"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"count\": 0, \"generators\": []}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2054",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2054",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_gcd",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2054"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"A\": 1, \"B\": 1, \"C\": 3, \"D\": 1}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2055",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2055",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_gf",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2055"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 113. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2056",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2056",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "C",
+      "D"
+    ],
+    "candidate_options": [
+      "C",
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2056",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2056"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2057",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2057",
+    "old_answer": "B",
+    "new_answer": "B",
+    "status": "verified",
+    "correct_answer": "B",
+    "valid_options": [
+      "B"
+    ],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_ecc",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2057"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [[8, 3], [10, 2]]"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2058",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2058",
+    "old_answer": "C",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_logs",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2058"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"exponents_in_0_phi\": [13]}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2059",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2059",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_euler",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2059"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 720"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2060",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2060",
+    "old_answer": "D",
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_rsa_signature",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2060"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"n\": 713, \"phi\": 660, \"e\": 367, \"signature\": 284, \"verified_message\": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
+  }
+]

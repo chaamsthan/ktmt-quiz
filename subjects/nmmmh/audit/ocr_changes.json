@@ -1,0 +1,215 @@
+[
+  {
+    "id": "nmmmh-de-thi-nmmmh-30",
+    "field": "question",
+    "old": "Cho hệ chữ ký RSA với p = 31; q = 23; d = 223 (thỏa mãn gcd(d, φ(n)) = 1), thông điệp cần ký m = 439. Khẳng định nào sau đây là SAI?",
+    "new": "Cho hệ chữ ký RSA với p = 31; q = 23; d = 223 (thỏa mãn gcd(d, n) = 1), thông điệp cần ký m = 439. Khẳng định nào sau đây là SAI?",
+    "evidence": "PDF p39 stem explicitly prints gcd(d, n) = 1. Restore source, without silently correcting its mathematical formulation.",
+    "source_pages": [
+      39
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-36",
+    "field": "question",
+    "old": "Áp dụng thuật toán nhân bình phương có lặp để tính 27^101 mod 211. Bảng đã cho i = 0..4; hãy điền các giá trị còn thiếu X1..X6.\nHình câu 36 — bảng nhân bình phương có lặp",
+    "new": "Áp dụng thuật toán nhân bình phương có lặp để tính 27^101 mod 211. Bảng đã cho i = 0..6; hãy điền các giá trị còn thiếu X1..X6.\nHình câu 36 — bảng nhân bình phương có lặp",
+    "evidence": "PDF p20 table header contains i=0,1,2,3,4,5,6; X1 and X2 are in columns 5 and 6.",
+    "source_pages": [
+      20
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-4",
+    "field": "B",
+    "old": "Trong thủ tục sinh khóa vòng, tại các vòng 1, 2, 8, 16 ta thực hiện dịch trái 1 bit đối với các C, D.",
+    "new": "Trong thủ tục sinh khóa vòng, tại các vòng 1, 2, 6, 16 ta thực hiện dịch trái 1 bit đối với các C, D.",
+    "evidence": "PDF p2 Q4(B), also 4x original-page crop, explicitly prints 1,2,6,16; do not substitute a standard DES schedule.",
+    "source_pages": [
+      2
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+    "field": "B",
+    "old": "Hàm băm có tính kháng tiền ảnh thứ hai, tức là với một đầu vào cho trước x không có khả năng tính toán để tìm ra x' ≠ x mà h(x) ≠ h(x').",
+    "new": "Hàm băm có tính kháng tiền ảnh thứ hai, tức là với một đầu vào cho trước x không có khả năng tính toán để tìm ra x' ≠ x mà h(x) = h(x').",
+    "evidence": "PDF p2 Q5(B), also 4x crop, prints x' ≠ x but h(x) = h(x'). Published option changed the second relation.",
+    "source_pages": [
+      2
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+    "field": "question",
+    "old": "Đáp án nào sau đây là cấp của phần tử a = 17 trên Z*₅₀?",
+    "new": "Đáp án nào sau đây là cấp của phần tử a = 17 trên Z*₂₀?",
+    "evidence": "PDF p2 Q6 group subscript is 20, confirmed in enlarged original crop.",
+    "source_pages": [
+      2
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "field": "A",
+    "old": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+    "new": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+    "evidence": "PDF p6 Q29(A), also 4x crop, uses strict 0 < r < n. Preserve this source statement even though it excludes zero remainder.",
+    "source_pages": [
+      6
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "field": "B",
+    "old": "−7 mod 7; 0 mod 7; 7 mod 7; … là các lớp tương đương trên Z₇.",
+    "new": "−7 mod 7; 0 mod 7; 7 mod 7; 14 mod 7; … là các lớp tương đương trên Z₇.",
+    "evidence": "PDF p6 Q29(B) includes the term 14 mod 7, omitted in published text.",
+    "source_pages": [
+      6
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-11",
+    "field": "A",
+    "old": "Khóa bí mật được tính theo công thức d = e⁻¹ mod (n).",
+    "new": "Khóa bí mật được tính theo công thức d = e⁻¹ mod f(n).",
+    "evidence": "PDF p7, magnified source crop /tmp/nmmmh-source-review/k16-2-q11-A.png. The visible glyph is Latin f, not an empty pair of parentheses. Preserve f(n); interpreting it as Euler phi is separate.",
+    "source_pages": [
+      7
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-15",
+    "field": "question",
+    "old": "Giả sử hệ mã sử dụng là Affine với k = (a, b) và hàm mã y = ax + b mod 26. Ta có Q(14) là mã hóa của M(12) và R(17) là mã hóa của N(13). Khóa nào sau đây là khóa đúng?",
+    "new": "Giả sử hệ mã sử dụng là Affine với k = (a, b) và hàm mã y = ax + b mod 26. Ta có O(14) là mã hóa của M(12) và R(17) là mã hóa của N(13). Khóa nào sau đây là khóa đúng?",
+    "evidence": "PDF p4 and magnified crop k16-2-q15.png explicitly show O(14), consistent with the A=0 alphabet. Do not repair the original numeric values.",
+    "source_pages": [
+      4
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-22",
+    "field": "C",
+    "old": "Để xác minh chữ ký ta tính m′ = 284³⁰⁷ mod 713 và so sánh với m nhận được.",
+    "new": "Để xác minh chữ ký ta tính m′ = 284³⁶⁷ mod 713 và so sánh với m nhận được.",
+    "evidence": "PDF p1 and magnified crop k16-2-q22.png show exponent 367. Option D's (660,367) is printed in the source and must remain.",
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-24",
+    "field": "C",
+    "old": "−6 mod 7; 1 mod 7; 8 mod 7; … là các lớp tương đương trên Z₇.",
+    "new": "−6 mod 7; 1 mod 7; 8 mod 7; 15 mod 7; … là các lớp tương đương trên Z₇.",
+    "evidence": "PDF p1 option C explicitly contains 15 mod 7 before the ellipsis.",
+    "source_pages": [
+      1,
+      11
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-26",
+    "field": "A",
+    "old": "Khóa riêng của A là k_a = 67.",
+    "new": "Khóa riêng của A là k_d = 67.",
+    "evidence": "PDF p11 labels the private key k_d, not k_a. Preserve its printed value 67.",
+    "source_pages": [
+      11
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-26",
+    "field": "B",
+    "old": "Khóa công khai k_p của A là α^a = 131.",
+    "new": "Khóa công khai k_e của A là α^a = 131.",
+    "evidence": "PDF p11 labels the public key k_e, not k_p. Preserve its printed value 131.",
+    "source_pages": [
+      11
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-27",
+    "field": "question_blocks[4].text",
+    "old": "1 0 0 1 | 0 1 1 1 | 1 1 1 0 | 1 1 0 0 | 1 0 0 1 | 0 1 1 1 | 0 1 0 0 | 0 1 1 1",
+    "new": "1 0 0 1 | 0 1 1 1 | 1 1 1 0 | 1 1 0 0 | 1 0 0 1 | 0 1 1 1 | 0 1 0 1 | 0 1 1 0",
+    "evidence": "PDF p5 and the published image 5dcf9227dd4f9f236032.png both show these rows. The image is correct; the accompanying text is wrong.",
+    "source_pages": [
+      5,
+      11
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-35",
+    "field": "question",
+    "old": "Đáp án nào dưới đây là kết quả của φ(785)?",
+    "new": "Đáp án nào dưới đây là kết quả của φ(765)?",
+    "evidence": "PDF pp3,6 and magnified crop k16-2-q35.png show 765.",
+    "source_pages": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2027",
+    "field": "question",
+    "old": "Đáp án nào sau đây là cấp của phần tử a = 13 trên Z*50?",
+    "new": "Đáp án nào sau đây là cấp của phần tử a = 13 trên Z*20?",
+    "evidence": "PDF p5 and magnified crop k16-3-q2027.png show subscript 20.",
+    "source_pages": [
+      5
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2028",
+    "field": "question_blocks[3].text",
+    "old": "Ma trận trạng thái  ·  ma trận MixColumns  =  ma trận kết quả",
+    "new": "Ma trận MixColumns  ·  ma trận trạng thái  =  ma trận kết quả",
+    "evidence": "Original PDF p5 and final reviewed figure both show the multiplication order.",
+    "source_pages": [
+      5
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2030",
+    "field": "question",
+    "old": "Đáp án nào dưới đây không phải là phần tử sinh của Z*11?",
+    "new": "Đáp án nào dưới đây không phải là phần tử sinh của Z*41?",
+    "evidence": "PDF p9 and magnified crop k16-3-q2030.png show subscript 41. Top border touches the scan edge, but the entire group label remains readable.",
+    "source_pages": [
+      9
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2052",
+    "field": "B",
+    "old": "(21/233) = −1   [ký hiệu Legendre].",
+    "new": "(21/235) = −1",
+    "evidence": "High-confidence literal transcription from original PDF p3 / PNG 279159375_261660752784507_6166173703984390012_n.png: option (B) prints a stacked fraction with numerator 21 and denominator 235 followed by = -1. No symbol name or bracketed annotation is printed. Remove the unsupported editorial '[ký hiệu Legendre]' while retaining (21/235) = −1 exactly. This verifies transcription only; neither a Legendre nor a Jacobi interpretation is established by the source, and no answer key is approved by this correction.",
+    "source_pages": [
+      3
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2056",
+    "field": "D",
+    "old": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n × q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+    "new": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n × q + r, 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+    "evidence": "PDF p10 and magnified crop k16-3-q2056-D.png show strict 0 < r < n. This deliberately false option must not be made mathematically correct.",
+    "source_pages": [
+      10
+    ]
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2058",
+    "field": "question",
+    "old": "Đâu là kết quả của log₁₇ 21 trên Z97?",
+    "new": "Đâu là kết quả của log₁₇ 21 trên Z₉₇*?",
+    "evidence": "PDF p10 shows a superscript star on Z with subscript 97; published question omits the star.",
+    "source_pages": [
+      10
+    ]
+  }
+]

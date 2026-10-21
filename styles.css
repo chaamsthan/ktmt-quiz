@@ -239,6 +239,28 @@ a.primary-btn, a.secondary-btn, a.ghost-btn { display: inline-flex; align-items:
 .nmmmh-progress { margin-bottom: 24px; }
 .nmmmh-progress .button-row { margin-top: 0; }
 .nmmmh-progress .stats-grid { margin-bottom: 15px; }
+.practice-panel { margin-bottom: 24px; }
+.practice-panel #resume-nmmmh { margin-bottom: 18px; }
+.chapter-checks { display: grid; gap: 12px; border: 1px solid var(--line); padding: 15px; border-radius: 12px; }
+.chapter-checks legend { padding: 0 7px; color: var(--muted); font-size: .86rem; }
+.chapter-checks label { display: flex; align-items: start; gap: 8px; line-height: 1.5; }
+.chapter-checks input { accent-color: var(--mint); width: 18px; height: 18px; flex: 0 0 auto; }
+.practice-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
+.nmmmh-mode .field input { width: 100%; padding: 12px 13px; border: 1px solid var(--line); border-radius: 11px; background: #fbfcfe; font: inherit; }
+.practice-live { margin-top: 17px; color: var(--muted); font-size: .86rem; }
+.quick-hint { margin-top: 12px; padding: 14px 16px; color: #175b4e; border: 1px solid #bfe9de; border-radius: 12px; background: #effcf7; line-height: 1.65; white-space: pre-wrap; }
+.nmmmh-mode .katex { font-size: 1.05em; }
+.nmmmh-mode .katex-display { overflow-x: auto; overflow-y: hidden; padding: 6px 0; }
+.nmmmh-mode .source-text { white-space: pre-wrap; }
+.nmmmh-mode .answer-explanation summary { cursor: pointer; font-weight: 750; }
+.nmmmh-mode .answer-explanation details p { margin-top: 12px; }
+.nmmmh-mode img[role="button"] { cursor: zoom-in; }
+#nmmmh-image-dialog { width: min(96vw,1400px); max-height: 95vh; padding: 12px; border: 1px solid var(--line); border-radius: 15px; }
+#nmmmh-image-dialog::backdrop { background: rgba(10,20,35,.75); }
+.zoom-toolbar { display: flex; gap: 10px; justify-content: end; padding-bottom: 12px; }
+.zoom-toolbar button { min-width: 44px; min-height: 44px; border: 1px solid var(--line); border-radius: 9px; background: white; font: inherit; }
+.zoom-viewport { max-height: 78vh; overflow: auto; }
+.zoom-viewport img { display: block; max-width: none; height: auto; }
 
 @media (max-width: 850px) {
   .hero, .setup-grid, .quiz-shell { grid-template-columns: 1fr; }
@@ -248,6 +270,7 @@ a.primary-btn, a.secondary-btn, a.ghost-btn { display: inline-flex; align-items:
   .question-map { max-height: 180px; }
 }
 @media (max-width: 620px) {
+  .practice-fields { grid-template-columns: 1fr; }
   .subject-nav { width: calc(100% - 20px); }
   .nmmmh-exams { grid-template-columns: 1fr; }
   .nmmmh-mode .question-meta { flex-direction: column; }

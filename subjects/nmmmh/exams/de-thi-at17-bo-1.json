@@ -12,7 +12,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 9,
     "source_docx_block": 3,
     "correct_answer": "B",
     "needs_review": false,
@@ -33,7 +33,13 @@
           "text": "18"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "18"
+        }
+      ]
     },
     "B": {
       "text": "10",
@@ -44,7 +50,13 @@
           "text": "10"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ]
     },
     "C": {
       "text": "13",
@@ -55,7 +67,13 @@
           "text": "13"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "13"
+        }
+      ]
     },
     "D": {
       "text": "4",
@@ -66,7 +84,13 @@
           "text": "4"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "4"
+        }
+      ]
     },
     "source_order": 0,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -76,11 +100,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.01",
-      "name": "Số học mô-đun, nhóm và logarit rời rạc",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -88,20 +108,79 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "Các bậc của 18,10,13,4 mod 37 lần lượt 36,3,36,18.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"orders\": {\"A\": 36, \"B\": 3, \"C\": 36, \"D\": 18}, \"target\": 3}",
+      "sources": [],
       "proof_key": "orders",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "B"
+      ],
+      "method": "independent_calculation_orders",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-1"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "7f3c902c6a17ae4e905727b33af10f460425df9dee0377e2d2b32a3cdccf2788",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.01",
+        "name": "Số học mô-đun, nhóm và logarit rời rạc",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "retained_existing_taxonomy_gap",
+      "rationale": "So sánh bậc của các phần tử 18, 10, 13, 4 trong nhóm nhân modulo 37; đây là đại số nhóm, chưa có mục toán nền tương ứng trong cây. Giữ phân loại hiện có để tránh đổi tùy tiện; đây vẫn là đề xuất ngoài phần chi tiết nguồn, không xác nhận một chủ đề hay vị trí chính thức mới.",
+      "taxonomy_scope": "outside_or_unverified",
+      "needs_taxonomy_review": true,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": true,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "1",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 9,
+      "pages": [
+        9
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-1",
+    "hint": "Với từng số 18, 10, 13, 4, thử các ước dương tăng dần của \\(37-1\\).\nDừng khi \\(a^d\\equiv1\\pmod{37}\\); so sánh số mũ nhỏ nhất của từng số, không so sánh giá trị a.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"orders\": {\"A\": 36, \"B\": 3, \"C\": 36, \"D\": 18}, \"target\": 3}",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Bậc của phần tử nào sau đây là nhỏ nhất trong nhóm nhân \\(\\mathbb{Z}_{37}^{*}\\)?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-2",
@@ -116,7 +195,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 3,
     "source_docx_block": 10,
     "correct_answer": "D",
     "needs_review": false,
@@ -137,7 +216,13 @@
           "text": "Để truyền tin mật, bản mã được tính như sau: y = x^e mod n."
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Để truyền tin mật, bản mã được tính như sau: y = \\(x^{e}\\) mod n."
+        }
+      ]
     },
     "B": {
       "text": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, φ(n)) = 1.",
@@ -148,7 +233,13 @@
           "text": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, φ(n)) = 1."
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, φ(n)) = 1."
+        }
+      ]
     },
     "C": {
       "text": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố.",
@@ -159,7 +250,13 @@
           "text": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố."
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố."
+        }
+      ]
     },
     "D": {
       "text": "Để giải mã y, bản rõ x được tính như sau: x = y^d mod φ(n).",
@@ -170,7 +267,13 @@
           "text": "Để giải mã y, bản rõ x được tính như sau: x = y^d mod φ(n)."
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Để giải mã y, bản rõ x được tính như sau: x = \\(y^{d}\\) mod φ(n)."
+        }
+      ]
     },
     "source_order": 1,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -180,11 +283,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.02",
-      "name": "Hệ mật RSA",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -192,20 +291,82 @@
       "valid_options": [
         "D"
       ],
-      "explanation": "Giải mã RSA lấy modulo n, không phải φ(n).",
+      "explanation": "D dùng sai modulo giải mã; ba lựa chọn còn lại đúng theo mô hình RSA chuẩn.",
       "sources": [
         "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
       ],
       "proof_key": null,
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "D"
+      ],
+      "method": "independent_theory_and_option_evaluation",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-2",
+        "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-2"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "aefa377e988e4532a5eb8d12e1ce422199ce8008d50fe7fa76ad5e6fdf3cf0ff",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.02",
+        "name": "Hệ mật RSA",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Đánh giá điều kiện sinh khóa và công thức mã/giải mã RSA; đại lượng n, e, d và φ(n) phục vụ hệ mã công khai, không phải quy trình ký.",
+      "taxonomy_scope": "primary_toc_only",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "2",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 3,
+      "pages": [
+        3
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-2; audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-2",
+    "hint": "Tách môđun của phép mã/giải mã khỏi môđun dùng để tìm số mũ nghịch đảo.\nViết hai phép biến đổi liên tiếp để kiểm tra có khôi phục thông điệp trong \\(\\mathbb Z_n\\) không.",
+    "explanation": "D dùng sai modulo giải mã; ba lựa chọn còn lại đúng theo mô hình RSA chuẩn.",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Trong hệ mã RSA, khóa công khai k_e = (n, e), khóa bí mật k_d = d. Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-3",
@@ -220,8 +381,9 @@
       },
       {
         "type": "image",
-        "src": "images/nmmmh/be48032b112dcb6def14.jpg",
-        "alt": "Hình nguồn — câu 3"
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-3-figure.png",
+        "alt": "Hình nguồn — câu 3",
+        "original_src": "images/nmmmh/be48032b112dcb6def14.jpg"
       },
       {
         "type": "text",
@@ -229,11 +391,14 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 4,
     "source_docx_block": 17,
-    "correct_answer": "B",
-    "needs_review": false,
-    "review_reasons": [],
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+      "Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+    ],
     "answer_evidence": "independently_verified_solution",
     "source_notes": [
       "Đáp án đang chọn: không thấy nút nào được đánh dấu.",
@@ -249,7 +414,13 @@
           "text": "k = [[5, 8], [7, 13]]"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "k = \\(\\begin{pmatrix}5&8\\\\7&13\\end{pmatrix}\\)"
+        }
+      ]
     },
     "B": {
       "text": "k = [[5, 8], [19, 13]]",
@@ -260,7 +431,13 @@
           "text": "k = [[5, 8], [19, 13]]"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "k = \\(\\begin{pmatrix}5&8\\\\19&13\\end{pmatrix}\\)"
+        }
+      ]
     },
     "C": {
       "text": "k = [[7, 9], [8, 3]]",
@@ -271,7 +448,13 @@
           "text": "k = [[7, 9], [8, 3]]"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "k = \\(\\begin{pmatrix}7&9\\\\8&3\\end{pmatrix}\\)"
+        }
+      ]
     },
     "D": {
       "text": "k = [[5, 8], [7, 13]]",
@@ -282,7 +465,13 @@
           "text": "k = [[5, 8], [7, 13]]"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "k = \\(\\begin{pmatrix}5&8\\\\7&13\\end{pmatrix}\\)"
+        }
+      ]
     },
     "source_order": 2,
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
@@ -293,31 +482,104 @@
       "status": "present"
     },
     "chapter_child": {
-      "code": "02.01.07",
-      "name": "Hệ mật Hill",
+      "code": "02.01.13",
+      "name": "Thám mã Hill bằng cặp bản rõ–bản mã",
       "source": "knowledge_tree"
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "verified",
-      "correct_answer": "B",
-      "valid_options": [
+      "status": "needs_review",
+      "correct_answer": null,
+      "valid_options": [],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+      "sources": [],
+      "proof_key": "hill",
+      "official_answer_key": false,
+      "candidate_options": [
         "B"
       ],
-      "explanation": "Vector hàng MONDAY nhân [[5,8],[19,13]] mod 26 cho OSSNOA.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
-      ],
-      "proof_key": "hill",
-      "official_answer_key": false
+      "method": "independent_calculation_hill",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
-    "content_fingerprint": "a9d75779e5b2b3761bbb836548e8ca896ce38898137064b881df5ba544756570",
+    "content_fingerprint": "f1f4bf1295d8bdf179086d51f3c8eb5d851655cbf28727f227a0cfd99aed39df",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "2"
+    ],
+    "source_classification": {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "chapter_parent": {
+        "id": 2,
+        "name": "Các hệ mật khóa bí mật",
+        "status": "present"
+      },
+      "chapter_child": {
+        "code": "02.01.07",
+        "name": "Hệ mật Hill",
+        "source": "knowledge_tree"
+      }
+    },
+    "topic_ids": [
+      "02.01.13",
+      "02.01.07"
+    ],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Từ cặp Monday→OSSNOA suy ra ma trận khóa Hill chưa biết; khớp mục tìm khóa từ các khối bản rõ–bản mã, cụ thể hơn mục Hill tổng quát.",
+      "taxonomy_scope": "detailed_topics_present",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": "02.01.13",
+      "topic_ids": [
+        "02.01.13",
+        "02.01.07"
+      ],
+      "topic_review_status": "verified_more_specific_or_corrected_topic"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "3",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 4,
+      "pages": [
+        4
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "partial_visual_review",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "needs_review",
+    "verification_status": "needs_review",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3",
+    "hint": "Dùng A=0,…,Z=25; chia MONDAY và OSSNOA thành các cặp liên tiếp.\nThử vectơ hàng MO nhân từng ma trận mod 26, so với OS; ma trận còn lại phải khớp cả ND và AY.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-3-figure.png",
+        "alt": "Hình nguồn — câu 3",
+        "original_src": "images/nmmmh/be48032b112dcb6def14.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 3 — các ma trận khóa Hill trên đề"
+      }
+    ],
+    "source_option_labels_in_figure": true,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": false
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-4",
@@ -332,7 +594,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 13,
     "source_docx_block": 27,
     "correct_answer": "B",
     "needs_review": false,
@@ -353,7 +615,13 @@
           "text": "Elgamal"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Elgamal"
+        }
+      ]
     },
     "B": {
       "text": "Rabin",
@@ -364,7 +632,13 @@
           "text": "Rabin"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Rabin"
+        }
+      ]
     },
     "C": {
       "text": "Merkle–Hellman",
@@ -375,7 +649,13 @@
           "text": "Merkle–Hellman"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Merkle–Hellman"
+        }
+      ]
     },
     "D": {
       "text": "Knapsack",
@@ -386,7 +666,13 @@
           "text": "Knapsack"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Knapsack"
+        }
+      ]
     },
     "source_order": 3,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -396,11 +682,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.07",
-      "name": "Tổng quan các hệ mật khóa công khai",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -408,20 +690,80 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "Rabin dựa vào bài toán phân tích thừa số nguyên, cùng nền tảng thường nêu cho RSA.",
+      "explanation": "Chọn Rabin theo chung nền phân tích thừa số trong Table 8.1. Không khẳng định đảo RSA đã được chứng minh tương đương factoring.",
       "sources": [
         "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
       ],
       "proof_key": null,
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [],
+      "method": "independent_theory_and_option_evaluation",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-4",
+        "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-4"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "e2330d769080a9eba6c1065c897da2031296d8484ded884d9c53fedf70009699",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.07",
+        "name": "Tổng quan các hệ mật khóa công khai",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "So sánh giả thiết độ khó của RSA với Rabin, ElGamal và ba lô; kiến thức chính là cơ sở an toàn của các hệ mật công khai.",
+      "taxonomy_scope": "primary_toc_only",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "4",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 13,
+      "pages": [
+        13
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-4; audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-4",
+    "hint": "Gắn mỗi hệ trong bốn lựa chọn với bài toán khó của nó.\nĐối chiếu với thao tác tìm các thừa số nguyên tố của môđun RSA, đừng chỉ dựa vào việc đều dùng khóa công khai.",
+    "explanation": "Chọn Rabin theo chung nền phân tích thừa số trong Table 8.1. Không khẳng định đảo RSA đã được chứng minh tương đương factoring.",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Tính an toàn của hệ mật nào dưới đây dựa trên cùng bài toán với hệ mật RSA?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-5",
@@ -436,7 +778,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 10,
     "source_docx_block": 34,
     "correct_answer": "B",
     "needs_review": false,
@@ -457,7 +799,13 @@
           "text": "Có thể dùng kết hợp hàm băm và chữ kí số để xác thực và đảm bảo tính bí mật cho thông điệp."
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có thể dùng kết hợp hàm băm và chữ kí số để xác thực và đảm bảo tính bí mật cho thông điệp."
+        }
+      ]
     },
     "B": {
       "text": "Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp.",
@@ -468,7 +816,13 @@
           "text": "Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp."
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có thể kết hợp chữ kí số và kĩ thuật mã hóa/giải mã để xác thực và đảm bảo tính bí mật cho thông điệp."
+        }
+      ]
     },
     "C": {
       "text": "Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người gửi để truyền tin mật.",
@@ -479,7 +833,13 @@
           "text": "Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người gửi để truyền tin mật."
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Trong hệ mật mã hóa khóa công khai ta sử dụng khóa công khai và khóa riêng của người gửi để truyền tin mật."
+        }
+      ]
     },
     "D": {
       "text": "Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người nhận.",
@@ -490,7 +850,13 @@
           "text": "Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người nhận."
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hệ thống chữ kí số sử dụng khóa riêng và khóa công khai của người nhận."
+        }
+      ]
     },
     "source_order": 4,
     "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
@@ -500,11 +866,7 @@
       "name": "Hàm băm, xác thực và chữ ký số",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "04.03",
-      "name": "Chữ ký số và chứng thư số",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -512,20 +874,89 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "Chữ ký kết hợp mã hóa hỗ trợ xác thực và bí mật; ký+băm riêng không cung cấp bí mật.",
+      "explanation": "Chỉ B đồng thời có kỹ thuật cung cấp bí mật và kỹ thuật xác thực với đúng vai trò khóa.",
       "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+        "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+        "https://cacr.uwaterloo.ca/hac/about/chap11.pdf",
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
       ],
       "proof_key": null,
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [],
+      "method": "independent_theory_and_option_evaluation",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-5",
+        "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-5"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "390b23be940a3743417943fa291be1a69734f0caf570b3d2ed3df011924b6ba0",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "4",
+      "1"
+    ],
+    "source_classification": {
+      "chapter_id": "4",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "chapter_parent": {
+        "id": 4,
+        "name": "Hàm băm, xác thực và chữ ký số",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "04.03",
+        "name": "Chữ ký số và chứng thư số",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [
+      "01.02",
+      "01.06"
+    ],
+    "classification_audit": {
+      "status": "verified_multi_assignment",
+      "rationale": "Các lựa chọn kiểm tra phối hợp chữ ký, hàm băm và mã hóa để tách xác thực khỏi bí mật, đồng thời phân biệt khóa người gửi/người nhận; giữ Chương 4 chính, thêm nền dịch vụ và vai trò khóa của Chương 1.",
+      "taxonomy_scope": "primary_toc_only",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": null,
+      "topic_ids": [
+        "01.02",
+        "01.06"
+      ],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "5",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 10,
+      "pages": [
+        10
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-5; audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-5",
+    "hint": "Lập hai hàng: truyền tin mật và ký thông điệp; ghi ai cần giữ bí mật, ai cần kiểm tra.\nVới phát biểu ghép nhiều kỹ thuật, kiểm tra riêng khả năng đọc nội dung và khả năng xác minh nguồn gốc.",
+    "explanation": "Chỉ B đồng thời có kỹ thuật cung cấp bí mật và kỹ thuật xác thực với đúng vai trò khóa.",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là ĐÚNG?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-6",
@@ -540,7 +971,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 2,
     "source_docx_block": 41,
     "correct_answer": "D",
     "needs_review": false,
@@ -559,7 +990,13 @@
           "text": "(3, 7)"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(3, 7)"
+        }
+      ]
     },
     "B": {
       "text": "(4, 2)",
@@ -570,7 +1007,13 @@
           "text": "(4, 2)"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(4, 2)"
+        }
+      ]
     },
     "C": {
       "text": "(5, 3)",
@@ -581,7 +1024,13 @@
           "text": "(5, 3)"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(5, 3)"
+        }
+      ]
     },
     "D": {
       "text": "(3, 4)",
@@ -592,7 +1041,13 @@
           "text": "(3, 4)"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(3, 4)"
+        }
+      ]
     },
     "source_order": 5,
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
@@ -614,20 +1069,85 @@
       "valid_options": [
         "D"
       ],
-      "explanation": "19a+b ≡9 và 4a+b ≡16 mod26 cho (a,b)=(3,4).",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}",
+      "sources": [],
       "proof_key": "affine",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "D"
+      ],
+      "method": "independent_calculation_affine",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-6"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "74a8c3d806006a183947e12ce2ba148a97ed44cff4309c99097429ed56e1c7fe",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "2"
+    ],
+    "source_classification": {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "chapter_parent": {
+        "id": 2,
+        "name": "Các hệ mật khóa bí mật",
+        "status": "present"
+      },
+      "chapter_child": {
+        "code": "02.01.04",
+        "name": "Mã Affine",
+        "source": "knowledge_tree"
+      }
+    },
+    "topic_ids": [
+      "02.01.04",
+      "02.02.01"
+    ],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Dùng hai cặp e(4)→Q(16), t(19)→J(9) để giải khóa Affine (a,b); đây là xác định khóa từ cặp ký tự, không phải thống kê tần suất.",
+      "taxonomy_scope": "detailed_topics_present",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": "02.01.04",
+      "topic_ids": [
+        "02.01.04",
+        "02.02.01"
+      ],
+      "topic_review_status": "matched_existing_official_topic"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "6",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-6",
+    "hint": "Thử từng cặp \\((a,b)\\) vào \\(19a+b\\equiv9\\pmod{26}\\), rồi \\(4a+b\\equiv16\\pmod{26}\\).\nChỉ giữ cặp thỏa cả hai và có \\(\\gcd(a,26)=1\\); không cần giải hệ từ đầu.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mã Affine với k = (a, b) và hàm mã y = ax + b mod 26. Q(16) là mã hóa của e(4) và J(9) là mã hóa của t(19). Khóa nào sau đây là khóa đúng?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": false
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-7",
@@ -642,8 +1162,9 @@
       },
       {
         "type": "image",
-        "src": "images/nmmmh/27f642010dea20e01056.jpg",
-        "alt": "Hình nguồn — câu 7"
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-7-figure.png",
+        "alt": "Hình nguồn — câu 7",
+        "original_src": "images/nmmmh/27f642010dea20e01056.jpg"
       },
       {
         "type": "text",
@@ -651,7 +1172,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 12,
     "source_docx_block": 48,
     "correct_answer": "B",
     "needs_review": false,
@@ -670,7 +1191,13 @@
           "text": "06_H"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "06_H"
+        }
+      ]
     },
     "B": {
       "text": "8D_H",
@@ -681,7 +1208,13 @@
           "text": "8D_H"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "8D_H"
+        }
+      ]
     },
     "C": {
       "text": "92_H",
@@ -692,7 +1225,13 @@
           "text": "92_H"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "92_H"
+        }
+      ]
     },
     "D": {
       "text": "F4_H",
@@ -703,7 +1242,13 @@
           "text": "F4_H"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "F4_H"
+        }
+      ]
     },
     "source_order": 6,
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
@@ -725,20 +1270,95 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "MixColumns hàng 2, cột 1 cho 8D hex.",
-      "sources": [
-        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 141",
+      "sources": [],
       "proof_key": "mix",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "B"
+      ],
+      "method": "independent_calculation_mix",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-7"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
-    "content_fingerprint": "59c8ef0c34552b897b47073663ade5548813dcc945a50d3147df29f66c2294e5",
+    "content_fingerprint": "40cd6d5f5fdd4ffaaa0726abdf5cf8b0bfbdfca6a38148844c1e46473125505a",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "2"
+    ],
+    "source_classification": {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "chapter_parent": {
+        "id": 2,
+        "name": "Các hệ mật khóa bí mật",
+        "status": "present"
+      },
+      "chapter_child": {
+        "code": "02.03.12",
+        "name": "AES – MixColumns / InvMixColumns",
+        "source": "knowledge_tree"
+      }
+    },
+    "topic_ids": [
+      "02.03.12",
+      "02.03.08"
+    ],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Tính ô x21 bằng tích hàng–cột của MixColumns; phép nhân byte trong GF(2^8) là kiến thức phụ được dùng trực tiếp.",
+      "taxonomy_scope": "detailed_topics_present",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": "02.03.12",
+      "topic_ids": [
+        "02.03.12",
+        "02.03.08"
+      ],
+      "topic_review_status": "matched_existing_official_topic"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "7",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 12,
+      "pages": [
+        12
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-7",
+    "hint": "Chỉ số ảnh bắt đầu từ 0: x₂₁ lấy hàng thứ ba của ma trận hằng và cột thứ hai (EB,93,C7,20).\nNhân từng byte trong GF(2⁸), dùng xtime cho hệ số 02, xtime XOR byte cho 03, rồi XOR bốn tích.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 141",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Đáp án nào dưới đây là giá trị của x₂₁ trong vòng tính MixColumns của hệ mật AES?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-7-figure.png",
+        "alt": "Hình nguồn — câu 7",
+        "original_src": "images/nmmmh/27f642010dea20e01056.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 7 — phép nhân MixColumns của AES"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": false
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-8",
@@ -753,7 +1373,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 6,
     "source_docx_block": 57,
     "correct_answer": "A",
     "needs_review": false,
@@ -774,7 +1394,13 @@
           "text": "Khóa riêng của A là k_d = 79."
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa riêng của A là k_d = 79."
+        }
+      ]
     },
     "B": {
       "text": "Khôi phục bản rõ bằng cách tính m = γ^(p−1−a) · δ = 22 · 71 mod 211 = 85.",
@@ -785,7 +1411,13 @@
           "text": "Khôi phục bản rõ bằng cách tính m = γ^(p−1−a) · δ = 22 · 71 mod 211 = 85."
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khôi phục bản rõ bằng cách tính m = \\(\\gamma ^{p-1-a}\\) · δ = 22 · 71 mod 211 = 85."
+        }
+      ]
     },
     "C": {
       "text": "Khóa công khai của A là (p, α, α^a) = (211, 149, 133).",
@@ -796,7 +1428,13 @@
           "text": "Khóa công khai của A là (p, α, α^a) = (211, 149, 133)."
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa công khai của A là (p, α, \\(\\alpha ^{a}\\)) = (211, 149, 133)."
+        }
+      ]
     },
     "D": {
       "text": "Bản mã thu được khi mã bản rõ m = 85 là c = (γ, δ) = (191, 71).",
@@ -807,7 +1445,13 @@
           "text": "Bản mã thu được khi mã bản rõ m = 85 là c = (γ, δ) = (191, 71)."
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Bản mã thu được khi mã bản rõ m = 85 là c = (γ, δ) = (191, 71)."
+        }
+      ]
     },
     "source_order": 7,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -817,11 +1461,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.04",
-      "name": "Hệ mật ElGamal",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -829,20 +1469,79 @@
       "valid_options": [
         "A"
       ],
-      "explanation": "Khóa riêng a=103; k=79 là số ngẫu nhiên. β=133, γ=191, δ=71.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"beta\": 133, \"gamma\": 191, \"delta\": 71, \"inverse_gamma_a\": 22}",
+      "sources": [],
       "proof_key": "elgamal",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "A"
+      ],
+      "method": "independent_calculation_elgamal",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-8"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "5e9136238cb94fba0391a212fb0319460948c25fa12990f1015445f035422b5e",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.04",
+        "name": "Hệ mật ElGamal",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Kiểm tra khóa bí mật, khóa công khai, cặp bản mã và công thức khôi phục ElGamal với p=211, a=103, k=79.",
+      "taxonomy_scope": "primary_toc_only",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "8",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 6,
+      "pages": [
+        6
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-8",
+    "hint": "Với p=211, α=149, a=103, k=79, m=85: phân biệt số mũ lưu lâu dài và số dùng cho một lần mã.\nKiểm từng phát biểu bằng \\(\\beta=\\alpha^a,\\ \\gamma=\\alpha^k,\\ \\delta=m\\beta^k\\pmod p\\); giải mã thử bằng \\(\\delta\\gamma^{-a}\\).",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {\"beta\": 133, \"gamma\": 191, \"delta\": 71, \"inverse_gamma_a\": 22}",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật Elgamal với p = 211, phần tử sinh α = 149 của \\(\\mathbb{Z}_{211}^{*}\\). Người dùng A chọn khóa bí mật a = 103, số ngẫu nhiên k = 79, bản tin m = 85. Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-9",
@@ -857,7 +1556,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 7,
     "source_docx_block": 64,
     "correct_answer": "C",
     "needs_review": false,
@@ -878,7 +1577,13 @@
           "text": "128"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "128"
+        }
+      ]
     },
     "B": {
       "text": "480",
@@ -889,7 +1594,13 @@
           "text": "480"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "480"
+        }
+      ]
     },
     "C": {
       "text": "0",
@@ -900,7 +1611,13 @@
           "text": "0"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "0"
+        }
+      ]
     },
     "D": {
       "text": "1",
@@ -911,7 +1628,13 @@
           "text": "1"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1"
+        }
+      ]
     },
     "source_order": 8,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -921,11 +1644,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.01",
-      "name": "Số học mô-đun, nhóm và logarit rời rạc",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -933,20 +1652,79 @@
       "valid_options": [
         "C"
       ],
-      "explanation": "Z*693 không cyclic và không có phần tử sinh.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"count\": 0, \"generators\": []}",
+      "sources": [],
       "proof_key": "generator_count",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "C"
+      ],
+      "method": "independent_calculation_generator_count",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-9"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "92120d18f6c648f7dbb8bf59405456743aba2d0f527897ddec1d9e13ebe3e62f",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.01",
+        "name": "Số học mô-đun, nhóm và logarit rời rạc",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "retained_existing_taxonomy_gap",
+      "rationale": "Đếm phần tử sinh của nhóm nhân modulo 693; cần cấu trúc nhóm cyclic và hàm φ, không có chủ đề toán nền được định danh trong cây. Giữ phân loại hiện có để tránh đổi tùy tiện; đây vẫn là đề xuất ngoài phần chi tiết nguồn, không xác nhận một chủ đề hay vị trí chính thức mới.",
+      "taxonomy_scope": "outside_or_unverified",
+      "needs_taxonomy_review": true,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": true,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "9",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 7,
+      "pages": [
+        7
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-9",
+    "hint": "Phân tích 693 trước; kiểm tra môđun có dạng \\(2,4,\\ell^t,2\\ell^t\\) với ℓ nguyên tố lẻ, t≥1 không.\nChỉ khi nhóm nhân cyclic mới dùng công thức đếm \\(\\varphi(\\varphi(n))\\); không áp dụng máy móc cho mọi n.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"count\": 0, \"generators\": []}",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Số phần tử sinh của nhóm nhân \\(\\mathbb{Z}_{693}^{*}\\) là?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-10",
@@ -961,7 +1739,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 8,
     "source_docx_block": 71,
     "correct_answer": "B",
     "needs_review": false,
@@ -982,7 +1760,13 @@
           "text": "1010110"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1010110"
+        }
+      ]
     },
     "B": {
       "text": "1101010",
@@ -993,7 +1777,13 @@
           "text": "1101010"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1101010"
+        }
+      ]
     },
     "C": {
       "text": "0110110",
@@ -1004,7 +1794,13 @@
           "text": "0110110"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "0110110"
+        }
+      ]
     },
     "D": {
       "text": "1011010",
@@ -1015,7 +1811,13 @@
           "text": "1011010"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1011010"
+        }
+      ]
     },
     "source_order": 9,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -1025,11 +1827,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.06",
-      "name": "Hệ mật Merkle–Hellman và bài toán ba lô",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -1037,20 +1835,79 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "Tổng 33+74+316+1230=1653, vector 1101010.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"solutions\": [[1, 1, 0, 1, 0, 1, 0]]}",
+      "sources": [],
       "proof_key": "knapsack",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "B"
+      ],
+      "method": "independent_calculation_knapsack",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-10"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "5485b67362130031c25aa7330b7577aae988d43a403d5b739bc6182a3bfc6729",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.06",
+        "name": "Hệ mật Merkle–Hellman và bài toán ba lô",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "retained_existing_taxonomy_gap",
+      "rationale": "Giải bài toán tổng con của dãy siêu tăng với S=1653, là phép giải ba lô dùng trong bối cảnh Merkle–Hellman; cây chỉ có tiêu đề chương công khai, không có mục chi tiết ba lô. Giữ phân loại hiện có để tránh đổi tùy tiện; đây vẫn là đề xuất ngoài phần chi tiết nguồn, không xác nhận một chủ đề hay vị trí chính thức mới.",
+      "taxonomy_scope": "outside_or_unverified",
+      "needs_taxonomy_review": true,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": true,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "10",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 8,
+      "pages": [
+        8
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-10",
+    "hint": "Với từng chuỗi bit, cộng các số ở vị trí bit 1 trong (33,74,157,316,620,1230,2460), so với 1653.\nHoặc trừ tham lam từ số lớn nhất không vượt phần dư; ghi bit theo thứ tự dãy ban đầu.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {\"solutions\": [[1, 1, 0, 1, 0, 1, 0]]}",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Cho dãy siêu tăng (33, 74, 157, 316, 620, 1230, 2460) và tổng S = 1653. Tìm đầu ra của giải thuật xếp balo trong trường hợp dãy siêu tăng."
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-11",
@@ -1065,8 +1922,9 @@
       },
       {
         "type": "image",
-        "src": "images/nmmmh/c2f8584a70c731869468.jpg",
-        "alt": "Hình nguồn — câu 11"
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-11-figure.png",
+        "alt": "Hình nguồn — câu 11",
+        "original_src": "images/nmmmh/c2f8584a70c731869468.jpg"
       },
       {
         "type": "text",
@@ -1074,7 +1932,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 1,
     "source_docx_block": 78,
     "correct_answer": "B",
     "needs_review": false,
@@ -1093,7 +1951,13 @@
           "text": "Tính chất phi tuyến của biến đổi SubBytes() này được tạo ra do thành phần nghịch đảo của x trong trường GF(2^8), định nghĩa thông qua phép nhân modulo với đa thức m(x) = x^8 + x^4 + x^3 + x + 1."
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính chất phi tuyến của biến đổi SubBytes() này được tạo ra do thành phần nghịch đảo của x trong trường \\(\\mathrm{GF}(2^8)\\), định nghĩa thông qua phép nhân modulo với đa thức m(x) = \\(x^{8}\\) + \\(x^{4}\\) + \\(x^{3}\\) + x + 1."
+        }
+      ]
     },
     "B": {
       "text": "Sử dụng hàm SubBytes (1) trong bước thay thế để đảm bảo tính khuếch tán cao của bản mã.",
@@ -1104,7 +1968,13 @@
           "text": "Sử dụng hàm SubBytes (1) trong bước thay thế để đảm bảo tính khuếch tán cao của bản mã."
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng hàm SubBytes (1) trong bước thay thế để đảm bảo tính khuếch tán cao của bản mã."
+        }
+      ]
     },
     "C": {
       "text": "Phép biến đổi ngược của (1) là x = (A^(−1)(y + c))^(−1).",
@@ -1115,7 +1985,13 @@
           "text": "Phép biến đổi ngược của (1) là x = (A^(−1)(y + c))^(−1)."
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Phép biến đổi ngược của (1) là x = (\\(A^{-1}\\)(y + c))^(−1)."
+        }
+      ]
     },
     "D": {
       "text": "Ma trận A là ma trận khả nghịch do các hàng của A là độc lập tuyến tính trong GF(2^8).",
@@ -1126,7 +2002,13 @@
           "text": "Ma trận A là ma trận khả nghịch do các hàng của A là độc lập tuyến tính trong GF(2^8)."
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Ma trận A là ma trận khả nghịch do các hàng của A là độc lập tuyến tính trong \\(\\mathrm{GF}(2^8)\\)."
+        }
+      ]
     },
     "source_order": 10,
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
@@ -1137,8 +2019,8 @@
       "status": "present"
     },
     "chapter_child": {
-      "code": "02.03.08",
-      "name": "AES – toán học GF(2^8) và xtime",
+      "code": "02.03.10",
+      "name": "AES – SubBytes / S-box",
       "source": "knowledge_tree"
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
@@ -1148,20 +2030,99 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "SubBytes tạo phi tuyến/xáo trộn; không phải tầng trộn tuyến tính tạo khuếch tán.",
+      "explanation": "B nhầm nhiệm vụ SubBytes với tầng khuếch tán. D diễn đạt trường của ma trận thiếu chuẩn, nhưng hạng của ma trận nhị phân AES không giảm khi mở rộng trường nên không đánh dấu sai chỉ vì GF(2^8).",
       "sources": [
-        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
       ],
       "proof_key": null,
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [],
+      "method": "independent_theory_and_option_evaluation",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-11",
+        "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-11"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
-    "content_fingerprint": "beccd5fdfe629ed7cf3c93e40f96d3f51a93cb89d7f54b032461884b2e064a1a",
+    "content_fingerprint": "cbef8394d2cbfe32243903b9da57ec7a92bed8b8b26364d8a67517e0b555acdb",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "2"
+    ],
+    "source_classification": {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "chapter_parent": {
+        "id": 2,
+        "name": "Các hệ mật khóa bí mật",
+        "status": "present"
+      },
+      "chapter_child": {
+        "code": "02.03.08",
+        "name": "AES – toán học GF(2^8) và xtime",
+        "source": "knowledge_tree"
+      }
+    },
+    "topic_ids": [
+      "02.03.10",
+      "02.03.08",
+      "02.03.01"
+    ],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Đối tượng được hỏi là cấu tạo S-box/SubBytes bằng nghịch đảo và biến đổi affine cùng vai trò phi tuyến; GF(2^8) là công cụ, nên sửa chủ đề chính từ toán AES sang SubBytes.",
+      "taxonomy_scope": "detailed_topics_present",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": "02.03.10",
+      "topic_ids": [
+        "02.03.10",
+        "02.03.08",
+        "02.03.01"
+      ],
+      "topic_review_status": "verified_more_specific_or_corrected_topic"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "11",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-11; audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-11",
+    "hint": "Trong \\(y=Ax^{-1}+c\\), tách phép nghịch đảo trên trường khỏi phép biến đổi affine trên các bit.\nKiểm xem một byte đầu vào đổi sẽ tác động tới bao nhiêu byte đầu ra ngay tại SubBytes; dùng đó để xét phát biểu về khuếch tán.",
+    "explanation": "B nhầm nhiệm vụ SubBytes với tầng khuếch tán. D diễn đạt trường của ma trận thiếu chuẩn, nhưng hạng của ma trận nhị phân AES không giảm khi mở rộng trường nên không đánh dấu sai chỉ vì GF(2^8).",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hộp thế S-Box được xây dựng dựa trên phép biến đổi phi tuyến y = A \\(x^{-1}\\) + c trên trường \\(\\mathrm{GF}(2^8)\\). Khẳng định nào sau đây là SAI?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-11-figure.png",
+        "alt": "Hình nguồn — câu 11",
+        "original_src": "images/nmmmh/c2f8584a70c731869468.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 11 — ma trận A và vectơ c của S-Box"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": false
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-12",
@@ -1176,7 +2137,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 11,
     "source_docx_block": 87,
     "correct_answer": "B",
     "needs_review": false,
@@ -1195,7 +2156,13 @@
           "text": "Tính xáo trộn được tạo bởi phép thế, tính khuếch tán được tạo bởi phép hoán vị."
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn được tạo bởi phép thế, tính khuếch tán được tạo bởi phép hoán vị."
+        }
+      ]
     },
     "B": {
       "text": "Trong thuật toán AES, tầng trộn tuyến tính được thực hiện thông qua hàm SubBytes để đảm bảo tính khuếch tán cao qua các vòng.",
@@ -1206,7 +2173,13 @@
           "text": "Trong thuật toán AES, tầng trộn tuyến tính được thực hiện thông qua hàm SubBytes để đảm bảo tính khuếch tán cao qua các vòng."
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Trong thuật toán AES, tầng trộn tuyến tính được thực hiện thông qua hàm SubBytes để đảm bảo tính khuếch tán cao qua các vòng."
+        }
+      ]
     },
     "C": {
       "text": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán.",
@@ -1217,7 +2190,13 @@
           "text": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán."
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là việc tạo ra tính xáo trộn và tính khuếch tán."
+        }
+      ]
     },
     "D": {
       "text": "Trong hệ mã khối DES, S-box có chức năng che giấu mối quan hệ giữa bản mã và bản rõ, nhằm tăng tính xáo trộn của thuật toán.",
@@ -1228,7 +2207,13 @@
           "text": "Trong hệ mã khối DES, S-box có chức năng che giấu mối quan hệ giữa bản mã và bản rõ, nhằm tăng tính xáo trộn của thuật toán."
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Trong hệ mã khối DES, S-box có chức năng che giấu mối quan hệ giữa bản mã và bản rõ, nhằm tăng tính xáo trộn của thuật toán."
+        }
+      ]
     },
     "source_order": 11,
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
@@ -1250,20 +2235,91 @@
       "valid_options": [
         "B"
       ],
-      "explanation": "Khuếch tán của AES đến từ ShiftRows và MixColumns.",
+      "explanation": "SubBytes phi tuyến; ShiftRows/MixColumns mới là tầng tuyến tính. A,D dùng cách phân vai confusion/diffusion giáo khoa.",
       "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf",
         "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
       ],
       "proof_key": null,
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [],
+      "method": "independent_theory_and_option_evaluation",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-12",
+        "audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-12"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "38f77e5946a01435144dc98154ffca8c16559c2bd8f6dbe47310b0a397746660",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "2"
+    ],
+    "source_classification": {
+      "chapter_id": "2",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "chapter_parent": {
+        "id": 2,
+        "name": "Các hệ mật khóa bí mật",
+        "status": "present"
+      },
+      "chapter_child": {
+        "code": "02.03.01",
+        "name": "Nguyên lý mã khối của Shannon",
+        "source": "knowledge_tree"
+      }
+    },
+    "topic_ids": [
+      "02.03.01",
+      "02.03.03",
+      "02.03.10",
+      "02.03.12"
+    ],
+    "classification_audit": {
+      "status": "verified_preserved",
+      "rationale": "Phân biệt xáo trộn/khuếch tán qua phép thế, hoán vị, S-box DES và tầng tuyến tính AES; mục nguyên lý Shannon là trọng tâm, các phép biến đổi là đối chiếu phụ.",
+      "taxonomy_scope": "detailed_topics_present",
+      "needs_taxonomy_review": false,
+      "primary_topic_id": "02.03.01",
+      "topic_ids": [
+        "02.03.01",
+        "02.03.03",
+        "02.03.10",
+        "02.03.12"
+      ],
+      "topic_review_status": "matched_existing_official_topic"
+    },
+    "classification_needs_review": false,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "12",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 11,
+      "pages": [
+        11
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-12; audit/theory_audit.json#nmmmh-de-thi-at17-bo-1-12",
+    "hint": "Liệt kê đầu vào/đầu ra của SubBytes, ShiftRows, MixColumns: bước nào tác động một byte, bước nào trộn vị trí hoặc nhiều byte?\nĐối chiếu từng tên bước với vai trò mà phát biểu gán cho nó.",
+    "explanation": "SubBytes phi tuyến; ShiftRows/MixColumns mới là tầng tuyến tính. A,D dùng cách phân vai confusion/diffusion giáo khoa.",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là SAI?"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": false
+    "duplicate_status": null
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-13",
@@ -1278,8 +2334,9 @@
       },
       {
         "type": "image",
-        "src": "images/nmmmh/35899c0e1f21223fc251.jpg",
-        "alt": "Hình nguồn — câu 13"
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-13-figure.png",
+        "alt": "Hình nguồn — câu 13",
+        "original_src": "images/nmmmh/35899c0e1f21223fc251.jpg"
       },
       {
         "type": "text",
@@ -1287,7 +2344,7 @@
       }
     ],
     "question_image": null,
-    "source_page": null,
+    "source_page": 5,
     "source_docx_block": 94,
     "correct_answer": "D",
     "needs_review": false,
@@ -1309,7 +2366,13 @@
           "text": "30; 1; 153; −551; 2; 1; 5; 153; −18; −551"
         }
       ],
-      "source_label": "A"
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "30; 1; 153; −551; 2; 1; 5; 153; −18; −551"
+        }
+      ]
     },
     "B": {
       "text": "30; 1; 153; −551; 2; 1; 5; 153; −18; −551",
@@ -1320,7 +2383,13 @@
           "text": "30; 1; 153; −551; 2; 1; 5; 153; −18; −551"
         }
       ],
-      "source_label": "B"
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "30; 1; 153; −551; 2; 1; 5; 153; −18; −551"
+        }
+      ]
     },
     "C": {
       "text": "30; 1; 551; −153; 2; 1; 5; 551; −18; −153",
@@ -1331,7 +2400,13 @@
           "text": "30; 1; 551; −153; 2; 1; 5; 551; −18; −153"
         }
       ],
-      "source_label": "C"
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "30; 1; 551; −153; 2; 1; 5; 551; −18; −153"
+        }
+      ]
     },
     "D": {
       "text": "30; 1; −153; 551; 2; 1; 5; −153; −18; 551",
@@ -1342,7 +2417,13 @@
           "text": "30; 1; −153; 551; 2; 1; 5; −153; −18; 551"
         }
       ],
-      "source_label": "D"
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "30; 1; −153; 551; 2; 1; 5; −153; −18; 551"
+        }
+      ]
     },
     "source_order": 12,
     "chapter": "Chương 3. Các hệ mật khóa công khai",
@@ -1352,11 +2433,7 @@
       "name": "Các hệ mật khóa công khai",
       "status": "toc_only"
     },
-    "chapter_child": {
-      "code": "03.01",
-      "name": "Số học mô-đun, nhóm và logarit rời rạc",
-      "source": "inferred_from_question_and_toc_only"
-    },
+    "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
       "status": "verified",
@@ -1364,19 +2441,88 @@
       "valid_options": [
         "D"
       ],
-      "explanation": "Hàng cuối Euclid: 30;1;-153;551;2;1;5;-153;-18;551. Kiểm tra -153·1120+551·311=1.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
-      ],
+      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [30, 1, -153, 551, 2, 1, 5, -153, -18, 551]",
+      "sources": [],
       "proof_key": "euclid",
-      "official_answer_key": false
+      "official_answer_key": false,
+      "candidate_options": [
+        "D"
+      ],
+      "method": "independent_calculation_euclid",
+      "evidence": [
+        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-13"
+      ]
     },
     "source_exam_code": "De_thi_AT17_bo_1",
-    "content_fingerprint": "8b1bfbd2a119df6fddedae48061e2af93cdea29c07d145240a73282026048c31",
+    "content_fingerprint": "494d345ec82ce98881534a80ee738f7f8d28399215428810ace224a9fcd6feea",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
+    "verification_revision": "nmmmh-20261021-v1",
+    "chapter_ids": [
+      "3"
+    ],
+    "source_classification": {
+      "chapter_id": "3",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter_parent": {
+        "id": 3,
+        "name": "Các hệ mật khóa công khai",
+        "status": "toc_only"
+      },
+      "chapter_child": {
+        "code": "03.01",
+        "name": "Số học mô-đun, nhóm và logarit rời rạc",
+        "source": "inferred_from_question_and_toc_only"
+      }
+    },
+    "topic_ids": [],
+    "classification_audit": {
+      "status": "retained_existing_taxonomy_gap",
+      "rationale": "Điền bảng Euclid mở rộng, theo dõi thương và hệ số Bézout; đây là thuật toán số học tổng quát, giữ nhãn Chương 3 hiện có với giới hạn nguồn. Giữ phân loại hiện có để tránh đổi tùy tiện; đây vẫn là đề xuất ngoài phần chi tiết nguồn, không xác nhận một chủ đề hay vị trí chính thức mới.",
+      "taxonomy_scope": "outside_or_unverified",
+      "needs_taxonomy_review": true,
+      "primary_topic_id": null,
+      "topic_ids": [],
+      "topic_review_status": "legacy_inferred_topic_not_verified_by_supplied_tree"
+    },
+    "classification_needs_review": true,
+    "exam_ids": [
+      "de-thi-at17-bo-1"
+    ],
+    "original_question_number": "13",
+    "source_reference": {
+      "file": "DeThiPDF/Đề thi k17/k17.pdf",
+      "page": 5,
+      "pages": [
+        5
+      ],
+      "pdf_sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "status": "visually_compared",
+      "review_artifact": "source_other_review.json"
+    },
+    "source_fidelity_status": "visually_compared",
+    "verification_status": "verified",
+    "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-13",
+    "hint": "Bắt đầu từ hàng có a=61, b=2; dùng \\(q=\\lfloor a/b\\rfloor,\\ r=a-qb\\), rồi cập nhật hai cặp hệ số.\nKiểm dấu bằng bất biến \\(1120x+311y=r\\), và phân biệt hệ số vừa tính với hệ số dịch sang hàng kế.",
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [30, 1, -153, 551, 2, 1, 5, -153, -18, 551]",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Điền các giá trị còn thiếu (từ trái sang phải) trong bảng tính của thuật toán Euclid mở rộng."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-13-figure.png",
+        "alt": "Hình nguồn — câu 13",
+        "original_src": "images/nmmmh/35899c0e1f21223fc251.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Hình câu 13 — bảng Euclid mở rộng"
+      }
+    ],
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null,
-    "classification_needs_review": true
+    "duplicate_status": null
   }
 ]

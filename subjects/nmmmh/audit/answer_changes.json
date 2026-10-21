@@ -1,0 +1,405 @@
+[
+  {
+    "id": "nmmmh-de-thi-nmmmh-4",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "4",
+    "old_answer": "A",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-4",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-4"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "A chắc chắn sai về lan lỗi ECB; B mơ hồ/không đúng tuyệt đối. Không ép đáp án đơn cho lời văn CBC thiếu điều kiện."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-5",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "5",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-5",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-5"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A,B là khía cạnh chuẩn; chống chối bỏ được thêm trong slide môn học theo nghĩa rộng. Thiếu ràng buộc nghĩa."
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-32",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_question_number": "32",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-nmmmh-32",
+      "audit/theory_audit.json#nmmmh-de-thi-nmmmh-32"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+    ],
+    "explanation": "A đúng; B,C chỉ chấp nhận được khi nêu ngữ cảnh giáo trình cụ thể. Không ép D từ định nghĩa lỏng."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "5",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-5"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "Áp dụng B.text từ source override, quan hệ là h(x)=h(x'). A,B,C đều là ba định nghĩa đúng; D đúng theo quy ước chọn 'tất cả'. Kết luận tính trên chuỗi corrected_input bên dưới, không lấy từ đáp án cũ."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "6",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-6"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "12",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "23",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "29",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "A",
+      "B"
+    ],
+    "candidate_options": [
+      "A",
+      "B"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_question_number": "39",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+      "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap13.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+    ],
+    "explanation": "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn."
+  },
+  {
+    "id": "nmmmh-de-thi-at17-bo-1-3",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_question_number": "3",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [
+      "B"
+    ],
+    "method": "independent_calculation_hill",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-4",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "4",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-4",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-4"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "Thiếu điều kiện bảo vệ digest cho hàm băm; MAC và chữ ký đều là đáp án đúng độc lập. Slide p15 cho danh sách C nếu hỏi bộ kỹ thuật đầy đủ, nhưng đề không nêu cách chọn này."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-13",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "13",
+    "old_answer": "B",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-13",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-13"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "B chắc chắn sai. D thiếu ngữ cảnh toàn bộ thông điệp hay khối lặp và phát biểu quá tuyệt đối khi đổi khóa; không ép một đáp án cho câu mơ hồ."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-22",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "22",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_rsa_signature",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-22"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {\"n\": 713, \"phi\": 660, \"e\": 367, \"signature\": 284, \"verified_message\": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-36",
+    "source_exam_id": "de-thi-k16-2",
+    "source_question_number": "36",
+    "old_answer": "D",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-2-36",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-2-36"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
+      "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+    ],
+    "explanation": "A và B là các khía cạnh chuẩn; C,D theo mục tiêu rộng của Slide 138. Thiếu định nghĩa chọn giữa nghĩa rộng và nghĩa bảo đảm chuẩn."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2022",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2022",
+    "old_answer": "D",
+    "new_answer": "C",
+    "status": "verified",
+    "correct_answer": "C",
+    "valid_options": [
+      "C"
+    ],
+    "candidate_options": [
+      "C"
+    ],
+    "method": "independent_calculation_affine",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2022"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {\"solutions_using_explicit_indices\": [[3, 4]]}"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2027",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2027",
+    "old_answer": null,
+    "new_answer": "D",
+    "status": "verified",
+    "correct_answer": "D",
+    "valid_options": [
+      "D"
+    ],
+    "candidate_options": [
+      "D"
+    ],
+    "method": "independent_calculation_orders",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2027"
+    ],
+    "sources": [],
+    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 4"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2038",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2038",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2038",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2038"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+    ],
+    "explanation": "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2045",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2045",
+    "old_answer": "A",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [],
+    "candidate_options": [],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2045",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2045"
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+    ],
+    "explanation": "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2056",
+    "source_exam_id": "de-thi-k16-3",
+    "source_question_number": "2056",
+    "old_answer": "C",
+    "new_answer": null,
+    "status": "needs_review",
+    "correct_answer": null,
+    "valid_options": [
+      "C",
+      "D"
+    ],
+    "candidate_options": [
+      "C",
+      "D"
+    ],
+    "method": "independent_theory_and_option_evaluation",
+    "evidence": [
+      "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2056",
+      "audit/theory_audit.json#nmmmh-de-thi-k16-3-2056"
+    ],
+    "sources": [
+      "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+    ],
+    "explanation": "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
+  }
+]

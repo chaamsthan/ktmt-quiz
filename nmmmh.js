@@ -30,7 +30,7 @@ async function loadNmmmh() {
 }
 
 function nmmmhPool(examId, chapterId = "all") {
-  const rows = nmmmh.questions.filter((q) => (examId === "all" || q.source_exam_id === examId) && (chapterId === "all" || q.chapter_id === chapterId));
+  const rows = nmmmh.questions.filter((q) => (examId === "all" || q.source_exam_id === examId) && (chapterId === "all" || (q.chapter_ids || [q.chapter_id]).includes(chapterId)));
   if (examId !== "all") return rows;
   return deduplicateNmmmh(rows);
 }
@@ -46,7 +46,12 @@ function deduplicateNmmmh(rows) {
 
 function startNmmmhSavedQuiz(scope) {
   const saved = state.persisted[scope];
-  const rows = deduplicateNmmmh(nmmmh.questions.filter((q) => saved.has(q.id)));
+  const rows = deduplicateNmmmh(nmmmh.questions.filter((q) => saved.has(q.id) && (scope !== "mistakes" || q.correct_answer)));
+  if (!rows.length) {
+    nmmmh.route = {}; history.replaceState(null, "", subjectLink()); renderHome();
+    app.insertAdjacentHTML("afterbegin", '<p class="notice" role="alert">Chưa có câu phù hợp để ôn lại. Câu chưa có đáp án không được coi là câu sai.</p>');
+    return;
+  }
   const context = { ...nmmmhContext("all", "all"), chapter: scope === "mistakes" ? "Ôn câu sai" : "Câu đã đánh dấu", chapter_id: scope, scope_kind: scope };
   nmmmh.route = { review: scope };
   history.replaceState(null, "", subjectLink(nmmmh.route));
@@ -56,7 +61,7 @@ function startNmmmhSavedQuiz(scope) {
 function nmmmhProgressHtml() {
   const completed = nmmmh.questions.filter((q) => state.persisted.progress[q.id]?.answered).length;
   const marked = nmmmh.questions.filter((q) => state.persisted.bookmarks.has(q.id)).length;
-  const wrong = nmmmh.questions.filter((q) => state.persisted.mistakes.has(q.id)).length;
+  const wrong = nmmmh.questions.filter((q) => q.correct_answer && state.persisted.mistakes.has(q.id)).length;
   const gradedProgress = nmmmh.questions.filter((q) => q.correct_answer).map((q) => state.persisted.progress[q.id]).filter(Boolean);
   const answered = gradedProgress.reduce((sum, p) => sum + p.answered, 0);
   const correct = gradedProgress.reduce((sum, p) => sum + p.correct, 0);
@@ -80,6 +85,13 @@ function nmmmhContext(examId, chapterId) {
 function startNmmmhQuiz(examId, chapterId = "all", mode = "study", randomize = false) {
   if (examId === "all" && chapterId === "all") return renderNmmmhHome();
   const pool = nmmmhPool(examId, chapterId);
+  if (!pool.length) {
+    nmmmh.route = examId === "all" ? {} : { exam: examId };
+    history.replaceState(null, "", subjectLink(nmmmh.route));
+    renderHome();
+    app.insertAdjacentHTML("afterbegin", '<p class="notice" role="alert">Phạm vi này chưa có câu hỏi phù hợp. Hãy chọn chương khác.</p>');
+    return;
+  }
   const context = nmmmhContext(examId, chapterId);
   // Whole exams always retain original source order, regardless of a stale
   // checkbox setting in a prior chapter practice session.
@@ -110,6 +122,7 @@ function renderNmmmhHome() {
   const current = nmmmh.route.chapter || "2";
   app.innerHTML = `<section class="results-head"><div><h1>Trắc nghiệm Mật mã học</h1><p class="muted">${nmmmh.manifest.exams.length} đề · ${total} bản ghi · ${graded} câu có đáp án kiểm chứng</p></div><a class="ghost-btn" href="${subjectLink({ view: "history" })}">Lịch sử làm bài</a></section>
     ${nmmmhProgressHtml()}
+    ${nmmmhPracticePanel()}
     <section class="panel aggregate-panel"><div class="panel-header"><div><h2>Làm theo chương của tất cả đề</h2><p>Gộp câu cùng chương; câu trùng có cùng đáp án được tính một lần.</p></div></div>
       <form id="aggregate-form" class="form-stack"><div class="field"><label for="aggregate-chapter">Chương</label><select id="aggregate-chapter">${chapterOptions("all", current)}</select></div>${sessionControls("aggregate")}<button class="primary-btn" type="submit">Làm nhóm chương từ tất cả đề →</button></form>
     </section>
@@ -128,6 +141,7 @@ function renderNmmmhHome() {
   });
   document.querySelector("#nmmmh-mistakes").addEventListener("click", () => startNmmmhSavedQuiz("mistakes"));
   document.querySelector("#nmmmh-bookmarks").addEventListener("click", () => startNmmmhSavedQuiz("bookmarks"));
+  bindNmmmhPracticePanel();
 }
 
 function renderNmmmhExam(examId) {
@@ -188,12 +202,18 @@ function nmmmhQuestionMeta(question) {
   const sources = state.quiz.context?.exam_id === "all" && question.duplicate_status === "confirmed" ? question.duplicate_sources : [question];
   return `<div class="source-meta"><p><strong>Nguồn:</strong> ${sources.map((s) => `${escapeHtml(s.source_exam_code)} / câu ${escapeHtml(s.source_question_number)}`).join(" · ")}</p>
     ${child ? `<p>${escapeHtml(child.code)} · ${escapeHtml(child.name)}${question.classification_needs_review ? " (nhãn đề xuất từ file phân loại)" : ""}</p>` : ""}
+    ${question.classification_needs_review ? '<p class="side-note">Phân chương hiện có là đề xuất: cây kiến thức chưa có mục chi tiết cho nội dung này; cần đối chiếu tài liệu bổ sung.</p>' : ""}
     ${question.duplicate_group ? `<span class="session-chip">${question.duplicate_status === "confirmed" ? "Câu trùng đã xác minh" : "Nghi trùng · giữ riêng"}</span>` : ""}
     ${question.needs_review ? `<span class="review-badge">Cần rà soát${question.correct_answer ? " nguồn ảnh" : " · không tính điểm"}</span>` : ""}
     ${question.source_notes?.length ? `<details><summary>Ghi chú nguồn</summary><p>${question.source_notes.map(escapeHtml).join("<br />")}</p></details>` : ""}</div>`;
 }
 
 function answerExplanation(question) {
+  if (question.subject_id === "nmmmh") {
+    if (!state.quiz.feedback[question.id] && !state.quiz.revealed?.[question.id]) return "";
+    const mapping = state.quiz.context?.shuffle_options ? `<p class="side-note">Giải thích dùng nhãn gốc của đề. Gốc → đang hiển thị: ${LETTERS.map(l => `${l} → ${displayOptionLetter(question, l)}`).join(" · ")}.</p>` : "";
+    return `<div class="answer-explanation"><details ${state.quiz.explanationOpen?.[question.id] ? "open" : ""}><summary>Xem giải thích và căn cứ kiểm chứng</summary>${mapping}<p>${escapeHtml(question.explanation || question.answer_audit?.explanation || "Chưa đủ bằng chứng.")}</p>${(question.answer_audit?.sources || []).filter(s => /^https:\/\//.test(s)).map(s => `<a href="${escapeHtml(s)}" target="_blank" rel="noopener">Tài liệu kiểm chứng ↗</a>`).join(" · ")}</details></div>`;
+  }
   if (!question.answer_audit || !state.quiz.feedback[question.id]) return "";
   return `<div class="answer-explanation"><strong>Căn cứ:</strong> ${escapeHtml(question.answer_audit.explanation)}</div>`;
 }
@@ -201,7 +221,7 @@ function answerExplanation(question) {
 function returnToSubjectHome() {
   if (state.subject === "nmmmh") {
     const context = state.quiz?.context;
-    const params = context?.exam_id && context.exam_id !== "all" ? { exam: context.exam_id, ...(context.chapter_id !== "all" ? { chapter: context.chapter_id } : {}) } : {};
+    const params = context?.exam_id && context.exam_id !== "all" ? { exam: context.exam_id, ...(nmmmh.manifest.chapters.some(c => c.id === context.chapter_id) ? { chapter: context.chapter_id } : {}) } : {};
     nmmmh.route = params; history.replaceState(null, "", subjectLink(params));
   }
   renderHome();
@@ -239,6 +259,7 @@ async function routeSubject() {
     const examId = params.get("exam"); const chapterId = params.get("chapter") || "all";
     if (examId && examId !== "all" && !nmmmh.manifest.exams.some((e) => e.id === examId)) throw new Error("Mã đề không tồn tại.");
     if (chapterId !== "all" && !nmmmh.manifest.chapters.some((c) => c.id === chapterId)) throw new Error("Chương không tồn tại.");
+    if ((params.get("action") === "start" || params.get("practice") === "1" || ["mistakes", "bookmarks"].includes(params.get("review"))) && resumeNmmmhSession()) return;
     if (params.get("view") === "history") return renderSessionHistory();
     if (["mistakes", "bookmarks"].includes(params.get("review"))) return startNmmmhSavedQuiz(params.get("review"));
     if (examId && params.get("action") === "start") return startNmmmhQuiz(examId, chapterId, params.get("mode") === "exam" ? "exam" : "study", params.get("random") === "1");

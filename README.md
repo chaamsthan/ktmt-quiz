@@ -78,7 +78,7 @@ Nạp lại từ bộ dữ liệu đã phân loại/kiểm chứng (không OCR h
 python3 tools/import_nmmmh.py --source '/đường/dẫn/NMMMH'
 ```
 
-Thư mục nguồn phải có `DAPAN_KIEMCHUNG/`, `DeThiOCR/PHAN_LOAI_THEO_CHUONG/` và `TONGQUANKIENTHUC/NMMMH_Phan_loai_kien_thuc.json`. Bổ sung/sửa câu tại nguồn rồi chạy importer, kiểm tra báo cáo và commit dữ liệu sinh ra để GitHub Pages cập nhật.
+Thư mục nguồn cần `DAPAN_KIEMCHUNG/` và `TONGQUANKIENTHUC/NMMMH_Phan_loai_kien_thuc.json`. Nếu còn `DeThiOCR/PHAN_LOAI_THEO_CHUONG/`, importer đối chiếu bản phân loại đó. Nếu thiếu, giữ phân loại đã lưu rồi áp dụng các quyết định kiểm định tường minh, không đoán lại bằng từ khóa. Đợt 21/10/2026 dùng `DeThiPDF` theo xác nhận người dùng.
 
 Importer đọc `excluded_exams.json` trước khi tạo đề, nhóm trùng, báo cáo và CSV đáp án. Vì vậy chạy lại sẽ không tự đưa K16-1 trở lại website. Nếu muốn khôi phục, bỏ ID này khỏi danh sách loại rồi nhập lại từ nguồn vẫn còn nguyên.
 
@@ -90,3 +90,50 @@ uv run --with playwright==1.60.0 python tools/test_nmmmh.py --url http://127.0.0
 ```
 
 Các kiểm tra chạy trong trình duyệt mới, không xóa localStorage của người học.
+
+### Bản kiểm định NMMMH 21/10/2026
+
+Báo cáo đầy đủ: [UPGRADE_REPORT.md](subjects/nmmmh/audit/UPGRADE_REPORT.md). Số liệu và giới hạn lấy từ file này, không dùng số cũ trong ghi chép triển khai trước.
+
+- Một nguồn chuẩn: `subjects/nmmmh/exams/*.json`. Cả đề, chương trong đề, chương mọi đề và luyện nhiều chương đều đọc các bản ghi này. Không copy ngân hàng sang JavaScript.
+- `nmmmh-practice.js`: chọn nhiều chương, số câu tùy ý/toàn bộ, lọc đề/trạng thái, trộn câu/phương án bằng ID gốc. Câu có tham chiếu nhãn hoặc hình chứa A–D gốc không trộn phương án.
+- Công thức/ma trận dùng KaTeX local tại `vendor/katex/`; `display_blocks` được sinh từ văn bản nguồn, không sửa giá trị để làm đẹp. 28 ảnh crop mới có SHA-256, trang nguồn và bbox trong audit; ảnh cũ vẫn giữ để rollback. Bấm ảnh để phóng to.
+- Gợi ý ngắn nằm trong JSON, không tự hiện đáp án. Giải thích/căn cứ tách trong nút riêng. Lượt thi không hiện đúng/sai trước khi nộp.
+- Lượt đang làm có khóa riêng `nmmmh-active-session-v1`; lịch sử/đánh dấu vẫn dùng khóa chung cũ. Reload giữ trạng thái; thay nguồn/khóa sẽ vô hiệu bản lưu không còn khớp. Lịch sử cũ không bị xóa hoặc chấm lại tự động.
+- `audit/approved_changes.json`: overlay ID ổn định, mỗi sửa OCR có old/new/evidence; quyết định đáp án có method/evidence. Tái nhập không ghi đè tài liệu nguồn. `source_classification` giữ nhãn cũ, `classification_audit` ghi lý do đổi chương; nhãn chưa đủ nguồn vẫn có cảnh báo.
+- `audit/answer_changes.json`: khóa cũ/mới và căn cứ; `MANUAL_REVIEW.md` là câu chưa chốt, `CLASSIFICATION_REVIEW.md` là nhãn chương còn đề xuất. Hai loại rà soát không đồng nghĩa nhau.
+
+Tái tạo từ chứng cứ đã kiểm định (không tự xác nhận lại câu mới):
+
+```bash
+python3 tools/assemble_nmmmh_audit.py --source '/đường/dẫn/NMMMH'
+python3 tools/finalize_nmmmh_verification.py --source '/đường/dẫn/NMMMH'
+python3 tools/import_nmmmh.py --source '/đường/dẫn/NMMMH'
+python3 tools/nmmmh_numeric_audit.py --self-test
+python3 tools/nmmmh_theory_audit.py --check
+python3 tools/nmmmh_hints.py --require-complete
+python3 tools/report_nmmmh_upgrade.py
+```
+
+Thêm câu/đề mới cần bổ sung chứng cứ source/chapter/numeric/theory/hint tương ứng. Không sửa duy nhất file JSON xuất bản rồi chạy importer, vì lần nhập sau sẽ ghi đè. Với một đáp án cần cập nhật nhanh, sửa đúng `approved_changes.json[ID].answer_decision`, kèm `correct_answer`, `status`, `valid_options`, `explanation`, `method`, `evidence`; chạy importer và kiểm thử. Nếu chưa có bằng chứng, dùng `correct_answer: null`, `status: "needs_review"`. Lưu ý: chạy lại **finalizer** sẽ tính lại overlay từ artifact kiểm chứng, nên một điều chỉnh thủ công đã xác nhận cũng phải được cập nhật vào artifact numeric/theory tương ứng trước khi tái tạo toàn bộ.
+
+Kiểm thử trước commit/push:
+
+```bash
+node tools/check_site.cjs
+python3 tools/test_nmmmh_data.py --source '/đường/dẫn/NMMMH'
+python3 tools/nmmmh_numeric_audit.py --check
+uv run --with playwright==1.60.0 python tools/test_nmmmh.py --url http://127.0.0.1:8000/
+uv run --with playwright==1.60.0 python tools/test_nmmmh_upgrade.py --url http://127.0.0.1:8000/
+uv run --with playwright==1.60.0 python tools/test_ktmt_chapter2.py --url http://127.0.0.1:8000/
+```
+
+Website không có bundler/framework build. `check_site.cjs` kiểm tra cú pháp JavaScript, dữ liệu, ảnh và render KaTeX thực tế; kiểm thử trình duyệt chạy cả desktop và điện thoại. Bộ numeric tự kiểm 65.536 cặp GF(2⁸), đối chiếu φ/Jacobi/ECC và kiểm tính độc lập với metadata đáp án/hoán vị A–D. Các kiểm tra tự động không thay cho bước đối chiếu trực quan PDF; chi tiết từng câu và các giới hạn được ghi trong audit.
+
+Có thể chạy đồng thời ba bộ kiểm thử trình duyệt bằng preview tạm do runner tự quản lý (không cần mở server riêng):
+
+```bash
+uv run --with playwright==1.60.0 python tools/run_quiz_checks.py
+```
+
+Runner tự đóng preview sau kiểm thử. Thêm `--url https://chaamsthan.github.io/ktmt-quiz/` để kiểm tra bản đã triển khai; kiểm thử này chỉ đọc website và dùng localStorage trình duyệt tạm.

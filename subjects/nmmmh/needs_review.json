@@ -1,5 +1,43 @@
 [
   {
+    "id": "nmmmh-de-thi-at17-bo-1-3",
+    "source_exam_id": "de-thi-at17-bo-1",
+    "source_exam_code": "De_thi_AT17_bo_1",
+    "source_question_number": "3",
+    "source_file": "De_thi_AT17_bo_1.docx",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "reasons": [
+      "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+      "Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+    ],
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-4",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_exam_code": "De_thi_NMMMH",
+    "source_question_number": "4",
+    "source_file": "De_thi_NMMMH.docx",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "reasons": [
+      "A chắc chắn sai về lan lỗi ECB; B mơ hồ/không đúng tuyệt đối. Không ép đáp án đơn cho lời văn CBC thiếu điều kiện."
+    ],
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-nmmmh-5",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_exam_code": "De_thi_NMMMH",
+    "source_question_number": "5",
+    "source_file": "De_thi_NMMMH.docx",
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "A,B là khía cạnh chuẩn; chống chối bỏ được thêm trong slide môn học theo nghĩa rộng. Thiếu ràng buộc nghĩa."
+    ],
+    "answer_status": "needs_review"
+  },
+  {
     "id": "nmmmh-de-thi-nmmmh-7",
     "source_exam_id": "de-thi-nmmmh",
     "source_exam_code": "De_thi_NMMMH",
@@ -8,9 +46,9 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Bản mã (28,192) đúng và β=41^117 mod211=89 cũng đúng; A sai nên D sai."
+      "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-nmmmh-9",
@@ -21,9 +59,9 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "B sai vì số dư được phép bằng0; D liệt kê các đại diện của cùng một lớp, không phải nhiều lớp tương đương."
+      "B sai vì không cho r=0; D gọi nhiều đại diện cùng lớp là các lớp. Có hai lựa chọn sai theo lời văn."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-nmmmh-28",
@@ -33,9 +71,9 @@
     "source_file": "De_thi_NMMMH.docx",
     "chapter": "Chương 1. Tổng quan về mật mã học",
     "reasons": [
-      "Mật mã khóa công khai bổ sung cho đối xứng, không ra đời để thay thế hoàn toàn. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      "A sai; B cũng sai nếu nói đã chứng minh độ khó của bài toán. Không tự diễn giải B thành chứng minh giảm an toàn để cứu khóa cũ."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-nmmmh-29",
@@ -46,35 +84,34 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "m=1234 cho c=11152. A và B đúng. C dùng nhầm m=1731, vốn cho c=15142 nên D sai."
+      "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
-    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
-    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-    "source_question_number": "5",
-    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
-    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "id": "nmmmh-de-thi-nmmmh-32",
+    "source_exam_id": "de-thi-nmmmh",
+    "source_exam_code": "De_thi_NMMMH",
+    "source_question_number": "32",
+    "source_file": "De_thi_NMMMH.docx",
+    "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai."
+      "A đúng; B,C chỉ chấp nhận được khi nêu ngữ cảnh giáo trình cụ thể. Không ép D từ định nghĩa lỏng."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
-    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
     "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-    "source_question_number": "6",
+    "source_question_number": "12",
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
-    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
     "reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "ord50(17)=20, không có trong2,1,8,4."
+      "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai."
     ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
@@ -85,9 +122,22 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai."
+      "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "source_question_number": "23",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
+    ],
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
@@ -98,9 +148,22 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai."
+      "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "source_question_number": "29",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
+    ],
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
@@ -110,9 +173,35 @@
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
     "chapter": "Chương 1. Tổng quan về mật mã học",
     "reasons": [
-      "Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+    "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+    "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+    "source_question_number": "39",
+    "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+    "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn."
+    ],
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-4",
+    "source_exam_id": "de-thi-k16-2",
+    "source_exam_code": "de-thi-k16-2",
+    "source_question_number": "4",
+    "source_file": "de-thi-k16-2.docx",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "Thiếu điều kiện bảo vệ digest cho hàm băm; MAC và chữ ký đều là đáp án đúng độc lập. Slide p15 cho danh sách C nếu hỏi bộ kỹ thuật đầy đủ, nhưng đề không nêu cách chọn này."
+    ],
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-7",
@@ -123,9 +212,9 @@
     "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "A sai vì hash là hàm xác định; D diễn đạt lẫn tiền ảnh/thứhai, cần xác nhận cách hiểu ở đề gốc trước khi chọn duy nhất."
+      "A sai nếu đọc 'hàm ngẫu nhiên' như thuật toán ngẫu nhiên, nhưng D có lời văn trái với công thức đúng. Không tự chọn D sai hoặc dùng A để ép bỏ lỗi lời văn."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-11",
@@ -136,22 +225,22 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "A ghi modn thayφ(n), C ghi gcd(e,n) thaygcd(e,φ(n)); cả hai sai."
+      "Sau override A in f(n), không phải (n) và chưa có định nghĩa f. C vẫn sai vì gcd(e,n)=1 không là điều kiện RSA. Nếu f được xác nhận là phi thì C là đáp án; chưa đủ chứng cứ để ép đọc đó. Cần đối chiếu nguồn: Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n).",
+      "Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n)."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
-    "id": "nmmmh-de-thi-k16-2-22",
+    "id": "nmmmh-de-thi-k16-2-13",
     "source_exam_id": "de-thi-k16-2",
     "source_exam_code": "de-thi-k16-2",
-    "source_question_number": "22",
+    "source_question_number": "13",
     "source_file": "de-thi-k16-2.docx",
-    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
     "reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "C ghi số mũ307 thay367;D ghi n660 thay713. Cả hai sai."
+      "B chắc chắn sai. D thiếu ngữ cảnh toàn bộ thông điệp hay khối lặp và phát biểu quá tuyệt đối khi đổi khóa; không ép một đáp án cho câu mơ hồ."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-24",
@@ -162,9 +251,9 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "B loại r=0 sai; C nhầm nhiều lớp với các đại diện cùng lớp."
+      "B loại số dư bằng 0; C gọi các đại diện cùng lớp là các lớp. Theo lời văn nguyên bản có ít nhất hai phát biểu sai. Override bổ sung 15 mod 7 không đổi việc các biểu thức thuộc cùng một lớp."
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-25",
@@ -174,9 +263,9 @@
     "source_file": "de-thi-k16-2.docx",
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
     "reasons": [
-      "B là nguyên lý đúng; D diễn đạt chung việc thực hiện trênbit, có thể cũng đúng. Chưa có đáp án duy nhất đủ chắc."
+      "B đúng về nguyên lý Shannon; D thiếu ý 'chỉ' hay loại đơn vị nên có thể đúng ở mức biểu diễn bit. Không dùng một cách diễn đạt mơ hồ để loại D."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-26",
@@ -187,9 +276,9 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "β=131 và bản mã(72,74) đều đúng; A nhầmk67 với khóa bí mậta113."
+      "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 131, \"gamma\": 72, \"delta\": 74, \"inverse_gamma_a\": 92}"
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-35",
@@ -200,9 +289,22 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "φ(785)=φ(5·157)=4·156=624; không có phương án624."
+      "Không có phương án khớp kết quả tính độc lập. Kết quả: 384"
     ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-2-36",
+    "source_exam_id": "de-thi-k16-2",
+    "source_exam_code": "de-thi-k16-2",
+    "source_question_number": "36",
+    "source_file": "de-thi-k16-2.docx",
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "A và B là các khía cạnh chuẩn; C,D theo mục tiêu rộng của Slide 138. Thiếu định nghĩa chọn giữa nghĩa rộng và nghĩa bảo đảm chuẩn."
+    ],
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-37",
@@ -213,9 +315,9 @@
     "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "A có thể là ý ra đề, nhưng cụm “chỉ áp dụng đối với hệ mật khóa đối xứng” mơ hồ: Diffie–Hellman dùng toán học khóa công khai để thiết lập bí mật chung. Chưa chứng nhận một đáp án chuẩn cho cách diễn đạt này."
+      "A quá hẹp về phạm vi thỏa thuận khóa; B chỉ là một mô hình phân phối có TA, không phải định nghĩa chung. C,D đúng trong ngữ cảnh cơ quan tin cậy."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-2-40",
@@ -225,22 +327,9 @@
     "source_file": "de-thi-k16-2.docx",
     "chapter": "Chương 1. Tổng quan về mật mã học",
     "reasons": [
-      "Khóa công khai bổ sung, không thay thế đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      "A sai về mục tiêu thay thế; D sai nếu hiểu 'đã chứng minh độ khó' theo nghĩa đen. Không giả vờ giả định độ khó đã được chứng minh."
     ],
-    "answer_status": "ambiguous_wording"
-  },
-  {
-    "id": "nmmmh-de-thi-k16-3-2027",
-    "source_exam_id": "de-thi-k16-3",
-    "source_exam_code": "de-thi-k16-3",
-    "source_question_number": "2027",
-    "source_file": "de-thi-k16-3.docx",
-    "chapter": "Chương 3. Các hệ mật khóa công khai",
-    "reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "ord50(13)=20 không có trong2,8,1,4."
-    ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-3-2032",
@@ -250,9 +339,9 @@
     "source_file": "de-thi-k16-3.docx",
     "chapter": "Chương 2. Các hệ mật khóa bí mật",
     "reasons": [
-      "Autokey theo slide58 choULLRKMVKOVYY, không khớpA–D. B=ULLHNBYLNHBL là Vigenère khóaSUN lặp, không phảiAutokey."
+      "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
     ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-3-2036",
@@ -263,9 +352,34 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "n=41989,c=11152;A nhầm49189,B/C thiếu chữ số1,D dùng sai m1731. Không có phát biểu đúng duy nhất theo văn bản."
+      "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
     ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2038",
+    "source_exam_id": "de-thi-k16-3",
+    "source_exam_code": "de-thi-k16-3",
+    "source_question_number": "2038",
+    "source_file": "de-thi-k16-3.docx",
+    "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
+    ],
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2045",
+    "source_exam_id": "de-thi-k16-3",
+    "source_exam_code": "de-thi-k16-3",
+    "source_question_number": "2045",
+    "source_file": "de-thi-k16-3.docx",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "reasons": [
+      "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
+    ],
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-3-2046",
@@ -275,9 +389,9 @@
     "source_file": "de-thi-k16-3.docx",
     "chapter": "Chương 1. Tổng quan về mật mã học",
     "reasons": [
-      "Không thaythế toàn bộ đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+      "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác."
     ],
-    "answer_status": "ambiguous_wording"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-3-2047",
@@ -288,9 +402,9 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "β=89 đúng;28^(-117) mod211=97 và97·192 mod211=56 đúng. B đảo(γ,δ),Cnhầmk."
+      "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
     ],
-    "answer_status": "multiple_valid_options"
+    "answer_status": "needs_review"
   },
   {
     "id": "nmmmh-de-thi-k16-3-2052",
@@ -301,8 +415,22 @@
     "chapter": "Chương 3. Các hệ mật khóa công khai",
     "reasons": [
       "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "CảA–Dđều đúng: cănmod21=2,5,16,19;(21/233)=-1;(13/17)=1; côngthức(2/n)đúng. ĐềhỏiSAI nhưng không có."
+      "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit.",
+      "Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit."
     ],
-    "answer_status": "no_valid_option"
+    "answer_status": "needs_review"
+  },
+  {
+    "id": "nmmmh-de-thi-k16-3-2056",
+    "source_exam_id": "de-thi-k16-3",
+    "source_exam_code": "de-thi-k16-3",
+    "source_question_number": "2056",
+    "source_file": "de-thi-k16-3.docx",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "reasons": [
+      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+      "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
+    ],
+    "answer_status": "needs_review"
   }
 ]

@@ -1,0 +1,2959 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-21",
+  "status": "inventory_classification_complete_question_audits_outstanding",
+  "source_root": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh",
+  "scope": "Read-only inventory/classification follow-up. Only this new JSON artifact is written in the repository. No import, exam JSON, source modification, answer selection or guessed answer.",
+  "counting_policy": "Native heading occurrences only, never certified question or unique-question counts. DOCX XML headers are explicitly Câu N or alternative N. lines. Scanned PDF native header count 0 means no machine-readable headings, not no questions.",
+  "review_extent": {
+    "inventory_documents": 22,
+    "existing_exam_pdf_documents": 6,
+    "additional_documents": 16,
+    "additional_native_docx_documents": 9,
+    "additional_midterm_pdf_documents": 2,
+    "course_reference_pdf_documents": 5,
+    "docx_literal_cau_header_occurrences": 290,
+    "docx_alternative_numeric_header_occurrences": 40,
+    "distinct_midterm_session_titles_visually_confirmed": 2,
+    "entire_additional_question_sets_audited": 0,
+    "all_22_documents_fully_audited": false,
+    "method": "All nine native DOCX files mechanically extracted for headers/media; opening and ending text inspected. Chapter-1 variants compared over all 100 normalized nonempty paragraphs. Two midterm PDFs visually inspected only on pages 1,2,last. Five course PDFs sampled via native text on pages 1,2,last. Six existing PDFs were not re-audited in this follow-up."
+  },
+  "existing_bank": {
+    "known_source_exam_ids": [
+      "de-thi-at17-bo-1",
+      "de-thi-nmmmh",
+      "de-thi-mat-ma-2021-trac-nghiem",
+      "de-thi-k16-1",
+      "de-thi-k16-2",
+      "de-thi-k16-3"
+    ],
+    "published_exam_ids": [
+      "de-thi-at17-bo-1",
+      "de-thi-nmmmh",
+      "de-thi-mat-ma-2021-trac-nghiem",
+      "de-thi-k16-2",
+      "de-thi-k16-3"
+    ],
+    "published_question_records": 173,
+    "excluded_exam_id": "de-thi-k16-1",
+    "note": "173 published records remain the existing-bank scope. Twenty-two document entries are an inventory, not 22 audited exams and not an all-source certification."
+  },
+  "documents": [
+    {
+      "path": "DeThiPDF/dematma2021tracnghiem.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/dematma2021tracnghiem.pdf",
+      "type": "pdf",
+      "sha256": "808d6f3696761ede1d2fd364ee3893097596da3b7bc65dc5999b379153db882a",
+      "pages": 8,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "ĐỀ THI MẬT MÃ HỌC 2021",
+      "exam_year": 2021,
+      "source_question_range": {
+        "value": "1-40",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "existing_bank_imported",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+        "published": true,
+        "excluded_by_request": false
+      },
+      "prior_audit_artifact": "source_other_review.json",
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "DeThiPDF/Đề thi NMMMH.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/Đề thi NMMMH.pdf",
+      "type": "pdf",
+      "sha256": "bb1b3d752ec6ec364f308c67c3d63415a73b672bd2b301cf56b08812ef8ed3ce",
+      "pages": 43,
+      "inventory_native_text_chars": 74,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "ĐỀ THI NHẬP MÔN MẬT MÃ HỌC",
+      "exam_year": null,
+      "source_question_range": {
+        "value": "1-40, screenshot duplicates at labels 3,5,7",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "existing_bank_imported",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-nmmmh",
+        "published": true,
+        "excluded_by_request": false
+      },
+      "prior_audit_artifact": "source_other_review.json",
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "DeThiPDF/Đề thi k17/k17.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/Đề thi k17/k17.pdf",
+      "type": "pdf",
+      "sha256": "62cbf6dbc1d4863672cef7cf8b89aa609ff37e920a1b3acc6a057da5accf10d2",
+      "pages": 13,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "NHẬP MÔN MẬT MÃ HỌC — AT17, BỘ 1",
+      "exam_year": null,
+      "source_question_range": {
+        "value": "1-13",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "existing_bank_imported",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-at17-bo-1",
+        "published": true,
+        "excluded_by_request": false
+      },
+      "prior_audit_artifact": "source_other_review.json",
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "DeThiPDF/Đề-K16/Đề 1/k16-1.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/Đề-K16/Đề 1/k16-1.pdf",
+      "type": "pdf",
+      "sha256": "a04964426e98ea53db2cd542b57faa41d94b0ec3fd78d03c4ba4bb2a58223d61",
+      "pages": 10,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "THI KTHP 2020–2021. LẦN 1",
+      "exam_year": "2020-2021 (registry title, not cover rechecked)",
+      "source_question_range": {
+        "value": "Registry only: 1-36 plus 33-HP,34-HP,35-HP",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "not_imported_excluded_by_request",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-k16-1",
+        "published": false,
+        "excluded_by_request": true
+      },
+      "prior_audit_artifact": null,
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "DeThiPDF/Đề-K16/Đề 2/k16-2.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/Đề-K16/Đề 2/k16-2.pdf",
+      "type": "pdf",
+      "sha256": "b6d74b9a9225a6fb1ae169a1cbfa910c5ea7e60f18697163dafda2ee6e21b826",
+      "pages": 11,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "ĐỀ THI KẾT THÚC HỌC PHẦN",
+      "exam_year": "2021-2022 (registry title, not cover rechecked)",
+      "source_question_range": {
+        "value": "1-40",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "existing_bank_imported",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-k16-2",
+        "published": true,
+        "excluded_by_request": false
+      },
+      "prior_audit_artifact": "source_k16_review.json",
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "DeThiPDF/Đề-K16/Đề 3/k16-3.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/DeThiPDF/Đề-K16/Đề 3/k16-3.pdf",
+      "type": "pdf",
+      "sha256": "7f8f96880c1cfc5f547c8fe49103114ee09704349aa333bd34d86a8e0d5c0f81",
+      "pages": 10,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "ĐỀ THI TRẮC NGHIỆM",
+      "exam_year": null,
+      "source_question_range": {
+        "value": "2021-2060 (question labels, not years)",
+        "basis": "existing source registry/prior audit; not counted from native PDF text in this follow-up"
+      },
+      "import_status": "existing_bank_imported",
+      "audit_status": "not_audited_in_this_inventory_followup",
+      "full_question_audit_performed": false,
+      "classification": "existing_exam_source_pdf",
+      "relationship": {
+        "kind": "source_of_existing_exam",
+        "exam_id": "de-thi-k16-3",
+        "published": true,
+        "excluded_by_request": false
+      },
+      "prior_audit_artifact": "source_k16_review.json",
+      "review_extent": "Existing mapping checked against source inventory; PDF contents not re-read here."
+    },
+    {
+      "path": "MAT_MA/MAT_MA/Bản full đã gộp.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/MAT_MA/MAT_MA/Bản full đã gộp.pdf",
+      "type": "pdf",
+      "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+      "pages": 205,
+      "inventory_native_text_chars": 144997,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": null,
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "certified_question_count": null,
+        "basis": "original inventory native-text scan only; a zero Câu count is not proof that no exercises exist"
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "course_reference_or_lecture_handout",
+      "relationship": {
+        "kind": "course_reference_not_exam",
+        "description": "Related course/topic material in different handout/slide editions. Conceptual overlap is visible; exact cross-document duplication/subset status is not established."
+      },
+      "document_title": "NHẬP MÔN MẬT MÃ HỌC — merged teaching material",
+      "document_date_observed": "22 August 2021; later included pages also show 16 August 2021",
+      "evidence": [
+        "p1: NHẬP MÔN MẬT MÃ HỌC, Bộ môn Khoa Học An Toàn Thông Tin — Khoa An Toàn Thông Tin.",
+        "p2: GIỚI THIỆU HỌC PHẦN, service/course objectives.",
+        "p205: combined lecture material including Kerberos AS/TGS/KDC."
+      ],
+      "review_extent": "Native text sampled on first two physical pages and last page; not a full-page or exercise inventory."
+    },
+    {
+      "path": "MAT_MA/MAT_MA/de_giua_ki_ca_1.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/MAT_MA/MAT_MA/de_giua_ki_ca_1.pdf",
+      "type": "pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": 17,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "Nhập môn MMH Kiểm tra giữa kì — Ca 1",
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "visually_observed_labels": [
+          1,
+          2,
+          3,
+          4,
+          38,
+          39,
+          40
+        ],
+        "observed_min": 1,
+        "observed_max": 40,
+        "complete_range_verified": false,
+        "certified_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_distinct_midterm_exam_capture",
+      "relationship": {
+        "kind": "additional_exam_title_not_existing_six",
+        "description": "An online midterm capture identified by its application title. Different title/session from the six existing exams; question-level overlap or completeness has not been audited."
+      },
+      "exam_title_basis": "Visually read application title on the first screenshot; this PDF has no separate formal cover.",
+      "year_constraint": "AT2102 is a course/class code, not sufficient evidence of an exam year.",
+      "visually_inspected_pdf_pages": [
+        1,
+        2,
+        17
+      ],
+      "evidence": [
+        "p1 application title contains Kiểm tra giữa kì and Ca 1; Q3 concerns a generator of Z*101, Q4 concerns Shannon.",
+        "p2 shows Q1 order of a=3 in Z*59 and Q2 AES assertions.",
+        "p17 shows Q38,Q39,Q40, followed by Submit; final label 40 is not a certificate that all earlier labels are present."
+      ],
+      "review_extent": "Only the first two and last physical pages visually read for identity and boundary labels. No full question transcription or answer audit.",
+      "outstanding": [
+        "Remaining physical pages not visually reviewed in this task.",
+        "Map all question labels, duplicate/partial captures and A-D order before import.",
+        "Do not treat selected radio buttons as correct answers."
+      ]
+    },
+    {
+      "path": "MAT_MA/MAT_MA/de_giua_ki_ca_2.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/MAT_MA/MAT_MA/de_giua_ki_ca_2.pdf",
+      "type": "pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": 29,
+      "inventory_native_text_chars": 0,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "Nhập môn MMH Kiểm tra giữa kì AT2102 Ca 2 (Nhập môn mật mã AT2102)",
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "visually_observed_labels": [
+          10,
+          11,
+          27,
+          28,
+          40
+        ],
+        "observed_min": 10,
+        "observed_max": 40,
+        "complete_range_verified": false,
+        "certified_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_distinct_midterm_exam_capture",
+      "relationship": {
+        "kind": "additional_exam_title_not_existing_six",
+        "description": "An online midterm capture identified by its application title. Different title/session from the six existing exams; question-level overlap or completeness has not been audited."
+      },
+      "exam_title_basis": "Visually read application title on the first screenshot; this PDF has no separate formal cover.",
+      "year_constraint": "AT2102 is a course/class code, not sufficient evidence of an exam year.",
+      "visually_inspected_pdf_pages": [
+        1,
+        2,
+        29
+      ],
+      "evidence": [
+        "p1 title explicitly says Kiểm tra giữa kì AT2102 Ca 2; Q10 ElGamal p=307; Q11 Vigenere plaintext ENGLISH, key NOW.",
+        "p2 shows Q27 stream-cipher options and Q28 DES S-box figure.",
+        "p29 shows Q40 generator criteria; unordered/interleaved captures must be mapped before import."
+      ],
+      "review_extent": "Only the first two and last physical pages visually read for identity and boundary labels. No full question transcription or answer audit.",
+      "outstanding": [
+        "Remaining physical pages not visually reviewed in this task.",
+        "Map all question labels, duplicate/partial captures and A-D order before import.",
+        "Do not treat selected radio buttons as correct answers."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Bài kiểm tra chương 3.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Bài kiểm tra chương 3.docx",
+      "type": "docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "pages": null,
+      "inventory_native_text_chars": 6596,
+      "inventory_question_header_occurrences": 50,
+      "exam_title": "Bài kiểm tra chương 3",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 50,
+        "header_occurrences": 50,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_chapter_test_question_set",
+      "relationship": {
+        "kind": "additional_chapter_test_question_set",
+        "source_family": "chapter3_native",
+        "description": "A separate native chapter-3 question set, not an identified duplicate of the existing six source-exam documents. No claim that every question is novel.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename_only; no separate exam cover/title in opening native paragraphs",
+      "native_literal_cau_header_occurrences": 50,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 3,
+          "number": 1,
+          "header": "Câu 1."
+        },
+        {
+          "paragraph_index": 11,
+          "number": 2,
+          "header": "Câu 2."
+        },
+        {
+          "paragraph_index": 19,
+          "number": 3,
+          "header": "Câu 3."
+        },
+        {
+          "paragraph_index": 27,
+          "number": 4,
+          "header": "Câu 4."
+        },
+        {
+          "paragraph_index": 35,
+          "number": 5,
+          "header": "Câu 5."
+        },
+        {
+          "paragraph_index": 43,
+          "number": 6,
+          "header": "Câu 6."
+        },
+        {
+          "paragraph_index": 51,
+          "number": 7,
+          "header": "Câu 7."
+        },
+        {
+          "paragraph_index": 59,
+          "number": 8,
+          "header": "Câu 8."
+        },
+        {
+          "paragraph_index": 67,
+          "number": 9,
+          "header": "Câu 9."
+        },
+        {
+          "paragraph_index": 75,
+          "number": 10,
+          "header": "Câu 10."
+        },
+        {
+          "paragraph_index": 83,
+          "number": 11,
+          "header": "Câu 11."
+        },
+        {
+          "paragraph_index": 91,
+          "number": 12,
+          "header": "Câu 12."
+        },
+        {
+          "paragraph_index": 99,
+          "number": 13,
+          "header": "Câu 13."
+        },
+        {
+          "paragraph_index": 107,
+          "number": 14,
+          "header": "Câu 14."
+        },
+        {
+          "paragraph_index": 115,
+          "number": 15,
+          "header": "Câu 15."
+        },
+        {
+          "paragraph_index": 123,
+          "number": 16,
+          "header": "Câu 16."
+        },
+        {
+          "paragraph_index": 131,
+          "number": 17,
+          "header": "Câu 17."
+        },
+        {
+          "paragraph_index": 139,
+          "number": 18,
+          "header": "Câu 18."
+        },
+        {
+          "paragraph_index": 147,
+          "number": 19,
+          "header": "Câu 19."
+        },
+        {
+          "paragraph_index": 155,
+          "number": 20,
+          "header": "Câu 20."
+        },
+        {
+          "paragraph_index": 163,
+          "number": 21,
+          "header": "Câu 21."
+        },
+        {
+          "paragraph_index": 171,
+          "number": 22,
+          "header": "Câu 22."
+        },
+        {
+          "paragraph_index": 179,
+          "number": 23,
+          "header": "Câu 23."
+        },
+        {
+          "paragraph_index": 187,
+          "number": 24,
+          "header": "Câu 24."
+        },
+        {
+          "paragraph_index": 195,
+          "number": 25,
+          "header": "Câu 25."
+        },
+        {
+          "paragraph_index": 203,
+          "number": 26,
+          "header": "Câu 26."
+        },
+        {
+          "paragraph_index": 211,
+          "number": 27,
+          "header": "Câu 27."
+        },
+        {
+          "paragraph_index": 219,
+          "number": 28,
+          "header": "Câu 28."
+        },
+        {
+          "paragraph_index": 227,
+          "number": 29,
+          "header": "Câu 29."
+        },
+        {
+          "paragraph_index": 235,
+          "number": 30,
+          "header": "Câu 30."
+        },
+        {
+          "paragraph_index": 243,
+          "number": 31,
+          "header": "Câu 31."
+        },
+        {
+          "paragraph_index": 251,
+          "number": 32,
+          "header": "Câu 32."
+        },
+        {
+          "paragraph_index": 259,
+          "number": 33,
+          "header": "Câu 33."
+        },
+        {
+          "paragraph_index": 267,
+          "number": 34,
+          "header": "Câu 34."
+        },
+        {
+          "paragraph_index": 275,
+          "number": 35,
+          "header": "Câu 35."
+        },
+        {
+          "paragraph_index": 283,
+          "number": 36,
+          "header": "Câu 36."
+        },
+        {
+          "paragraph_index": 291,
+          "number": 37,
+          "header": "Câu 37."
+        },
+        {
+          "paragraph_index": 299,
+          "number": 38,
+          "header": "Câu 38."
+        },
+        {
+          "paragraph_index": 307,
+          "number": 39,
+          "header": "Câu 39."
+        },
+        {
+          "paragraph_index": 315,
+          "number": 40,
+          "header": "Câu 40."
+        },
+        {
+          "paragraph_index": 323,
+          "number": 41,
+          "header": "Câu 41."
+        },
+        {
+          "paragraph_index": 331,
+          "number": 42,
+          "header": "Câu 42."
+        },
+        {
+          "paragraph_index": 339,
+          "number": 43,
+          "header": "Câu 43."
+        },
+        {
+          "paragraph_index": 347,
+          "number": 44,
+          "header": "Câu 44."
+        },
+        {
+          "paragraph_index": 355,
+          "number": 45,
+          "header": "Câu 45."
+        },
+        {
+          "paragraph_index": 363,
+          "number": 46,
+          "header": "Câu 46."
+        },
+        {
+          "paragraph_index": 371,
+          "number": 47,
+          "header": "Câu 47."
+        },
+        {
+          "paragraph_index": 379,
+          "number": 48,
+          "header": "Câu 48."
+        },
+        {
+          "paragraph_index": 387,
+          "number": 49,
+          "header": "Câu 49."
+        },
+        {
+          "paragraph_index": 395,
+          "number": 50,
+          "header": "Câu 50."
+        }
+      ],
+      "embedded_media_count": 30,
+      "native_canonical_sha256": "1bd03198ccc942e3953d8c4a635502bd9e665b463c584b61d27d1d007b45ea3e",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Begins with Q1: Phát biểu nào sau đây về hệ mật khóa công khai là SAI?",
+        "Q2 asks which system is public-key (RC4/RSA, OTP/Elgamal, ECC/RSA, AES/Elgamal).",
+        "Ends with Q49/Q50 A-D letter options; some stems/equations therefore require the 27 embedded images."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong 01 _02_NMMMH.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong 01 _02_NMMMH.pdf",
+      "type": "pdf",
+      "sha256": "7cc4eb27f8d04ce9e81f5c477c51d368c8283f7d82e7f84e525b5e67f05e1c9c",
+      "pages": 28,
+      "inventory_native_text_chars": 56267,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": null,
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "certified_question_count": null,
+        "basis": "original inventory native-text scan only; a zero Câu count is not proof that no exercises exist"
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "course_reference_or_lecture_handout",
+      "relationship": {
+        "kind": "course_reference_not_exam",
+        "description": "Related course/topic material in different handout/slide editions. Conceptual overlap is visible; exact cross-document duplication/subset status is not established."
+      },
+      "document_title": "Chương 01-02 — lecture handout",
+      "document_date_observed": "26 November 2020",
+      "evidence": [
+        "p1: MỤC TIÊU, GIỚI THIỆU HỌC PHẦN, classification of cryptography.",
+        "p2: BÀI 01 - MỤC TIÊU; TỔNG QUAN VỀ MẬT MÃ HỌC.",
+        "p28: RC4 PRGA pseudocode and symmetric-key advantages/disadvantages; multiple slides per physical page."
+      ],
+      "review_extent": "Native text sampled on first two physical pages and last page; not a full-page or exercise inventory."
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong 03 _04_NMMMH.pdf",
+      "type": "pdf",
+      "sha256": "d9477ec4042429409e859f496c5d57bd4a0a3ea7f58ae43f86593df0883beabd",
+      "pages": 32,
+      "inventory_native_text_chars": 71545,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": null,
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "certified_question_count": null,
+        "basis": "original inventory native-text scan only; a zero Câu count is not proof that no exercises exist"
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "course_reference_or_lecture_handout",
+      "relationship": {
+        "kind": "course_reference_not_exam",
+        "description": "Related course/topic material in different handout/slide editions. Conceptual overlap is visible; exact cross-document duplication/subset status is not established."
+      },
+      "document_title": "Chương 03-04 — lecture handout",
+      "document_date_observed": "26 November 2020",
+      "evidence": [
+        "p1: Bài 01. Bổ túc cơ sở toán học; modulo, algebra, inverses, Legendre/Jacobi.",
+        "p2: group/ring/field definitions and orders.",
+        "p32: lecture footer Page 187; not an exam cover."
+      ],
+      "review_extent": "Native text sampled on first two physical pages and last page; not a full-page or exercise inventory."
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong 05_NMMMH.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong 05_NMMMH.pdf",
+      "type": "pdf",
+      "sha256": "0470824da70ada1f99cccedd821624a5acfe91ad1638884c6dea089317e50836",
+      "pages": 5,
+      "inventory_native_text_chars": 11597,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": null,
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "certified_question_count": null,
+        "basis": "original inventory native-text scan only; a zero Câu count is not proof that no exercises exist"
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "course_reference_or_lecture_handout",
+      "relationship": {
+        "kind": "course_reference_not_exam",
+        "description": "Related course/topic material in different handout/slide editions. Conceptual overlap is visible; exact cross-document duplication/subset status is not established."
+      },
+      "document_title": "Chương 05 — key-management lecture handout",
+      "document_date_observed": "26 November 2020",
+      "evidence": [
+        "p1: Quản trị khóa trong các mạng truyền tin.",
+        "p2: TA and Blom distribution.",
+        "p5: KDC, Kerberos AS/TGS; multiple lecture slides per physical page."
+      ],
+      "review_extent": "Native text sampled on first two physical pages and last page; not a full-page or exercise inventory."
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong1.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong1.docx",
+      "type": "docx",
+      "sha256": "6cea7c383efbf817d6b6eabdf13f395404506351d0ed92cc8bc14806d228a668",
+      "pages": null,
+      "inventory_native_text_chars": 5436,
+      "inventory_question_header_occurrences": 20,
+      "exam_title": "Chương 1",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 20,
+        "header_occurrences": 20,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_chapter_practice_question_set",
+      "relationship": {
+        "kind": "additional_chapter_practice_question_set",
+        "source_family": "chapter1_native",
+        "description": "Primary 20-header chapter-1 practice source. Formatted/Updated are derivative versions of this set, not additional exams.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename topic label; no administered exam title/year",
+      "native_literal_cau_header_occurrences": 20,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "Câu 1. Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin."
+        },
+        {
+          "paragraph_index": 11,
+          "number": 2,
+          "header": "Câu 2.  Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+        },
+        {
+          "paragraph_index": 22,
+          "number": 3,
+          "header": "Câu 3. Mật mã có tác dụng:"
+        },
+        {
+          "paragraph_index": 33,
+          "number": 4,
+          "header": "Câu 4. Đâu là khẳng định SAI?"
+        },
+        {
+          "paragraph_index": 44,
+          "number": 5,
+          "header": "Câu 5. Hệ mã nào sau đây là hệ mã khối?"
+        },
+        {
+          "paragraph_index": 55,
+          "number": 6,
+          "header": "Câu 6. Hệ mật DES là tên viết tắt của"
+        },
+        {
+          "paragraph_index": 66,
+          "number": 7,
+          "header": "Câu 7. Lựa chọn khẳng định SAI về mật mã khóa đối xứng."
+        },
+        {
+          "paragraph_index": 77,
+          "number": 8,
+          "header": "Câu 8. Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?"
+        },
+        {
+          "paragraph_index": 89,
+          "number": 9,
+          "header": "Câu 9.  Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+        },
+        {
+          "paragraph_index": 100,
+          "number": 10,
+          "header": "Câu 10. Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+        },
+        {
+          "paragraph_index": 111,
+          "number": 11,
+          "header": "Câu 11. Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+        },
+        {
+          "paragraph_index": 122,
+          "number": 12,
+          "header": "Câu 12. Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?"
+        },
+        {
+          "paragraph_index": 133,
+          "number": 13,
+          "header": "Câu 13. Đâu là quá trình chuyển bản rõ thành bản mã?"
+        },
+        {
+          "paragraph_index": 143,
+          "number": 14,
+          "header": "Câu 14. Lựa chọn đáp án đúng"
+        },
+        {
+          "paragraph_index": 154,
+          "number": 15,
+          "header": "Câu 15. Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+        },
+        {
+          "paragraph_index": 164,
+          "number": 16,
+          "header": "Câu 16. Lựa chọn đáp án đúng"
+        },
+        {
+          "paragraph_index": 174,
+          "number": 17,
+          "header": "Câu 17. Nguyên lí thiết kế mã khối của Shannon bao gồm:"
+        },
+        {
+          "paragraph_index": 185,
+          "number": 18,
+          "header": "Câu 18. Khẳng định nào sau đây về mã khối là SAI?"
+        },
+        {
+          "paragraph_index": 196,
+          "number": 19,
+          "header": "Câu 19. Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?"
+        },
+        {
+          "paragraph_index": 207,
+          "number": 20,
+          "header": "Câu 20. Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+        }
+      ],
+      "embedded_media_count": 0,
+      "native_canonical_sha256": "3cd1a8f1c678ab339b753ebc87a94c13d7a69c7d0640f90969bb791d9235a22e",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1: Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin.",
+        "Q19: Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?",
+        "Q20: Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong1_Formatted.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong1_Formatted.docx",
+      "type": "docx",
+      "sha256": "744a1a0b28b5a756a0ffd2e3933e2e1b3a49829311ce6eb52d52592865383143",
+      "pages": null,
+      "inventory_native_text_chars": 5087,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "Chương 1 — Formatted",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 20,
+        "header_occurrences": 20,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "basis": "anchored native DOCX XML N. paragraph headers; original inventory's Câu-only regex misses these",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "derived_formatting_variant",
+      "relationship": {
+        "kind": "derived_formatting_variant",
+        "source_family": "chapter1_native",
+        "description": "Derivative of Chuong1.docx. Same 20-item structure, with Câu/A-D labels removed. 98 of 100 nonempty paragraphs match after stripping labels/normalizing whitespace; Q14/Q16 stems omit đúng. Byte-identical to Chuong1_Updated.docx.",
+        "duplicate_of": null,
+        "derived_from": "NMMMH/NMMMH/Chuong1.docx",
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename; numbered native headings, no exam title/year",
+      "native_literal_cau_header_occurrences": 0,
+      "native_alternative_numeric_header_occurrences": 20,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "1.Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin."
+        },
+        {
+          "paragraph_index": 11,
+          "number": 2,
+          "header": "2.Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+        },
+        {
+          "paragraph_index": 22,
+          "number": 3,
+          "header": "3.Mật mã có tác dụng:"
+        },
+        {
+          "paragraph_index": 33,
+          "number": 4,
+          "header": "4.Đâu là khẳng định SAI?"
+        },
+        {
+          "paragraph_index": 44,
+          "number": 5,
+          "header": "5.Hệ mã nào sau đây là hệ mã khối?"
+        },
+        {
+          "paragraph_index": 55,
+          "number": 6,
+          "header": "6.Hệ mật DES là tên viết tắt của"
+        },
+        {
+          "paragraph_index": 66,
+          "number": 7,
+          "header": "7.Lựa chọn khẳng định SAI về mật mã khóa đối xứng."
+        },
+        {
+          "paragraph_index": 77,
+          "number": 8,
+          "header": "8.Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?"
+        },
+        {
+          "paragraph_index": 89,
+          "number": 9,
+          "header": "9. Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+        },
+        {
+          "paragraph_index": 100,
+          "number": 10,
+          "header": "10.Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+        },
+        {
+          "paragraph_index": 111,
+          "number": 11,
+          "header": "11.Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+        },
+        {
+          "paragraph_index": 122,
+          "number": 12,
+          "header": "12.Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?"
+        },
+        {
+          "paragraph_index": 133,
+          "number": 13,
+          "header": "13.Đâu là quá trình chuyển bản rõ thành bản mã?"
+        },
+        {
+          "paragraph_index": 143,
+          "number": 14,
+          "header": "14.Lựa chọn đáp án "
+        },
+        {
+          "paragraph_index": 154,
+          "number": 15,
+          "header": "15.Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+        },
+        {
+          "paragraph_index": 164,
+          "number": 16,
+          "header": "16.Lựa chọn đáp án "
+        },
+        {
+          "paragraph_index": 174,
+          "number": 17,
+          "header": "17.Nguyên lí thiết kế mã khối của Shannon bao gồm:"
+        },
+        {
+          "paragraph_index": 185,
+          "number": 18,
+          "header": "18.Khẳng định nào sau đây về mã khối là SAI?"
+        },
+        {
+          "paragraph_index": 196,
+          "number": 19,
+          "header": "19.Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?"
+        },
+        {
+          "paragraph_index": 207,
+          "number": 20,
+          "header": "20.Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+        }
+      ],
+      "embedded_media_count": 0,
+      "native_canonical_sha256": "6e6b06a37bb2580416b7d4b7654d4043732b06cdffaacb09510873ae0836129a",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Native numbered headers 1.-20.; literal Câu headers=0.",
+        "Q14/Q16 read Lựa chọn đáp án where original has Lựa chọn đáp án đúng.",
+        "Formatted and Updated share SHA256 744a1a0b28b5a756a0ffd2e3933e2e1b3a49829311ce6eb52d52592865383143."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong1_Updated.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong1_Updated.docx",
+      "type": "docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "pages": null,
+      "inventory_native_text_chars": 5087,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": "Chương 1 — Updated",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 20,
+        "header_occurrences": 20,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "basis": "anchored native DOCX XML N. paragraph headers; original inventory's Câu-only regex misses these",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "byte_identical_duplicate",
+      "relationship": {
+        "kind": "byte_identical_duplicate",
+        "source_family": "chapter1_native",
+        "description": "Exact byte duplicate of Chuong1_Formatted.docx; also a derivative of Chuong1.docx, with the same two stem omissions. Do not count as an additional exam.",
+        "duplicate_of": "NMMMH/NMMMH/Chuong1_Formatted.docx",
+        "derived_from": "NMMMH/NMMMH/Chuong1.docx",
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename only",
+      "native_literal_cau_header_occurrences": 0,
+      "native_alternative_numeric_header_occurrences": 20,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "1.Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin."
+        },
+        {
+          "paragraph_index": 11,
+          "number": 2,
+          "header": "2.Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+        },
+        {
+          "paragraph_index": 22,
+          "number": 3,
+          "header": "3.Mật mã có tác dụng:"
+        },
+        {
+          "paragraph_index": 33,
+          "number": 4,
+          "header": "4.Đâu là khẳng định SAI?"
+        },
+        {
+          "paragraph_index": 44,
+          "number": 5,
+          "header": "5.Hệ mã nào sau đây là hệ mã khối?"
+        },
+        {
+          "paragraph_index": 55,
+          "number": 6,
+          "header": "6.Hệ mật DES là tên viết tắt của"
+        },
+        {
+          "paragraph_index": 66,
+          "number": 7,
+          "header": "7.Lựa chọn khẳng định SAI về mật mã khóa đối xứng."
+        },
+        {
+          "paragraph_index": 77,
+          "number": 8,
+          "header": "8.Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?"
+        },
+        {
+          "paragraph_index": 89,
+          "number": 9,
+          "header": "9. Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+        },
+        {
+          "paragraph_index": 100,
+          "number": 10,
+          "header": "10.Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+        },
+        {
+          "paragraph_index": 111,
+          "number": 11,
+          "header": "11.Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+        },
+        {
+          "paragraph_index": 122,
+          "number": 12,
+          "header": "12.Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?"
+        },
+        {
+          "paragraph_index": 133,
+          "number": 13,
+          "header": "13.Đâu là quá trình chuyển bản rõ thành bản mã?"
+        },
+        {
+          "paragraph_index": 143,
+          "number": 14,
+          "header": "14.Lựa chọn đáp án "
+        },
+        {
+          "paragraph_index": 154,
+          "number": 15,
+          "header": "15.Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+        },
+        {
+          "paragraph_index": 164,
+          "number": 16,
+          "header": "16.Lựa chọn đáp án "
+        },
+        {
+          "paragraph_index": 174,
+          "number": 17,
+          "header": "17.Nguyên lí thiết kế mã khối của Shannon bao gồm:"
+        },
+        {
+          "paragraph_index": 185,
+          "number": 18,
+          "header": "18.Khẳng định nào sau đây về mã khối là SAI?"
+        },
+        {
+          "paragraph_index": 196,
+          "number": 19,
+          "header": "19.Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?"
+        },
+        {
+          "paragraph_index": 207,
+          "number": 20,
+          "header": "20.Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+        }
+      ],
+      "embedded_media_count": 0,
+      "native_canonical_sha256": "6e6b06a37bb2580416b7d4b7654d4043732b06cdffaacb09510873ae0836129a",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "SHA256 equals Chuong1_Formatted.docx.",
+        "Native numbered headers 1.-20.; literal Câu headers=0."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Chuong2_aes+chuong1.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Chuong2_aes+chuong1.docx",
+      "type": "docx",
+      "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
+      "pages": null,
+      "inventory_native_text_chars": 8345,
+      "inventory_question_header_occurrences": 50,
+      "exam_title": "Chương 2 AES + Chương 1",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 50,
+        "header_occurrences": 50,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_mixed_chapter_practice_question_set",
+      "relationship": {
+        "kind": "additional_mixed_chapter_practice_question_set",
+        "source_family": "chapter1_aes_native",
+        "description": "A separate mixed chapter/practice set. Some theory overlaps other chapter material; question-level duplication against the existing bank is not audited.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename topic label, no administered exam title/year",
+      "native_literal_cau_header_occurrences": 50,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "Câu 1."
+        },
+        {
+          "paragraph_index": 7,
+          "number": 2,
+          "header": "Câu 2."
+        },
+        {
+          "paragraph_index": 14,
+          "number": 3,
+          "header": "Câu 3."
+        },
+        {
+          "paragraph_index": 21,
+          "number": 4,
+          "header": "Câu 4."
+        },
+        {
+          "paragraph_index": 28,
+          "number": 5,
+          "header": "Câu 5."
+        },
+        {
+          "paragraph_index": 35,
+          "number": 6,
+          "header": "Câu 6."
+        },
+        {
+          "paragraph_index": 42,
+          "number": 7,
+          "header": "Câu 7."
+        },
+        {
+          "paragraph_index": 49,
+          "number": 8,
+          "header": "Câu 8."
+        },
+        {
+          "paragraph_index": 56,
+          "number": 9,
+          "header": "Câu 9."
+        },
+        {
+          "paragraph_index": 63,
+          "number": 10,
+          "header": "Câu 10."
+        },
+        {
+          "paragraph_index": 70,
+          "number": 11,
+          "header": "Câu 11."
+        },
+        {
+          "paragraph_index": 77,
+          "number": 12,
+          "header": "Câu 12."
+        },
+        {
+          "paragraph_index": 84,
+          "number": 13,
+          "header": "Câu 13."
+        },
+        {
+          "paragraph_index": 91,
+          "number": 14,
+          "header": "Câu 14."
+        },
+        {
+          "paragraph_index": 98,
+          "number": 15,
+          "header": "Câu 15."
+        },
+        {
+          "paragraph_index": 105,
+          "number": 16,
+          "header": "Câu 16."
+        },
+        {
+          "paragraph_index": 112,
+          "number": 17,
+          "header": "Câu 17."
+        },
+        {
+          "paragraph_index": 119,
+          "number": 18,
+          "header": "Câu 18."
+        },
+        {
+          "paragraph_index": 126,
+          "number": 19,
+          "header": "Câu 19."
+        },
+        {
+          "paragraph_index": 133,
+          "number": 20,
+          "header": "Câu 20."
+        },
+        {
+          "paragraph_index": 140,
+          "number": 21,
+          "header": "Câu 21."
+        },
+        {
+          "paragraph_index": 147,
+          "number": 22,
+          "header": "Câu 22."
+        },
+        {
+          "paragraph_index": 154,
+          "number": 23,
+          "header": "Câu 23."
+        },
+        {
+          "paragraph_index": 161,
+          "number": 24,
+          "header": "Câu 24."
+        },
+        {
+          "paragraph_index": 168,
+          "number": 25,
+          "header": "Câu 25."
+        },
+        {
+          "paragraph_index": 175,
+          "number": 26,
+          "header": "Câu 26."
+        },
+        {
+          "paragraph_index": 182,
+          "number": 27,
+          "header": "Câu 27."
+        },
+        {
+          "paragraph_index": 189,
+          "number": 28,
+          "header": "Câu 28."
+        },
+        {
+          "paragraph_index": 202,
+          "number": 29,
+          "header": "Câu 29."
+        },
+        {
+          "paragraph_index": 209,
+          "number": 30,
+          "header": "Câu 30."
+        },
+        {
+          "paragraph_index": 216,
+          "number": 31,
+          "header": "Câu 31."
+        },
+        {
+          "paragraph_index": 223,
+          "number": 32,
+          "header": "Câu 32."
+        },
+        {
+          "paragraph_index": 230,
+          "number": 33,
+          "header": "Câu 33."
+        },
+        {
+          "paragraph_index": 237,
+          "number": 34,
+          "header": "Câu 34."
+        },
+        {
+          "paragraph_index": 244,
+          "number": 35,
+          "header": "Câu 35."
+        },
+        {
+          "paragraph_index": 251,
+          "number": 36,
+          "header": "Câu 36."
+        },
+        {
+          "paragraph_index": 258,
+          "number": 37,
+          "header": "Câu 37."
+        },
+        {
+          "paragraph_index": 265,
+          "number": 38,
+          "header": "Câu 38."
+        },
+        {
+          "paragraph_index": 272,
+          "number": 39,
+          "header": "Câu 39."
+        },
+        {
+          "paragraph_index": 279,
+          "number": 40,
+          "header": "Câu 40."
+        },
+        {
+          "paragraph_index": 286,
+          "number": 41,
+          "header": "Câu 41."
+        },
+        {
+          "paragraph_index": 293,
+          "number": 42,
+          "header": "Câu 42."
+        },
+        {
+          "paragraph_index": 301,
+          "number": 43,
+          "header": "Câu 43."
+        },
+        {
+          "paragraph_index": 308,
+          "number": 44,
+          "header": "Câu 44."
+        },
+        {
+          "paragraph_index": 316,
+          "number": 45,
+          "header": "Câu 45."
+        },
+        {
+          "paragraph_index": 324,
+          "number": 46,
+          "header": "Câu 46."
+        },
+        {
+          "paragraph_index": 331,
+          "number": 47,
+          "header": "Câu 47."
+        },
+        {
+          "paragraph_index": 338,
+          "number": 48,
+          "header": "Câu 48."
+        },
+        {
+          "paragraph_index": 345,
+          "number": 49,
+          "header": "Câu 49."
+        },
+        {
+          "paragraph_index": 352,
+          "number": 50,
+          "header": "Câu 50."
+        }
+      ],
+      "embedded_media_count": 11,
+      "native_canonical_sha256": "d6dc315beae5465657d0a2883ac18114800e56645ec00a4a848406556438d7f1",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1 asks which systems are block ciphers.",
+        "Q2 concerns stream-cipher properties.",
+        "Q47 asks which systems use Feistel; Q48 asks which algorithm is a stream cipher.",
+        "Q49/Q50 concern public-key attacks and known plaintext."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Lần2.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Lần2.docx",
+      "type": "docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "pages": null,
+      "inventory_native_text_chars": 8599,
+      "inventory_question_header_occurrences": 50,
+      "exam_title": "Lần 2",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 50,
+        "header_occurrences": 50,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_second_set_or_attempt_candidate",
+      "relationship": {
+        "kind": "additional_second_set_or_attempt_candidate",
+        "source_family": "lan2_native",
+        "description": "Separate native question-set candidate. The label Lần2 alone is insufficient to certify a distinct administered examination.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename only; no cover/year establishing an official second exam attempt",
+      "native_literal_cau_header_occurrences": 50,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "Câu 1."
+        },
+        {
+          "paragraph_index": 6,
+          "number": 2,
+          "header": "Câu 2."
+        },
+        {
+          "paragraph_index": 12,
+          "number": 3,
+          "header": "Câu 3."
+        },
+        {
+          "paragraph_index": 18,
+          "number": 4,
+          "header": "Câu 4."
+        },
+        {
+          "paragraph_index": 26,
+          "number": 5,
+          "header": "Câu 5."
+        },
+        {
+          "paragraph_index": 34,
+          "number": 6,
+          "header": "Câu 6."
+        },
+        {
+          "paragraph_index": 42,
+          "number": 7,
+          "header": "Câu 7."
+        },
+        {
+          "paragraph_index": 50,
+          "number": 8,
+          "header": "Câu 8."
+        },
+        {
+          "paragraph_index": 58,
+          "number": 9,
+          "header": "Câu 9."
+        },
+        {
+          "paragraph_index": 66,
+          "number": 10,
+          "header": "Câu 10."
+        },
+        {
+          "paragraph_index": 74,
+          "number": 11,
+          "header": "Câu 11."
+        },
+        {
+          "paragraph_index": 82,
+          "number": 12,
+          "header": "Câu 12."
+        },
+        {
+          "paragraph_index": 90,
+          "number": 13,
+          "header": "Câu 13."
+        },
+        {
+          "paragraph_index": 98,
+          "number": 14,
+          "header": "Câu 14."
+        },
+        {
+          "paragraph_index": 106,
+          "number": 15,
+          "header": "Câu 15."
+        },
+        {
+          "paragraph_index": 114,
+          "number": 16,
+          "header": "Câu 16."
+        },
+        {
+          "paragraph_index": 122,
+          "number": 17,
+          "header": "Câu 17."
+        },
+        {
+          "paragraph_index": 130,
+          "number": 18,
+          "header": "Câu 18."
+        },
+        {
+          "paragraph_index": 138,
+          "number": 19,
+          "header": "Câu 19."
+        },
+        {
+          "paragraph_index": 146,
+          "number": 20,
+          "header": "Câu 20."
+        },
+        {
+          "paragraph_index": 154,
+          "number": 21,
+          "header": "Câu 21."
+        },
+        {
+          "paragraph_index": 162,
+          "number": 22,
+          "header": "Câu 22."
+        },
+        {
+          "paragraph_index": 170,
+          "number": 23,
+          "header": "Câu 23."
+        },
+        {
+          "paragraph_index": 178,
+          "number": 24,
+          "header": "Câu 24."
+        },
+        {
+          "paragraph_index": 186,
+          "number": 25,
+          "header": "Câu 25."
+        },
+        {
+          "paragraph_index": 194,
+          "number": 26,
+          "header": "Câu 26."
+        },
+        {
+          "paragraph_index": 202,
+          "number": 27,
+          "header": "Câu 27."
+        },
+        {
+          "paragraph_index": 210,
+          "number": 28,
+          "header": "Câu 28."
+        },
+        {
+          "paragraph_index": 218,
+          "number": 29,
+          "header": "Câu 29."
+        },
+        {
+          "paragraph_index": 226,
+          "number": 30,
+          "header": "Câu 30."
+        },
+        {
+          "paragraph_index": 234,
+          "number": 31,
+          "header": "Câu 31."
+        },
+        {
+          "paragraph_index": 242,
+          "number": 32,
+          "header": "Câu 32."
+        },
+        {
+          "paragraph_index": 250,
+          "number": 33,
+          "header": "Câu 33."
+        },
+        {
+          "paragraph_index": 258,
+          "number": 34,
+          "header": "Câu 34."
+        },
+        {
+          "paragraph_index": 266,
+          "number": 35,
+          "header": "Câu 35."
+        },
+        {
+          "paragraph_index": 274,
+          "number": 36,
+          "header": "Câu 36."
+        },
+        {
+          "paragraph_index": 282,
+          "number": 37,
+          "header": "Câu 37."
+        },
+        {
+          "paragraph_index": 290,
+          "number": 38,
+          "header": "Câu 38."
+        },
+        {
+          "paragraph_index": 298,
+          "number": 39,
+          "header": "Câu 39."
+        },
+        {
+          "paragraph_index": 306,
+          "number": 40,
+          "header": "Câu 40."
+        },
+        {
+          "paragraph_index": 314,
+          "number": 41,
+          "header": "Câu 41."
+        },
+        {
+          "paragraph_index": 322,
+          "number": 42,
+          "header": "Câu 42."
+        },
+        {
+          "paragraph_index": 330,
+          "number": 43,
+          "header": "Câu 43."
+        },
+        {
+          "paragraph_index": 338,
+          "number": 44,
+          "header": "Câu 44."
+        },
+        {
+          "paragraph_index": 346,
+          "number": 45,
+          "header": "Câu 45."
+        },
+        {
+          "paragraph_index": 354,
+          "number": 46,
+          "header": "Câu 46."
+        },
+        {
+          "paragraph_index": 362,
+          "number": 47,
+          "header": "Câu 47."
+        },
+        {
+          "paragraph_index": 370,
+          "number": 48,
+          "header": "Câu 48."
+        },
+        {
+          "paragraph_index": 378,
+          "number": 49,
+          "header": "Câu 49."
+        },
+        {
+          "paragraph_index": 387,
+          "number": 50,
+          "header": "Câu 50."
+        }
+      ],
+      "embedded_media_count": 19,
+      "native_canonical_sha256": "67f059f39f35caeea6fb06ea3abcdb5546bb17df0e21aa10fe5f46cd8e91bfa2",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1: Hệ mật đa biểu Vigenere dựa vào hệ mật nào sau đây?",
+        "Q2 concerns OTP.",
+        "Q45 contains RC4 constants T[0]=105,T[1]=217.",
+        "Q46-Q48/Q50 have native option strings but image-dependent stems; 17 embedded images need review."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Tonghop1.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Tonghop1.docx",
+      "type": "docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "pages": null,
+      "inventory_native_text_chars": 6207,
+      "inventory_question_header_occurrences": 40,
+      "exam_title": "Tổng hợp 1",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 40,
+        "header_occurrences": 40,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_compilation_question_set",
+      "relationship": {
+        "kind": "additional_compilation_question_set",
+        "source_family": "tonghop1_native",
+        "description": "Separate compilation/practice candidate, not established as an official exam or a duplicate of an existing exam. Mixed content and images still need question-level audit.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename compilation label; no exam title/year",
+      "native_literal_cau_header_occurrences": 40,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "Câu 1."
+        },
+        {
+          "paragraph_index": 12,
+          "number": 2,
+          "header": "Câu 2."
+        },
+        {
+          "paragraph_index": 24,
+          "number": 3,
+          "header": "Câu 3."
+        },
+        {
+          "paragraph_index": 36,
+          "number": 4,
+          "header": "Câu 4."
+        },
+        {
+          "paragraph_index": 50,
+          "number": 5,
+          "header": "Câu 5."
+        },
+        {
+          "paragraph_index": 63,
+          "number": 6,
+          "header": "Câu 6."
+        },
+        {
+          "paragraph_index": 75,
+          "number": 7,
+          "header": "Câu 7."
+        },
+        {
+          "paragraph_index": 88,
+          "number": 8,
+          "header": "Câu 8."
+        },
+        {
+          "paragraph_index": 100,
+          "number": 9,
+          "header": "Câu 9."
+        },
+        {
+          "paragraph_index": 112,
+          "number": 10,
+          "header": "Câu 10."
+        },
+        {
+          "paragraph_index": 124,
+          "number": 11,
+          "header": "Câu 11."
+        },
+        {
+          "paragraph_index": 136,
+          "number": 12,
+          "header": "Câu 12."
+        },
+        {
+          "paragraph_index": 148,
+          "number": 13,
+          "header": "Câu 13."
+        },
+        {
+          "paragraph_index": 160,
+          "number": 14,
+          "header": "Câu 14."
+        },
+        {
+          "paragraph_index": 171,
+          "number": 15,
+          "header": "Câu 15."
+        },
+        {
+          "paragraph_index": 183,
+          "number": 16,
+          "header": "Câu 16."
+        },
+        {
+          "paragraph_index": 196,
+          "number": 17,
+          "header": "Câu 17."
+        },
+        {
+          "paragraph_index": 208,
+          "number": 18,
+          "header": "Câu 18."
+        },
+        {
+          "paragraph_index": 220,
+          "number": 19,
+          "header": "Câu 19."
+        },
+        {
+          "paragraph_index": 233,
+          "number": 20,
+          "header": "Câu 20."
+        },
+        {
+          "paragraph_index": 245,
+          "number": 21,
+          "header": "Câu 21."
+        },
+        {
+          "paragraph_index": 257,
+          "number": 22,
+          "header": "Câu 22."
+        },
+        {
+          "paragraph_index": 269,
+          "number": 23,
+          "header": "Câu 23."
+        },
+        {
+          "paragraph_index": 281,
+          "number": 24,
+          "header": "Câu 24."
+        },
+        {
+          "paragraph_index": 293,
+          "number": 25,
+          "header": "Câu 25."
+        },
+        {
+          "paragraph_index": 305,
+          "number": 26,
+          "header": "Câu 26."
+        },
+        {
+          "paragraph_index": 317,
+          "number": 27,
+          "header": "Câu 27."
+        },
+        {
+          "paragraph_index": 329,
+          "number": 28,
+          "header": "Câu 28."
+        },
+        {
+          "paragraph_index": 341,
+          "number": 29,
+          "header": "Câu 29."
+        },
+        {
+          "paragraph_index": 353,
+          "number": 30,
+          "header": "Câu 30."
+        },
+        {
+          "paragraph_index": 364,
+          "number": 31,
+          "header": "Câu 31."
+        },
+        {
+          "paragraph_index": 376,
+          "number": 32,
+          "header": "Câu 32."
+        },
+        {
+          "paragraph_index": 388,
+          "number": 33,
+          "header": "Câu 33."
+        },
+        {
+          "paragraph_index": 400,
+          "number": 34,
+          "header": "Câu 34."
+        },
+        {
+          "paragraph_index": 412,
+          "number": 35,
+          "header": "Câu 35."
+        },
+        {
+          "paragraph_index": 424,
+          "number": 36,
+          "header": "Câu 36."
+        },
+        {
+          "paragraph_index": 436,
+          "number": 37,
+          "header": "Câu 37."
+        },
+        {
+          "paragraph_index": 448,
+          "number": 38,
+          "header": "Câu 38."
+        },
+        {
+          "paragraph_index": 460,
+          "number": 39,
+          "header": "Câu 39."
+        },
+        {
+          "paragraph_index": 472,
+          "number": 40,
+          "header": "Câu 40."
+        }
+      ],
+      "embedded_media_count": 12,
+      "native_canonical_sha256": "29d9819bf13d3e25668938f5a4baa5c6305a6ff39170cf89130df7114522dec0",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1 compares Triple DES, DES and AES.",
+        "Q4 asks MixColumns; Q5 native stem is only Câu hỏi.",
+        "Q39 concerns Affine; Q40 has empty native A-D content, requiring embedded material."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Tonghop2.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Tonghop2.docx",
+      "type": "docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "pages": null,
+      "inventory_native_text_chars": 7483,
+      "inventory_question_header_occurrences": 40,
+      "exam_title": "Tổng hợp 2",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 40,
+        "header_occurrences": 40,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_compilation_question_set",
+      "relationship": {
+        "kind": "additional_compilation_question_set",
+        "source_family": "tonghop2_native",
+        "description": "Separate compilation/practice candidate. Different numerical instances from the inspected existing exam examples; full overlap/uniqueness analysis is pending.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename compilation label; no exam title/year",
+      "native_literal_cau_header_occurrences": 40,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 1,
+          "number": 1,
+          "header": "Câu 1. "
+        },
+        {
+          "paragraph_index": 13,
+          "number": 2,
+          "header": "Câu 2."
+        },
+        {
+          "paragraph_index": 26,
+          "number": 3,
+          "header": "Câu 3."
+        },
+        {
+          "paragraph_index": 38,
+          "number": 4,
+          "header": "Câu 4."
+        },
+        {
+          "paragraph_index": 50,
+          "number": 5,
+          "header": "Câu 5."
+        },
+        {
+          "paragraph_index": 62,
+          "number": 6,
+          "header": "Câu 6. "
+        },
+        {
+          "paragraph_index": 74,
+          "number": 7,
+          "header": "Câu 7."
+        },
+        {
+          "paragraph_index": 86,
+          "number": 8,
+          "header": "Câu 8."
+        },
+        {
+          "paragraph_index": 98,
+          "number": 9,
+          "header": "Câu 9."
+        },
+        {
+          "paragraph_index": 111,
+          "number": 10,
+          "header": "Câu 10."
+        },
+        {
+          "paragraph_index": 124,
+          "number": 11,
+          "header": "Câu 11."
+        },
+        {
+          "paragraph_index": 137,
+          "number": 12,
+          "header": "Câu 12."
+        },
+        {
+          "paragraph_index": 149,
+          "number": 13,
+          "header": "Câu 13. "
+        },
+        {
+          "paragraph_index": 161,
+          "number": 14,
+          "header": "Câu 14."
+        },
+        {
+          "paragraph_index": 173,
+          "number": 15,
+          "header": "Câu 15."
+        },
+        {
+          "paragraph_index": 185,
+          "number": 16,
+          "header": "Câu 16."
+        },
+        {
+          "paragraph_index": 197,
+          "number": 17,
+          "header": "Câu 17."
+        },
+        {
+          "paragraph_index": 209,
+          "number": 18,
+          "header": "Câu 18."
+        },
+        {
+          "paragraph_index": 221,
+          "number": 19,
+          "header": "Câu 19."
+        },
+        {
+          "paragraph_index": 234,
+          "number": 20,
+          "header": "Câu 20."
+        },
+        {
+          "paragraph_index": 246,
+          "number": 21,
+          "header": "Câu 21."
+        },
+        {
+          "paragraph_index": 258,
+          "number": 22,
+          "header": "Câu 22."
+        },
+        {
+          "paragraph_index": 270,
+          "number": 23,
+          "header": "Câu 23."
+        },
+        {
+          "paragraph_index": 283,
+          "number": 24,
+          "header": "Câu 24."
+        },
+        {
+          "paragraph_index": 295,
+          "number": 25,
+          "header": "Câu 25."
+        },
+        {
+          "paragraph_index": 307,
+          "number": 26,
+          "header": "Câu 26."
+        },
+        {
+          "paragraph_index": 320,
+          "number": 27,
+          "header": "Câu 27."
+        },
+        {
+          "paragraph_index": 333,
+          "number": 28,
+          "header": "Câu 28."
+        },
+        {
+          "paragraph_index": 346,
+          "number": 29,
+          "header": "Câu 29."
+        },
+        {
+          "paragraph_index": 358,
+          "number": 30,
+          "header": "Câu 30."
+        },
+        {
+          "paragraph_index": 370,
+          "number": 31,
+          "header": "Câu 31."
+        },
+        {
+          "paragraph_index": 382,
+          "number": 32,
+          "header": "Câu 32."
+        },
+        {
+          "paragraph_index": 395,
+          "number": 33,
+          "header": "Câu 33."
+        },
+        {
+          "paragraph_index": 407,
+          "number": 34,
+          "header": "Câu 34."
+        },
+        {
+          "paragraph_index": 419,
+          "number": 35,
+          "header": "Câu 35."
+        },
+        {
+          "paragraph_index": 431,
+          "number": 36,
+          "header": "Câu 36."
+        },
+        {
+          "paragraph_index": 443,
+          "number": 37,
+          "header": "Câu 37."
+        },
+        {
+          "paragraph_index": 455,
+          "number": 38,
+          "header": "Câu 38."
+        },
+        {
+          "paragraph_index": 467,
+          "number": 39,
+          "header": "Câu 39."
+        },
+        {
+          "paragraph_index": 479,
+          "number": 40,
+          "header": "Câu 40."
+        }
+      ],
+      "embedded_media_count": 9,
+      "native_canonical_sha256": "c280661e3d71468ba5544f20362ee281729f5b10eb276f2c7a5f58c3cbc08ec7",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1 concerns Vigenere.",
+        "Q2 ElGamal constants p=211,alpha=39,a=37,k=43,x=20.",
+        "Q3 ElGamal on Z*113 with alpha=17,kd=62.",
+        "Q40 uses Vigenere k=BUY and ciphertext CFYDEDSCBBS."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "NMMMH/NMMMH/Tonghop3.docx",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/NMMMH/NMMMH/Tonghop3.docx",
+      "type": "docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "pages": null,
+      "inventory_native_text_chars": 8222,
+      "inventory_question_header_occurrences": 40,
+      "exam_title": "Tổng hợp 3",
+      "exam_year": null,
+      "source_question_range": {
+        "first": 1,
+        "last": 40,
+        "header_occurrences": 40,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "basis": "anchored native DOCX XML Câu N paragraph headers",
+        "certified_question_count": null,
+        "certified_unique_question_count": null
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "additional_compilation_question_set",
+      "relationship": {
+        "kind": "additional_compilation_question_set",
+        "source_family": "tonghop3_native",
+        "description": "Separate compilation/practice candidate. Native Q2/Q4 visibly repeat a mode-of-operation stem with reordered options, so 40 headers do not establish 40 unique questions.",
+        "duplicate_of": null,
+        "derived_from": null,
+        "identity_to_existing_six": "not certified; no question-level deduplication performed"
+      },
+      "exam_title_basis": "filename compilation label; no exam title/year",
+      "native_literal_cau_header_occurrences": 40,
+      "native_alternative_numeric_header_occurrences": 0,
+      "native_heading_evidence": [
+        {
+          "paragraph_index": 0,
+          "number": 1,
+          "header": "Câu 1"
+        },
+        {
+          "paragraph_index": 12,
+          "number": 2,
+          "header": "Câu 2"
+        },
+        {
+          "paragraph_index": 24,
+          "number": 3,
+          "header": "Câu 3"
+        },
+        {
+          "paragraph_index": 37,
+          "number": 4,
+          "header": "Câu 4"
+        },
+        {
+          "paragraph_index": 49,
+          "number": 5,
+          "header": "Câu 5"
+        },
+        {
+          "paragraph_index": 61,
+          "number": 6,
+          "header": "Câu 6"
+        },
+        {
+          "paragraph_index": 74,
+          "number": 7,
+          "header": "Câu 7"
+        },
+        {
+          "paragraph_index": 86,
+          "number": 8,
+          "header": "Câu 8"
+        },
+        {
+          "paragraph_index": 98,
+          "number": 9,
+          "header": "Câu 9"
+        },
+        {
+          "paragraph_index": 110,
+          "number": 10,
+          "header": "Câu 10"
+        },
+        {
+          "paragraph_index": 122,
+          "number": 11,
+          "header": "Câu 11"
+        },
+        {
+          "paragraph_index": 134,
+          "number": 12,
+          "header": "Câu 12"
+        },
+        {
+          "paragraph_index": 146,
+          "number": 13,
+          "header": "Câu 13"
+        },
+        {
+          "paragraph_index": 158,
+          "number": 14,
+          "header": "Câu 14"
+        },
+        {
+          "paragraph_index": 170,
+          "number": 15,
+          "header": "Câu 15"
+        },
+        {
+          "paragraph_index": 182,
+          "number": 16,
+          "header": "Câu 16"
+        },
+        {
+          "paragraph_index": 195,
+          "number": 17,
+          "header": "Câu 17"
+        },
+        {
+          "paragraph_index": 208,
+          "number": 18,
+          "header": "Câu 18"
+        },
+        {
+          "paragraph_index": 220,
+          "number": 19,
+          "header": "Câu 19"
+        },
+        {
+          "paragraph_index": 232,
+          "number": 20,
+          "header": "Câu 20"
+        },
+        {
+          "paragraph_index": 245,
+          "number": 21,
+          "header": "Câu 21"
+        },
+        {
+          "paragraph_index": 257,
+          "number": 22,
+          "header": "Câu 22"
+        },
+        {
+          "paragraph_index": 270,
+          "number": 23,
+          "header": "Câu 23"
+        },
+        {
+          "paragraph_index": 282,
+          "number": 24,
+          "header": "Câu 24"
+        },
+        {
+          "paragraph_index": 295,
+          "number": 25,
+          "header": "Câu 25"
+        },
+        {
+          "paragraph_index": 307,
+          "number": 26,
+          "header": "Câu 26"
+        },
+        {
+          "paragraph_index": 319,
+          "number": 27,
+          "header": "Câu 27"
+        },
+        {
+          "paragraph_index": 331,
+          "number": 28,
+          "header": "Câu 28"
+        },
+        {
+          "paragraph_index": 344,
+          "number": 29,
+          "header": "Câu 29"
+        },
+        {
+          "paragraph_index": 356,
+          "number": 30,
+          "header": "Câu 30"
+        },
+        {
+          "paragraph_index": 369,
+          "number": 31,
+          "header": "Câu 31"
+        },
+        {
+          "paragraph_index": 381,
+          "number": 32,
+          "header": "Câu 32"
+        },
+        {
+          "paragraph_index": 394,
+          "number": 33,
+          "header": "Câu 33"
+        },
+        {
+          "paragraph_index": 406,
+          "number": 34,
+          "header": "Câu 34"
+        },
+        {
+          "paragraph_index": 418,
+          "number": 35,
+          "header": "Câu 35"
+        },
+        {
+          "paragraph_index": 430,
+          "number": 36,
+          "header": "Câu 36"
+        },
+        {
+          "paragraph_index": 442,
+          "number": 37,
+          "header": "Câu 37"
+        },
+        {
+          "paragraph_index": 454,
+          "number": 38,
+          "header": "Câu 38"
+        },
+        {
+          "paragraph_index": 466,
+          "number": 39,
+          "header": "Câu 39"
+        },
+        {
+          "paragraph_index": 478,
+          "number": 40,
+          "header": "Câu 40"
+        }
+      ],
+      "embedded_media_count": 6,
+      "native_canonical_sha256": "b1ac7998e0b2bf97569e4cc9bb0d918cd3e6b934b3b3f64964c27904a4e9a012",
+      "canonical_comparison_policy": "Strip Câu/N./A.-D. paragraph prefixes and normalize whitespace; image contents are not compared.",
+      "evidence": [
+        "Q1 running-key plaintext Unstoppable, seed Sia.",
+        "Q2 and Q4 both ask Khẳng định nào sau đây là SAI? with reordered ECB/CFB/OFB/CTR/CBC assertions.",
+        "Q6 RSA p=37,q=41,e=211,d=1051,c=237.",
+        "Q40 AES SubWord with w=(68;A7;6D;79)."
+      ],
+      "review_extent": "Native header enumeration plus opening/ending content inspection; no embedded-image/formula or A-D fidelity audit.",
+      "outstanding": [
+        "Question-level overlap against six existing exam IDs not audited.",
+        "Embedded images/equations and missing qualifiers require source review before any import.",
+        "No answer key checked or inferred."
+      ]
+    },
+    {
+      "path": "Slide NMMMH.pdf",
+      "absolute_path": "/mnt/d/documents/kma - tÀi liỆu/hk1-namba/nmmmh/Slide NMMMH.pdf",
+      "type": "pdf",
+      "sha256": "2c4817bb1a44aa8ec5cff111bda0b710edd082390cd921c43bb1ca1582ae5894",
+      "pages": 169,
+      "inventory_native_text_chars": 56772,
+      "inventory_question_header_occurrences": 0,
+      "exam_title": null,
+      "exam_year": null,
+      "source_question_range": {
+        "native_cau_header_occurrences": 0,
+        "certified_question_count": null,
+        "basis": "original inventory native-text scan only; a zero Câu count is not proof that no exercises exist"
+      },
+      "import_status": "not_imported",
+      "audit_status": "not_audited",
+      "full_question_audit_performed": false,
+      "classification": "course_reference_or_lecture_handout",
+      "relationship": {
+        "kind": "course_reference_not_exam",
+        "description": "Related course/topic material in different handout/slide editions. Conceptual overlap is visible; exact cross-document duplication/subset status is not established."
+      },
+      "document_title": "Slide NMMMH — course slides",
+      "document_date_observed": "3 November 2024",
+      "evidence": [
+        "p1: departmental lecture footer, 3 November 2024.",
+        "p2: GIỚI THIỆU HỌC PHẦN.",
+        "p169: lecture footer Page 170."
+      ],
+      "review_extent": "Native text sampled on first two physical pages and last page; not a full-page or exercise inventory."
+    }
+  ],
+  "outstanding": [
+    "Nine native DOCX documents remain not_imported/not_audited at question level, including two derivative files which must not be counted as separate exams.",
+    "Two additional midterm PDFs remain not_imported/not_audited beyond sampled title/boundary pages.",
+    "Five course/reference PDFs were only classified from native samples; embedded exercises or further exam appendices were not exhaustively inventoried.",
+    "The 22-document inventory cannot be described as all materials or all questions audited. Existing published-bank review and outstanding additional-source review must be reported separately."
+  ],
+  "distinct_source_families": {
+    "native_question_set_families": [
+      "chapter1_native",
+      "chapter3_native",
+      "chapter1_aes_native",
+      "lan2_native",
+      "tonghop1_native",
+      "tonghop2_native",
+      "tonghop3_native"
+    ],
+    "native_family_count": 7,
+    "warning": "Seven candidate source families, not seven certified distinct official exams and not a deduplicated question count.",
+    "confirmed_duplicate_pair": [
+      "NMMMH/NMMMH/Chuong1_Formatted.docx",
+      "NMMMH/NMMMH/Chuong1_Updated.docx"
+    ],
+    "chapter1_derivative_difference": "Both derivatives omit đúng from Q14/Q16 after stripping numbering/option labels; 98/100 normalized nonempty paragraphs otherwise match Chuong1.docx.",
+    "additional_midterm_sessions": [
+      "Ca 1",
+      "Ca 2"
+    ]
+  },
+  "recovery_of_missing_existing_questions": {
+    "confirmed_recovered_questions": [],
+    "status": "none_confirmed_in_this_inventory_followup",
+    "limitations": [
+      "No new questions were assigned to an existing exam by matching a label alone.",
+      "AT17 source D-matrix occlusion and other existing source constraints were not resolved by this inventory.",
+      "Excluded K16-1 registry has labels 1-36 plus 33-HP,34-HP,35-HP. Its 39 records do not imply a specific one-question gap; its original screenshots were not audited here.",
+      "Additional native and midterm sets may overlap existing topics, but no verified missing existing question was recovered."
+    ]
+  }
+}

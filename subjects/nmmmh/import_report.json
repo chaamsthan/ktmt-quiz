@@ -2,8 +2,8 @@
   "exam_count": 5,
   "record_count": 173,
   "readable_count": 173,
-  "graded_count": 149,
-  "review_count": 24,
+  "graded_count": 139,
+  "review_count": 34,
   "excluded_exam_ids": [
     "de-thi-k16-1"
   ],
@@ -23,11 +23,11 @@
       "year": null,
       "attempt": null,
       "question_file": "subjects/nmmmh/exams/de-thi-at17-bo-1.json",
-      "graded_count": 13,
-      "review_count": 0,
+      "graded_count": 12,
+      "review_count": 1,
       "readable_count": 13,
       "chapter_counts": {
-        "1": 0,
+        "1": 1,
         "2": 5,
         "3": 7,
         "4": 1,
@@ -50,15 +50,15 @@
       "year": null,
       "attempt": null,
       "question_file": "subjects/nmmmh/exams/de-thi-nmmmh.json",
-      "graded_count": 36,
-      "review_count": 4,
+      "graded_count": 33,
+      "review_count": 7,
       "readable_count": 40,
       "chapter_counts": {
-        "1": 1,
-        "2": 11,
-        "3": 20,
-        "4": 7,
-        "5": 1,
+        "1": 4,
+        "2": 12,
+        "3": 21,
+        "4": 9,
+        "5": 3,
         "unclassified": 0
       }
     },
@@ -77,15 +77,15 @@
       "year": "2021",
       "attempt": null,
       "question_file": "subjects/nmmmh/exams/de-thi-mat-ma-2021-trac-nghiem.json",
-      "graded_count": 35,
-      "review_count": 5,
+      "graded_count": 33,
+      "review_count": 7,
       "readable_count": 40,
       "chapter_counts": {
-        "1": 1,
-        "2": 11,
-        "3": 20,
-        "4": 7,
-        "5": 1,
+        "1": 4,
+        "2": 12,
+        "3": 21,
+        "4": 9,
+        "5": 3,
         "unclassified": 0
       }
     },
@@ -105,15 +105,15 @@
       "year": "2021-2022",
       "attempt": 1,
       "question_file": "subjects/nmmmh/exams/de-thi-k16-2.json",
-      "graded_count": 31,
-      "review_count": 9,
+      "graded_count": 29,
+      "review_count": 11,
       "readable_count": 40,
       "chapter_counts": {
-        "1": 3,
-        "2": 9,
-        "3": 20,
-        "4": 6,
-        "5": 2,
+        "1": 6,
+        "2": 10,
+        "3": 22,
+        "4": 8,
+        "5": 3,
         "unclassified": 0
       }
     },
@@ -134,15 +134,15 @@
       "year": null,
       "attempt": null,
       "question_file": "subjects/nmmmh/exams/de-thi-k16-3.json",
-      "graded_count": 34,
-      "review_count": 6,
+      "graded_count": 32,
+      "review_count": 8,
       "readable_count": 40,
       "chapter_counts": {
-        "1": 2,
-        "2": 8,
-        "3": 25,
-        "4": 5,
-        "5": 0,
+        "1": 4,
+        "2": 9,
+        "3": 26,
+        "4": 6,
+        "5": 1,
         "unclassified": 0
       }
     }
@@ -151,41 +151,41 @@
     {
       "chapter_id": "1",
       "chapter": "Chương 1. Tổng quan về mật mã học",
-      "raw_count": 7,
-      "unique_count": 7,
-      "excluded_duplicates": 0,
-      "graded_count": 3
+      "raw_count": 19,
+      "unique_count": 17,
+      "excluded_duplicates": 2,
+      "graded_count": 8
     },
     {
       "chapter_id": "2",
       "chapter": "Chương 2. Các hệ mật khóa bí mật",
-      "raw_count": 44,
-      "unique_count": 41,
-      "excluded_duplicates": 3,
-      "graded_count": 39
+      "raw_count": 48,
+      "unique_count": 37,
+      "excluded_duplicates": 11,
+      "graded_count": 26
     },
     {
       "chapter_id": "3",
       "chapter": "Chương 3. Các hệ mật khóa công khai",
-      "raw_count": 92,
-      "unique_count": 83,
-      "excluded_duplicates": 9,
-      "graded_count": 68
+      "raw_count": 97,
+      "unique_count": 75,
+      "excluded_duplicates": 22,
+      "graded_count": 57
     },
     {
       "chapter_id": "4",
       "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
-      "raw_count": 26,
-      "unique_count": 18,
-      "excluded_duplicates": 8,
-      "graded_count": 16
+      "raw_count": 33,
+      "unique_count": 22,
+      "excluded_duplicates": 11,
+      "graded_count": 13
     },
     {
       "chapter_id": "5",
       "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
-      "raw_count": 4,
-      "unique_count": 4,
-      "excluded_duplicates": 0,
+      "raw_count": 10,
+      "unique_count": 6,
+      "excluded_duplicates": 4,
       "graded_count": 3
     },
     {
@@ -199,7 +199,7 @@
   ],
   "duplicate_groups": [
     {
-      "group_id": "984a1ecdde78466a65382f19a2572b5a39b7c6507cc458740c2b30f8a422cae8",
+      "group_id": "duplicate-review-01-gf_a9",
       "status": "confirmed",
       "sources": [
         {
@@ -216,10 +216,12 @@
           "source_question_number": "13",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Both ask 03*A9 in GF(2^8) reduced by x^8+x^4+x^3+x+1. All four binary byte choices agree under permutation; independent result E0 (11100000).",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "91a450058ed8dc35dd475060e7aa766e19ce98383844f3a1d9e4be0064e93b05",
+      "group_id": "duplicate-review-02-jacobi_residues_17_235_21",
       "status": "confirmed",
       "sources": [
         {
@@ -236,11 +238,13 @@
           "source_question_number": "40",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same SAI predicate and four complete propositions: supplementary (2/n)=+1 at residues 1,7; 11 claimed a square modulo17; Jacobi(158,235)=-1; roots of4 modulo21. The incorrect proposition is the claim about11/17, not just a shared topic.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "240ab90025914b0a48331de26e431ece708bbd9f8aa2d36c72d130f9a8e83209",
-      "status": "confirmed",
+      "group_id": "duplicate-review-03-block_modes_ambiguous",
+      "status": "potential",
       "sources": [
         {
           "id": "nmmmh-de-thi-nmmmh-4",
@@ -255,12 +259,21 @@
           "source_exam_code": "de-thi-k16-2",
           "source_question_number": "13",
           "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "12",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "All four ECB/CBC/OFB propositions correspond exactly. The independent theory review leaves the CBC whole-message versus individual-block wording unresolved. Both keys are null; identical missing keys do not establish a common unique correct content. Final full A-D extension review adds2021/12 with reference mappingA->D,B->A,C->C,D->B. Its CBC statement differs only by a comma, including the same key/IV/first-block qualifiers. The same conditional interpretation is unresolved in all three; extension does not authorize collapse.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "386bb9508b2a7397f786c11a585e597c5980ac82f22d448d17f2ad2f0acb8732",
-      "status": "confirmed",
+      "group_id": "duplicate-review-04-authentication_scope_ambiguous",
+      "status": "potential",
       "sources": [
         {
           "id": "nmmmh-de-thi-nmmmh-5",
@@ -275,11 +288,20 @@
           "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
           "source_question_number": "23",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-36",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "36",
+          "source_file": "de-thi-k16-2.docx"
         }
-      ]
+      ],
+      "basis": "Same authentication question and same integrity/origin/nonrepudiation/all choices. Whether nonrepudiation is part of message authentication depends on course-wide versus standard scope. A unique correct content is not established. Final full A-D review addsK16-2/36: mau tin/ban tin both mean the message, and source 'Khong choi tu ban goc' names the origin nonrepudiation objective in the same broad course-authentication interpretation. The independent source-specific theory rows have the same incomplete truth vector(true,true,unknown,unknown) and identical standard/course conditional answers. No unique correctness equivalence is promoted. K16-3/2038 is not included because its four options combine different pairs of objectives.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "1afc6e379a6f66449a5cab95c30cf6b7854fd78122e8d7a75540ac69599f3c89",
+      "group_id": "duplicate-review-05-generators_41",
       "status": "confirmed",
       "sources": [
         {
@@ -296,10 +318,12 @@
           "source_question_number": "28",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Both ask which option is not a generator modulo41, with precisely {7,12,11,3}. Orders are40,40,40,8; the shared correct content is3.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "7e51f9c3b7c836ab2015c5596fdc548f7566e30fbdf0d64dce30b632172660a9",
+      "group_id": "duplicate-review-06-group_inverse",
       "status": "confirmed",
       "sources": [
         {
@@ -330,10 +354,12 @@
           "source_question_number": "2039",
           "source_file": "de-thi-k16-3.docx"
         }
-      ]
+      ],
+      "basis": "All four options are the same four equations a*b=b, a*e=a, a*b=a, a*b=e. Stems request the inverse condition with identity e; only a*b=e defines the requested inverse in the documented group context.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "96ee7bf5f4752c5270ee0866f4b5b9646350491f43d18602fd3d0aedc14fad68",
+      "group_id": "duplicate-review-07-totient_969",
       "status": "confirmed",
       "sources": [
         {
@@ -350,10 +376,12 @@
           "source_question_number": "31",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Both request phi(969), with exactly the choices288,567,304,576. Independent factorization/totient gives576.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "8e851436deb9dc711b32d3a109b1631bda42182b046a87d02863de2a77320117",
+      "group_id": "duplicate-review-08-discrete_log_17_15_97",
       "status": "confirmed",
       "sources": [
         {
@@ -370,10 +398,12 @@
           "source_question_number": "8",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Both ask log base17 of15 modulo97, with the complete exponent set31,17,10,13. Independent power checking selects31.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "1d1a7e01200097bf7569c846abb340732c3da26fef0be84e2b28f61443a04597",
+      "group_id": "duplicate-review-09-coprime_pairs_117_391",
       "status": "confirmed",
       "sources": [
         {
@@ -390,10 +420,34 @@
           "source_question_number": "9",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same coprime-pair request and all four ordered pairs (117,391),(391,153),(85,187),(85,255); gcds1,17,17,85. Shared correct pair is(117,391).",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "011f2602a565e2e2a6ec8b25be029a314931be7765654433857089037706e491",
+      "group_id": "duplicate-review-10-order_17_mod20",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-20",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "20",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "6",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "After the reviewed source correction from50 to20 in 2021/6, both ask ord_20(17), with the same choices8,4,1,2. Independent order is4; the old50 reading is not used.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-11-private_key_confidentiality",
       "status": "confirmed",
       "sources": [
         {
@@ -410,10 +464,12 @@
           "source_question_number": "35",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same NOT-correct request; every option matches: sender private-key signing, private-key encryption for confidentiality, symmetric one-key model, block/stream classification. Only the private-key confidentiality claim is incorrect in both.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "5f29d3eb1d6ad96808f0865c28a917182fc5abc18a009ff8601956fa192b46ff",
+      "group_id": "duplicate-review-12-hash_digest_length",
       "status": "confirmed",
       "sources": [
         {
@@ -437,10 +493,12 @@
           "source_question_number": "34",
           "source_file": "de-thi-k16-2.docx"
         }
-      ]
+      ],
+      "basis": "Same SAI stem and same four hash propositions, including the exact variable-output-length false claim. Other options state fixed digest, computational one-wayness and non-bijection. Correct content is the variable-length claim, independently reviewed in theory audit.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "69c8b06b080c4ebf2fcda621c1a36e37ad31439d569498bee201a02bf0c3488d",
+      "group_id": "duplicate-review-13-certificate_authority_statements",
       "status": "confirmed",
       "sources": [
         {
@@ -457,10 +515,12 @@
           "source_question_number": "3",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same true-claim request with CA as trusted issuer, CA binding entity to public key, entity public-key registration and all-of-the-above. All three individual propositions match; conventional aggregate is the same full conjunction, not merely the text 'all'.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "204e779d61bfd586cdeaa72cb7a887d13baa4c3778e2e59eebd23943488f3354",
+      "group_id": "duplicate-review-14-certificate_creation_wrong_signer",
       "status": "confirmed",
       "sources": [
         {
@@ -491,10 +551,12 @@
           "source_question_number": "2051",
           "source_file": "de-thi-k16-3.docx"
         }
-      ]
+      ],
+      "basis": "Same question asks what is NOT a CA certificate creation step. Full four-option set is entity-private-key signing, entity public-key registration, CA signing, CA binding entity and key. Correct content is the entity-private-key issuer-signature claim, distinct from signing a CSR.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "a0e0fca59c5159018561ce8afe53a6e6607eadbbc6d009d49ebaf2acf927c0f9",
+      "group_id": "duplicate-review-15-gcd_max_5",
       "status": "confirmed",
       "sources": [
         {
@@ -511,10 +573,12 @@
           "source_question_number": "33",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same maximum-of-GCD request with all four operands (137,479),(130,315),(42,286),(281,389). Values1,5,2,1; shared correct content GCD(130,315).",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "8f5a196da8c776e616eed155b499fd9191a99943e052c627e9dde8766a6524ae",
+      "group_id": "duplicate-review-16-public_key_replacement_multiple",
       "status": "potential",
       "sources": [
         {
@@ -545,10 +609,12 @@
           "source_question_number": "2046",
           "source_file": "de-thi-k16-3.docx"
         }
-      ]
+      ],
+      "basis": "Same SAI stem and all four full public-key propositions after permutation. Independent theory has a complete truth vector: replacement and 'difficulty proved' claims are both false. Their correct-content SETS agree, but there is no common unique answer; never collapse this potential group.",
+      "evidence": "audit/duplicate_review.json"
     },
     {
-      "group_id": "cee0d7a4eb2eba255a0fa3e5252d00fb7b68e6b76254abc3e75b8720c6792857",
+      "group_id": "duplicate-review-17-autokey_squid_sun",
       "status": "confirmed",
       "sources": [
         {
@@ -565,10 +631,599 @@
           "source_question_number": "32",
           "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
         }
-      ]
+      ],
+      "basis": "Same plaintext Squid game, seed sun and plaintext-autokey convention; all four ciphertext options match under permutation. Independent output KKHATAIPK.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-18-hill_friday_addhom",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-1",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "1",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-24",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "24",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Both encrypt FRIDAY to ADDHOM with Hill m=2 and row vectors A=0..Z=25. All four 2x2 matrices are identical under the recorded option permutation. Directly inspected both reviewed figures; numeric output selects [[3,8],[19,7]]. No decryption-key or Monday/OBJZMA variant is included.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-19-des_s1_110101",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-10",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "10",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-10",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "10",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Both evaluate DES S1 on110101, with all four binary outputs0011,1110,1011,0101. Both complete reviewed figures were opened and all64 S1 entries agree. Row3,column10 gives0011; standard-table wording versus displayed table adds no condition.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-20-tonelli_75_97_b5_i1",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-17",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "17",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-1",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "1",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same a=75,p=97,nonresidue b=5, requested end of i=1 and same exact d/r/c algorithm. Opened both reviewed algorithm figures; update order and exponent2^(s-i-1) agree. All four triples correspond; independent result(d,r,c)=(1,96,8).",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-21-rc4_ksa_i1_t13_27",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-34",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "34",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-2",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "2",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same KSA initialization S[i]=i,j=0,T[0]=13,T[1]=27 and iteration i=1 Swap. Opened both complete algorithm/choice figures. Every sparse S-array distractor matches after permutation; independent final swaps are(0,13),(1,41).",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-22-des_p_same_full_input_and_blanks",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-35",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "35",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-15",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "15",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Opened both reviewed figures: all32 C bits, all32 P indices, all fixed output bits and all7 blank positions match. C=10010111111011001001011101010110; zero-based blank indices5,6,14,15,16,26,27. All four seven-bit options match after permutation. Independent missing bits0111011. K16-2/27 has a different blank mask and is expressly excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-23-square_multiply_27_101_211",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-36",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "36",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-7",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "7",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same27^101 mod211 and identical full four-row table i=0..6, including shown A/b values and six blank cells(bit5,bit6,A5,A6,b5,b6). Opened both new figures. All six-tuples/distractors correspond; independent result(1,1,109,65,115,90). Caption lengths/question numbers are not mathematical differences.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-24-ecc_public_g2_7_n3",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-31",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "31",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-19",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "19",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same curve y^2=x^3+x+6 overF11, G=(2,7), private scalar3 and public-point request. All four point choices(8,8),(10,2),(5,9),(8,3) match. Numeric inputs and independent multiplication agree at(8,3); scalar2 and G=(7,2) variants are excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-25-ecc_cipher_g7_2_k2",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-15",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "15",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-22",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "22",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same curve overF11, G=(7,2),k=2,public P_A=(5,2),given kP_A=(10,2),message point(3,6), and ordered-pair ciphertext request. Full four ciphertext-pair options match. Independent result[(2,7),(10,9)] in both.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-26-des_key_schedule_wrong_round_lists",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-14",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "14",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-4",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "4",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-32",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "32",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ],
+      "basis": "All ask the best correct DES key-schedule statement. All four choices match: the same erroneous two-bit round list, same erroneous one-bit list1,2,6,16, correct64-bit input/PC-1/rotate/PC-2 description and all-of-the-above. C_i,D_i versus C,D denotes the same two halves. The reviewed correction of2021/4(B) to1,2,6,16 is essential.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-27-mix_x21_same_state_same_choices",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-39",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "39",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-17",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "17",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Opened both complete figures: identical AES standard coefficient matrix and full state[[63,EB,9F,A0],[2F,93,92,C0],[AF,C7,AB,30],[A2,20,CB,2B]], zero-based targetx21. Same full hex option set{F4,32,8D,7A}; independent result8D. AT17/7 has different distractors06 and92 and is excluded despite the same8D result.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-28-order_13_mod20",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-k16-2-5",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "5",
+          "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-3-2027",
+          "source_exam_id": "de-thi-k16-3",
+          "source_exam_code": "de-thi-k16-3",
+          "source_question_number": "2027",
+          "source_file": "de-thi-k16-3.docx"
+        }
+      ],
+      "basis": "After source correction K16-3/2027 is modulo20, exactly as K16-2/5. Same request ord_20(13), full choice multiset{4,1,2,8}; independent result4. Neither ord_20(17) nor a modulo50 question is substituted.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-29-sign_encrypt_roles_all",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-11",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "11",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-36",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "36",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same true-proposition request with exactly the three statements about recipient keys for confidentiality, sender keys for signing, and combining signing with encryption. All-of-the-above covers the same three statements; conventional aggregateD agrees with independent theory. The SAI question K16-3/2021 has a hash/confidentiality distractor and is excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-30-hash_three_properties_after_equality_fix",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-33",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "33",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "5",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same three hash definitions and same all-of-the-above question. In2021/5(B), reviewed source equality h(x)=h(x') has been restored; both second-preimage statements now have x'!=x and equal digests. All three true definitions correspond; the aggregate conjunctionD is equivalent.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-31-knapsack_three_claims_sequence287",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-16",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "16",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-16",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "16",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same sequence(15,47,67,130,287), claimed superincreasing property, general exhaustive complexityO(2^n), greedy complexityO(n) and same all-of-the-above. The terms balo/ba lo are the same named subset-sum problem. Independent prefix sums/operation reasoning confirm all three; conventionalD matches. Sequence240 and the SAI K16-3/2040 question are excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-32-cyclic_three_true_claims",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-19",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "19",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-27",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "27",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same true-proposition request and exactly the three claims: cyclic iff it has a generator, element order divides phi(n), and orderphi(n) means generator ofZ_n*. The notation 'thuoc' versus membership symbol does not change a quantified domain. Same aggregate conjunctionD; generator-count-phi(n) false-claim variants are excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-33-elgamal_117_same_all_propositions",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-7",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "7",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "20",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same p=211,alpha=41,a=117,k=33,m=56, TRUE predicate and complete four statements (private33,cipher(28,192),public beta89,all). Private-key notation aliases k_d/k_A do not change the asserted role. Independent true content set is{cipher(28,192),beta89}; no unique answer, so potential only. K16-3/2047 changes/swaps actual statements and is excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-34-rabin_1234_same_wrong_m1731_claim",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-29",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "29",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "26",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same p=199,q=211,m=1234, TRUE request and all four propositions including the identical erroneous root claim explicitly referring to m=1731. Independent c=11152 and roots[1234,14169,27820,40755] confirm A,B; C false and all false. Correct content SETS agree but no unique answer: potential only. K16-3/2036 contains1152 and49189 and is excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-35-congruence_strict_zero_same_minus7_list",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-9",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "9",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "29",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "After source restoration2021/29 has strict0<r<n and the same list-7,0,7,14 modulo7. Same other canonical-representative/congruence definitions and same SAI predicate. Complete false-content set is{exclusion of r=0,listing equal representatives as distinct classes}. Both lack a single key; potential only. Other lists(-6,1,8,15) or(-11,-4,3,10,17) are not merged.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-36-affine_t19_j9_e4_q16",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-25",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "25",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-18",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "18",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Same modulus26,A=0 alphabet, explicit pairs19->9 and4->16, and complete option set{(3,4),(7,3),(3,7),(4,3)}. Independent solution is(3,4); displayed equation image in NMMMH/25 is redundant to these exact text pairs. AT17/6 changes a distractor to(4,2); K16-2/15 andK16-3/2022 change plaintext/ciphertext pairs and are excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-37-merkle_permutation361254",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-38",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "38",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-11",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "11",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-1",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "1",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ],
+      "basis": "Same private sequence(12,17,33,64,137,326), W635,modulus737,exact permutation(3,6,1,2,5,4),public-key request and full four public-key tuple options. Independent tuple(319,650,250,477,29,105) matches after permutation; K16-3/2037's permutation(4,5,2,1,6,3) is excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-38-rsa_signature_same_gcd_n_and_367",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-30",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "30",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-21",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "21",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-2-22",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "22",
+          "source_file": "de-thi-k16-2.docx"
+        }
+      ],
+      "basis": "Same p31,q23,d223,m439,printed gcd(d,n)=1 and SAI predicate. After source correctionK16-2/22 verification exponent is367, not307. Full four propositions match: verify284^367 mod713,signatureS284,wrong public tuple(660,367) with private223,and secrecy of p,q,phi(n). Independent n713,e367,S284 establishes the common false public-key content. K16-3/2060 asks TRUE and changes exponent/secrecy statements, so is excluded.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-39-shannon_same_four_statements",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-37",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "37",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-34",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "34",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Both ask which statement is TRUE. Full identical four-proposition set: confusion from permutation(false), Shannon's confusion+diffusion principles(true), diffusion from substitution(false), all-of-the-above(false). Only an explanatory comma differs in B; source spellings do not add a condition. Independent post-source theory gives complete(false,true,false,false) vectors and the same correct B content; both current keysB.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-40-key_management_same_course_qualifiers",
+      "status": "potential",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-nmmmh-32",
+          "source_exam_id": "de-thi-nmmmh",
+          "source_exam_code": "De_thi_NMMMH",
+          "source_question_number": "32",
+          "source_file": "De_thi_NMMMH.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+          "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+          "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+          "source_question_number": "39",
+          "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+        }
+      ],
+      "basis": "Both ask TRUE, with full A-D correspondenceABCD. A is public-key certification for recipient encryption/sender signing; B is establishing a shared secret between any two network participants; C is relatively long-lived community-wide TA-coordinated distribution; D is their conjunction. Differences are ky/ki,b at ky/ki typography and a comma before 'with coordination'; the longevity/community/TA and arbitrary-two-participant qualifiers are retained verbatim. Independent theory has the same incomplete(true,unknown,unknown,unknown) vectors and identical conditional aggregateD under course shorthand. Content is reviewed, but unique correct content is unproved, so potential only.",
+      "evidence": "audit/duplicate_review.json"
+    },
+    {
+      "group_id": "duplicate-review-41-cyclic_false_generator_count_phi",
+      "status": "confirmed",
+      "sources": [
+        {
+          "id": "nmmmh-de-thi-k16-2-19",
+          "source_exam_id": "de-thi-k16-2",
+          "source_exam_code": "de-thi-k16-2",
+          "source_question_number": "19",
+          "source_file": "de-thi-k16-2.docx"
+        },
+        {
+          "id": "nmmmh-de-thi-k16-3-2041",
+          "source_exam_id": "de-thi-k16-3",
+          "source_exam_code": "de-thi-k16-3",
+          "source_question_number": "2041",
+          "source_file": "de-thi-k16-3.docx"
+        }
+      ],
+      "basis": "Both ask SAI and have exactly the same four group propositions: existence of a generator defines cyclic, ord(alpha)=phi(n) makes a generator in the unit group, ord(a) divides phi(n), and the false claim that a cyclic unit group has phi(n) generators. The domain Z_n* is retained; 'nhom' and 'Cho/N eu/Ta co' introductory words add no hypotheses. Mapping K16-2 A,B,C,D -> K16-3 B,D,A,C preserves every quantified condition. Independent group calculation/theory selects the generator-count claim (actual phi(phi(n))), with keysD andC matching content.",
+      "evidence": "audit/duplicate_review.json"
     }
   ],
   "needs_review": [
+    {
+      "id": "nmmmh-de-thi-at17-bo-1-3",
+      "source_exam_id": "de-thi-at17-bo-1",
+      "source_exam_code": "De_thi_AT17_bo_1",
+      "source_question_number": "3",
+      "source_file": "De_thi_AT17_bo_1.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+        "Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+      ],
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-4",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "4",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "A chắc chắn sai về lan lỗi ECB; B mơ hồ/không đúng tuyệt đối. Không ép đáp án đơn cho lời văn CBC thiếu điều kiện."
+      ],
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-5",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "5",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A,B là khía cạnh chuẩn; chống chối bỏ được thêm trong slide môn học theo nghĩa rộng. Thiếu ràng buộc nghĩa."
+      ],
+      "answer_status": "needs_review"
+    },
     {
       "id": "nmmmh-de-thi-nmmmh-7",
       "source_exam_id": "de-thi-nmmmh",
@@ -578,9 +1233,9 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "Bản mã (28,192) đúng và β=41^117 mod211=89 cũng đúng; A sai nên D sai."
+        "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-nmmmh-9",
@@ -591,9 +1246,9 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "B sai vì số dư được phép bằng0; D liệt kê các đại diện của cùng một lớp, không phải nhiều lớp tương đương."
+        "B sai vì không cho r=0; D gọi nhiều đại diện cùng lớp là các lớp. Có hai lựa chọn sai theo lời văn."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-nmmmh-28",
@@ -603,9 +1258,9 @@
       "source_file": "De_thi_NMMMH.docx",
       "chapter": "Chương 1. Tổng quan về mật mã học",
       "reasons": [
-        "Mật mã khóa công khai bổ sung cho đối xứng, không ra đời để thay thế hoàn toàn. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+        "A sai; B cũng sai nếu nói đã chứng minh độ khó của bài toán. Không tự diễn giải B thành chứng minh giảm an toàn để cứu khóa cũ."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-nmmmh-29",
@@ -616,35 +1271,34 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "m=1234 cho c=11152. A và B đúng. C dùng nhầm m=1731, vốn cho c=15142 nên D sai."
+        "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
-      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-5",
-      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-      "source_question_number": "5",
-      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
-      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "id": "nmmmh-de-thi-nmmmh-32",
+      "source_exam_id": "de-thi-nmmmh",
+      "source_exam_code": "De_thi_NMMMH",
+      "source_question_number": "32",
+      "source_file": "De_thi_NMMMH.docx",
+      "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "A mô tả kháng va chạm đúng; C mô tả kháng tiền ảnh đúng. B ghi ≠ thay vì = nên D sai."
+        "A đúng; B,C chỉ chấp nhận được khi nêu ngữ cảnh giáo trình cụ thể. Không ép D từ định nghĩa lỏng."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
-      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-6",
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
       "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
       "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-      "source_question_number": "6",
+      "source_question_number": "12",
       "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
-      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
       "reasons": [
-        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "ord50(17)=20, không có trong2,1,8,4."
+        "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai."
       ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
@@ -655,9 +1309,22 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "β=89; bản mã(28,192). B,C đúng nhưng A sai nên D sai."
+        "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "23",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
+      ],
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
@@ -668,9 +1335,22 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "m1234 sinh11152; A,B đúng. C nhầm m1731 nên D sai."
+        "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "29",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
+      ],
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
@@ -680,9 +1360,35 @@
       "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
       "chapter": "Chương 1. Tổng quan về mật mã học",
       "reasons": [
-        "Hệ khóa công khai bổ sung, không thay thế hoàn toàn đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+        "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+      "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
+      "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
+      "source_question_number": "39",
+      "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
+      "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn."
+      ],
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-4",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "4",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 1. Tổng quan về mật mã học",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Thiếu điều kiện bảo vệ digest cho hàm băm; MAC và chữ ký đều là đáp án đúng độc lập. Slide p15 cho danh sách C nếu hỏi bộ kỹ thuật đầy đủ, nhưng đề không nêu cách chọn này."
+      ],
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-7",
@@ -693,9 +1399,9 @@
       "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "A sai vì hash là hàm xác định; D diễn đạt lẫn tiền ảnh/thứhai, cần xác nhận cách hiểu ở đề gốc trước khi chọn duy nhất."
+        "A sai nếu đọc 'hàm ngẫu nhiên' như thuật toán ngẫu nhiên, nhưng D có lời văn trái với công thức đúng. Không tự chọn D sai hoặc dùng A để ép bỏ lỗi lời văn."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-11",
@@ -706,22 +1412,22 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "A ghi modn thayφ(n), C ghi gcd(e,n) thaygcd(e,φ(n)); cả hai sai."
+        "Sau override A in f(n), không phải (n) và chưa có định nghĩa f. C vẫn sai vì gcd(e,n)=1 không là điều kiện RSA. Nếu f được xác nhận là phi thì C là đáp án; chưa đủ chứng cứ để ép đọc đó. Cần đối chiếu nguồn: Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n).",
+        "Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n)."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
-      "id": "nmmmh-de-thi-k16-2-22",
+      "id": "nmmmh-de-thi-k16-2-13",
       "source_exam_id": "de-thi-k16-2",
       "source_exam_code": "de-thi-k16-2",
-      "source_question_number": "22",
+      "source_question_number": "13",
       "source_file": "de-thi-k16-2.docx",
-      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
       "reasons": [
-        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "C ghi số mũ307 thay367;D ghi n660 thay713. Cả hai sai."
+        "B chắc chắn sai. D thiếu ngữ cảnh toàn bộ thông điệp hay khối lặp và phát biểu quá tuyệt đối khi đổi khóa; không ép một đáp án cho câu mơ hồ."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-24",
@@ -732,9 +1438,9 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "B loại r=0 sai; C nhầm nhiều lớp với các đại diện cùng lớp."
+        "B loại số dư bằng 0; C gọi các đại diện cùng lớp là các lớp. Theo lời văn nguyên bản có ít nhất hai phát biểu sai. Override bổ sung 15 mod 7 không đổi việc các biểu thức thuộc cùng một lớp."
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-25",
@@ -744,9 +1450,9 @@
       "source_file": "de-thi-k16-2.docx",
       "chapter": "Chương 2. Các hệ mật khóa bí mật",
       "reasons": [
-        "B là nguyên lý đúng; D diễn đạt chung việc thực hiện trênbit, có thể cũng đúng. Chưa có đáp án duy nhất đủ chắc."
+        "B đúng về nguyên lý Shannon; D thiếu ý 'chỉ' hay loại đơn vị nên có thể đúng ở mức biểu diễn bit. Không dùng một cách diễn đạt mơ hồ để loại D."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-26",
@@ -757,9 +1463,9 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "β=131 và bản mã(72,74) đều đúng; A nhầmk67 với khóa bí mậta113."
+        "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 131, \"gamma\": 72, \"delta\": 74, \"inverse_gamma_a\": 92}"
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-35",
@@ -770,9 +1476,22 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "φ(785)=φ(5·157)=4·156=624; không có phương án624."
+        "Không có phương án khớp kết quả tính độc lập. Kết quả: 384"
       ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-36",
+      "source_exam_id": "de-thi-k16-2",
+      "source_exam_code": "de-thi-k16-2",
+      "source_question_number": "36",
+      "source_file": "de-thi-k16-2.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "A và B là các khía cạnh chuẩn; C,D theo mục tiêu rộng của Slide 138. Thiếu định nghĩa chọn giữa nghĩa rộng và nghĩa bảo đảm chuẩn."
+      ],
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-37",
@@ -783,9 +1502,9 @@
       "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "A có thể là ý ra đề, nhưng cụm “chỉ áp dụng đối với hệ mật khóa đối xứng” mơ hồ: Diffie–Hellman dùng toán học khóa công khai để thiết lập bí mật chung. Chưa chứng nhận một đáp án chuẩn cho cách diễn đạt này."
+        "A quá hẹp về phạm vi thỏa thuận khóa; B chỉ là một mô hình phân phối có TA, không phải định nghĩa chung. C,D đúng trong ngữ cảnh cơ quan tin cậy."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-2-40",
@@ -795,22 +1514,9 @@
       "source_file": "de-thi-k16-2.docx",
       "chapter": "Chương 1. Tổng quan về mật mã học",
       "reasons": [
-        "Khóa công khai bổ sung, không thay thế đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+        "A sai về mục tiêu thay thế; D sai nếu hiểu 'đã chứng minh độ khó' theo nghĩa đen. Không giả vờ giả định độ khó đã được chứng minh."
       ],
-      "answer_status": "ambiguous_wording"
-    },
-    {
-      "id": "nmmmh-de-thi-k16-3-2027",
-      "source_exam_id": "de-thi-k16-3",
-      "source_exam_code": "de-thi-k16-3",
-      "source_question_number": "2027",
-      "source_file": "de-thi-k16-3.docx",
-      "chapter": "Chương 3. Các hệ mật khóa công khai",
-      "reasons": [
-        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "ord50(13)=20 không có trong2,8,1,4."
-      ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-3-2032",
@@ -820,9 +1526,9 @@
       "source_file": "de-thi-k16-3.docx",
       "chapter": "Chương 2. Các hệ mật khóa bí mật",
       "reasons": [
-        "Autokey theo slide58 choULLRKMVKOVYY, không khớpA–D. B=ULLHNBYLNHBL là Vigenère khóaSUN lặp, không phảiAutokey."
+        "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
       ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-3-2036",
@@ -833,9 +1539,34 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "n=41989,c=11152;A nhầm49189,B/C thiếu chữ số1,D dùng sai m1731. Không có phát biểu đúng duy nhất theo văn bản."
+        "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
       ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2038",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2038",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 4. Hàm băm, xác thực và chữ ký số",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
+      ],
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2045",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2045",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 2. Các hệ mật khóa bí mật",
+      "reasons": [
+        "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
+      ],
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-3-2046",
@@ -845,9 +1576,9 @@
       "source_file": "de-thi-k16-3.docx",
       "chapter": "Chương 1. Tổng quan về mật mã học",
       "reasons": [
-        "Không thaythế toàn bộ đối xứng. Tuy nhiên câu còn viết “độ khó của bài toán đã được chứng minh”; độ khó tính toán nói chung là giả thiết, chưa được chứng minh. Cần đáp án chính thức để xác định ý chấm."
+        "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác."
       ],
-      "answer_status": "ambiguous_wording"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-3-2047",
@@ -858,9 +1589,9 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "β=89 đúng;28^(-117) mod211=97 và97·192 mod211=56 đúng. B đảo(γ,δ),Cnhầmk."
+        "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
       ],
-      "answer_status": "multiple_valid_options"
+      "answer_status": "needs_review"
     },
     {
       "id": "nmmmh-de-thi-k16-3-2052",
@@ -871,9 +1602,23 @@
       "chapter": "Chương 3. Các hệ mật khóa công khai",
       "reasons": [
         "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-        "CảA–Dđều đúng: cănmod21=2,5,16,19;(21/233)=-1;(13/17)=1; côngthức(2/n)đúng. ĐềhỏiSAI nhưng không có."
+        "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit.",
+        "Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit."
       ],
-      "answer_status": "no_valid_option"
+      "answer_status": "needs_review"
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2056",
+      "source_exam_id": "de-thi-k16-3",
+      "source_exam_code": "de-thi-k16-3",
+      "source_question_number": "2056",
+      "source_file": "de-thi-k16-3.docx",
+      "chapter": "Chương 3. Các hệ mật khóa công khai",
+      "reasons": [
+        "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
+        "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
+      ],
+      "answer_status": "needs_review"
     }
   ]
 }
