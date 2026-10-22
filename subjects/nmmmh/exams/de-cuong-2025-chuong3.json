@@ -4147,19 +4147,38 @@
       "docx_block": 155
     },
     "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": "B",
+    "correct_answer": "C",
     "needs_review": false,
     "review_reasons": [],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_evidence": "user_correction_and_independent_counterexample",
+    "verification_status": "verified",
+    "explanation": "Đáp án C trên web tương ứng B trong ảnh. Công thức tương hỗ ở B trong ảnh bị đảo dấu: (m/n)=−(n/m) khi m≡n≡3 (mod 4), còn lại là dấu cộng. Phản ví dụ m=3,n=7: (3/7)=−1 nhưng (7/3)=1. Các công thức A,C,D trong ảnh đúng. Dấu đáp án B trong DOCX được giữ riêng để đối chiếu, không dùng để chấm.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
-        "B"
-      ]
+        "C"
+      ],
+      "explanation": "Đáp án C trên web tương ứng B trong ảnh. Công thức tương hỗ ở B trong ảnh bị đảo dấu: (m/n)=−(n/m) khi m≡n≡3 (mod 4), còn lại là dấu cộng. Phản ví dụ m=3,n=7: (3/7)=−1 nhưng (7/3)=1. Các công thức A,C,D trong ảnh đúng. Dấu đáp án B trong DOCX được giữ riêng để đối chiếu, không dùng để chấm.",
+      "sources": [],
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Nhãn A trong ảnh: công thức bổ sung cho (2/n) đúng."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Nhãn D trong ảnh: tính bất biến khi tử đồng dư là đúng."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Nhãn B trong ảnh: luật tương hỗ bị đảo dấu; m=3,n=7 là phản ví dụ."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Nhãn C trong ảnh: tính nhân theo tử đúng."
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4180,7 +4199,7 @@
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
     "hint": "Mẹo: Kiểm tra dấu trong luật tương hỗ bậc hai; trường hợp cả hai số ≡ 3 mod 4 là ngoại lệ.",
-    "verification_revision": "collections-20261022-v1",
+    "verification_revision": "jacobi-answer-20261022-v1",
     "display_blocks": [
       {
         "type": "image",
@@ -4194,7 +4213,16 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "answer_correction": {
+      "previous_correct_answer": "B",
+      "correct_answer": "C",
+      "source_image_label": "B",
+      "reason": "User requested C on website, corresponding to B in the image; independently checked using m=3,n=7.",
+      "reference_pdf_pages": [
+        179
+      ]
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-21",

@@ -16,6 +16,7 @@ from pathlib import Path
 import sympy
 from apply_nmmmh_reference_review import REVISION, migrate
 from nmmmh_reference_decisions import AUDIT, ROOT, decisions
+from nmmmh_answer_corrections import JACOBI_ID, apply_answer_correction
 
 BASELINE='013ffcdb3dea7260cc48b5d3442516b267dc2e50'
 LETTERS='ABCD'
@@ -43,6 +44,7 @@ class ReferenceReviewTests(unittest.TestCase):
                     self.assertEqual(a[key],b[key],(a['id'],key))
                 if a['id'] in self.frozen:self.assertEqual(a,self.frozen[a['id']])
                 else:
+                    if a['id']==JACOBI_ID:apply_answer_correction(a)
                     # Only derived duplicate grouping can change when a
                     # related question has been substantively corrected.
                     for key in ['duplicate_status','duplicate_group','duplicate_sources']:
@@ -137,6 +139,14 @@ class ReferenceReviewTests(unittest.TestCase):
         self.assertEqual(len(v['keystream']),16);self.assertEqual(len(v['ciphertext']),16)
         self.assertEqual(v['plaintext'],'THANHTOANQUAMAQR');self.assertEqual(q['correct_answer'],'B')
         self.assertNotEqual(q['normalization']['kind'],'reconstructed_exercise_with_explicit_new_conditions')
+
+    def test_jacobi_image_label_maps_to_correct_web_option(self):
+        q=self.by_id[JACOBI_ID]
+        self.assertEqual(q['correct_answer'],'C');self.assertEqual(q['C']['text'],'B')
+        self.assertEqual(q['source_marked_answer'],'B')  # Preserve the incorrect source mark as evidence.
+        self.assertEqual(int(sympy.jacobi_symbol(3,7)),-1)
+        self.assertEqual(int(sympy.jacobi_symbol(7,3)),1)
+        self.assertEqual(q['answer_audit']['valid_options'],['C'])
 
     def test_images_retained_and_never_data_urls(self):
         for id,old in self.frozen.items():

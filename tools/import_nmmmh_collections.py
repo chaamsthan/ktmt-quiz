@@ -230,6 +230,8 @@ def docx_rows(record,chapters):
         if reasons:explanation+='Lưu ý nguồn: '+' '.join(reasons)
         finish_question(q,answer,status,explanation,sources,reasons)
         annotate(q,topic,'Mẹo: '+hint,chapters,'de-cuong-2025')
+        from nmmmh_answer_corrections import apply_answer_correction
+        apply_answer_correction(q)
         result.append(q)
     return result
 
