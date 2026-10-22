@@ -2369,30 +2369,28 @@
     "question_image": null,
     "source_page": 9,
     "source_docx_block": 96,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô)."
     ],
     "source_text": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Cryptography” với mầm khóa k = “sun”.\nA.  ULLHNBYLNYBL\nB.  ULLHNBYLNHBL\nC.  ULLHNBYNHLBL\nD.  ULLHNBYNLHBL\nĐáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
     "A": {
-      "text": "ULLHNBYLNYBL",
+      "text": "ULLRKMVKOVYY",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "ULLHNBYLNYBL"
+          "text": "ULLRKMVKOVYY"
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "ULLHNBYLNYBL"
+          "text": "ULLRKMVKOVYY"
         }
       ]
     },
@@ -2462,24 +2460,51 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted.",
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.\nA: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLRKMVKOVYY.\nB: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYLNHBL.\nC: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNHLBL.\nD: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNLHBL.\nTham khảo: Bản full đã gộp.pdf, trang PDF 59, 60.",
       "sources": [],
-      "proof_key": "autokey",
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_calculation_autokey",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2032"
-      ]
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          59,
+          60
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLRKMVKOVYY."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYLNHBL."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNHLBL."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNLHBL."
+        }
+      },
+      "numeric": {
+        "plaintext": "CRYPTOGRAPHY",
+        "seed": "SUN",
+        "keystream": "SUNCRYPTOGRA",
+        "ciphertext": "ULLRKMVKOVYY"
+      }
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "961d6ee0c1989781d0275c042dd47049096dc5613396d8a14d827d826118162f",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "2"
     ],
@@ -2526,11 +2551,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2032",
-    "hint": "Viết SUN rồi nối bằng CRYPTOGRAPHY để có khóa chạy đủ độ dài; mã chữ từ A=0 và cộng mod 26.\nThử giải từng lựa chọn, đặc biệt từ ký tự thứ tư. Nếu không khớp, kiểm quy ước Autokey trong slide, không tự đổi sang SUN lặp.",
-    "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: \"ULLRKMVKOVYY\". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted.",
+    "hint": "Mẹo: Nối mầm khóa với BẢN RÕ, không lặp mầm; cộng mã chữ A=0 modulo 26.",
+    "explanation": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.\nA: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLRKMVKOVYY.\nB: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYLNHBL.\nC: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNHLBL.\nD: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNLHBL.\nTham khảo: Bản full đã gộp.pdf, trang PDF 59, 60.",
     "display_blocks": [
       {
         "type": "text",
@@ -2539,7 +2564,21 @@
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+      "reference_pages": [
+        59,
+        60
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Cryptography” với mầm khóa k = “sun”.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2033",
@@ -3133,13 +3172,10 @@
     "question_image": null,
     "source_page": 6,
     "source_docx_block": 127,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
       "Ghi chú: Câu trùng: cùng nội dung ở trang 6 và trang 8. Ảnh đọc Z49189. Lưu ý p·q = 199·211 = 41989, nên chữ số trên ảnh có thể bị in/đọc nhầm giữa 49189 và 41989; bản trích giữ đúng chữ đọc được trên ảnh là 49189."
@@ -3180,19 +3216,19 @@
       ]
     },
     "C": {
-      "text": "Bản mã c = 1152.",
+      "text": "Bản mã c = 11152.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Bản mã c = 1152."
+          "text": "Bản mã c = 11152."
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Bản mã c = 1152."
+          "text": "Bản mã c = 11152."
         }
       ]
     },
@@ -3224,24 +3260,47 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem.",
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.\nA: Mô-đun phải là 199×211=41989, không phải 49189.\nB: 1152 không bằng 1234² mod 41989.\nC: 11152=1234² mod 41989.\nD: Các căn này không ứng với bản rõ 1731.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
       "sources": [],
-      "proof_key": "rabin",
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_calculation_rabin",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2036"
-      ]
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Mô-đun phải là 199×211=41989, không phải 49189."
+        },
+        "B": {
+          "matches": false,
+          "reason": "1152 không bằng 1234² mod 41989."
+        },
+        "C": {
+          "matches": true,
+          "reason": "11152=1234² mod 41989."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Các căn này không ứng với bản rõ 1731."
+        }
+      },
+      "numeric": {
+        "ciphertext": 11152
+      }
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "8b4ffc184f76a6a2508d0c854790853c5a1f1821ef3b7fa3052e66d17d18731c",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -3285,11 +3344,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2036",
-    "hint": "Tự tính \\(n=199\\cdot211\\), rồi \\(c=1234^2\\bmod n\\); so từng phát biểu với cùng bộ dữ kiện.\nBình phương lại từng căn được nêu; nếu một phát biểu đổi bản rõ sang 1731 thì phải kiểm phép mã mới, không dùng lại c cũ.",
-    "explanation": "Không có phương án khớp kết quả tính độc lập. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem.",
+    "hint": "Mẹo: Tính pq trước rồi bình phương m lấy dư; để ý phương án thiếu chữ số.",
+    "explanation": "Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.\nA: Mô-đun phải là 199×211=41989, không phải 49189.\nB: 1152 không bằng 1234² mod 41989.\nC: 11152=1234² mod 41989.\nD: Các căn này không ứng với bản rõ 1731.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "display_blocks": [
       {
         "type": "text",
@@ -3298,7 +3357,20 @@
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Trong hệ mật Rabin, giả sử p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2037",
@@ -3489,23 +3561,20 @@
     "source_question_number": "2038",
     "source_file": "de-thi-k16-3.docx",
     "source_exam_id": "de-thi-k16-3",
-    "question": "Xác thực thông tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Xác thực thông tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?"
+        "text": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?"
       }
     ],
     "question_image": null,
     "source_page": 6,
     "source_docx_block": 143,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô)."
     ],
@@ -3589,27 +3658,45 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap9.pdf"
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2038",
-        "audit/theory_audit.json#nmmmh-de-thi-k16-3-2038"
-      ]
+      "explanation": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.\nA: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nB: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nC: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.\nD: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "79d5089e49fab81539c9a021d45a685043ae86aa801b204f645de13c8947199f",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "4",
       "1"
@@ -3657,20 +3744,33 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2038; audit/theory_audit.json#nmmmh-de-thi-k16-3-2038",
-    "hint": "Lập ba tình huống: nội dung bị sửa, giả người gửi, người gửi phủ nhận đã gửi.\nĐối chiếu phạm vi xác thực trong học phần với từng tình huống; lựa chọn tổng hợp phải bao quát đủ, không chỉ đúng một phần.",
-    "explanation": "B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác.",
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "explanation": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.\nA: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nB: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nC: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.\nD: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Xác thực thông tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?"
+        "text": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?"
       }
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Xác thực thông tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2039",
@@ -4843,30 +4943,28 @@
     "question_image": null,
     "source_page": 1,
     "source_docx_block": 195,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô)."
     ],
     "source_text": "Khẳng định nào sau đây là SAI?\nA.  Trong chế độ CBC, khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV thì sẽ cho kết quả các khối mã khác nhau.\nB.  Trong chế độ ECB, hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.\nC.  Trong chế độ OFB, nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.\nD.  Trong chế độ ECB, một hay nhiều bit sai trong một khối mã đơn lẻ chỉ ảnh hưởng tới chính việc giải mã khối đó.\nĐáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
     "A": {
-      "text": "Trong chế độ CBC, khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV thì sẽ cho kết quả các khối mã khác nhau.",
+      "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV luôn cho hai dãy bản mã khác nhau.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ CBC, khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV thì sẽ cho kết quả các khối mã khác nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV luôn cho hai dãy bản mã khác nhau."
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ CBC, khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV thì sẽ cho kết quả các khối mã khác nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV luôn cho hai dãy bản mã khác nhau."
         }
       ]
     },
@@ -4888,19 +4986,19 @@
       ]
     },
     "C": {
-      "text": "Trong chế độ OFB, nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.",
+      "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ OFB, nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau."
+          "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau."
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ OFB, nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau."
+          "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau."
         }
       ]
     },
@@ -4936,27 +5034,47 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối.",
-      "sources": [
-        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2045",
-        "audit/theory_audit.json#nmmmh-de-thi-k16-3-2045"
-      ]
+      "explanation": "Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.\nA: SAI: mã hóa xác định cho cùng dữ liệu, khóa và IV.\nB: ECB giữ tính bằng nhau của hai khối dưới cùng khóa.\nC: E_K là song ánh trên khối IV.\nD: Lỗi ECB chỉ ảnh hưởng chính khối đó.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 142, 146.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          140,
+          142,
+          146
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "SAI: mã hóa xác định cho cùng dữ liệu, khóa và IV."
+        },
+        "B": {
+          "matches": false,
+          "reason": "ECB giữ tính bằng nhau của hai khối dưới cùng khóa."
+        },
+        "C": {
+          "matches": false,
+          "reason": "E_K là song ánh trên khối IV."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Lỗi ECB chỉ ảnh hưởng chính khối đó."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "3b0a76d9a7ba6ff18456a6cfb7588824b95423280a876c0530bed48532c06e97",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "2"
     ],
@@ -5007,11 +5125,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2045; audit/theory_audit.json#nmmmh-de-thi-k16-3-2045",
-    "hint": "Viết \\(P_i=D_K(C_i)\\) cho ECB, rồi thử thay một khối mã: công thức khối kế có dùng khối bị thay không?\nVới CBC chỉ so sánh khi cùng tiền tố bản rõ, khóa và IV; với OFB theo dõi chuỗi khóa sinh từ IV.",
-    "explanation": "A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối.",
+    "hint": "Mẹo: Cố định bản rõ, khóa và IV thì công thức mã hóa không có nguồn ngẫu nhiên mới.",
+    "explanation": "Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.\nA: SAI: mã hóa xác định cho cùng dữ liệu, khóa và IV.\nB: ECB giữ tính bằng nhau của hai khối dưới cùng khóa.\nC: E_K là song ánh trên khối IV.\nD: Lỗi ECB chỉ ảnh hưởng chính khối đó.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 142, 146.",
     "display_blocks": [
       {
         "type": "text",
@@ -5020,7 +5138,22 @@
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.",
+      "reference_pages": [
+        140,
+        142,
+        146
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2046",
@@ -5037,12 +5170,10 @@
     "question_image": null,
     "source_page": 7,
     "source_docx_block": 202,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô)."
     ],
@@ -5065,19 +5196,19 @@
       ]
     },
     "B": {
-      "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật.",
+      "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật."
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật."
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ]
     },
@@ -5099,19 +5230,19 @@
       ]
     },
     "D": {
-      "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh.",
+      "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh."
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ],
       "source_label": "D",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh."
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ]
     },
@@ -5130,28 +5261,47 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "likely_course_answer": "B",
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2046",
-        "audit/theory_audit.json#nmmmh-de-thi-k16-3-2046"
-      ]
+      "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          183,
+          191,
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "B": {
+          "matches": true,
+          "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "16486d6dd64af91031ab237f952790fb7a3f76510c88fb5fa0077a8b5fc84c9d",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "1",
       "2",
@@ -5202,11 +5352,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2046; audit/theory_audit.json#nmmmh-de-thi-k16-3-2046",
-    "hint": "Xét một hệ lai dùng khóa công khai để trao khóa phiên, rồi mã đối xứng cho dữ liệu dài.\nDùng mô hình ấy kiểm từ “thay thế”; kiểm riêng “đã được chứng minh” có mạnh hơn giả thiết độ khó không. Câu chữ cần đối chiếu nguồn.",
-    "explanation": "B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác.",
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
     "display_blocks": [
       {
         "type": "text",
@@ -5214,8 +5364,8 @@
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-16-public_key_replacement_multiple",
-    "duplicate_status": "potential",
+    "duplicate_group": "ref-5c47d623787356b421fe",
+    "duplicate_status": "confirmed",
     "duplicate_sources": [
       {
         "id": "nmmmh-de-thi-nmmmh-28",
@@ -5245,30 +5395,41 @@
         "source_question_number": "2046",
         "source_file": "de-thi-k16-3.docx"
       }
-    ]
+    ],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-k16-3-2047",
     "source_question_number": "2047",
     "source_file": "de-thi-k16-3.docx",
     "source_exam_id": "de-thi-k16-3",
-    "question": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?",
+    "question": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG phép khôi phục bản rõ từ cặp bản mã đã cho?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG phép khôi phục bản rõ từ cặp bản mã đã cho?"
       }
     ],
     "question_image": null,
     "source_page": 7,
     "source_docx_block": 209,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
-    ],
-    "answer_evidence": null,
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
       "Ghi chú: Ảnh dùng phần tử sinh α = 41, không phải q. Bản mã viết (γ, δ)."
@@ -5353,30 +5514,50 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
-        "A",
         "D"
       ],
-      "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}",
+      "explanation": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.\nA: Không trả lời đúng đối tượng được hỏi; Khóa công khai ke của A là αᵃ = 89.\nB: Không trả lời đúng đối tượng được hỏi; Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28).\nC: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là kd = 33.\nD: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
       "sources": [],
-      "proof_key": "elgamal",
-      "official_answer_key": false,
-      "candidate_options": [
-        "A",
-        "D"
-      ],
-      "method": "independent_calculation_elgamal",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2047"
-      ]
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai ke của A là αᵃ = 89."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28)."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là kd = 33."
+        },
+        "D": {
+          "matches": true,
+          "reason": "β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56."
+        }
+      },
+      "numeric": {
+        "beta": 89,
+        "gamma": 28,
+        "delta": 192,
+        "plaintext": 56
+      }
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "16b1bb50849055ecfd95fed765d9134a806cbc6d66b811f3bc414e92d7e1d6a0",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -5419,20 +5600,33 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2047",
-    "hint": "Với p=211, α=41, a=117, k=33, m=56, tính riêng \\(\\beta=\\alpha^a,\\gamma=\\alpha^k,\\delta=m\\beta^k\\pmod p\\).\nThử giải mã \\(\\delta\\gamma^{-a}\\); đừng đổi vị trí γ,δ hoặc nhầm a với k. Kiểm từng phát biểu, có thể không chỉ một phát biểu đúng.",
-    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}",
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=\\(\\alpha ^{k}\\) và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo \\(\\gamma ^{a}\\).",
+    "explanation": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.\nA: Không trả lời đúng đối tượng được hỏi; Khóa công khai ke của A là αᵃ = 89.\nB: Không trả lời đúng đối tượng được hỏi; Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28).\nC: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là kd = 33.\nD: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG phép khôi phục bản rõ từ cặp bản mã đã cho?"
       }
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2048",
@@ -6240,24 +6434,20 @@
     "source_question_number": "2052",
     "source_file": "de-thi-k16-3.docx",
     "source_exam_id": "de-thi-k16-3",
-    "question": "Khẳng định nào sau đây là SAI?",
+    "question": "Chọn khẳng định SAI. Ký hiệu (a/n) là Jacobi khi n là hợp số dương lẻ, và là Legendre khi n là nguyên tố lẻ; trong quy tắc cho 2, n là số dương lẻ.",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là SAI?"
+        "text": "Chọn khẳng định SAI. Ký hiệu (a/n) là Jacobi khi n là hợp số dương lẻ, và là Legendre khi n là nguyên tố lẻ; trong quy tắc cho 2, n là số dương lẻ."
       }
     ],
     "question_image": null,
     "source_page": 3,
     "source_docx_block": 247,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit.",
-      "Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
       "Ghi chú: Phương án D trên ảnh là (2/n), không phải (2/7)."
@@ -6342,26 +6532,48 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit.",
-      "sources": [],
-      "proof_key": "jacobi",
-      "official_answer_key": false,
-      "candidate_options": [
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
         "B"
       ],
-      "method": "independent_calculation_jacobi",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2052"
-      ]
+      "explanation": "Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.\nA: Bốn căn của 4 modulo 21 là 2,5,16,19.\nB: SAI: Jacobi(21,235)=1, không phải −1.\nC: Legendre(13,17)=1 vì 8²≡13 mod 17.\nD: Đúng theo quy tắc bổ sung cho ký hiệu Jacobi.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178, 179.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          178,
+          179
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Bốn căn của 4 modulo 21 là 2,5,16,19."
+        },
+        "B": {
+          "matches": true,
+          "reason": "SAI: Jacobi(21,235)=1, không phải −1."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Legendre(13,17)=1 vì 8²≡13 mod 17."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đúng theo quy tắc bổ sung cho ký hiệu Jacobi."
+        }
+      },
+      "numeric": {
+        "jacobi_21_235": 1
+      }
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "809b6bcb96370dff03e2048e2cfb37d15dfefbf1db5e07c3bad07189045d70c9",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -6404,11 +6616,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "needs_review",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2052",
-    "hint": "Đọc đúng mẫu số trong nguồn, nhất là 235; kiểm nó có phải số nguyên tố trước khi gọi ký hiệu là Legendre.\nNếu dùng Jacobi cho mẫu hợp số, phân tích mẫu và dùng tính nhân; bình phương lại các căn mod 21, kiểm công thức (2/n) riêng.",
-    "explanation": "Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {\"A\": {\"truth\": true, \"claimed_roots\": [2, 5, 16, 19], \"computed_roots\": [2, 5, 16, 19]}, \"B\": {\"truth\": false, \"numerator\": 21, \"denominator\": 235, \"claimed_symbol\": -1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"C\": {\"truth\": true, \"numerator\": 13, \"denominator\": 17, \"claimed_symbol\": 1, \"computed_symbol\": 1, \"roots_if_residuosity_claimed\": null}, \"D\": {\"truth\": true, \"residue_classes_mod8\": {\"3\": -1, \"5\": -1}, \"evidence\": \"Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n\"}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit.",
+    "hint": "Mẹo: Tách mẫu 235=5×47 rồi nhân hai ký hiệu; khi mẫu hợp số không dùng định nghĩa Legendre trực tiếp.",
+    "explanation": "Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.\nA: Bốn căn của 4 modulo 21 là 2,5,16,19.\nB: SAI: Jacobi(21,235)=1, không phải −1.\nC: Legendre(13,17)=1 vì 8²≡13 mod 17.\nD: Đúng theo quy tắc bổ sung cho ký hiệu Jacobi.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178, 179.",
     "source_corrections": [
       {
         "field": "B",
@@ -6423,12 +6635,26 @@
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là SAI?"
+        "text": "Chọn khẳng định SAI. Ký hiệu (a/n) là Jacobi khi n là hợp số dương lẻ, và là Legendre khi n là nguyên tố lẻ; trong quy tắc cho 2, n là số dương lẻ."
       }
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.",
+      "reference_pages": [
+        178,
+        179
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2053",
@@ -7001,13 +7227,10 @@
     "question_image": null,
     "source_page": 10,
     "source_docx_block": 277,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn trên ảnh: Không chọn  (vòng tròn A–D đều trống, không thấy phương án được tô).",
       "Ghi chú: Phương án C trên ảnh bắt đầu bằng −11 mod 7, không phải −1. Phương án D có điều kiện 0 ≤ r < n."
@@ -7048,19 +7271,19 @@
       ]
     },
     "C": {
-      "text": "−11 mod 7; −4 mod 7; 3 mod 7; 10 mod 7; 17 mod 7; … là các lớp tương đương trên Z7.",
+      "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "−11 mod 7; −4 mod 7; 3 mod 7; 10 mod 7; 17 mod 7; … là các lớp tương đương trên Z7."
+          "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7."
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "−11 mod 7; −4 mod 7; 3 mod 7; 10 mod 7; 17 mod 7; … là các lớp tương đương trên Z7."
+          "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7."
         }
       ]
     },
@@ -7092,33 +7315,46 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
-        "C",
         "D"
       ],
-      "explanation": "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
-      ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [
-        "C",
-        "D"
-      ],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2056",
-        "audit/theory_audit.json#nmmmh-de-thi-k16-3-2056"
-      ]
+      "explanation": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.\nA: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nB: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nC: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nD: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.\nTham khảo: Bản full đã gộp.pdf, trang PDF 171, 172.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          171,
+          172
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        },
+        "D": {
+          "matches": true,
+          "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "de-thi-k16-3",
     "content_fingerprint": "bbe520a1c298c9b5ad3a0c0615a82d29df5658c8f23da53d3a68f0507fab987a",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -7161,11 +7397,11 @@
       "status": "visually_compared",
       "review_artifact": "source_k16_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-k16-3-2056; audit/theory_audit.json#nmmmh-de-thi-k16-3-2056",
-    "hint": "Với −11, −4, 3, 10, 17, xét hiệu từng cặp để quyết định có cùng một lớp mod 7 không.\nKiểm riêng bất đẳng thức số dư bằng phép chia hết; đừng dừng sau mệnh đề sai đầu tiên nếu đề có lỗi nhiều lựa chọn.",
-    "explanation": "Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ.",
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "explanation": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.\nA: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nB: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nC: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nD: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.\nTham khảo: Bản full đã gộp.pdf, trang PDF 171, 172.",
     "source_corrections": [
       {
         "field": "D",
@@ -7185,7 +7421,21 @@
     ],
     "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-k16-3-2057",

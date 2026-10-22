@@ -21,11 +21,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "Tính an toàn của các hệ mật khóa công khai thường dựa trên độ khó của bài toán đã được chứng minh",
+      "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
       "blocks": [
         {
           "type": "text",
-          "text": "Tính an toàn của các hệ mật khóa công khai thường dựa trên độ khó của bài toán đã được chứng minh"
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ],
       "source_label": "A",
@@ -33,7 +33,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Tính an toàn của các hệ mật khóa công khai thường dựa trên độ khó của bài toán đã được chứng minh"
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ]
     },
@@ -72,11 +72,11 @@
       ]
     },
     "D": {
-      "text": "Hệ mật khóa bí mật có thể được thay thế bởi các hệ mật khóa công khai",
+      "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
       "blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa bí mật có thể được thay thế bởi các hệ mật khóa công khai"
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ],
       "source_label": "D",
@@ -187,7 +187,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa bí mật có thể được thay thế bởi các hệ mật khóa công khai"
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ]
     },
@@ -209,20 +209,49 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 3
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Cả khẳng định về chứng minh bài toán khó và thay thế hệ đối xứng đều cần xem lại."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Cả khẳng định về chứng minh bài toán khó và thay thế hệ đối xứng đều cần xem lại.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Cả khẳng định về chứng minh bài toán khó và thay thế hệ đối xứng đều cần xem lại.",
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          183,
+          191,
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "D": {
+          "matches": true,
+          "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -242,8 +271,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Xét riêng khẳng định “thay thế hoàn toàn” và “đã chứng minh tính khó”; hai cách nói tuyệt đối đều cần dè chừng.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -254,7 +283,20 @@
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Phát biểu nào sau đây về hệ mật khóa công khai là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-2",
@@ -622,24 +664,9 @@
     ],
     "images": [],
     "source_option_labels_in_figure": false,
-    "duplicate_status": "confirmed",
-    "duplicate_group": "collection-c7e75847aea71b2c2dd6",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-cuong-2025-chuong2-49",
-        "source_exam_id": "de-cuong-2025-chuong2",
-        "source_exam_code": "Chuong2",
-        "source_question_number": "49",
-        "source_file": "Chuong2.docx"
-      },
-      {
-        "id": "nmmmh-de-cuong-2025-chuong3-3",
-        "source_exam_id": "de-cuong-2025-chuong3",
-        "source_exam_code": "Chuong3",
-        "source_question_number": "3",
-        "source_file": "Chuong3.docx"
-      }
-    ]
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-4",
@@ -4513,9 +4540,8 @@
     "source_docx_block": 171,
     "question_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/de2b3e4ccbaf6e3f9692.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu)."
       }
     ],
     "source_paragraphs": [
@@ -4527,11 +4553,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "B",
+      "text": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p)."
         }
       ],
       "source_label": "A",
@@ -4552,16 +4578,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "Với p nguyên tố và 0<a<p, \\(a^{p}\\) ≡ a (mod p)."
         }
       ]
     },
     "B": {
-      "text": "A",
+      "text": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p)."
         }
       ],
       "source_label": "B",
@@ -4569,16 +4595,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "Với p nguyên tố và p không chia a, \\(a^{p-1}\\) ≢ 1 (mod p)."
         }
       ]
     },
     "C": {
-      "text": "C",
+      "text": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p)."
         }
       ],
       "source_label": "C",
@@ -4586,16 +4612,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "Với p nguyên tố và a là bội của p, luôn có \\(a^{p-1}\\) ≡ a (mod p)."
         }
       ]
     },
     "D": {
-      "text": "D",
+      "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p)."
         }
       ],
       "source_label": "D",
@@ -4603,11 +4629,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), \\(a^{p-1}\\) ≡ 1 (mod p)."
         }
       ]
     },
-    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "question": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu).",
     "source_mark_candidates": {
       "highlight": [
         "A"
@@ -4625,20 +4651,47 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 171
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Hai phát biểu Fermat dạng a^p ≡ a (một phát biểu giới hạn a chẵn) cùng đúng."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai phát biểu Fermat dạng a^p ≡ a (một phát biểu giới hạn a chẵn) cùng đúng.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.\nA: Đúng theo Fermat nhỏ.\nB: Sai: thử p=3,a=1, được 1 chứ không khác 1.\nC: Sai: thử p=3,a=3.\nD: Sai: thử p=3,a=0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 175.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai phát biểu Fermat dạng a^p ≡ a (một phát biểu giới hạn a chẵn) cùng đúng.",
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.\nA: Đúng theo Fermat nhỏ.\nB: Sai: thử p=3,a=1, được 1 chứ không khác 1.\nC: Sai: thử p=3,a=3.\nD: Sai: thử p=3,a=0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 175.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          175
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Đúng theo Fermat nhỏ."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=1, được 1 chứ không khác 1."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=3."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=0."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4658,22 +4711,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Dùng Fermat cho a không chia hết cho p và dạng \\(a^{p}\\) ≡ a; chú ý phương án chỉ là trường hợp con.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Với khẳng định phổ quát, thử a=0 hoặc a=p nếu điều kiện cho phép; đừng bỏ điều kiện p không chia a khi dùng số mũ p−1.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/de2b3e4ccbaf6e3f9692.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu)."
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-cuong-2025-chuong3/de2b3e4ccbaf6e3f9692.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+      "reference_pages": [
+        175
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/de2b3e4ccbaf6e3f9692.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-23",
@@ -4684,9 +4747,8 @@
     "source_docx_block": 179,
     "question_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/a86d3c69b122aec30164.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Cho n=pq với p,q là hai số nguyên tố LẺ phân biệt. Q_n là tập các bình phương của phần tử thuộc nhóm đơn vị Z*_n. Công thức nào cho |Q_n|?"
       }
     ],
     "source_paragraphs": [
@@ -4698,11 +4760,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "C",
+      "text": "3(p+1)(q+1)/4",
       "blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "3(p+1)(q+1)/4"
         }
       ],
       "source_label": "A",
@@ -4710,16 +4772,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "\\(\\frac{3(p+1)(q+1)}4\\)"
         }
       ]
     },
     "B": {
-      "text": "A",
+      "text": "(p+1)(q+1)/4",
       "blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "(p+1)(q+1)/4"
         }
       ],
       "source_label": "B",
@@ -4727,16 +4789,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "\\(\\frac{(p+1)(q+1)}4\\)"
         }
       ]
     },
     "C": {
-      "text": "B",
+      "text": "3(p−1)(q−1)/4",
       "blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "3(p−1)(q−1)/4"
         }
       ],
       "source_label": "C",
@@ -4744,16 +4806,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "\\(\\frac{3(p-1)(q-1)}4\\)"
         }
       ]
     },
     "D": {
-      "text": "D",
+      "text": "(p−1)(q−1)/4",
       "blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "(p−1)(q−1)/4"
         }
       ],
       "source_label": "D",
@@ -4768,11 +4830,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "\\(\\frac{(p-1)(q-1)}4\\)"
         }
       ]
     },
-    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "question": "Cho n=pq với p,q là hai số nguyên tố LẺ phân biệt. Q_n là tập các bình phương của phần tử thuộc nhóm đơn vị Z*_n. Công thức nào cho |Q_n|?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -4790,20 +4852,47 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 179
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Công thức đếm yêu cầu p,q là hai số nguyên tố lẻ; nguồn chưa nêu lẻ."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Công thức đếm yêu cầu p,q là hai số nguyên tố lẻ; nguồn chưa nêu lẻ.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.\nA: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nB: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nC: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nD: Đúng: mỗi mô-đun nguyên tố lẻ có (p−1)/2 bình phương khác 0; nhân theo CRT.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Công thức đếm yêu cầu p,q là hai số nguyên tố lẻ; nguồn chưa nêu lẻ.",
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.\nA: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nB: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nC: Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị.\nD: Đúng: mỗi mô-đun nguyên tố lẻ có (p−1)/2 bình phương khác 0; nhân theo CRT.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          178
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đúng: mỗi mô-đun nguyên tố lẻ có (p−1)/2 bình phương khác 0; nhân theo CRT."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4823,22 +4912,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Với p,q lẻ phân biệt, đếm các bình phương khác 0 ở từng modulo rồi dùng CRT; kiểm tra giả thiết “lẻ”.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Đếm các bình phương khác 0 riêng modulo p và modulo q, rồi nhân hai số lượng theo CRT.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/a86d3c69b122aec30164.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Cho n=pq với p,q là hai số nguyên tố LẺ phân biệt. Q_n là tập các bình phương của phần tử thuộc nhóm đơn vị Z*_n. Công thức nào cho |Q_n|?"
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-cuong-2025-chuong3/a86d3c69b122aec30164.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.",
+      "reference_pages": [
+        178
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/a86d3c69b122aec30164.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-24",
@@ -4849,9 +4948,8 @@
     "source_docx_block": 187,
     "question_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/2ca9f75552f7b3e8c3a7.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Với n>2 và α∈Z*_n, điều kiện nào TƯƠNG ĐƯƠNG với việc α là phần tử sinh của Z*_n?"
       }
     ],
     "source_paragraphs": [
@@ -4863,11 +4961,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "C",
+      "text": "Với mọi ước nguyên tố r của φ(n), α^(φ(n)/r) ≡ 1 (mod n).",
       "blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "Với mọi ước nguyên tố r của φ(n), α^(φ(n)/r) ≡ 1 (mod n)."
         }
       ],
       "source_label": "A",
@@ -4875,16 +4973,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "\\(\\forall r\\mid\\varphi(n),\\ r\\text{ nguyên tố}:\\ \\alpha^{\\varphi(n)/r}\\equiv1\\pmod n\\)"
         }
       ]
     },
     "B": {
-      "text": "A",
+      "text": "Z*_n = {α^i mod n : 1 ≤ i < φ(n)}.",
       "blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "Z*_n = {α^i mod n : 1 ≤ i < φ(n)}."
         }
       ],
       "source_label": "B",
@@ -4892,16 +4990,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "\\(\\mathbb Z_n^*=\\{\\alpha^i\\bmod n:1\\le i<\\varphi(n)\\}\\)"
         }
       ]
     },
     "C": {
-      "text": "D",
+      "text": "Z*_n = {α^i mod n : 0 ≤ i < φ(n)}.",
       "blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "Z*_n = {α^i mod n : 0 ≤ i < φ(n)}."
         }
       ],
       "source_label": "C",
@@ -4916,16 +5014,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "\\(\\mathbb Z_n^*=\\{\\alpha^i\\bmod n:0\\le i<\\varphi(n)\\}\\)"
         }
       ]
     },
     "D": {
-      "text": "B",
+      "text": "ord_n(α) = φ(φ(n)).",
       "blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "ord_n(α) = φ(φ(n))."
         }
       ],
       "source_label": "D",
@@ -4933,11 +5031,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "\\(\\operatorname{ord}_n(\\alpha)=\\varphi(\\varphi(n))\\)"
         }
       ]
     },
-    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "question": "Với n>2 và α∈Z*_n, điều kiện nào TƯƠNG ĐƯƠNG với việc α là phần tử sinh của Z*_n?",
     "source_mark_candidates": {
       "highlight": [
         "C"
@@ -4955,20 +5053,47 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 187
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Hai khoảng số mũ đóng/mở đều tạo cùng tập vì α^φ(n)=1; nhiều phát biểu đúng."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai khoảng số mũ đóng/mở đều tạo cùng tập vì α^φ(n)=1; nhiều phát biểu đúng.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.\nA: Sai: α sinh phải có các lũy thừa này KHÁC 1.\nB: Chỉ có tối đa φ(n)−1 giá trị, thiếu phần tử đơn vị khi α là phần tử sinh.\nC: Đúng: liệt kê đầy đủ một chu kỳ từ 0 tới φ(n)−1.\nD: Sai: cấp phải là φ(n), không phải số lượng phần tử sinh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai khoảng số mũ đóng/mở đều tạo cùng tập vì α^φ(n)=1; nhiều phát biểu đúng.",
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.\nA: Sai: α sinh phải có các lũy thừa này KHÁC 1.\nB: Chỉ có tối đa φ(n)−1 giá trị, thiếu phần tử đơn vị khi α là phần tử sinh.\nC: Đúng: liệt kê đầy đủ một chu kỳ từ 0 tới φ(n)−1.\nD: Sai: cấp phải là φ(n), không phải số lượng phần tử sinh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          176
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai: α sinh phải có các lũy thừa này KHÁC 1."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Chỉ có tối đa φ(n)−1 giá trị, thiếu phần tử đơn vị khi α là phần tử sinh."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: liệt kê đầy đủ một chu kỳ từ 0 tới φ(n)−1."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sai: cấp phải là φ(n), không phải số lượng phần tử sinh."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4988,22 +5113,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Nhóm do α sinh có số phần tử bằng ord(α); kiểm tra khoảng số mũ và đừng nhầm với φ(φ(n)).",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Một nhóm có φ(n) phần tử cần đủ một chu kỳ lũy thừa, kể cả phần tử đơn vị \\(\\alpha ^{0}\\).",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/2ca9f75552f7b3e8c3a7.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Với n>2 và α∈Z*_n, điều kiện nào TƯƠNG ĐƯƠNG với việc α là phần tử sinh của Z*_n?"
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-cuong-2025-chuong3/2ca9f75552f7b3e8c3a7.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.",
+      "reference_pages": [
+        176
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/2ca9f75552f7b3e8c3a7.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-25",
@@ -5920,6 +6055,10 @@
     "source_docx_block": 235,
     "question_blocks": [
       {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
+      {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-chuong3/f6e7e30dacd9b54eadeb.png",
         "alt": "Hình/công thức gốc từ DOCX"
@@ -6032,34 +6171,61 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 235
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "independent_check": {
-      "method": "exact_integer_or_GF_arithmetic",
-      "computed": "0",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Ký hiệu Jacobi bằng 0 do gcd(2634,889785)=3; sửa khóa nguồn −1, không sửa dữ liệu.\nA: Giá trị phương án -1; kết quả tính độc lập 0.\nB: Giá trị phương án 1; kết quả tính độc lập 0.\nC: Giá trị phương án 0; kết quả tính độc lập 0.\nD: Giá trị phương án None; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178, 179.",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
       ],
-      "complete": true,
-      "option_values": {
-        "A": "-1",
-        "B": "1",
-        "C": "0",
-        "D": "Không tồn tại"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['C']; giữ dấu gốc để đối chiếu, tạm không chấm."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"0\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['C']; giữ dấu gốc để đối chiếu, tạm không chấm.",
-    "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"0\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['C']; giữ dấu gốc để đối chiếu, tạm không chấm.",
+      "explanation": "Ký hiệu Jacobi bằng 0 do gcd(2634,889785)=3; sửa khóa nguồn −1, không sửa dữ liệu.\nA: Giá trị phương án -1; kết quả tính độc lập 0.\nB: Giá trị phương án 1; kết quả tính độc lập 0.\nC: Giá trị phương án 0; kết quả tính độc lập 0.\nD: Giá trị phương án None; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 178, 179.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          178,
+          179
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": -1,
+          "reason": "Giá trị phương án -1; kết quả tính độc lập 0."
+        },
+        "B": {
+          "matches": false,
+          "value": 1,
+          "reason": "Giá trị phương án 1; kết quả tính độc lập 0."
+        },
+        "C": {
+          "matches": true,
+          "value": 0,
+          "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+        },
+        "D": {
+          "matches": false,
+          "value": null,
+          "reason": "Giá trị phương án None; kết quả tính độc lập 0."
+        }
+      },
+      "numeric": {
+        "expected": 0,
+        "base": 10,
+        "values": {
+          "A": -1,
+          "B": 1,
+          "C": 0,
+          "D": null
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6079,9 +6245,13 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Tách lũy thừa của 2, dùng luật tương hỗ Jacobi và tiếp tục lấy phần dư để giảm số.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Tính gcd tử và mẫu trước. Nếu không nguyên tố cùng nhau thì không cần dùng luật tương hỗ.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
+      {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
       {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-chuong3/f6e7e30dacd9b54eadeb.png",
@@ -6094,7 +6264,35 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "exact_integer_or_GF_arithmetic",
+      "computed": "0",
+      "valid_options": [
+        "C"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "-1",
+        "B": "1",
+        "C": "0",
+        "D": "Không tồn tại"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Ký hiệu Jacobi bằng 0 do gcd(2634,889785)=3; sửa khóa nguồn −1, không sửa dữ liệu.",
+      "reference_pages": [
+        178,
+        179
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/f6e7e30dacd9b54eadeb.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-31",
@@ -7524,6 +7722,10 @@
     "source_docx_block": 307,
     "question_blocks": [
       {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
+      {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-chuong3/e3e2c4b19fed6ebe25a2.png",
         "alt": "Hình/công thức gốc từ DOCX"
@@ -7572,11 +7774,11 @@
       ]
     },
     "C": {
-      "text": "294",
+      "text": "588",
       "blocks": [
         {
           "type": "text",
-          "text": "294"
+          "text": "588"
         }
       ],
       "source_label": "C",
@@ -7597,7 +7799,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "294"
+          "text": "588"
         }
       ]
     },
@@ -7636,32 +7838,60 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 307
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "independent_check": {
-      "method": "exact_integer_or_GF_arithmetic",
-      "computed": "588",
-      "valid_options": [],
-      "complete": true,
-      "option_values": {
-        "A": "394",
-        "B": "296",
-        "C": "294",
-        "D": "298"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"588\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "4802=2×7^4 có nhóm đơn vị cyclic; φ(φ(4802))=588, không có trong phương án cũ.\nA: Giá trị phương án 394; kết quả tính độc lập 588.\nB: Giá trị phương án 296; kết quả tính độc lập 588.\nC: Giá trị phương án 588; kết quả tính độc lập 588.\nD: Giá trị phương án 298; kết quả tính độc lập 588.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"588\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm.",
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "4802=2×7^4 có nhóm đơn vị cyclic; φ(φ(4802))=588, không có trong phương án cũ.\nA: Giá trị phương án 394; kết quả tính độc lập 588.\nB: Giá trị phương án 296; kết quả tính độc lập 588.\nC: Giá trị phương án 588; kết quả tính độc lập 588.\nD: Giá trị phương án 298; kết quả tính độc lập 588.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          176
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 394,
+          "reason": "Giá trị phương án 394; kết quả tính độc lập 588."
+        },
+        "B": {
+          "matches": false,
+          "value": 296,
+          "reason": "Giá trị phương án 296; kết quả tính độc lập 588."
+        },
+        "C": {
+          "matches": true,
+          "value": 588,
+          "reason": "Giá trị phương án 588; kết quả tính độc lập 588."
+        },
+        "D": {
+          "matches": false,
+          "value": 298,
+          "reason": "Giá trị phương án 298; kết quả tính độc lập 588."
+        }
+      },
+      "numeric": {
+        "expected": 588,
+        "base": 10,
+        "values": {
+          "A": 394,
+          "B": 296,
+          "C": 588,
+          "D": 298
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -7681,9 +7911,13 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Trước khi dùng φ(φ(n)), kiểm tra nhóm có phần tử sinh; nếu không cyclic thì không áp công thức đếm đó.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Kiểm tra n có dạng 2p^k rồi tính φ hai lần; không lấy φ(n)/2 thay cho φ(φ(n)).",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
+      {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
       {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-chuong3/e3e2c4b19fed6ebe25a2.png",
@@ -7696,7 +7930,32 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "exact_integer_or_GF_arithmetic",
+      "computed": "588",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "394",
+        "B": "296",
+        "C": "294",
+        "D": "298"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "4802=2×7^4 có nhóm đơn vị cyclic; φ(φ(4802))=588, không có trong phương án cũ.",
+      "reference_pages": [
+        176
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/e3e2c4b19fed6ebe25a2.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-40",
@@ -8262,9 +8521,8 @@
     "source_docx_block": 339,
     "question_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/ba148c98e2c6b08fbaf6.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Bài chuẩn hóa dùng NHẤT QUÁN nhóm Z*19. Với các phần tử 2,9,13,17 theo đúng thứ tự này, ghi 1 nếu là phần tử sinh, 0 nếu không. Chọn chuỗi bốn bit."
       }
     ],
     "source_paragraphs": [
@@ -8356,7 +8614,7 @@
         }
       ]
     },
-    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "question": "Bài chuẩn hóa dùng NHẤT QUÁN nhóm Z*19. Với các phần tử 2,9,13,17 theo đúng thứ tự này, ghi 1 nếu là phần tử sinh, 0 nếu không. Chọn chuỗi bốn bit.",
     "source_mark_candidates": {
       "highlight": [
         "C"
@@ -8374,20 +8632,60 @@
       "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
       "docx_block": 339
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Hình ghi nhóm Z*19 nhưng phần yêu cầu lại ghi Z*10."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hình ghi nhóm Z*19 nhưng phần yêu cầu lại ghi Z*10.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn dùng cả 19 và 10; chọn công khai modulo 19 để biên soạn phiên bản nhất quán, không khẳng định 19 là ý định của đề gốc. Tính bậc của từng phần tử modulo 19, đánh dấu 1 khi bậc bằng 18.\nA: Giá trị phương án 13; kết quả tính độc lập 10.\nB: Giá trị phương án 14; kết quả tính độc lập 10.\nC: Giá trị phương án 10; kết quả tính độc lập 10.\nD: Giá trị phương án 6; kết quả tính độc lập 10.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hình ghi nhóm Z*19 nhưng phần yêu cầu lại ghi Z*10.",
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn dùng cả 19 và 10; chọn công khai modulo 19 để biên soạn phiên bản nhất quán, không khẳng định 19 là ý định của đề gốc. Tính bậc của từng phần tử modulo 19, đánh dấu 1 khi bậc bằng 18.\nA: Giá trị phương án 13; kết quả tính độc lập 10.\nB: Giá trị phương án 14; kết quả tính độc lập 10.\nC: Giá trị phương án 10; kết quả tính độc lập 10.\nD: Giá trị phương án 6; kết quả tính độc lập 10.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          176
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 13,
+          "reason": "Giá trị phương án 13; kết quả tính độc lập 10."
+        },
+        "B": {
+          "matches": false,
+          "value": 14,
+          "reason": "Giá trị phương án 14; kết quả tính độc lập 10."
+        },
+        "C": {
+          "matches": true,
+          "value": 10,
+          "reason": "Giá trị phương án 10; kết quả tính độc lập 10."
+        },
+        "D": {
+          "matches": false,
+          "value": 6,
+          "reason": "Giá trị phương án 6; kết quả tính độc lập 10."
+        }
+      },
+      "numeric": {
+        "expected": 10,
+        "base": 2,
+        "values": {
+          "A": 13,
+          "B": 14,
+          "C": 10,
+          "D": 6
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -8407,22 +8705,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Kiểm tra từng phần tử bằng bậc của nó; hình nguồn ghi hai modulo khác nhau, cần đọc cảnh báo.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: 18=2×3²; với từng a, thử \\(a^{9}\\) và \\(a^{6}\\) modulo 19. Phần tử sinh phải qua cả hai phép thử khác 1.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-chuong3/ba148c98e2c6b08fbaf6.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "type": "text",
+        "text": "Bài chuẩn hóa dùng NHẤT QUÁN nhóm Z*19. Với các phần tử 2,9,13,17 theo đúng thứ tự này, ghi 1 nếu là phần tử sinh, 0 nếu không. Chọn chuỗi bốn bit."
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-cuong-2025-chuong3/ba148c98e2c6b08fbaf6.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn dùng cả 19 và 10; chọn công khai modulo 19 để biên soạn phiên bản nhất quán, không khẳng định 19 là ý định của đề gốc. Tính bậc của từng phần tử modulo 19, đánh dấu 1 khi bậc bằng 18.",
+      "reference_pages": [
+        176
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-chuong3/ba148c98e2c6b08fbaf6.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong3-44",

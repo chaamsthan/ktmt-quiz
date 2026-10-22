@@ -1,0 +1,4479 @@
+{
+  "nmmmh-de-thi-nmmmh-4": {
+    "id": "nmmmh-de-thi-nmmmh-4",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó.",
+      "B": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã.",
+      "C": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
+      "D": "Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau."
+    },
+    "reference_pages": [
+      140,
+      141,
+      142,
+      146,
+      148
+    ],
+    "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: ECB giải mã từng khối độc lập. Với CBC phải xét cả khối mã trước; OFB dùng đầu ra mã hóa IV làm dòng khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+    "correct_answer": "D",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã.",
+      "B": "Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.",
+      "C": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
+      "D": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó."
+    },
+    "reference_pages": [
+      140,
+      141,
+      142,
+      146,
+      148
+    ],
+    "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "D": {
+        "matches": true,
+        "reason": "SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: ECB giải mã từng khối độc lập. Với CBC phải xét cả khối mã trước; OFB dùng đầu ra mã hóa IV làm dòng khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-13": {
+    "id": "nmmmh-de-thi-k16-2-13",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.",
+      "B": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó.",
+      "C": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
+      "D": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã."
+    },
+    "reference_pages": [
+      140,
+      141,
+      142,
+      146,
+      148
+    ],
+    "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Phát biểu phù hợp công thức chế độ."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: ECB giải mã từng khối độc lập. Với CBC phải xét cả khối mã trước; OFB dùng đầu ra mã hóa IV làm dòng khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2045": {
+    "id": "nmmmh-de-thi-k16-3-2045",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV luôn cho hai dãy bản mã khác nhau.",
+      "B": "Trong chế độ ECB, hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.",
+      "C": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
+      "D": "Trong chế độ ECB, một hay nhiều bit sai trong một khối mã đơn lẻ chỉ ảnh hưởng tới chính việc giải mã khối đó."
+    },
+    "reference_pages": [
+      140,
+      142,
+      146
+    ],
+    "reason": "Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: mã hóa xác định cho cùng dữ liệu, khóa và IV."
+      },
+      "B": {
+        "matches": false,
+        "reason": "ECB giữ tính bằng nhau của hai khối dưới cùng khóa."
+      },
+      "C": {
+        "matches": false,
+        "reason": "E_K là song ánh trên khối IV."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Lỗi ECB chỉ ảnh hưởng chính khối đó."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Cố định bản rõ, khóa và IV thì công thức mã hóa không có nguồn ngẫu nhiên mới.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-5": {
+    "id": "nmmmh-de-thi-nmmmh-5",
+    "correct_answer": "D",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
+    "options": {
+      "A": "Bảo vệ tính toàn vẹn của mẫu tin",
+      "B": "Kiểm chứng danh tính và nguồn gốc",
+      "C": "Chống chối bỏ",
+      "D": "Tất cả đáp án trên"
+    },
+    "reference_pages": [
+      192
+    ],
+    "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+    "correct_answer": "D",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
+    "options": {
+      "A": "Bảo vệ tính toàn vẹn của mẫu tin.",
+      "B": "Kiểm chứng danh tính và nguồn gốc.",
+      "C": "Chống chối bỏ.",
+      "D": "Tất cả đáp án trên."
+    },
+    "reference_pages": [
+      192
+    ],
+    "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-36": {
+    "id": "nmmmh-de-thi-k16-2-36",
+    "correct_answer": "D",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
+    "options": {
+      "A": "Bảo vệ tính toàn vẹn của bản tin.",
+      "B": "Kiểm chứng danh tính và nguồn gốc.",
+      "C": "Không chối từ bản gốc.",
+      "D": "Cả A, B và C."
+    },
+    "reference_pages": [
+      192
+    ],
+    "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2038": {
+    "id": "nmmmh-de-thi-k16-3-2038",
+    "correct_answer": "C",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
+    "options": {
+      "A": "Kiểm chứng danh tính và nguồn gốc, chống chối bỏ.",
+      "B": "Bảo vệ tính toàn vẹn của thông tin, kiểm chứng danh tính và nguồn gốc.",
+      "C": "Bảo vệ tính toàn vẹn của thông tin, kiểm chứng danh tính, nguồn gốc và chống chối bỏ.",
+      "D": "Bảo vệ tính toàn vẹn và chống chối bỏ."
+    },
+    "reference_pages": [
+      192
+    ],
+    "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-7": {
+    "id": "nmmmh-de-thi-nmmmh-7",
+    "correct_answer": "B",
+    "question": "Sử dụng hệ mật Elgamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*₂₁₁. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?",
+    "options": {
+      "A": "Khóa riêng của A k_d = 33",
+      "B": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (28, 192)",
+      "C": "Khóa công khai k_a của A là α^a = 89",
+      "D": "Tất cả đáp án trên"
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A k_d = 33"
+      },
+      "B": {
+        "matches": true,
+        "reason": "β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai k_a của A là α^a = 89"
+      },
+      "D": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên"
+      }
+    },
+    "numeric": {
+      "beta": 89,
+      "gamma": 28,
+      "delta": 192,
+      "plaintext": 56
+    },
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=α^k và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo γ^a.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+    "correct_answer": "B",
+    "question": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?",
+    "options": {
+      "A": "Khóa riêng của A là k_A = 33.",
+      "B": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (28, 192).",
+      "C": "Khóa công khai của A là α^a = 89.",
+      "D": "Tất cả đáp án trên."
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_A = 33."
+      },
+      "B": {
+        "matches": true,
+        "reason": "β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai của A là α^a = 89."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên."
+      }
+    },
+    "numeric": {
+      "beta": 89,
+      "gamma": 28,
+      "delta": 192,
+      "plaintext": 56
+    },
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=α^k và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo γ^a.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-26": {
+    "id": "nmmmh-de-thi-k16-2-26",
+    "correct_answer": "C",
+    "question": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z₂₁₁*. Giả sử người dùng A chọn khóa bí mật a = 113, chọn số ngẫu nhiên k = 67, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?",
+    "options": {
+      "A": "Khóa riêng của A là k_d = 67.",
+      "B": "Khóa công khai k_e của A là α^a = 131.",
+      "C": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (72, 74).",
+      "D": "A, B, C đều đúng."
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_d = 67."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai k_e của A là α^a = 131."
+      },
+      "C": {
+        "matches": true,
+        "reason": "β=131, γ=72, δ=74; m=δ(γ^a)^−1 mod 211=56."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; A, B, C đều đúng."
+      }
+    },
+    "numeric": {
+      "beta": 131,
+      "gamma": 72,
+      "delta": 74,
+      "plaintext": 56
+    },
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=α^k và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo γ^a.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2047": {
+    "id": "nmmmh-de-thi-k16-3-2047",
+    "correct_answer": "D",
+    "question": "Sử dụng hệ mật ElGamal với số nguyên tố p = 211, phần tử sinh α = 41 của Z*211. Giả sử người dùng A chọn khóa bí mật a = 117, chọn số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG phép khôi phục bản rõ từ cặp bản mã đã cho?",
+    "options": {
+      "A": "Khóa công khai ke của A là αᵃ = 89.",
+      "B": "Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28).",
+      "C": "Khóa riêng của A là kd = 33.",
+      "D": "Khôi phục bản rõ bằng cách tính m = γ^(p−1−a) · δ = 97 · 192 mod 211 = 56."
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai ke của A là αᵃ = 89."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28)."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là kd = 33."
+      },
+      "D": {
+        "matches": true,
+        "reason": "β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56."
+      }
+    },
+    "numeric": {
+      "beta": 89,
+      "gamma": 28,
+      "delta": 192,
+      "plaintext": 56
+    },
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=α^k và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo γ^a.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-9": {
+    "id": "nmmmh-de-thi-nmmmh-9",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n.",
+      "B": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n × q + r; 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+      "C": "a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
+      "D": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7."
+    },
+    "reference_pages": [
+      171,
+      172
+    ],
+    "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+      "B": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7.",
+      "C": "Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n.",
+      "D": "a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n."
+    },
+    "reference_pages": [
+      171,
+      172
+    ],
+    "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-24": {
+    "id": "nmmmh-de-thi-k16-2-24",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "a ≡ b (mod n) khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
+      "B": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n × q + r; 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư.",
+      "C": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7.",
+      "D": "Số b được gọi là đại diện của a mod n nếu a ≡ b (mod n) và 0 ≤ b < n."
+    },
+    "reference_pages": [
+      171,
+      172
+    ],
+    "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2056": {
+    "id": "nmmmh-de-thi-k16-3-2056",
+    "correct_answer": "D",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "a ≡ b (mod n) khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
+      "B": "Số b được gọi là đại diện của a mod n nếu a ≡ b (mod n) và 0 ≤ b < n.",
+      "C": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7.",
+      "D": "Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n × q + r, 0 < r < n. Khi đó q được gọi là thương và r được gọi là số dư."
+    },
+    "reference_pages": [
+      171,
+      172
+    ],
+    "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+      },
+      "D": {
+        "matches": true,
+        "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-28": {
+    "id": "nmmmh-de-thi-nmmmh-28",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
+      "B": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
+      "C": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
+      "D": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện)."
+    },
+    "reference_pages": [
+      183,
+      191,
+      192
+    ],
+    "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
+      "B": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
+      "C": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).",
+      "D": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai."
+    },
+    "reference_pages": [
+      183,
+      191,
+      192
+    ],
+    "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-40": {
+    "id": "nmmmh-de-thi-k16-2-40",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
+      "B": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
+      "C": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).",
+      "D": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
+    },
+    "reference_pages": [
+      183,
+      191,
+      192
+    ],
+    "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2046": {
+    "id": "nmmmh-de-thi-k16-3-2046",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
+      "B": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
+      "C": "Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).",
+      "D": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
+    },
+    "reference_pages": [
+      183,
+      191,
+      192
+    ],
+    "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-1": {
+    "id": "nmmmh-de-cuong-2025-chuong3-1",
+    "correct_answer": "D",
+    "question": "Phát biểu nào sau đây về hệ mật khóa công khai là SAI?",
+    "options": {
+      "A": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
+      "B": "Hệ mật khoá công khai không đảm bảo được độ mật tuyệt đối",
+      "C": "Cặp khóa khóa riêng và khóa công khai của hệ mật khóa công khai có mối quan hệ toán học với nhau.",
+      "D": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
+    },
+    "reference_pages": [
+      183,
+      191,
+      192
+    ],
+    "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+      },
+      "D": {
+        "matches": true,
+        "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-29": {
+    "id": "nmmmh-de-thi-nmmmh-29",
+    "correct_answer": "B",
+    "question": "Trong hệ mật Rabin, giả sử p = 199, q = 211, bản rõ m = 1234. Phương án nào nêu ĐÚNG giá trị bản mã c của m = 1234?",
+    "options": {
+      "A": "Đầu vào phép lấy căn của bản mã đã cho là c=11153, p=199, q=211.",
+      "B": "Bản mã c = 11152.",
+      "C": "4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820).",
+      "D": "Tất cả đáp án trên"
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai giá trị đầu vào: c thực tế là 11152, không phải 11153."
+      },
+      "B": {
+        "matches": true,
+        "reason": "c=m² mod pq=11152."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Danh sách căn tương ứng m=1234, không phải m=1731."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Không thể tất cả đúng vì hai mệnh đề sai."
+      }
+    },
+    "numeric": {
+      "n": 41989,
+      "ciphertext": 11152
+    },
+    "hint": "Mẹo: Chỉ cần bình phương bản rõ rồi lấy dư modulo pq; không cần tính bốn căn.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+    "correct_answer": "B",
+    "question": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Phương án nào nêu ĐÚNG giá trị bản mã c của m = 1234?",
+    "options": {
+      "A": "Đầu vào phép lấy căn của bản mã đã cho là c=11153, p=199, q=211.",
+      "B": "Bản mã c = 11152.",
+      "C": "4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820).",
+      "D": "Tất cả đáp án trên."
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai giá trị đầu vào: c thực tế là 11152, không phải 11153."
+      },
+      "B": {
+        "matches": true,
+        "reason": "c=m² mod pq=11152."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Danh sách căn tương ứng m=1234, không phải m=1731."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Không thể tất cả đúng vì hai mệnh đề sai."
+      }
+    },
+    "numeric": {
+      "n": 41989,
+      "ciphertext": 11152
+    },
+    "hint": "Mẹo: Chỉ cần bình phương bản rõ rồi lấy dư modulo pq; không cần tính bốn căn.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-35": {
+    "id": "nmmmh-de-thi-k16-2-35",
+    "correct_answer": "A",
+    "question": "Đáp án nào dưới đây là kết quả của φ(765)?",
+    "options": {
+      "A": "384",
+      "B": "288",
+      "C": "256",
+      "D": "567"
+    },
+    "reference_pages": [
+      175,
+      176
+    ],
+    "reason": "Không phương án nguồn nào bằng φ(765); sửa một phương án, giữ nguyên n và thứ tự nhãn.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 384,
+        "reason": "Giá trị phương án 384; kết quả tính độc lập 384."
+      },
+      "B": {
+        "matches": false,
+        "value": 288,
+        "reason": "Giá trị phương án 288; kết quả tính độc lập 384."
+      },
+      "C": {
+        "matches": false,
+        "value": 256,
+        "reason": "Giá trị phương án 256; kết quả tính độc lập 384."
+      },
+      "D": {
+        "matches": false,
+        "value": 567,
+        "reason": "Giá trị phương án 567; kết quả tính độc lập 384."
+      }
+    },
+    "numeric": {
+      "expected": 384,
+      "base": 10,
+      "values": {
+        "A": 384,
+        "B": 288,
+        "C": 256,
+        "D": 567
+      }
+    },
+    "hint": "Mẹo: Phân tích 765=3²×5×17; tính n∏(1−1/p) với mỗi ước nguyên tố chỉ lấy một lần.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2036": {
+    "id": "nmmmh-de-thi-k16-3-2036",
+    "correct_answer": "C",
+    "question": "Trong hệ mật Rabin, giả sử p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?",
+    "options": {
+      "A": "Các phép toán trên hệ mật này đều thực hiện trên Z49189.",
+      "B": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là các giá trị c = 1152, và p = 199; q = 211.",
+      "C": "Bản mã c = 11152.",
+      "D": "4 nghiệm căn bậc hai của bản mã c thu được khi giải mã bản rõ m = 1731 là (1234, 40755, 14169, 27820)."
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Mô-đun phải là 199×211=41989, không phải 49189."
+      },
+      "B": {
+        "matches": false,
+        "reason": "1152 không bằng 1234² mod 41989."
+      },
+      "C": {
+        "matches": true,
+        "reason": "11152=1234² mod 41989."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Các căn này không ứng với bản rõ 1731."
+      }
+    },
+    "numeric": {
+      "ciphertext": 11152
+    },
+    "hint": "Mẹo: Tính pq trước rồi bình phương m lấy dư; để ý phương án thiếu chữ số.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-nmmmh-32": {
+    "id": "nmmmh-de-thi-nmmmh-32",
+    "correct_answer": "D",
+    "question": "Theo mô hình TA và các định nghĩa chứng thực, thỏa thuận, phân phối khóa trong tài liệu môn học, phương án nào tổng hợp ĐẦY ĐỦ các phát biểu đúng sau đây?",
+    "options": {
+      "A": "Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ ký số.",
+      "B": "Thỏa thuận khóa thiết lập khóa bí mật chung với sự tham gia đóng góp của các bên; không chỉ là một bên chuyển sẵn khóa cho bên kia.",
+      "C": "Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority).",
+      "D": "Tất cả đáp án trên"
+    },
+    "reference_pages": [
+      199,
+      202,
+      203
+    ],
+    "reason": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng nhưng chỉ nêu chứng thực."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng nhưng chỉ nêu thỏa thuận."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình TA, nhưng chỉ nêu phân phối."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Tổng hợp đủ ba nhận định đúng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt ba việc: gắn danh tính với khóa, cùng đóng góp tạo khóa, và TA phân phối thông tin khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39": {
+    "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+    "correct_answer": "D",
+    "question": "Theo mô hình TA và các định nghĩa chứng thực, thỏa thuận, phân phối khóa trong tài liệu môn học, phương án nào tổng hợp ĐẦY ĐỦ các phát biểu đúng sau đây?",
+    "options": {
+      "A": "Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ kí số.",
+      "B": "Thỏa thuận khóa thiết lập khóa bí mật chung với sự tham gia đóng góp của các bên; không chỉ là một bên chuyển sẵn khóa cho bên kia.",
+      "C": "Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng, với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority).",
+      "D": "Tất cả đáp án trên."
+    },
+    "reference_pages": [
+      199,
+      202,
+      203
+    ],
+    "reason": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng nhưng chỉ nêu chứng thực."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng nhưng chỉ nêu thỏa thuận."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng trong mô hình TA, nhưng chỉ nêu phân phối."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Tổng hợp đủ ba nhận định đúng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt ba việc: gắn danh tính với khóa, cùng đóng góp tạo khóa, và TA phân phối thông tin khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-37": {
+    "id": "nmmmh-de-thi-k16-2-37",
+    "correct_answer": "A",
+    "question": "Theo mô hình TA trong tài liệu môn học, khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Thỏa thuận khóa bí mật chỉ có thể thực hiện nếu các bên đã có sẵn một kênh truyền bí mật.",
+      "B": "Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng với sự điều phối của một cơ quan được ủy thác gọi là TA (Trusted Authority).",
+      "C": "Chứng thực khóa công khai mục đích để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ ký số.",
+      "D": "TA là nơi thực hiện việc phân phối và quản trị khóa."
+    },
+    "reference_pages": [
+      199,
+      202,
+      203
+    ],
+    "reason": "Làm rõ mô hình giáo trình; thay phát biểu mơ hồ bằng hạn chế sai có phản ví dụ DH.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "DH thiết lập khóa chung qua kênh công khai; xác thực là yêu cầu riêng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng trong mô hình TA đang xét."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Chứng thực liên kết danh tính và khóa công khai."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng về vai trò TA trong mô hình tài liệu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Nhớ mục đích của Diffie–Hellman: thiết lập khóa qua kênh không an toàn; chống giả mạo cần thêm xác thực.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-4": {
+    "id": "nmmmh-de-thi-k16-2-4",
+    "correct_answer": "C",
+    "question": "Phương án nào liệt kê ĐẦY ĐỦ ba kỹ thuật có thể dùng kiểm tra toàn vẹn trong tài liệu? Với hàm băm đơn, giả sử giá trị băm tham chiếu được bảo vệ tin cậy.",
+    "options": {
+      "A": "Hàm băm",
+      "B": "MAC",
+      "C": "Chữ ký số, hàm băm, MAC",
+      "D": "Chữ ký số"
+    },
+    "reference_pages": [
+      15,
+      192,
+      193
+    ],
+    "reason": "Hỏi danh sách đầy đủ; yêu cầu bảo vệ giá trị băm tham chiếu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chỉ hàm băm, chưa đủ ba kỹ thuật."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ MAC, chưa đủ ba kỹ thuật."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đủ chữ ký số, hàm băm, MAC."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Chỉ chữ ký số, chưa đủ ba kỹ thuật."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Câu hỏi yêu cầu danh sách đầy đủ, không chỉ một công cụ hợp lệ; digest không được tin cậy thì không chống sửa dữ liệu.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-7": {
+    "id": "nmmmh-de-thi-k16-2-7",
+    "correct_answer": "A",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Cùng một hàm băm mật mã, cùng đầu vào vẫn có thể cho các đầu ra ngẫu nhiên khác nhau ở mỗi lần băm.",
+      "B": "Hàm băm có tính kháng va chạm mạnh tức là không có khả năng về mặt tính toán để tìm 2 đầu vào khác nhau bất kỳ x và x′ để h(x) = h(x′).",
+      "C": "Hàm băm có đặc tính một chiều tức với đầu ra được xác định trước không có khả năng tính toán để tìm 1 đầu vào bất kỳ mà khi băm sẽ cho ra đầu ra tương ứng (tìm x′: h(x′) = y, với y cho trước và không biết đầu vào tương ứng).",
+      "D": "Kháng tiền ảnh thứ hai: với x đã cho, không khả thi về tính toán để tìm x′≠x sao cho h(x′)=h(x)."
+    },
+    "reference_pages": [
+      193,
+      194
+    ],
+    "reason": "Làm rõ tính xác định của hàm băm và sửa định nghĩa tiền ảnh thứ hai.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "SAI: hàm băm là xác định."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng: định nghĩa kháng va chạm."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng: kháng tiền ảnh."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng: đầu vào gốc x được cho trước."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt ba bài toán: tìm đầu vào từ digest, tìm đầu vào thứ hai cho x có sẵn, và tìm bất kỳ cặp va chạm.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-11": {
+    "id": "nmmmh-de-thi-k16-2-11",
+    "correct_answer": "C",
+    "question": "Trong hệ mã RSA ta có khóa công khai k_e = (n, e), khóa bí mật k_d = d. Khẳng định nào sau đây là SAI?",
+    "options": {
+      "A": "Khóa bí mật có thể tính bằng d ≡ e⁻¹ (mod φ(n)).",
+      "B": "Độ an toàn của hệ mật RSA dựa trên tính khó giải của bài toán phân tích số nguyên thành tích của các thừa số nguyên tố.",
+      "C": "Chọn số mũ e phải thỏa mãn điều kiện gcd(e, n) = 1.",
+      "D": "Để truyền tin mật, bản mã được tính như sau: y = x^e mod n."
+    },
+    "reference_pages": [
+      184,
+      185
+    ],
+    "reason": "Chuẩn hóa f(n) thành φ(n) theo công thức sinh khóa RSA trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng vì ed≡1 mod φ(n)."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Phân tích n là cơ sở độ khó thông thường; không khẳng định tương đương đã được chứng minh."
+      },
+      "C": {
+        "matches": true,
+        "reason": "SAI: điều kiện cần là gcd(e,φ(n))=1, không phải gcd(e,n)=1."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng: mã hóa RSA lấy modulo n."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Khi chọn số mũ dùng φ(n), khi mã hóa dùng n; hai mô-đun này không được đổi chỗ.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-2-25": {
+    "id": "nmmmh-de-thi-k16-2-25",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "options": {
+      "A": "Nguyên lý khuếch tán được tạo bởi phép thế.",
+      "B": "Theo Shannon có 2 nguyên lý cơ bản để đảm bảo độ an toàn cho mã khối, đó là nguyên lý xáo trộn và nguyên lý khuếch tán.",
+      "C": "Nguyên lý xáo trộn được tạo bởi phép hoán vị.",
+      "D": "Nguyên lý Shannon chỉ áp dụng lên từng bit độc lập, không thể áp dụng phép thế trên byte."
+    },
+    "reference_pages": [
+      84
+    ],
+    "reason": "Thay khẳng định cấp bit mơ hồ bằng phát biểu sai rõ ràng.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Gán nhầm mục tiêu confusion/diffusion."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: hai mục tiêu confusion và diffusion."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Gán nhầm mục tiêu confusion/diffusion."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai: AES thực hiện phép thế byte và khuếch tán."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tách mục tiêu thiết kế (confusion/diffusion) khỏi công cụ thực hiện (thay thế/hoán vị).",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2052": {
+    "id": "nmmmh-de-thi-k16-3-2052",
+    "correct_answer": "B",
+    "question": "Chọn khẳng định SAI. Ký hiệu (a/n) là Jacobi khi n là hợp số dương lẻ, và là Legendre khi n là nguyên tố lẻ; trong quy tắc cho 2, n là số dương lẻ.",
+    "options": {
+      "A": "4 căn bậc hai của 4 mod 21 là: 2; 5; 16; 19.",
+      "B": "(21/235) = −1",
+      "C": "(13/17) = 1   [ký hiệu Legendre].",
+      "D": "(2/n) = −1 nếu n ≡ 3 (hoặc 5) (mod 8)."
+    },
+    "reference_pages": [
+      178,
+      179
+    ],
+    "reason": "Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Bốn căn của 4 modulo 21 là 2,5,16,19."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: Jacobi(21,235)=1, không phải −1."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Legendre(13,17)=1 vì 8²≡13 mod 17."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đúng theo quy tắc bổ sung cho ký hiệu Jacobi."
+      }
+    },
+    "numeric": {
+      "jacobi_21_235": 1
+    },
+    "hint": "Mẹo: Tách mẫu 235=5×47 rồi nhân hai ký hiệu; khi mẫu hợp số không dùng định nghĩa Legendre trực tiếp.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-2": {
+    "id": "nmmmh-de-cuong-2025-chuong1-2",
+    "correct_answer": "B",
+    "question": "Phát biểu nào sau đây là ĐÚNG về mã hóa dữ liệu?",
+    "options": {
+      "A": "Mã hóa dữ liệu CHỈ được sử dụng trong lĩnh vực quân sự.",
+      "B": "Chuyển bản rõ có thể đọc được thành thông tin không thể đọc được và được gọi là bản mã.",
+      "C": "Có mục đích là để che giấu sự tồn tại của thông điệp bí mật cần trao đổi.",
+      "D": "Thường sử dụng hàm băm mật mã hoặc chữ kí số để mã hóa dữ liệu"
+    },
+    "reference_pages": [
+      21,
+      23
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai: có cả ứng dụng dân sự."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: chuyển bản rõ thành bản mã."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đó là che giấu thông tin, không phải mục tiêu định nghĩa mã hóa."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Băm/chữ ký không thay thế phép mã hóa bảo mật."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt che giấu nội dung với che giấu sự tồn tại của thông điệp.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-10": {
+    "id": "nmmmh-de-cuong-2025-chuong1-10",
+    "correct_answer": "C",
+    "question": "Theo mô hình mã hóa đối xứng và chữ ký số thông thường trong môn học, phát biểu nào ĐÚNG?",
+    "options": {
+      "A": "Được sử dụng để tạo chữ kí số.",
+      "B": "Sử dụng hai khóa khác nhau cho mã hóa/giải mã và được dùng để kí số.",
+      "C": "Có tốc độ mã hóa/giải mã cao",
+      "D": "Có khả năng đảm bảo tính chống chối bỏ và tốc độ mã hóa/giải mã cao"
+    },
+    "reference_pages": [
+      24,
+      191
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Chữ ký số thông thường dùng khóa riêng/công khai."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Mô tả hệ bất đối xứng."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: phù hợp mã hóa dữ liệu lớn."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Khóa chung không xác định riêng người ký để chống chối bỏ."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Khóa chung phù hợp bảo mật nhanh, không phân biệt ai trong hai bên đã tạo thông điệp.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-11": {
+    "id": "nmmmh-de-cuong-2025-chuong1-11",
+    "correct_answer": "D",
+    "question": "Theo phân loại các hệ mật thông thường của môn học, khẳng định nào về mật mã đối xứng là KHÔNG ĐÚNG?",
+    "options": {
+      "A": "Đảm bảo được tính bí mật của thông tin.",
+      "B": "Là hệ mật dùng một khóa cho quá trình mã và giải mã.",
+      "C": "Mã khối và mã dòng là các hệ mật mã khóa đối xứng",
+      "D": "Được dùng để tạo chữ kí số."
+    },
+    "reference_pages": [
+      24,
+      192
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Có thể bảo mật dữ liệu."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Dùng khóa chung theo mô hình môn học."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Mã khối và mã dòng đều đối xứng."
+      },
+      "D": {
+        "matches": true,
+        "reason": "SAI: chữ ký số thông thường không dựa trên khóa chung."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Chữ ký số cần phân biệt người ký với người xác minh; khóa chung không đáp ứng việc đó.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-14": {
+    "id": "nmmmh-de-cuong-2025-chuong1-14",
+    "correct_answer": "D",
+    "question": "Theo mục tiêu khuếch tán/hiệu ứng thác lũ, khi lật một bit BẢN RÕ thì phát biểu nào mô tả ĐÚNG sự thay đổi mong muốn của bản mã?",
+    "options": {
+      "A": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 2 bit trong bản mã tạo ra và ngược lại",
+      "B": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong khóa phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại",
+      "C": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 1 bit trong bản mã tạo ra và ngược lại",
+      "D": "Khi lật một bit bản rõ, trung bình khoảng một nửa số bit bản mã thay đổi."
+    },
+    "reference_pages": [
+      84
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Hai bit không phải mức thác lũ mong muốn."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Nói về bit khóa, không trả lời yêu cầu về bit bản rõ."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Một bit không khuếch tán tốt."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng về trung bình, không phải mọi bản rõ đều đúng chính xác nửa số bit."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đọc xem bit bị lật thuộc bản rõ hay khóa; mục tiêu là khuếch tán trên toàn khối, không phải chỉ một vài bit.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-15": {
+    "id": "nmmmh-de-cuong-2025-chuong1-15",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là ĐÚNG về mô hình dùng khóa chung của mật mã đối xứng?",
+    "options": {
+      "A": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa.",
+      "B": "Hai bên thỏa thuận trước để dùng chung một khóa.",
+      "C": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung",
+      "D": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng"
+    },
+    "reference_pages": [
+      24
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Hai khóa độc lập không đủ để mã/giải mã đối xứng."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: khóa chung được thiết lập an toàn trước khi sử dụng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không tự suy ra khóa chung từ hai khóa tùy ý."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Gửi một phần khóa riêng không phải định nghĩa đối xứng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Xét xem hai bên có dùng cùng bí mật để mã và giải mã hay không.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong1-16": {
+    "id": "nmmmh-de-cuong-2025-chuong1-16",
+    "correct_answer": "B",
+    "question": "Theo nguyên lý confusion (xáo trộn), quan hệ nào cần được che giấu phức tạp khi đối thủ suy ra KHÓA từ BẢN MÃ?",
+    "options": {
+      "A": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và bản mã là tuyến tính",
+      "B": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là phi tuyến",
+      "C": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và khóa là phi tuyến",
+      "D": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là tuyến tính"
+    },
+    "reference_pages": [
+      84
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Quan hệ tuyến tính không đạt mục tiêu confusion."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: làm phức tạp quan hệ bản mã–khóa."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không phải cặp đối tượng đang được hỏi."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Tuyến tính giúp phân tích khóa, trái mục tiêu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Với confusion, chú ý quan hệ giữa quan sát của kẻ thám mã và bí mật cần suy ra.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-6": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-6",
+    "correct_answer": "D",
+    "question": "Chọn phát biểu ĐÚNG về kiến trúc AES.",
+    "options": {
+      "A": "AES sử dụng kiến trúc mạng SPN kết hợp mạng Feistel",
+      "B": "AES sử dụng kiến trúc mạng SPN kết hợp với một số loại mạng khác",
+      "C": "AES có kiến trúc mạng Feistel",
+      "D": "AES có kiến trúc mạng SPN"
+    },
+    "reference_pages": [
+      83,
+      116,
+      117
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "AES không kết hợp mạng Feistel."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không cần mạng khác trong mô tả chuẩn."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Không phải Feistel."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: mạng thay thế–hoán vị SPN."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: AES cập nhật toàn trạng thái bằng các phép thay thế và khuếch tán, khác cấu trúc hai nửa Feistel.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-9": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-9",
+    "correct_answer": "D",
+    "question": "Chọn phát biểu ĐÚNG theo phân loại hệ mật trong tài liệu.",
+    "options": {
+      "A": "Vernam là hệ mã bất đối xứng",
+      "B": "AES là hệ mật bất đối xứng",
+      "C": "DES là hệ mã dòng",
+      "D": "Vernam là một hệ mã dòng"
+    },
+    "reference_pages": [
+      28,
+      82
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Vernam không bất đối xứng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "AES là đối xứng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "DES là mã khối."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: Vernam cộng dòng khóa với dữ liệu."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Tách hai trục phân loại: đối xứng/bất đối xứng và mã khối/mã dòng.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-20": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-20",
+    "correct_answer": "D",
+    "question": "Chọn phát biểu ĐÚNG về khái niệm mã hóa dữ liệu để bảo mật.",
+    "options": {
+      "A": "Mã hóa dùng hàm một chiều không có phép giải mã, nên ngay cả người biết khóa hợp lệ cũng không thể khôi phục bản rõ.",
+      "B": "Mã hóa dữ liệu là việc sử dụng khóa riêng của người gửi để mã hóa bản rõ thành mã",
+      "C": "Mã hóa dữ liệu chỉ được sử dụng trong an ninh quốc phòng",
+      "D": "Mã hóa dữ liệu là sự biến đổi thông tin có thể đọc được thành thông tin không thể đọc được"
+    },
+    "reference_pages": [
+      21,
+      23
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "SAI: phải có phép giải mã cho người giữ khóa hợp lệ."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Dùng khóa riêng người gửi không mô tả bảo mật khóa công khai."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Có rất nhiều ứng dụng dân sự."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng theo định nghĩa bản rõ–bản mã."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Mã hóa phải có cách khôi phục bản rõ cho người giữ khóa hợp lệ.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-28": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-28",
+    "correct_answer": "B",
+    "question": "Chọn phát biểu ĐÚNG về số vòng và độ dài khóa AES.",
+    "options": {
+      "A": "AES có số vòng lặp là 10/12/14 ứng với khóa có kích thước là 64/128/256 bit",
+      "B": "AES có số vòng lặp là 10/12/14 ứng với khóa có kích thước là 128/192/256 bit",
+      "C": "AES có số vòng lặp là 10/12/14 ứng với khóa có kích thước là 64/192/256 bit",
+      "D": "AES có số vòng lặp là 10/12/14 ứng với khóa có kích thước là 128/196/256 bit"
+    },
+    "reference_pages": [
+      117,
+      126,
+      127
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "64 bit không phải khóa AES."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: 10/12/14 vòng với 128/192/256 bit."
+      },
+      "C": {
+        "matches": false,
+        "reason": "64 bit không phải khóa AES."
+      },
+      "D": {
+        "matches": false,
+        "reason": "196 không phải 192."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Nhớ số vòng AES bằng số từ 32 bit của khóa cộng 6, với ba kích cỡ chuẩn.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-24": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-24",
+    "correct_answer": "B",
+    "question": "Chọn phát biểu ĐÚNG về AES và DES.",
+    "options": {
+      "A": "AES là hệ mật mã dòng",
+      "B": "DES là hệ mật khóa đối xứng",
+      "C": "AES là hệ mật bất đối xứng",
+      "D": "Khóa của DES có độ dài 128 bit"
+    },
+    "reference_pages": [
+      82,
+      113
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "AES là mã khối."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: DES dùng khóa đối xứng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "AES không bất đối xứng."
+      },
+      "D": {
+        "matches": false,
+        "reason": "DES có 56 bit khóa hiệu dụng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Cả AES lẫn DES đều là mã khối đối xứng; đừng nhầm kích cỡ khóa với kích cỡ khối.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-10": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-10",
+    "correct_answer": "D",
+    "question": "Với cùng mức an toàn tính toán theo các kích cỡ khóa thông thường, phát biểu nào ĐÚNG khi so ECC với RSA?",
+    "options": {
+      "A": "Chứng minh về mặt toán học là kém an toàn hơn",
+      "B": "Chứng minh về mặt toán học là an toàn hơn",
+      "C": "Để đảm bảo độ an toàn tương đương thì khóa phải có độ dài lớn hơn",
+      "D": "Đảm bảo độ an toàn tương đương trong khi khóa có độ dài ngắn hơn"
+    },
+    "reference_pages": [
+      190,
+      191
+    ],
+    "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không có chứng minh tuyệt đối rằng ECC kém an toàn."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không có chứng minh tuyệt đối rằng ECC an toàn hơn."
+      },
+      "C": {
+        "matches": false,
+        "reason": "ECC cần khóa ngắn hơn, không dài hơn."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: khóa ECC ngắn hơn tại mức an toàn tương đương."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: So độ dài khóa phải giữ cùng mức an toàn, không so số bit khóa bằng nhau.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong2-49": {
+    "id": "nmmmh-de-cuong-2025-chuong2-49",
+    "correct_answer": "C",
+    "question": "Đối thủ được chọn bản mã và truy vấn kết quả giải mã của các bản mã khác bản mã mục tiêu. Đây là mô hình tấn công nào?",
+    "options": {
+      "A": "Tấn công vét cạn",
+      "B": "Tấn công chỉ với bản mã",
+      "C": "Tấn công với bản mã lựa chọn",
+      "D": "Tấn công chỉ với bản rõ"
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Bỏ tiêu chí phổ biến nhất không có khảo sát; hỏi đúng mô hình tấn công.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Không mô tả vét cạn."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không chỉ quan sát bản mã."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: chosen-ciphertext attack."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đối thủ chọn bản mã, không phải bản rõ."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân loại bằng quyền truy vấn của đối thủ, không bằng tần suất xuất hiện của kiểu tấn công.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-1": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-1",
+    "correct_answer": "C",
+    "question": "Chọn phát biểu ĐÚNG về AES và Triple DES.",
+    "options": {
+      "A": "Triple DES kiểu EDE thực hiện ba phép E_K liên tiếp, không có bước D_K.",
+      "B": "Số vòng mã hóa của DES ít hơn số vòng mã hóa của AES",
+      "C": "AES xử lý khối 128 bit; Triple DES xử lý khối 64 bit.",
+      "D": "AES xử lý khối 64 bit; Triple DES xử lý khối 128 bit."
+    },
+    "reference_pages": [
+      87,
+      105,
+      107,
+      116,
+      117
+    ],
+    "reason": "Thay so sánh mạnh hơn thiếu thước đo bằng so sánh kích cỡ khối xác định được.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Triple DES dạng EDE có bước giải mã ở giữa, không phải ba phép E liên tiếp."
+      },
+      "B": {
+        "matches": false,
+        "reason": "DES có 16 vòng, không ít hơn 10/12/14 vòng AES."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng về kích thước khối, không phụ thuộc tốc độ phần cứng."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đảo nhầm hai kích thước khối."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Dùng thông số thiết kế cố định để loại phương án, không suy từ tốc độ phần cứng.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-38": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-38",
+    "correct_answer": "D",
+    "question": "Phương án nào mô tả ĐẦY ĐỦ cả hai ứng dụng mã hóa và chữ ký số của RSA?",
+    "options": {
+      "A": "Hệ mật RSA chỉ có thể dùng để mã hóa",
+      "B": "Hệ mật RSA chỉ có thể dùng để kí số",
+      "C": "Hệ mật ElGamal có thể vừa dùng để mã hóa và kí số",
+      "D": "Hệ mật RSA có thể vừa dùng để mã hóa và kí số"
+    },
+    "reference_pages": [
+      192
+    ],
+    "reason": "Hỏi riêng các ứng dụng RSA; không coi phát biểu về ElGamal là sai.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai vì chữ chỉ loại ứng dụng chữ ký."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai vì chữ chỉ loại ứng dụng mã hóa."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Nói về ElGamal, không trả lời RSA được hỏi."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: RSA có các lược đồ mã hóa và lược đồ chữ ký; không dùng cùng phép toán thô trong triển khai an toàn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Chỉ xét thuật toán đang được hỏi; phân biệt thuật toán nền với lược đồ mã hóa/chữ ký cụ thể.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-4": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-4",
+    "correct_answer": "D",
+    "question": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ĐÚNG?",
+    "options": {
+      "A": "Chữ kí số ứng với bản rõ đã cho là 142^87 mod 1189",
+      "B": "Người kí cần giữ bí mật cả p,q và n=p.q",
+      "C": "Người nhận xác minh chữ kí bằng cách tính 513^87 mod 1113 và so sánh với m nhận được",
+      "D": "Khóa công khai, khóa riêng của người kí lần lượt là (1189; 87) và 103"
+    },
+    "reference_pages": [
+      185,
+      197,
+      198
+    ],
+    "reason": "Khôi phục ĐÚNG và kiểm chứng độc lập chữ ký RSA.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Ký dùng d=103, không dùng e=87."
+      },
+      "B": {
+        "matches": false,
+        "reason": "n công khai, không phải bí mật."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Xác minh phải modulo n=1189, không phải 1113."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: φ=1120 và 103×87≡1 mod 1120."
+      }
+    },
+    "numeric": {
+      "n": 1189,
+      "phi": 1120,
+      "e": 87,
+      "signature": 562
+    },
+    "hint": "Mẹo: Tính n và φ; thử e×d modulo φ. Ký dùng d, xác minh dùng e và mô-đun n.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-17": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-17",
+    "correct_answer": "B",
+    "question": "Để duyệt TOÀN BỘ không gian khóa hiệu dụng DES bằng vét cạn, phải xét bao nhiêu khóa?",
+    "options": {
+      "A": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^48 lần thử",
+      "B": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^56 lần thử",
+      "C": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^64 lần thử",
+      "D": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^32 lần thử"
+    },
+    "reference_pages": [
+      87,
+      99
+    ],
+    "reason": "Phân biệt tổng không gian khóa với số phép thử trung bình.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "48 là kích cỡ khóa vòng."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: 56 bit khóa hiệu dụng cho 2^56 khóa."
+      },
+      "C": {
+        "matches": false,
+        "reason": "64 gồm tám bit kiểm tra chẵn lẻ."
+      },
+      "D": {
+        "matches": false,
+        "reason": "32 là nửa khối, không phải khóa."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Loại tám bit chẵn lẻ trước khi đếm không gian khóa; câu hỏi không hỏi số phép thử trung bình.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-18": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-18",
+    "correct_answer": "D",
+    "question": "Phát biểu nào mô tả ĐÚNG và ĐẦY ĐỦ hai bảo đảm xác thực nguồn gốc và toàn vẹn của chữ ký số?",
+    "options": {
+      "A": "Tác dụng của chữ kí số là để mã hóa dữ liệu",
+      "B": "Bản thân chữ ký số luôn mã hóa bí mật toàn bộ nội dung dữ liệu.",
+      "C": "Chữ kí số chỉ được dùng để xác thực nguồn gốc dữ liệu.",
+      "D": "Chữ kí số cho phép người nhận dữ liệu xác thực nguồn gốc và tính toàn vẹn của dữ liệu"
+    },
+    "reference_pages": [
+      192,
+      198
+    ],
+    "reason": "Khôi phục yêu cầu đầy đủ, làm rõ phát biểu đánh đồng ký với mã hóa bảo mật.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Ký không đồng nghĩa mã hóa bảo mật."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chữ ký không tự bảo mật nội dung."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Từ chỉ bỏ sót bảo đảm toàn vẹn."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: xác minh nguồn gốc và toàn vẹn với khóa công khai tin cậy."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Chữ ký không giấu nội dung; xét cả ai ký và nội dung có bị thay đổi hay không.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-20": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-20",
+    "correct_answer": "A",
+    "question": "Chọn phát biểu ĐÚNG; độ dài khóa DES trong câu này tính CẢ tám bit kiểm tra chẵn lẻ.",
+    "options": {
+      "A": "Khóa của DES là 64 bit",
+      "B": "DES có 10 vòng mã hóa",
+      "C": "Khóa của DES dài hơn khóa của AES",
+      "D": "Khóa của AES có độ dài là 64 bit và được mở rộng thành 128 bit"
+    },
+    "reference_pages": [
+      87,
+      99,
+      101
+    ],
+    "reason": "Nêu rõ đang đếm khóa nạp có bit parity, không phải entropy khóa.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Đúng: biểu diễn khóa nạp 64 bit, chỉ 56 bit hiệu dụng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "DES có 16 vòng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Khóa AES ngắn nhất 128 bit."
+      },
+      "D": {
+        "matches": false,
+        "reason": "AES không dùng khóa 64 bit."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đọc xem đề tính cả bit parity hay chỉ các bit bí mật hiệu dụng.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-34": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-34",
+    "correct_answer": "C",
+    "question": "DES cần sinh ra số khóa vòng là bao nhiêu",
+    "options": {
+      "A": "14",
+      "B": "12",
+      "C": "16",
+      "D": "10"
+    },
+    "reference_pages": [
+      99
+    ],
+    "reason": "Chuẩn hóa ký tự phương án lỗi 1r thành một nhiễu số; số khóa vòng suy từ lịch DES, không từ nhiễu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 16."
+      },
+      "B": {
+        "matches": false,
+        "value": 12,
+        "reason": "Giá trị phương án 12; kết quả tính độc lập 16."
+      },
+      "C": {
+        "matches": true,
+        "value": 16,
+        "reason": "Giá trị phương án 16; kết quả tính độc lập 16."
+      },
+      "D": {
+        "matches": false,
+        "value": 10,
+        "reason": "Giá trị phương án 10; kết quả tính độc lập 16."
+      }
+    },
+    "numeric": {
+      "expected": 16,
+      "base": 10,
+      "values": {
+        "A": 14,
+        "B": 12,
+        "C": 16,
+        "D": 10
+      }
+    },
+    "hint": "Mẹo: Mỗi vòng Feistel dùng một khóa con; đọc số vòng trong lịch sinh khóa DES.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-34": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-34",
+    "correct_answer": "C",
+    "question": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?",
+    "options": {
+      "A": "Thuật toán DES sử dụng 32 khóa, mỗi khóa XOR với nửa trái hoặc phải của bản rõ/bản mã trong 16 vòng mã hóa/giải mã.",
+      "B": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng.",
+      "C": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau.",
+      "D": "Thuật toán DES sử dụng 8 khóa, mỗi khóa tách ra thành 2 nửa trái và phải để sử dụng cho cho 16 vòng mã hóa/giải mã."
+    },
+    "reference_pages": [
+      99
+    ],
+    "reason": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai số lượng khóa vòng DES."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai: sau PC-1 là hai nửa 28 bit."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai số lượng khóa vòng DES."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Sau PC-1 chỉ còn 56 bit, chia hai nửa; 16 vòng không có nghĩa luôn có 16 giá trị khóa phân biệt.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-39": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-39",
+    "correct_answer": "C",
+    "question": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?",
+    "options": {
+      "A": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng.",
+      "B": "Thuật toán DES sử dụng 32 khóa, mỗi khóa XOR với nửa trái hoặc phải của bản rõ/bản mã trong 16 vòng mã hóa/giải mã.",
+      "C": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau.",
+      "D": "Thuật toán DES sử dụng 8 khóa, mỗi khóa tách ra thành 2 nửa trái và phải để sử dụng cho cho 16 vòng mã hóa/giải mã."
+    },
+    "reference_pages": [
+      99
+    ],
+    "reason": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai: sau PC-1 là hai nửa 28 bit."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai số lượng khóa vòng DES."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai số lượng khóa vòng DES."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Sau PC-1 chỉ còn 56 bit, chia hai nửa; 16 vòng không có nghĩa luôn có 16 giá trị khóa phân biệt.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-26": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-26",
+    "correct_answer": "B",
+    "question": "Phát biểu nào KHÔNG ĐÚNG về hàm f(R,K) trong một vòng DES?",
+    "options": {
+      "A": "Quá trình thay thế của hàm f giúp biến đổi 48 bít đầu vào thành 32 bít đầu ra",
+      "B": "Hàm f chỉ nhận duy nhất khối R 32 bit, không sử dụng khóa vòng K.",
+      "C": "Đầu ra của hàm f là một khối 32 bít",
+      "D": "Hàm f gồm 4 giai đoạn (mở rộng, trộn khóa, thay thế, hoán vị)"
+    },
+    "reference_pages": [
+      91,
+      92,
+      93,
+      95
+    ],
+    "reason": "Khôi phục KHÔNG ĐÚNG; phân biệt đầu vào R với đầy đủ đối số hàm f(R,K).",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Tám S-box biến 48 thành 32 bit."
+      },
+      "B": {
+        "matches": true,
+        "reason": "SAI: còn dùng khóa vòng K 48 bit để XOR với E(R)."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Kết quả f dài 32 bit."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Bốn bước E, XOR khóa, S-box, P."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Theo dõi độ dài qua E → XOR K → S-box → P; f nhận cả dữ liệu và khóa vòng.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-30": {
+    "id": "nmmmh-de-cuong-2025-chuong3-30",
+    "correct_answer": "C",
+    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "0",
+      "D": "Không tồn tại"
+    },
+    "reference_pages": [
+      178,
+      179
+    ],
+    "reason": "Ký hiệu Jacobi bằng 0 do gcd(2634,889785)=3; sửa khóa nguồn −1, không sửa dữ liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": -1,
+        "reason": "Giá trị phương án -1; kết quả tính độc lập 0."
+      },
+      "B": {
+        "matches": false,
+        "value": 1,
+        "reason": "Giá trị phương án 1; kết quả tính độc lập 0."
+      },
+      "C": {
+        "matches": true,
+        "value": 0,
+        "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+      },
+      "D": {
+        "matches": false,
+        "value": null,
+        "reason": "Giá trị phương án None; kết quả tính độc lập 0."
+      }
+    },
+    "numeric": {
+      "expected": 0,
+      "base": 10,
+      "values": {
+        "A": -1,
+        "B": 1,
+        "C": 0,
+        "D": null
+      }
+    },
+    "hint": "Mẹo: Tính gcd tử và mẫu trước. Nếu không nguyên tố cùng nhau thì không cần dùng luật tương hỗ.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-39": {
+    "id": "nmmmh-de-cuong-2025-chuong3-39",
+    "correct_answer": "C",
+    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "options": {
+      "A": "394",
+      "B": "296",
+      "C": "588",
+      "D": "298"
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "4802=2×7^4 có nhóm đơn vị cyclic; φ(φ(4802))=588, không có trong phương án cũ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 394,
+        "reason": "Giá trị phương án 394; kết quả tính độc lập 588."
+      },
+      "B": {
+        "matches": false,
+        "value": 296,
+        "reason": "Giá trị phương án 296; kết quả tính độc lập 588."
+      },
+      "C": {
+        "matches": true,
+        "value": 588,
+        "reason": "Giá trị phương án 588; kết quả tính độc lập 588."
+      },
+      "D": {
+        "matches": false,
+        "value": 298,
+        "reason": "Giá trị phương án 298; kết quả tính độc lập 588."
+      }
+    },
+    "numeric": {
+      "expected": 588,
+      "base": 10,
+      "values": {
+        "A": 394,
+        "B": 296,
+        "C": 588,
+        "D": 298
+      }
+    },
+    "hint": "Mẹo: Kiểm tra n có dạng 2p^k rồi tính φ hai lần; không lấy φ(n)/2 thay cho φ(φ(n)).",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-k16-3-2032": {
+    "id": "nmmmh-de-thi-k16-3-2032",
+    "correct_answer": "A",
+    "question": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Cryptography” với mầm khóa k = “sun”.",
+    "options": {
+      "A": "ULLRKMVKOVYY",
+      "B": "ULLHNBYLNHBL",
+      "C": "ULLHNBYNHLBL",
+      "D": "ULLHNBYNLHBL"
+    },
+    "reference_pages": [
+      59,
+      60
+    ],
+    "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLRKMVKOVYY."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYLNHBL."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNHLBL."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNLHBL."
+      }
+    },
+    "numeric": {
+      "plaintext": "CRYPTOGRAPHY",
+      "seed": "SUN",
+      "keystream": "SUNCRYPTOGRA",
+      "ciphertext": "ULLRKMVKOVYY"
+    },
+    "hint": "Mẹo: Nối mầm khóa với BẢN RÕ, không lặp mầm; cộng mã chữ A=0 modulo 26.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-1": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-1",
+    "correct_answer": "D",
+    "question": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Unstoppable” với mầm khóa k = “Sia” ",
+    "options": {
+      "A": "MVSLWPPIDBM",
+      "B": "MVSLWPPIBDM",
+      "C": "MVLSWPHIBDM",
+      "D": "MVSNBHIOQAE"
+    },
+    "reference_pages": [
+      59,
+      60
+    ],
+    "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIDBM."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIBDM."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVLSWPHIBDM."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSNBHIOQAE."
+      }
+    },
+    "numeric": {
+      "plaintext": "UNSTOPPABLE",
+      "seed": "SIA",
+      "keystream": "SIAUNSTOPPA",
+      "ciphertext": "MVSNBHIOQAE"
+    },
+    "hint": "Mẹo: Nối mầm khóa với BẢN RÕ, không lặp mầm; cộng mã chữ A=0 modulo 26.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-16": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-16",
+    "correct_answer": "A",
+    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "options": {
+      "A": "JOLK",
+      "B": "EOMK",
+      "C": "JONK",
+      "D": "FNMK"
+    },
+    "reference_pages": [
+      54
+    ],
+    "reason": "Nhân vector hàng đúng quy ước tài liệu; bản mã là JOLK, không phải khóa nguồn C.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+      },
+      "B": {
+        "matches": false,
+        "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+      },
+      "C": {
+        "matches": false,
+        "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+      },
+      "D": {
+        "matches": false,
+        "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+      }
+    },
+    "numeric": {
+      "matrix": [
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "plaintext": "LOVE",
+      "ciphertext": "JOLK"
+    },
+    "hint": "Mẹo: Dùng vector HÀNG (L,O) nhân ma trận trước để loại nhanh; A=0.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-21": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-21",
+    "correct_answer": "C",
+    "question": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được. Dùng bảng chữ A=0,…,Z=25 và C=(P+K) mod 26 như ví dụ Vernam của tài liệu.",
+    "options": {
+      "A": "OODWEK",
+      "B": "OSEWEK",
+      "C": "OSDWEK",
+      "D": "OSDZEK"
+    },
+    "reference_pages": [
+      29,
+      30
+    ],
+    "reason": "Tài liệu xác nhận Vernam trên chữ Latin cộng modulo 26; không dùng XOR mã ASCII.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+      }
+    },
+    "numeric": {
+      "plaintext": "VERNAM",
+      "keystream": "TOMJEY",
+      "ciphertext": "OSDWEK"
+    },
+    "hint": "Mẹo: Thử 2–3 chữ đầu bằng cộng modulo 26; không XOR các mã ký tự ASCII.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-16": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-16",
+    "correct_answer": "A",
+    "question": "Trong thuật toán DES, cho B1 = 100011 và hộp thế S1, tìm đầu ra của S1(B1)",
+    "options": {
+      "A": "1100",
+      "B": "1001",
+      "C": "1010",
+      "D": "0101"
+    },
+    "reference_pages": [
+      93,
+      94
+    ],
+    "reason": "S1(100011) dùng hàng 3 cột 1, được 12; thay phương án C trùng A bằng nhiễu 1010.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 12,
+        "reason": "Giá trị phương án 12; kết quả tính độc lập 12."
+      },
+      "B": {
+        "matches": false,
+        "value": 9,
+        "reason": "Giá trị phương án 9; kết quả tính độc lập 12."
+      },
+      "C": {
+        "matches": false,
+        "value": 10,
+        "reason": "Giá trị phương án 10; kết quả tính độc lập 12."
+      },
+      "D": {
+        "matches": false,
+        "value": 5,
+        "reason": "Giá trị phương án 5; kết quả tính độc lập 12."
+      }
+    },
+    "numeric": {
+      "expected": 12,
+      "base": 2,
+      "values": {
+        "A": 12,
+        "B": 9,
+        "C": 10,
+        "D": 5
+      }
+    },
+    "hint": "Mẹo: Hai bit ngoài chọn hàng, bốn bit giữa chọn cột; chỉ dùng hộp S1.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-8": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-8",
+    "correct_answer": "B",
+    "question": "DES: tìm 8 bit ngoài cùng bên phải của E(R) XOR K theo hai chuỗi bit trong hình.",
+    "options": {
+      "A": "00110110",
+      "B": "00010110",
+      "C": "01011110",
+      "D": "00001110"
+    },
+    "reference_pages": [
+      91,
+      92
+    ],
+    "reason": "Đọc trực tiếp tám bit cuối trên ảnh: E(R) kết thúc 10100101, K kết thúc 10110011; không cần đoán toàn chuỗi.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 54,
+        "reason": "Giá trị phương án 54; kết quả tính độc lập 22."
+      },
+      "B": {
+        "matches": true,
+        "value": 22,
+        "reason": "Giá trị phương án 22; kết quả tính độc lập 22."
+      },
+      "C": {
+        "matches": false,
+        "value": 94,
+        "reason": "Giá trị phương án 94; kết quả tính độc lập 22."
+      },
+      "D": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 22."
+      }
+    },
+    "numeric": {
+      "expected": 22,
+      "base": 2,
+      "values": {
+        "A": 54,
+        "B": 22,
+        "C": 94,
+        "D": 14
+      }
+    },
+    "hint": "Mẹo: Chỉ XOR tám bit cuối; XOR từng nhóm bốn bit rồi ghép lại.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-33": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-33",
+    "correct_answer": "B",
+    "question": "Tính x32 sau MixColumns của trạng thái AES trong hình.",
+    "options": {
+      "A": "C6",
+      "B": "D6",
+      "C": "D3",
+      "D": "C1"
+    },
+    "reference_pages": [
+      123,
+      124
+    ],
+    "reason": "Giữ nguyên ma trận nguồn; x32=03·0B XOR FE XOR 20 XOR 02·87=D6; sửa một phương án không khớp.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 198,
+        "reason": "Giá trị phương án 198; kết quả tính độc lập 214."
+      },
+      "B": {
+        "matches": true,
+        "value": 214,
+        "reason": "Giá trị phương án 214; kết quả tính độc lập 214."
+      },
+      "C": {
+        "matches": false,
+        "value": 211,
+        "reason": "Giá trị phương án 211; kết quả tính độc lập 214."
+      },
+      "D": {
+        "matches": false,
+        "value": 193,
+        "reason": "Giá trị phương án 193; kết quả tính độc lập 214."
+      }
+    },
+    "numeric": {
+      "expected": 214,
+      "base": 16,
+      "values": {
+        "A": 198,
+        "B": 214,
+        "C": 211,
+        "D": 193
+      }
+    },
+    "hint": "Mẹo: Chỉ lấy hàng hệ số thứ tư và cột thứ ba (chỉ số từ 0); cộng bằng XOR và nhân trong GF(2^8).",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-1": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-1",
+    "correct_answer": "A",
+    "question": "Trong AES, tính 60_H × 8_H trên GF(2^8) với đa thức rút gọn AES.",
+    "options": {
+      "A": "2D",
+      "B": "34",
+      "C": "5A",
+      "D": "A6"
+    },
+    "reference_pages": [
+      110,
+      112,
+      113,
+      114
+    ],
+    "reason": "Nhân đa thức và rút gọn modulo 0x11B được 2D_H, không phải 45_H (45 thập phân mới bằng 2D_H).",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 45,
+        "reason": "Giá trị phương án 45; kết quả tính độc lập 45."
+      },
+      "B": {
+        "matches": false,
+        "value": 52,
+        "reason": "Giá trị phương án 52; kết quả tính độc lập 45."
+      },
+      "C": {
+        "matches": false,
+        "value": 90,
+        "reason": "Giá trị phương án 90; kết quả tính độc lập 45."
+      },
+      "D": {
+        "matches": false,
+        "value": 166,
+        "reason": "Giá trị phương án 166; kết quả tính độc lập 45."
+      }
+    },
+    "numeric": {
+      "expected": 45,
+      "base": 16,
+      "values": {
+        "A": 45,
+        "B": 52,
+        "C": 90,
+        "D": 166
+      }
+    },
+    "hint": "Mẹo: Nhân 08 là ba lần xtime; mỗi lần tràn bit 7 thì XOR 1B, giữ một byte. Các phương án đều là HEX.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-26": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-26",
+    "correct_answer": "C",
+    "question": "Tính x12 trong vòng MixColumns AES với ma trận trong hình.",
+    "options": {
+      "A": "A2",
+      "B": "13",
+      "C": "0B",
+      "D": "B1"
+    },
+    "reference_pages": [
+      123,
+      124
+    ],
+    "reason": "x12=0B XOR 02·FE XOR 03·20 XOR 87=0B; sửa một phương án, giữ nguyên ma trận.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 162,
+        "reason": "Giá trị phương án 162; kết quả tính độc lập 11."
+      },
+      "B": {
+        "matches": false,
+        "value": 19,
+        "reason": "Giá trị phương án 19; kết quả tính độc lập 11."
+      },
+      "C": {
+        "matches": true,
+        "value": 11,
+        "reason": "Giá trị phương án 11; kết quả tính độc lập 11."
+      },
+      "D": {
+        "matches": false,
+        "value": 177,
+        "reason": "Giá trị phương án 177; kết quả tính độc lập 11."
+      }
+    },
+    "numeric": {
+      "expected": 11,
+      "base": 16,
+      "values": {
+        "A": 162,
+        "B": 19,
+        "C": 11,
+        "D": 177
+      }
+    },
+    "hint": "Mẹo: Hàng thứ hai nhân cột thứ ba (chỉ số từ 0); dùng 03·a=(02·a) XOR a.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-30": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-30",
+    "correct_answer": "A",
+    "question": "Số phần tử sinh của nhóm nhân Z*19036 là?",
+    "options": {
+      "A": "0",
+      "B": "9534",
+      "C": "3981",
+      "D": "9516"
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "19036 chia hết cho 4 và lớn hơn 4, không thuộc dạng có nhóm đơn vị cyclic; không áp φ hai lần.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 0,
+        "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+      },
+      "B": {
+        "matches": false,
+        "value": 9534,
+        "reason": "Giá trị phương án 9534; kết quả tính độc lập 0."
+      },
+      "C": {
+        "matches": false,
+        "value": 3981,
+        "reason": "Giá trị phương án 3981; kết quả tính độc lập 0."
+      },
+      "D": {
+        "matches": false,
+        "value": 9516,
+        "reason": "Giá trị phương án 9516; kết quả tính độc lập 0."
+      }
+    },
+    "numeric": {
+      "expected": 0,
+      "base": 10,
+      "values": {
+        "A": 0,
+        "B": 9534,
+        "C": 3981,
+        "D": 9516
+      }
+    },
+    "hint": "Mẹo: Nhóm đơn vị có phần tử sinh chỉ với n=2,4,p^k,2p^k (p lẻ); kiểm tra dạng n trước khi tính φ.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-18": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-18",
+    "correct_answer": "B",
+    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "options": {
+      "A": "Trong chế độ OFB các bản mã thu được chỉ phụ thuộc vào các bản rõ đầu vào.",
+      "B": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã.",
+      "C": "Trong chế độ ECB hai khối bản rõ giống nhau nhưng khác nhau vector IV thì cho ra hai khối bản mã khác nhau.",
+      "D": "Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã của các khối sau đó."
+    },
+    "reference_pages": [
+      140,
+      142,
+      146
+    ],
+    "reason": "Sửa mệnh đề CBC mơ hồ thành phát biểu xác định về toàn thông điệp.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "OFB còn phụ thuộc khóa và IV."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: cùng toàn thông điệp, khóa và IV."
+      },
+      "C": {
+        "matches": false,
+        "reason": "ECB không dùng IV."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Lỗi ECB không lan sang các khối sau."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Viết C_i=E_K(P_i XOR C_(i−1)); cùng P_i riêng lẻ chưa đủ, cùng toàn thông điệp và IV thì đủ.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-6": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-6",
+    "correct_answer": "A",
+    "question": "Chế độ mã khối nào có thể xử lí mã hóa song song?",
+    "options": {
+      "A": "ECB và CTR",
+      "B": "OFB và CTR",
+      "C": "CBC và CTR",
+      "D": "OFB"
+    },
+    "reference_pages": [
+      140,
+      141,
+      146,
+      149
+    ],
+    "reason": "Loại phương án ECB đơn lẻ là tập con của đáp án ghép; thay bằng OFB để bốn lựa chọn loại trừ nhau.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "ECB độc lập khối, CTR có các bộ đếm tính độc lập."
+      },
+      "B": {
+        "matches": false,
+        "reason": "OFB phụ thuộc đầu ra bước trước."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Mã hóa CBC phụ thuộc bản mã bước trước."
+      },
+      "D": {
+        "matches": false,
+        "reason": "OFB không sinh song song các khối dòng khóa theo thuật toán chuẩn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Chỉ xét MÃ HÓA: đầu vào E_K có cần kết quả E_K của bước trước hay không?",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-12": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-12",
+    "correct_answer": "D",
+    "question": "Khẳng định nào sau đây về mã khối là SAI?",
+    "options": {
+      "A": "Khóa của mã khối là đối xứng.",
+      "B": "Mỗi khối đầu vào của phép mã khối có kích thước cố định.",
+      "C": "Có thể dùng chế độ hoạt động để xử lý thông điệp dài gồm nhiều khối.",
+      "D": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã."
+    },
+    "reference_pages": [
+      82,
+      137,
+      138
+    ],
+    "reason": "Làm rõ khối đầu vào cố định và ý nghĩa mã khối kết hợp các chế độ, tránh phát biểu tương tự mã dòng quá rộng.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Đúng theo định nghĩa mã khối đối xứng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Đúng: độ dài khối là thông số cố định."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Đúng: ECB/CBC/CFB/OFB/CTR là các chế độ."
+      },
+      "D": {
+        "matches": true,
+        "reason": "SAI: mã khối đối xứng không dùng cặp khóa công khai/riêng."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt khối đầu vào cố định với toàn thông điệp có thể dài tùy ý.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-24": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-24",
+    "correct_answer": "A",
+    "question": "Lựa chọn đáp án ĐÚNG cho thành phần khóa riêng Merkle–Hellman:",
+    "options": {
+      "A": "(109 114 227 453 905 1809)",
+      "B": "(109 115 227 454 905 1810)",
+      "C": "(109 114 227 453 905 1808)",
+      "D": "(109 112 223 453 895 1819)"
+    },
+    "reference_pages": [
+      188
+    ],
+    "reason": "Hai phương án nguồn A/C trùng nhau; giữ A, sửa phần tử cuối C bằng đúng tổng trước để tạo nhiễu không siêu tăng.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Kiểm tra từng phần tử LỚN HƠN tổng tất cả phần tử trước.",
+        "partial_sums": [
+          0,
+          109,
+          223,
+          450,
+          903,
+          1808
+        ]
+      },
+      "B": {
+        "matches": false,
+        "reason": "Kiểm tra từng phần tử LỚN HƠN tổng tất cả phần tử trước.",
+        "partial_sums": [
+          0,
+          109,
+          224,
+          451,
+          905,
+          1810
+        ]
+      },
+      "C": {
+        "matches": false,
+        "reason": "Kiểm tra từng phần tử LỚN HƠN tổng tất cả phần tử trước.",
+        "partial_sums": [
+          0,
+          109,
+          223,
+          450,
+          903,
+          1808
+        ]
+      },
+      "D": {
+        "matches": false,
+        "reason": "Kiểm tra từng phần tử LỚN HƠN tổng tất cả phần tử trước.",
+        "partial_sums": [
+          0,
+          109,
+          221,
+          444,
+          897,
+          1792
+        ]
+      }
+    },
+    "numeric": {
+      "sequences": {
+        "A": [
+          109,
+          114,
+          227,
+          453,
+          905,
+          1809
+        ],
+        "B": [
+          109,
+          115,
+          227,
+          454,
+          905,
+          1810
+        ],
+        "C": [
+          109,
+          114,
+          227,
+          453,
+          905,
+          1808
+        ],
+        "D": [
+          109,
+          112,
+          223,
+          453,
+          895,
+          1819
+        ]
+      }
+    },
+    "hint": "Mẹo: Tính tổng lũy kế; bằng tổng trước cũng không phải siêu tăng, phải lớn hơn nghiêm ngặt.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-22": {
+    "id": "nmmmh-de-cuong-2025-chuong3-22",
+    "correct_answer": "A",
+    "question": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu).",
+    "options": {
+      "A": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p).",
+      "B": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p).",
+      "C": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p).",
+      "D": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p)."
+    },
+    "reference_pages": [
+      175
+    ],
+    "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Đúng theo Fermat nhỏ."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=1, được 1 chứ không khác 1."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=3."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=0."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Với khẳng định phổ quát, thử a=0 hoặc a=p nếu điều kiện cho phép; đừng bỏ điều kiện p không chia a khi dùng số mũ p−1.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-32": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-32",
+    "correct_answer": "B",
+    "question": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu).",
+    "options": {
+      "A": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p).",
+      "B": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p).",
+      "C": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p).",
+      "D": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p)."
+    },
+    "reference_pages": [
+      175
+    ],
+    "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=3."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng theo Fermat nhỏ."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=1, được 1 chứ không khác 1."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai: thử p=3,a=0."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Với khẳng định phổ quát, thử a=0 hoặc a=p nếu điều kiện cho phép; đừng bỏ điều kiện p không chia a khi dùng số mũ p−1.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-23": {
+    "id": "nmmmh-de-cuong-2025-chuong3-23",
+    "correct_answer": "D",
+    "question": "Cho n=pq với p,q là hai số nguyên tố LẺ phân biệt. Q_n là tập các bình phương của phần tử thuộc nhóm đơn vị Z*_n. Công thức nào cho |Q_n|?",
+    "options": {
+      "A": "3(p+1)(q+1)/4",
+      "B": "(p+1)(q+1)/4",
+      "C": "3(p−1)(q−1)/4",
+      "D": "(p−1)(q−1)/4"
+    },
+    "reference_pages": [
+      178
+    ],
+    "reason": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: mỗi mô-đun nguyên tố lẻ có (p−1)/2 bình phương khác 0; nhân theo CRT."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đếm các bình phương khác 0 riêng modulo p và modulo q, rồi nhân hai số lượng theo CRT.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-2": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-2",
+    "correct_answer": "C",
+    "question": "Cho n=pq với p,q là hai số nguyên tố LẺ phân biệt. Q_n là tập các bình phương của phần tử thuộc nhóm đơn vị Z*_n. Công thức nào cho |Q_n|?",
+    "options": {
+      "A": "(p+1)(q+1)/4",
+      "B": "3(p−1)(q−1)/4",
+      "C": "(p−1)(q−1)/4",
+      "D": "3(p+1)(q+1)/4"
+    },
+    "reference_pages": [
+      178
+    ],
+    "reason": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: mỗi mô-đun nguyên tố lẻ có (p−1)/2 bình phương khác 0; nhân theo CRT."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai hệ số hoặc dấu: thử p=3,q=5, nhóm có đúng 2 bình phương đơn vị."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đếm các bình phương khác 0 riêng modulo p và modulo q, rồi nhân hai số lượng theo CRT.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong3-24": {
+    "id": "nmmmh-de-cuong-2025-chuong3-24",
+    "correct_answer": "C",
+    "question": "Với n>2 và α∈Z*_n, điều kiện nào TƯƠNG ĐƯƠNG với việc α là phần tử sinh của Z*_n?",
+    "options": {
+      "A": "Với mọi ước nguyên tố r của φ(n), α^(φ(n)/r) ≡ 1 (mod n).",
+      "B": "Z*_n = {α^i mod n : 1 ≤ i < φ(n)}.",
+      "C": "Z*_n = {α^i mod n : 0 ≤ i < φ(n)}.",
+      "D": "ord_n(α) = φ(φ(n))."
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai: α sinh phải có các lũy thừa này KHÁC 1."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ có tối đa φ(n)−1 giá trị, thiếu phần tử đơn vị khi α là phần tử sinh."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: liệt kê đầy đủ một chu kỳ từ 0 tới φ(n)−1."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai: cấp phải là φ(n), không phải số lượng phần tử sinh."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Một nhóm có φ(n) phần tử cần đủ một chu kỳ lũy thừa, kể cả phần tử đơn vị α^0.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-40": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-40",
+    "correct_answer": "C",
+    "question": "Với n>2 và α∈Z*_n, điều kiện nào TƯƠNG ĐƯƠNG với việc α là phần tử sinh của Z*_n?",
+    "options": {
+      "A": "Với mọi ước nguyên tố r của φ(n), α^(φ(n)/r) ≡ 1 (mod n).",
+      "B": "Z*_n = {α^i mod n : 1 ≤ i < φ(n)}.",
+      "C": "Z*_n = {α^i mod n : 0 ≤ i < φ(n)}.",
+      "D": "ord_n(α) = φ(φ(n))."
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sai: α sinh phải có các lũy thừa này KHÁC 1."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chỉ có tối đa φ(n)−1 giá trị, thiếu phần tử đơn vị khi α là phần tử sinh."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: liệt kê đầy đủ một chu kỳ từ 0 tới φ(n)−1."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sai: cấp phải là φ(n), không phải số lượng phần tử sinh."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Một nhóm có φ(n) phần tử cần đủ một chu kỳ lũy thừa, kể cả phần tử đơn vị α^0.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-27": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-27",
+    "correct_answer": "A",
+    "question": "Giả sử nhóm Z*_n là CYCLIC. Số phần tử sinh của nhóm là bao nhiêu?",
+    "options": {
+      "A": "φ(φ(n))",
+      "B": "n−1",
+      "C": "φ(n)−1",
+      "D": "φ(n)"
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "Bổ sung điều kiện nhóm CYCLIC; nếu không có điều kiện này công thức đếm không đúng cho mọi n.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Đúng: φ của cấp nhóm cyclic."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Không phải với mọi n, ví dụ n=5 chỉ có 2 phần tử sinh."
+      },
+      "C": {
+        "matches": false,
+        "reason": "n=5 cho 3 nhưng chỉ có 2."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Đây là cấp nhóm, không phải số phần tử sinh."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Trước hết lấy cấp nhóm, rồi đếm các số mũ nguyên tố cùng nhau với cấp đó.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-6": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-6",
+    "correct_answer": "B",
+    "question": "Theo thông số RC4 được nêu trong tài liệu môn học, TOÀN BỘ khoảng độ dài khóa hỗ trợ là bao nhiêu?",
+    "options": {
+      "A": "40–256 bit",
+      "B": "40–2048 bit",
+      "C": "256–2048 bit",
+      "D": "128–256 bit"
+    },
+    "reference_pages": [
+      160
+    ],
+    "reason": "Theo khoảng khóa RC4 của tài liệu, loại lựa chọn trùng nhau; không phải khuyến nghị sử dụng RC4 hiện nay.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Thiếu phần trên 256 bit."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng theo PDF trang 160."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Thiếu phần từ 40 đến dưới 256 bit."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Chỉ là một khoảng con."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đổi khoảng 5–256 BYTE sang bit; đừng nhầm độ rộng phần tử mảng S với độ dài khóa.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-12": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-12",
+    "correct_answer": "A",
+    "question": "Theo định nghĩa ElGamal trong tài liệu, với p=2003, TOÀN BỘ miền cho phép của khóa riêng a (không phải một khoảng con) là khoảng nào?",
+    "options": {
+      "A": "[1, 2001]",
+      "B": "[1, 2003]",
+      "C": "[1, 2002]",
+      "D": "[2, 2000]"
+    },
+    "reference_pages": [
+      186
+    ],
+    "reason": "Hỏi toàn bộ miền chọn số mũ theo định nghĩa ElGamal của giáo trình, không hỏi một khoảng con hợp lệ.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Đúng: 1≤a≤p−2."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Chứa cả p−1 và p."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Chứa p−1 ngoài miền giáo trình."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Là khoảng con, không phải toàn bộ miền."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Đối chiếu hai đầu mút miền a trong định nghĩa hệ mật; kiểm tra cả khoảng, không chỉ một số thuộc khoảng.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-28": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-28",
+    "correct_answer": "B",
+    "question": "LFSR có n=9, (a0,…,a8) tại t=0 là (1,0,1,1,0,1,0,0,0). Mỗi nhịp a_i(t+1)=a_(i+1)(t) với i<n−1; a_(n−1)(t+1)=a0(t) XOR a3(t) XOR a5(t) XOR a8(t). Tìm a8…a0 tại t=1.",
+    "options": {
+      "A": "100010111",
+      "B": "100010110",
+      "C": "100010100",
+      "D": "100010010"
+    },
+    "reference_pages": [
+      153,
+      154,
+      155
+    ],
+    "reason": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+      }
+    },
+    "numeric": {
+      "initial": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "taps": [
+        0,
+        3,
+        5,
+        8
+      ],
+      "feedback": 1,
+      "after": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bits": "100010110"
+    },
+    "hint": "Mẹo: Tính bit phản hồi từ trạng thái CŨ rồi dịch toàn bộ một lần; chỉ đảo thứ tự khi ghi chuỗi đầu ra, không đảo chiều phép dịch.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-7": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-7",
+    "correct_answer": "D",
+    "question": "LFSR có n=8, (a0,…,a7) tại t=0 là (1,0,1,0,1,0,1,1). Mỗi nhịp a_i(t+1)=a_(i+1)(t) với i<n−1; a_(n−1)(t+1)=a1(t) XOR a2(t) XOR a4(t) XOR a6(t). Tìm a7…a0 tại t=1.",
+    "options": {
+      "A": "11101011",
+      "B": "11101000",
+      "C": "11101110",
+      "D": "11101010"
+    },
+    "reference_pages": [
+      153,
+      154,
+      155
+    ],
+    "reason": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a7=[0, 1, 0, 1, 0, 1, 1, 1]; đảo thứ tự xuất được 11101010."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a7=[0, 1, 0, 1, 0, 1, 1, 1]; đảo thứ tự xuất được 11101010."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sau dịch, a0…a7=[0, 1, 0, 1, 0, 1, 1, 1]; đảo thứ tự xuất được 11101010."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Sau dịch, a0…a7=[0, 1, 0, 1, 0, 1, 1, 1]; đảo thứ tự xuất được 11101010."
+      }
+    },
+    "numeric": {
+      "initial": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "taps": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "feedback": 1,
+      "after": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "bits": "11101010"
+    },
+    "hint": "Mẹo: Tính bit phản hồi từ trạng thái CŨ rồi dịch toàn bộ một lần; chỉ đảo thứ tự khi ghi chuỗi đầu ra, không đảo chiều phép dịch.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-8": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-8",
+    "correct_answer": "A",
+    "question": "Trong DES, cho B2=100100₂. Tìm bốn bit đầu ra S2(B2), dùng hộp S2 chuẩn trong bảng bên dưới.",
+    "options": {
+      "A": "0111",
+      "B": "0100",
+      "C": "1010",
+      "D": "1110"
+    },
+    "reference_pages": [
+      93,
+      94
+    ],
+    "reason": "B2=100100 qua S2: hàng 10₂=2, cột 0010₂=2, S2[2][2]=7. Bảng được khôi phục từ trang 94.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 7,
+        "reason": "Giá trị phương án 7; kết quả tính độc lập 7."
+      },
+      "B": {
+        "matches": false,
+        "value": 4,
+        "reason": "Giá trị phương án 4; kết quả tính độc lập 7."
+      },
+      "C": {
+        "matches": false,
+        "value": 10,
+        "reason": "Giá trị phương án 10; kết quả tính độc lập 7."
+      },
+      "D": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 7."
+      }
+    },
+    "numeric": {
+      "expected": 7,
+      "base": 2,
+      "values": {
+        "A": 7,
+        "B": 4,
+        "C": 10,
+        "D": 14
+      }
+    },
+    "hint": "Mẹo: B2 phải đi qua S2; hai bit ngoài chọn hàng, bốn bit giữa chọn cột.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-17": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-17",
+    "correct_answer": "A",
+    "question": "DES: K=0000 1010 1110 1001 1001 0110 1100 1101 1110 0010 0000 1111 0100 1011 1011 0011. Tìm bốn bit đầu PC-1(K).",
+    "options": {
+      "A": "1001",
+      "B": "1011",
+      "C": "1010",
+      "D": "1110"
+    },
+    "reference_pages": [
+      99,
+      101
+    ],
+    "reason": "Bốn vị trí đầu PC-1 là 57,49,41,33, đều hiện rõ. Các hàng bị cụt phía cuối không tham gia phép tính này.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 9,
+        "reason": "Giá trị phương án 9; kết quả tính độc lập 9."
+      },
+      "B": {
+        "matches": false,
+        "value": 11,
+        "reason": "Giá trị phương án 11; kết quả tính độc lập 9."
+      },
+      "C": {
+        "matches": false,
+        "value": 10,
+        "reason": "Giá trị phương án 10; kết quả tính độc lập 9."
+      },
+      "D": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 9."
+      }
+    },
+    "numeric": {
+      "expected": 9,
+      "base": 2,
+      "values": {
+        "A": 9,
+        "B": 11,
+        "C": 10,
+        "D": 14
+      }
+    },
+    "hint": "Mẹo: Chỉ lấy các bit khóa ở bốn vị trí PC-1 đầu tiên, đánh số từ 1; không cần tính 52 bit đầu ra còn lại.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-28": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-28",
+    "correct_answer": "C",
+    "question": "Trong DES, cho B5=101011₂. Dùng hộp S5 trong hình để tính bốn bit S5(B5).",
+    "options": {
+      "A": "1100",
+      "B": "0001",
+      "C": "1110",
+      "D": "1010"
+    },
+    "reference_pages": [
+      93,
+      95
+    ],
+    "reason": "Sửa tham chiếu B3 thành B5 cho khớp dữ kiện B5=101011 và hộp S5 có trong ảnh.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Hàng 3 cột 5 không bằng 12."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Hàng 3 cột 5 không bằng 1."
+      },
+      "C": {
+        "matches": true,
+        "reason": "S5[3][5]=14=1110₂."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Hàng 3 cột 5 không bằng 10."
+      }
+    },
+    "numeric": {
+      "box": 5,
+      "bits": "101011",
+      "row": 3,
+      "column": 5,
+      "expected": 14
+    },
+    "hint": "Mẹo: Theo dữ kiện B5 hãy tra S5, không tra S3; hàng và cột đều bắt đầu từ 0.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-34": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-34",
+    "correct_answer": "D",
+    "question": "Cho b,c>1 và gcd(b,c)=1. Tập nghiệm ĐẦY ĐỦ của hệ x≡a (mod b), x≡a (mod c) là gì?",
+    "options": {
+      "A": "x ≡ a² (mod b+c)",
+      "B": "x ≡ a (mod b+c)",
+      "C": "x ≡ a² (mod bc)",
+      "D": "x ≡ a (mod bc)"
+    },
+    "reference_pages": [
+      177,
+      178
+    ],
+    "reason": "Đọc đủ A–D trên hình và ánh xạ đúng thứ tự UI cũ (A là nhãn C trên hình); không bịa các phương án thiếu trong bản chép.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Thử b=3,c=5,a=2; phương án không cho tập nghiệm đúng."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Sai mô-đun b+c thay cho bc."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Sai vế phải a² thay cho a."
+      },
+      "D": {
+        "matches": true,
+        "reason": "CRT: b,c cùng chia x−a và nguyên tố cùng nhau nên bc chia x−a."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Từ b|(x−a) và c|(x−a), dùng gcd(b,c)=1 để ghép thành bc|(x−a).",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-35": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-35",
+    "correct_answer": "A",
+    "question": "Trong các chế độ ECB,CBC,CFB,OFB,CTR, chọn cặp ĐẦY ĐỦ cho phép giải mã trực tiếp khối i mà KHÔNG cần đọc C_(i−1) và KHÔNG cần sinh tuần tự các khối dòng khóa trước đó (biết khóa, IV/bộ đếm và chỉ số i).",
+    "options": {
+      "A": "ECB, CTR",
+      "B": "CBC, CFB",
+      "C": "CBC",
+      "D": "CFB, OFB"
+    },
+    "reference_pages": [
+      140,
+      141,
+      146,
+      149
+    ],
+    "reason": "Câu gốc random-access có nhiều lựa chọn đúng; làm rõ không lấy khối mã trước và không sinh dòng khóa tuần tự, đồng thời sửa cặp lựa chọn cho đủ.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "ECB dùng riêng C_i; CTR tính trực tiếp bộ đếm i."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Cả CBC và CFB cần khối mã trước."
+      },
+      "C": {
+        "matches": false,
+        "reason": "CBC cần C_(i−1)."
+      },
+      "D": {
+        "matches": false,
+        "reason": "CFB cần khối trước, OFB phải sinh tuần tự dòng khóa."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Viết công thức giải khối i; kiểm tra có cần C_(i−1) hay phải chạy lại chuỗi E_K từ IV không.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-thi-at17-bo-1-3": {
+    "id": "nmmmh-de-thi-at17-bo-1-3",
+    "correct_answer": "B",
+    "question": "Bản rõ MONDAY được mã hóa Hill m=2, quy ước vector hàng và A=0, cho bản mã OSSNOA. Ma trận khóa nào đúng? Hai ô bị che ở phương án D được giữ dấu ?; cột trái vẫn đọc rõ.",
+    "options": {
+      "A": "k = [[5,8],[7,13]]",
+      "B": "k = [[5,8],[19,13]]",
+      "C": "k = [[7,9],[8,3]]",
+      "D": "\\(k=\\begin{pmatrix}5&?\\\\7&?\\end{pmatrix}\\)"
+    },
+    "reference_pages": [
+      54
+    ],
+    "reason": "Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Mã hóa toàn bộ MONDAY được CSINMA."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Mã hóa toàn bộ MONDAY được OSSNOA."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Mã hóa toàn bộ MONDAY được OULWKU."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Hai ô cột phải bị che nhưng cột trái đọc được (5,7): (12×5+14×7) mod 26=2, cho chữ C, không thể là O. Không đoán hai ô bị che."
+      }
+    },
+    "numeric": {
+      "outputs": {
+        "A": "CSINMA",
+        "B": "OSSNOA",
+        "C": "OULWKU"
+      },
+      "D_first_cipher_letter": 2
+    },
+    "hint": "Mẹo: Thử cặp MO trước. Chỉ cột trái ma trận đã quyết định chữ mã đầu; ô bị che ở cột phải không ảnh hưởng phép thử này.",
+    "typed": true,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-17": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-17",
+    "correct_answer": "D",
+    "question": "Câu hỏi theo hình gốc đính kèm.",
+    "options": {
+      "A": "(211,905,218,214,212)",
+      "B": "(211,218,905, 212,214)",
+      "C": "(218, 211,905,214,212)",
+      "D": "(211, 218, 905, 792, 214, 212)"
+    },
+    "reference_pages": [
+      188
+    ],
+    "reason": "Dãy nguồn và hoán vị đều có sáu phần tử nhưng mọi phương án chỉ có năm; sửa một phương án thành đủ sáu kết quả tính độc lập.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Nguồn chỉ có năm phần tử, không thể là khóa sáu thành phần."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Nguồn chỉ có năm phần tử, không thể là khóa sáu thành phần."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Nguồn chỉ có năm phần tử, không thể là khóa sáu thành phần."
+      },
+      "D": {
+        "matches": true,
+        "reason": "Đúng: a_i=210·M_π(i) mod 1163 cho [211, 218, 905, 792, 214, 212]."
+      }
+    },
+    "numeric": {
+      "weights": [
+        32,
+        37,
+        73,
+        145,
+        289,
+        577
+      ],
+      "permutation": [
+        3,
+        6,
+        1,
+        2,
+        5,
+        4
+      ],
+      "multiplier": 210,
+      "modulus": 1163,
+      "public": [
+        211,
+        218,
+        905,
+        792,
+        214,
+        212
+      ]
+    },
+    "hint": "Mẹo: Khóa công khai phải có cùng số thành phần với dãy riêng; tính W·M_π(i) mod M đúng chiều hoán vị.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-cuong-2025-chuong2-38": {
+    "id": "nmmmh-de-cuong-2025-chuong2-38",
+    "correct_answer": "D",
+    "question": "AES: cho SubWord(RotWord(w))=(AE,FE,86,54)_H. Trong bài đã chuẩn hóa này, CHO THÊM j=3 và Rcon[3]=(04,00,00,00)_H. Tính g(w).",
+    "options": {
+      "A": "EA; FE; 86; 54",
+      "B": "EE; FE; 86; 54",
+      "C": "A6; FE; 86; 54",
+      "D": "AA; FE; 86; 54"
+    },
+    "reference_pages": [
+      126,
+      129
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất Rcon[j]; bổ sung rõ vòng j=3 thành một bài hoàn chỉnh theo lịch AES, không tuyên bố đó là vòng gốc. Thực hiện XOR từng byte với hằng vòng, không lấy đáp án tô màu làm đầu vào.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "EA khác AE XOR 04."
+      },
+      "B": {
+        "matches": false,
+        "reason": "EE khác AE XOR 04."
+      },
+      "C": {
+        "matches": false,
+        "reason": "A6 khác AE XOR 04."
+      },
+      "D": {
+        "matches": true,
+        "reason": "AA FE 86 54 là XOR đúng với 04 00 00 00."
+      }
+    },
+    "numeric": {
+      "subword": [
+        174,
+        254,
+        134,
+        84
+      ],
+      "rcon": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        170,
+        254,
+        134,
+        84
+      ]
+    },
+    "hint": "Mẹo: Rcon chỉ có byte đầu khác 0, nên giữ nguyên ba byte cuối và XOR byte đầu.",
+    "typed": false,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-chuong2-39": {
+    "id": "nmmmh-de-cuong-2025-chuong2-39",
+    "correct_answer": "A",
+    "question": "AES-128: cho w[0]=(12,70,AE,DB)_H. Bổ sung dữ kiện cho bài chuẩn hóa: w[3]=(82,35,EB,5F)_H và Rcon[1]=(01,00,00,00)_H. Tính w[4]=w[0] XOR g(w[3]).",
+    "options": {
+      "A": "85; 99; 61; C8",
+      "B": "87; 71; 5F; 61",
+      "C": "77; 70; 5F; 80",
+      "D": "87; 70; 5F; 80"
+    },
+    "reference_pages": [
+      120,
+      126,
+      129
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn bỏ trống g(w3). Bổ sung w3 và Rcon rõ ràng rồi tính g, không suy g ngược từ phương án cũ. Tự tính SubWord/RotWord/Rcon, sau đó XOR với w0; thay phương án A bằng kết quả mới.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+      },
+      "B": {
+        "matches": false,
+        "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+      },
+      "C": {
+        "matches": false,
+        "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+      },
+      "D": {
+        "matches": false,
+        "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+      }
+    },
+    "numeric": {
+      "w0": [
+        18,
+        112,
+        174,
+        219
+      ],
+      "w3": [
+        130,
+        53,
+        235,
+        95
+      ],
+      "rcon": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "g": [
+        151,
+        233,
+        207,
+        19
+      ],
+      "w4": [
+        133,
+        153,
+        97,
+        200
+      ]
+    },
+    "hint": "Mẹo: Xoay w3 một byte, tra S-box, XOR Rcon vào byte đầu; cuối cùng XOR với w0.",
+    "typed": false,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-chuong3-43": {
+    "id": "nmmmh-de-cuong-2025-chuong3-43",
+    "correct_answer": "C",
+    "question": "Bài chuẩn hóa dùng NHẤT QUÁN nhóm Z*19. Với các phần tử 2,9,13,17 theo đúng thứ tự này, ghi 1 nếu là phần tử sinh, 0 nếu không. Chọn chuỗi bốn bit.",
+    "options": {
+      "A": "1101",
+      "B": "1110",
+      "C": "1010",
+      "D": "0110"
+    },
+    "reference_pages": [
+      176
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn dùng cả 19 và 10; chọn công khai modulo 19 để biên soạn phiên bản nhất quán, không khẳng định 19 là ý định của đề gốc. Tính bậc của từng phần tử modulo 19, đánh dấu 1 khi bậc bằng 18.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 13,
+        "reason": "Giá trị phương án 13; kết quả tính độc lập 10."
+      },
+      "B": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 10."
+      },
+      "C": {
+        "matches": true,
+        "value": 10,
+        "reason": "Giá trị phương án 10; kết quả tính độc lập 10."
+      },
+      "D": {
+        "matches": false,
+        "value": 6,
+        "reason": "Giá trị phương án 6; kết quả tính độc lập 10."
+      }
+    },
+    "numeric": {
+      "expected": 10,
+      "base": 2,
+      "values": {
+        "A": 13,
+        "B": 14,
+        "C": 10,
+        "D": 6
+      }
+    },
+    "hint": "Mẹo: 18=2×3²; với từng a, thử a^9 và a^6 modulo 19. Phần tử sinh phải qua cả hai phép thử khác 1.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-4": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-4",
+    "correct_answer": "C",
+    "question": "AES MixColumns: cột đầu trạng thái là (56,1F,65,AB)_H. Trong bài biên soạn lại, cần tính ô S00 (hàng đầu, cột đầu), dùng hàng hệ số (02,03,01,01). Chọn giá trị HEX.",
+    "options": {
+      "A": "6C",
+      "B": "CD",
+      "C": "43",
+      "D": "65"
+    },
+    "reference_pages": [
+      123,
+      124
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất chỉ số ô cần tính; chọn và ghi rõ S00, không coi chỉ số này là OCR phục hồi. Giữ cột đầu ma trận đọc rõ, chỉ định công khai ô S00; các nhiễu mới lấy từ các hàng khác của cùng phép nhân.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 108,
+        "reason": "Giá trị phương án 108; kết quả tính độc lập 67."
+      },
+      "B": {
+        "matches": false,
+        "value": 205,
+        "reason": "Giá trị phương án 205; kết quả tính độc lập 67."
+      },
+      "C": {
+        "matches": true,
+        "value": 67,
+        "reason": "Giá trị phương án 67; kết quả tính độc lập 67."
+      },
+      "D": {
+        "matches": false,
+        "value": 101,
+        "reason": "Giá trị phương án 101; kết quả tính độc lập 67."
+      }
+    },
+    "numeric": {
+      "expected": 67,
+      "base": 16,
+      "values": {
+        "A": 108,
+        "B": 205,
+        "C": 67,
+        "D": 101
+      }
+    },
+    "hint": "Mẹo: Chỉ nhân hàng (02,03,01,01) với cột đã cho; 03·a=(02·a) XOR a, cộng các tích bằng XOR.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop1-7": {
+    "id": "nmmmh-de-cuong-2025-tonghop1-7",
+    "correct_answer": "A",
+    "question": "Bài DES biên soạn lại: cho x=0123456789ABCDEF_H (64 bit, bit cao nhất bên trái). Sau IP chuẩn, lấy các bit ở vị trí 1, 2, 3, 4 theo thứ tự a,b,c,d. Chọn abcd.",
+    "options": {
+      "A": "1100",
+      "B": "1101",
+      "C": "1110",
+      "D": "1000"
+    },
+    "reference_pages": [
+      89
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "value": 12,
+        "reason": "Giá trị phương án 12; kết quả tính độc lập 12."
+      },
+      "B": {
+        "matches": false,
+        "value": 13,
+        "reason": "Giá trị phương án 13; kết quả tính độc lập 12."
+      },
+      "C": {
+        "matches": false,
+        "value": 14,
+        "reason": "Giá trị phương án 14; kết quả tính độc lập 12."
+      },
+      "D": {
+        "matches": false,
+        "value": 8,
+        "reason": "Giá trị phương án 8; kết quả tính độc lập 12."
+      }
+    },
+    "numeric": {
+      "expected": 12,
+      "base": 2,
+      "values": {
+        "A": 12,
+        "B": 13,
+        "C": 14,
+        "D": 8
+      }
+    },
+    "hint": "Mẹo: Với vị trí đầu ra j, lấy bit đầu vào ở IP[j]; không áp bảng theo chiều ngược lại.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-34": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-34",
+    "correct_answer": "D",
+    "question": "Bài DES biên soạn lại: cho x=0123456789ABCDEF_H (64 bit, bit cao nhất bên trái). Sau IP chuẩn, lấy các bit ở vị trí 9, 10, 11, 12 theo thứ tự a,b,c,d. Chọn abcd.",
+    "options": {
+      "A": "0001",
+      "B": "0010",
+      "C": "0100",
+      "D": "0000"
+    },
+    "reference_pages": [
+      89
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 1,
+        "reason": "Giá trị phương án 1; kết quả tính độc lập 0."
+      },
+      "B": {
+        "matches": false,
+        "value": 2,
+        "reason": "Giá trị phương án 2; kết quả tính độc lập 0."
+      },
+      "C": {
+        "matches": false,
+        "value": 4,
+        "reason": "Giá trị phương án 4; kết quả tính độc lập 0."
+      },
+      "D": {
+        "matches": true,
+        "value": 0,
+        "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+      }
+    },
+    "numeric": {
+      "expected": 0,
+      "base": 2,
+      "values": {
+        "A": 1,
+        "B": 2,
+        "C": 4,
+        "D": 0
+      }
+    },
+    "hint": "Mẹo: Với vị trí đầu ra j, lấy bit đầu vào ở IP[j]; không áp bảng theo chiều ngược lại.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop2-23": {
+    "id": "nmmmh-de-cuong-2025-tonghop2-23",
+    "correct_answer": "B",
+    "question": "Bài DES biên soạn lại: cho C=9F1AA34E_H (32 bit, bit cao nhất bên trái). Tìm bốn bit ĐẦU của P(C) theo thứ tự A,B,C,D. Dùng hoán vị P chuẩn DES.",
+    "options": {
+      "A": "0101",
+      "B": "0100",
+      "C": "0110",
+      "D": "0000"
+    },
+    "reference_pages": [
+      96
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất trạng thái và vị trí; cung cấp trạng thái 32 bit và vị trí đích mới, ghi rõ bài đã biên soạn lại. Áp bốn vị trí đầu P=(16,7,20,21), chỉ số bắt đầu từ 1.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 5,
+        "reason": "Giá trị phương án 5; kết quả tính độc lập 4."
+      },
+      "B": {
+        "matches": true,
+        "value": 4,
+        "reason": "Giá trị phương án 4; kết quả tính độc lập 4."
+      },
+      "C": {
+        "matches": false,
+        "value": 6,
+        "reason": "Giá trị phương án 6; kết quả tính độc lập 4."
+      },
+      "D": {
+        "matches": false,
+        "value": 0,
+        "reason": "Giá trị phương án 0; kết quả tính độc lập 4."
+      }
+    },
+    "numeric": {
+      "expected": 4,
+      "base": 2,
+      "values": {
+        "A": 5,
+        "B": 4,
+        "C": 6,
+        "D": 0
+      }
+    },
+    "hint": "Mẹo: Bốn bit đầu ra chỉ cần bốn bit đầu vào ở các chỉ số đầu tiên của bảng P; không cần hoán vị cả khối.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop3-23": {
+    "id": "nmmmh-de-cuong-2025-tonghop3-23",
+    "correct_answer": "B",
+    "question": "Merkle–Hellman: dãy siêu tăng (12,13,33,60,120,240,480), W=317. Bài chuẩn hóa chọn lại M=1009 để lớn hơn tổng dãy; π là hoán vị của {1,…,7}, π=(5,6,1,2,4,7,3). Tính khóa công khai a_i=W·M_π(i) mod 1009.",
+    "options": {
+      "A": "(777, 85, 858, 810, 371, 707, 405)",
+      "B": "(707, 405, 777, 85, 858, 810, 371)",
+      "C": "(707, 405, 810, 777, 858, 85, 371)",
+      "D": "(371, 810, 858, 85, 777, 405, 707)"
+    },
+    "reference_pages": [
+      188
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. M=737 của nguồn không hợp lệ để bảo đảm giải mã; M=1009 và các nhiễu là dữ kiện biên soạn mới. Trang 188 ghi điều kiện M quá yếu, bổ sung bằng điều kiện chuẩn M>tổng dãy. Sửa miền hoán vị thành 1..7 và chọn M=1009>958, gcd(317,1009)=1. Tính đủ bảy phần tử khóa công khai theo đúng chiều hoán vị.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+      }
+    },
+    "numeric": {
+      "weights": [
+        12,
+        13,
+        33,
+        60,
+        120,
+        240,
+        480
+      ],
+      "permutation": [
+        5,
+        6,
+        1,
+        2,
+        4,
+        7,
+        3
+      ],
+      "modulus": 1009,
+      "multiplier": 317,
+      "public": [
+        707,
+        405,
+        777,
+        85,
+        858,
+        810,
+        371
+      ]
+    },
+    "hint": "Mẹo: Kiểm tra M lớn hơn TỔNG dãy và W khả nghịch; sau đó tính các vị trí có khác biệt giữa phương án trước.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-8": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-8",
+    "correct_answer": "A",
+    "question": "Caesar với A=0,…,Z=25, C=(P+K) mod 26. Bài chuẩn hóa CHO THÊM bản rõ LOVELYDAY, bản mã CFMVCPURP. Tìm khóa K.",
+    "options": {
+      "A": "17",
+      "B": "3",
+      "C": "21",
+      "D": "9"
+    },
+    "reference_pages": [
+      40
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn chỉ cho bản mã, không xác định được khóa duy nhất; bản rõ LOVELYDAY là điều kiện bổ sung mới, không coi là được chứng minh từ nguồn. Bổ sung một cặp bản rõ–bản mã đầy đủ, thử độc lập mọi khóa trên từng ký tự.",
+    "option_checks": {
+      "A": {
+        "matches": true,
+        "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+      }
+    },
+    "numeric": {
+      "plaintext": "LOVELYDAY",
+      "ciphertext": "CFMVCPURP",
+      "key": 17
+    },
+    "hint": "Mẹo: Một cặp chữ đã đủ tính K=C−P mod 26; thử thêm chữ thứ hai để kiểm tra.",
+    "typed": false,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-cuong-2025-tonghop4-20": {
+    "id": "nmmmh-de-cuong-2025-tonghop4-20",
+    "correct_answer": "B",
+    "question": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào? Dùng A=0,…,Z=25 và P=(C−K) mod 26 như ví dụ Vernam trong tài liệu; không XOR ASCII.",
+    "options": {
+      "A": "Thanhtoanquazalo",
+      "B": "Thanhtoanquamaqr",
+      "C": "Thanhtoanquamawe",
+      "D": "Thanhtoanquamotp"
+    },
+    "reference_pages": [
+      29,
+      30
+    ],
+    "reason": "Kiểm đếm lại cho thấy khóa MATMADEMAKHOTHAT và bản mã ĐỀU CÓ 16 ký tự; nhận định cũ khóa chỉ dài 15 là sai. Giữ nguyên khóa, bản mã và phương án; áp Vernam chữ Latin modulo 26 theo tài liệu.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+      },
+      "C": {
+        "matches": false,
+        "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+      },
+      "D": {
+        "matches": false,
+        "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+      }
+    },
+    "numeric": {
+      "ciphertext": "FHTZHWSMNABOFHQK",
+      "keystream": "MATMADEMAKHOTHAT",
+      "plaintext": "THANHTOANQUAMAQR"
+    },
+    "hint": "Mẹo: Kiểm tra hai chuỗi cùng độ dài rồi trừ từng cặp mã chữ modulo 26; không chuyển sang XOR ASCII.",
+    "typed": false,
+    "status": "verified"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-5": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-5",
+    "correct_answer": "C",
+    "question": "Bài biên soạn lại: khẳng định nào ĐÚNG về CFB với kích thước đoạn bằng kích thước khối (full-block)?",
+    "options": {
+      "A": "Cơ chế móc xích của CFB làm cho khối mã thứ i chỉ phụ thuộc vào các khối rõ trước đó",
+      "B": "Trong chế độ mã khối CFB lỗi bit trong một khối mã đơn lẻ sẽ chỉ ảnh hưởng việc giải mã của các khối tiếp theo.",
+      "C": "Trong chế độ mã khối CFB, quá trình mã hóa không thực hiện đối với bản rõ mà biến đổi IV hoặc bản mã của khối trước đó.",
+      "D": "CFB không có khả năng tự đồng bộ"
+    },
+    "reference_pages": [
+      143,
+      144,
+      145
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Thân câu gốc mất hoàn toàn; ĐÚNG và full-block là yêu cầu biên soạn mới, không phải nguyên văn phục hồi. Chọn yêu cầu ĐÚNG cho bài biên soạn lại, xét CFB full-block để phát biểu định nghĩa rõ ràng.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "Khối mã còn phụ thuộc khối rõ HIỆN TẠI, không chỉ các khối trước."
+      },
+      "B": {
+        "matches": false,
+        "reason": "Lỗi bản mã còn lật bit tương ứng trong khối rõ hiện tại."
+      },
+      "C": {
+        "matches": true,
+        "reason": "Đúng: E_K tác động IV hoặc C_(i−1), rồi XOR bản rõ."
+      },
+      "D": {
+        "matches": false,
+        "reason": "CFB có khả năng tự đồng bộ sau số đoạn hữu hạn."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Viết C_i=P_i XOR E_K(C_(i−1)), C_0=IV; theo dõi riêng đầu vào E_K và phép XOR.",
+    "typed": false,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-giua-ki-2026-ca-1-9": {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-9",
+    "correct_answer": "B",
+    "question": "Loại mật mã tổng quát nào xử lý lần lượt từng bit/ký tự bằng cách kết hợp với một dòng khóa, thay vì áp phép mã cố định lên từng khối dữ liệu?",
+    "options": {
+      "A": "ECB và OFB",
+      "B": "Mã dòng",
+      "C": "DES",
+      "D": "AES"
+    },
+    "reference_pages": [
+      28,
+      152,
+      153,
+      155
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Không thể xác nhận thuật toán nào thích hợp hơn với mọi phần cứng; thay tiêu chí đó bằng định nghĩa mã dòng từ tài liệu. Thay so sánh phần cứng không có thước đo bằng định nghĩa thuật toán đủ chặt chẽ.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "reason": "ECB/OFB là tên chế độ; ECB xử lý theo khối, không phải một loại tổng quát cùng tính chất."
+      },
+      "B": {
+        "matches": true,
+        "reason": "Đúng: định nghĩa mã dòng."
+      },
+      "C": {
+        "matches": false,
+        "reason": "DES là thuật toán mã khối."
+      },
+      "D": {
+        "matches": false,
+        "reason": "AES là thuật toán mã khối."
+      }
+    },
+    "numeric": null,
+    "hint": "Mẹo: Phân biệt loại mã (khối/dòng), tên thuật toán (DES/AES) và chế độ hoạt động.",
+    "typed": false,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  },
+  "nmmmh-de-giua-ki-2026-ca-2-30": {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-30",
+    "correct_answer": "C",
+    "question": "Bài chuẩn hóa chọn NHẤT QUÁN mô-đun 97: trong nhóm Z*97 có bao nhiêu thặng dư bậc hai khác 0?",
+    "options": {
+      "A": "40",
+      "B": "90",
+      "C": "48",
+      "D": "96"
+    },
+    "reference_pages": [
+      178
+    ],
+    "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mâu thuẫn 41/97. Chọn công khai modulo 97 cho phiên bản mới, không khẳng định đó là ý định gốc. Đếm trực tiếp tập bình phương khác 0 modulo 97; so với công thức (97−1)/2.",
+    "option_checks": {
+      "A": {
+        "matches": false,
+        "value": 40,
+        "reason": "Giá trị phương án 40; kết quả tính độc lập 48."
+      },
+      "B": {
+        "matches": false,
+        "value": 90,
+        "reason": "Giá trị phương án 90; kết quả tính độc lập 48."
+      },
+      "C": {
+        "matches": true,
+        "value": 48,
+        "reason": "Giá trị phương án 48; kết quả tính độc lập 48."
+      },
+      "D": {
+        "matches": false,
+        "value": 96,
+        "reason": "Giá trị phương án 96; kết quả tính độc lập 48."
+      }
+    },
+    "numeric": {
+      "expected": 48,
+      "base": 10,
+      "values": {
+        "A": 40,
+        "B": 90,
+        "C": 48,
+        "D": 96
+      }
+    },
+    "hint": "Mẹo: Với p nguyên tố lẻ, hai phần tử x và −x cho cùng bình phương; đếm theo từng cặp trong nhóm đơn vị.",
+    "typed": true,
+    "status": "verified",
+    "kind": "reconstructed_exercise_with_explicit_new_conditions"
+  }
+}

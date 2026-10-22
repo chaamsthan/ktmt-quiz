@@ -13,7 +13,7 @@ function selectNmmmhCollection(id = "legacy") {
   const exams = group?.exams || nmmmh.catalog.exams;
   const ids = new Set(exams.map(e => e.id));
   nmmmh.questions = nmmmh.allQuestions.filter(q => ids.has(q.source_exam_id));
-  nmmmh.manifest = { ...nmmmh.catalog, exams, collection_name: group?.name || "Bộ đề các khóa", collection_id: id, report: group?.report || "subjects/nmmmh/REPORT.md", description: group?.description || "" };
+  nmmmh.manifest = { ...nmmmh.catalog, exams, collection_name: group?.name || "Bộ đề các khóa", collection_id: id, report: nmmmh.catalog.reference_review?.report || group?.report || "subjects/nmmmh/REPORT.md", description: group?.description || "" };
 }
 
 function nmmmhCollectionsHtml() {
@@ -142,6 +142,7 @@ function renderNmmmhHome() {
   const current = nmmmh.route.chapter || "2";
   app.innerHTML = `<section class="results-head"><div><h1>Trắc nghiệm Mật mã học</h1><p class="muted">${nmmmh.manifest.exams.length} đề · ${total} bản ghi · ${graded} câu có đáp án${nmmmh.collection === "legacy" ? " kiểm chứng" : " để chấm"}</p></div><a class="ghost-btn" href="${subjectLink({ view: "history" })}">Lịch sử làm bài</a></section>
     ${nmmmhCollectionsHtml()}
+    ${nmmmh.catalog.reference_review ? `<p class="notice">Đã chuẩn hóa ${nmmmh.catalog.reference_review.resolved} câu từng cần rà soát; ${nmmmh.catalog.reference_review.reconstructed} câu được biên soạn lại do nguồn thiếu hoặc mâu thuẫn. <a href="${escapeHtml(nmmmh.catalog.reference_review.report)}" target="_blank" rel="noopener">Xem nhật ký và bản gốc</a>. Lịch sử cũ được giữ nguyên.</p>` : ""}
     <div class="section-heading"><h2>${escapeHtml(nmmmh.manifest.collection_name)}</h2></div>
     ${nmmmh.manifest.description ? `<p class="notice">${escapeHtml(nmmmh.manifest.description)}</p>` : ""}
     ${nmmmhProgressHtml()}
@@ -228,6 +229,7 @@ function nmmmhQuestionMeta(question) {
     ${question.classification_needs_review ? '<p class="side-note">Phân chương hiện có là đề xuất: cây kiến thức chưa có mục chi tiết cho nội dung này; cần đối chiếu tài liệu bổ sung.</p>' : ""}
     ${question.duplicate_group ? `<span class="session-chip">${question.duplicate_status === "confirmed" ? "Câu trùng đã xác minh" : "Nghi trùng · giữ riêng"}</span>` : ""}
     ${question.needs_review ? `<span class="review-badge">Cần rà soát${question.correct_answer ? " nguồn ảnh" : " · không tính điểm"}</span>` : ""}
+    ${question.normalization ? `<p class="side-note">${question.normalization.kind === "reconstructed_exercise_with_explicit_new_conditions" ? "Bài đã biên soạn lại: có dữ kiện/tiêu chí mới được bổ sung theo tài liệu, không phải nguyên văn đề gốc." : "Đã đối chiếu “Bản full đã gộp.pdf”; câu dẫn/phương án đã được chuẩn hóa để chỉ còn một lựa chọn đúng."} Bản trước sửa được giữ trong phần căn cứ.</p>` : ""}
     ${question.source_fidelity_status === "needs_review" ? '<p class="notice" role="note">Nguồn chưa xác minh đầy đủ: có ký tự hoặc ô ma trận chưa đọc/chốt được. Bản chép hiện tại không được coi là chuẩn; hãy đối chiếu ảnh và lưu ý kiểm định.</p>' : ""}
     ${question.collection_id ? `<p class="side-note">${escapeHtml(question.collection_name)} · ${question.answer_audit?.status === "source_marked" ? "Đáp án theo dấu trong DOCX gốc; không coi là kiểm chứng độc lập." : question.correct_answer ? "Đáp án kiểm chứng độc lập." : "Chưa đủ căn cứ để chấm."}</p>` : ""}
     ${question.source_notes?.length ? `<details><summary>Ghi chú OCR cũ — không dùng làm đáp án</summary><p>${question.source_notes.map(escapeHtml).join("<br />")}</p></details>` : ""}</div>`;
@@ -237,7 +239,9 @@ function answerExplanation(question) {
   if (question.subject_id === "nmmmh") {
     if (!state.quiz.feedback[question.id] && !state.quiz.revealed?.[question.id]) return "";
     const mapping = state.quiz.context?.shuffle_options ? `<p class="side-note">Giải thích dùng nhãn gốc của đề. Gốc → đang hiển thị: ${LETTERS.map(l => `${l} → ${displayOptionLetter(question, l)}`).join(" · ")}.</p>` : "";
-    return `<div class="answer-explanation"><details ${state.quiz.explanationOpen?.[question.id] ? "open" : ""}><summary>Xem giải thích và căn cứ kiểm chứng</summary>${mapping}<p>${escapeHtml(question.explanation || question.answer_audit?.explanation || "Chưa đủ bằng chứng.")}</p>${(question.answer_audit?.sources || []).filter(s => /^https:\/\//.test(s)).map(s => `<a href="${escapeHtml(s)}" target="_blank" rel="noopener">Tài liệu kiểm chứng ↗</a>`).join(" · ")}</details></div>`;
+    const revision = question.normalization;
+    const original = revision ? `<details class="normalization-source"><summary>Xem bản trước chuẩn hóa — chỉ để đối chiếu</summary><p>${escapeHtml(revision.original_question)}</p>${(revision.original_images || []).map(src => `<img class="question-image" src="${escapeHtml(src)}" alt="Ảnh nguồn trước chuẩn hóa" loading="lazy" />`).join("")}<a href="subjects/nmmmh/REFERENCE_REVIEW.md" target="_blank" rel="noopener">Nhật ký đối chiếu ↗</a></details>` : "";
+    return `<div class="answer-explanation"><details ${state.quiz.explanationOpen?.[question.id] ? "open" : ""}><summary>Xem giải thích và căn cứ kiểm chứng</summary>${mapping}<p>${escapeHtml(question.explanation || question.answer_audit?.explanation || "Chưa đủ bằng chứng.")}</p>${(question.answer_audit?.sources || []).filter(s => /^https:\/\//.test(s)).map(s => `<a href="${escapeHtml(s)}" target="_blank" rel="noopener">Tài liệu kiểm chứng ↗</a>`).join(" · ")}${original}</details></div>`;
   }
   if (!question.answer_audit || !state.quiz.feedback[question.id]) return "";
   return `<div class="answer-explanation"><strong>Căn cứ:</strong> ${escapeHtml(question.answer_audit.explanation)}</div>`;

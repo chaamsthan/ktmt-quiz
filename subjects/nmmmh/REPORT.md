@@ -1,3 +1,5 @@
+> CẬP NHẬT ĐỐI CHIẾU: Các số liệu dưới đây là báo cáo lần nhập gốc. Số liệu và đáp án hiện tại: [REFERENCE_REVIEW.md](REFERENCE_REVIEW.md).
+
 # Báo cáo nạp môn Mật mã học
 
 5 đề; 173 bản ghi; 173 câu có nội dung; 139 câu có đáp án kiểm chứng.

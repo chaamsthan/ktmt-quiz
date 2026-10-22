@@ -2339,28 +2339,26 @@
     "question_image": null,
     "source_page": 3,
     "source_docx_block": 79,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau.\n(B)  Trong chế độ ECB hai khối bản rõ giống nhau thì cho ra hai khối bản mã giống nhau.\n(C)  Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.\n(D)  Trong chế độ ECB một hay nhiều bit sai trong một khối mã đơn lẻ sẽ ảnh hưởng tới việc giải mã khối đó và các khối mã sau đó.    ← đang chọn",
     "A": {
-      "text": "Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau.",
+      "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã."
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ CBC, kết quả các khối mã sẽ như nhau khi cùng khối bản rõ được mã hóa dưới cùng một khóa và một IV. Thay đổi IV, khóa, hoặc khối rõ đầu tiên thì bản mã kết quả sẽ khác nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã."
         }
       ]
     },
@@ -2382,19 +2380,19 @@
       ]
     },
     "C": {
-      "text": "Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau.",
+      "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau."
+          "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau."
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Trong chế độ OFB nếu thay đổi IV thì làm cho một bản rõ đầu vào như nhau sẽ được mã hóa thành các bản mã khác nhau."
+          "text": "Trong OFB, với cùng khóa và cùng khối rõ đầu tiên, hai IV khác nhau cho hai khối mã đầu tiên khác nhau."
         }
       ]
     },
@@ -2430,27 +2428,49 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai.",
-      "sources": [
-        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf"
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
-        "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12"
-      ]
+      "explanation": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.\nA: Phát biểu phù hợp công thức chế độ.\nB: Phát biểu phù hợp công thức chế độ.\nC: Phát biểu phù hợp công thức chế độ.\nD: SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 141, 142, 146, 148.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          140,
+          141,
+          142,
+          146,
+          148
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Phát biểu phù hợp công thức chế độ."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Phát biểu phù hợp công thức chế độ."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Phát biểu phù hợp công thức chế độ."
+        },
+        "D": {
+          "matches": true,
+          "reason": "SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "05424f8db49f9eb422ab19761c03fa95880a160ad3e55621f644fb11f44fcb18",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "2"
     ],
@@ -2501,11 +2521,11 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12; audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
-    "hint": "Viết \\(P_i=D_K(C_i)\\) cho ECB, rồi thử thay một khối mã: công thức khối kế có dùng khối bị thay không?\nVới CBC chỉ so sánh khi cùng tiền tố bản rõ, khóa và IV; với OFB theo dõi chuỗi khóa sinh từ IV.",
-    "explanation": "D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai.",
+    "hint": "Mẹo: ECB giải mã từng khối độc lập. Với CBC phải xét cả khối mã trước; OFB dùng đầu ra mã hóa IV làm dòng khóa.",
+    "explanation": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.\nA: Phát biểu phù hợp công thức chế độ.\nB: Phát biểu phù hợp công thức chế độ.\nC: Phát biểu phù hợp công thức chế độ.\nD: SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 141, 142, 146, 148.",
     "display_blocks": [
       {
         "type": "text",
@@ -2513,8 +2533,8 @@
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-03-block_modes_ambiguous",
-    "duplicate_status": "potential",
+    "duplicate_group": "ref-a7f6b9168665f044b5ee",
+    "duplicate_status": "confirmed",
     "duplicate_sources": [
       {
         "id": "nmmmh-de-thi-nmmmh-4",
@@ -2524,20 +2544,36 @@
         "source_file": "De_thi_NMMMH.docx"
       },
       {
-        "id": "nmmmh-de-thi-k16-2-13",
-        "source_exam_id": "de-thi-k16-2",
-        "source_exam_code": "de-thi-k16-2",
-        "source_question_number": "13",
-        "source_file": "de-thi-k16-2.docx"
-      },
-      {
         "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
         "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
         "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
         "source_question_number": "12",
         "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
+      },
+      {
+        "id": "nmmmh-de-thi-k16-2-13",
+        "source_exam_id": "de-thi-k16-2",
+        "source_exam_code": "de-thi-k16-2",
+        "source_question_number": "13",
+        "source_file": "de-thi-k16-2.docx"
       }
-    ]
+    ],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+      "reference_pages": [
+        140,
+        141,
+        142,
+        146,
+        148
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-13",
@@ -4032,23 +4068,20 @@
     "source_question_number": "20",
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
     "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-    "question": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?",
+    "question": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?"
       }
     ],
     "question_image": null,
     "source_page": 5,
     "source_docx_block": 132,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}"
-    ],
-    "answer_evidence": null,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Không thấy nút nào được đánh dấu trên ảnh."
     ],
@@ -4132,30 +4165,50 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
-        "B",
-        "C"
+        "B"
       ],
-      "explanation": "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}",
+      "explanation": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.\nA: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_A = 33.\nB: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.\nC: Không trả lời đúng đối tượng được hỏi; Khóa công khai của A là α^a = 89.\nD: Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
       "sources": [],
-      "proof_key": "elgamal",
-      "official_answer_key": false,
-      "candidate_options": [
-        "B",
-        "C"
-      ],
-      "method": "independent_calculation_elgamal",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-20"
-      ]
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_A = 33."
+        },
+        "B": {
+          "matches": true,
+          "reason": "β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Khóa công khai của A là α^a = 89."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên."
+        }
+      },
+      "numeric": {
+        "beta": 89,
+        "gamma": 28,
+        "delta": 192,
+        "plaintext": 56
+      }
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "8fa74a44065d7cb5c0c6ff6da8eeca04d613f6c8fc9547ca5fc578eb2921ee3a",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -4198,36 +4251,33 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
-    "hint": "Với p=211, α=41, a=117, k=33, m=56, tính riêng \\(\\beta=\\alpha^a,\\gamma=\\alpha^k,\\delta=m\\beta^k\\pmod p\\).\nThử giải mã \\(\\delta\\gamma^{-a}\\); đừng đổi vị trí γ,δ hoặc nhầm a với k. Kiểm từng phát biểu, có thể không chỉ một phát biểu đúng.",
-    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {\"beta\": 89, \"gamma\": 28, \"delta\": 192, \"inverse_gamma_a\": 97}",
+    "hint": "Mẹo: Chỉ xét phương án trả lời đúng đối tượng hỏi. Tính γ=\\(\\alpha ^{k}\\) và δ=mβ^k modulo p; khi giải mã dùng nghịch đảo \\(\\gamma ^{a}\\).",
+    "explanation": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.\nA: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_A = 33.\nB: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.\nC: Không trả lời đúng đối tượng được hỏi; Khóa công khai của A là α^a = 89.\nD: Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của \\(\\mathbb{Z}_{211}^{*}\\). Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của \\(\\mathbb{Z}_{211}^{*}\\). Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Phương án nào nêu ĐÚNG cặp bản mã (γ, δ) của thông điệp đã cho?"
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-33-elgamal_117_same_all_propositions",
-    "duplicate_status": "potential",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-7",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "7",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
-        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-        "source_question_number": "20",
-        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      }
-    ]
+    "duplicate_group": null,
+    "duplicate_status": "unique",
+    "duplicate_sources": [],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Sử dụng hệ mật Elgamal với p = 211, phần tử sinh α = 41 của Z*₂₁₁. Người dùng A chọn khóa bí mật a = 117, số ngẫu nhiên k = 33, bản tin m = 56. Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-21",
@@ -4636,23 +4686,20 @@
     "source_question_number": "23",
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
     "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-    "question": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?",
+    "question": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?"
+        "text": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?"
       }
     ],
     "question_image": null,
     "source_page": 5,
     "source_docx_block": 151,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?\n(A)  Bảo vệ tính toàn vẹn của mẫu tin.\n(B)  Kiểm chứng danh tính và nguồn gốc.\n(C)  Chống chối bỏ.\n(D)  Tất cả đáp án trên.    ← đang chọn",
     "A": {
@@ -4734,30 +4781,47 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap9.pdf",
-        "https://cacr.uwaterloo.ca/hac/about/chap11.pdf"
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
-        "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23"
-      ]
+      "explanation": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.\nA: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nB: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nC: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nD: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "02f2b8f2025b15de49a7c3a77afd8eeb96c5914dcc07b9e6671c7883565bcbbf",
-    "duplicate_group": "duplicate-review-04-authentication_scope_ambiguous",
-    "duplicate_status": "potential",
+    "duplicate_group": null,
+    "duplicate_status": "unique",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "4",
       "1"
@@ -4805,41 +4869,31 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23; audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
-    "hint": "Lập ba tình huống: nội dung bị sửa, giả người gửi, người gửi phủ nhận đã gửi.\nĐối chiếu phạm vi xác thực trong học phần với từng tình huống; lựa chọn tổng hợp phải bao quát đủ, không chỉ đúng một phần.",
-    "explanation": "Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng.",
+    "hint": "Mẹo: Tìm danh sách bao quát tất cả các mục tiêu nêu trong bài; phân biệt phạm vi bài học với bảo đảm của riêng MAC.",
+    "explanation": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.\nA: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nB: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nC: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.\nD: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?"
+        "text": "Theo phạm vi xác thực mẫu tin ở slide 137 trong tài liệu môn học (nghĩa rộng), phương án nào liệt kê ĐẦY ĐỦ các khía cạnh?"
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-5",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "5",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
-        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-        "source_question_number": "23",
-        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-k16-2-36",
-        "source_exam_id": "de-thi-k16-2",
-        "source_exam_code": "de-thi-k16-2",
-        "source_question_number": "36",
-        "source_file": "de-thi-k16-2.docx"
-      }
-    ]
+    "duplicate_sources": [],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Xác thực mẫu tin liên quan đến các khía cạnh nào sau khi truyền tin trên mạng?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-24",
@@ -5283,39 +5337,36 @@
     "source_question_number": "26",
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
     "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-    "question": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?",
+    "question": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Phương án nào nêu ĐÚNG giá trị bản mã c của m = 1234?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Phương án nào nêu ĐÚNG giá trị bản mã c của m = 1234?"
       }
     ],
     "question_image": null,
     "source_page": 5,
     "source_docx_block": 171,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?\n(A)  Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211.\n(B)  Bản mã c = 11152.\n(C)  4 nghiệm căn bậc hai của bản mã c thu được khi mã hóa bản rõ m = 1731 là (1234, 40755, 14169, 27820).\n(D)  Tất cả đáp án trên.    ← đang chọn",
     "A": {
-      "text": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211.",
+      "text": "Đầu vào phép lấy căn của bản mã đã cho là c=11153, p=199, q=211.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211."
+          "text": "Đầu vào phép lấy căn của bản mã đã cho là c=11153, p=199, q=211."
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Đầu vào của thuật toán tính căn bậc hai của bản mã c mod n là c = 11152, p = 199, q = 211."
+          "text": "Đầu vào phép lấy căn của bản mã đã cho là c=11153, p=199, q=211."
         }
       ]
     },
@@ -5381,30 +5432,48 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
-        "A",
         "B"
       ],
-      "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem.",
+      "explanation": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.\nA: Sai giá trị đầu vào: c thực tế là 11152, không phải 11153.\nB: c=m² mod pq=11152.\nC: Danh sách căn tương ứng m=1234, không phải m=1731.\nD: Không thể tất cả đúng vì hai mệnh đề sai.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
       "sources": [],
-      "proof_key": "rabin",
-      "official_answer_key": false,
-      "candidate_options": [
-        "A",
-        "B"
-      ],
-      "method": "independent_calculation_rabin",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-26"
-      ]
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai giá trị đầu vào: c thực tế là 11152, không phải 11153."
+        },
+        "B": {
+          "matches": true,
+          "reason": "c=m² mod pq=11152."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Danh sách căn tương ứng m=1234, không phải m=1731."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Không thể tất cả đúng vì hai mệnh đề sai."
+        }
+      },
+      "numeric": {
+        "n": 41989,
+        "ciphertext": 11152
+      }
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "87e02f527eca58b51af8cbc405ab800985c7b3789566b73da59927311edeb333",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -5447,36 +5516,33 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
-    "hint": "Tự tính \\(n=199\\cdot211\\), rồi \\(c=1234^2\\bmod n\\); so từng phát biểu với cùng bộ dữ kiện.\nBình phương lại từng căn được nêu; nếu một phát biểu đổi bản rõ sang 1731 thì phải kiểm phép mã mới, không dùng lại c cũ.",
-    "explanation": "Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {\"n\": 41989, \"ciphertext\": 11152, \"roots\": [1234, 14169, 27820, 40755], \"a_b_r_s\": [-88, 83, 40, 179], \"bezout\": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem.",
+    "hint": "Mẹo: Chỉ cần bình phương bản rõ rồi lấy dư modulo pq; không cần tính bốn căn.",
+    "explanation": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.\nA: Sai giá trị đầu vào: c thực tế là 11152, không phải 11153.\nB: c=m² mod pq=11152.\nC: Danh sách căn tương ứng m=1234, không phải m=1731.\nD: Không thể tất cả đúng vì hai mệnh đề sai.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Phương án nào nêu ĐÚNG giá trị bản mã c của m = 1234?"
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-34-rabin_1234_same_wrong_m1731_claim",
-    "duplicate_status": "potential",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-29",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "29",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
-        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-        "source_question_number": "26",
-        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      }
-    ]
+    "duplicate_group": null,
+    "duplicate_status": "unique",
+    "duplicate_sources": [],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Trong hệ mật Rabin, p = 199, q = 211, bản rõ m = 1234. Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-27",
@@ -5893,13 +5959,10 @@
     "question_image": null,
     "source_page": 6,
     "source_docx_block": 189,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Thực hiện phép chia a cho n ta được 2 số nguyên q, r sao cho a = n×q + r, 0 ≤ r < n. Khi đó q được gọi là thương và r được gọi là số dư.\n(B)  −7 mod 7; 0 mod 7; 7 mod 7; … là các lớp tương đương trên Z₇.    ← đang chọn\n(C)  Số b được gọi là đại diện của a mod n nếu a ≡ b mod n và 0 ≤ b < n.\n(D)  a ≡ b mod n khi và chỉ khi a và b có phần dư như nhau khi chia cho n.",
     "A": {
@@ -5920,19 +5983,19 @@
       ]
     },
     "B": {
-      "text": "−7 mod 7; 0 mod 7; 7 mod 7; 14 mod 7; … là các lớp tương đương trên Z₇.",
+      "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "−7 mod 7; 0 mod 7; 7 mod 7; 14 mod 7; … là các lớp tương đương trên Z₇."
+          "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "−7 mod 7; 0 mod 7; 7 mod 7; 14 mod 7; … là các lớp tương đương trên Z₇."
+          "text": "−7, 0, 7, 14, … là các đại diện thuộc CÙNG MỘT lớp đồng dư modulo 7."
         }
       ]
     },
@@ -5981,33 +6044,46 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
+      "status": "verified",
+      "correct_answer": "A",
       "valid_options": [
-        "A",
-        "B"
+        "A"
       ],
-      "explanation": "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
-      ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [
-        "A",
-        "B"
-      ],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
-        "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29"
-      ]
+      "explanation": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.\nA: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.\nB: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nC: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nD: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nTham khảo: Bản full đã gộp.pdf, trang PDF 171, 172.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          171,
+          172
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đúng theo định nghĩa đồng dư và đại diện chuẩn."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "6e458e53b47df2b1451dddbff14e2ba30ffa62428de7725c1e834f87f6849691",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "3"
     ],
@@ -6050,11 +6126,11 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29; audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
-    "hint": "Thử phép chia hết để kiểm điều kiện về số dư.\nVới −7, 0, 7, 14, xét hiệu từng cặp có chia hết cho 7 không; phân biệt nhiều đại diện với nhiều lớp đồng dư. Kiểm từng phát biểu độc lập.",
-    "explanation": "Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A.",
+    "hint": "Mẹo: Thử trường hợp chia hết. Các số hơn kém nhau một bội của mô-đun nằm cùng một lớp đồng dư.",
+    "explanation": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.\nA: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.\nB: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nC: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nD: Đúng theo định nghĩa đồng dư và đại diện chuẩn.\nTham khảo: Bản full đã gộp.pdf, trang PDF 171, 172.",
     "source_corrections": [
       {
         "field": "A",
@@ -6082,24 +6158,22 @@
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-35-congruence_strict_zero_same_minus7_list",
-    "duplicate_status": "potential",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-9",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "9",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
-        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-        "source_question_number": "29",
-        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      }
-    ]
+    "duplicate_group": null,
+    "duplicate_status": "unique",
+    "duplicate_sources": [],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-30",
@@ -7523,45 +7597,43 @@
     "question_image": null,
     "source_page": 7,
     "source_docx_block": 238,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng."
-    ],
-    "answer_evidence": null,
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Khẳng định nào sau đây là SAI?\n(A)  Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh.\n(B)  Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật.    ← đang chọn\n(C)  Hệ mật khóa công khai không bao giờ có thể đảm bảo được độ mật tuyệt đối (an toàn vô điều kiện).\n(D)  Hệ mật khóa bí mật có khả năng cho phép mã hóa và giải mã nhanh hơn so với hệ mật khóa công khai.",
     "A": {
-      "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh.",
+      "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh."
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai thường được xây dựng dựa trên độ khó của bài toán đã được chứng minh."
+          "text": "An toàn của hệ mật khóa công khai thường dựa trên GIẢ THIẾT một bài toán là khó về mặt tính toán."
         }
       ]
     },
     "B": {
-      "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật.",
+      "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật."
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Hệ mật khóa công khai ra đời nhằm thay thế cho các hệ mật khóa bí mật."
+          "text": "Mật mã khóa công khai ra đời để thay thế HOÀN TOÀN mật mã khóa bí mật trong mọi ứng dụng."
         }
       ]
     },
@@ -7614,28 +7686,47 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "likely_course_answer": "B",
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
-        "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37"
-      ]
+      "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          183,
+          191,
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "B": {
+          "matches": true,
+          "reason": "SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đúng trong mô hình hệ mật công khai thông thường của môn học."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "16486d6dd64af91031ab237f952790fb7a3f76510c88fb5fa0077a8b5fc84c9d",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "1",
       "2",
@@ -7686,11 +7777,11 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37; audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
-    "hint": "Xét một hệ lai dùng khóa công khai để trao khóa phiên, rồi mã đối xứng cho dữ liệu dài.\nDùng mô hình ấy kiểm từ “thay thế”; kiểm riêng “đã được chứng minh” có mạnh hơn giả thiết độ khó không. Câu chữ cần đối chiếu nguồn.",
-    "explanation": "A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng.",
+    "hint": "Mẹo: Hệ lai dùng khóa công khai để thiết lập khóa, còn dữ liệu lớn vẫn mã hóa đối xứng; đừng đồng nhất giả thiết khó với chứng minh độ khó.",
+    "explanation": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.\nA: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nB: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.\nC: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nD: Đúng trong mô hình hệ mật công khai thông thường của môn học.\nTham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192.",
     "display_blocks": [
       {
         "type": "text",
@@ -7698,8 +7789,8 @@
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-16-public_key_replacement_multiple",
-    "duplicate_status": "potential",
+    "duplicate_group": "ref-5c47d623787356b421fe",
+    "duplicate_status": "confirmed",
     "duplicate_sources": [
       {
         "id": "nmmmh-de-thi-nmmmh-28",
@@ -7729,7 +7820,21 @@
         "source_question_number": "2046",
         "source_file": "de-thi-k16-3.docx"
       }
-    ]
+    ],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là SAI?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-38",
@@ -7941,23 +8046,20 @@
     "source_question_number": "39",
     "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx",
     "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-    "question": "Khẳng định nào sau đây là ĐÚNG?",
+    "question": "Theo mô hình TA và các định nghĩa chứng thực, thỏa thuận, phân phối khóa trong tài liệu môn học, phương án nào tổng hợp ĐẦY ĐỦ các phát biểu đúng sau đây?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Theo mô hình TA và các định nghĩa chứng thực, thỏa thuận, phân phối khóa trong tài liệu môn học, phương án nào tổng hợp ĐẦY ĐỦ các phát biểu đúng sau đây?"
       }
     ],
     "question_image": null,
     "source_page": 8,
     "source_docx_block": 250,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nhãn chương con là đề xuất trong file phân loại; cây kiến thức chỉ có mục lục chương này.",
-      "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn."
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [],
     "source_text": "Khẳng định nào sau đây là ĐÚNG?\n(A)  Chứng thực khóa công khai dùng để chứng thực khóa công khai của người nhận trong quá trình truyền tin mật và chứng thực khóa công khai của người gửi khi sử dụng chữ kí số.    ← đang chọn\n(B)  Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó.\n(C)  Phân phối khóa là quá trình thiết lập khóa một cách tương đối lâu dài trong một thời hạn nào đó trong cả cộng đồng, với sự điều phối của một cơ quan tin cậy được ủy quyền gọi là TA (Trusted Authority).\n(D)  Tất cả đáp án trên.",
     "A": {
@@ -7978,19 +8080,19 @@
       ]
     },
     "B": {
-      "text": "Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó.",
+      "text": "Thỏa thuận khóa thiết lập khóa bí mật chung với sự tham gia đóng góp của các bên; không chỉ là một bên chuyển sẵn khóa cho bên kia.",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó."
+          "text": "Thỏa thuận khóa thiết lập khóa bí mật chung với sự tham gia đóng góp của các bên; không chỉ là một bên chuyển sẵn khóa cho bên kia."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Thỏa thuận khóa là việc thiết lập một khóa bí mật chung giữa hai đối tượng bất kì trong mạng liên lạc nào đó."
+          "text": "Thỏa thuận khóa thiết lập khóa bí mật chung với sự tham gia đóng góp của các bên; không chỉ là một bên chuyển sẵn khóa cho bên kia."
         }
       ]
     },
@@ -8039,28 +8141,47 @@
     "chapter_child": null,
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap13.pdf",
-        "https://cacr.uwaterloo.ca/hac/about/chap12.pdf"
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
       ],
-      "proof_key": null,
-      "official_answer_key": false,
-      "candidate_options": [],
-      "method": "independent_theory_and_option_evaluation",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
-        "audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39"
-      ]
+      "explanation": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.\nA: Đúng nhưng chỉ nêu chứng thực.\nB: Đúng nhưng chỉ nêu thỏa thuận.\nC: Đúng trong mô hình TA, nhưng chỉ nêu phân phối.\nD: Tổng hợp đủ ba nhận định đúng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 199, 202, 203.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          199,
+          202,
+          203
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Đúng nhưng chỉ nêu chứng thực."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Đúng nhưng chỉ nêu thỏa thuận."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đúng trong mô hình TA, nhưng chỉ nêu phân phối."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Tổng hợp đủ ba nhận định đúng."
+        }
+      },
+      "numeric": null
     },
     "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
     "content_fingerprint": "847719f12efdf3751ebeba39aeccbf8273d61549dc61e60781cdc43e91fdcc2f",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "5",
       "4"
@@ -8104,36 +8225,35 @@
       "status": "visually_compared",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "visually_compared",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39; audit/theory_audit.json#nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
-    "hint": "Phân biệt ba câu hỏi: khóa thuộc về ai, hai bên tạo bí mật chung thế nào, cơ quan tin cậy quản lý khóa ra sao.\nGhép từng phát biểu với đúng câu hỏi; khi truyền tin mật và khi ký, xác định riêng chủ thể sở hữu khóa cần chứng thực.",
-    "explanation": "A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn.",
+    "hint": "Mẹo: Phân biệt ba việc: gắn danh tính với khóa, cùng đóng góp tạo khóa, và TA phân phối thông tin khóa.",
+    "explanation": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.\nA: Đúng nhưng chỉ nêu chứng thực.\nB: Đúng nhưng chỉ nêu thỏa thuận.\nC: Đúng trong mô hình TA, nhưng chỉ nêu phân phối.\nD: Tổng hợp đủ ba nhận định đúng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 199, 202, 203.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là ĐÚNG?"
+        "text": "Theo mô hình TA và các định nghĩa chứng thực, thỏa thuận, phân phối khóa trong tài liệu môn học, phương án nào tổng hợp ĐẦY ĐỦ các phát biểu đúng sau đây?"
       }
     ],
     "source_option_labels_in_figure": false,
-    "duplicate_group": "duplicate-review-40-key_management_same_course_qualifiers",
-    "duplicate_status": "potential",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-thi-nmmmh-32",
-        "source_exam_id": "de-thi-nmmmh",
-        "source_exam_code": "De_thi_NMMMH",
-        "source_question_number": "32",
-        "source_file": "De_thi_NMMMH.docx"
-      },
-      {
-        "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
-        "source_exam_id": "de-thi-mat-ma-2021-trac-nghiem",
-        "source_exam_code": "De_thi_mat_ma_2021_trac_nghiem",
-        "source_question_number": "39",
-        "source_file": "De_thi_mat_ma_2021_trac_nghiem.docx"
-      }
-    ]
+    "duplicate_group": null,
+    "duplicate_status": "unique",
+    "duplicate_sources": [],
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.",
+      "reference_pages": [
+        199,
+        202,
+        203
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-40",

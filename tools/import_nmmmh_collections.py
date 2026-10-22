@@ -524,4 +524,7 @@ def main():
     print(json.dumps({k:v for k,v in report.items() if k not in {'collections','aggregate'}},ensure_ascii=False,indent=2))
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    main()
+    from apply_nmmmh_reference_review import migrate
+    migrate()

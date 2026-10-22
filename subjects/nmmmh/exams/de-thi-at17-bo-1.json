@@ -373,45 +373,32 @@
     "source_question_number": "3",
     "source_file": "De_thi_AT17_bo_1.docx",
     "source_exam_id": "de-thi-at17-bo-1",
-    "question": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?\nHình câu 3 — các ma trận khóa Hill trên đề",
+    "question": "Bản rõ MONDAY được mã hóa Hill m=2, quy ước vector hàng và A=0, cho bản mã OSSNOA. Ma trận khóa nào đúng? Hai ô bị che ở phương án D được giữ dấu ?; cột trái vẫn đọc rõ.",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?"
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-3-figure.png",
-        "alt": "Hình nguồn — câu 3",
-        "original_src": "images/nmmmh/be48032b112dcb6def14.jpg"
-      },
-      {
-        "type": "text",
-        "text": "Hình câu 3 — các ma trận khóa Hill trên đề"
+        "text": "Bản rõ MONDAY được mã hóa Hill m=2, quy ước vector hàng và A=0, cho bản mã OSSNOA. Ma trận khóa nào đúng? Hai ô bị che ở phương án D được giữ dấu ?; cột trái vẫn đọc rõ."
       }
     ],
     "question_image": null,
     "source_page": 4,
     "source_docx_block": 17,
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
-      "Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
-    ],
-    "answer_evidence": "independently_verified_solution",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
     "source_notes": [
       "Đáp án đang chọn: không thấy nút nào được đánh dấu.",
       "Trên ảnh, ma trận A và D nhìn giống nhau. Giữ cả hai như trên hình."
     ],
     "source_text": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?\nHình câu 3 — các ma trận khóa Hill trên đề\n(A)  k = [[5, 8], [7, 13]]\n(B)  k = [[5, 8], [19, 13]]\n(C)  k = [[7, 9], [8, 3]]\n(D)  k = [[5, 8], [7, 13]]\nĐáp án đang chọn: không thấy nút nào được đánh dấu.\nTrên ảnh, ma trận A và D nhìn giống nhau. Giữ cả hai như trên hình.",
     "A": {
-      "text": "k = [[5, 8], [7, 13]]",
+      "text": "k = [[5,8],[7,13]]",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "k = [[5, 8], [7, 13]]"
+          "text": "k = [[5,8],[7,13]]"
         }
       ],
       "source_label": "A",
@@ -423,12 +410,12 @@
       ]
     },
     "B": {
-      "text": "k = [[5, 8], [19, 13]]",
+      "text": "k = [[5,8],[19,13]]",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "k = [[5, 8], [19, 13]]"
+          "text": "k = [[5,8],[19,13]]"
         }
       ],
       "source_label": "B",
@@ -440,12 +427,12 @@
       ]
     },
     "C": {
-      "text": "k = [[7, 9], [8, 3]]",
+      "text": "k = [[7,9],[8,3]]",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "k = [[7, 9], [8, 3]]"
+          "text": "k = [[7,9],[8,3]]"
         }
       ],
       "source_label": "C",
@@ -457,19 +444,19 @@
       ]
     },
     "D": {
-      "text": "k = [[5, 8], [7, 13]]",
+      "text": "\\(k=\\begin{pmatrix}5&?\\\\7&?\\end{pmatrix}\\)",
       "image": null,
       "blocks": [
         {
           "type": "text",
-          "text": "k = [[5, 8], [7, 13]]"
+          "text": "\\(k=\\begin{pmatrix}5&?\\\\7&?\\end{pmatrix}\\)"
         }
       ],
       "source_label": "D",
       "display_blocks": [
         {
           "type": "text",
-          "text": "k = \\(\\begin{pmatrix}5&8\\\\7&13\\end{pmatrix}\\)"
+          "text": "\\(k=\\begin{pmatrix}5&?\\\\7&?\\end{pmatrix}\\)"
         }
       ]
     },
@@ -488,26 +475,52 @@
     },
     "classification_source": "DeThiOCR/PHAN_LOAI_THEO_CHUONG/questions_classified.json",
     "answer_audit": {
-      "status": "needs_review",
-      "correct_answer": null,
-      "valid_options": [],
-      "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
-      "sources": [],
-      "proof_key": "hill",
-      "official_answer_key": false,
-      "candidate_options": [
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
         "B"
       ],
-      "method": "independent_calculation_hill",
-      "evidence": [
-        "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3"
-      ]
+      "explanation": "Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.\nA: Mã hóa toàn bộ MONDAY được CSINMA.\nB: Mã hóa toàn bộ MONDAY được OSSNOA.\nC: Mã hóa toàn bộ MONDAY được OULWKU.\nD: Hai ô cột phải bị che nhưng cột trái đọc được (5,7): (12×5+14×7) mod 26=2, cho chữ C, không thể là O. Không đoán hai ô bị che.\nTham khảo: Bản full đã gộp.pdf, trang PDF 54.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          54
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Mã hóa toàn bộ MONDAY được CSINMA."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Mã hóa toàn bộ MONDAY được OSSNOA."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Mã hóa toàn bộ MONDAY được OULWKU."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Hai ô cột phải bị che nhưng cột trái đọc được (5,7): (12×5+14×7) mod 26=2, cho chữ C, không thể là O. Không đoán hai ô bị che."
+        }
+      },
+      "numeric": {
+        "outputs": {
+          "A": "CSINMA",
+          "B": "OSSNOA",
+          "C": "OULWKU"
+        },
+        "D_first_cipher_letter": 2
+      }
     },
     "source_exam_code": "De_thi_AT17_bo_1",
     "content_fingerprint": "f1f4bf1295d8bdf179086d51f3c8eb5d851655cbf28727f227a0cfd99aed39df",
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
-    "verification_revision": "nmmmh-20261021-v1",
+    "verification_revision": "reference-full-20261022-v1",
     "chapter_ids": [
       "2"
     ],
@@ -556,30 +569,35 @@
       "status": "partial_visual_review",
       "review_artifact": "source_other_review.json"
     },
-    "source_fidelity_status": "needs_review",
-    "verification_status": "needs_review",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "verification_status": "verified",
     "verification_notes": "audit/numeric_audit.json#nmmmh-de-thi-at17-bo-1-3",
-    "hint": "Dùng A=0,…,Z=25; chia MONDAY và OSSNOA thành các cặp liên tiếp.\nThử vectơ hàng MO nhân từng ma trận mod 26, so với OS; ma trận còn lại phải khớp cả ND và AY.",
-    "explanation": "Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: \"OSSNOA\" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor",
+    "hint": "Mẹo: Thử cặp MO trước. Chỉ cột trái ma trận đã quyết định chữ mã đầu; ô bị che ở cột phải không ảnh hưởng phép thử này.",
+    "explanation": "Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.\nA: Mã hóa toàn bộ MONDAY được CSINMA.\nB: Mã hóa toàn bộ MONDAY được OSSNOA.\nC: Mã hóa toàn bộ MONDAY được OULWKU.\nD: Hai ô cột phải bị che nhưng cột trái đọc được (5,7): (12×5+14×7) mod 26=2, cho chữ C, không thể là O. Không đoán hai ô bị che.\nTham khảo: Bản full đã gộp.pdf, trang PDF 54.",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?"
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-3-figure.png",
-        "alt": "Hình nguồn — câu 3",
-        "original_src": "images/nmmmh/be48032b112dcb6def14.jpg"
-      },
-      {
-        "type": "text",
-        "text": "Hình câu 3 — các ma trận khóa Hill trên đề"
+        "text": "Bản rõ MONDAY được mã hóa Hill m=2, quy ước vector hàng và A=0, cho bản mã OSSNOA. Ma trận khóa nào đúng? Hai ô bị che ở phương án D được giữ dấu ?; cột trái vẫn đọc rõ."
       }
     ],
-    "source_option_labels_in_figure": true,
+    "source_option_labels_in_figure": false,
     "duplicate_group": null,
-    "duplicate_status": null
+    "duplicate_status": "unique",
+    "images": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.",
+      "reference_pages": [
+        54
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/reviewed/nmmmh-de-thi-at17-bo-1-3-figure.png"
+      ],
+      "original_question": "Bản rõ 'Monday' được mã hóa bằng hệ mã Hill với m = 2, bản mã nhận được là OSSNOA. Đáp án nào dưới đây là ma trận khóa đúng?\nHình câu 3 — các ma trận khóa Hill trên đề",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    },
+    "duplicate_sources": []
   },
   {
     "id": "nmmmh-de-thi-at17-bo-1-4",

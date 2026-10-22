@@ -859,7 +859,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Độ dài của khóa RC4 là?"
+        "text": "Theo thông số RC4 được nêu trong tài liệu môn học, TOÀN BỘ khoảng độ dài khóa hỗ trợ là bao nhiêu?"
       }
     ],
     "source_paragraphs": [
@@ -871,11 +871,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "40 – 2048 bít",
+      "text": "40–256 bit",
       "blocks": [
         {
           "type": "text",
-          "text": "40 – 2048 bít"
+          "text": "40–256 bit"
         }
       ],
       "source_label": "A",
@@ -883,16 +883,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "40 – 2048 bít"
+          "text": "40–256 bit"
         }
       ]
     },
     "B": {
-      "text": "40 – 2048 bít",
+      "text": "40–2048 bit",
       "blocks": [
         {
           "type": "text",
-          "text": "40 – 2048 bít"
+          "text": "40–2048 bit"
         }
       ],
       "source_label": "B",
@@ -907,16 +907,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "40 – 2048 bít"
+          "text": "40–2048 bit"
         }
       ]
     },
     "C": {
-      "text": "256 – 2048 bít",
+      "text": "256–2048 bit",
       "blocks": [
         {
           "type": "text",
-          "text": "256 – 2048 bít"
+          "text": "256–2048 bit"
         }
       ],
       "source_label": "C",
@@ -924,16 +924,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "256 – 2048 bít"
+          "text": "256–2048 bit"
         }
       ]
     },
     "D": {
-      "text": "40 - 256 bít",
+      "text": "128–256 bit",
       "blocks": [
         {
           "type": "text",
-          "text": "40 - 256 bít"
+          "text": "128–256 bit"
         }
       ],
       "source_label": "D",
@@ -941,11 +941,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "40 - 256 bít"
+          "text": "128–256 bit"
         }
       ]
     },
-    "question": "Độ dài của khóa RC4 là?",
+    "question": "Theo thông số RC4 được nêu trong tài liệu môn học, TOÀN BỘ khoảng độ dài khóa hỗ trợ là bao nhiêu?",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -963,20 +963,47 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 34
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "A và B in cùng một khoảng độ dài khóa, chỉ B được gạch chân."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: A và B in cùng một khoảng độ dài khóa, chỉ B được gạch chân.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Theo khoảng khóa RC4 của tài liệu, loại lựa chọn trùng nhau; không phải khuyến nghị sử dụng RC4 hiện nay.\nA: Thiếu phần trên 256 bit.\nB: Đúng theo PDF trang 160.\nC: Thiếu phần từ 40 đến dưới 256 bit.\nD: Chỉ là một khoảng con.\nTham khảo: Bản full đã gộp.pdf, trang PDF 160.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: A và B in cùng một khoảng độ dài khóa, chỉ B được gạch chân.",
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Theo khoảng khóa RC4 của tài liệu, loại lựa chọn trùng nhau; không phải khuyến nghị sử dụng RC4 hiện nay.\nA: Thiếu phần trên 256 bit.\nB: Đúng theo PDF trang 160.\nC: Thiếu phần từ 40 đến dưới 256 bit.\nD: Chỉ là một khoảng con.\nTham khảo: Bản full đã gộp.pdf, trang PDF 160.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          160
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Thiếu phần trên 256 bit."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng theo PDF trang 160."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Thiếu phần từ 40 đến dưới 256 bit."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Chỉ là một khoảng con."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -999,19 +1026,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Nguồn có hai phương án in cùng một khoảng độ dài khóa; đọc cảnh báo thay vì phân biệt bằng vị trí.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Đổi khoảng 5–256 BYTE sang bit; đừng nhầm độ rộng phần tử mảng S với độ dài khóa.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Độ dài của khóa RC4 là?"
+        "text": "Theo thông số RC4 được nêu trong tài liệu môn học, TOÀN BỘ khoảng độ dài khóa hỗ trợ là bao nhiêu?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Theo khoảng khóa RC4 của tài liệu, loại lựa chọn trùng nhau; không phải khuyến nghị sử dụng RC4 hiện nay.",
+      "reference_pages": [
+        160
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Độ dài của khóa RC4 là?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-7",
@@ -1187,7 +1225,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Giả sử 2 bên sử dụng mã dịch vòng và bản mã truyền đi là “CFMVCPURP” thu. Hãy chọn khóa K đúng."
+        "text": "Caesar với A=0,…,Z=25, C=(P+K) mod 26. Bài chuẩn hóa CHO THÊM bản rõ LOVELYDAY, bản mã CFMVCPURP. Tìm khóa K."
       }
     ],
     "source_paragraphs": [
@@ -1273,7 +1311,7 @@
         }
       ]
     },
-    "question": "Giả sử 2 bên sử dụng mã dịch vòng và bản mã truyền đi là “CFMVCPURP” thu. Hãy chọn khóa K đúng.",
+    "question": "Caesar với A=0,…,Z=25, C=(P+K) mod 26. Bài chuẩn hóa CHO THÊM bản rõ LOVELYDAY, bản mã CFMVCPURP. Tìm khóa K.",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -1291,20 +1329,51 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 50
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn không cho bản rõ hay điều kiện xác định duy nhất khóa dịch vòng."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không cho bản rõ hay điều kiện xác định duy nhất khóa dịch vòng.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn chỉ cho bản mã, không xác định được khóa duy nhất; bản rõ LOVELYDAY là điều kiện bổ sung mới, không coi là được chứng minh từ nguồn. Bổ sung một cặp bản rõ–bản mã đầy đủ, thử độc lập mọi khóa trên từng ký tự.\nA: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nB: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nC: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nD: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nTham khảo: Bản full đã gộp.pdf, trang PDF 40.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không cho bản rõ hay điều kiện xác định duy nhất khóa dịch vòng.",
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn chỉ cho bản mã, không xác định được khóa duy nhất; bản rõ LOVELYDAY là điều kiện bổ sung mới, không coi là được chứng minh từ nguồn. Bổ sung một cặp bản rõ–bản mã đầy đủ, thử độc lập mọi khóa trên từng ký tự.\nA: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nB: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nC: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nD: Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP.\nTham khảo: Bản full đã gộp.pdf, trang PDF 40.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          40
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Thử mã hóa cả LOVELYDAY bằng khóa ứng viên và so CFMVCPURP."
+        }
+      },
+      "numeric": {
+        "plaintext": "LOVELYDAY",
+        "ciphertext": "CFMVCPURP",
+        "key": 17
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -1327,19 +1396,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Thử giải CFMVCPURP bằng từng khóa rồi đọc bản rõ; chỉ dựa vào “có nghĩa” chưa phải bằng chứng duy nhất.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Một cặp chữ đã đủ tính K=C−P mod 26; thử thêm chữ thứ hai để kiểm tra.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Giả sử 2 bên sử dụng mã dịch vòng và bản mã truyền đi là “CFMVCPURP” thu. Hãy chọn khóa K đúng."
+        "text": "Caesar với A=0,…,Z=25, C=(P+K) mod 26. Bài chuẩn hóa CHO THÊM bản rõ LOVELYDAY, bản mã CFMVCPURP. Tìm khóa K."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn chỉ cho bản mã, không xác định được khóa duy nhất; bản rõ LOVELYDAY là điều kiện bổ sung mới, không coi là được chứng minh từ nguồn. Bổ sung một cặp bản rõ–bản mã đầy đủ, thử độc lập mọi khóa trên từng ký tự.",
+      "reference_pages": [
+        40
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Giả sử 2 bên sử dụng mã dịch vòng và bản mã truyền đi là “CFMVCPURP” thu. Hãy chọn khóa K đúng.",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-9",
@@ -2565,6 +2645,10 @@
     "source_docx_block": 114,
     "question_blocks": [
       {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
+      {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-tonghop4/bb41097a0ab7e85876ea.png",
         "alt": "Hình/công thức gốc từ DOCX"
@@ -2671,34 +2755,60 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 114
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "independent_check": {
-      "method": "Hill_row_vector_encrypt",
-      "computed": "JOLK",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Nhân vector hàng đúng quy ước tài liệu; bản mã là JOLK, không phải khóa nguồn C.\nA: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nB: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nC: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nD: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nTham khảo: Bản full đã gộp.pdf, trang PDF 54.",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "A",
       "valid_options": [
         "A"
       ],
-      "complete": true,
-      "option_values": {
-        "A": "JOLK",
-        "B": "EOMK",
-        "C": "JONK",
-        "D": "FNMK"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['A']; giữ dấu gốc để đối chiếu, tạm không chấm."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"JOLK\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['A']; giữ dấu gốc để đối chiếu, tạm không chấm.",
-    "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"JOLK\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['A']; giữ dấu gốc để đối chiếu, tạm không chấm.",
+      "explanation": "Nhân vector hàng đúng quy ước tài liệu; bản mã là JOLK, không phải khóa nguồn C.\nA: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nB: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nC: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nD: LOVE×[[9,2],[1,5]] mod 26 = JOLK.\nTham khảo: Bản full đã gộp.pdf, trang PDF 54.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          54
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+        },
+        "B": {
+          "matches": false,
+          "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+        },
+        "C": {
+          "matches": false,
+          "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+        },
+        "D": {
+          "matches": false,
+          "reason": "LOVE×[[9,2],[1,5]] mod 26 = JOLK."
+        }
+      },
+      "numeric": {
+        "matrix": [
+          [
+            9,
+            2
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "plaintext": "LOVE",
+        "ciphertext": "JOLK"
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -2721,9 +2831,13 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Thử trực tiếp mã hóa LO và VE với từng ma trận đã cho; giữ quy ước vector hàng trong tài liệu môn học.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Dùng vector HÀNG (L,O) nhân ma trận trước để loại nhanh; A=0.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
+      {
+        "type": "text",
+        "text": "Câu hỏi theo hình gốc đính kèm."
+      },
       {
         "type": "image",
         "src": "images/nmmmh/collections/de-cuong-2025-tonghop4/bb41097a0ab7e85876ea.png",
@@ -2736,7 +2850,34 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "Hill_row_vector_encrypt",
+      "computed": "JOLK",
+      "valid_options": [
+        "A"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "JOLK",
+        "B": "EOMK",
+        "C": "JONK",
+        "D": "FNMK"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Nhân vector hàng đúng quy ước tài liệu; bản mã là JOLK, không phải khóa nguồn C.",
+      "reference_pages": [
+        54
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-tonghop4/bb41097a0ab7e85876ea.png"
+      ],
+      "original_question": "Câu hỏi theo hình gốc đính kèm.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-17",
@@ -3272,7 +3413,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào?"
+        "text": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào? Dùng A=0,…,Z=25 và P=(C−K) mod 26 như ví dụ Vernam trong tài liệu; không XOR ASCII."
       }
     ],
     "source_paragraphs": [
@@ -3358,7 +3499,7 @@
         }
       ]
     },
-    "question": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào?",
+    "question": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào? Dùng A=0,…,Z=25 và P=(C−K) mod 26 như ví dụ Vernam trong tài liệu; không XOR ASCII.",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -3376,20 +3517,52 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 146
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Bản mã 16 chữ nhưng khóa 15 chữ; nguồn thiếu ký tự hoặc quy ước kéo dài khóa."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Bản mã 16 chữ nhưng khóa 15 chữ; nguồn thiếu ký tự hoặc quy ước kéo dài khóa.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Kiểm đếm lại cho thấy khóa MATMADEMAKHOTHAT và bản mã ĐỀU CÓ 16 ký tự; nhận định cũ khóa chỉ dài 15 là sai. Giữ nguyên khóa, bản mã và phương án; áp Vernam chữ Latin modulo 26 theo tài liệu.\nA: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nB: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nC: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nD: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nTham khảo: Bản full đã gộp.pdf, trang PDF 29, 30.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Bản mã 16 chữ nhưng khóa 15 chữ; nguồn thiếu ký tự hoặc quy ước kéo dài khóa.",
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Kiểm đếm lại cho thấy khóa MATMADEMAKHOTHAT và bản mã ĐỀU CÓ 16 ký tự; nhận định cũ khóa chỉ dài 15 là sai. Giữ nguyên khóa, bản mã và phương án; áp Vernam chữ Latin modulo 26 theo tài liệu.\nA: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nB: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nC: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nD: Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR.\nTham khảo: Bản full đã gộp.pdf, trang PDF 29, 30.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          29,
+          30
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Trừ từng ký tự khóa đủ dài cho kết quả THANHTOANQUAMAQR."
+        }
+      },
+      "numeric": {
+        "ciphertext": "FHTZHWSMNABOFHQK",
+        "keystream": "MATMADEMAKHOTHAT",
+        "plaintext": "THANHTOANQUAMAQR"
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3412,19 +3585,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: So độ dài bản mã và khóa trước; nếu không bằng nhau thì chưa thể áp phép Vernam theo toàn chuỗi.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Kiểm tra hai chuỗi cùng độ dài rồi trừ từng cặp mã chữ modulo 26; không chuyển sang XOR ASCII.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào?"
+        "text": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào? Dùng A=0,…,Z=25 và P=(C−K) mod 26 như ví dụ Vernam trong tài liệu; không XOR ASCII."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Kiểm đếm lại cho thấy khóa MATMADEMAKHOTHAT và bản mã ĐỀU CÓ 16 ký tự; nhận định cũ khóa chỉ dài 15 là sai. Giữ nguyên khóa, bản mã và phương án; áp Vernam chữ Latin modulo 26 theo tài liệu.",
+      "reference_pages": [
+        29,
+        30
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "B nhận được bản mã “FHTZHWSMNABOFHQK” do A gửi đến. A và B đã thống nhất sử dụng hệ mật Vernam với khóa K = “matmademakhothat”. Hãy cho biết B tìm ra bản rõ nào?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-21",
@@ -3436,7 +3621,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được."
+        "text": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được. Dùng bảng chữ A=0,…,Z=25 và C=(P+K) mod 26 như ví dụ Vernam của tài liệu."
       }
     ],
     "source_paragraphs": [
@@ -3522,7 +3707,7 @@
         }
       ]
     },
-    "question": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được.",
+    "question": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được. Dùng bảng chữ A=0,…,Z=25 và C=(P+K) mod 26 như ví dụ Vernam của tài liệu.",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -3540,20 +3725,52 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 154
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Cần xác nhận quy ước Vernam: A=0 và cộng modulo 26 không cho phương án nào."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Cần xác nhận quy ước Vernam: A=0 và cộng modulo 26 không cho phương án nào.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Tài liệu xác nhận Vernam trên chữ Latin cộng modulo 26; không dùng XOR mã ASCII.\nA: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nB: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nC: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nD: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nTham khảo: Bản full đã gộp.pdf, trang PDF 29, 30.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Cần xác nhận quy ước Vernam: A=0 và cộng modulo 26 không cho phương án nào.",
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
+      ],
+      "explanation": "Tài liệu xác nhận Vernam trên chữ Latin cộng modulo 26; không dùng XOR mã ASCII.\nA: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nB: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nC: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nD: Cộng từng cặp mã chữ modulo 26 được OSDWEK.\nTham khảo: Bản full đã gộp.pdf, trang PDF 29, 30.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          29,
+          30
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Cộng từng cặp mã chữ modulo 26 được OSDWEK."
+        }
+      },
+      "numeric": {
+        "plaintext": "VERNAM",
+        "keystream": "TOMJEY",
+        "ciphertext": "OSDWEK"
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3576,19 +3793,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Dùng cách đánh số chữ đúng quy ước Vernam của tài liệu; khác quy ước cộng/XOR sẽ cho bản mã khác.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Thử 2–3 chữ đầu bằng cộng modulo 26; không XOR các mã ký tự ASCII.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được."
+        "text": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được. Dùng bảng chữ A=0,…,Z=25 và C=(P+K) mod 26 như ví dụ Vernam của tài liệu."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Tài liệu xác nhận Vernam trên chữ Latin cộng modulo 26; không dùng XOR mã ASCII.",
+      "reference_pages": [
+        29,
+        30
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "A sử dụng hệ mật Vernam để mã hóa bản rõ P= “Vernam” với khóa K= “tomjey”. Hãy tìm bản mã đúng mà A thu được.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-22",
@@ -6403,7 +6632,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về thuật toán DES là ĐÚNG?"
+        "text": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?"
       }
     ],
     "source_paragraphs": [
@@ -6415,11 +6644,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã.",
+      "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng.",
       "blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã."
+          "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng."
         }
       ],
       "source_label": "A",
@@ -6427,7 +6656,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã."
+          "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng."
         }
       ]
     },
@@ -6449,11 +6678,11 @@
       ]
     },
     "C": {
-      "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng trong mã hóa/giải mã.",
+      "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau.",
       "blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng trong mã hóa/giải mã."
+          "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau."
         }
       ],
       "source_label": "C",
@@ -6468,7 +6697,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng trong mã hóa/giải mã."
+          "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau."
         }
       ]
     },
@@ -6489,7 +6718,7 @@
         }
       ]
     },
-    "question": "Khẳng định nào sau đây về thuật toán DES là ĐÚNG?",
+    "question": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -6507,22 +6736,47 @@
       "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
       "docx_block": 298
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "C",
-    "needs_review": true,
-    "review_reasons": [
-      "Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.\nA: Sai: sau PC-1 là hai nửa 28 bit.\nB: Sai số lượng khóa vòng DES.\nC: Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt.\nD: Sai số lượng khóa vòng DES.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
-      ]
+      ],
+      "explanation": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.\nA: Sai: sau PC-1 là hai nửa 28 bit.\nB: Sai số lượng khóa vòng DES.\nC: Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt.\nD: Sai số lượng khóa vòng DES.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          99
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai: sau PC-1 là hai nửa 28 bit."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Sai số lượng khóa vòng DES."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sai số lượng khóa vòng DES."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6545,19 +6799,45 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Xét số khóa con được dùng qua các vòng; lưu ý khóa yếu có thể khiến các khóa con trùng nhau.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Sau PC-1 chỉ còn 56 bit, chia hai nửa; 16 vòng không có nghĩa luôn có 16 giá trị khóa phân biệt.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về thuật toán DES là ĐÚNG?"
+        "text": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
-    "duplicate_status": "unique",
-    "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_status": "confirmed",
+    "duplicate_group": "ref-e9614e5231d828f9af54",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop3-34",
+        "source_exam_id": "de-cuong-2025-tonghop3",
+        "source_exam_code": "Tonghop3",
+        "source_question_number": "34",
+        "source_file": "Tonghop3.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop4-39",
+        "source_exam_id": "de-cuong-2025-tonghop4",
+        "source_exam_code": "Tonghop4",
+        "source_question_number": "39",
+        "source_file": "Tonghop4.docx"
+      }
+    ],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.",
+      "reference_pages": [
+        99
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây về thuật toán DES là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop4-40",

@@ -22,7 +22,11 @@ def data_checks(source=None):
     assert [c['name'] for c in groups]==['Đề cương 2025','Đề giữa kì 2026']
     assert [len(c['exams']) for c in groups]==[7,2]
     baseline=read(AUDIT/'preserved_legacy_sha256.json')
-    for p,digest in baseline.items():assert sha(ROOT/p)==digest,p
+    originals=read(ROOT/'subjects/nmmmh/audit/single-answer-review/original_questions.json')
+    # KTMT remains byte-identical. Legacy NMMMH is intentionally repaired in
+    # the subsequent migration and checked by test_nmmmh_reference.py.
+    for p,digest in baseline.items():
+        if not p.startswith('subjects/nmmmh/'):assert sha(ROOT/p)==digest,p
     rows=[]
     for c in groups:
         for exam in c['exams']:
@@ -46,12 +50,13 @@ def data_checks(source=None):
                     if q['verification_status']=='source_marked':assert q['correct_answer']==q['source_marked_answer']
                 else:assert q['needs_review']
                 for l in 'ABCD':assert q[l]['source_label']==l
-                if q.get('independent_check'):
-                    blank=copy.deepcopy(q);blank['correct_answer']=None;blank['source_marked_answer']='POISON';blank['answer_audit']={}
+                historical=originals.get(q['id'],q)
+                if historical.get('independent_check'):
+                    blank=copy.deepcopy(historical);blank['correct_answer']=None;blank['source_marked_answer']='POISON';blank['answer_audit']={}
                     n=int(q['source_question_number'])
                     again=numeric_docx(blank,exam['id'].rsplit('-',1)[1],n) if c['id']=='de-cuong-2025' else numeric_midterm(blank,int(exam['id'][-1]),n)
-                    assert json.loads(json.dumps(again))==q['independent_check'],q['id']
-                    if q['correct_answer']:assert again['valid_options']==[q['correct_answer']]
+                    assert json.loads(json.dumps(again))==historical['independent_check'],q['id']
+                    if historical['correct_answer']:assert again['valid_options']==[historical['correct_answer']]
                 if c['id']=='de-giua-ki-2026':assert q['source_radio_selection_used_as_key'] is False
     assert len(rows)==367 and len({q['id'] for q in rows})==367
     assert not any(q['source_exam_id']=='de-thi-k16-1' for q in rows)
@@ -64,7 +69,7 @@ def data_checks(source=None):
     native=[q for f in AUDIT.glob('*-native.json') for q in read(f)['questions']]
     assert len(native)==290
     for old in native:
-        q=by_id[old['id']]
+        q=originals.get(old['id'],by_id[old['id']])
         assert q['question_blocks']==old['question_blocks']
         assert q['source_mark_candidates']==old['source_mark_candidates']
         for l in 'ABCD':
@@ -79,7 +84,9 @@ def data_checks(source=None):
     for crop in crops:
         assert crop['sha256']==sha(ROOT/crop['path'])
         assert crop['visual_review']=='visually_compared_final_crop_with_original_page'
-        assert crop['question_id'] in by_id and crop['path'] in by_id[crop['question_id']]['images']
+        assert crop['question_id'] in by_id
+        current=by_id[crop['question_id']]
+        assert crop['path'] in current['images']+current.get('normalization',{}).get('original_images',[])
         ca=int(by_id[crop['question_id']]['source_exam_id'][-1]);page=inventory[ca-1]['pages'][crop['source_page']-1]
         assert crop['source_sha256']==page['sha256']
         if source:
@@ -88,9 +95,9 @@ def data_checks(source=None):
     # Critical independent findings must not regress to screenshot selections.
     assert by_id['nmmmh-de-giua-ki-2026-ca-2-39']['correct_answer']=='B'
     assert by_id['nmmmh-de-giua-ki-2026-ca-1-37']['correct_answer']=='B'
-    for id in ['nmmmh-de-cuong-2025-tonghop3-16','nmmmh-de-giua-ki-2026-ca-2-24','nmmmh-de-giua-ki-2026-ca-2-7','nmmmh-de-giua-ki-2026-ca-2-1']:
-        assert by_id[id]['correct_answer'] is None and by_id[id]['needs_review']
-    print(f'PASS collection data: 9 exams, 367 records, source order/marks, {len(images)} assets, 41 exact unscaled crops, old course SHA-256 unchanged',flush=True)
+    for id,key in [('nmmmh-de-cuong-2025-tonghop3-16','A'),('nmmmh-de-giua-ki-2026-ca-2-24','A'),('nmmmh-de-giua-ki-2026-ca-2-7','D'),('nmmmh-de-giua-ki-2026-ca-2-1','A')]:
+        assert by_id[id]['correct_answer']==key and not by_id[id]['needs_review']
+    print(f'PASS collection data: 9 exams, 367 records, source order/marks and frozen originals, {len(images)} live assets, 41 exact unscaled archived crops, KTMT unchanged',flush=True)
     return manifest,rows
 
 

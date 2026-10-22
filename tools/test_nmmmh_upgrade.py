@@ -64,7 +64,7 @@ def main():
                 page.locator(f'[data-option="{answer}"]').click()
                 assert page.locator('.feedback.correct').count()==1,q['id']
                 assert page.locator('.option-btn.correct .option-key').inner_text()=='ABCD'[orders[q['id']].index(answer)]
-                assert not page.locator('.answer-explanation details').get_attribute('open')
+                assert not page.locator('.answer-explanation > details').get_attribute('open')
             assert page.locator('.katex-error').count()==0,q['id']
         page.locator('#finish-now').click()
         graded=sum(bool(q['correct_answer']) for q in rows)
@@ -151,6 +151,32 @@ def main():
         assert page.evaluate('state.quiz.answers')==saved_answers
         assert page.evaluate('state.quiz.context.scope_kind')=='bookmarks'
         print('PASS bookmarked-review session survives reload',flush=True)
+
+        # Render revised complete formulas through KaTeX, including on mobile.
+        # Merely checking absence of katex-error would miss unrendered LaTeX.
+        for width in [1440,390,320]:
+            page.set_viewport_size({'width':width,'height':900})
+            for id in ['nmmmh-de-cuong-2025-chuong3-23','nmmmh-de-cuong-2025-chuong3-24','nmmmh-de-giua-ki-2026-ca-2-34','nmmmh-de-cuong-2025-tonghop2-8','nmmmh-de-thi-at17-bo-1-3']:
+                page.evaluate('(id)=>startQuiz("reference-layout",false,"study",[nmmmh.allQuestions.find(q=>q.id===id)],nmmmhContext("all","all"))',id)
+                if id in ['nmmmh-de-cuong-2025-chuong3-23','nmmmh-de-cuong-2025-chuong3-24','nmmmh-de-giua-ki-2026-ca-2-34']:
+                    assert page.locator('.options .katex').count()==4,id
+                    assert '\\frac' not in page.locator('.options').inner_text(),id
+                page.locator('#show-answer').click()
+                page.locator('.normalization-source > summary').click()
+                for img in page.locator('.normalization-source img').all():img.evaluate('img=>img.decode()')
+                assert page.locator('.katex-error').count()==0,id
+                assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(id,width)
+            page.screenshot(path=str(folder/f'reference-archive-{width}.png'),full_page=True)
+        # Saved attempts must never be resumed against changed questions/keys.
+        saved_history=page.evaluate('state.persisted.history.length')
+        assert page.evaluate('Boolean(readNmmmhSession())')
+        page.evaluate('state.quiz.questions[0].verification_revision += "-changed"')
+        assert page.evaluate('readNmmmhSession()') is None
+        assert page.evaluate('state.persisted.history.length')==saved_history
+        # Undo only the in-memory test mutation; canonical JSON was never edited.
+        page.evaluate('state.quiz.questions[0].verification_revision=state.quiz.questions[0].verification_revision.replace(/-changed$/,"")')
+        page.set_viewport_size({'width':1440,'height':1000})
+        print('PASS reference repairs: real KaTeX formulas, S2 table and original archive fit desktop/390/320; changed datasets reject stale saved attempts without deleting history',flush=True)
 
         for width in (390,320):
             page.set_viewport_size({'width':width,'height':844})

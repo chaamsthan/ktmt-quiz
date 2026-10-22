@@ -5,11 +5,11 @@
   "native_docx_questions": 290,
   "pdf_questions": 77,
   "unique_source_marks": 289,
-  "graded": 324,
-  "independently_verified": 104,
-  "source_marked_only": 220,
-  "ungraded": 43,
-  "needs_review": 69,
+  "graded": 367,
+  "independently_verified": 171,
+  "source_marked_only": 196,
+  "ungraded": 0,
+  "needs_review": 0,
   "pdf_source_pages_reviewed": 46,
   "original_docx_image_occurrences": 80,
   "new_crops": 41,
@@ -41,7 +41,7 @@
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-chuong1.json",
           "question_count": 20,
           "graded_count": 20,
-          "review_count": 6,
+          "review_count": 0,
           "readable_count": 20,
           "images": 0,
           "chapter_counts": {
@@ -65,7 +65,7 @@
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-chuong2.json",
           "question_count": 50,
           "graded_count": 50,
-          "review_count": 3,
+          "review_count": 0,
           "readable_count": 50,
           "images": 9,
           "chapter_counts": {
@@ -88,10 +88,10 @@
           "collection_id": "de-cuong-2025",
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-chuong3.json",
           "question_count": 50,
-          "graded_count": 43,
-          "review_count": 7,
+          "graded_count": 50,
+          "review_count": 0,
           "readable_count": 50,
-          "images": 27,
+          "images": 23,
           "chapter_counts": {
             "3": 39,
             "1": 10,
@@ -113,10 +113,10 @@
           "collection_id": "de-cuong-2025",
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-tonghop1.json",
           "question_count": 40,
-          "graded_count": 36,
-          "review_count": 9,
+          "graded_count": 40,
+          "review_count": 0,
           "readable_count": 40,
-          "images": 12,
+          "images": 11,
           "chapter_counts": {
             "2": 20,
             "3": 16,
@@ -139,10 +139,10 @@
           "collection_id": "de-cuong-2025",
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-tonghop2.json",
           "question_count": 40,
-          "graded_count": 38,
-          "review_count": 9,
+          "graded_count": 40,
+          "review_count": 0,
           "readable_count": 40,
-          "images": 9,
+          "images": 8,
           "chapter_counts": {
             "2": 25,
             "3": 12,
@@ -165,8 +165,8 @@
           "collection_id": "de-cuong-2025",
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-tonghop3.json",
           "question_count": 40,
-          "graded_count": 36,
-          "review_count": 6,
+          "graded_count": 40,
+          "review_count": 0,
           "readable_count": 40,
           "images": 6,
           "chapter_counts": {
@@ -191,8 +191,8 @@
           "collection_id": "de-cuong-2025",
           "question_file": "subjects/nmmmh/exams/de-cuong-2025-tonghop4.json",
           "question_count": 50,
-          "graded_count": 45,
-          "review_count": 6,
+          "graded_count": 50,
+          "review_count": 0,
           "readable_count": 50,
           "images": 17,
           "chapter_counts": {
@@ -223,10 +223,10 @@
           "collection_id": "de-giua-ki-2026",
           "question_file": "subjects/nmmmh/exams/de-giua-ki-2026-ca-1.json",
           "question_count": 37,
-          "graded_count": 27,
-          "review_count": 10,
+          "graded_count": 37,
+          "review_count": 0,
           "readable_count": 37,
-          "images": 21,
+          "images": 18,
           "chapter_counts": {
             "3": 13,
             "2": 21,
@@ -253,10 +253,10 @@
           "collection_id": "de-giua-ki-2026",
           "question_file": "subjects/nmmmh/exams/de-giua-ki-2026-ca-2.json",
           "question_count": 40,
-          "graded_count": 29,
-          "review_count": 13,
+          "graded_count": 40,
+          "review_count": 0,
           "readable_count": 40,
-          "images": 20,
+          "images": 15,
           "chapter_counts": {
             "2": 22,
             "3": 12,
@@ -274,13 +274,13 @@
       "collection_id": "de-cuong-2025",
       "chapter_id": "1",
       "raw": 41,
-      "unique": 33
+      "unique": 34
     },
     {
       "collection_id": "de-cuong-2025",
       "chapter_id": "2",
       "raw": 155,
-      "unique": 151
+      "unique": 150
     },
     {
       "collection_id": "de-cuong-2025",
@@ -342,5 +342,6 @@
       "raw": 0,
       "unique": 0
     }
-  ]
+  ],
+  "reference_review_revision": "reference-full-20261022-v1"
 }

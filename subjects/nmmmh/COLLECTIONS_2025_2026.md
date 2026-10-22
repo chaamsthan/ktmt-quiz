@@ -1,3 +1,5 @@
+> CẬP NHẬT ĐỐI CHIẾU: Các số liệu dưới đây là báo cáo lần nhập gốc. Số liệu và đáp án hiện tại: [REFERENCE_REVIEW.md](REFERENCE_REVIEW.md).
+
 # Đề cương 2025 và Đề giữa kì 2026
 
 Nguồn: 7 DOCX đọc trực tiếp OOXML; 2 PDF scan (46 trang) OCR cục bộ rồi đối chiếu ảnh. Không dùng API key, base64 hoặc trạng thái radio làm khóa đáp án. Không sửa tài liệu gốc.

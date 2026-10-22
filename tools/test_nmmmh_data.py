@@ -22,6 +22,8 @@ class DataAuditTests(unittest.TestCase):
         cls.rows=[q for e in cls.manifest['exams'] for q in read(ROOT/e['question_file'])]
         cls.by_id={q['id']:q for q in cls.rows}
         cls.overrides=read(AUDIT/'approved_changes.json')
+        cls.originals=read(AUDIT/'single-answer-review/original_questions.json')
+        cls.reference_decisions=read(AUDIT/'single-answer-review/decisions.json')
 
     def test_all_questions_and_order_preserved(self):
         self.assertEqual(len(self.rows),173);self.assertEqual(len(self.by_id),173)
@@ -42,6 +44,14 @@ class DataAuditTests(unittest.TestCase):
         decisions=read(AUDIT/'answer_decisions.json')
         self.assertEqual({d['id'] for d in decisions},set(self.by_id))
         for q in self.rows:
+            if q['id'] in self.reference_decisions:
+                d=self.reference_decisions[q['id']]
+                self.assertEqual(q['correct_answer'],d['correct_answer'])
+                self.assertEqual(q['answer_audit']['valid_options'],[d['correct_answer']])
+                self.assertEqual([l for l,c in d['option_checks'].items() if c['matches']],[q['correct_answer']])
+                self.assertTrue(d['reference_pages'])
+                self.assertEqual(q['verification_status'],'verified')
+                continue
             d=self.overrides[q['id']]['answer_decision']
             self.assertEqual(q['correct_answer'],d['correct_answer'])
             self.assertTrue(d['method']);self.assertTrue(d['evidence'])
@@ -64,6 +74,9 @@ class DataAuditTests(unittest.TestCase):
             for letter in 'ABCD':
                 self.assertEqual(q[letter]['source_label'],letter)
                 self.assertTrue(q[letter]['text'] or q[letter].get('blocks'))
+            # The previous source-comparison audit is immutable historical
+            # evidence. Check it against the retained pre-normalization row.
+            q=self.originals.get(q['id'],q)
             for edit in self.overrides[q['id']]['edits']:
                 field=edit['field']
                 if field in 'ABCD' and len(field)==1:value=q[field]['text']
@@ -77,6 +90,7 @@ class DataAuditTests(unittest.TestCase):
             for image in row['image_replacements']:assets[image['new']]=image['sha256']
         self.assertEqual(len(assets),28)
         for q in self.rows:
+            q=self.originals.get(q['id'],q)
             replacements=self.overrides[q['id']]['image_replacements']
             for image in replacements:
                 self.assertEqual(Path(image['new']).name,q['id']+'-figure.png')
@@ -104,15 +118,15 @@ class DataAuditTests(unittest.TestCase):
 
     def test_theory_uses_current_source_corrected_input(self):
         for row in read(AUDIT/'theory_audit.json')['post_source_corrected_candidates']:
-            q=self.by_id[row['id']];data=row['corrected_input']
+            q=self.originals.get(row['id'],self.by_id[row['id']]);data=row['corrected_input']
             self.assertEqual(data['question'],q['question'],q['id'])
             self.assertEqual(data['options'],{l:q[l]['text'] for l in 'ABCD'},q['id'])
 
     def test_known_corrections_and_uncertainties(self):
         self.assertEqual(self.by_id['nmmmh-de-thi-k16-3-2022']['correct_answer'],'C')
-        self.assertIsNone(self.by_id['nmmmh-de-thi-k16-2-35']['correct_answer'])
-        self.assertIsNone(self.by_id['nmmmh-de-thi-at17-bo-1-3']['correct_answer'])
-        self.assertIsNone(self.by_id['nmmmh-de-thi-k16-3-2056']['correct_answer'])
+        self.assertEqual(self.by_id['nmmmh-de-thi-k16-2-35']['correct_answer'],'A')
+        self.assertEqual(self.by_id['nmmmh-de-thi-at17-bo-1-3']['correct_answer'],'B')
+        self.assertEqual(self.by_id['nmmmh-de-thi-k16-3-2056']['correct_answer'],'D')
         self.assertFalse(any(q['source_exam_id']=='de-thi-k16-1' for q in self.rows))
 
 

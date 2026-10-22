@@ -1,7 +1,12 @@
 ﻿de,cau,dap_an,cac_phuong_an_hop_le,trang_thai,can_ra_soat,giai_thich
 de-thi-at17-bo-1,1,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""orders"": {""A"": 36, ""B"": 3, ""C"": 36, ""D"": 18}, ""target"": 3}"
 de-thi-at17-bo-1,2,D,D,verified,False,D dùng sai modulo giải mã; ba lựa chọn còn lại đúng theo mô hình RSA chuẩn.
-de-thi-at17-bo-1,3,,,needs_review,True,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: ""OSSNOA"" Cần đối chiếu nguồn: Chưa xác nhận đầy đủ các trường: D upper-right and lower-right matrix entries obscured by mouse cursor"
+de-thi-at17-bo-1,3,B,B,verified,False,"Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.
+A: Mã hóa toàn bộ MONDAY được CSINMA.
+B: Mã hóa toàn bộ MONDAY được OSSNOA.
+C: Mã hóa toàn bộ MONDAY được OULWKU.
+D: Hai ô cột phải bị che nhưng cột trái đọc được (5,7): (12×5+14×7) mod 26=2, cho chữ C, không thể là O. Không đoán hai ô bị che.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 54."
 de-thi-at17-bo-1,4,B,B,verified,False,Chọn Rabin theo chung nền phân tích thừa số trong Table 8.1. Không khẳng định đảo RSA đã được chứng minh tương đương factoring.
 de-thi-at17-bo-1,5,B,B,verified,False,Chỉ B đồng thời có kỹ thuật cung cấp bí mật và kỹ thuật xác thực với đúng vai trò khóa.
 de-thi-at17-bo-1,6,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""solutions_using_explicit_indices"": [[3, 4]]}"
@@ -15,12 +20,32 @@ de-thi-at17-bo-1,13,D,D,verified,False,"Tính độc lập và đối chiếu đ
 de-thi-nmmmh,1,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: ""ADDHOM"""
 de-thi-nmmmh,2,A,A,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 224. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02.
 de-thi-nmmmh,3,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""A"": {""truth"": true, ""residue_classes_mod8"": {""1"": 1, ""7"": 1}, ""evidence"": ""Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n""}, ""B"": {""truth"": false, ""numerator"": 11, ""denominator"": 17, ""claimed_symbol"": 1, ""computed_symbol"": -1, ""roots_if_residuosity_claimed"": []}, ""C"": {""truth"": true, ""numerator"": 158, ""denominator"": 235, ""claimed_symbol"": -1, ""computed_symbol"": -1, ""roots_if_residuosity_claimed"": null}, ""D"": {""truth"": true, ""claimed_roots"": [2, 5, 16, 19], ""computed_roots"": [2, 5, 16, 19]}}"
-de-thi-nmmmh,4,,,needs_review,True,A chắc chắn sai về lan lỗi ECB; B mơ hồ/không đúng tuyệt đối. Không ép đáp án đơn cho lời văn CBC thiếu điều kiện.
-de-thi-nmmmh,5,,,needs_review,True,"A,B là khía cạnh chuẩn; chống chối bỏ được thêm trong slide môn học theo nghĩa rộng. Thiếu ràng buộc nghĩa."
+de-thi-nmmmh,4,A,A,verified,False,"Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.
+A: SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau.
+B: Phát biểu phù hợp công thức chế độ.
+C: Phát biểu phù hợp công thức chế độ.
+D: Phát biểu phù hợp công thức chế độ.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 140, 141, 142, 146, 148."
+de-thi-nmmmh,5,D,D,verified,False,"Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.
+A: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+B: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+C: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+D: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 192."
 de-thi-nmmmh,6,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""orders"": {""A"": 40, ""B"": 40, ""C"": 40, ""D"": 8}, ""target"": 40}"
-de-thi-nmmmh,7,,"B,C",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {""beta"": 89, ""gamma"": 28, ""delta"": 192, ""inverse_gamma_a"": 97}"
+de-thi-nmmmh,7,B,B,verified,False,"Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.
+A: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A k_d = 33
+B: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.
+C: Không trả lời đúng đối tượng được hỏi; Khóa công khai k_a của A là α^a = 89
+D: Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-nmmmh,8,D,D,verified,False,Tích bằng e nhận diện phần tử nghịch đảo trong nhóm.
-de-thi-nmmmh,9,,"B,D",needs_review,True,B sai vì không cho r=0; D gọi nhiều đại diện cùng lớp là các lớp. Có hai lựa chọn sai theo lời văn.
+de-thi-nmmmh,9,B,B,verified,False,"Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.
+A: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+B: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.
+C: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+D: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 171, 172."
 de-thi-nmmmh,10,A,A,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 3
 de-thi-nmmmh,11,D,D,verified,False,Ba phát biểu đúng về cặp khóa người nhận/người gửi và kết hợp chữ ký-mã hóa.
 de-thi-nmmmh,12,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 576
@@ -39,11 +64,26 @@ de-thi-nmmmh,24,A,A,verified,False,Chữ ký phát hành chứng thư là của 
 de-thi-nmmmh,25,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""solutions_using_explicit_indices"": [[3, 4]]}"
 de-thi-nmmmh,26,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""A"": 1, ""B"": 5, ""C"": 2, ""D"": 1}"
 de-thi-nmmmh,27,D,D,verified,False,"D sai về điều kiện cần chọn e: gcd với phi(n), không phải với n."
-de-thi-nmmmh,28,,,needs_review,True,A sai; B cũng sai nếu nói đã chứng minh độ khó của bài toán. Không tự diễn giải B thành chứng minh giảm an toàn để cứu khóa cũ.
-de-thi-nmmmh,29,,"A,B",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {""n"": 41989, ""ciphertext"": 11152, ""roots"": [1234, 14169, 27820, 40755], ""a_b_r_s"": [-88, 83, 40, 179], ""bezout"": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+de-thi-nmmmh,28,A,A,verified,False,"Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.
+A: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.
+B: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+C: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+D: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192."
+de-thi-nmmmh,29,B,B,verified,False,"Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.
+A: Sai giá trị đầu vào: c thực tế là 11152, không phải 11153.
+B: c=m² mod pq=11152.
+C: Danh sách căn tương ứng m=1234, không phải m=1731.
+D: Không thể tất cả đúng vì hai mệnh đề sai.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-nmmmh,30,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""n"": 713, ""phi"": 660, ""e"": 367, ""signature"": 284, ""verified_message"": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
 de-thi-nmmmh,31,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [8, 3]"
-de-thi-nmmmh,32,,,needs_review,True,"A đúng; B,C chỉ chấp nhận được khi nêu ngữ cảnh giáo trình cụ thể. Không ép D từ định nghĩa lỏng."
+de-thi-nmmmh,32,D,D,verified,False,"Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.
+A: Đúng nhưng chỉ nêu chứng thực.
+B: Đúng nhưng chỉ nêu thỏa thuận.
+C: Đúng trong mô hình TA, nhưng chỉ nêu phân phối.
+D: Tổng hợp đủ ba nhận định đúng.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 199, 202, 203."
 de-thi-nmmmh,33,D,D,verified,False,"Cả ba định nghĩa đúng: va chạm không cố định trước đầu vào, tiền ảnh thứ hai cố định x, tiền ảnh cố định digest y."
 de-thi-nmmmh,34,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""trace"": [{""i"": 0, ""j"": 13, ""swap"": [0, 13]}, {""i"": 1, ""j"": 41, ""swap"": [1, 41]}], ""final_nonidentity_entries"": {""0"": 13, ""1"": 41, ""13"": 0, ""41"": 1}}"
 de-thi-nmmmh,35,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""output"": ""01100011101100110111000101111110"", ""missing_bits"": ""0111011"", ""fixed_cell_conflicts"": []}"
@@ -63,7 +103,12 @@ de-thi-mat-ma-2021-trac-nghiem,8,D,D,verified,False,"Tính độc lập và đ�
 de-thi-mat-ma-2021-trac-nghiem,9,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""A"": 17, ""B"": 85, ""C"": 1, ""D"": 17}"
 de-thi-mat-ma-2021-trac-nghiem,10,C,C,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 3
 de-thi-mat-ma-2021-trac-nghiem,11,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [319, 650, 250, 477, 29, 105]"
-de-thi-mat-ma-2021-trac-nghiem,12,,,needs_review,True,D chắc chắn sai; A mơ hồ về khối/toàn thông điệp và bảo đảm đổi khóa. Không tự ép D khi A cũng có cách đọc sai.
+de-thi-mat-ma-2021-trac-nghiem,12,D,D,verified,False,"Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.
+A: Phát biểu phù hợp công thức chế độ.
+B: Phát biểu phù hợp công thức chế độ.
+C: Phát biểu phù hợp công thức chế độ.
+D: SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 140, 141, 142, 146, 148."
 de-thi-mat-ma-2021-trac-nghiem,13,C,C,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: 224. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02.
 de-thi-mat-ma-2021-trac-nghiem,14,D,D,verified,False,"Chứng thư CA cấp phải có chữ ký CA, không phải chữ ký riêng của chủ thể."
 de-thi-mat-ma-2021-trac-nghiem,15,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""output"": ""01100011101100110111000101111110"", ""missing_bits"": ""0111011"", ""fixed_cell_conflicts"": []}"
@@ -71,16 +116,36 @@ de-thi-mat-ma-2021-trac-nghiem,16,D,D,verified,False,"Đã kiểm tra từng m�
 de-thi-mat-ma-2021-trac-nghiem,17,B,B,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 141
 de-thi-mat-ma-2021-trac-nghiem,18,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""solutions_using_explicit_indices"": [[3, 4]]}"
 de-thi-mat-ma-2021-trac-nghiem,19,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [8, 3]"
-de-thi-mat-ma-2021-trac-nghiem,20,,"B,C",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {""beta"": 89, ""gamma"": 28, ""delta"": 192, ""inverse_gamma_a"": 97}"
+de-thi-mat-ma-2021-trac-nghiem,20,B,B,verified,False,"Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.
+A: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_A = 33.
+B: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.
+C: Không trả lời đúng đối tượng được hỏi; Khóa công khai của A là α^a = 89.
+D: Không trả lời đúng đối tượng được hỏi; Tất cả đáp án trên.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-mat-ma-2021-trac-nghiem,21,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""n"": 713, ""phi"": 660, ""e"": 367, ""signature"": 284, ""verified_message"": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
 de-thi-mat-ma-2021-trac-nghiem,22,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [[2, 7], [10, 9]]"
-de-thi-mat-ma-2021-trac-nghiem,23,,,needs_review,True,"Theo định nghĩa chuẩn A,B đúng, chống chối bỏ là mục tiêu khác; Slide 138 bao gồm chống chối bỏ trong phạm vi xác thực rộng."
+de-thi-mat-ma-2021-trac-nghiem,23,D,D,verified,False,"Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.
+A: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+B: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+C: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+D: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 192."
 de-thi-mat-ma-2021-trac-nghiem,24,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: ""ADDHOM"""
 de-thi-mat-ma-2021-trac-nghiem,25,B,B,verified,False,"Nghịch đảo trong nhóm cho tích bằng đơn vị e, không nhầm với luật phần tử đơn vị."
-de-thi-mat-ma-2021-trac-nghiem,26,,"A,B",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: A, B. Không ép một đáp án. Kết quả: {""n"": 41989, ""ciphertext"": 11152, ""roots"": [1234, 14169, 27820, 40755], ""a_b_r_s"": [-88, 83, 40, 179], ""bezout"": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+de-thi-mat-ma-2021-trac-nghiem,26,B,B,verified,False,"Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.
+A: Sai giá trị đầu vào: c thực tế là 11152, không phải 11153.
+B: c=m² mod pq=11152.
+C: Danh sách căn tương ứng m=1234, không phải m=1731.
+D: Không thể tất cả đúng vì hai mệnh đề sai.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-mat-ma-2021-trac-nghiem,27,D,D,verified,False,Ba định nghĩa/tính chất nhóm đều đúng; chọn D tổng hợp.
 de-thi-mat-ma-2021-trac-nghiem,28,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""orders"": {""A"": 40, ""B"": 40, ""C"": 40, ""D"": 8}, ""target"": 40}"
-de-thi-mat-ma-2021-trac-nghiem,29,,"A,B",needs_review,True,"Sau override, A có 0<r<n nên sai ở r=0; B vẫn gọi các đại diện một lớp là các lớp nên sai. C,D đúng. A+B sai: không còn đáp án SAI đơn; không chuyển B sang A."
+de-thi-mat-ma-2021-trac-nghiem,29,A,A,verified,False,"Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.
+A: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.
+B: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+C: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+D: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 171, 172."
 de-thi-mat-ma-2021-trac-nghiem,30,C,C,verified,False,"C dùng điều kiện gcd(e,n)=1 không cần/không đủ. Các lựa chọn khác là RSA chuẩn với lưu ý không khẳng định tương đương RSA inversion/factoring."
 de-thi-mat-ma-2021-trac-nghiem,31,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 576
 de-thi-mat-ma-2021-trac-nghiem,32,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: ""KKHATAIPK"". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
@@ -88,23 +153,53 @@ de-thi-mat-ma-2021-trac-nghiem,33,B,B,verified,False,"Tính độc lập và đ�
 de-thi-mat-ma-2021-trac-nghiem,34,B,B,verified,False,"Trong đối chiếu chức năng thế-hoán vị giáo khoa, A,C đảo vai trò; chỉ B đúng; D sai."
 de-thi-mat-ma-2021-trac-nghiem,35,B,B,verified,False,"B sai vì muốn bí mật phải mã bằng khóa công khai người nhận, không công khai hóa phép riêng kiểu chữ ký."
 de-thi-mat-ma-2021-trac-nghiem,36,D,D,verified,False,"A,B,C đúng về vai trò khóa và khả năng kết hợp chữ ký với mã hóa; chọn D."
-de-thi-mat-ma-2021-trac-nghiem,37,,,needs_review,True,A và B sai trên lời văn chính xác: giả định độ khó chưa được chứng minh; mã công khai không thay mọi mã đối xứng.
+de-thi-mat-ma-2021-trac-nghiem,37,B,B,verified,False,"Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.
+A: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+B: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.
+C: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+D: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192."
 de-thi-mat-ma-2021-trac-nghiem,38,A,A,verified,False,Digest cố định không đổi độ dài theo thông điệp; A sai.
-de-thi-mat-ma-2021-trac-nghiem,39,,,needs_review,True,A đúng; B quá ngắn để phân biệt agreement/transport và C chỉ là mô hình TA. D là cách hiểu kỳ vọng của môn nhưng không là kết luận duy nhất từ định nghĩa chuẩn.
+de-thi-mat-ma-2021-trac-nghiem,39,D,D,verified,False,"Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.
+A: Đúng nhưng chỉ nêu chứng thực.
+B: Đúng nhưng chỉ nêu thỏa thuận.
+C: Đúng trong mô hình TA, nhưng chỉ nêu phân phối.
+D: Tổng hợp đủ ba nhận định đúng.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 199, 202, 203."
 de-thi-mat-ma-2021-trac-nghiem,40,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""A"": {""truth"": false, ""numerator"": 11, ""denominator"": 17, ""claimed_symbol"": 1, ""computed_symbol"": -1, ""roots_if_residuosity_claimed"": []}, ""B"": {""truth"": true, ""residue_classes_mod8"": {""1"": 1, ""7"": 1}, ""evidence"": ""Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n""}, ""C"": {""truth"": true, ""claimed_roots"": [2, 5, 16, 19], ""computed_roots"": [2, 5, 16, 19]}, ""D"": {""truth"": true, ""numerator"": 158, ""denominator"": 235, ""claimed_symbol"": -1, ""computed_symbol"": -1, ""roots_if_residuosity_claimed"": null}}"
 de-thi-k16-2,1,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [319, 650, 250, 477, 29, 105]"
 de-thi-k16-2,2,B,B,verified,False,Không có bảo đảm mã dòng thay mã khối để an toàn hơn; các đặc tính còn lại phù hợp mô hình mã dòng đang học.
 de-thi-k16-2,3,B,B,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 366
-de-thi-k16-2,4,,,needs_review,True,"Thiếu điều kiện bảo vệ digest cho hàm băm; MAC và chữ ký đều là đáp án đúng độc lập. Slide p15 cho danh sách C nếu hỏi bộ kỹ thuật đầy đủ, nhưng đề không nêu cách chọn này."
+de-thi-k16-2,4,C,C,verified,False,"Hỏi danh sách đầy đủ; yêu cầu bảo vệ giá trị băm tham chiếu.
+A: Chỉ hàm băm, chưa đủ ba kỹ thuật.
+B: Chỉ MAC, chưa đủ ba kỹ thuật.
+C: Đủ chữ ký số, hàm băm, MAC.
+D: Chỉ chữ ký số, chưa đủ ba kỹ thuật.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 15, 192, 193."
 de-thi-k16-2,5,A,A,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: 4
 de-thi-k16-2,6,B,B,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: 93
-de-thi-k16-2,7,,,needs_review,True,"A sai nếu đọc 'hàm ngẫu nhiên' như thuật toán ngẫu nhiên, nhưng D có lời văn trái với công thức đúng. Không tự chọn D sai hoặc dùng A để ép bỏ lỗi lời văn."
+de-thi-k16-2,7,A,A,verified,False,"Làm rõ tính xác định của hàm băm và sửa định nghĩa tiền ảnh thứ hai.
+A: SAI: hàm băm là xác định.
+B: Đúng: định nghĩa kháng va chạm.
+C: Đúng: kháng tiền ảnh.
+D: Đúng: đầu vào gốc x được cho trước.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 193, 194."
 de-thi-k16-2,8,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [1, 18, 9]"
 de-thi-k16-2,9,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""orders"": {""A"": 12, ""B"": 9, ""C"": 72, ""D"": 72}, ""target"": 5}"
 de-thi-k16-2,10,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: ""FRIDAY"""
-de-thi-k16-2,11,,,needs_review,True,"Sau override A in f(n), không phải (n) và chưa có định nghĩa f. C vẫn sai vì gcd(e,n)=1 không là điều kiện RSA. Nếu f được xác nhận là phi thì C là đáp án; chưa đủ chứng cứ để ép đọc đó. Cần đối chiếu nguồn: Option A prints f(n). The audit records that literal notation and does not silently replace it with phi(n)."
+de-thi-k16-2,11,C,C,verified,False,"Chuẩn hóa f(n) thành φ(n) theo công thức sinh khóa RSA trong tài liệu.
+A: Đúng vì ed≡1 mod φ(n).
+B: Phân tích n là cơ sở độ khó thông thường; không khẳng định tương đương đã được chứng minh.
+C: SAI: điều kiện cần là gcd(e,φ(n))=1, không phải gcd(e,n)=1.
+D: Đúng: mã hóa RSA lấy modulo n.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 184, 185."
 de-thi-k16-2,12,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [3, 5]"
-de-thi-k16-2,13,,,needs_review,True,B chắc chắn sai. D thiếu ngữ cảnh toàn bộ thông điệp hay khối lặp và phát biểu quá tuyệt đối khi đổi khóa; không ép một đáp án cho câu mơ hồ.
+de-thi-k16-2,13,B,B,verified,False,"Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.
+A: Phát biểu phù hợp công thức chế độ.
+B: SAI: lỗi một khối mã ECB không lan sang các khối giải mã sau.
+C: Phát biểu phù hợp công thức chế độ.
+D: Phát biểu phù hợp công thức chế độ.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 140, 141, 142, 146, 148."
 de-thi-k16-2,14,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""A"": 5, ""B"": 1, ""C"": 2, ""D"": 7}"
 de-thi-k16-2,15,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""solutions_using_explicit_indices"": [[3, 4]]}"
 de-thi-k16-2,16,B,B,verified,False,"A,C nhầm vai trò khóa; D sai vì không phải mọi đáp án đều đúng; B đúng."
@@ -115,9 +210,24 @@ de-thi-k16-2,20,C,C,verified,False,Tính độc lập và đối chiếu đủ A
 de-thi-k16-2,21,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 6
 de-thi-k16-2,22,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""n"": 713, ""phi"": 660, ""e"": 367, ""signature"": 284, ""verified_message"": 439}. Signing requires gcd(d,phi(n))=1; a printed gcd(d,n) condition alone is insufficient in general."
 de-thi-k16-2,23,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""orders"": {""A"": 96, ""B"": 48, ""C"": 96, ""D"": 96}, ""target"": 96}"
-de-thi-k16-2,24,,"B,C",needs_review,True,B loại số dư bằng 0; C gọi các đại diện cùng lớp là các lớp. Theo lời văn nguyên bản có ít nhất hai phát biểu sai. Override bổ sung 15 mod 7 không đổi việc các biểu thức thuộc cùng một lớp.
-de-thi-k16-2,25,,,needs_review,True,B đúng về nguyên lý Shannon; D thiếu ý 'chỉ' hay loại đơn vị nên có thể đúng ở mức biểu diễn bit. Không dùng một cách diễn đạt mơ hồ để loại D.
-de-thi-k16-2,26,,"B,C",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: B, C. Không ép một đáp án. Kết quả: {""beta"": 131, ""gamma"": 72, ""delta"": 74, ""inverse_gamma_a"": 92}"
+de-thi-k16-2,24,B,B,verified,False,"Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.
+A: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+B: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.
+C: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+D: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 171, 172."
+de-thi-k16-2,25,B,B,verified,False,"Thay khẳng định cấp bit mơ hồ bằng phát biểu sai rõ ràng.
+A: Gán nhầm mục tiêu confusion/diffusion.
+B: Đúng: hai mục tiêu confusion và diffusion.
+C: Gán nhầm mục tiêu confusion/diffusion.
+D: Sai: AES thực hiện phép thế byte và khuếch tán.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 84."
+de-thi-k16-2,26,C,C,verified,False,"Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.
+A: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là k_d = 67.
+B: Không trả lời đúng đối tượng được hỏi; Khóa công khai k_e của A là α^a = 131.
+C: β=131, γ=72, δ=74; m=δ(γ^a)^−1 mod 211=56.
+D: Không trả lời đúng đối tượng được hỏi; A, B, C đều đúng.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-k16-2,27,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""output"": ""01100011101100110111000101111110"", ""missing_bits"": ""0111011"", ""fixed_cell_conflicts"": []}"
 de-thi-k16-2,28,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: [[8, 3], [2, 7]]"
 de-thi-k16-2,29,B,B,verified,False,"Chỉ B có điều kiện trái phép; A,C,D tuyệt đối hóa đối tượng được truy cập/sửa/đọc."
@@ -126,12 +236,32 @@ de-thi-k16-2,31,D,D,verified,False,"Tính độc lập và đối chiếu đủ 
 de-thi-k16-2,32,B,B,verified,False,"Lịch dịch chuẩn 1,2,9,16 làm A,C sai, nên D sai; B mô tả đúng tổng thể sinh khóa."
 de-thi-k16-2,33,C,C,verified,False,Tích với phần tử nghịch đảo phải ra đơn vị e. Các đẳng thức còn lại không phải định nghĩa nghịch đảo.
 de-thi-k16-2,34,A,A,verified,False,A sai về độ dài digest của hàm băm cố định; các phát biểu một chiều dùng nghĩa bất khả thi về tính toán.
-de-thi-k16-2,35,,,needs_review,True,Không có phương án khớp kết quả tính độc lập. Kết quả: 384
-de-thi-k16-2,36,,,needs_review,True,"A và B là các khía cạnh chuẩn; C,D theo mục tiêu rộng của Slide 138. Thiếu định nghĩa chọn giữa nghĩa rộng và nghĩa bảo đảm chuẩn."
-de-thi-k16-2,37,,,needs_review,True,"A quá hẹp về phạm vi thỏa thuận khóa; B chỉ là một mô hình phân phối có TA, không phải định nghĩa chung. C,D đúng trong ngữ cảnh cơ quan tin cậy."
+de-thi-k16-2,35,A,A,verified,False,"Không phương án nguồn nào bằng φ(765); sửa một phương án, giữ nguyên n và thứ tự nhãn.
+A: Giá trị phương án 384; kết quả tính độc lập 384.
+B: Giá trị phương án 288; kết quả tính độc lập 384.
+C: Giá trị phương án 256; kết quả tính độc lập 384.
+D: Giá trị phương án 567; kết quả tính độc lập 384.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 175, 176."
+de-thi-k16-2,36,D,D,verified,False,"Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.
+A: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+B: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+C: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+D: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 192."
+de-thi-k16-2,37,A,A,verified,False,"Làm rõ mô hình giáo trình; thay phát biểu mơ hồ bằng hạn chế sai có phản ví dụ DH.
+A: DH thiết lập khóa chung qua kênh công khai; xác thực là yêu cầu riêng.
+B: Đúng trong mô hình TA đang xét.
+C: Chứng thực liên kết danh tính và khóa công khai.
+D: Đúng về vai trò TA trong mô hình tài liệu.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 199, 202, 203."
 de-thi-k16-2,38,B,B,verified,False,B nhầm chữ ký của CSR/chủ thể với chữ ký CA phát hành chứng thư.
 de-thi-k16-2,39,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [1, 1, 47, 99, 106, 155]"
-de-thi-k16-2,40,,,needs_review,True,A sai về mục tiêu thay thế; D sai nếu hiểu 'đã chứng minh độ khó' theo nghĩa đen. Không giả vờ giả định độ khó đã được chứng minh.
+de-thi-k16-2,40,A,A,verified,False,"Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.
+A: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.
+B: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+C: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+D: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192."
 de-thi-k16-3,2021,C,C,verified,False,"Băm và ký không tự có bí mật; cặp khóa mã hóa là của người nhận, cặp khóa ký là của người gửi."
 de-thi-k16-3,2022,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""solutions_using_explicit_indices"": [[3, 4]]}"
 de-thi-k16-3,2023,D,D,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: {""gcds"": {""A"": 1, ""B"": 1, ""C"": 1, ""D"": 5}}"
@@ -143,31 +273,71 @@ de-thi-k16-3,2028,B,B,verified,False,Tính độc lập và đối chiếu đủ
 de-thi-k16-3,2029,C,C,verified,False,C lấy nghịch đảo sai modulo; RSA dùng phi(n)/lambda(n) cho số mũ và n cho thông điệp.
 de-thi-k16-3,2030,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""orders"": {""A"": 4, ""B"": 40, ""C"": 40, ""D"": 40}, ""target"": 40}"
 de-thi-k16-3,2031,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""orders"": {""A"": 2, ""B"": 3, ""C"": 6, ""D"": 6}, ""target"": 2}"
-de-thi-k16-3,2032,,,needs_review,True,"Không có phương án khớp kết quả tính độc lập. Kết quả: ""ULLRKMVKOVYY"". Plaintext-autokey interpretation, as in the reference algorithm. Repeated Vigenere shown separately, not silently substituted."
+de-thi-k16-3,2032,A,A,verified,False,"Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.
+A: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLRKMVKOVYY.
+B: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYLNHBL.
+C: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNHLBL.
+D: Tính khóa chạy bằng mầm nối bản rõ, thu ULLRKMVKOVYY; phương án này là ULLHNBYNLHBL.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 59, 60."
 de-thi-k16-3,2033,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 5
 de-thi-k16-3,2034,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [5, 2]"
 de-thi-k16-3,2035,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""A"": 23, ""B"": 1, ""C"": 19, ""D"": 13}"
-de-thi-k16-3,2036,,,needs_review,True,"Không có phương án khớp kết quả tính độc lập. Kết quả: {""n"": 41989, ""ciphertext"": 11152, ""roots"": [1234, 14169, 27820, 40755], ""a_b_r_s"": [-88, 83, 40, 179], ""bezout"": 1}. Each root proposition is checked against its own explicitly stated m, including m different from the stem."
+de-thi-k16-3,2036,C,C,verified,False,"Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.
+A: Mô-đun phải là 199×211=41989, không phải 49189.
+B: 1152 không bằng 1234² mod 41989.
+C: 11152=1234² mod 41989.
+D: Các căn này không ứng với bản rõ 1731.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-k16-3,2037,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: [105, 29, 477, 250, 650, 319]"
-de-thi-k16-3,2038,,,needs_review,True,"B là mô tả chuẩn của xác thực bản tin. C là các mục tiêu rộng trong Slide 138. Đề không nêu nghĩa nào, nên giữ mơ hồ thay đổi khóa từ một cách đọc sang cách khác."
+de-thi-k16-3,2038,C,C,verified,False,"Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.
+A: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+B: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+C: Đủ toàn vẹn, danh tính/nguồn gốc và chống chối từ theo nghĩa rộng của tài liệu.
+D: Chỉ liệt kê một phần, chưa ĐẦY ĐỦ ba khía cạnh.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 192."
 de-thi-k16-3,2039,A,A,verified,False,Định nghĩa phần tử nghịch đảo trong nhóm cần tích bằng đơn vị e.
 de-thi-k16-3,2040,B,B,verified,False,Kiểm tra đủ A–D độc lập: B là phát biểu sai theo quy ước độ phức tạp đếm phép toán số học và D nói về nền thiết kế giáo khoa. Không lấy kết luận B từ khóa đang lưu. Ghi rõ giới hạn D để tránh dùng độ khó knapsack tổng quát như bằng chứng an toàn của Merkle–Hellman.
 de-thi-k16-3,2041,C,C,verified,False,"C phải là phi(phi(n)), không phải phi(n)."
 de-thi-k16-3,2042,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: {""A"": {""phi"": 12, ""generators"": []}, ""B"": {""phi"": 20, ""generators"": [3, 13, 17, 23, 27, 33, 37, 47]}, ""C"": {""phi"": 8, ""generators"": []}, ""D"": {""phi"": 24, ""generators"": []}}"
 de-thi-k16-3,2043,C,C,verified,False,ElGamal cổ điển dựa trên nhóm DLP; phân biệt với biến thể EC và giả định CDH/DDH cụ thể.
 de-thi-k16-3,2044,C,C,verified,False,"Theo nghĩa hiệu quả tính toán của 'có thể', C là phát biểu một chiều đúng; A,B,D không đúng với hàm băm mật mã cố định."
-de-thi-k16-3,2045,,,needs_review,True,"A sai khi mã lại cùng toàn bộ thông điệp, nhưng lời 'cùng khối' có thể nói các khối lặp trong chuỗi CBC. Các lựa chọn còn lại đúng trong mô hình đầy đủ khối."
-de-thi-k16-3,2046,,,needs_review,True,B sai về thay thế; D nói quá khi gọi độ khó đã chứng minh. Không có một đáp án SAI đơn trên cách đọc chính xác.
-de-thi-k16-3,2047,,"A,D",needs_review,True,"Có nhiều phương án cùng thỏa yêu cầu: A, D. Không ép một đáp án. Kết quả: {""beta"": 89, ""gamma"": 28, ""delta"": 192, ""inverse_gamma_a"": 97}"
+de-thi-k16-3,2045,A,A,verified,False,"Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.
+A: SAI: mã hóa xác định cho cùng dữ liệu, khóa và IV.
+B: ECB giữ tính bằng nhau của hai khối dưới cùng khóa.
+C: E_K là song ánh trên khối IV.
+D: Lỗi ECB chỉ ảnh hưởng chính khối đó.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 140, 142, 146."
+de-thi-k16-3,2046,B,B,verified,False,"Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.
+A: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+B: SAI: mật mã công khai bổ sung, không thay thế toàn bộ mật mã đối xứng.
+C: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+D: Đúng trong mô hình hệ mật công khai thông thường của môn học.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 183, 191, 192."
+de-thi-k16-3,2047,D,D,verified,False,"Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.
+A: Không trả lời đúng đối tượng được hỏi; Khóa công khai ke của A là αᵃ = 89.
+B: Không trả lời đúng đối tượng được hỏi; Bản mã thu được khi mã bản rõ m = 56 là c = (γ, δ) = (192, 28).
+C: Không trả lời đúng đối tượng được hỏi; Khóa riêng của A là kd = 33.
+D: β=89, γ=28, δ=192; m=δ(γ^a)^−1 mod 211=56.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 186."
 de-thi-k16-3,2048,D,D,verified,False,D đảo chức năng confusion/diffusion trong mô hình thế-hoán vị; C mô tả tầng tuyến tính AES đúng.
 de-thi-k16-3,2049,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: [1, 1, 47, 99, 35, 89]"
 de-thi-k16-3,2050,A,A,verified,False,Định lý tính nhân của phi cần hai số nguyên dương nguyên tố cùng nhau.
 de-thi-k16-3,2051,B,B,verified,False,"Chủ thể ký CSR có thể là bước chứng minh nắm khóa, nhưng chữ ký chứng thư được hỏi là của CA."
-de-thi-k16-3,2052,,,needs_review,True,"Chưa đủ bằng chứng để chốt đáp án duy nhất. Kết quả: {""A"": {""truth"": true, ""claimed_roots"": [2, 5, 16, 19], ""computed_roots"": [2, 5, 16, 19]}, ""B"": {""truth"": false, ""numerator"": 21, ""denominator"": 235, ""claimed_symbol"": -1, ""computed_symbol"": 1, ""roots_if_residuosity_claimed"": null}, ""C"": {""truth"": true, ""numerator"": 13, ""denominator"": 17, ""claimed_symbol"": 1, ""computed_symbol"": 1, ""roots_if_residuosity_claimed"": null}, ""D"": {""truth"": true, ""residue_classes_mod8"": {""3"": -1, ""5"": -1}, ""evidence"": ""Jacobi supplementary law (2/n)=(-1)^((n²-1)/8), odd positive n""}}. Computed as Jacobi. A composite denominator does not define a Legendre symbol; the unlabelled source notation remains conditional, independently of any editorial label. Cần đối chiếu nguồn: Source B is (21/235)=-1 with composite denominator 235. The source does not explicitly name it a Legendre symbol; published '[ký hiệu Legendre]' is editorial and unsupported. Preserve 235 and distinguish Jacobi/Legendre interpretation during a separate answer audit."
+de-thi-k16-3,2052,B,B,verified,False,"Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.
+A: Bốn căn của 4 modulo 21 là 2,5,16,19.
+B: SAI: Jacobi(21,235)=1, không phải −1.
+C: Legendre(13,17)=1 vì 8²≡13 mod 17.
+D: Đúng theo quy tắc bổ sung cho ký hiệu Jacobi.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 178, 179."
 de-thi-k16-3,2053,A,A,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ A khớp. Kết quả: {""count"": 0, ""generators"": []}"
 de-thi-k16-3,2054,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""A"": 1, ""B"": 1, ""C"": 3, ""D"": 1}"
 de-thi-k16-3,2055,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 113. The explicit (03) product determines the operation; xtime alone normally means multiplication by 02.
-de-thi-k16-3,2056,,"C,D",needs_review,True,"Sau override, C sai vì các biểu thức cùng một lớp không phải các lớp khác nhau; D sai do loại số dư 0. A,B đúng. C+D sai: đáp án C đơn không còn hợp lệ."
+de-thi-k16-3,2056,D,D,verified,False,"Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.
+A: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+B: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+C: Đúng theo định nghĩa đồng dư và đại diện chuẩn.
+D: SAI: phép chia Euclid cho phép số dư bằng 0, ví dụ 7 chia 7.
+Tham khảo: Bản full đã gộp.pdf, trang PDF 171, 172."
 de-thi-k16-3,2057,B,B,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ B khớp. Kết quả: [[8, 3], [10, 2]]"
 de-thi-k16-3,2058,C,C,verified,False,"Tính độc lập và đối chiếu đủ A–D; chỉ C khớp. Kết quả: {""exponents_in_0_phi"": [13]}"
 de-thi-k16-3,2059,D,D,verified,False,Tính độc lập và đối chiếu đủ A–D; chỉ D khớp. Kết quả: 720

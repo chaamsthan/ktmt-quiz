@@ -45,6 +45,9 @@ def data_checks():
                         assert path.startswith("images/nmmmh/") and "base64" not in path
                         assert (WEB / path).is_file()
                         assets.add(path)
+            for path in q.get('normalization',{}).get('original_images',[]):
+                assert (WEB/path).is_file()
+                assets.add(path)
         rows.extend(questions)
     assert len(manifest["exams"]) == 5
     assert not any(e["id"] == "de-thi-k16-1" for e in manifest["exams"])
@@ -185,6 +188,9 @@ def browser_checks(url, artifacts, assets):
         marked_id = value("state.quiz.questions[0].id")
         assert page.locator(".feedback.correct").count() == 1
         assert page.locator(".answer-explanation").count() == 1
+        # Synthetic missing-key fixture keeps the safety regression even now
+        # that all published legacy questions have a verified answer.
+        page.evaluate('state.quiz.questions[6] = {...state.quiz.questions[6], correct_answer:null, answer_audit:{status:"needs_review",explanation:"Synthetic unknown-key fixture"}}')
         page.locator('[data-index="6"]').click()
         unknown_id = value("state.quiz.questions[state.quiz.index].id")
         assert value("state.quiz.questions[state.quiz.index].correct_answer") is None
@@ -198,7 +204,7 @@ def browser_checks(url, artifacts, assets):
         entry = value("state.persisted.history.at(-1)")
         assert entry["subject_id"] == "nmmmh" and entry["exam"] == "De_thi_NMMMH"
         assert entry["chapter"] == "Cả đề" and entry["total"] == 40
-        graded=counts['de-thi-nmmmh']
+        graded=counts['de-thi-nmmmh']-1
         assert entry["graded"] == graded and entry["ungraded"] == 40-graded and entry["correct"] == 1
         assert abs(entry["score"] - 10 / graded) < 1e-9
         assert page.locator(".result-item.is-pending").count() == 40-graded
@@ -247,7 +253,8 @@ def browser_checks(url, artifacts, assets):
         assert value("state.quiz.context.scope_kind") == "all_exams_chapter"
         assert value("state.quiz.context.exam") == "Tất cả đề"
         assert value("state.quiz.randomize")
-        assert value("new Set(state.quiz.questions.map(q => q.source_exam_id)).size") == 5
+        # A deduplicated representative can stand for multiple source exams.
+        assert value("new Set(state.quiz.questions.flatMap(q => q.duplicate_status==='confirmed' ? q.duplicate_sources.map(s=>s.source_exam_id) : [q.source_exam_id])).size") == 5
         assert value("state.quiz.questions.every(q => q.source_exam_id !== 'de-thi-k16-1')")
         assert value("(() => {const keys=state.quiz.questions.map(q=>q.duplicate_status==='confirmed'?q.duplicate_group:q.id);return new Set(keys).size===keys.length;})()")
         assert "Nguồn:" in page.locator(".source-meta").inner_text()
@@ -261,7 +268,7 @@ def browser_checks(url, artifacts, assets):
         # Chapter 1 now legitimately contains verified secondary memberships.
         # Test an explicitly all-unknown subset, rather than treating the old
         # single-question chapter allocation as a grading invariant.
-        page.evaluate("startQuiz('unknown-only',false,'study',nmmmh.questions.filter(q=>q.source_exam_id==='de-thi-nmmmh'&&!q.correct_answer),nmmmhContext('de-thi-nmmmh','all'))")
+        page.evaluate("startQuiz('unknown-only',false,'study',[{...nmmmh.questions.find(q=>q.source_exam_id==='de-thi-nmmmh'),correct_answer:null}],nmmmhContext('de-thi-nmmmh','all'))")
         assert value("state.quiz.questions.length") > 0
         assert value("state.quiz.questions.every(q=>!q.correct_answer)")
         page.locator("#finish-now").click()

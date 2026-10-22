@@ -6196,7 +6196,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Trong quá trình mở rộng khóa của hệ mật AES giả sử kết quả của SubWord = AE; FE; 86; 54 và Rcon[j]= . Hãy tính gw[3]"
+        "text": "AES: cho SubWord(RotWord(w))=(AE,FE,86,54)_H. Trong bài đã chuẩn hóa này, CHO THÊM j=3 và Rcon[3]=(04,00,00,00)_H. Tính g(w)."
       }
     ],
     "source_paragraphs": [
@@ -6282,7 +6282,7 @@
         }
       ]
     },
-    "question": "Trong quá trình mở rộng khóa của hệ mật AES giả sử kết quả của SubWord = AE; FE; 86; 54 và Rcon[j]= . Hãy tính gw[3]",
+    "question": "AES: cho SubWord(RotWord(w))=(AE,FE,86,54)_H. Trong bài đã chuẩn hóa này, CHO THÊM j=3 và Rcon[3]=(04,00,00,00)_H. Tính g(w).",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -6300,22 +6300,67 @@
       "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
       "docx_block": 265
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn bỏ trống Rcon[j]."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn bỏ trống Rcon[j].",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất Rcon[j]; bổ sung rõ vòng j=3 thành một bài hoàn chỉnh theo lịch AES, không tuyên bố đó là vòng gốc. Thực hiện XOR từng byte với hằng vòng, không lấy đáp án tô màu làm đầu vào.\nA: EA khác AE XOR 04.\nB: EE khác AE XOR 04.\nC: A6 khác AE XOR 04.\nD: AA FE 86 54 là XOR đúng với 04 00 00 00.\nTham khảo: Bản full đã gộp.pdf, trang PDF 126, 129.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn bỏ trống Rcon[j].",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất Rcon[j]; bổ sung rõ vòng j=3 thành một bài hoàn chỉnh theo lịch AES, không tuyên bố đó là vòng gốc. Thực hiện XOR từng byte với hằng vòng, không lấy đáp án tô màu làm đầu vào.\nA: EA khác AE XOR 04.\nB: EE khác AE XOR 04.\nC: A6 khác AE XOR 04.\nD: AA FE 86 54 là XOR đúng với 04 00 00 00.\nTham khảo: Bản full đã gộp.pdf, trang PDF 126, 129.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          126,
+          129
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "EA khác AE XOR 04."
+        },
+        "B": {
+          "matches": false,
+          "reason": "EE khác AE XOR 04."
+        },
+        "C": {
+          "matches": false,
+          "reason": "A6 khác AE XOR 04."
+        },
+        "D": {
+          "matches": true,
+          "reason": "AA FE 86 54 là XOR đúng với 04 00 00 00."
+        }
+      },
+      "numeric": {
+        "subword": [
+          174,
+          254,
+          134,
+          84
+        ],
+        "rcon": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          170,
+          254,
+          134,
+          84
+        ]
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6338,19 +6383,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Tra riêng từng byte của SubWord; nguồn bỏ trống Rcon[j], hãy đọc ghi chú trước khi dùng câu này.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Rcon chỉ có byte đầu khác 0, nên giữ nguyên ba byte cuối và XOR byte đầu.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Trong quá trình mở rộng khóa của hệ mật AES giả sử kết quả của SubWord = AE; FE; 86; 54 và Rcon[j]= . Hãy tính gw[3]"
+        "text": "AES: cho SubWord(RotWord(w))=(AE,FE,86,54)_H. Trong bài đã chuẩn hóa này, CHO THÊM j=3 và Rcon[3]=(04,00,00,00)_H. Tính g(w)."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất Rcon[j]; bổ sung rõ vòng j=3 thành một bài hoàn chỉnh theo lịch AES, không tuyên bố đó là vòng gốc. Thực hiện XOR từng byte với hằng vòng, không lấy đáp án tô màu làm đầu vào.",
+      "reference_pages": [
+        126,
+        129
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Trong quá trình mở rộng khóa của hệ mật AES giả sử kết quả của SubWord = AE; FE; 86; 54 và Rcon[j]= . Hãy tính gw[3]",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong2-39",
@@ -6362,7 +6419,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Trong quá trình mở rộng khóa của hệ mật AES giả sử w[0] = 12; 70; AE; DB và gw[3]= . Hãy tính w[4]."
+        "text": "AES-128: cho w[0]=(12,70,AE,DB)_H. Bổ sung dữ kiện cho bài chuẩn hóa: w[3]=(82,35,EB,5F)_H và Rcon[1]=(01,00,00,00)_H. Tính w[4]=w[0] XOR g(w[3])."
       }
     ],
     "source_paragraphs": [
@@ -6374,11 +6431,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "77; 77; 4E; 70",
+      "text": "85; 99; 61; C8",
       "blocks": [
         {
           "type": "text",
-          "text": "77; 77; 4E; 70"
+          "text": "85; 99; 61; C8"
         }
       ],
       "source_label": "A",
@@ -6393,7 +6450,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "77; 77; 4E; 70"
+          "text": "85; 99; 61; C8"
         }
       ]
     },
@@ -6448,7 +6505,7 @@
         }
       ]
     },
-    "question": "Trong quá trình mở rộng khóa của hệ mật AES giả sử w[0] = 12; 70; AE; DB và gw[3]= . Hãy tính w[4].",
+    "question": "AES-128: cho w[0]=(12,70,AE,DB)_H. Bổ sung dữ kiện cho bài chuẩn hóa: w[3]=(82,35,EB,5F)_H và Rcon[1]=(01,00,00,00)_H. Tính w[4]=w[0] XOR g(w[3]).",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -6466,22 +6523,80 @@
       "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
       "docx_block": 272
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "A",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn bỏ trống g(w3)."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn bỏ trống g(w3).",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn bỏ trống g(w3). Bổ sung w3 và Rcon rõ ràng rồi tính g, không suy g ngược từ phương án cũ. Tự tính SubWord/RotWord/Rcon, sau đó XOR với w0; thay phương án A bằng kết quả mới.\nA: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nB: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nC: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nD: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nTham khảo: Bản full đã gộp.pdf, trang PDF 120, 126, 129.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn bỏ trống g(w3).",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "A",
       "valid_options": [
         "A"
-      ]
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn bỏ trống g(w3). Bổ sung w3 và Rcon rõ ràng rồi tính g, không suy g ngược từ phương án cũ. Tự tính SubWord/RotWord/Rcon, sau đó XOR với w0; thay phương án A bằng kết quả mới.\nA: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nB: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nC: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nD: g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8'].\nTham khảo: Bản full đã gộp.pdf, trang PDF 120, 126, 129.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          120,
+          126,
+          129
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+        },
+        "B": {
+          "matches": false,
+          "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+        },
+        "C": {
+          "matches": false,
+          "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+        },
+        "D": {
+          "matches": false,
+          "reason": "g(w3)=['97', 'E9', 'CF', '13'], w4=['85', '99', '61', 'C8']."
+        }
+      },
+      "numeric": {
+        "w0": [
+          18,
+          112,
+          174,
+          219
+        ],
+        "w3": [
+          130,
+          53,
+          235,
+          95
+        ],
+        "rcon": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "g": [
+          151,
+          233,
+          207,
+          19
+        ],
+        "w4": [
+          133,
+          153,
+          97,
+          200
+        ]
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6504,19 +6619,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: w4 = w0 XOR g(w3); nguồn đang bỏ trống g(w3), không tự điền giá trị từ phương án.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Xoay w3 một byte, tra S-box, XOR Rcon vào byte đầu; cuối cùng XOR với w0.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Trong quá trình mở rộng khóa của hệ mật AES giả sử w[0] = 12; 70; AE; DB và gw[3]= . Hãy tính w[4]."
+        "text": "AES-128: cho w[0]=(12,70,AE,DB)_H. Bổ sung dữ kiện cho bài chuẩn hóa: w[3]=(82,35,EB,5F)_H và Rcon[1]=(01,00,00,00)_H. Tính w[4]=w[0] XOR g(w[3])."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn bỏ trống g(w3). Bổ sung w3 và Rcon rõ ràng rồi tính g, không suy g ngược từ phương án cũ. Tự tính SubWord/RotWord/Rcon, sau đó XOR với w0; thay phương án A bằng kết quả mới.",
+      "reference_pages": [
+        120,
+        126,
+        129
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Trong quá trình mở rộng khóa của hệ mật AES giả sử w[0] = 12; 70; AE; DB và gw[3]= . Hãy tính w[4].",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong2-40",
@@ -8069,7 +8197,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Tấn công nào phổ biến nhất đối với các hệ mật khóa công khai?"
+        "text": "Đối thủ được chọn bản mã và truy vấn kết quả giải mã của các bản mã khác bản mã mục tiêu. Đây là mô hình tấn công nào?"
       }
     ],
     "source_paragraphs": [
@@ -8155,7 +8283,7 @@
         }
       ]
     },
-    "question": "Tấn công nào phổ biến nhất đối với các hệ mật khóa công khai?",
+    "question": "Đối thủ được chọn bản mã và truy vấn kết quả giải mã của các bản mã khác bản mã mục tiêu. Đây là mô hình tấn công nào?",
     "source_mark_candidates": {
       "highlight": [],
       "underlined_option_label": [
@@ -8173,22 +8301,47 @@
       "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
       "docx_block": 345
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "C",
-    "needs_review": true,
-    "review_reasons": [
-      "Nhận xét “thường gặp nhất” không nêu mô hình/ngữ cảnh."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nhận xét “thường gặp nhất” không nêu mô hình/ngữ cảnh.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Bỏ tiêu chí phổ biến nhất không có khảo sát; hỏi đúng mô hình tấn công.\nA: Không mô tả vét cạn.\nB: Không chỉ quan sát bản mã.\nC: Đúng: chosen-ciphertext attack.\nD: Đối thủ chọn bản mã, không phải bản rõ.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nhận xét “thường gặp nhất” không nêu mô hình/ngữ cảnh.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
-      ]
+      ],
+      "explanation": "Bỏ tiêu chí phổ biến nhất không có khảo sát; hỏi đúng mô hình tấn công.\nA: Không mô tả vét cạn.\nB: Không chỉ quan sát bản mã.\nC: Đúng: chosen-ciphertext attack.\nD: Đối thủ chọn bản mã, không phải bản rõ.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Không mô tả vét cạn."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Không chỉ quan sát bản mã."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: chosen-ciphertext attack."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đối thủ chọn bản mã, không phải bản rõ."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -8208,34 +8361,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Tách câu định nghĩa một kiểu tấn công khỏi nhận xét “thường gặp nhất”, vốn cần ngữ cảnh mô hình đe dọa.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Phân loại bằng quyền truy vấn của đối thủ, không bằng tần suất xuất hiện của kiểu tấn công.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Tấn công nào phổ biến nhất đối với các hệ mật khóa công khai?"
+        "text": "Đối thủ được chọn bản mã và truy vấn kết quả giải mã của các bản mã khác bản mã mục tiêu. Đây là mô hình tấn công nào?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
-    "duplicate_status": "confirmed",
-    "duplicate_group": "collection-c7e75847aea71b2c2dd6",
-    "duplicate_sources": [
-      {
-        "id": "nmmmh-de-cuong-2025-chuong2-49",
-        "source_exam_id": "de-cuong-2025-chuong2",
-        "source_exam_code": "Chuong2",
-        "source_question_number": "49",
-        "source_file": "Chuong2.docx"
-      },
-      {
-        "id": "nmmmh-de-cuong-2025-chuong3-3",
-        "source_exam_id": "de-cuong-2025-chuong3",
-        "source_exam_code": "Chuong3",
-        "source_question_number": "3",
-        "source_file": "Chuong3.docx"
-      }
-    ]
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Bỏ tiêu chí phổ biến nhất không có khảo sát; hỏi đúng mô hình tấn công.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Tấn công nào phổ biến nhất đối với các hệ mật khóa công khai?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong2-50",

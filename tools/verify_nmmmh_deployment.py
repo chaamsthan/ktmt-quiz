@@ -18,12 +18,16 @@ def main():
            'subjects/nmmmh/manifest.json','subjects/nmmmh/import_report.json','subjects/nmmmh/needs_review.json',
            'subjects/nmmmh/answers.csv','vendor/katex/katex.min.js','vendor/katex/katex.min.css','vendor/katex/contrib/auto-render.min.js'}
     manifest=json.loads((ROOT/'subjects/nmmmh/manifest.json').read_text())
+    if manifest.get('reference_review'):
+        files.add(manifest['reference_review']['report'])
+        files.update(str(p.relative_to(ROOT)) for p in (ROOT/'subjects/nmmmh/audit/single-answer-review').glob('*.json'))
     rows=json.loads((ROOT/'questions.json').read_text())
     for collection in manifest.get('collections',[]):
         if collection.get('report'):files.add(collection['report'])
     for exam in manifest['exams']+[e for c in manifest.get('collections',[]) for e in c['exams']]:
         files.add(exam['question_file']);rows.extend(json.loads((ROOT/exam['question_file']).read_text()))
     for q in rows:
+        files.update(q.get('normalization',{}).get('original_images',[]))
         if q.get('question_image'):files.add(q['question_image'])
         for holder in [q]+[q.get(l,{}) for l in 'ABCD']:
             if holder.get('image'):files.add(holder['image'])

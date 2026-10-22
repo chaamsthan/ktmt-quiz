@@ -1,0 +1,14 @@
+{
+  "nmmmh-de-cuong-2025-chuong2-38": "Thiếu giá trị Rcon[j] và chỉ số vòng; tài liệu cho công thức chung, không cho dữ kiện riêng câu này. Không suy Rcon từ đáp án tô màu.",
+  "nmmmh-de-cuong-2025-chuong2-39": "Thiếu g(w[3]); w[0] không đủ để xác định w[4]. Cần bổ sung biểu thức/ảnh bị mất.",
+  "nmmmh-de-cuong-2025-chuong3-43": "Cùng câu dùng nhóm Z*19 nhưng hỏi Z*10; cần xác nhận mô-đun, không chọn 19 chỉ vì khớp phương án.",
+  "nmmmh-de-cuong-2025-tonghop1-4": "Không có chỉ số ô cần tính trong câu MixColumns; cần chỉ rõ x_ij, không tự chọn một ô.",
+  "nmmmh-de-cuong-2025-tonghop1-7": "Thiếu cả khối bit đầu vào và sơ đồ vị trí abcd của IP; bảng IP chuẩn không khôi phục được dữ kiện riêng.",
+  "nmmmh-de-cuong-2025-tonghop2-23": "Thiếu trạng thái C và vị trí ABCD của P(C); không lấy dữ kiện từ câu khác để ghép.",
+  "nmmmh-de-cuong-2025-tonghop3-23": "Miền hoán vị ghi 6 nhưng có 7 phần tử; M=737 nhỏ hơn tổng dãy 958. Có thể tính biến đổi số học nhưng không coi đó là bộ tham số Merkle–Hellman hợp lệ. Cần xác nhận tham số muốn sửa.",
+  "nmmmh-de-cuong-2025-tonghop4-8": "Chỉ có bản mã Caesar, không có bản rõ hay điều kiện xác định khóa; mọi khóa cho một bản rõ khác. Không chọn theo độ giống tiếng Anh.",
+  "nmmmh-de-giua-ki-2026-ca-1-5": "Thiếu thân câu nên không biết yêu cầu ĐÚNG hay SAI. Tài liệu CFB không khôi phục được nguyên văn phần bị mất.",
+  "nmmmh-de-giua-ki-2026-ca-1-9": "Thiếu tiêu chí/mô hình phần cứng để so mã dòng, DES, AES và chế độ. Không có kết luận phổ quát phù hợp mọi cách thực thi.",
+  "nmmmh-de-giua-ki-2026-ca-1-34": "Hình còn đọc được nhưng phương án D bị thiếu; cần đủ phương án để xác nhận duy nhất một lựa chọn, không bịa lựa chọn D.",
+  "nmmmh-de-giua-ki-2026-ca-2-30": "Đề ghi đồng thời modulo 41 và nhóm Z*97, cho hai cách hiểu khác nhau; cần xác nhận mô-đun trước khi chốt."
+}

@@ -618,14 +618,14 @@
         3
       ]
     },
-    "question": "[Thân câu không xuất hiện trong PDF; chỉ còn bốn phương án về CFB.]",
+    "question": "Bài biên soạn lại: khẳng định nào ĐÚNG về CFB với kích thước đoạn bằng kích thước khối (full-block)?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "[Thân câu không xuất hiện trong PDF; chỉ còn bốn phương án về CFB.]"
+        "text": "Bài biên soạn lại: khẳng định nào ĐÚNG về CFB với kích thước đoạn bằng kích thước khối (full-block)?"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -692,21 +692,48 @@
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Thiếu toàn bộ thân câu 5; không biết yêu cầu ĐÚNG hay SAI."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Thiếu toàn bộ thân câu 5; không biết yêu cầu ĐÚNG hay SAI.",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Thân câu gốc mất hoàn toàn; ĐÚNG và full-block là yêu cầu biên soạn mới, không phải nguyên văn phục hồi. Chọn yêu cầu ĐÚNG cho bài biên soạn lại, xét CFB full-block để phát biểu định nghĩa rõ ràng.\nA: Khối mã còn phụ thuộc khối rõ HIỆN TẠI, không chỉ các khối trước.\nB: Lỗi bản mã còn lật bit tương ứng trong khối rõ hiện tại.\nC: Đúng: E_K tác động IV hoặc C_(i−1), rồi XOR bản rõ.\nD: CFB có khả năng tự đồng bộ sau số đoạn hữu hạn.\nTham khảo: Bản full đã gộp.pdf, trang PDF 143, 144, 145.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Thiếu toàn bộ thân câu 5; không biết yêu cầu ĐÚNG hay SAI.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "C",
+      "valid_options": [
+        "C"
       ],
-      "valid_options": []
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Thân câu gốc mất hoàn toàn; ĐÚNG và full-block là yêu cầu biên soạn mới, không phải nguyên văn phục hồi. Chọn yêu cầu ĐÚNG cho bài biên soạn lại, xét CFB full-block để phát biểu định nghĩa rõ ràng.\nA: Khối mã còn phụ thuộc khối rõ HIỆN TẠI, không chỉ các khối trước.\nB: Lỗi bản mã còn lật bit tương ứng trong khối rõ hiện tại.\nC: Đúng: E_K tác động IV hoặc C_(i−1), rồi XOR bản rõ.\nD: CFB có khả năng tự đồng bộ sau số đoạn hữu hạn.\nTham khảo: Bản full đã gộp.pdf, trang PDF 143, 144, 145.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          143,
+          144,
+          145
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Khối mã còn phụ thuộc khối rõ HIỆN TẠI, không chỉ các khối trước."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Lỗi bản mã còn lật bit tương ứng trong khối rõ hiện tại."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: E_K tác động IV hoặc C_(i−1), rồi XOR bản rõ."
+        },
+        "D": {
+          "matches": false,
+          "reason": "CFB có khả năng tự đồng bộ sau số đoạn hữu hạn."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -726,19 +753,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Nguồn thiếu thân câu; chưa thể biết phải chọn khẳng định đúng hay sai. Không suy từ nút đã tích.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Viết C_i=P_i XOR E_K(C_(i−1)), C_0=IV; theo dõi riêng đầu vào E_K và phép XOR.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "[Thân câu không xuất hiện trong PDF; chỉ còn bốn phương án về CFB.]"
+        "text": "Bài biên soạn lại: khẳng định nào ĐÚNG về CFB với kích thước đoạn bằng kích thước khối (full-block)?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Thân câu gốc mất hoàn toàn; ĐÚNG và full-block là yêu cầu biên soạn mới, không phải nguyên văn phục hồi. Chọn yêu cầu ĐÚNG cho bài biên soạn lại, xét CFB full-block để phát biểu định nghĩa rõ ràng.",
+      "reference_pages": [
+        143,
+        144,
+        145
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "[Thân câu không xuất hiện trong PDF; chỉ còn bốn phương án về CFB.]",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-6",
@@ -1072,7 +1112,7 @@
         "alt": "Hình gốc câu 8, ca 1, trang 4"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -1139,21 +1179,60 @@
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Chưa chốt được toàn bộ hai chuỗi bit nhỏ trong ảnh; không lấy lựa chọn đang tích làm kết quả."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Chưa chốt được toàn bộ hai chuỗi bit nhỏ trong ảnh; không lấy lựa chọn đang tích làm kết quả.",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Đọc trực tiếp tám bit cuối trên ảnh: E(R) kết thúc 10100101, K kết thúc 10110011; không cần đoán toàn chuỗi.\nA: Giá trị phương án 54; kết quả tính độc lập 22.\nB: Giá trị phương án 22; kết quả tính độc lập 22.\nC: Giá trị phương án 94; kết quả tính độc lập 22.\nD: Giá trị phương án 14; kết quả tính độc lập 22.\nTham khảo: Bản full đã gộp.pdf, trang PDF 91, 92.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Chưa chốt được toàn bộ hai chuỗi bit nhỏ trong ảnh; không lấy lựa chọn đang tích làm kết quả.",
-      "sources": [
-        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "valid_options": []
+      "explanation": "Đọc trực tiếp tám bit cuối trên ảnh: E(R) kết thúc 10100101, K kết thúc 10110011; không cần đoán toàn chuỗi.\nA: Giá trị phương án 54; kết quả tính độc lập 22.\nB: Giá trị phương án 22; kết quả tính độc lập 22.\nC: Giá trị phương án 94; kết quả tính độc lập 22.\nD: Giá trị phương án 14; kết quả tính độc lập 22.\nTham khảo: Bản full đã gộp.pdf, trang PDF 91, 92.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          91,
+          92
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 54,
+          "reason": "Giá trị phương án 54; kết quả tính độc lập 22."
+        },
+        "B": {
+          "matches": true,
+          "value": 22,
+          "reason": "Giá trị phương án 22; kết quả tính độc lập 22."
+        },
+        "C": {
+          "matches": false,
+          "value": 94,
+          "reason": "Giá trị phương án 94; kết quả tính độc lập 22."
+        },
+        "D": {
+          "matches": false,
+          "value": 14,
+          "reason": "Giá trị phương án 14; kết quả tính độc lập 22."
+        }
+      },
+      "numeric": {
+        "expected": 22,
+        "base": 2,
+        "values": {
+          "A": 54,
+          "B": 22,
+          "C": 94,
+          "D": 14
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -1176,8 +1255,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Chỉ XOR tám bit cuối của hai chuỗi; cần đọc chắc từng bit trước khi so phương án.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Chỉ XOR tám bit cuối; XOR từng nhóm bốn bit rồi ghép lại.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -1195,7 +1274,21 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Đọc trực tiếp tám bit cuối trên ảnh: E(R) kết thúc 10100101, K kết thúc 10110011; không cần đoán toàn chuỗi.",
+      "reference_pages": [
+        91,
+        92
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q08-p04-stem.png"
+      ],
+      "original_question": "DES: tìm 8 bit ngoài cùng bên phải của E(R) XOR K theo hai chuỗi bit trong hình.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-9",
@@ -1212,14 +1305,14 @@
         5
       ]
     },
-    "question": "Triển khai phần cứng thích hợp với loại nào hơn trong các lựa chọn sau?",
+    "question": "Loại mật mã tổng quát nào xử lý lần lượt từng bit/ký tự bằng cách kết hợp với một dòng khóa, thay vì áp phép mã cố định lên từng khối dữ liệu?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Triển khai phần cứng thích hợp với loại nào hơn trong các lựa chọn sau?"
+        "text": "Loại mật mã tổng quát nào xử lý lần lượt từng bit/ký tự bằng cách kết hợp với một dòng khóa, thay vì áp phép mã cố định lên từng khối dữ liệu?"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -1286,21 +1379,49 @@
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "So sánh tốc độ/khả năng triển khai không có tiêu chí hay mô hình phần cứng xác định."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "So sánh tốc độ/khả năng triển khai không có tiêu chí hay mô hình phần cứng xác định.",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Không thể xác nhận thuật toán nào thích hợp hơn với mọi phần cứng; thay tiêu chí đó bằng định nghĩa mã dòng từ tài liệu. Thay so sánh phần cứng không có thước đo bằng định nghĩa thuật toán đủ chặt chẽ.\nA: ECB/OFB là tên chế độ; ECB xử lý theo khối, không phải một loại tổng quát cùng tính chất.\nB: Đúng: định nghĩa mã dòng.\nC: DES là thuật toán mã khối.\nD: AES là thuật toán mã khối.\nTham khảo: Bản full đã gộp.pdf, trang PDF 28, 152, 153, 155.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "So sánh tốc độ/khả năng triển khai không có tiêu chí hay mô hình phần cứng xác định.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "valid_options": []
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Không thể xác nhận thuật toán nào thích hợp hơn với mọi phần cứng; thay tiêu chí đó bằng định nghĩa mã dòng từ tài liệu. Thay so sánh phần cứng không có thước đo bằng định nghĩa thuật toán đủ chặt chẽ.\nA: ECB/OFB là tên chế độ; ECB xử lý theo khối, không phải một loại tổng quát cùng tính chất.\nB: Đúng: định nghĩa mã dòng.\nC: DES là thuật toán mã khối.\nD: AES là thuật toán mã khối.\nTham khảo: Bản full đã gộp.pdf, trang PDF 28, 152, 153, 155.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          28,
+          152,
+          153,
+          155
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "ECB/OFB là tên chế độ; ECB xử lý theo khối, không phải một loại tổng quát cùng tính chất."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: định nghĩa mã dòng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "DES là thuật toán mã khối."
+        },
+        "D": {
+          "matches": false,
+          "reason": "AES là thuật toán mã khối."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -1323,19 +1444,33 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Cần tiêu chí phần cứng cụ thể để so các thuật toán; đây không phải kết luận đúng cho mọi cách triển khai.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Phân biệt loại mã (khối/dòng), tên thuật toán (DES/AES) và chế độ hoạt động.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Triển khai phần cứng thích hợp với loại nào hơn trong các lựa chọn sau?"
+        "text": "Loại mật mã tổng quát nào xử lý lần lượt từng bit/ký tự bằng cách kết hợp với một dòng khóa, thay vì áp phép mã cố định lên từng khối dữ liệu?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Không thể xác nhận thuật toán nào thích hợp hơn với mọi phần cứng; thay tiêu chí đó bằng định nghĩa mã dòng từ tài liệu. Thay so sánh phần cứng không có thước đo bằng định nghĩa thuật toán đủ chặt chẽ.",
+      "reference_pages": [
+        28,
+        152,
+        153,
+        155
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Triển khai phần cứng thích hợp với loại nào hơn trong các lựa chọn sau?",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-10",
@@ -1685,11 +1820,11 @@
         6
       ]
     },
-    "question": "A chọn p=2003 và một phần tử sinh của Z*2003. A cần chọn giá trị khóa riêng trong khoảng nào?",
+    "question": "Theo định nghĩa ElGamal trong tài liệu, với p=2003, TOÀN BỘ miền cho phép của khóa riêng a (không phải một khoảng con) là khoảng nào?",
     "question_blocks": [
       {
         "type": "text",
-        "text": "A chọn p=2003 và một phần tử sinh của Z*2003. A cần chọn giá trị khóa riêng trong khoảng nào?"
+        "text": "Theo định nghĩa ElGamal trong tài liệu, với p=2003, TOÀN BỘ miền cho phép của khóa riêng a (không phải một khoảng con) là khoảng nào?"
       },
       {
         "type": "image",
@@ -1697,7 +1832,7 @@
         "alt": "Hình gốc câu 12, ca 1, trang 6"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -1764,21 +1899,46 @@
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Theo HAC miền chuẩn là 1..p−2: A đầy đủ, D là một tập con hợp lệ; C thuộc quy ước mở rộng khác. Cách hỏi khoảng chưa xác định duy nhất."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Theo HAC miền chuẩn là 1..p−2: A đầy đủ, D là một tập con hợp lệ; C thuộc quy ước mở rộng khác. Cách hỏi khoảng chưa xác định duy nhất.",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Hỏi toàn bộ miền chọn số mũ theo định nghĩa ElGamal của giáo trình, không hỏi một khoảng con hợp lệ.\nA: Đúng: 1≤a≤p−2.\nB: Chứa cả p−1 và p.\nC: Chứa p−1 ngoài miền giáo trình.\nD: Là khoảng con, không phải toàn bộ miền.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Theo HAC miền chuẩn là 1..p−2: A đầy đủ, D là một tập con hợp lệ; C thuộc quy ước mở rộng khác. Cách hỏi khoảng chưa xác định duy nhất.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
       ],
-      "valid_options": []
+      "explanation": "Hỏi toàn bộ miền chọn số mũ theo định nghĩa ElGamal của giáo trình, không hỏi một khoảng con hợp lệ.\nA: Đúng: 1≤a≤p−2.\nB: Chứa cả p−1 và p.\nC: Chứa p−1 ngoài miền giáo trình.\nD: Là khoảng con, không phải toàn bộ miền.\nTham khảo: Bản full đã gộp.pdf, trang PDF 186.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          186
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Đúng: 1≤a≤p−2."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Chứa cả p−1 và p."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Chứa p−1 ngoài miền giáo trình."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Là khoảng con, không phải toàn bộ miền."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -1798,12 +1958,12 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Đối chiếu miền số mũ chuẩn 1…p−2 rồi kiểm tra cả khoảng, kể cả các khoảng con.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Đối chiếu hai đầu mút miền a trong định nghĩa hệ mật; kiểm tra cả khoảng, không chỉ một số thuộc khoảng.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "A chọn p=2003 và một phần tử sinh của \\(\\mathbb{Z}_{2003}^{*}\\). A cần chọn giá trị khóa riêng trong khoảng nào?"
+        "text": "Theo định nghĩa ElGamal trong tài liệu, với p=2003, TOÀN BỘ miền cho phép của khóa riêng a (không phải một khoảng con) là khoảng nào?"
       },
       {
         "type": "image",
@@ -1817,7 +1977,20 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Hỏi toàn bộ miền chọn số mũ theo định nghĩa ElGamal của giáo trình, không hỏi một khoảng con hợp lệ.",
+      "reference_pages": [
+        186
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q12-p06-stem.png"
+      ],
+      "original_question": "A chọn p=2003 và một phần tử sinh của Z*2003. A cần chọn giá trị khóa riêng trong khoảng nào?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-13",
@@ -2603,7 +2776,7 @@
         "text": "Khẳng định nào sau đây là ĐÚNG?"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -2623,18 +2796,18 @@
       ]
     },
     "B": {
-      "text": "Nếu các khối bản rõ giống nhau được mã hóa với cùng một khóa và một IV theo chế độ CBC thì sẽ thu được các khối mã giống nhau.",
+      "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã.",
       "blocks": [
         {
           "type": "text",
-          "text": "Nếu các khối bản rõ giống nhau được mã hóa với cùng một khóa và một IV theo chế độ CBC thì sẽ thu được các khối mã giống nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "Nếu các khối bản rõ giống nhau được mã hóa với cùng một khóa và một IV theo chế độ CBC thì sẽ thu được các khối mã giống nhau."
+          "text": "Trong CBC, hai lần mã hóa cùng TOÀN BỘ dãy bản rõ, cùng khóa và cùng IV cho cùng dãy bản mã."
         }
       ]
     },
@@ -2670,21 +2843,48 @@
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Bỏ qua vị trí khối/lịch sử móc xích khiến phát biểu CBC không đúng tổng quát; ba phát biểu còn lại sai. Không có đáp án duy nhất đủ chặt chẽ."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Bỏ qua vị trí khối/lịch sử móc xích khiến phát biểu CBC không đúng tổng quát; ba phát biểu còn lại sai. Không có đáp án duy nhất đủ chặt chẽ.",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Sửa mệnh đề CBC mơ hồ thành phát biểu xác định về toàn thông điệp.\nA: OFB còn phụ thuộc khóa và IV.\nB: Đúng: cùng toàn thông điệp, khóa và IV.\nC: ECB không dùng IV.\nD: Lỗi ECB không lan sang các khối sau.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 142, 146.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Bỏ qua vị trí khối/lịch sử móc xích khiến phát biểu CBC không đúng tổng quát; ba phát biểu còn lại sai. Không có đáp án duy nhất đủ chặt chẽ.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "valid_options": []
+      "explanation": "Sửa mệnh đề CBC mơ hồ thành phát biểu xác định về toàn thông điệp.\nA: OFB còn phụ thuộc khóa và IV.\nB: Đúng: cùng toàn thông điệp, khóa và IV.\nC: ECB không dùng IV.\nD: Lỗi ECB không lan sang các khối sau.\nTham khảo: Bản full đã gộp.pdf, trang PDF 140, 142, 146.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          140,
+          142,
+          146
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "OFB còn phụ thuộc khóa và IV."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: cùng toàn thông điệp, khóa và IV."
+        },
+        "C": {
+          "matches": false,
+          "reason": "ECB không dùng IV."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Lỗi ECB không lan sang các khối sau."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -2704,8 +2904,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Viết công thức CBC cho hai vị trí; cùng khối rõ không đủ nếu khối bản mã trước khác nhau.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Viết C_i=E_K(P_i XOR C_(i−1)); cùng P_i riêng lẻ chưa đủ, cùng toàn thông điệp và IV thì đủ.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -2716,7 +2916,20 @@
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Sửa mệnh đề CBC mơ hồ thành phát biểu xác định về toàn thông điệp.",
+      "reference_pages": [
+        140,
+        142,
+        146
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là ĐÚNG?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-19",
@@ -3619,100 +3832,153 @@
         13
       ]
     },
-    "question": "LFSR n=9, trạng thái ban đầu (1,0,1,1,0,1,0,0,0), phản hồi a0 XOR a3 XOR a5 XOR a8. Xuất a8…a0 tại t=1.",
+    "question": "LFSR có n=9, (a0,…,a8) tại t=0 là (1,0,1,1,0,1,0,0,0). Mỗi nhịp a_i(t+1)=a_(i+1)(t) với i<n−1; a_(n−1)(t+1)=a0(t) XOR a3(t) XOR a5(t) XOR a8(t). Tìm a8…a0 tại t=1.",
     "question_blocks": [
       {
         "type": "text",
-        "text": "LFSR n=9, trạng thái ban đầu (1,0,1,1,0,1,0,0,0), phản hồi a0 XOR a3 XOR a5 XOR a8. Xuất a8…a0 tại t=1."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q28-p12-stem.png",
-        "alt": "Hình gốc câu 28, ca 1, trang 12"
+        "text": "LFSR có n=9, (a0,…,a8) tại t=0 là (1,0,1,1,0,1,0,0,0). Mỗi nhịp a_i(t+1)=a_(i+1)(t) với i<n−1; a_(n−1)(t+1)=a0(t) XOR a3(t) XOR a5(t) XOR a8(t). Tìm a8…a0 tại t=1."
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
-      "text": "1000101001",
+      "text": "100010111",
       "blocks": [
         {
           "type": "text",
-          "text": "1000101001"
+          "text": "100010111"
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1000101001"
+          "text": "100010111"
         }
       ]
     },
     "B": {
-      "text": "1000101101",
+      "text": "100010110",
       "blocks": [
         {
           "type": "text",
-          "text": "1000101101"
+          "text": "100010110"
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1000101101"
+          "text": "100010110"
         }
       ]
     },
     "C": {
-      "text": "0000101101",
+      "text": "100010100",
       "blocks": [
         {
           "type": "text",
-          "text": "0000101101"
+          "text": "100010100"
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "0000101101"
+          "text": "100010100"
         }
       ]
     },
     "D": {
-      "text": "1000111101",
+      "text": "100010010",
       "blocks": [
         {
           "type": "text",
-          "text": "1000111101"
+          "text": "100010010"
         }
       ],
       "source_label": "D",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1000111101"
+          "text": "100010010"
         }
       ]
     },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn yêu cầu 9 bit nhưng cả bốn phương án đều có 10 bit. Không tự xóa một bit để khớp đáp án."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Nguồn yêu cầu 9 bit nhưng cả bốn phương án đều có 10 bit. Không tự xóa một bit để khớp đáp án.",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).\nA: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nB: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nC: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nD: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nTham khảo: Bản full đã gộp.pdf, trang PDF 153, 154, 155.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Nguồn yêu cầu 9 bit nhưng cả bốn phương án đều có 10 bit. Không tự xóa một bit để khớp đáp án.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "valid_options": []
+      "explanation": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).\nA: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nB: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nC: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nD: Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110.\nTham khảo: Bản full đã gộp.pdf, trang PDF 153, 154, 155.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          153,
+          154,
+          155
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sau dịch, a0…a8=[0, 1, 1, 0, 1, 0, 0, 0, 1]; đảo thứ tự xuất được 100010110."
+        }
+      },
+      "numeric": {
+        "initial": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "taps": [
+          0,
+          3,
+          5,
+          8
+        ],
+        "feedback": 1,
+        "after": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "bits": "100010110"
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3735,26 +4001,34 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Đếm độ dài đầu ra trước khi tính phản hồi: đề yêu cầu a8…a0 nhưng phương án có thêm bit.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Tính bit phản hồi từ trạng thái CŨ rồi dịch toàn bộ một lần; chỉ đảo thứ tự khi ghi chuỗi đầu ra, không đảo chiều phép dịch.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "LFSR n=9, trạng thái ban đầu (1,0,1,1,0,1,0,0,0), phản hồi a0 XOR a3 XOR a5 XOR a8. Xuất a8…a0 tại t=1."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q28-p12-stem.png",
-        "alt": "Hình gốc câu 28, ca 1, trang 12"
+        "text": "LFSR có n=9, (a0,…,a8) tại t=0 là (1,0,1,1,0,1,0,0,0). Mỗi nhịp a_i(t+1)=a_(i+1)(t) với i<n−1; a_(n−1)(t+1)=a0(t) XOR a3(t) XOR a5(t) XOR a8(t). Tìm a8…a0 tại t=1."
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-giua-ki-2026-ca-1/q28-p12-stem.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).",
+      "reference_pages": [
+        153,
+        154,
+        155
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q28-p12-stem.png"
+      ],
+      "original_question": "LFSR n=9, trạng thái ban đầu (1,0,1,1,0,1,0,0,0), phản hồi a0 XOR a3 XOR a5 XOR a8. Xuất a8…a0 tại t=1.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-29",
@@ -3920,22 +4194,22 @@
         "alt": "Hình gốc câu 30, ca 1, trang 13"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
-      "text": "2880",
+      "text": "0",
       "blocks": [
         {
           "type": "text",
-          "text": "2880"
+          "text": "0"
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "2880"
+          "text": "0"
         }
       ]
     },
@@ -3987,34 +4261,59 @@
         }
       ]
     },
-    "independent_check": {
-      "method": "source_transcribed_arithmetic; no_selected_radio_input",
-      "computed": "0",
-      "valid_options": [],
-      "complete": true,
-      "option_values": {
-        "A": "2880",
-        "B": "9534",
-        "C": "3981",
-        "D": "9516"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "19036 chia hết cho 4 và lớn hơn 4 nên nhóm nhân không cyclic, có 0 phần tử sinh; không có phương án 0.",
-      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Kết quả tính độc lập: \"0\". Các phương án khớp: [].",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "19036 chia hết cho 4 và lớn hơn 4, không thuộc dạng có nhóm đơn vị cyclic; không áp φ hai lần.\nA: Giá trị phương án 0; kết quả tính độc lập 0.\nB: Giá trị phương án 9534; kết quả tính độc lập 0.\nC: Giá trị phương án 3981; kết quả tính độc lập 0.\nD: Giá trị phương án 9516; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Kết quả tính độc lập: \"0\". Các phương án khớp: [].",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
       ],
-      "valid_options": []
+      "explanation": "19036 chia hết cho 4 và lớn hơn 4, không thuộc dạng có nhóm đơn vị cyclic; không áp φ hai lần.\nA: Giá trị phương án 0; kết quả tính độc lập 0.\nB: Giá trị phương án 9534; kết quả tính độc lập 0.\nC: Giá trị phương án 3981; kết quả tính độc lập 0.\nD: Giá trị phương án 9516; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          176
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "value": 0,
+          "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+        },
+        "B": {
+          "matches": false,
+          "value": 9534,
+          "reason": "Giá trị phương án 9534; kết quả tính độc lập 0."
+        },
+        "C": {
+          "matches": false,
+          "value": 3981,
+          "reason": "Giá trị phương án 3981; kết quả tính độc lập 0."
+        },
+        "D": {
+          "matches": false,
+          "value": 9516,
+          "reason": "Giá trị phương án 9516; kết quả tính độc lập 0."
+        }
+      },
+      "numeric": {
+        "expected": 0,
+        "base": 10,
+        "values": {
+          "A": 0,
+          "B": 9534,
+          "C": 3981,
+          "D": 9516
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4034,12 +4333,12 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Kiểm tra dạng modulo có nhóm nhân cyclic trước khi áp công thức φ(φ(n)).",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Nhóm đơn vị có phần tử sinh chỉ với n=2,4,\\(p^{k}\\),2p^k (p lẻ); kiểm tra dạng n trước khi tính φ.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Số phần tử sinh của nhóm nhân \\(\\mathbb{Z}_{19036}^{*}\\) là?"
+        "text": "Số phần tử sinh của nhóm nhân Z*19036 là?"
       },
       {
         "type": "image",
@@ -4053,7 +4352,32 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "0",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "2880",
+        "B": "9534",
+        "C": "3981",
+        "D": "9516"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "19036 chia hết cho 4 và lớn hơn 4, không thuộc dạng có nhóm đơn vị cyclic; không áp φ hai lần.",
+      "reference_pages": [
+        176
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q30-p13-stem.png"
+      ],
+      "original_question": "Số phần tử sinh của nhóm nhân Z*19036 là?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-31",
@@ -4219,90 +4543,120 @@
         14
       ]
     },
-    "question": "Chọn đáp án ĐÚNG về định lí Fermat nhỏ (nhãn trong hình).",
+    "question": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu).",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án ĐÚNG về định lí Fermat nhỏ (nhãn trong hình)."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q32-p14-stem.png",
-        "alt": "Hình gốc câu 32, ca 1, trang 14"
+        "text": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu)."
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
-      "text": "C",
+      "text": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "Với p nguyên tố và a là bội của p, luôn có a^(p−1) ≡ a (mod p)."
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "Với p nguyên tố và a là bội của p, luôn có \\(a^{p-1}\\) ≡ a (mod p)."
         }
       ]
     },
     "B": {
-      "text": "B",
+      "text": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "Với p nguyên tố và 0<a<p, a^p ≡ a (mod p)."
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "Với p nguyên tố và 0<a<p, \\(a^{p}\\) ≡ a (mod p)."
         }
       ]
     },
     "C": {
-      "text": "A",
+      "text": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p).",
       "blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "Với p nguyên tố và p không chia a, a^(p−1) ≢ 1 (mod p)."
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "Với p nguyên tố và p không chia a, \\(a^{p-1}\\) ≢ 1 (mod p)."
         }
       ]
     },
     "D": {
-      "text": "",
-      "blocks": [],
-      "source_label": "D",
-      "display_blocks": []
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Cả dạng a^p≡a cho a dương nhỏ hơn p và trường hợp a chẵn đều đúng; phương án thứ tư bị cắt khỏi nguồn."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Cả dạng a^p≡a cho a dương nhỏ hơn p và trường hợp a chẵn đều đúng; phương án thứ tư bị cắt khỏi nguồn.",
-    "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Cả dạng a^p≡a cho a dương nhỏ hơn p và trường hợp a chẵn đều đúng; phương án thứ tư bị cắt khỏi nguồn.",
-      "sources": [
-        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p).",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), a^(p−1) ≡ 1 (mod p)."
+        }
       ],
-      "valid_options": []
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Với p nguyên tố và mọi a chẵn (kể cả a=0), \\(a^{p-1}\\) ≡ 1 (mod p)."
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.\nA: Sai: thử p=3,a=3.\nB: Đúng theo Fermat nhỏ.\nC: Sai: thử p=3,a=1, được 1 chứ không khác 1.\nD: Sai: thử p=3,a=0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 175.",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.\nA: Sai: thử p=3,a=3.\nB: Đúng theo Fermat nhỏ.\nC: Sai: thử p=3,a=1, được 1 chứ không khác 1.\nD: Sai: thử p=3,a=0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 175.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          175
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=3."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng theo Fermat nhỏ."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=1, được 1 chứ không khác 1."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sai: thử p=3,a=0."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4322,26 +4676,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Kiểm tra cả dạng Fermat tổng quát lẫn trường hợp con; một phương án đúng không đảm bảo chỉ có một.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Với khẳng định phổ quát, thử a=0 hoặc a=p nếu điều kiện cho phép; đừng bỏ điều kiện p không chia a khi dùng số mũ p−1.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án ĐÚNG về định lí Fermat nhỏ (nhãn trong hình)."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q32-p14-stem.png",
-        "alt": "Hình gốc câu 32, ca 1, trang 14"
+        "text": "Chọn phát biểu ĐÚNG về định lý Fermat nhỏ (các khẳng định hiểu là đúng với mọi dữ kiện thỏa điều kiện đã nêu)."
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-giua-ki-2026-ca-1/q32-p14-stem.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+      "reference_pages": [
+        175
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q32-p14-stem.png"
+      ],
+      "original_question": "Chọn đáp án ĐÚNG về định lí Fermat nhỏ (nhãn trong hình).",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-33",
@@ -4370,7 +4730,7 @@
         "alt": "Hình gốc câu 33, ca 1, trang 15"
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
@@ -4390,18 +4750,18 @@
       ]
     },
     "B": {
-      "text": "D8",
+      "text": "D6",
       "blocks": [
         {
           "type": "text",
-          "text": "D8"
+          "text": "D6"
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "D8"
+          "text": "D6"
         }
       ]
     },
@@ -4437,34 +4797,60 @@
         }
       ]
     },
-    "independent_check": {
-      "method": "source_transcribed_arithmetic; no_selected_radio_input",
-      "computed": "D6",
-      "valid_options": [],
-      "complete": true,
-      "option_values": {
-        "A": "C6",
-        "B": "D8",
-        "C": "D3",
-        "D": "C1"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Phép tính cho D6; phương án thứ hai nhìn giống D8 ở độ phân giải nguồn. Chưa xác nhận được ký tự, không tự sửa để khớp.",
-      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Kết quả tính độc lập: \"D6\". Các phương án khớp: [].",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Giữ nguyên ma trận nguồn; x32=03·0B XOR FE XOR 20 XOR 02·87=D6; sửa một phương án không khớp.\nA: Giá trị phương án 198; kết quả tính độc lập 214.\nB: Giá trị phương án 214; kết quả tính độc lập 214.\nC: Giá trị phương án 211; kết quả tính độc lập 214.\nD: Giá trị phương án 193; kết quả tính độc lập 214.\nTham khảo: Bản full đã gộp.pdf, trang PDF 123, 124.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Kết quả tính độc lập: \"D6\". Các phương án khớp: [].",
-      "sources": [
-        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
       ],
-      "valid_options": []
+      "explanation": "Giữ nguyên ma trận nguồn; x32=03·0B XOR FE XOR 20 XOR 02·87=D6; sửa một phương án không khớp.\nA: Giá trị phương án 198; kết quả tính độc lập 214.\nB: Giá trị phương án 214; kết quả tính độc lập 214.\nC: Giá trị phương án 211; kết quả tính độc lập 214.\nD: Giá trị phương án 193; kết quả tính độc lập 214.\nTham khảo: Bản full đã gộp.pdf, trang PDF 123, 124.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          123,
+          124
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 198,
+          "reason": "Giá trị phương án 198; kết quả tính độc lập 214."
+        },
+        "B": {
+          "matches": true,
+          "value": 214,
+          "reason": "Giá trị phương án 214; kết quả tính độc lập 214."
+        },
+        "C": {
+          "matches": false,
+          "value": 211,
+          "reason": "Giá trị phương án 211; kết quả tính độc lập 214."
+        },
+        "D": {
+          "matches": false,
+          "value": 193,
+          "reason": "Giá trị phương án 193; kết quả tính độc lập 214."
+        }
+      },
+      "numeric": {
+        "expected": 214,
+        "base": 16,
+        "values": {
+          "A": 198,
+          "B": 214,
+          "C": 211,
+          "D": 193
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4487,8 +4873,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Chỉ nhân hàng hệ số thứ ba với cột thứ hai (chỉ số từ 0); phép cộng là XOR.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Chỉ lấy hàng hệ số thứ tư và cột thứ ba (chỉ số từ 0); cộng bằng XOR và nhân trong \\(\\mathrm{GF}(2^8)\\).",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -4506,7 +4892,33 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "D6",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "C6",
+        "B": "D8",
+        "C": "D3",
+        "D": "C1"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Giữ nguyên ma trận nguồn; x32=03·0B XOR FE XOR 20 XOR 02·87=D6; sửa một phương án không khớp.",
+      "reference_pages": [
+        123,
+        124
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q33-p15-stem.png"
+      ],
+      "original_question": "Tính x32 sau MixColumns của trạng thái AES trong hình.",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-34",
@@ -4523,90 +4935,133 @@
         15
       ]
     },
-    "question": "Cho biết các bit còn thiếu abcd trong đầu ra IP(x) của DES theo hình.",
+    "question": "Bài DES biên soạn lại: cho x=0123456789ABCDEF_H (64 bit, bit cao nhất bên trái). Sau IP chuẩn, lấy các bit ở vị trí 9, 10, 11, 12 theo thứ tự a,b,c,d. Chọn abcd.",
     "question_blocks": [
       {
         "type": "text",
-        "text": "Cho biết các bit còn thiếu abcd trong đầu ra IP(x) của DES theo hình."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q34-p15-stem.png",
-        "alt": "Hình gốc câu 34, ca 1, trang 15"
+        "text": "Bài DES biên soạn lại: cho x=0123456789ABCDEF_H (64 bit, bit cao nhất bên trái). Sau IP chuẩn, lấy các bit ở vị trí 9, 10, 11, 12 theo thứ tự a,b,c,d. Chọn abcd."
       }
     ],
-    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "source_marked_answer": null,
     "source_radio_selection_used_as_key": false,
     "A": {
-      "text": "1010",
+      "text": "0001",
       "blocks": [
         {
           "type": "text",
-          "text": "1010"
+          "text": "0001"
         }
       ],
       "source_label": "A",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1010"
+          "text": "0001"
         }
       ]
     },
     "B": {
-      "text": "1110",
+      "text": "0010",
       "blocks": [
         {
           "type": "text",
-          "text": "1110"
+          "text": "0010"
         }
       ],
       "source_label": "B",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1110"
+          "text": "0010"
         }
       ]
     },
     "C": {
-      "text": "1101",
+      "text": "0100",
       "blocks": [
         {
           "type": "text",
-          "text": "1101"
+          "text": "0100"
         }
       ],
       "source_label": "C",
       "display_blocks": [
         {
           "type": "text",
-          "text": "1101"
+          "text": "0100"
         }
       ]
     },
     "D": {
-      "text": "",
-      "blocks": [],
-      "source_label": "D",
-      "display_blocks": []
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Phương án D bị cắt; cần nguồn đầy đủ và đối chiếu các ô nhỏ trước khi chấm."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Phương án D bị cắt; cần nguồn đầy đủ và đối chiếu các ô nhỏ trước khi chấm.",
-    "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Phương án D bị cắt; cần nguồn đầy đủ và đối chiếu các ô nhỏ trước khi chấm.",
-      "sources": [
-        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      "text": "0000",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0000"
+        }
       ],
-      "valid_options": []
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "0000"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.\nA: Giá trị phương án 1; kết quả tính độc lập 0.\nB: Giá trị phương án 2; kết quả tính độc lập 0.\nC: Giá trị phương án 4; kết quả tính độc lập 0.\nD: Giá trị phương án 0; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 89.",
+    "answer_audit": {
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.\nA: Giá trị phương án 1; kết quả tính độc lập 0.\nB: Giá trị phương án 2; kết quả tính độc lập 0.\nC: Giá trị phương án 4; kết quả tính độc lập 0.\nD: Giá trị phương án 0; kết quả tính độc lập 0.\nTham khảo: Bản full đã gộp.pdf, trang PDF 89.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          89
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 1,
+          "reason": "Giá trị phương án 1; kết quả tính độc lập 0."
+        },
+        "B": {
+          "matches": false,
+          "value": 2,
+          "reason": "Giá trị phương án 2; kết quả tính độc lập 0."
+        },
+        "C": {
+          "matches": false,
+          "value": 4,
+          "reason": "Giá trị phương án 4; kết quả tính độc lập 0."
+        },
+        "D": {
+          "matches": true,
+          "value": 0,
+          "reason": "Giá trị phương án 0; kết quả tính độc lập 0."
+        }
+      },
+      "numeric": {
+        "expected": 0,
+        "base": 2,
+        "values": {
+          "A": 1,
+          "B": 2,
+          "C": 4,
+          "D": 0
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4629,26 +5084,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Đọc chỉ số bảng IP tại từng ô abcd rồi lấy bit nguồn 1-based; cần đủ bốn phương án trước khi chấm.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Với vị trí đầu ra j, lấy bit đầu vào ở IP[j]; không áp bảng theo chiều ngược lại.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Cho biết các bit còn thiếu abcd trong đầu ra IP(x) của DES theo hình."
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q34-p15-stem.png",
-        "alt": "Hình gốc câu 34, ca 1, trang 15"
+        "text": "Bài DES biên soạn lại: cho x=0123456789ABCDEF_H (64 bit, bit cao nhất bên trái). Sau IP chuẩn, lấy các bit ở vị trí 9, 10, 11, 12 theo thứ tự a,b,c,d. Chọn abcd."
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-giua-ki-2026-ca-1/q34-p15-stem.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.",
+      "reference_pages": [
+        89
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-giua-ki-2026-ca-1/q34-p15-stem.png"
+      ],
+      "original_question": "Cho biết các bit còn thiếu abcd trong đầu ra IP(x) của DES theo hình.",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-giua-ki-2026-ca-1-35",

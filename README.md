@@ -1,5 +1,22 @@
 # KTMT Quiz Lab
 
+Đối chiếu NMMMH mới nhất: [REFERENCE_REVIEW.md](subjects/nmmmh/REFERENCE_REVIEW.md).
+Sau khi nhập lại nguồn, lớp sửa theo tài liệu được áp tự động ở cuối hai importer.
+Kiểm tra không ghi file: `python tools/apply_nmmmh_reference_review.py --check`.
+Giữ riêng bản gốc và quyết định đủ A–D; không đoán dữ kiện còn thiếu.
+
+Kiểm định lớp sửa theo tài liệu:
+
+```bash
+uv run --with sympy python tools/test_nmmmh_reference.py
+python tools/test_nmmmh_data.py --source '/đường/dẫn/NMMMH'
+uv run --with pillow --with playwright==1.60.0 python tools/run_quiz_checks.py
+```
+
+12 câu thiếu/mâu thuẫn đã được biên soạn lại theo chấp thuận của người dùng,
+có nhãn trên web và lưu nguyên bản. Các hồ sơ audit trước đó là bằng chứng
+lịch sử; `single-answer-review/decisions.json` là lớp quyết định cuối cùng.
+
 Trang web trắc nghiệm tương tác được sinh từ `300-cau-hoi-trac-nghiem-kien-truc-may-tinh.pdf`.
 
 Trên trang chủ, chọn một chương để làm toàn bộ câu hỏi theo thứ tự trong PDF. Tick `Trộn câu hỏi ngẫu nhiên` nếu muốn xáo trộn thứ tự câu trong chương đó.

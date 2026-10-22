@@ -1,0 +1,11 @@
+{
+  "scope": "Reference repair of the 103 previously flagged NMMMH records",
+  "data_unit_tests": {"reference_review": 11, "legacy_source_audit": 9, "status": "passed"},
+  "browser_suites": ["test_nmmmh.py", "test_nmmmh_upgrade.py", "test_nmmmh_collections.py", "test_ktmt_chapter2.py"],
+  "browser_status": "passed locally",
+  "browser_coverage": "540 NMMMH records rendered; canonical grading, safe option shuffle, three exam/chapter scopes, history, resume, original image archive, actual KaTeX formulas, DES S2 table, desktop and 390/320px layouts; KTMT regression",
+  "source_import_reproducibility": "Both full importers run sequentially; all 14 final exam files, manifest, answers CSV and report reproduce identical SHA-256; KTMT unchanged",
+  "syntax": "node --check app.js, nmmmh.js, nmmmh-practice.js and git diff --check passed",
+  "build": "Static HTML/CSS/JavaScript site; no package build or separate lint command configured",
+  "publication_check": "Run tools/verify_nmmmh_deployment.py after Pages deployment; this local validation record does not claim a future deployment succeeded"
+}

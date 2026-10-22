@@ -72,11 +72,11 @@
       ]
     },
     "D": {
-      "text": "MVSLWPHIBDM",
+      "text": "MVSNBHIOQAE",
       "blocks": [
         {
           "type": "text",
-          "text": "MVSLWPHIBDM"
+          "text": "MVSNBHIOQAE"
         }
       ],
       "source_label": "D",
@@ -97,7 +97,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "MVSLWPHIBDM"
+          "text": "MVSNBHIOQAE"
         }
       ]
     },
@@ -119,32 +119,53 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 0
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "independent_check": {
-      "method": "plaintext_autokey_mod26",
-      "computed": "MVSNBHIOQAE",
-      "valid_options": [],
-      "complete": true,
-      "option_values": {
-        "A": "MVSLWPPIDBM",
-        "B": "MVSLWPPIBDM",
-        "C": "MVLSWPHIBDM",
-        "D": "MVSLWPHIBDM"
-      }
-    },
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"MVSNBHIOQAE\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.\nA: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIDBM.\nB: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIBDM.\nC: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVLSWPHIBDM.\nD: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSNBHIOQAE.\nTham khảo: Bản full đã gộp.pdf, trang PDF 59, 60.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Kiểm tra độc lập: \"MVSNBHIOQAE\". Lưu ý nguồn: Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm.",
+      "status": "verified",
+      "correct_answer": "D",
+      "valid_options": [
+        "D"
+      ],
+      "explanation": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.\nA: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIDBM.\nB: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIBDM.\nC: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVLSWPHIBDM.\nD: Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSNBHIOQAE.\nTham khảo: Bản full đã gộp.pdf, trang PDF 59, 60.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          59,
+          60
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIDBM."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSLWPPIBDM."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVLSWPHIBDM."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Tính khóa chạy bằng mầm nối bản rõ, thu MVSNBHIOQAE; phương án này là MVSNBHIOQAE."
+        }
+      },
+      "numeric": {
+        "plaintext": "UNSTOPPABLE",
+        "seed": "SIA",
+        "keystream": "SIAUNSTOPPA",
+        "ciphertext": "MVSNBHIOQAE"
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -167,8 +188,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Ghép SIA với phần đầu UNSTOPPABLE để tạo khóa chạy rồi cộng modulo 26; thử vài chữ đầu để loại.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Nối mầm khóa với BẢN RÕ, không lặp mầm; cộng mã chữ A=0 modulo 26.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -179,7 +200,31 @@
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "previous_independent_check": {
+      "method": "plaintext_autokey_mod26",
+      "computed": "MVSNBHIOQAE",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "MVSLWPPIDBM",
+        "B": "MVSLWPPIBDM",
+        "C": "MVLSWPHIBDM",
+        "D": "MVSLWPHIBDM"
+      }
+    },
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+      "reference_pages": [
+        59,
+        60
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Áp dụng hệ mật mã hóa khóa chạy, tìm bản mã của bản rõ “Unstoppable” với mầm khóa k = “Sia” ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-2",
@@ -1866,7 +1911,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "So với RSA, điều nào dưới đây  với mật mã đường cong Elliptic?"
+        "text": "Với cùng mức an toàn tính toán theo các kích cỡ khóa thông thường, phát biểu nào ĐÚNG khi so ECC với RSA?"
       }
     ],
     "source_paragraphs": [
@@ -2042,7 +2087,7 @@
         }
       ]
     },
-    "question": "So với RSA, điều nào dưới đây  với mật mã đường cong Elliptic?",
+    "question": "Với cùng mức an toàn tính toán theo các kích cỡ khóa thông thường, phát biểu nào ĐÚNG khi so ECC với RSA?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -2060,22 +2105,48 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 110
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Không có chứng minh tuyệt đối rằng ECC kém an toàn.\nB: Không có chứng minh tuyệt đối rằng ECC an toàn hơn.\nC: ECC cần khóa ngắn hơn, không dài hơn.\nD: Đúng: khóa ECC ngắn hơn tại mức an toàn tương đương.\nTham khảo: Bản full đã gộp.pdf, trang PDF 190, 191.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Không có chứng minh tuyệt đối rằng ECC kém an toàn.\nB: Không có chứng minh tuyệt đối rằng ECC an toàn hơn.\nC: ECC cần khóa ngắn hơn, không dài hơn.\nD: Đúng: khóa ECC ngắn hơn tại mức an toàn tương đương.\nTham khảo: Bản full đã gộp.pdf, trang PDF 190, 191.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          190,
+          191
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Không có chứng minh tuyệt đối rằng ECC kém an toàn."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Không có chứng minh tuyệt đối rằng ECC an toàn hơn."
+        },
+        "C": {
+          "matches": false,
+          "reason": "ECC cần khóa ngắn hơn, không dài hơn."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đúng: khóa ECC ngắn hơn tại mức an toàn tương đương."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -2095,19 +2166,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: So độ dài khóa ở cùng mức an toàn, không phát biểu rằng có chứng minh tuyệt đối hơn/kém RSA.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: So độ dài khóa phải giữ cùng mức an toàn, không so số bit khóa bằng nhau.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "So với RSA, điều nào dưới đây  với mật mã đường cong Elliptic?"
+        "text": "Với cùng mức an toàn tính toán theo các kích cỡ khóa thông thường, phát biểu nào ĐÚNG khi so ECC với RSA?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        190,
+        191
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "So với RSA, điều nào dưới đây  với mật mã đường cong Elliptic?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-11",
@@ -3067,11 +3150,11 @@
       ]
     },
     "C": {
-      "text": "1100",
+      "text": "1010",
       "blocks": [
         {
           "type": "text",
-          "text": "1100"
+          "text": "1010"
         }
       ],
       "source_label": "C",
@@ -3092,7 +3175,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "1100"
+          "text": "1010"
         }
       ]
     },
@@ -3132,21 +3215,61 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 182
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Hai phương án A,C cùng là 1100 và đều tô vàng.",
-      "Không có đúng một phương án được đánh dấu trong DOCX."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai phương án A,C cùng là 1100 và đều tô vàng. Không có đúng một phương án được đánh dấu trong DOCX.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "S1(100011) dùng hàng 3 cột 1, được 12; thay phương án C trùng A bằng nhiễu 1010.\nA: Giá trị phương án 12; kết quả tính độc lập 12.\nB: Giá trị phương án 9; kết quả tính độc lập 12.\nC: Giá trị phương án 10; kết quả tính độc lập 12.\nD: Giá trị phương án 5; kết quả tính độc lập 12.\nTham khảo: Bản full đã gộp.pdf, trang PDF 93, 94.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Hai phương án A,C cùng là 1100 và đều tô vàng. Không có đúng một phương án được đánh dấu trong DOCX.",
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "S1(100011) dùng hàng 3 cột 1, được 12; thay phương án C trùng A bằng nhiễu 1010.\nA: Giá trị phương án 12; kết quả tính độc lập 12.\nB: Giá trị phương án 9; kết quả tính độc lập 12.\nC: Giá trị phương án 10; kết quả tính độc lập 12.\nD: Giá trị phương án 5; kết quả tính độc lập 12.\nTham khảo: Bản full đã gộp.pdf, trang PDF 93, 94.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          93,
+          94
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "value": 12,
+          "reason": "Giá trị phương án 12; kết quả tính độc lập 12."
+        },
+        "B": {
+          "matches": false,
+          "value": 9,
+          "reason": "Giá trị phương án 9; kết quả tính độc lập 12."
+        },
+        "C": {
+          "matches": false,
+          "value": 10,
+          "reason": "Giá trị phương án 10; kết quả tính độc lập 12."
+        },
+        "D": {
+          "matches": false,
+          "value": 5,
+          "reason": "Giá trị phương án 5; kết quả tính độc lập 12."
+        }
+      },
+      "numeric": {
+        "expected": 12,
+        "base": 2,
+        "values": {
+          "A": 12,
+          "B": 9,
+          "C": 10,
+          "D": 5
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3169,8 +3292,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: 100011 cho hàng từ hai bit ngoài và cột từ bốn bit giữa; nguồn tô cả A và C giống nhau nên không chấm một chữ cái.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Hai bit ngoài chọn hàng, bốn bit giữa chọn cột; chỉ dùng hộp S1.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -3188,7 +3311,21 @@
     "source_option_labels_in_figure": true,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "S1(100011) dùng hàng 3 cột 1, được 12; thay phương án C trùng A bằng nhiễu 1010.",
+      "reference_pages": [
+        93,
+        94
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-tonghop3/2fd1930d0b1652266591.png"
+      ],
+      "original_question": "Trong thuật toán DES, cho B1 = 100011 và hộp thế S1, tìm đầu ra của S1(B1)",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-17",
@@ -4280,7 +4417,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Xét hệ mật Merkle – Hellman sử dụng phép hoán vị p của {1, 2, 3, 4, 5, 6} như sau: p(1) = 5, p(2) = 6,  p(3) = 1,  p(4) = 2,  p(5) = 4,  p(6) = 7, p(7) = 3. Giả sử dãy siêu tăng được chọn là (12, 13, 33, 60, 120, 240, 480), giá trị ngẫu nhiên W được chọn là 317, modulo M được chọn là 737. Khóa công khai là tập số? "
+        "text": "Merkle–Hellman: dãy siêu tăng (12,13,33,60,120,240,480), W=317. Bài chuẩn hóa chọn lại M=1009 để lớn hơn tổng dãy; π là hoán vị của {1,…,7}, π=(5,6,1,2,4,7,3). Tính khóa công khai a_i=W·M_π(i) mod 1009."
       }
     ],
     "source_paragraphs": [
@@ -4292,11 +4429,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "(143, 169, 453, 119, 436, 338, 595)",
+      "text": "(777, 85, 858, 810, 371, 707, 405)",
       "blocks": [
         {
           "type": "text",
-          "text": "(143, 169, 453, 119, 436, 338, 595)"
+          "text": "(777, 85, 858, 810, 371, 707, 405)"
         }
       ],
       "source_label": "A",
@@ -4304,16 +4441,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "(143, 169, 453, 119, 436, 338, 595)"
+          "text": "(777, 85, 858, 810, 371, 707, 405)"
         }
       ]
     },
     "B": {
-      "text": "(453, 169, 119, 436, 595, 338, 143)",
+      "text": "(707, 405, 777, 85, 858, 810, 371)",
       "blocks": [
         {
           "type": "text",
-          "text": "(453, 169, 119, 436, 595, 338, 143)"
+          "text": "(707, 405, 777, 85, 858, 810, 371)"
         }
       ],
       "source_label": "B",
@@ -4334,16 +4471,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "(453, 169, 119, 436, 595, 338, 143)"
+          "text": "(707, 405, 777, 85, 858, 810, 371)"
         }
       ]
     },
     "C": {
-      "text": "(453, 169, 338, 119, 595, 436, 143)",
+      "text": "(707, 405, 810, 777, 858, 85, 371)",
       "blocks": [
         {
           "type": "text",
-          "text": "(453, 169, 338, 119, 595, 436, 143)"
+          "text": "(707, 405, 810, 777, 858, 85, 371)"
         }
       ],
       "source_label": "C",
@@ -4351,16 +4488,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "(453, 169, 338, 119, 595, 436, 143)"
+          "text": "(707, 405, 810, 777, 858, 85, 371)"
         }
       ]
     },
     "D": {
-      "text": "(595, 169, 338, 453, 119, 436, 143)",
+      "text": "(371, 810, 858, 85, 777, 405, 707)",
       "blocks": [
         {
           "type": "text",
-          "text": "(595, 169, 338, 453, 119, 436, 143)"
+          "text": "(371, 810, 858, 85, 777, 405, 707)"
         }
       ],
       "source_label": "D",
@@ -4368,11 +4505,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "(595, 169, 338, 453, 119, 436, 143)"
+          "text": "(371, 810, 858, 85, 777, 405, 707)"
         }
       ]
     },
-    "question": "Xét hệ mật Merkle – Hellman sử dụng phép hoán vị p của {1, 2, 3, 4, 5, 6} như sau: p(1) = 5, p(2) = 6,  p(3) = 1,  p(4) = 2,  p(5) = 4,  p(6) = 7, p(7) = 3. Giả sử dãy siêu tăng được chọn là (12, 13, 33, 60, 120, 240, 480), giá trị ngẫu nhiên W được chọn là 317, modulo M được chọn là 737. Khóa công khai là tập số? ",
+    "question": "Merkle–Hellman: dãy siêu tăng (12,13,33,60,120,240,480), W=317. Bài chuẩn hóa chọn lại M=1009 để lớn hơn tổng dãy; π là hoán vị của {1,…,7}, π=(5,6,1,2,4,7,3). Tính khóa công khai a_i=W·M_π(i) mod 1009.",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -4390,20 +4527,77 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 270
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn ghi hoán vị của 6 phần tử nhưng cho 7 giá trị và dãy 7 phần tử; M còn nhỏ hơn tổng dãy."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn ghi hoán vị của 6 phần tử nhưng cho 7 giá trị và dãy 7 phần tử; M còn nhỏ hơn tổng dãy.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. M=737 của nguồn không hợp lệ để bảo đảm giải mã; M=1009 và các nhiễu là dữ kiện biên soạn mới. Trang 188 ghi điều kiện M quá yếu, bổ sung bằng điều kiện chuẩn M>tổng dãy. Sửa miền hoán vị thành 1..7 và chọn M=1009>958, gcd(317,1009)=1. Tính đủ bảy phần tử khóa công khai theo đúng chiều hoán vị.\nA: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nB: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nC: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nD: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nTham khảo: Bản full đã gộp.pdf, trang PDF 188.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn ghi hoán vị của 6 phần tử nhưng cho 7 giá trị và dãy 7 phần tử; M còn nhỏ hơn tổng dãy.",
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. M=737 của nguồn không hợp lệ để bảo đảm giải mã; M=1009 và các nhiễu là dữ kiện biên soạn mới. Trang 188 ghi điều kiện M quá yếu, bổ sung bằng điều kiện chuẩn M>tổng dãy. Sửa miền hoán vị thành 1..7 và chọn M=1009>958, gcd(317,1009)=1. Tính đủ bảy phần tử khóa công khai theo đúng chiều hoán vị.\nA: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nB: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nC: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nD: Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371].\nTham khảo: Bản full đã gộp.pdf, trang PDF 188.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          188
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Kết quả theo đúng π là [707, 405, 777, 85, 858, 810, 371]."
+        }
+      },
+      "numeric": {
+        "weights": [
+          12,
+          13,
+          33,
+          60,
+          120,
+          240,
+          480
+        ],
+        "permutation": [
+          5,
+          6,
+          1,
+          2,
+          4,
+          7,
+          3
+        ],
+        "modulus": 1009,
+        "multiplier": 317,
+        "public": [
+          707,
+          405,
+          777,
+          85,
+          858,
+          810,
+          371
+        ]
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4423,19 +4617,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Tính W×si mod M rồi đặt theo p; nguồn ghi miền hoán vị sáu phần tử nhưng lại dùng bảy, cần kiểm tra ghi chú.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Kiểm tra M lớn hơn TỔNG dãy và W khả nghịch; sau đó tính các vị trí có khác biệt giữa phương án trước.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Xét hệ mật Merkle – Hellman sử dụng phép hoán vị p của {1, 2, 3, 4, 5, 6} như sau: p(1) = 5, p(2) = 6,  p(3) = 1,  p(4) = 2,  p(5) = 4,  p(6) = 7, p(7) = 3. Giả sử dãy siêu tăng được chọn là (12, 13, 33, 60, 120, 240, 480), giá trị ngẫu nhiên W được chọn là 317, modulo M được chọn là 737. Khóa công khai là tập số? "
+        "text": "Merkle–Hellman: dãy siêu tăng (12,13,33,60,120,240,480), W=317. Bài chuẩn hóa chọn lại M=1009 để lớn hơn tổng dãy; π là hoán vị của {1,…,7}, π=(5,6,1,2,4,7,3). Tính khóa công khai a_i=W·M_π(i) mod 1009."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. M=737 của nguồn không hợp lệ để bảo đảm giải mã; M=1009 và các nhiễu là dữ kiện biên soạn mới. Trang 188 ghi điều kiện M quá yếu, bổ sung bằng điều kiện chuẩn M>tổng dãy. Sửa miền hoán vị thành 1..7 và chọn M=1009>958, gcd(317,1009)=1. Tính đủ bảy phần tử khóa công khai theo đúng chiều hoán vị.",
+      "reference_pages": [
+        188
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Xét hệ mật Merkle – Hellman sử dụng phép hoán vị p của {1, 2, 3, 4, 5, 6} như sau: p(1) = 5, p(2) = 6,  p(3) = 1,  p(4) = 2,  p(5) = 4,  p(6) = 7, p(7) = 3. Giả sử dãy siêu tăng được chọn là (12, 13, 33, 60, 120, 240, 480), giá trị ngẫu nhiên W được chọn là 317, modulo M được chọn là 737. Khóa công khai là tập số? ",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-24",
@@ -4795,7 +5000,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Điều nào là không  đối với hàm f trong thuật toán DES?"
+        "text": "Phát biểu nào KHÔNG ĐÚNG về hàm f(R,K) trong một vòng DES?"
       }
     ],
     "source_paragraphs": [
@@ -4824,11 +5029,11 @@
       ]
     },
     "B": {
-      "text": "Đầu vào của hàm f là các khối 32 bít",
+      "text": "Hàm f chỉ nhận duy nhất khối R 32 bit, không sử dụng khóa vòng K.",
       "blocks": [
         {
           "type": "text",
-          "text": "Đầu vào của hàm f là các khối 32 bít"
+          "text": "Hàm f chỉ nhận duy nhất khối R 32 bit, không sử dụng khóa vòng K."
         }
       ],
       "source_label": "B",
@@ -4903,7 +5108,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Đầu vào của hàm f là các khối 32 bít"
+          "text": "Hàm f chỉ nhận duy nhất khối R 32 bit, không sử dụng khóa vòng K."
         }
       ]
     },
@@ -4941,7 +5146,7 @@
         }
       ]
     },
-    "question": "Điều nào là không  đối với hàm f trong thuật toán DES?",
+    "question": "Phát biểu nào KHÔNG ĐÚNG về hàm f(R,K) trong một vòng DES?",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -4959,20 +5164,50 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 307
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ trong tiêu chí phủ định; đầu vào f gồm R và khóa vòng nên phát biểu B cần ngữ cảnh."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ trong tiêu chí phủ định; đầu vào f gồm R và khóa vòng nên phát biểu B cần ngữ cảnh.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục KHÔNG ĐÚNG; phân biệt đầu vào R với đầy đủ đối số hàm f(R,K).\nA: Tám S-box biến 48 thành 32 bit.\nB: SAI: còn dùng khóa vòng K 48 bit để XOR với E(R).\nC: Kết quả f dài 32 bit.\nD: Bốn bước E, XOR khóa, S-box, P.\nTham khảo: Bản full đã gộp.pdf, trang PDF 91, 92, 93, 95.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ trong tiêu chí phủ định; đầu vào f gồm R và khóa vòng nên phát biểu B cần ngữ cảnh.",
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "Khôi phục KHÔNG ĐÚNG; phân biệt đầu vào R với đầy đủ đối số hàm f(R,K).\nA: Tám S-box biến 48 thành 32 bit.\nB: SAI: còn dùng khóa vòng K 48 bit để XOR với E(R).\nC: Kết quả f dài 32 bit.\nD: Bốn bước E, XOR khóa, S-box, P.\nTham khảo: Bản full đã gộp.pdf, trang PDF 91, 92, 93, 95.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          91,
+          92,
+          93,
+          95
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Tám S-box biến 48 thành 32 bit."
+        },
+        "B": {
+          "matches": true,
+          "reason": "SAI: còn dùng khóa vòng K 48 bit để XOR với E(R)."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Kết quả f dài 32 bit."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Bốn bước E, XOR khóa, S-box, P."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4995,19 +5230,33 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Phân biệt đầu vào hàm f gồm R và khóa vòng với đầu vào riêng tầng mở rộng; nguồn thiếu chữ trong tiêu chí phủ định.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Theo dõi độ dài qua E → XOR K → S-box → P; f nhận cả dữ liệu và khóa vòng.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Điều nào là không  đối với hàm f trong thuật toán DES?"
+        "text": "Phát biểu nào KHÔNG ĐÚNG về hàm f(R,K) trong một vòng DES?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục KHÔNG ĐÚNG; phân biệt đầu vào R với đầy đủ đối số hàm f(R,K).",
+      "reference_pages": [
+        91,
+        92,
+        93,
+        95
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Điều nào là không  đối với hàm f trong thuật toán DES?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-27",
@@ -6416,7 +6665,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về thuật toán DES là  đúng?"
+        "text": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?"
       }
     ],
     "source_paragraphs": [
@@ -6445,11 +6694,11 @@
       ]
     },
     "B": {
-      "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã.",
+      "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng.",
       "blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã."
+          "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng."
         }
       ],
       "source_label": "B",
@@ -6457,16 +6706,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES tách khóa thành 2 nửa trái và phải tương tự như với bản rõ/bản mã trong mỗi vòng mã hóa/giải mã."
+          "text": "Sau PC-1, DES chia khóa thành hai nửa 32 bit trong mỗi vòng."
         }
       ]
     },
     "C": {
-      "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng mã hóa/giải mã.",
+      "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau.",
       "blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng mã hóa/giải mã."
+          "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau."
         }
       ],
       "source_label": "C",
@@ -6589,7 +6838,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Thuật toán DES sinh 16 khóa con khác nhau để sử dụng mã hóa/giải mã."
+          "text": "DES sinh một dãy 16 khóa con 48 bit cho 16 vòng; với khóa yếu, các giá trị khóa con có thể trùng nhau."
         }
       ]
     },
@@ -6610,7 +6859,7 @@
         }
       ]
     },
-    "question": "Khẳng định nào sau đây về thuật toán DES là  đúng?",
+    "question": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?",
     "source_mark_candidates": {
       "highlight": [
         "C"
@@ -6628,22 +6877,47 @@
       "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
       "docx_block": 406
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "C",
-    "needs_review": true,
-    "review_reasons": [
-      "Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.\nA: Sai số lượng khóa vòng DES.\nB: Sai: sau PC-1 là hai nửa 28 bit.\nC: Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt.\nD: Sai số lượng khóa vòng DES.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
-      ]
+      ],
+      "explanation": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.\nA: Sai số lượng khóa vòng DES.\nB: Sai: sau PC-1 là hai nửa 28 bit.\nC: Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt.\nD: Sai số lượng khóa vòng DES.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          99
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai số lượng khóa vòng DES."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Sai: sau PC-1 là hai nửa 28 bit."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: 16 khóa vòng, không bảo đảm 16 giá trị phân biệt."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Sai số lượng khóa vòng DES."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6666,19 +6940,45 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Đếm số khóa vòng DES; từ “khác nhau” cần lưu ý ngoại lệ khóa yếu, không coi là định lý cho mọi khóa.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Sau PC-1 chỉ còn 56 bit, chia hai nửa; 16 vòng không có nghĩa luôn có 16 giá trị khóa phân biệt.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về thuật toán DES là  đúng?"
+        "text": "Khẳng định nào sau đây về lịch khóa DES là ĐÚNG?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
-    "duplicate_status": "unique",
-    "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_status": "confirmed",
+    "duplicate_group": "ref-e9614e5231d828f9af54",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop3-34",
+        "source_exam_id": "de-cuong-2025-tonghop3",
+        "source_exam_code": "Tonghop3",
+        "source_question_number": "34",
+        "source_file": "Tonghop3.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop4-39",
+        "source_exam_id": "de-cuong-2025-tonghop4",
+        "source_exam_code": "Tonghop4",
+        "source_question_number": "39",
+        "source_file": "Tonghop4.docx"
+      }
+    ],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khóa vòng có thể trùng ở khóa yếu; bỏ từ khác nhau và làm rõ kích cỡ hai nửa khóa.",
+      "reference_pages": [
+        99
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây về thuật toán DES là  đúng?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop3-35",

@@ -286,7 +286,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+        "text": "Phát biểu nào sau đây là ĐÚNG về mã hóa dữ liệu?"
       }
     ],
     "source_paragraphs": [
@@ -297,11 +297,11 @@
     ],
     "implicit_options": true,
     "A": {
-      "text": "Luôn được sử dụng trong lĩnh vực quân sự",
+      "text": "Mã hóa dữ liệu CHỈ được sử dụng trong lĩnh vực quân sự.",
       "blocks": [
         {
           "type": "text",
-          "text": "Luôn được sử dụng trong lĩnh vực quân sự"
+          "text": "Mã hóa dữ liệu CHỈ được sử dụng trong lĩnh vực quân sự."
         }
       ],
       "source_label": "A",
@@ -309,7 +309,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Luôn được sử dụng trong lĩnh vực quân sự"
+          "text": "Mã hóa dữ liệu CHỈ được sử dụng trong lĩnh vực quân sự."
         }
       ]
     },
@@ -491,7 +491,7 @@
         }
       ]
     },
-    "question": "Phát biểu nào sau đây là  về mã hóa dữ liệu?",
+    "question": "Phát biểu nào sau đây là ĐÚNG về mã hóa dữ liệu?",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -509,22 +509,48 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 11
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "B",
-    "needs_review": true,
-    "review_reasons": [
-      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Sai: có cả ứng dụng dân sự.\nB: Đúng: chuyển bản rõ thành bản mã.\nC: Đó là che giấu thông tin, không phải mục tiêu định nghĩa mã hóa.\nD: Băm/chữ ký không thay thế phép mã hóa bảo mật.\nTham khảo: Bản full đã gộp.pdf, trang PDF 21, 23.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
         "B"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Sai: có cả ứng dụng dân sự.\nB: Đúng: chuyển bản rõ thành bản mã.\nC: Đó là che giấu thông tin, không phải mục tiêu định nghĩa mã hóa.\nD: Băm/chữ ký không thay thế phép mã hóa bảo mật.\nTham khảo: Bản full đã gộp.pdf, trang PDF 21, 23.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          21,
+          23
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Sai: có cả ứng dụng dân sự."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: chuyển bản rõ thành bản mã."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Đó là che giấu thông tin, không phải mục tiêu định nghĩa mã hóa."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Băm/chữ ký không thay thế phép mã hóa bảo mật."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -547,19 +573,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Xét riêng khả năng đọc thông điệp của người không có khóa; đừng gộp nhầm với khả dụng.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Phân biệt che giấu nội dung với che giấu sự tồn tại của thông điệp.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+        "text": "Phát biểu nào sau đây là ĐÚNG về mã hóa dữ liệu?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        21,
+        23
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Phát biểu nào sau đây là  về mã hóa dữ liệu?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-3",
@@ -2066,7 +2104,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+        "text": "Theo mô hình mã hóa đối xứng và chữ ký số thông thường trong môn học, phát biểu nào ĐÚNG?"
       }
     ],
     "source_paragraphs": [
@@ -2199,7 +2237,7 @@
         }
       ]
     },
-    "question": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?",
+    "question": "Theo mô hình mã hóa đối xứng và chữ ký số thông thường trong môn học, phát biểu nào ĐÚNG?",
     "source_mark_candidates": {
       "highlight": [
         "C"
@@ -2217,22 +2255,48 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 100
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "C",
-    "needs_review": true,
-    "review_reasons": [
-      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Chữ ký số thông thường dùng khóa riêng/công khai.\nB: Mô tả hệ bất đối xứng.\nC: Đúng: phù hợp mã hóa dữ liệu lớn.\nD: Khóa chung không xác định riêng người ký để chống chối bỏ.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24, 191.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Chữ ký số thông thường dùng khóa riêng/công khai.\nB: Mô tả hệ bất đối xứng.\nC: Đúng: phù hợp mã hóa dữ liệu lớn.\nD: Khóa chung không xác định riêng người ký để chống chối bỏ.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24, 191.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          24,
+          191
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Chữ ký số thông thường dùng khóa riêng/công khai."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Mô tả hệ bất đối xứng."
+        },
+        "C": {
+          "matches": true,
+          "reason": "Đúng: phù hợp mã hóa dữ liệu lớn."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Khóa chung không xác định riêng người ký để chống chối bỏ."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -2255,19 +2319,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Đọc lại chủ thể và mục đích mã hóa; loại phương án chỉ nói đến quân sự hoặc hàm không đảo được.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Khóa chung phù hợp bảo mật nhanh, không phân biệt ai trong hai bên đã tạo thông điệp.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+        "text": "Theo mô hình mã hóa đối xứng và chữ ký số thông thường trong môn học, phát biểu nào ĐÚNG?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        24,
+        191
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-11",
@@ -2279,7 +2355,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+        "text": "Theo phân loại các hệ mật thông thường của môn học, khẳng định nào về mật mã đối xứng là KHÔNG ĐÚNG?"
       }
     ],
     "source_paragraphs": [
@@ -2406,7 +2482,7 @@
         }
       ]
     },
-    "question": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?",
+    "question": "Theo phân loại các hệ mật thông thường của môn học, khẳng định nào về mật mã đối xứng là KHÔNG ĐÚNG?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -2424,22 +2500,48 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 111
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Tiêu chí “KHÔNG” bị cụt."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Tiêu chí “KHÔNG” bị cụt.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Có thể bảo mật dữ liệu.\nB: Dùng khóa chung theo mô hình môn học.\nC: Mã khối và mã dòng đều đối xứng.\nD: SAI: chữ ký số thông thường không dựa trên khóa chung.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24, 192.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Tiêu chí “KHÔNG” bị cụt.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Có thể bảo mật dữ liệu.\nB: Dùng khóa chung theo mô hình môn học.\nC: Mã khối và mã dòng đều đối xứng.\nD: SAI: chữ ký số thông thường không dựa trên khóa chung.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24, 192.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          24,
+          192
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Có thể bảo mật dữ liệu."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Dùng khóa chung theo mô hình môn học."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Mã khối và mã dòng đều đối xứng."
+        },
+        "D": {
+          "matches": true,
+          "reason": "SAI: chữ ký số thông thường không dựa trên khóa chung."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -2462,19 +2564,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Câu nguồn thiếu một phần tiêu chí “KHÔNG”; đối chiếu ghi chú nguồn trước khi chốt lựa chọn.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Chữ ký số cần phân biệt người ký với người xác minh; khóa chung không đáp ứng việc đó.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+        "text": "Theo phân loại các hệ mật thông thường của môn học, khẳng định nào về mật mã đối xứng là KHÔNG ĐÚNG?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        24,
+        192
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-12",
@@ -2992,7 +3106,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn đáp án "
+        "text": "Theo mục tiêu khuếch tán/hiệu ứng thác lũ, khi lật một bit BẢN RÕ thì phát biểu nào mô tả ĐÚNG sự thay đổi mong muốn của bản mã?"
       }
     ],
     "source_paragraphs": [
@@ -3054,11 +3168,11 @@
       ]
     },
     "D": {
-      "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại",
+      "text": "Khi lật một bit bản rõ, trung bình khoảng một nửa số bit bản mã thay đổi.",
       "blocks": [
         {
           "type": "text",
-          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+          "text": "Khi lật một bit bản rõ, trung bình khoảng một nửa số bit bản mã thay đổi."
         }
       ],
       "source_label": "D",
@@ -3271,11 +3385,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+          "text": "Khi lật một bit bản rõ, trung bình khoảng một nửa số bit bản mã thay đổi."
         }
       ]
     },
-    "question": "Lựa chọn đáp án ",
+    "question": "Theo mục tiêu khuếch tán/hiệu ứng thác lũ, khi lật một bit BẢN RÕ thì phát biểu nào mô tả ĐÚNG sự thay đổi mong muốn của bản mã?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -3293,22 +3407,47 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 143
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Hai bit không phải mức thác lũ mong muốn.\nB: Nói về bit khóa, không trả lời yêu cầu về bit bản rõ.\nC: Một bit không khuếch tán tốt.\nD: Đúng về trung bình, không phải mọi bản rõ đều đúng chính xác nửa số bit.\nTham khảo: Bản full đã gộp.pdf, trang PDF 84.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Hai bit không phải mức thác lũ mong muốn.\nB: Nói về bit khóa, không trả lời yêu cầu về bit bản rõ.\nC: Một bit không khuếch tán tốt.\nD: Đúng về trung bình, không phải mọi bản rõ đều đúng chính xác nửa số bit.\nTham khảo: Bản full đã gộp.pdf, trang PDF 84.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          84
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Hai bit không phải mức thác lũ mong muốn."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Nói về bit khóa, không trả lời yêu cầu về bit bản rõ."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Một bit không khuếch tán tốt."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đúng về trung bình, không phải mọi bản rõ đều đúng chính xác nửa số bit."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3331,19 +3470,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Hiệu ứng thác lũ nói về số bit thay đổi ở đầu ra khi chỉ đảo một bit đầu vào.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Đọc xem bit bị lật thuộc bản rõ hay khóa; mục tiêu là khuếch tán trên toàn khối, không phải chỉ một vài bit.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn đáp án "
+        "text": "Theo mục tiêu khuếch tán/hiệu ứng thác lũ, khi lật một bit BẢN RÕ thì phát biểu nào mô tả ĐÚNG sự thay đổi mong muốn của bản mã?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        84
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Lựa chọn đáp án ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-15",
@@ -3355,7 +3505,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+        "text": "Khẳng định nào sau đây là ĐÚNG về mô hình dùng khóa chung của mật mã đối xứng?"
       }
     ],
     "source_paragraphs": [
@@ -3500,7 +3650,7 @@
         }
       ]
     },
-    "question": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?",
+    "question": "Khẳng định nào sau đây là ĐÚNG về mô hình dùng khóa chung của mật mã đối xứng?",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -3518,22 +3668,47 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 154
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "B",
-    "needs_review": true,
-    "review_reasons": [
-      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Hai khóa độc lập không đủ để mã/giải mã đối xứng.\nB: Đúng: khóa chung được thiết lập an toàn trước khi sử dụng.\nC: Không tự suy ra khóa chung từ hai khóa tùy ý.\nD: Gửi một phần khóa riêng không phải định nghĩa đối xứng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
         "B"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Hai khóa độc lập không đủ để mã/giải mã đối xứng.\nB: Đúng: khóa chung được thiết lập an toàn trước khi sử dụng.\nC: Không tự suy ra khóa chung từ hai khóa tùy ý.\nD: Gửi một phần khóa riêng không phải định nghĩa đối xứng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 24.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          24
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Hai khóa độc lập không đủ để mã/giải mã đối xứng."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: khóa chung được thiết lập an toàn trước khi sử dụng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Không tự suy ra khóa chung từ hai khóa tùy ý."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Gửi một phần khóa riêng không phải định nghĩa đối xứng."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3556,19 +3731,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Kiểm tra hai bên có cần thống nhất bí mật dùng chung trước khi mã hóa hay không.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Xét xem hai bên có dùng cùng bí mật để mã và giải mã hay không.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+        "text": "Khẳng định nào sau đây là ĐÚNG về mô hình dùng khóa chung của mật mã đối xứng?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        24
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-16",
@@ -3580,7 +3766,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn đáp án "
+        "text": "Theo nguyên lý confusion (xáo trộn), quan hệ nào cần được che giấu phức tạp khi đối thủ suy ra KHÓA từ BẢN MÃ?"
       }
     ],
     "source_paragraphs": [
@@ -3773,7 +3959,7 @@
         }
       ]
     },
-    "question": "Lựa chọn đáp án ",
+    "question": "Theo nguyên lý confusion (xáo trộn), quan hệ nào cần được che giấu phức tạp khi đối thủ suy ra KHÓA từ BẢN MÃ?",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -3791,22 +3977,47 @@
       "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
       "docx_block": 164
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "B",
-    "needs_review": true,
-    "review_reasons": [
-      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Quan hệ tuyến tính không đạt mục tiêu confusion.\nB: Đúng: làm phức tạp quan hệ bản mã–khóa.\nC: Không phải cặp đối tượng đang được hỏi.\nD: Tuyến tính giúp phân tích khóa, trái mục tiêu.\nTham khảo: Bản full đã gộp.pdf, trang PDF 84.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
         "B"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: Quan hệ tuyến tính không đạt mục tiêu confusion.\nB: Đúng: làm phức tạp quan hệ bản mã–khóa.\nC: Không phải cặp đối tượng đang được hỏi.\nD: Tuyến tính giúp phân tích khóa, trái mục tiêu.\nTham khảo: Bản full đã gộp.pdf, trang PDF 84.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          84
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Quan hệ tuyến tính không đạt mục tiêu confusion."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: làm phức tạp quan hệ bản mã–khóa."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Không phải cặp đối tượng đang được hỏi."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Tuyến tính giúp phân tích khóa, trái mục tiêu."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3829,19 +4040,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Phân biệt che quan hệ khóa–bản mã với việc lan ảnh hưởng của một bit ra nhiều bit khác.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Với confusion, chú ý quan hệ giữa quan sát của kẻ thám mã và bí mật cần suy ra.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn đáp án "
+        "text": "Theo nguyên lý confusion (xáo trộn), quan hệ nào cần được che giấu phức tạp khi đối thủ suy ra KHÓA từ BẢN MÃ?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        84
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Lựa chọn đáp án ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-chuong1-17",

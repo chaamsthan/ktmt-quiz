@@ -707,7 +707,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ?"
+        "text": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ĐÚNG?"
       }
     ],
     "source_paragraphs": [
@@ -730,8 +730,8 @@
       "mark_evidence": [],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Chữ kí số ứng với bản rõ đã cho là 142^{87} mod 1189"
+          "type": "text",
+          "text": "Chữ kí số ứng với bản rõ đã cho là \\(142^{87}\\) mod 1189"
         }
       ]
     },
@@ -764,8 +764,8 @@
       "mark_evidence": [],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Người nhận xác minh chữ kí bằng cách tính 513^{87} mod 1113 và so sánh với m nhận được"
+          "type": "text",
+          "text": "Người nhận xác minh chữ kí bằng cách tính \\(513^{87}\\) mod 1113 và so sánh với m nhận được"
         }
       ]
     },
@@ -883,7 +883,7 @@
         }
       ]
     },
-    "question": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ?",
+    "question": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ĐÚNG?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -901,22 +901,54 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 38
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục ĐÚNG và kiểm chứng độc lập chữ ký RSA.\nA: Ký dùng d=103, không dùng e=87.\nB: n công khai, không phải bí mật.\nC: Xác minh phải modulo n=1189, không phải 1113.\nD: Đúng: φ=1120 và 103×87≡1 mod 1120.\nTham khảo: Bản full đã gộp.pdf, trang PDF 185, 197, 198.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "Khôi phục ĐÚNG và kiểm chứng độc lập chữ ký RSA.\nA: Ký dùng d=103, không dùng e=87.\nB: n công khai, không phải bí mật.\nC: Xác minh phải modulo n=1189, không phải 1113.\nD: Đúng: φ=1120 và 103×87≡1 mod 1120.\nTham khảo: Bản full đã gộp.pdf, trang PDF 185, 197, 198.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          185,
+          197,
+          198
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Ký dùng d=103, không dùng e=87."
+        },
+        "B": {
+          "matches": false,
+          "reason": "n công khai, không phải bí mật."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Xác minh phải modulo n=1189, không phải 1113."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đúng: φ=1120 và 103×87≡1 mod 1120."
+        }
+      },
+      "numeric": {
+        "n": 1189,
+        "phi": 1120,
+        "e": 87,
+        "signature": 562
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -936,19 +968,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Tính n, φ(n), rồi e=\\(d^{-1}\\) mod φ(n); khi xác minh phải dùng cùng modulo n, không đổi sang số gần giống.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Tính n và φ; thử e×d modulo φ. Ký dùng d, xác minh dùng e và mô-đun n.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ?"
+        "text": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ĐÚNG?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục ĐÚNG và kiểm chứng độc lập chữ ký RSA.",
+      "reference_pages": [
+        185,
+        197,
+        198
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Cho hệ chữ kí RSA với p = 41; q = 29; d = 103 (thỏa mãn gcd(d, phi(n)) = 1), thông điệp cần kí m = 142. Khẳng định nào sau đây là ?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-5",
@@ -1486,7 +1531,84 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Trong thuật toán DES, cho B2 = 100100 và các hộp thế sau, hãy tìm đầu ra của B2 khi chuỗi được cho qua hộp thế. "
+        "text": "Trong DES, cho B2=100100₂. Tìm bốn bit đầu ra S2(B2), dùng hộp S2 chuẩn trong bảng bên dưới."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "15",
+            "1",
+            "8",
+            "14",
+            "6",
+            "11",
+            "3",
+            "4",
+            "9",
+            "7",
+            "2",
+            "13",
+            "12",
+            "0",
+            "5",
+            "10"
+          ],
+          [
+            "3",
+            "13",
+            "4",
+            "7",
+            "15",
+            "2",
+            "8",
+            "14",
+            "12",
+            "0",
+            "1",
+            "10",
+            "6",
+            "9",
+            "11",
+            "5"
+          ],
+          [
+            "0",
+            "14",
+            "7",
+            "11",
+            "10",
+            "4",
+            "13",
+            "1",
+            "5",
+            "8",
+            "12",
+            "6",
+            "9",
+            "3",
+            "2",
+            "15"
+          ],
+          [
+            "13",
+            "8",
+            "10",
+            "1",
+            "3",
+            "15",
+            "4",
+            "2",
+            "11",
+            "6",
+            "7",
+            "12",
+            "0",
+            "5",
+            "14",
+            "9"
+          ]
+        ]
       }
     ],
     "source_paragraphs": [
@@ -1578,7 +1700,7 @@
         }
       ]
     },
-    "question": "Trong thuật toán DES, cho B2 = 100100 và các hộp thế sau, hãy tìm đầu ra của B2 khi chuỗi được cho qua hộp thế. ",
+    "question": "Trong DES, cho B2=100100₂. Tìm bốn bit đầu ra S2(B2), dùng hộp S2 chuẩn trong bảng bên dưới.",
     "source_mark_candidates": {
       "highlight": [
         "A"
@@ -1596,22 +1718,61 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 86
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "A",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn không có bảng S2 được nhắc tới."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không có bảng S2 được nhắc tới.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "B2=100100 qua S2: hàng 10₂=2, cột 0010₂=2, S2[2][2]=7. Bảng được khôi phục từ trang 94.\nA: Giá trị phương án 7; kết quả tính độc lập 7.\nB: Giá trị phương án 4; kết quả tính độc lập 7.\nC: Giá trị phương án 10; kết quả tính độc lập 7.\nD: Giá trị phương án 14; kết quả tính độc lập 7.\nTham khảo: Bản full đã gộp.pdf, trang PDF 93, 94.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không có bảng S2 được nhắc tới.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "A",
       "valid_options": [
         "A"
-      ]
+      ],
+      "explanation": "B2=100100 qua S2: hàng 10₂=2, cột 0010₂=2, S2[2][2]=7. Bảng được khôi phục từ trang 94.\nA: Giá trị phương án 7; kết quả tính độc lập 7.\nB: Giá trị phương án 4; kết quả tính độc lập 7.\nC: Giá trị phương án 10; kết quả tính độc lập 7.\nD: Giá trị phương án 14; kết quả tính độc lập 7.\nTham khảo: Bản full đã gộp.pdf, trang PDF 93, 94.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          93,
+          94
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "value": 7,
+          "reason": "Giá trị phương án 7; kết quả tính độc lập 7."
+        },
+        "B": {
+          "matches": false,
+          "value": 4,
+          "reason": "Giá trị phương án 4; kết quả tính độc lập 7."
+        },
+        "C": {
+          "matches": false,
+          "value": 10,
+          "reason": "Giá trị phương án 10; kết quả tính độc lập 7."
+        },
+        "D": {
+          "matches": false,
+          "value": 14,
+          "reason": "Giá trị phương án 14; kết quả tính độc lập 7."
+        }
+      },
+      "numeric": {
+        "expected": 7,
+        "base": 2,
+        "values": {
+          "A": 7,
+          "B": 4,
+          "C": 10,
+          "D": 14
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -1634,19 +1795,108 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Tra S2 theo hai bit ngoài làm hàng và bốn bit giữa làm cột; nguồn thiếu bảng minh họa của câu này.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: B2 phải đi qua S2; hai bit ngoài chọn hàng, bốn bit giữa chọn cột.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Trong thuật toán DES, cho B2 = 100100 và các hộp thế sau, hãy tìm đầu ra của B2 khi chuỗi được cho qua hộp thế. "
+        "text": "Trong DES, cho B2=100100₂. Tìm bốn bit đầu ra S2(B2), dùng hộp S2 chuẩn trong bảng bên dưới."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "15",
+            "1",
+            "8",
+            "14",
+            "6",
+            "11",
+            "3",
+            "4",
+            "9",
+            "7",
+            "2",
+            "13",
+            "12",
+            "0",
+            "5",
+            "10"
+          ],
+          [
+            "3",
+            "13",
+            "4",
+            "7",
+            "15",
+            "2",
+            "8",
+            "14",
+            "12",
+            "0",
+            "1",
+            "10",
+            "6",
+            "9",
+            "11",
+            "5"
+          ],
+          [
+            "0",
+            "14",
+            "7",
+            "11",
+            "10",
+            "4",
+            "13",
+            "1",
+            "5",
+            "8",
+            "12",
+            "6",
+            "9",
+            "3",
+            "2",
+            "15"
+          ],
+          [
+            "13",
+            "8",
+            "10",
+            "1",
+            "3",
+            "15",
+            "4",
+            "2",
+            "11",
+            "6",
+            "7",
+            "12",
+            "0",
+            "5",
+            "14",
+            "9"
+          ]
+        ]
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "B2=100100 qua S2: hàng 10₂=2, cột 0010₂=2, S2[2][2]=7. Bảng được khôi phục từ trang 94.",
+      "reference_pages": [
+        93,
+        94
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Trong thuật toán DES, cho B2 = 100100 và các hộp thế sau, hãy tìm đầu ra của B2 khi chuỗi được cho qua hộp thế. ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-9",
@@ -3103,7 +3353,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Đâu là phát biểu ?"
+        "text": "Để duyệt TOÀN BỘ không gian khóa hiệu dụng DES bằng vét cạn, phải xét bao nhiêu khóa?"
       }
     ],
     "source_paragraphs": [
@@ -3126,8 +3376,8 @@
       "mark_evidence": [],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^{48} lần thử"
+          "type": "text",
+          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần \\(2^{48}\\) lần thử"
         }
       ]
     },
@@ -3252,8 +3502,8 @@
       ],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^{56} lần thử"
+          "type": "text",
+          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần \\(2^{56}\\) lần thử"
         }
       ]
     },
@@ -3269,8 +3519,8 @@
       "mark_evidence": [],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^{64} lần thử"
+          "type": "text",
+          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần \\(2^{64}\\) lần thử"
         }
       ]
     },
@@ -3286,12 +3536,12 @@
       "mark_evidence": [],
       "display_blocks": [
         {
-          "type": "math",
-          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần 2^{32} lần thử"
+          "type": "text",
+          "text": "Để thám mã vét cạn khóa mã hóa của DES, kẻ tấn công cần \\(2^{32}\\) lần thử"
         }
       ]
     },
-    "question": "Đâu là phát biểu ?",
+    "question": "Để duyệt TOÀN BỘ không gian khóa hiệu dụng DES bằng vét cạn, phải xét bao nhiêu khóa?",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -3309,22 +3559,48 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 197
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "B",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Phân biệt tổng không gian khóa với số phép thử trung bình.\nA: 48 là kích cỡ khóa vòng.\nB: Đúng: 56 bit khóa hiệu dụng cho 2^56 khóa.\nC: 64 gồm tám bit kiểm tra chẵn lẻ.\nD: 32 là nửa khối, không phải khóa.\nTham khảo: Bản full đã gộp.pdf, trang PDF 87, 99.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
         "B"
-      ]
+      ],
+      "explanation": "Phân biệt tổng không gian khóa với số phép thử trung bình.\nA: 48 là kích cỡ khóa vòng.\nB: Đúng: 56 bit khóa hiệu dụng cho 2^56 khóa.\nC: 64 gồm tám bit kiểm tra chẵn lẻ.\nD: 32 là nửa khối, không phải khóa.\nTham khảo: Bản full đã gộp.pdf, trang PDF 87, 99.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          87,
+          99
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "48 là kích cỡ khóa vòng."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: 56 bit khóa hiệu dụng cho 2^56 khóa."
+        },
+        "C": {
+          "matches": false,
+          "reason": "64 gồm tám bit kiểm tra chẵn lẻ."
+        },
+        "D": {
+          "matches": false,
+          "reason": "32 là nửa khối, không phải khóa."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3347,19 +3623,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Vét cạn đếm các khóa hiệu dụng, không tính tám bit parity thành bí mật bổ sung.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Loại tám bit chẵn lẻ trước khi đếm không gian khóa; câu hỏi không hỏi số phép thử trung bình.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Đâu là phát biểu ?"
+        "text": "Để duyệt TOÀN BỘ không gian khóa hiệu dụng DES bằng vét cạn, phải xét bao nhiêu khóa?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Phân biệt tổng không gian khóa với số phép thử trung bình.",
+      "reference_pages": [
+        87,
+        99
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Đâu là phát biểu ?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-18",
@@ -3371,7 +3659,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án  nhất"
+        "text": "Phát biểu nào mô tả ĐÚNG và ĐẦY ĐỦ hai bảo đảm xác thực nguồn gốc và toàn vẹn của chữ ký số?"
       }
     ],
     "source_paragraphs": [
@@ -3400,11 +3688,11 @@
       ]
     },
     "B": {
-      "text": "Chữ kí số có thể được sử dụng như một hệ chữ kí và hệ thống mật mã",
+      "text": "Bản thân chữ ký số luôn mã hóa bí mật toàn bộ nội dung dữ liệu.",
       "blocks": [
         {
           "type": "text",
-          "text": "Chữ kí số có thể được sử dụng như một hệ chữ kí và hệ thống mật mã"
+          "text": "Bản thân chữ ký số luôn mã hóa bí mật toàn bộ nội dung dữ liệu."
         }
       ],
       "source_label": "B",
@@ -3412,7 +3700,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "Chữ kí số có thể được sử dụng như một hệ chữ kí và hệ thống mật mã"
+          "text": "Bản thân chữ ký số luôn mã hóa bí mật toàn bộ nội dung dữ liệu."
         }
       ]
     },
@@ -3577,7 +3865,7 @@
         }
       ]
     },
-    "question": "Chọn đáp án  nhất",
+    "question": "Phát biểu nào mô tả ĐÚNG và ĐẦY ĐỦ hai bảo đảm xác thực nguồn gốc và toàn vẹn của chữ ký số?",
     "source_mark_candidates": {
       "highlight": [
         "D"
@@ -3595,22 +3883,48 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 209
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "D",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu đầy đủ, làm rõ phát biểu đánh đồng ký với mã hóa bảo mật.\nA: Ký không đồng nghĩa mã hóa bảo mật.\nB: Chữ ký không tự bảo mật nội dung.\nC: Từ chỉ bỏ sót bảo đảm toàn vẹn.\nD: Đúng: xác minh nguồn gốc và toàn vẹn với khóa công khai tin cậy.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192, 198.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "D",
       "valid_options": [
         "D"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu đầy đủ, làm rõ phát biểu đánh đồng ký với mã hóa bảo mật.\nA: Ký không đồng nghĩa mã hóa bảo mật.\nB: Chữ ký không tự bảo mật nội dung.\nC: Từ chỉ bỏ sót bảo đảm toàn vẹn.\nD: Đúng: xác minh nguồn gốc và toàn vẹn với khóa công khai tin cậy.\nTham khảo: Bản full đã gộp.pdf, trang PDF 192, 198.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          192,
+          198
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "Ký không đồng nghĩa mã hóa bảo mật."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Chữ ký không tự bảo mật nội dung."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Từ chỉ bỏ sót bảo đảm toàn vẹn."
+        },
+        "D": {
+          "matches": true,
+          "reason": "Đúng: xác minh nguồn gốc và toàn vẹn với khóa công khai tin cậy."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -3630,19 +3944,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Chữ ký số kiểm tra người ký và dữ liệu có bị đổi; không mặc định giúp che nội dung thông điệp.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Chữ ký không giấu nội dung; xét cả ai ký và nội dung có bị thay đổi hay không.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án  nhất"
+        "text": "Phát biểu nào mô tả ĐÚNG và ĐẦY ĐỦ hai bảo đảm xác thực nguồn gốc và toàn vẹn của chữ ký số?"
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu đầy đủ, làm rõ phát biểu đánh đồng ký với mã hóa bảo mật.",
+      "reference_pages": [
+        192,
+        198
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Chọn đáp án  nhất",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-19",
@@ -3837,7 +4163,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án "
+        "text": "Chọn phát biểu ĐÚNG; độ dài khóa DES trong câu này tính CẢ tám bit kiểm tra chẵn lẻ."
       }
     ],
     "source_paragraphs": [
@@ -3953,7 +4279,7 @@
         }
       ]
     },
-    "question": "Chọn đáp án ",
+    "question": "Chọn phát biểu ĐÚNG; độ dài khóa DES trong câu này tính CẢ tám bit kiểm tra chẵn lẻ.",
     "source_mark_candidates": {
       "highlight": [
         "A"
@@ -3971,22 +4297,49 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 234
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "A",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Nêu rõ đang đếm khóa nạp có bit parity, không phải entropy khóa.\nA: Đúng: biểu diễn khóa nạp 64 bit, chỉ 56 bit hiệu dụng.\nB: DES có 16 vòng.\nC: Khóa AES ngắn nhất 128 bit.\nD: AES không dùng khóa 64 bit.\nTham khảo: Bản full đã gộp.pdf, trang PDF 87, 99, 101.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "A",
       "valid_options": [
         "A"
-      ]
+      ],
+      "explanation": "Nêu rõ đang đếm khóa nạp có bit parity, không phải entropy khóa.\nA: Đúng: biểu diễn khóa nạp 64 bit, chỉ 56 bit hiệu dụng.\nB: DES có 16 vòng.\nC: Khóa AES ngắn nhất 128 bit.\nD: AES không dùng khóa 64 bit.\nTham khảo: Bản full đã gộp.pdf, trang PDF 87, 99, 101.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          87,
+          99,
+          101
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Đúng: biểu diễn khóa nạp 64 bit, chỉ 56 bit hiệu dụng."
+        },
+        "B": {
+          "matches": false,
+          "reason": "DES có 16 vòng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "Khóa AES ngắn nhất 128 bit."
+        },
+        "D": {
+          "matches": false,
+          "reason": "AES không dùng khóa 64 bit."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4009,19 +4362,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Nguồn nói độ dài khóa ban đầu, khác số bit hữu ích sau PC-1; kiểm tra cách tính parity.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Đọc xem đề tính cả bit parity hay chỉ các bit bí mật hiệu dụng.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án "
+        "text": "Chọn phát biểu ĐÚNG; độ dài khóa DES trong câu này tính CẢ tám bit kiểm tra chẵn lẻ."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Nêu rõ đang đếm khóa nạp có bit parity, không phải entropy khóa.",
+      "reference_pages": [
+        87,
+        99,
+        101
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Chọn đáp án ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-21",
@@ -4395,7 +4761,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn các bit ABCD trong đầu ra P(C) của thuật toán DES"
+        "text": "Bài DES biên soạn lại: cho C=9F1AA34E_H (32 bit, bit cao nhất bên trái). Tìm bốn bit ĐẦU của P(C) theo thứ tự A,B,C,D. Dùng hoán vị P chuẩn DES."
       }
     ],
     "source_paragraphs": [
@@ -4407,11 +4773,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "0110",
+      "text": "0101",
       "blocks": [
         {
           "type": "text",
-          "text": "0110"
+          "text": "0101"
         }
       ],
       "source_label": "A",
@@ -4419,16 +4785,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "0110"
+          "text": "0101"
         }
       ]
     },
     "B": {
-      "text": "1010",
+      "text": "0100",
       "blocks": [
         {
           "type": "text",
-          "text": "1010"
+          "text": "0100"
         }
       ],
       "source_label": "B",
@@ -4449,16 +4815,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "1010"
+          "text": "0100"
         }
       ]
     },
     "C": {
-      "text": "1100",
+      "text": "0110",
       "blocks": [
         {
           "type": "text",
-          "text": "1100"
+          "text": "0110"
         }
       ],
       "source_label": "C",
@@ -4466,16 +4832,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "1100"
+          "text": "0110"
         }
       ]
     },
     "D": {
-      "text": "1000",
+      "text": "0000",
       "blocks": [
         {
           "type": "text",
-          "text": "1000"
+          "text": "0000"
         }
       ],
       "source_label": "D",
@@ -4483,11 +4849,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "1000"
+          "text": "0000"
         }
       ]
     },
-    "question": "Lựa chọn các bit ABCD trong đầu ra P(C) của thuật toán DES",
+    "question": "Bài DES biên soạn lại: cho C=9F1AA34E_H (32 bit, bit cao nhất bên trái). Tìm bốn bit ĐẦU của P(C) theo thứ tự A,B,C,D. Dùng hoán vị P chuẩn DES.",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -4505,20 +4871,60 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 270
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn không có hình C và vị trí ABCD."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không có hình C và vị trí ABCD.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất trạng thái và vị trí; cung cấp trạng thái 32 bit và vị trí đích mới, ghi rõ bài đã biên soạn lại. Áp bốn vị trí đầu P=(16,7,20,21), chỉ số bắt đầu từ 1.\nA: Giá trị phương án 5; kết quả tính độc lập 4.\nB: Giá trị phương án 4; kết quả tính độc lập 4.\nC: Giá trị phương án 6; kết quả tính độc lập 4.\nD: Giá trị phương án 0; kết quả tính độc lập 4.\nTham khảo: Bản full đã gộp.pdf, trang PDF 96.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn không có hình C và vị trí ABCD.",
+      "status": "verified",
+      "correct_answer": "B",
+      "valid_options": [
+        "B"
+      ],
+      "explanation": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất trạng thái và vị trí; cung cấp trạng thái 32 bit và vị trí đích mới, ghi rõ bài đã biên soạn lại. Áp bốn vị trí đầu P=(16,7,20,21), chỉ số bắt đầu từ 1.\nA: Giá trị phương án 5; kết quả tính độc lập 4.\nB: Giá trị phương án 4; kết quả tính độc lập 4.\nC: Giá trị phương án 6; kết quả tính độc lập 4.\nD: Giá trị phương án 0; kết quả tính độc lập 4.\nTham khảo: Bản full đã gộp.pdf, trang PDF 96.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          96
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 5,
+          "reason": "Giá trị phương án 5; kết quả tính độc lập 4."
+        },
+        "B": {
+          "matches": true,
+          "value": 4,
+          "reason": "Giá trị phương án 4; kết quả tính độc lập 4."
+        },
+        "C": {
+          "matches": false,
+          "value": 6,
+          "reason": "Giá trị phương án 6; kết quả tính độc lập 4."
+        },
+        "D": {
+          "matches": false,
+          "value": 0,
+          "reason": "Giá trị phương án 0; kết quả tính độc lập 4."
+        }
+      },
+      "numeric": {
+        "expected": 4,
+        "base": 2,
+        "values": {
+          "A": 5,
+          "B": 4,
+          "C": 6,
+          "D": 0
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4541,19 +4947,30 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Cần cả dữ liệu C và vị trí ABCD để áp bảng P; hình tương ứng không có trong câu nguồn này.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Bốn bit đầu ra chỉ cần bốn bit đầu vào ở các chỉ số đầu tiên của bảng P; không cần hoán vị cả khối.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Lựa chọn các bit ABCD trong đầu ra P(C) của thuật toán DES"
+        "text": "Bài DES biên soạn lại: cho C=9F1AA34E_H (32 bit, bit cao nhất bên trái). Tìm bốn bit ĐẦU của P(C) theo thứ tự A,B,C,D. Dùng hoán vị P chuẩn DES."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất trạng thái và vị trí; cung cấp trạng thái 32 bit và vị trí đích mới, ghi rõ bài đã biên soạn lại. Áp bốn vị trí đầu P=(16,7,20,21), chỉ số bắt đầu từ 1.",
+      "reference_pages": [
+        96
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Lựa chọn các bit ABCD trong đầu ra P(C) của thuật toán DES",
+      "kind": "reconstructed_exercise_with_explicit_new_conditions"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-24",
@@ -4565,7 +4982,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án "
+        "text": "Chọn phát biểu ĐÚNG về AES và DES."
       }
     ],
     "source_paragraphs": [
@@ -4693,7 +5110,7 @@
         }
       ]
     },
-    "question": "Chọn đáp án ",
+    "question": "Chọn phát biểu ĐÚNG về AES và DES.",
     "source_mark_candidates": {
       "highlight": [
         "B"
@@ -4711,22 +5128,48 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 283
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "B",
-    "needs_review": true,
-    "review_reasons": [
-      "Nguồn thiếu từ ĐÚNG/SAI."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: AES là mã khối.\nB: Đúng: DES dùng khóa đối xứng.\nC: AES không bất đối xứng.\nD: DES có 56 bit khóa hiệu dụng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 82, 113.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Nguồn thiếu từ ĐÚNG/SAI.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "B",
       "valid_options": [
         "B"
-      ]
+      ],
+      "explanation": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.\nA: AES là mã khối.\nB: Đúng: DES dùng khóa đối xứng.\nC: AES không bất đối xứng.\nD: DES có 56 bit khóa hiệu dụng.\nTham khảo: Bản full đã gộp.pdf, trang PDF 82, 113.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          82,
+          113
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "reason": "AES là mã khối."
+        },
+        "B": {
+          "matches": true,
+          "reason": "Đúng: DES dùng khóa đối xứng."
+        },
+        "C": {
+          "matches": false,
+          "reason": "AES không bất đối xứng."
+        },
+        "D": {
+          "matches": false,
+          "reason": "DES có 56 bit khóa hiệu dụng."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -4749,19 +5192,31 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: So cách dùng khóa của DES với cặp công khai/riêng; đừng suy từ tên chuẩn AES hay kích thước khóa.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Cả AES lẫn DES đều là mã khối đối xứng; đừng nhầm kích cỡ khóa với kích cỡ khối.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Chọn đáp án "
+        "text": "Chọn phát biểu ĐÚNG về AES và DES."
       }
     ],
     "images": [],
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Khôi phục yêu cầu ĐÚNG/SAI và nêu rõ phạm vi từ định nghĩa trong tài liệu.",
+      "reference_pages": [
+        82,
+        113
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "Chọn đáp án ",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-25",
@@ -5225,12 +5680,7 @@
     "question_blocks": [
       {
         "type": "text",
-        "text": "Số phần tử sinh của nhóm Z*n là lựa chọn nào sau đây?"
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-tonghop2/c8ec5f073b288c6d4f4c.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "text": "Giả sử nhóm Z*_n là CYCLIC. Số phần tử sinh của nhóm là bao nhiêu?"
       }
     ],
     "source_paragraphs": [
@@ -5243,11 +5693,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "B",
+      "text": "φ(φ(n))",
       "blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "φ(φ(n))"
         }
       ],
       "source_label": "A",
@@ -5268,16 +5718,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "B"
+          "text": "\\(\\varphi(\\varphi(n))\\)"
         }
       ]
     },
     "B": {
-      "text": "A",
+      "text": "n−1",
       "blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "n−1"
         }
       ],
       "source_label": "B",
@@ -5285,16 +5735,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "A"
+          "text": "\\(n-1\\)"
         }
       ]
     },
     "C": {
-      "text": "D",
+      "text": "φ(n)−1",
       "blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "φ(n)−1"
         }
       ],
       "source_label": "C",
@@ -5302,16 +5752,16 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "D"
+          "text": "\\(\\varphi(n)-1\\)"
         }
       ]
     },
     "D": {
-      "text": "C",
+      "text": "φ(n)",
       "blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "φ(n)"
         }
       ],
       "source_label": "D",
@@ -5319,11 +5769,11 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "C"
+          "text": "\\(\\varphi(n)\\)"
         }
       ]
     },
-    "question": "Số phần tử sinh của nhóm Z*n là lựa chọn nào sau đây?",
+    "question": "Giả sử nhóm Z*_n là CYCLIC. Số phần tử sinh của nhóm là bao nhiêu?",
     "source_mark_candidates": {
       "highlight": [
         "A"
@@ -5341,20 +5791,47 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 320
     },
-    "source_fidelity_status": "native_text_and_original_images",
-    "correct_answer": null,
-    "needs_review": true,
-    "review_reasons": [
-      "Công thức số phần tử sinh cần giả thiết nhóm cyclic."
-    ],
-    "answer_evidence": "insufficient_or_ambiguous_source",
-    "verification_status": "needs_review",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Công thức số phần tử sinh cần giả thiết nhóm cyclic.",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Bổ sung điều kiện nhóm CYCLIC; nếu không có điều kiện này công thức đếm không đúng cho mọi n.\nA: Đúng: φ của cấp nhóm cyclic.\nB: Không phải với mọi n, ví dụ n=5 chỉ có 2 phần tử sinh.\nC: n=5 cho 3 nhưng chỉ có 2.\nD: Đây là cấp nhóm, không phải số phần tử sinh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
     "answer_audit": {
-      "status": "needs_review",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Công thức số phần tử sinh cần giả thiết nhóm cyclic.",
+      "status": "verified",
+      "correct_answer": "A",
+      "valid_options": [
+        "A"
+      ],
+      "explanation": "Bổ sung điều kiện nhóm CYCLIC; nếu không có điều kiện này công thức đếm không đúng cho mọi n.\nA: Đúng: φ của cấp nhóm cyclic.\nB: Không phải với mọi n, ví dụ n=5 chỉ có 2 phần tử sinh.\nC: n=5 cho 3 nhưng chỉ có 2.\nD: Đây là cấp nhóm, không phải số phần tử sinh.\nTham khảo: Bản full đã gộp.pdf, trang PDF 176.",
       "sources": [],
-      "valid_options": []
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          176
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": true,
+          "reason": "Đúng: φ của cấp nhóm cyclic."
+        },
+        "B": {
+          "matches": false,
+          "reason": "Không phải với mọi n, ví dụ n=5 chỉ có 2 phần tử sinh."
+        },
+        "C": {
+          "matches": false,
+          "reason": "n=5 cho 3 nhưng chỉ có 2."
+        },
+        "D": {
+          "matches": false,
+          "reason": "Đây là cấp nhóm, không phải số phần tử sinh."
+        }
+      },
+      "numeric": null
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -5374,26 +5851,32 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
-    "hint": "Mẹo: Chỉ áp số phần tử sinh = φ(φ(n)) khi nhóm nhân cyclic; giả thiết này đang bị lược trong nguồn.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Trước hết lấy cấp nhóm, rồi đếm các số mũ nguyên tố cùng nhau với cấp đó.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
-        "text": "Số phần tử sinh của nhóm \\(\\mathbb{Z}_{n}^{*}\\) là lựa chọn nào sau đây?"
-      },
-      {
-        "type": "image",
-        "src": "images/nmmmh/collections/de-cuong-2025-tonghop2/c8ec5f073b288c6d4f4c.png",
-        "alt": "Hình/công thức gốc từ DOCX"
+        "text": "Giả sử nhóm Z*_n là CYCLIC. Số phần tử sinh của nhóm là bao nhiêu?"
       }
     ],
-    "images": [
-      "images/nmmmh/collections/de-cuong-2025-tonghop2/c8ec5f073b288c6d4f4c.png"
-    ],
-    "source_option_labels_in_figure": true,
+    "images": [],
+    "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Bổ sung điều kiện nhóm CYCLIC; nếu không có điều kiện này công thức đếm không đúng cho mọi n.",
+      "reference_pages": [
+        176
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [
+        "images/nmmmh/collections/de-cuong-2025-tonghop2/c8ec5f073b288c6d4f4c.png"
+      ],
+      "original_question": "Số phần tử sinh của nhóm Z*n là lựa chọn nào sau đây?",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-28",
@@ -6622,11 +7105,11 @@
     ],
     "implicit_options": false,
     "A": {
-      "text": "1r",
+      "text": "14",
       "blocks": [
         {
           "type": "text",
-          "text": "1r"
+          "text": "14"
         }
       ],
       "source_label": "A",
@@ -6634,7 +7117,7 @@
       "display_blocks": [
         {
           "type": "text",
-          "text": "1r"
+          "text": "14"
         }
       ]
     },
@@ -6720,22 +7203,60 @@
       "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
       "docx_block": 407
     },
-    "source_fidelity_status": "native_text_and_original_images",
+    "source_fidelity_status": "reference_normalized_not_original_transcription",
     "correct_answer": "C",
-    "needs_review": true,
-    "review_reasons": [
-      "Phương án A in “1r”, giữ nguyên thay vì đoán số."
-    ],
-    "answer_evidence": "source_docx_formatting",
-    "verification_status": "source_marked",
-    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Phương án A in “1r”, giữ nguyên thay vì đoán số.",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_reference_review",
+    "verification_status": "verified",
+    "explanation": "Chuẩn hóa ký tự phương án lỗi 1r thành một nhiễu số; số khóa vòng suy từ lịch DES, không từ nhiễu.\nA: Giá trị phương án 14; kết quả tính độc lập 16.\nB: Giá trị phương án 12; kết quả tính độc lập 16.\nC: Giá trị phương án 16; kết quả tính độc lập 16.\nD: Giá trị phương án 10; kết quả tính độc lập 16.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
     "answer_audit": {
-      "status": "source_marked",
-      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Phương án A in “1r”, giữ nguyên thay vì đoán số.",
-      "sources": [],
+      "status": "verified",
+      "correct_answer": "C",
       "valid_options": [
         "C"
-      ]
+      ],
+      "explanation": "Chuẩn hóa ký tự phương án lỗi 1r thành một nhiễu số; số khóa vòng suy từ lịch DES, không từ nhiễu.\nA: Giá trị phương án 14; kết quả tính độc lập 16.\nB: Giá trị phương án 12; kết quả tính độc lập 16.\nC: Giá trị phương án 16; kết quả tính độc lập 16.\nD: Giá trị phương án 10; kết quả tính độc lập 16.\nTham khảo: Bản full đã gộp.pdf, trang PDF 99.",
+      "sources": [],
+      "reference": {
+        "file": "Bản full đã gộp.pdf",
+        "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+        "pages": [
+          99
+        ]
+      },
+      "option_checks": {
+        "A": {
+          "matches": false,
+          "value": 14,
+          "reason": "Giá trị phương án 14; kết quả tính độc lập 16."
+        },
+        "B": {
+          "matches": false,
+          "value": 12,
+          "reason": "Giá trị phương án 12; kết quả tính độc lập 16."
+        },
+        "C": {
+          "matches": true,
+          "value": 16,
+          "reason": "Giá trị phương án 16; kết quả tính độc lập 16."
+        },
+        "D": {
+          "matches": false,
+          "value": 10,
+          "reason": "Giá trị phương án 10; kết quả tính độc lập 16."
+        }
+      },
+      "numeric": {
+        "expected": 16,
+        "base": 10,
+        "values": {
+          "A": 14,
+          "B": 12,
+          "C": 16,
+          "D": 10
+        }
+      }
     },
     "subject_id": "nmmmh",
     "subject": "Mật mã học",
@@ -6758,8 +7279,8 @@
     "classification_needs_review": false,
     "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
     "classification_notes": "",
-    "hint": "Mẹo: Đếm số khóa dùng cho các vòng; không cộng khóa whitening như trong một số mã khối khác.",
-    "verification_revision": "collections-20261022-v1",
+    "hint": "Mẹo: Mỗi vòng Feistel dùng một khóa con; đọc số vòng trong lịch sinh khóa DES.",
+    "verification_revision": "reference-full-20261022-v1",
     "display_blocks": [
       {
         "type": "text",
@@ -6770,7 +7291,18 @@
     "source_option_labels_in_figure": false,
     "duplicate_status": "unique",
     "duplicate_group": null,
-    "duplicate_sources": []
+    "duplicate_sources": [],
+    "normalization": {
+      "revision": "reference-full-20261022-v1",
+      "reason": "Chuẩn hóa ký tự phương án lỗi 1r thành một nhiễu số; số khóa vòng suy từ lịch DES, không từ nhiễu.",
+      "reference_pages": [
+        99
+      ],
+      "original_snapshot": "subjects/nmmmh/audit/single-answer-review/original_questions.json",
+      "original_images": [],
+      "original_question": "DES cần sinh ra số khóa vòng là bao nhiêu",
+      "kind": "editorial_repair_or_reference_clarification_not_claimed_as_original"
+    }
   },
   {
     "id": "nmmmh-de-cuong-2025-tonghop2-35",

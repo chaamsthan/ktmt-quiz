@@ -236,4 +236,7 @@ def main():
     (target/'REPORT.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print('Total',len(questions),'records;',len(duplicate_report),'duplicate groups;',len(reviews),'review records')
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    main()
+    from apply_nmmmh_reference_review import migrate
+    migrate()

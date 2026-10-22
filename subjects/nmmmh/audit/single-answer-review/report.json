@@ -1,0 +1,1056 @@
+{
+  "revision": "reference-full-20261022-v1",
+  "reference": {
+    "file": "Bản full đã gộp.pdf",
+    "sha256": "1480665167ccd60addb06bc77031cab8515d9b645f43b8fd06eef4bc5957f243",
+    "pdf_pages": 205,
+    "initial_review_count": 103,
+    "initial_question_count": 540,
+    "question_ids": [
+      "nmmmh-de-thi-at17-bo-1-3",
+      "nmmmh-de-thi-nmmmh-4",
+      "nmmmh-de-thi-nmmmh-5",
+      "nmmmh-de-thi-nmmmh-7",
+      "nmmmh-de-thi-nmmmh-9",
+      "nmmmh-de-thi-nmmmh-28",
+      "nmmmh-de-thi-nmmmh-29",
+      "nmmmh-de-thi-nmmmh-32",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+      "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+      "nmmmh-de-thi-k16-2-4",
+      "nmmmh-de-thi-k16-2-7",
+      "nmmmh-de-thi-k16-2-11",
+      "nmmmh-de-thi-k16-2-13",
+      "nmmmh-de-thi-k16-2-24",
+      "nmmmh-de-thi-k16-2-25",
+      "nmmmh-de-thi-k16-2-26",
+      "nmmmh-de-thi-k16-2-35",
+      "nmmmh-de-thi-k16-2-36",
+      "nmmmh-de-thi-k16-2-37",
+      "nmmmh-de-thi-k16-2-40",
+      "nmmmh-de-thi-k16-3-2032",
+      "nmmmh-de-thi-k16-3-2036",
+      "nmmmh-de-thi-k16-3-2038",
+      "nmmmh-de-thi-k16-3-2045",
+      "nmmmh-de-thi-k16-3-2046",
+      "nmmmh-de-thi-k16-3-2047",
+      "nmmmh-de-thi-k16-3-2052",
+      "nmmmh-de-thi-k16-3-2056",
+      "nmmmh-de-cuong-2025-chuong1-2",
+      "nmmmh-de-cuong-2025-chuong1-10",
+      "nmmmh-de-cuong-2025-chuong1-11",
+      "nmmmh-de-cuong-2025-chuong1-14",
+      "nmmmh-de-cuong-2025-chuong1-15",
+      "nmmmh-de-cuong-2025-chuong1-16",
+      "nmmmh-de-cuong-2025-chuong2-38",
+      "nmmmh-de-cuong-2025-chuong2-39",
+      "nmmmh-de-cuong-2025-chuong2-49",
+      "nmmmh-de-cuong-2025-chuong3-1",
+      "nmmmh-de-cuong-2025-chuong3-22",
+      "nmmmh-de-cuong-2025-chuong3-23",
+      "nmmmh-de-cuong-2025-chuong3-24",
+      "nmmmh-de-cuong-2025-chuong3-30",
+      "nmmmh-de-cuong-2025-chuong3-39",
+      "nmmmh-de-cuong-2025-chuong3-43",
+      "nmmmh-de-cuong-2025-tonghop1-1",
+      "nmmmh-de-cuong-2025-tonghop1-4",
+      "nmmmh-de-cuong-2025-tonghop1-6",
+      "nmmmh-de-cuong-2025-tonghop1-7",
+      "nmmmh-de-cuong-2025-tonghop1-9",
+      "nmmmh-de-cuong-2025-tonghop1-17",
+      "nmmmh-de-cuong-2025-tonghop1-20",
+      "nmmmh-de-cuong-2025-tonghop1-28",
+      "nmmmh-de-cuong-2025-tonghop1-38",
+      "nmmmh-de-cuong-2025-tonghop2-4",
+      "nmmmh-de-cuong-2025-tonghop2-8",
+      "nmmmh-de-cuong-2025-tonghop2-17",
+      "nmmmh-de-cuong-2025-tonghop2-18",
+      "nmmmh-de-cuong-2025-tonghop2-20",
+      "nmmmh-de-cuong-2025-tonghop2-23",
+      "nmmmh-de-cuong-2025-tonghop2-24",
+      "nmmmh-de-cuong-2025-tonghop2-27",
+      "nmmmh-de-cuong-2025-tonghop2-34",
+      "nmmmh-de-cuong-2025-tonghop3-1",
+      "nmmmh-de-cuong-2025-tonghop3-10",
+      "nmmmh-de-cuong-2025-tonghop3-16",
+      "nmmmh-de-cuong-2025-tonghop3-23",
+      "nmmmh-de-cuong-2025-tonghop3-26",
+      "nmmmh-de-cuong-2025-tonghop3-34",
+      "nmmmh-de-cuong-2025-tonghop4-6",
+      "nmmmh-de-cuong-2025-tonghop4-8",
+      "nmmmh-de-cuong-2025-tonghop4-16",
+      "nmmmh-de-cuong-2025-tonghop4-20",
+      "nmmmh-de-cuong-2025-tonghop4-21",
+      "nmmmh-de-cuong-2025-tonghop4-39",
+      "nmmmh-de-giua-ki-2026-ca-1-5",
+      "nmmmh-de-giua-ki-2026-ca-1-8",
+      "nmmmh-de-giua-ki-2026-ca-1-9",
+      "nmmmh-de-giua-ki-2026-ca-1-12",
+      "nmmmh-de-giua-ki-2026-ca-1-18",
+      "nmmmh-de-giua-ki-2026-ca-1-28",
+      "nmmmh-de-giua-ki-2026-ca-1-30",
+      "nmmmh-de-giua-ki-2026-ca-1-32",
+      "nmmmh-de-giua-ki-2026-ca-1-33",
+      "nmmmh-de-giua-ki-2026-ca-1-34",
+      "nmmmh-de-giua-ki-2026-ca-2-1",
+      "nmmmh-de-giua-ki-2026-ca-2-2",
+      "nmmmh-de-giua-ki-2026-ca-2-6",
+      "nmmmh-de-giua-ki-2026-ca-2-7",
+      "nmmmh-de-giua-ki-2026-ca-2-12",
+      "nmmmh-de-giua-ki-2026-ca-2-17",
+      "nmmmh-de-giua-ki-2026-ca-2-24",
+      "nmmmh-de-giua-ki-2026-ca-2-26",
+      "nmmmh-de-giua-ki-2026-ca-2-28",
+      "nmmmh-de-giua-ki-2026-ca-2-30",
+      "nmmmh-de-giua-ki-2026-ca-2-34",
+      "nmmmh-de-giua-ki-2026-ca-2-35",
+      "nmmmh-de-giua-ki-2026-ca-2-40"
+    ],
+    "source_policy": "Original scans/DOCX remain immutable. Record substantive normalization separately from transcription."
+  },
+  "exams": 14,
+  "total_questions": 540,
+  "initial_flagged": 103,
+  "resolved": 103,
+  "remaining_review": 0,
+  "graded": 540,
+  "ungraded": 0,
+  "reconstructed_exercises": 12,
+  "verification_status_totals": {
+    "verified": 344,
+    "source_marked": 196
+  },
+  "scope_note": "Lượt này kiểm tra lại 103 câu từng gắn cờ; không tuyên bố đã giải độc lập thêm 196 câu chỉ chấm theo dấu nguồn.",
+  "answer_changes": [
+    {
+      "id": "nmmmh-de-thi-nmmmh-4",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+      "reference_pages": [
+        140,
+        141,
+        142,
+        146,
+        148
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-12",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+      "reference_pages": [
+        140,
+        141,
+        142,
+        146,
+        148
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-13",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Làm rõ CBC theo toàn thông điệp; loại khẳng định quá mạnh về đổi khóa; OFB xét khối đầu đầy đủ.",
+      "reference_pages": [
+        140,
+        141,
+        142,
+        146,
+        148
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2045",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Làm rõ phạm vi cả thông điệp trong phát biểu CBC sai.",
+      "reference_pages": [
+        140,
+        142,
+        146
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-5",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-23",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-36",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2038",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Theo slide 137; hỏi danh sách đầy đủ, không coi MAC riêng lẻ là chống chối bỏ.",
+      "reference_pages": [
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-7",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-20",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-26",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2047",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Giới hạn rõ đối tượng cần chọn; không phủ nhận các mệnh đề đúng về đối tượng khác.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-9",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-29",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-24",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2056",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Sửa cách gọi các đại diện cùng lớp; không sao chép lỗi 0<r trong slide phép chia.",
+      "reference_pages": [
+        171,
+        172
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-28",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-37",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-40",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2046",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-1",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "D",
+      "new": "D",
+      "reason": "Phân biệt giả thiết độ khó với định lý đã chứng minh; làm rõ thay thế toàn bộ.",
+      "reference_pages": [
+        183,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-29",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-26",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Hỏi riêng giá trị bản mã để loại sự nhập nhằng giữa đầu vào thuật toán và kết quả mã hóa.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-35",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Không phương án nguồn nào bằng φ(765); sửa một phương án, giữ nguyên n và thứ tự nhãn.",
+      "reference_pages": [
+        175,
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2036",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Sửa giá trị bản mã thiếu một chữ số trong một phương án, theo phép tính độc lập.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-nmmmh-32",
+      "exam": "de-thi-nmmmh",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.",
+      "reference_pages": [
+        199,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-mat-ma-2021-trac-nghiem-39",
+      "exam": "de-thi-mat-ma-2021-trac-nghiem",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Nêu rõ mô hình TA của tài liệu và yêu cầu tập hợp đầy đủ.",
+      "reference_pages": [
+        199,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-37",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Làm rõ mô hình giáo trình; thay phát biểu mơ hồ bằng hạn chế sai có phản ví dụ DH.",
+      "reference_pages": [
+        199,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-4",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Hỏi danh sách đầy đủ; yêu cầu bảo vệ giá trị băm tham chiếu.",
+      "reference_pages": [
+        15,
+        192,
+        193
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-7",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Làm rõ tính xác định của hàm băm và sửa định nghĩa tiền ảnh thứ hai.",
+      "reference_pages": [
+        193,
+        194
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-11",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Chuẩn hóa f(n) thành φ(n) theo công thức sinh khóa RSA trong tài liệu.",
+      "reference_pages": [
+        184,
+        185
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-2-25",
+      "exam": "de-thi-k16-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Thay khẳng định cấp bit mơ hồ bằng phát biểu sai rõ ràng.",
+      "reference_pages": [
+        84
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2052",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Xác định ký hiệu trên mẫu hợp số là Jacobi; n trong quy tắc cho 2 là số dương lẻ.",
+      "reference_pages": [
+        178,
+        179
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop1-38",
+      "exam": "de-cuong-2025-tonghop1",
+      "old": null,
+      "old_source_marked": "D",
+      "new": "D",
+      "reason": "Hỏi riêng các ứng dụng RSA; không coi phát biểu về ElGamal là sai.",
+      "reference_pages": [
+        192
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop3-26",
+      "exam": "de-cuong-2025-tonghop3",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "B",
+      "reason": "Khôi phục KHÔNG ĐÚNG; phân biệt đầu vào R với đầy đủ đối số hàm f(R,K).",
+      "reference_pages": [
+        91,
+        92,
+        93,
+        95
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-30",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "A",
+      "new": "C",
+      "reason": "Ký hiệu Jacobi bằng 0 do gcd(2634,889785)=3; sửa khóa nguồn −1, không sửa dữ liệu.",
+      "reference_pages": [
+        178,
+        179
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-39",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "C",
+      "new": "C",
+      "reason": "4802=2×7^4 có nhóm đơn vị cyclic; φ(φ(4802))=588, không có trong phương án cũ.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-k16-3-2032",
+      "exam": "de-thi-k16-3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+      "reference_pages": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop3-1",
+      "exam": "de-cuong-2025-tonghop3",
+      "old": null,
+      "old_source_marked": "D",
+      "new": "D",
+      "reason": "Không có phương án cũ khớp khóa chạy; sửa một nhiễu thành bản mã tính độc lập.",
+      "reference_pages": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop4-16",
+      "exam": "de-cuong-2025-tonghop4",
+      "old": null,
+      "old_source_marked": "C",
+      "new": "A",
+      "reason": "Nhân vector hàng đúng quy ước tài liệu; bản mã là JOLK, không phải khóa nguồn C.",
+      "reference_pages": [
+        54
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop4-21",
+      "exam": "de-cuong-2025-tonghop4",
+      "old": null,
+      "old_source_marked": "C",
+      "new": "C",
+      "reason": "Tài liệu xác nhận Vernam trên chữ Latin cộng modulo 26; không dùng XOR mã ASCII.",
+      "reference_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop3-16",
+      "exam": "de-cuong-2025-tonghop3",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "S1(100011) dùng hàng 3 cột 1, được 12; thay phương án C trùng A bằng nhiễu 1010.",
+      "reference_pages": [
+        93,
+        94
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-8",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Đọc trực tiếp tám bit cuối trên ảnh: E(R) kết thúc 10100101, K kết thúc 10110011; không cần đoán toàn chuỗi.",
+      "reference_pages": [
+        91,
+        92
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-33",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Giữ nguyên ma trận nguồn; x32=03·0B XOR FE XOR 20 XOR 02·87=D6; sửa một phương án không khớp.",
+      "reference_pages": [
+        123,
+        124
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-1",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Nhân đa thức và rút gọn modulo 0x11B được 2D_H, không phải 45_H (45 thập phân mới bằng 2D_H).",
+      "reference_pages": [
+        110,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-26",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "x12=0B XOR 02·FE XOR 03·20 XOR 87=0B; sửa một phương án, giữ nguyên ma trận.",
+      "reference_pages": [
+        123,
+        124
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-30",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "19036 chia hết cho 4 và lớn hơn 4, không thuộc dạng có nhóm đơn vị cyclic; không áp φ hai lần.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-18",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Sửa mệnh đề CBC mơ hồ thành phát biểu xác định về toàn thông điệp.",
+      "reference_pages": [
+        140,
+        142,
+        146
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-6",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Loại phương án ECB đơn lẻ là tập con của đáp án ghép; thay bằng OFB để bốn lựa chọn loại trừ nhau.",
+      "reference_pages": [
+        140,
+        141,
+        146,
+        149
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-12",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Làm rõ khối đầu vào cố định và ý nghĩa mã khối kết hợp các chế độ, tránh phát biểu tương tự mã dòng quá rộng.",
+      "reference_pages": [
+        82,
+        137,
+        138
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-24",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Hai phương án nguồn A/C trùng nhau; giữ A, sửa phần tử cuối C bằng đúng tổng trước để tạo nhiễu không siêu tăng.",
+      "reference_pages": [
+        188
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-22",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "A",
+      "new": "A",
+      "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+      "reference_pages": [
+        175
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-32",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Gõ lại công thức theo ảnh; thay phát biểu đúng dạng trường hợp con bằng nhiễu sai rõ ràng để tránh hai đáp án đúng. Nhãn UI gốc được giữ; D bị bỏ trống ở ca 1 được chép từ hình rồi chuẩn hóa.",
+      "reference_pages": [
+        175
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-23",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "D",
+      "new": "D",
+      "reason": "Bổ sung điều kiện nguyên tố LẺ theo định lý; giữ đúng thứ tự công thức trên giao diện từng đề.",
+      "reference_pages": [
+        178
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-24",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "C",
+      "new": "C",
+      "reason": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-40",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Hai miền 0≤i≤φ(n) và 0≤i<φ(n) vốn tương đương; thay miền ở phương án B bằng miền thiếu phần tử đơn vị. Trang 176 slide 42 cũng có lỗi bỏ i=0; dùng định nghĩa đúng slide 41.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop2-27",
+      "exam": "de-cuong-2025-tonghop2",
+      "old": null,
+      "old_source_marked": "A",
+      "new": "A",
+      "reason": "Bổ sung điều kiện nhóm CYCLIC; nếu không có điều kiện này công thức đếm không đúng cho mọi n.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop4-6",
+      "exam": "de-cuong-2025-tonghop4",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "B",
+      "reason": "Theo khoảng khóa RC4 của tài liệu, loại lựa chọn trùng nhau; không phải khuyến nghị sử dụng RC4 hiện nay.",
+      "reference_pages": [
+        160
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-12",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Hỏi toàn bộ miền chọn số mũ theo định nghĩa ElGamal của giáo trình, không hỏi một khoảng con hợp lệ.",
+      "reference_pages": [
+        186
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-28",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).",
+      "reference_pages": [
+        153,
+        154,
+        155
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-7",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Ảnh cho rõ công thức a_i(t+1)=a_(i+1)(t). Sửa phương án thừa bit bằng bộ nhiễu mới đúng độ dài; ca 2 còn sửa dãy đầu bị chép sai so với ảnh (ảnh ghi 1,0,1,0,1,0,1,1).",
+      "reference_pages": [
+        153,
+        154,
+        155
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-28",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "Sửa tham chiếu B3 thành B5 cho khớp dữ kiện B5=101011 và hộp S5 có trong ảnh.",
+      "reference_pages": [
+        93,
+        95
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-34",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "Đọc đủ A–D trên hình và ánh xạ đúng thứ tự UI cũ (A là nhãn C trên hình); không bịa các phương án thiếu trong bản chép.",
+      "reference_pages": [
+        177,
+        178
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-35",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "A",
+      "reason": "Câu gốc random-access có nhiều lựa chọn đúng; làm rõ không lấy khối mã trước và không sinh dòng khóa tuần tự, đồng thời sửa cặp lựa chọn cho đủ.",
+      "reference_pages": [
+        140,
+        141,
+        146,
+        149
+      ]
+    },
+    {
+      "id": "nmmmh-de-thi-at17-bo-1-3",
+      "exam": "de-thi-at17-bo-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "Không cần đoán ô bị che: cột trái D đã đủ loại. Hiển thị dấu ? ở hai ô không đọc được, không trình bày số suy đoán như nguồn.",
+      "reference_pages": [
+        54
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop1-17",
+      "exam": "de-cuong-2025-tonghop1",
+      "old": null,
+      "old_source_marked": "D",
+      "new": "D",
+      "reason": "Dãy nguồn và hoán vị đều có sáu phần tử nhưng mọi phương án chỉ có năm; sửa một phương án thành đủ sáu kết quả tính độc lập.",
+      "reference_pages": [
+        188
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-chuong3-43",
+      "exam": "de-cuong-2025-chuong3",
+      "old": null,
+      "old_source_marked": "C",
+      "new": "C",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn dùng cả 19 và 10; chọn công khai modulo 19 để biên soạn phiên bản nhất quán, không khẳng định 19 là ý định của đề gốc. Tính bậc của từng phần tử modulo 19, đánh dấu 1 khi bậc bằng 18.",
+      "reference_pages": [
+        176
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop1-4",
+      "exam": "de-cuong-2025-tonghop1",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "C",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất chỉ số ô cần tính; chọn và ghi rõ S00, không coi chỉ số này là OCR phục hồi. Giữ cột đầu ma trận đọc rõ, chỉ định công khai ô S00; các nhiễu mới lấy từ các hàng khác của cùng phép nhân.",
+      "reference_pages": [
+        123,
+        124
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop1-7",
+      "exam": "de-cuong-2025-tonghop1",
+      "old": null,
+      "old_source_marked": "A",
+      "new": "A",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.",
+      "reference_pages": [
+        89
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-34",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "D",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn thiếu đầu vào/vị trí đích hoặc thiếu phương án; dùng dữ kiện và các nhiễu mới được nêu rõ thay vì đoán phần bị mất. Đánh số đầu vào/đầu ra từ 1, áp IP chuẩn rồi đọc đúng bốn vị trí đã chỉ định mới.",
+      "reference_pages": [
+        89
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop2-23",
+      "exam": "de-cuong-2025-tonghop2",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "B",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mất trạng thái và vị trí; cung cấp trạng thái 32 bit và vị trí đích mới, ghi rõ bài đã biên soạn lại. Áp bốn vị trí đầu P=(16,7,20,21), chỉ số bắt đầu từ 1.",
+      "reference_pages": [
+        96
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop3-23",
+      "exam": "de-cuong-2025-tonghop3",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "B",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. M=737 của nguồn không hợp lệ để bảo đảm giải mã; M=1009 và các nhiễu là dữ kiện biên soạn mới. Trang 188 ghi điều kiện M quá yếu, bổ sung bằng điều kiện chuẩn M>tổng dãy. Sửa miền hoán vị thành 1..7 và chọn M=1009>958, gcd(317,1009)=1. Tính đủ bảy phần tử khóa công khai theo đúng chiều hoán vị.",
+      "reference_pages": [
+        188
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop4-8",
+      "exam": "de-cuong-2025-tonghop4",
+      "old": null,
+      "old_source_marked": "A",
+      "new": "A",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn chỉ cho bản mã, không xác định được khóa duy nhất; bản rõ LOVELYDAY là điều kiện bổ sung mới, không coi là được chứng minh từ nguồn. Bổ sung một cặp bản rõ–bản mã đầy đủ, thử độc lập mọi khóa trên từng ký tự.",
+      "reference_pages": [
+        40
+      ]
+    },
+    {
+      "id": "nmmmh-de-cuong-2025-tonghop4-20",
+      "exam": "de-cuong-2025-tonghop4",
+      "old": null,
+      "old_source_marked": "B",
+      "new": "B",
+      "reason": "Kiểm đếm lại cho thấy khóa MATMADEMAKHOTHAT và bản mã ĐỀU CÓ 16 ký tự; nhận định cũ khóa chỉ dài 15 là sai. Giữ nguyên khóa, bản mã và phương án; áp Vernam chữ Latin modulo 26 theo tài liệu.",
+      "reference_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-5",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Thân câu gốc mất hoàn toàn; ĐÚNG và full-block là yêu cầu biên soạn mới, không phải nguyên văn phục hồi. Chọn yêu cầu ĐÚNG cho bài biên soạn lại, xét CFB full-block để phát biểu định nghĩa rõ ràng.",
+      "reference_pages": [
+        143,
+        144,
+        145
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-1-9",
+      "exam": "de-giua-ki-2026-ca-1",
+      "old": null,
+      "old_source_marked": null,
+      "new": "B",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Không thể xác nhận thuật toán nào thích hợp hơn với mọi phần cứng; thay tiêu chí đó bằng định nghĩa mã dòng từ tài liệu. Thay so sánh phần cứng không có thước đo bằng định nghĩa thuật toán đủ chặt chẽ.",
+      "reference_pages": [
+        28,
+        152,
+        153,
+        155
+      ]
+    },
+    {
+      "id": "nmmmh-de-giua-ki-2026-ca-2-30",
+      "exam": "de-giua-ki-2026-ca-2",
+      "old": null,
+      "old_source_marked": null,
+      "new": "C",
+      "reason": "BIÊN SOẠN LẠI THEO CHẤP THUẬN CỦA NGƯỜI DÙNG; không coi dữ kiện bổ sung là nguyên văn nguồn. Nguồn mâu thuẫn 41/97. Chọn công khai modulo 97 cho phiên bản mới, không khẳng định đó là ý định gốc. Đếm trực tiếp tập bình phương khác 0 modulo 97; so với công thức (97−1)/2.",
+      "reference_pages": [
+        178
+      ]
+    }
+  ],
+  "pending": {}
+}
