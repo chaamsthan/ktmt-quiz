@@ -1,0 +1,781 @@
+[
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-1",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q01-p02-stem.png",
+    "sha256": "f00d793274cfdf52f38798eac2a77089105aeade815c040b85dd240f37c632d9",
+    "source_sha256": "83e285f672c9e8b82e93ded0c07b5a8169702db60ebb7e64dd6ac973a384f526",
+    "source_page": 2,
+    "source_box_pixels": [
+      448,
+      145,
+      830,
+      194
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-2",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q02-p02-stem.png",
+    "sha256": "df74a13912d2c216e83951aeb4aa819ab2359137c87b9fdbc107805c2de20291",
+    "source_sha256": "83e285f672c9e8b82e93ded0c07b5a8169702db60ebb7e64dd6ac973a384f526",
+    "source_page": 2,
+    "source_box_pixels": [
+      448,
+      395,
+      832,
+      522
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-3",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q03-p01-stem.png",
+    "sha256": "dc0180bf7116360ea1bcb426b9418480fd2d3d9283d0321d39795eee649eb510",
+    "source_sha256": "0be4a97b1852b8045a4aa656dcd44a00cd6c2e0f9a2666b258b597152b495004",
+    "source_page": 1,
+    "source_box_pixels": [
+      448,
+      160,
+      829,
+      358
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-6",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q06-p03-stem.png",
+    "sha256": "b7d360e6d7e6a73c3d4fd4748231862b0391bc0f0f1d3314b81a5ebd1bb92e0e",
+    "source_sha256": "0c9cf198d8bd95bc7c6b91683cbc515d316877a1e3b6ee78a601ea1a4cc3c882",
+    "source_page": 3,
+    "source_box_pixels": [
+      448,
+      345,
+      830,
+      536
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-8",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q08-p04-stem.png",
+    "sha256": "ea95d5cbc6ce7c49c0e67c3bc6ec5fdb6b25a4497399cea3d27cb09979b8133d",
+    "source_sha256": "b4ae641f0ef9df79df692bf6fca77e06d80df7518c9225fa112ade6294e95f7e",
+    "source_page": 4,
+    "source_box_pixels": [
+      448,
+      451,
+      831,
+      514
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-10",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q10-p05-stem.png",
+    "sha256": "176f9dd15fa86ba24257fe1e75b4d51688677c11ed67ccfc54ed0cd803595628",
+    "source_sha256": "5ab37b4d2d2c639f0ea6871eabf370dbbc80a15d2b3278f69c302714b5cf1885",
+    "source_page": 5,
+    "source_box_pixels": [
+      448,
+      411,
+      829,
+      450
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-11",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q11-p06-stem.png",
+    "sha256": "49036841a8aa38854d96053edf571a2a42e7286deeefe83ee318ec8ec33b297e",
+    "source_sha256": "2cc8ff10eb448f995595659ff73e2c13ed80ef0e869ec4a1367e7a84ce18ed3c",
+    "source_page": 6,
+    "source_box_pixels": [
+      448,
+      247,
+      829,
+      290
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-12",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q12-p06-stem.png",
+    "sha256": "66670718a95d91f50aef1faaf1eb8ceca71c7d759963d6bf132939dd5bdc57d6",
+    "source_sha256": "2cc8ff10eb448f995595659ff73e2c13ed80ef0e869ec4a1367e7a84ce18ed3c",
+    "source_page": 6,
+    "source_box_pixels": [
+      448,
+      498,
+      830,
+      553
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-13",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q13-p07-stem.png",
+    "sha256": "28e5863191e5a0c38460197a9d2ac6ceed4927fe87704a8b22b4aff7632e97f2",
+    "source_sha256": "42ab1e7c2f30c4ccb23085721c92fcff5784acaf8f8d57cc42dcf528be0b2533",
+    "source_page": 7,
+    "source_box_pixels": [
+      448,
+      104,
+      830,
+      352
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-15",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q15-p08-stem.png",
+    "sha256": "f95fefa431fd984d89f406d141eff4a57edfcb97bc79ad2de25b1e287bc6072d",
+    "source_sha256": "5b6decbddf7ed8cd43236ced848b6cf88d25d9e8b7f5111f7542de5d8bb6688c",
+    "source_page": 8,
+    "source_box_pixels": [
+      448,
+      185,
+      832,
+      344
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-17",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q17-p09-stem.png",
+    "sha256": "3ec1d5ebeb79688778629448a64e47542363d65cfb56f338201d86d6bb09f0c6",
+    "source_sha256": "a4cb93ceb9213b73cc5fd5c871bb3ef97c8f0d9ae396b97f9bf8cb09acf72a56",
+    "source_page": 9,
+    "source_box_pixels": [
+      448,
+      158,
+      830,
+      303
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-20",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q20-p10-stem.png",
+    "sha256": "2a60f8331f4af25d839d5949136a8645161ec68046d90c4a45c718793df357ed",
+    "source_sha256": "8a8535e752e4612f7db3d07fe959aec19c1b0793069bc0246299662b19137f6f",
+    "source_page": 10,
+    "source_box_pixels": [
+      448,
+      432,
+      830,
+      567
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-24",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q24-p11-stem.png",
+    "sha256": "9439138f044c960f9ae779ba812b02ef7e35e513fdb5c35034075aaaf7e3b10e",
+    "source_sha256": "f7decaab728f30dc582878eb4326879439b4b94e990a5cfa6f601c9a94e9ebc8",
+    "source_page": 11,
+    "source_box_pixels": [
+      448,
+      116,
+      830,
+      188
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-27",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q27-p12-stem.png",
+    "sha256": "b29867ab239419ceb705ac4ee5f365683c313c925ce6cbb1bd16f994265c02f7",
+    "source_sha256": "451e00daa4578b4a416e19cd0257b018e28e291122b108e89d3f1dfc7c476530",
+    "source_page": 12,
+    "source_box_pixels": [
+      448,
+      187,
+      830,
+      228
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-28",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q28-p12-stem.png",
+    "sha256": "23844238ef3a2780088ce01f2accad05a5f499bcd5f341de0a1fd605d6759beb",
+    "source_sha256": "451e00daa4578b4a416e19cd0257b018e28e291122b108e89d3f1dfc7c476530",
+    "source_page": 12,
+    "source_box_pixels": [
+      448,
+      423,
+      833,
+      649
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-30",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q30-p13-stem.png",
+    "sha256": "15f2814e6dbc27cd587f9b58c397b8b680c3714ac0d24d4f7e731b4ec3c7bde1",
+    "source_sha256": "48b094d5b356c71df74414f407edd4ba9e787de71432be54cabd257bc6bee040",
+    "source_page": 13,
+    "source_box_pixels": [
+      448,
+      468,
+      830,
+      510
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-31",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q31-p14-stem.png",
+    "sha256": "a7684d762bf287bf90922aaff1d1ec0549c450d7475a28728626705c1cb0c4e6",
+    "source_sha256": "8ca002c35d96e8e7d22baa028700e716336a5641aca4f99f080a7a959b3ec966",
+    "source_page": 14,
+    "source_box_pixels": [
+      448,
+      147,
+      830,
+      263
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-32",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q32-p14-stem.png",
+    "sha256": "653dca3e70cf9106a8ebf0f78134f1dbd0ff82b902005f1bac3db3502e30cbdf",
+    "source_sha256": "8ca002c35d96e8e7d22baa028700e716336a5641aca4f99f080a7a959b3ec966",
+    "source_page": 14,
+    "source_box_pixels": [
+      448,
+      469,
+      830,
+      617
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-33",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q33-p15-stem.png",
+    "sha256": "468223542246deefec1cc5b47e91d3a7149c5a97174624e23fafde8b714b2c7b",
+    "source_sha256": "ac2565ff88cfcad83903f7636b64d376fe3eaa05325dce259f2ef772acd7511a",
+    "source_page": 15,
+    "source_box_pixels": [
+      448,
+      175,
+      831,
+      265
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-34",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q34-p15-stem.png",
+    "sha256": "f33b6dc9e1e0a284a656b0f3b2876fdbc78dac3654aec121bcfacb20b5637070",
+    "source_sha256": "ac2565ff88cfcad83903f7636b64d376fe3eaa05325dce259f2ef772acd7511a",
+    "source_page": 15,
+    "source_box_pixels": [
+      448,
+      463,
+      831,
+      599
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-1-37",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-1/q37-p16-stem.png",
+    "sha256": "dbb6216d7b96ea0676759884de4066217438f4e1d2795ba8778ce63ea511ff95",
+    "source_sha256": "d1e82ff691f0022a34df67f6b84e6427a3d0d6ef9cdedd4a06db08d4cc2497f6",
+    "source_page": 16,
+    "source_box_pixels": [
+      448,
+      529,
+      831,
+      581
+    ],
+    "source_size": [
+      1240,
+      697
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-1",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q01-p05-stem.png",
+    "sha256": "41fab79e817370fa0ee5893b1be829fd29329c4ae30655cb5a9d8698ebe71875",
+    "source_sha256": "53fa6d6a368f466b8246147bf498717559860cf3805f04d77e2e29162001c0ff",
+    "source_page": 5,
+    "source_box_pixels": [
+      512,
+      342,
+      1326,
+      413
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-2",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q02-p06-stem.png",
+    "sha256": "01ccccdc3118dcb06005eee7b3de213f98293c8dc0ff128bf2b39dddbad751c8",
+    "source_sha256": "602bb53c4b4c9f251e226eb419bf2d0ee31e0c46052cf011f07f56cecd0b5df4",
+    "source_page": 6,
+    "source_box_pixels": [
+      512,
+      313,
+      1326,
+      625
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-3",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q03-p07-stem.png",
+    "sha256": "5e40c7bf57f32d24794037467b01428180f83fae8c0575b6e461662a73ebf175",
+    "source_sha256": "4c40bad969c764c147f123db0c6235a7787a7b337e06704632d30e5657042108",
+    "source_page": 7,
+    "source_box_pixels": [
+      512,
+      259,
+      1319,
+      300
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-7",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q07-p09-stem.png",
+    "sha256": "dfffbd34a248389721455f9b7cfa3ae8aa3cf6e7ee843d959ce1b174be7e389b",
+    "source_sha256": "ff5aa6365812e622a6906c399fcb2848b3e1890a6f04ab11f54760699fa86db8",
+    "source_page": 9,
+    "source_box_pixels": [
+      512,
+      345,
+      1319,
+      727
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-16",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q16-p13-stem.png",
+    "sha256": "dcf0ca0002865a38e658960c5ee464ba63faa3256498fa0de8166740b069bf92",
+    "source_sha256": "89304b64d5effb19f77f5ef76ef61a19cb15ee7f869cb15d2be6dd02faa169a0",
+    "source_page": 13,
+    "source_box_pixels": [
+      512,
+      352,
+      1319,
+      437
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-17",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p14-stem.png",
+    "sha256": "052f97edf50b230fdf173888e88ccc99340fbe69fdee8505c7872832bd4de856",
+    "source_sha256": "40b30ee924ef61cef5024484ff4cb9af4f7e3d22859cfa80be5e2158b864ae27",
+    "source_page": 14,
+    "source_box_pixels": [
+      509,
+      273,
+      1320,
+      987
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-17",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p15-stem.png",
+    "sha256": "804fb2820883f6cd25765a94c0a1aafa5f7500721661bbb6e89caa73283f666a",
+    "source_sha256": "12da6ea8c492229d8d19e5bf66d2deed18e7d92fddd3b31a4e0520009ea33a99",
+    "source_page": 15,
+    "source_box_pixels": [
+      512,
+      166,
+      1319,
+      225
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-19",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q19-p16-stem.png",
+    "sha256": "5dde1a3cfab626f1dbbf5f22e79b9b5f815e3a569e73d6bb2c6f0fb9fdcaee6f",
+    "source_sha256": "efdf3409ba5d7bf7dbbc8c89d6eb40cbdc83ac461e80f43283b1afb2f5801375",
+    "source_page": 16,
+    "source_box_pixels": [
+      512,
+      435,
+      1319,
+      720
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-20",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q20-p17-stem.png",
+    "sha256": "7784216a12a4afda2aa61496ed79cb21473452683b246f5845308041f945ef0a",
+    "source_sha256": "90d374bcde5c1e815c6279224e7e00e3bc0de7ce29d4b182d1ec25bd06c041ef",
+    "source_page": 17,
+    "source_box_pixels": [
+      512,
+      360,
+      1319,
+      545
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-25",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q25-p20-stem.png",
+    "sha256": "5983bbe8079eb1b626bb40fdee53479fc714c2b6f722b10b7f89d77d39923323",
+    "source_sha256": "0c829a82d9054d266cb09b9c70e0f5284c0c42b605e0a380d7ad92b6c8c33788",
+    "source_page": 20,
+    "source_box_pixels": [
+      512,
+      334,
+      1319,
+      577
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-26",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q26-p21-stem.png",
+    "sha256": "9bbb727c3e6ecd7eee36209476f25c95f6b258ebca4cc1a391a8c59d016d2cbe",
+    "source_sha256": "f7272dca4f961b743c5b70f08f31abeda33b8e6d6a7a19357f0065d821c2e1c3",
+    "source_page": 21,
+    "source_box_pixels": [
+      512,
+      480,
+      1319,
+      654
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-28",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q28-p22-stem.png",
+    "sha256": "c68d95597d625ee6320ce6e968e8efac28f16c24eab8480cfdeed12fb26741cc",
+    "source_sha256": "e18e9e27f69f064adc12b8236516c94267caf8b1eb019bf16a0be1901c3c9ccb",
+    "source_page": 22,
+    "source_box_pixels": [
+      512,
+      233,
+      1319,
+      678
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-29",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q29-p23-stem.png",
+    "sha256": "17decb3a87fe53140274cd3805882467f6ff1c1593686aa84d495a25b8516211",
+    "source_sha256": "9263edb91c58e40be206812f9271d8bbfe5721a1e4a15d3b591d108a6af7b0a5",
+    "source_page": 23,
+    "source_box_pixels": [
+      512,
+      317,
+      1319,
+      499
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-30",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q30-p24-stem.png",
+    "sha256": "6151a0f8f57bf25822d40413d150ff1ae8cb97cb02902255f01ed35423aefca3",
+    "source_sha256": "853c69252732c78f18af11385141b7e2761d7ee7525ee6411cfd7ba976228f3f",
+    "source_page": 24,
+    "source_box_pixels": [
+      512,
+      191,
+      1320,
+      255
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-33",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q33-p26-stem.png",
+    "sha256": "16e3477618c249d540856b0dff80533be738257545fb02f784394852c74ec589",
+    "source_sha256": "ffe5fd171cf2052ac7a92c00896b0799e92867fc63d1b6b34e6cd69208e96b66",
+    "source_page": 26,
+    "source_box_pixels": [
+      512,
+      296,
+      1319,
+      694
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-34",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q34-p27-stem.png",
+    "sha256": "89fd83ef84bfbed4fa128d2e417e3175e5ff511150cae1dd43c1f5af7af9c6d6",
+    "source_sha256": "051a045d373cd0d282ec99cb0bc78c9cdaf789909b3e729d61334cb3a83b727e",
+    "source_page": 27,
+    "source_box_pixels": [
+      512,
+      337,
+      1319,
+      877
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-37",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q37-p03-stem.png",
+    "sha256": "6864828b56fc9b40203332d6ffacce45cfee59c2570654802847b44a0f15c54e",
+    "source_sha256": "820c30c2bc7172a08b64d61c380f54560a89a15232dc1fe9e9cbcd514ef0e250",
+    "source_page": 3,
+    "source_box_pixels": [
+      512,
+      339,
+      1320,
+      584
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-38",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q38-p04-stem.png",
+    "sha256": "7dd671b14d2de803a0555c5a3e39b69f794f11f53b7f859ef55bd783a36d64a8",
+    "source_sha256": "0b1db959bcf7be04c978732ef31b741fad34d0d8896a0e65240bb1b7d03ae1c6",
+    "source_page": 4,
+    "source_box_pixels": [
+      512,
+      219,
+      1319,
+      286
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-39",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q39-p04-stem.png",
+    "sha256": "981ca7816c2b5001863e3244ff851ea79207018fba6b59e1033827b480c79de8",
+    "source_sha256": "0b1db959bcf7be04c978732ef31b741fad34d0d8896a0e65240bb1b7d03ae1c6",
+    "source_page": 4,
+    "source_box_pixels": [
+      512,
+      730,
+      1319,
+      819
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  },
+  {
+    "question_id": "nmmmh-de-giua-ki-2026-ca-2-40",
+    "path": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q40-p29-stem.png",
+    "sha256": "a8f3c1aef5a2ab307311a9d4df4a6780b7355a9ff30795790b73425d85dcbaf7",
+    "source_sha256": "a408b0ebf3ad4bd7cb790b37f8354c6128d00171d78c5f63bf82b851b7509a92",
+    "source_page": 29,
+    "source_box_pixels": [
+      512,
+      457,
+      1319,
+      704
+    ],
+    "source_size": [
+      1754,
+      987
+    ],
+    "resized": false,
+    "visual_review": "visually_compared_final_crop_with_original_page"
+  }
+]

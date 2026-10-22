@@ -1,0 +1,5967 @@
+[
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-1",
+    "source_question_number": "1",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 0,
+    "source_page": 5,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        5
+      ]
+    },
+    "question": "Trong AES, tính 60_H × 8_H trên GF(2^8) với đa thức rút gọn AES.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong AES, tính 60_H × 8_H trên GF(2^8) với đa thức rút gọn AES."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q01-p05-stem.png",
+        "alt": "Hình gốc câu 1, ca 2, trang 5"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "45",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "45"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "45"
+        }
+      ]
+    },
+    "B": {
+      "text": "34",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "34"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "34"
+        }
+      ]
+    },
+    "C": {
+      "text": "5A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "5A"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "5A"
+        }
+      ]
+    },
+    "D": {
+      "text": "A6",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A6"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A6"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "2D",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "45",
+        "B": "34",
+        "C": "5A",
+        "D": "A6"
+      }
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Kết quả tính độc lập: \"2D\". Các phương án khớp: [].",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Kết quả tính độc lập: \"2D\". Các phương án khớp: [].",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.08",
+      "name": "AES – toán học GF(2^8) và xtime"
+    },
+    "study_topic": "Phép toán trong GF(2^8)",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Nhân 08 tương đương áp xtime ba lần cho 60 ở hệ hex; rút gọn sau mỗi lần dịch.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "math",
+        "text": "Trong AES, tính 60_H × 8_H trên GF(2^{8}) với đa thức rút gọn AES."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q01-p05-stem.png",
+        "alt": "Hình gốc câu 1, ca 2, trang 5"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q01-p05-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-2",
+    "source_question_number": "2",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 1,
+    "source_page": 5,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "question": "Chọn đáp án ĐÚNG với n=pq, p,q là hai số nguyên tố p≠q. (Những công thức trong hình.)",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án ĐÚNG với n=pq, p,q là hai số nguyên tố p≠q. (Những công thức trong hình.)"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q02-p06-stem.png",
+        "alt": "Hình gốc câu 2, ca 2, trang 6"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "B": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "C": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "D": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "correct_answer": "C",
+    "needs_review": true,
+    "review_reasons": [
+      "Công thức cần giả thiết p,q lẻ; nguồn chưa nêu điều kiện này."
+    ],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Với p,q lẻ, CRT cho |Q_n|=(p−1)(q−1)/4, nhãn C.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Với p,q lẻ, CRT cho |Q_n|=(p−1)(q−1)/4, nhãn C.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Đếm bình phương khác 0 theo từng modulo nguyên tố lẻ rồi dùng CRT; chú ý điều kiện p,q lẻ.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án ĐÚNG với n=pq, p,q là hai số nguyên tố p≠q. (Những công thức trong hình.)"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q02-p06-stem.png",
+        "alt": "Hình gốc câu 2, ca 2, trang 6"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q02-p06-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-3",
+    "source_question_number": "3",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 2,
+    "source_page": 7,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        7
+      ]
+    },
+    "question": "Tính xtime(D3)_H. Đáp án hex ghi đủ hai ký tự.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Tính xtime(D3)_H. Đáp án hex ghi đủ hai ký tự."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q03-p07-stem.png",
+        "alt": "Hình gốc câu 3, ca 2, trang 7"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "CA",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CA"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "CA"
+        }
+      ]
+    },
+    "B": {
+      "text": "BD",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "BD"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "BD"
+        }
+      ]
+    },
+    "C": {
+      "text": "3B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3B"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "3B"
+        }
+      ]
+    },
+    "D": {
+      "text": "33",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "33"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "33"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "BD",
+      "valid_options": [
+        "B"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "CA",
+        "B": "BD",
+        "C": "3B",
+        "D": "33"
+      }
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"BD\". Các phương án khớp: ['B'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"BD\". Các phương án khớp: ['B'].",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.08",
+      "name": "AES – toán học GF(2^8) và xtime"
+    },
+    "study_topic": "Phép toán trong GF(2^8)",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: D3 có bit cao 1; sau dịch trái phải rút gọn theo đa thức AES, không chỉ bỏ bit tràn.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Tính xtime(D3)_H. Đáp án hex ghi đủ hai ký tự."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q03-p07-stem.png",
+        "alt": "Hình gốc câu 3, ca 2, trang 7"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q03-p07-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-4",
+    "source_question_number": "4",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 3,
+    "source_page": 7,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        7
+      ]
+    },
+    "question": "Chọn đáp án ĐÚNG về nhược điểm của mạng Feistel:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án ĐÚNG về nhược điểm của mạng Feistel:"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Chưa đáp ứng được đủ hai yêu cầu của Shannon về tính xáo trộn và khuếch tán",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chưa đáp ứng được đủ hai yêu cầu của Shannon về tính xáo trộn và khuếch tán"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Chưa đáp ứng được đủ hai yêu cầu của Shannon về tính xáo trộn và khuếch tán"
+        }
+      ]
+    },
+    "B": {
+      "text": "Không tạo ra sự khuếch tán dữ liệu khi mã hóa",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Không tạo ra sự khuếch tán dữ liệu khi mã hóa"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Không tạo ra sự khuếch tán dữ liệu khi mã hóa"
+        }
+      ]
+    },
+    "C": {
+      "text": "Mỗi vòng mã hóa chỉ thực hiện biến đổi nửa phải của khối dữ liệu nên cần số vòng mã hóa lớn để đảm bảo an toàn của hệ mật, điều này làm giảm đáng kể tốc độ mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi vòng mã hóa chỉ thực hiện biến đổi nửa phải của khối dữ liệu nên cần số vòng mã hóa lớn để đảm bảo an toàn của hệ mật, điều này làm giảm đáng kể tốc độ mã."
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi vòng mã hóa chỉ thực hiện biến đổi nửa phải của khối dữ liệu nên cần số vòng mã hóa lớn để đảm bảo an toàn của hệ mật, điều này làm giảm đáng kể tốc độ mã."
+        }
+      ]
+    },
+    "D": {
+      "text": "Quá trình mã và giải mã có trình tự giống nhau chỉ khác nhau thứ tự khóa sử dụng nên dễ bị tấn công hơn.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quá trình mã và giải mã có trình tự giống nhau chỉ khác nhau thứ tự khóa sử dụng nên dễ bị tấn công hơn."
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Quá trình mã và giải mã có trình tự giống nhau chỉ khác nhau thứ tự khóa sử dụng nên dễ bị tấn công hơn."
+        }
+      ]
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Phép cập nhật Feistel chỉ áp f lên một nửa khối mỗi vòng; số vòng cần để khuếch tán là đánh đổi cấu trúc, không phải bằng chứng yếu vì giải mã dùng chung cấu trúc.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Phép cập nhật Feistel chỉ áp f lên một nửa khối mỗi vòng; số vòng cần để khuếch tán là đánh đổi cấu trúc, không phải bằng chứng yếu vì giải mã dùng chung cấu trúc.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.02",
+      "name": "DES – tổng quan và cấu trúc Feistel"
+    },
+    "study_topic": "Tổng quan DES và mạng Feistel",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Xét mỗi vòng biến đổi bao nhiêu phần của khối; đừng suy rằng dùng chung cấu trúc giải mã là yếu.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án ĐÚNG về nhược điểm của mạng Feistel:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-5",
+    "source_question_number": "5",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 4,
+    "source_page": 8,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        8
+      ]
+    },
+    "question": "Kích thước của hoán vị IP trong DES là:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Kích thước của hoán vị IP trong DES là:"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "4 × 16",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4 × 16"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "4 × 16"
+        }
+      ]
+    },
+    "B": {
+      "text": "7 × 8",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7 × 8"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "7 × 8"
+        }
+      ]
+    },
+    "C": {
+      "text": "8 × 8",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8 × 8"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "8 × 8"
+        }
+      ]
+    },
+    "D": {
+      "text": "8 × 6",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8 × 6"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "8 × 6"
+        }
+      ]
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Bảng IP chuẩn FIPS 46-3 được trình bày 8 hàng × 8 cột, phủ đủ 64 bit.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Bảng IP chuẩn FIPS 46-3 được trình bày 8 hàng × 8 cột, phủ đủ 64 bit.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box"
+    },
+    "study_topic": "Hàm f, hộp thế và hoán vị DES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Bảng IP chuẩn phủ toàn bộ bit của một khối DES; không nhầm với bảng PC-1 của khóa.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Kích thước của hoán vị IP trong DES là:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-6",
+    "source_question_number": "6",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 5,
+    "source_page": 8,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        8
+      ]
+    },
+    "question": "Chế độ mã khối nào có thể xử lí mã hóa song song?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Chế độ mã khối nào có thể xử lí mã hóa song song?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "ECB và CTR",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "ECB và CTR"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "ECB và CTR"
+        }
+      ]
+    },
+    "B": {
+      "text": "OFB và CTR",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "OFB và CTR"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "OFB và CTR"
+        }
+      ]
+    },
+    "C": {
+      "text": "CBC và CTR",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CBC và CTR"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "CBC và CTR"
+        }
+      ]
+    },
+    "D": {
+      "text": "ECB",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "ECB"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "ECB"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "A liệt kê hai chế độ đúng nhưng D cũng nêu một chế độ đúng; nếu yêu cầu duy nhất phải ghi “đầy đủ nhất”."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "A liệt kê hai chế độ đúng nhưng D cũng nêu một chế độ đúng; nếu yêu cầu duy nhất phải ghi “đầy đủ nhất”.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "A liệt kê hai chế độ đúng nhưng D cũng nêu một chế độ đúng; nếu yêu cầu duy nhất phải ghi “đầy đủ nhất”.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": null,
+    "study_topic": "Chế độ hoạt động của mã khối",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Viết phụ thuộc đầu vào giữa các khối; kiểm tra cả đáp án liệt kê nhiều chế độ lẫn đáp án chỉ liệt kê một.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Chế độ mã khối nào có thể xử lí mã hóa song song?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-7",
+    "source_question_number": "7",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 6,
+    "source_page": 9,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        9
+      ]
+    },
+    "question": "LFSR n=8, ban đầu (1,0,0,1,0,0,1,1), f=a1 XOR a2 XOR a4 XOR a6. Tìm a7…a0 tại t=1.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "LFSR n=8, ban đầu (1,0,0,1,0,0,1,1), f=a1 XOR a2 XOR a4 XOR a6. Tìm a7…a0 tại t=1."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q07-p09-stem.png",
+        "alt": "Hình gốc câu 7, ca 2, trang 9"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "011001001",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "011001001"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "011001001"
+        }
+      ]
+    },
+    "B": {
+      "text": "111001010",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "111001010"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "111001010"
+        }
+      ]
+    },
+    "C": {
+      "text": "110010010",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "110010010"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "110010010"
+        }
+      ]
+    },
+    "D": {
+      "text": "111001001",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "111001001"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "111001001"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Yêu cầu 8 bit nhưng tất cả phương án in 9 bit; không tự sửa chuỗi để chọn một phương án."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Yêu cầu 8 bit nhưng tất cả phương án in 9 bit; không tự sửa chuỗi để chọn một phương án.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Yêu cầu 8 bit nhưng tất cả phương án in 9 bit; không tự sửa chuỗi để chọn một phương án.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.06.02",
+      "name": "Đặc trưng dãy sinh của mã dòng"
+    },
+    "study_topic": "Thanh ghi dịch phản hồi tuyến tính",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đếm số bit phương án và số ô thanh ghi trước; nguồn đang lệch độ dài, không tự bỏ một bit.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "LFSR n=8, ban đầu (1,0,0,1,0,0,1,1), f=a1 XOR a2 XOR a4 XOR a6. Tìm a7…a0 tại t=1."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q07-p09-stem.png",
+        "alt": "Hình gốc câu 7, ca 2, trang 9"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q07-p09-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-8",
+    "source_question_number": "8",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 7,
+    "source_page": 10,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        10
+      ]
+    },
+    "question": "Sử dụng cách tấn công vét cạn hiệu quả khi",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Sử dụng cách tấn công vét cạn hiệu quả khi"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Không gian khóa tồn tại khóa nửa yếu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại khóa nửa yếu"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại khóa nửa yếu"
+        }
+      ]
+    },
+    "B": {
+      "text": "Không gian khóa có lực lượng nhỏ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa có lực lượng nhỏ"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa có lực lượng nhỏ"
+        }
+      ]
+    },
+    "C": {
+      "text": "Không gian khóa tồn tại khóa yếu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại khóa yếu"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại khóa yếu"
+        }
+      ]
+    },
+    "D": {
+      "text": "Không gian khóa tồn tại điểm bất động",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại điểm bất động"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Không gian khóa tồn tại điểm bất động"
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Số lần thử vét cạn tỷ lệ lực lượng không gian khóa; sự tồn tại khóa yếu không làm nhỏ toàn bộ không gian.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Số lần thử vét cạn tỷ lệ lực lượng không gian khóa; sự tồn tại khóa yếu không làm nhỏ toàn bộ không gian.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap1.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": null,
+    "study_topic": "Các khái niệm cơ bản của hệ mật",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Vét cạn thử toàn bộ không gian khóa; xét số lượng khóa hơn là sự tồn tại một vài khóa yếu.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Sử dụng cách tấn công vét cạn hiệu quả khi"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-9",
+    "source_question_number": "9",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 8,
+    "source_page": 10,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        10
+      ]
+    },
+    "question": "AES-256 thực hiện bao nhiêu vòng lặp?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "AES-256 thực hiện bao nhiêu vòng lặp?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "10",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ]
+    },
+    "B": {
+      "text": "12",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ]
+    },
+    "C": {
+      "text": "16",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "16"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "16"
+        }
+      ]
+    },
+    "D": {
+      "text": "14",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Nk=256/32=8, Nr=Nk+6=14 theo FIPS 197.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Nk=256/32=8, Nr=Nk+6=14 theo FIPS 197.",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.09",
+      "name": "AES – cấu trúc trạng thái và số vòng"
+    },
+    "study_topic": "Trạng thái và vòng mã hóa AES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đổi 256 bit ra Nk từ 32 bit, rồi dùng liên hệ Nr=Nk+6.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "AES-256 thực hiện bao nhiêu vòng lặp?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-10",
+    "source_question_number": "10",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 9,
+    "source_page": 1,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        1
+      ]
+    },
+    "question": "A và B sử dụng ElGamal, p=307. Khi mã hóa B chọn thêm số ngẫu nhiên k. B nên chọn k trong khoảng nào?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "A và B sử dụng ElGamal, p=307. Khi mã hóa B chọn thêm số ngẫu nhiên k. B nên chọn k trong khoảng nào?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "[0, 306]",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[0, 306]"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "[0, 306]"
+        }
+      ]
+    },
+    "B": {
+      "text": "[54, 150]",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[54, 150]"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "[54, 150]"
+        }
+      ]
+    },
+    "C": {
+      "text": "[45, 306]",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[45, 306]"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "[45, 306]"
+        }
+      ]
+    },
+    "D": {
+      "text": "[1, 307]",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "[1, 307]"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "[1, 307]"
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "HAC chọn k từ 1 đến p−2=305. B là khoảng duy nhất nằm hoàn toàn trong miền này; các khoảng khác chứa 0 hoặc p−1/p.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "HAC chọn k từ 1 đến p−2=305. B là khoảng duy nhất nằm hoàn toàn trong miền này; các khoảng khác chứa 0 hoặc p−1/p.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật ElGamal",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Kiểm tra cả hai đầu mỗi khoảng có nằm trong miền số mũ 1…p−2 hay không.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "A và B sử dụng ElGamal, p=307. Khi mã hóa B chọn thêm số ngẫu nhiên k. B nên chọn k trong khoảng nào?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-11",
+    "source_question_number": "11",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 10,
+    "source_page": 1,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        1
+      ]
+    },
+    "question": "Đâu là bản mã của ENGLISH bằng Vigenère với khóa NOW?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là bản mã của ENGLISH bằng Vigenère với khóa NOW?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "RBCYWQU",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWQU"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWQU"
+        }
+      ]
+    },
+    "B": {
+      "text": "RBCYWOU",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWOU"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWOU"
+        }
+      ]
+    },
+    "C": {
+      "text": "RBCYWOV",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWOV"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RBCYWOV"
+        }
+      ]
+    },
+    "D": {
+      "text": "RBCYTOU",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RBCYTOU"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RBCYTOU"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "RBCYWOU",
+      "valid_options": [
+        "B"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "RBCYWQU",
+        "B": "RBCYWOU",
+        "C": "RBCYWOV",
+        "D": "RBCYTOU"
+      }
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"RBCYWOU\". Các phương án khớp: ['B'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"RBCYWOU\". Các phương án khớp: ['B'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.06",
+      "name": "Hệ mật Vigenère"
+    },
+    "study_topic": "Mã Vigenère",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Lặp NOW dưới ENGLISH, cộng modulo 26 với A=0; thử chỗ phương án khác nhau trước.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là bản mã của ENGLISH bằng Vigenère với khóa NOW?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-12",
+    "source_question_number": "12",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 11,
+    "source_page": 11,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        11
+      ]
+    },
+    "question": "Khẳng định nào sau đây về mã khối là SAI?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mã khối là SAI?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Khóa của mã khối là đối xứng.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mã khối là đối xứng."
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mã khối là đối xứng."
+        }
+      ]
+    },
+    "B": {
+      "text": "Bản rõ có kích thước cố định",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bản rõ có kích thước cố định"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Bản rõ có kích thước cố định"
+        }
+      ]
+    },
+    "C": {
+      "text": "Hoạt động tương tự mã dòng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hoạt động tương tự mã dòng"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hoạt động tương tự mã dòng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã."
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã."
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "D sai với mã khối đối xứng; C không mô tả tương đồng cụ thể và cũng có thể sai theo cách phân loại của môn. Cần đáp án chuẩn/giải thích tiêu chí."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "D sai với mã khối đối xứng; C không mô tả tương đồng cụ thể và cũng có thể sai theo cách phân loại của môn. Cần đáp án chuẩn/giải thích tiêu chí.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "D sai với mã khối đối xứng; C không mô tả tương đồng cụ thể và cũng có thể sai theo cách phân loại của môn. Cần đáp án chuẩn/giải thích tiêu chí.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.07",
+      "name": "Phân biệt mã khối và mã dòng"
+    },
+    "study_topic": "Mã khối và mã dòng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Xét riêng phát biểu dùng cặp khóa và phát biểu tương đồng mã dòng; nguồn cần làm rõ tiêu chí.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mã khối là SAI?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-13",
+    "source_question_number": "13",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 12,
+    "source_page": 11,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        11
+      ]
+    },
+    "question": "Phương pháp mật mã lai nào hiệu quả nhất để trao đổi lượng lớn thông tin nhạy cảm?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Phương pháp mật mã lai nào hiệu quả nhất để trao đổi lượng lớn thông tin nhạy cảm?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Sử dụng khóa riêng của người gửi để kí và dùng khóa công khai của người nhận để mã hóa.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng khóa riêng của người gửi để kí và dùng khóa công khai của người nhận để mã hóa."
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng khóa riêng của người gửi để kí và dùng khóa công khai của người nhận để mã hóa."
+        }
+      ]
+    },
+    "B": {
+      "text": "Phối hợp sử dụng khóa công khai và khóa riêng của cả bên gửi và bên nhận một cách phù hợp để mã hóa/giải mã và kí số.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Phối hợp sử dụng khóa công khai và khóa riêng của cả bên gửi và bên nhận một cách phù hợp để mã hóa/giải mã và kí số."
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Phối hợp sử dụng khóa công khai và khóa riêng của cả bên gửi và bên nhận một cách phù hợp để mã hóa/giải mã và kí số."
+        }
+      ]
+    },
+    "C": {
+      "text": "Sử dụng khóa công khai của người nhận để mã hóa và dùng khóa riêng của người nhận để giải mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng khóa công khai của người nhận để mã hóa và dùng khóa riêng của người nhận để giải mã."
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng khóa công khai của người nhận để mã hóa và dùng khóa riêng của người nhận để giải mã."
+        }
+      ]
+    },
+    "D": {
+      "text": "Trao đổi khóa bí mật dùng hệ mật khóa công khai sau đó dùng khóa bí mật này để mã hóa thông điệp.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trao đổi khóa bí mật dùng hệ mật khóa công khai sau đó dùng khóa bí mật này để mã hóa thông điệp."
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Trao đổi khóa bí mật dùng hệ mật khóa công khai sau đó dùng khóa bí mật này để mã hóa thông điệp."
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Mật mã lai dùng hệ công khai để thiết lập/bọc khóa phiên, sau đó mã đối xứng xử lý khối dữ liệu lớn.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Mật mã lai dùng hệ công khai để thiết lập/bọc khóa phiên, sau đó mã đối xứng xử lý khối dữ liệu lớn.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap1.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 5. Vấn đề phân phối và thỏa thuận khóa",
+    "chapter_id": "5",
+    "chapter_ids": [
+      "5"
+    ],
+    "chapter_parent": {
+      "id": "5",
+      "name": "Vấn đề phân phối và thỏa thuận khóa"
+    },
+    "chapter_child": null,
+    "study_topic": "Phân phối khóa và mật mã lai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Dữ liệu lớn cần mã đối xứng nhanh; xác định phần việc nhỏ nào nên giao cho hệ công khai.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Phương pháp mật mã lai nào hiệu quả nhất để trao đổi lượng lớn thông tin nhạy cảm?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-14",
+    "source_question_number": "14",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 13,
+    "source_page": 12,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        12
+      ]
+    },
+    "question": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Tính sẵn sàng và chống chối bỏ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính sẵn sàng và chống chối bỏ"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính sẵn sàng và chống chối bỏ"
+        }
+      ]
+    },
+    "B": {
+      "text": "Tính bí mật, toàn vẹn và sẵn sàng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật, toàn vẹn và sẵn sàng"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật, toàn vẹn và sẵn sàng"
+        }
+      ]
+    },
+    "C": {
+      "text": "Tính bí mật",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật"
+        }
+      ]
+    },
+    "D": {
+      "text": "Tính bí mật và sẵn sàng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật và sẵn sàng"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật và sẵn sàng"
+        }
+      ]
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Phép mã hóa đối xứng đơn thuần cung cấp tính bí mật; không tự cung cấp khả dụng hay chống chối bỏ.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Phép mã hóa đối xứng đơn thuần cung cấp tính bí mật; không tự cung cấp khả dụng hay chống chối bỏ.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap1.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Mã hóa đơn thuần che nội dung; không tự bổ sung bảo đảm khả dụng hoặc chống chối bỏ.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-15",
+    "source_question_number": "15",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 14,
+    "source_page": 12,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        12
+      ]
+    },
+    "question": "Kích thước khóa mở rộng của AES-192 là bao nhiêu?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Kích thước khóa mở rộng của AES-192 là bao nhiêu?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "56 từ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "56 từ"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "56 từ"
+        }
+      ]
+    },
+    "B": {
+      "text": "44 từ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "44 từ"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "44 từ"
+        }
+      ]
+    },
+    "C": {
+      "text": "52 từ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "52 từ"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "52 từ"
+        }
+      ]
+    },
+    "D": {
+      "text": "50 từ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "50 từ"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "50 từ"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "52 từ",
+      "valid_options": [
+        "C"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "56 từ",
+        "B": "44 từ",
+        "C": "52 từ",
+        "D": "50 từ"
+      }
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"52 từ\". Các phương án khớp: ['C'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"52 từ\". Các phương án khớp: ['C'].",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.14",
+      "name": "AES – KeyExpansion"
+    },
+    "study_topic": "Mở rộng khóa AES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Tính 4×(Nr+1), kể cả khóa vòng khởi tạo; không chỉ đếm các vòng biến đổi.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Kích thước khóa mở rộng của AES-192 là bao nhiêu?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-16",
+    "source_question_number": "16",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 15,
+    "source_page": 13,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        13
+      ]
+    },
+    "question": "Tìm cấp của phần tử a=7 trên Z*59.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Tìm cấp của phần tử a=7 trên Z*59."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q16-p13-stem.png",
+        "alt": "Hình gốc câu 16, ca 2, trang 13"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "29",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "29"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "29"
+        }
+      ]
+    },
+    "B": {
+      "text": "58",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "58"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "58"
+        }
+      ]
+    },
+    "C": {
+      "text": "36",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "36"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "36"
+        }
+      ]
+    },
+    "D": {
+      "text": "14",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "29",
+      "valid_options": [
+        "A"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "29",
+        "B": "58",
+        "C": "36",
+        "D": "14"
+      }
+    },
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"29\". Các phương án khớp: ['A'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"29\". Các phương án khớp: ['A'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Bậc phải chia 58; thử các ước tăng dần và chọn số mũ dương nhỏ nhất cho dư 1.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Tìm cấp của phần tử a=7 trên \\(\\mathbb{Z}_{59}^{*}\\)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q16-p13-stem.png",
+        "alt": "Hình gốc câu 16, ca 2, trang 13"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q16-p13-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-17",
+    "source_question_number": "17",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 16,
+    "source_page": 13,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        13,
+        14,
+        15
+      ]
+    },
+    "question": "DES: K=0000 1010 1110 1001 1001 0110 1100 1101 1110 0010 0000 1111 0100 1011 1011 0011. Tìm bốn bit đầu PC-1(K).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "DES: K=0000 1010 1110 1001 1001 0110 1100 1101 1110 0010 0000 1111 0100 1011 1011 0011. Tìm bốn bit đầu PC-1(K)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p14-stem.png",
+        "alt": "Hình gốc câu 17, ca 2, trang 14"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p15-stem.png",
+        "alt": "Hình gốc câu 17, ca 2, trang 15"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "1001",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1001"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1001"
+        }
+      ]
+    },
+    "B": {
+      "text": "1011",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1011"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1011"
+        }
+      ]
+    },
+    "C": {
+      "text": "1010",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1010"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1010"
+        }
+      ]
+    },
+    "D": {
+      "text": "1110",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1110"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1110"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "1001",
+      "valid_options": [
+        "A"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "1001",
+        "B": "1011",
+        "C": "1010",
+        "D": "1110"
+      }
+    },
+    "correct_answer": "A",
+    "needs_review": true,
+    "review_reasons": [
+      "Bảng PC-1 trong nguồn bị ngắt giữa trang 14–15, hàng gần cuối không đủ; bốn vị trí cần tính ở hàng đầu vẫn đọc được."
+    ],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"1001\". Các phương án khớp: ['A'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"1001\". Các phương án khớp: ['A'].",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.04",
+      "name": "DES – sinh khóa con (Key Schedule)"
+    },
+    "study_topic": "Sinh khóa vòng DES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Bốn vị trí đầu PC-1 là 57,49,41,33; lấy đúng bit từ chuỗi khóa, đếm từ 1.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "DES: K=0000 1010 1110 1001 1001 0110 1100 1101 1110 0010 0000 1111 0100 1011 1011 0011. Tìm bốn bit đầu PC-1(K)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p14-stem.png",
+        "alt": "Hình gốc câu 17, ca 2, trang 14"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p15-stem.png",
+        "alt": "Hình gốc câu 17, ca 2, trang 15"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p14-stem.png",
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q17-p15-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-18",
+    "source_question_number": "18",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 17,
+    "source_page": 15,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        15
+      ]
+    },
+    "question": "Thuật toán DES có bao nhiêu hộp thế?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Thuật toán DES có bao nhiêu hộp thế?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "14",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "14"
+        }
+      ]
+    },
+    "B": {
+      "text": "12",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ]
+    },
+    "C": {
+      "text": "10",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ]
+    },
+    "D": {
+      "text": "8",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "8"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "8"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "DES chia đầu vào 48 bit thành tám khối 6 bit, qua S1..S8.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "DES chia đầu vào 48 bit thành tám khối 6 bit, qua S1..S8.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box"
+    },
+    "study_topic": "Hàm f, hộp thế và hoán vị DES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Chia 48 bit sau mở rộng E thành các nhóm đầu vào S-box, không lấy số vòng làm số hộp.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Thuật toán DES có bao nhiêu hộp thế?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-19",
+    "source_question_number": "19",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 18,
+    "source_page": 16,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        16
+      ]
+    },
+    "question": "Cho biết x10 và x21 sau ShiftRows trên trạng thái AES trong hình.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Cho biết x10 và x21 sau ShiftRows trên trạng thái AES trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q19-p16-stem.png",
+        "alt": "Hình gốc câu 19, ca 2, trang 16"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "A3, FE",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A3, FE"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A3, FE"
+        }
+      ]
+    },
+    "B": {
+      "text": "26, 9F",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "26, 9F"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "26, 9F"
+        }
+      ]
+    },
+    "C": {
+      "text": "3F, 20",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3F, 20"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "3F, 20"
+        }
+      ]
+    },
+    "D": {
+      "text": "EE, 6C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "EE, 6C"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "EE, 6C"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "A3, FE",
+      "valid_options": [
+        "A"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "A3, FE",
+        "B": "26, 9F",
+        "C": "3F, 20",
+        "D": "EE, 6C"
+      }
+    },
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"A3, FE\". Các phương án khớp: ['A'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"A3, FE\". Các phương án khớp: ['A'].",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.11",
+      "name": "AES – ShiftRows / InvShiftRows"
+    },
+    "study_topic": "ShiftRows",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Dịch hàng 1 và 2 sang trái tương ứng 1 và 2 byte; đọc đúng cặp x10,x21.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Cho biết x10 và x21 sau ShiftRows trên trạng thái AES trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q19-p16-stem.png",
+        "alt": "Hình gốc câu 19, ca 2, trang 16"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q19-p16-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-20",
+    "source_question_number": "20",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 19,
+    "source_page": 17,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        17
+      ]
+    },
+    "question": "Độ phức tạp vét cạn giải bài toán xếp ba lô với n phần tử (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Độ phức tạp vét cạn giải bài toán xếp ba lô với n phần tử (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q20-p17-stem.png",
+        "alt": "Hình gốc câu 20, ca 2, trang 17"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "B": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "C": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "D": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Mỗi phần tử có hai trạng thái lấy/không lấy, tổng 2^n tập con; nhãn D là lựa chọn thứ nhất.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Mỗi phần tử có hai trạng thái lấy/không lấy, tổng 2^n tập con; nhãn D là lựa chọn thứ nhất.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật Merkle–Hellman và bài toán ba lô",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Mỗi đồ vật có hai lựa chọn lấy/không; đếm toàn bộ tập con thay vì số hoán vị.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Độ phức tạp vét cạn giải bài toán xếp ba lô với n phần tử (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q20-p17-stem.png",
+        "alt": "Hình gốc câu 20, ca 2, trang 17"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q20-p17-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-21",
+    "source_question_number": "21",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 20,
+    "source_page": 17,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        17,
+        18
+      ]
+    },
+    "question": "Mật mã có tác dụng",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Mật mã có tác dụng"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu."
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu."
+        }
+      ]
+    },
+    "B": {
+      "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu."
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu."
+        }
+      ]
+    },
+    "C": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu."
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu."
+        }
+      ]
+    },
+    "D": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu."
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu."
+        }
+      ]
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Các cơ chế mật mã có thể cung cấp bí mật, toàn vẹn và xác thực; không bảo đảm hệ thống luôn sẵn sàng/kịp thời.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Các cơ chế mật mã có thể cung cấp bí mật, toàn vẹn và xác thực; không bảo đảm hệ thống luôn sẵn sàng/kịp thời.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap1.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Tách toàn vẹn/xác thực/bí mật khỏi việc duy trì dịch vụ sẵn sàng và kịp thời.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Mật mã có tác dụng"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-22",
+    "source_question_number": "22",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 21,
+    "source_page": 18,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        18
+      ]
+    },
+    "question": "Khẳng định nào sau đây ĐÚNG về hệ mật mã đối xứng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây ĐÚNG về hệ mật mã đối xứng?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa."
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa."
+        }
+      ]
+    },
+    "B": {
+      "text": "Hai bên thỏa thuận trước để dùng chung một khóa.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên thỏa thuận trước để dùng chung một khóa."
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên thỏa thuận trước để dùng chung một khóa."
+        }
+      ]
+    },
+    "C": {
+      "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung"
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Trong mô hình mã đối xứng cơ bản, hai bên dùng chung bí mật hoặc các khóa dễ suy ra nhau.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Trong mô hình mã đối xứng cơ bản, hai bên dùng chung bí mật hoặc các khóa dễ suy ra nhau.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap1.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.06",
+      "name": "Mật mã đối xứng và bất đối xứng"
+    },
+    "study_topic": "Phân loại mật mã: đối xứng/bất đối xứng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt khóa dùng chung với hai khóa riêng độc lập; xem bước thỏa thuận trước.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây ĐÚNG về hệ mật mã đối xứng?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-23",
+    "source_question_number": "23",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 22,
+    "source_page": 19,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        19
+      ]
+    },
+    "question": "RSA p=37,q=53,e=19,d=1675. Số điểm bất động ứng với tham số này là:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "RSA p=37,q=53,e=19,d=1675. Số điểm bất động ứng với tham số này là:"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "12",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "12"
+        }
+      ]
+    },
+    "B": {
+      "text": "57",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "57"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "57"
+        }
+      ]
+    },
+    "C": {
+      "text": "24",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "24"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "24"
+        }
+      ]
+    },
+    "D": {
+      "text": "10",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "10"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "57",
+      "valid_options": [
+        "B"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "12",
+        "B": "57",
+        "C": "24",
+        "D": "10"
+      }
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"57\". Các phương án khớp: ['B'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"57\". Các phương án khớp: ['B'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật RSA",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Dùng (1+gcd(e−1,p−1))(1+gcd(e−1,q−1)); không cần mã hóa thử mọi thông điệp.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "RSA p=37,q=53,e=19,d=1675. Số điểm bất động ứng với tham số này là:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-24",
+    "source_question_number": "24",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 23,
+    "source_page": 19,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        19
+      ]
+    },
+    "question": "Lựa chọn đáp án ĐÚNG cho thành phần khóa riêng Merkle–Hellman:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án ĐÚNG cho thành phần khóa riêng Merkle–Hellman:"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "(109 114 227 453 905 1809)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(109 114 227 453 905 1809)"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(109 114 227 453 905 1809)"
+        }
+      ]
+    },
+    "B": {
+      "text": "(109 115 227 454 905 1810)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(109 115 227 454 905 1810)"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(109 115 227 454 905 1810)"
+        }
+      ]
+    },
+    "C": {
+      "text": "(109 114 227 453 905 1809)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(109 114 227 453 905 1809)"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(109 114 227 453 905 1809)"
+        }
+      ]
+    },
+    "D": {
+      "text": "(109 112 223 453 895 1819)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(109 112 223 453 895 1819)"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(109 112 223 453 895 1819)"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "strict_superincreasing_check_all_options",
+      "computed": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false
+      },
+      "valid_options": [
+        "A",
+        "C"
+      ],
+      "complete": true
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Hai lựa chọn A,C giống nhau và đều là dãy siêu tăng; không thể chấm một nhãn duy nhất.",
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Kết quả tính độc lập: {\"A\": true, \"B\": false, \"C\": true, \"D\": false}. Các phương án khớp: ['A', 'C'].",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Kết quả tính độc lập: {\"A\": true, \"B\": false, \"C\": true, \"D\": false}. Các phương án khớp: ['A', 'C'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật Merkle–Hellman và bài toán ba lô",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Kiểm tra điều kiện siêu tăng và so các phương án trùng chữ; không phân biệt hai dãy giống nhau bằng vị trí.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án ĐÚNG cho thành phần khóa riêng Merkle–Hellman:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-25",
+    "source_question_number": "25",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 24,
+    "source_page": 20,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        20
+      ]
+    },
+    "question": "Khẳng định nào về DES là SAI? (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào về DES là SAI? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q25-p20-stem.png",
+        "alt": "Hình gốc câu 25, ca 2, trang 20"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "B": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "C": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "D": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "S-box DES phi tuyến; nhãn C khẳng định phụ thuộc tuyến tính là sai, nằm ở lựa chọn thứ tư.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "S-box DES phi tuyến; nhãn C khẳng định phụ thuộc tuyến tính là sai, nằm ở lựa chọn thứ tư.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box"
+    },
+    "study_topic": "Hàm f, hộp thế và hoán vị DES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: S-box tạo tính phi tuyến; kiểm tra dấu phủ định ở câu hỏi trước khi chọn nhãn trong ảnh.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào về DES là SAI? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q25-p20-stem.png",
+        "alt": "Hình gốc câu 25, ca 2, trang 20"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q25-p20-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-26",
+    "source_question_number": "26",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 25,
+    "source_page": 21,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        21
+      ]
+    },
+    "question": "Tính x12 trong vòng MixColumns AES với ma trận trong hình.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Tính x12 trong vòng MixColumns AES với ma trận trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q26-p21-stem.png",
+        "alt": "Hình gốc câu 26, ca 2, trang 21"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "A2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A2"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A2"
+        }
+      ]
+    },
+    "B": {
+      "text": "13",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "13"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "13"
+        }
+      ]
+    },
+    "C": {
+      "text": "0D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0D"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "0D"
+        }
+      ]
+    },
+    "D": {
+      "text": "B1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B1"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B1"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "0B",
+      "valid_options": [],
+      "complete": true,
+      "option_values": {
+        "A": "A2",
+        "B": "13",
+        "C": "0D",
+        "D": "B1"
+      }
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Kết quả tính độc lập: \"0B\". Các phương án khớp: [].",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Kết quả tính độc lập: \"0B\". Các phương án khớp: [].",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.12",
+      "name": "AES – MixColumns / InvMixColumns"
+    },
+    "study_topic": "MixColumns",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Chỉ lấy hàng hệ số 1 và cột trạng thái 2 theo chỉ số từ 0; nhân trong GF(2^8), cộng bằng XOR.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Tính x12 trong vòng MixColumns AES với ma trận trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q26-p21-stem.png",
+        "alt": "Hình gốc câu 26, ca 2, trang 21"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q26-p21-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-27",
+    "source_question_number": "27",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 26,
+    "source_page": 2,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        2
+      ]
+    },
+    "question": "Thuật toán nào sau đây là mã dòng?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Thuật toán nào sau đây là mã dòng?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "RC4, RC2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC2"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC2"
+        }
+      ]
+    },
+    "B": {
+      "text": "RC4, RC5",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC5"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC5"
+        }
+      ]
+    },
+    "C": {
+      "text": "RC4, RC6",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC6"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RC4, RC6"
+        }
+      ]
+    },
+    "D": {
+      "text": "RC4",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "RC4"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "RC4"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "RC2,RC5,RC6 là mã khối; RC4 là mã dòng.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "RC2,RC5,RC6 là mã khối; RC4 là mã dòng.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap6.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.06.04",
+      "name": "RC4 – cấu trúc và lịch sử"
+    },
+    "study_topic": "Tổng quan RC4",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Các thành viên họ RC có thể thuộc loại khác nhau; kiểm tra từng tên trong cặp thay vì suy từ tiền tố RC.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Thuật toán nào sau đây là mã dòng?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-28",
+    "source_question_number": "28",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 27,
+    "source_page": 2,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        2,
+        22
+      ]
+    },
+    "question": "Trong DES, nguồn ghi B5=101011₂ nhưng phần yêu cầu lại ghi tìm chuỗi thay thế B3; các hộp S3,S4,S5 trong hình.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong DES, nguồn ghi B5=101011₂ nhưng phần yêu cầu lại ghi tìm chuỗi thay thế B3; các hộp S3,S4,S5 trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q28-p22-stem.png",
+        "alt": "Hình gốc câu 28, ca 2, trang 22"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "1100",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1100"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1100"
+        }
+      ]
+    },
+    "B": {
+      "text": "0001",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "0001"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "0001"
+        }
+      ]
+    },
+    "C": {
+      "text": "1110",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1110"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1110"
+        }
+      ]
+    },
+    "D": {
+      "text": "1010",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1010"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "1010"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nguồn mâu thuẫn B5/B3. Tra S5 cho 1110 nhưng tra S3 cho 1001 (không có phương án); không tự sửa chỉ số nguồn."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Nguồn mâu thuẫn B5/B3. Tra S5 cho 1110 nhưng tra S3 cho 1001 (không có phương án); không tự sửa chỉ số nguồn.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Nguồn mâu thuẫn B5/B3. Tra S5 cho 1110 nhưng tra S3 cho 1001 (không có phương án); không tự sửa chỉ số nguồn.",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.03",
+      "name": "DES – hàm f, E, S-box và P-box"
+    },
+    "study_topic": "Hàm f, hộp thế và hoán vị DES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đọc chỉ số B và S-box được yêu cầu; nguồn đang ghi B5 ở đầu nhưng B3 ở cuối, chưa được tự chọn một cách hiểu.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Trong DES, nguồn ghi B5=101011₂ nhưng phần yêu cầu lại ghi tìm chuỗi thay thế B3; các hộp S3,S4,S5 trong hình."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q28-p22-stem.png",
+        "alt": "Hình gốc câu 28, ca 2, trang 22"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q28-p22-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-29",
+    "source_question_number": "29",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 28,
+    "source_page": 23,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        23
+      ]
+    },
+    "question": "Trong RSA, khẳng định nào SAI? (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Trong RSA, khẳng định nào SAI? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q29-p23-stem.png",
+        "alt": "Hình gốc câu 29, ca 2, trang 23"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "B": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "C": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "D": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Điều kiện là gcd(e,φ(n))=1, không bắt buộc gcd(e,n)=1. Nhãn B trong hình là lựa chọn thứ tư.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Điều kiện là gcd(e,φ(n))=1, không bắt buộc gcd(e,n)=1. Nhãn B trong hình là lựa chọn thứ tư.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật RSA",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Điều kiện của e dùng φ(n), còn mã/giải dùng n; thử phản ví dụ cho điều kiện gcd(e,n).",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Trong RSA, khẳng định nào SAI? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q29-p23-stem.png",
+        "alt": "Hình gốc câu 29, ca 2, trang 23"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q29-p23-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-30",
+    "source_question_number": "30",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 29,
+    "source_page": 23,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "question": "Số các thặng dư bậc 2 theo modulo 41 của Z*97 là:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Số các thặng dư bậc 2 theo modulo 41 của Z*97 là:"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q30-p24-stem.png",
+        "alt": "Hình gốc câu 30, ca 2, trang 24"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "40",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "40"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "40"
+        }
+      ]
+    },
+    "B": {
+      "text": "90",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "90"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "90"
+        }
+      ]
+    },
+    "C": {
+      "text": "48",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "48"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "48"
+        }
+      ]
+    },
+    "D": {
+      "text": "96",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "96"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "96"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nguồn đồng thời ghi modulo 41 và Z*97. Không thay 41 bằng 97 để ép đáp án 48; cần xác minh đề gốc."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Nguồn đồng thời ghi modulo 41 và Z*97. Không thay 41 bằng 97 để ép đáp án 48; cần xác minh đề gốc.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Nguồn đồng thời ghi modulo 41 và Z*97. Không thay 41 bằng 97 để ép đáp án 48; cần xác minh đề gốc.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Nguồn ghi đồng thời modulo 41 và nhóm modulo 97; cần thống nhất trước khi áp công thức đếm.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Số các thặng dư bậc 2 theo modulo 41 của \\(\\mathbb{Z}_{97}^{*}\\) là:"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q30-p24-stem.png",
+        "alt": "Hình gốc câu 30, ca 2, trang 24"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q30-p24-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-31",
+    "source_question_number": "31",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 30,
+    "source_page": 24,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        24
+      ]
+    },
+    "question": "Merkle–Hellman: π=(9,2,4,8,5,1,7,3,6), s=(135,143,285,569,1137,2273,4545,9089,18177), W=103,M=36357,c=106752,W^−1=18355. Tìm thông điệp ban đầu.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Merkle–Hellman: π=(9,2,4,8,5,1,7,3,6), s=(135,143,285,569,1137,2273,4545,9089,18177), W=103,M=36357,c=106752,W^−1=18355. Tìm thông điệp ban đầu."
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "010011101",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "010011101"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "010011101"
+        }
+      ]
+    },
+    "B": {
+      "text": "011011101",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "011011101"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "011011101"
+        }
+      ]
+    },
+    "C": {
+      "text": "001011101",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "001011101"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "001011101"
+        }
+      ]
+    },
+    "D": {
+      "text": "111011101",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "111011101"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "111011101"
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Giải ba lô sau khi nhân nghịch đảo W; thử mã hóa lại 011011101 với khóa công khai cho tổng 106752.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Giải ba lô sau khi nhân nghịch đảo W; thử mã hóa lại 011011101 với khóa công khai cho tổng 106752.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Hệ mật Merkle–Hellman và bài toán ba lô",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Nhân c với W nghịch đảo modulo M, tham lam trên dãy siêu tăng rồi đảo hoán vị; có thể thử mã hóa ngược đáp án.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "math",
+        "text": "Merkle–Hellman: π=(9,2,4,8,5,1,7,3,6), s=(135,143,285,569,1137,2273,4545,9089,18177), W=103,M=36357,c=106752,W^{−1}=18355. Tìm thông điệp ban đầu."
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-32",
+    "source_question_number": "32",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 31,
+    "source_page": 25,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        25
+      ]
+    },
+    "question": "Chọn đáp án SAI về Rijndael:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án SAI về Rijndael:"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "Có thể được cài đặt trên thẻ thông minh",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Có thể được cài đặt trên thẻ thông minh"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có thể được cài đặt trên thẻ thông minh"
+        }
+      ]
+    },
+    "B": {
+      "text": "Độ dài của khối dữ liệu là 64 bit",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Độ dài của khối dữ liệu là 64 bit"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Độ dài của khối dữ liệu là 64 bit"
+        }
+      ]
+    },
+    "C": {
+      "text": "Khóa có thể có độ dài là 256 bit.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa có thể có độ dài là 256 bit."
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa có thể có độ dài là 256 bit."
+        }
+      ]
+    },
+    "D": {
+      "text": "Các phép biến đổi trong vòng lặp có thể nghịch đảo được",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Các phép biến đổi trong vòng lặp có thể nghịch đảo được"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Các phép biến đổi trong vòng lặp có thể nghịch đảo được"
+        }
+      ]
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Rijndael không có khối 64 bit trong thiết kế gốc; các độ dài khối bắt đầu từ 128 bit theo bước 32 bit.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Rijndael không có khối 64 bit trong thiết kế gốc; các độ dài khối bắt đầu từ 128 bit theo bước 32 bit.",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.07",
+      "name": "AES – nguồn gốc và thông số"
+    },
+    "study_topic": "Tổng quan AES",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt khối Rijndael với khối DES; khả năng cài trên thẻ không quyết định kích thước khối.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Chọn đáp án SAI về Rijndael:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-33",
+    "source_question_number": "33",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 32,
+    "source_page": 25,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        25,
+        26
+      ]
+    },
+    "question": "KSA RC4: i=1,T[0]=233,T[1]=108. Sau swap, S[i],S[j] bằng bao nhiêu?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "KSA RC4: i=1,T[0]=233,T[1]=108. Sau swap, S[i],S[j] bằng bao nhiêu?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q33-p26-stem.png",
+        "alt": "Hình gốc câu 33, ca 2, trang 26"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "(46,1)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(46,1)"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(46,1)"
+        }
+      ]
+    },
+    "B": {
+      "text": "(56,1)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(56,1)"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(56,1)"
+        }
+      ]
+    },
+    "C": {
+      "text": "(86,1)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(86,1)"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(86,1)"
+        }
+      ]
+    },
+    "D": {
+      "text": "(96,1)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "(96,1)"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "(96,1)"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "(86,1)",
+      "valid_options": [
+        "C"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "(46,1)",
+        "B": "(56,1)",
+        "C": "(86,1)",
+        "D": "(96,1)"
+      }
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"(86,1)\". Các phương án khớp: ['C'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"(86,1)\". Các phương án khớp: ['C'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap6.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.06.06",
+      "name": "RC4 – KSA (Key Scheduling Algorithm)"
+    },
+    "study_topic": "Khởi tạo khóa RC4 (KSA)",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Mang j của vòng i=0 sang i=1, cộng S[1] và T[1] rồi lấy dư 256 trước khi swap.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "KSA RC4: i=1,T[0]=233,T[1]=108. Sau swap, S[i],S[j] bằng bao nhiêu?"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q33-p26-stem.png",
+        "alt": "Hình gốc câu 33, ca 2, trang 26"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q33-p26-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-34",
+    "source_question_number": "34",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 33,
+    "source_page": 27,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        27
+      ]
+    },
+    "question": "Nếu gcd(b,c)=1, hệ x≡a mod b và x≡a mod c có nghiệm nào? (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Nếu gcd(b,c)=1, hệ x≡a mod b và x≡a mod c có nghiệm nào? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q34-p27-stem.png",
+        "alt": "Hình gốc câu 34, ca 2, trang 27"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "B": {
+      "text": "",
+      "blocks": [],
+      "source_label": "B",
+      "display_blocks": []
+    },
+    "C": {
+      "text": "",
+      "blocks": [],
+      "source_label": "C",
+      "display_blocks": []
+    },
+    "D": {
+      "text": "",
+      "blocks": [],
+      "source_label": "D",
+      "display_blocks": []
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Chỉ lựa chọn thứ nhất C xuất hiện; ba lựa chọn sau bị cắt khỏi PDF. Công thức đúng là nhãn D trong hình nhưng chưa biết vị trí lựa chọn."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Chỉ lựa chọn thứ nhất C xuất hiện; ba lựa chọn sau bị cắt khỏi PDF. Công thức đúng là nhãn D trong hình nhưng chưa biết vị trí lựa chọn.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Chỉ lựa chọn thứ nhất C xuất hiện; ba lựa chọn sau bị cắt khỏi PDF. Công thức đúng là nhãn D trong hình nhưng chưa biết vị trí lựa chọn.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Hai đồng dư cùng số dư ghép được theo modulo tích khi gcd(b,c)=1; nguồn thiếu các lựa chọn cuối.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Nếu gcd(b,c)=1, hệ x≡a mod b và x≡a mod c có nghiệm nào? (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q34-p27-stem.png",
+        "alt": "Hình gốc câu 34, ca 2, trang 27"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q34-p27-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-35",
+    "source_question_number": "35",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 34,
+    "source_page": 28,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        28
+      ]
+    },
+    "question": "Chế độ nào cho phép giải mã khối thứ i mà không cần giải các mã khối từ khối thứ nhất tới i−1?",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Chế độ nào cho phép giải mã khối thứ i mà không cần giải các mã khối từ khối thứ nhất tới i−1?"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "ECB, CBC",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "ECB, CBC"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "ECB, CBC"
+        }
+      ]
+    },
+    "B": {
+      "text": "CTR, CFB",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CTR, CFB"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "CTR, CFB"
+        }
+      ]
+    },
+    "C": {
+      "text": "CBC",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CBC"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "CBC"
+        }
+      ]
+    },
+    "D": {
+      "text": "CFB, OFB",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CFB, OFB"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "CFB, OFB"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "ECB,CBC,CTR và CFB đều giải mã một khối mà không giải mã các khối trước (CBC/CFB chỉ cần bản mã trước). Nhiều lựa chọn đúng theo đúng câu chữ."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "ECB,CBC,CTR và CFB đều giải mã một khối mà không giải mã các khối trước (CBC/CFB chỉ cần bản mã trước). Nhiều lựa chọn đúng theo đúng câu chữ.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "ECB,CBC,CTR và CFB đều giải mã một khối mà không giải mã các khối trước (CBC/CFB chỉ cần bản mã trước). Nhiều lựa chọn đúng theo đúng câu chữ.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap8.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": null,
+    "study_topic": "Chế độ hoạt động của mã khối",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Không cần giải mã khối trước khác với không cần bản mã trước; kiểm tra CBC và CFB theo sự phân biệt này.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Chế độ nào cho phép giải mã khối thứ i mà không cần giải các mã khối từ khối thứ nhất tới i−1?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-36",
+    "source_question_number": "36",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 35,
+    "source_page": 28,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        28
+      ]
+    },
+    "question": "Bản rõ milk được mã hóa Hill m=2 thành AMVU. Hãy chọn khóa mã hóa đúng.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Bản rõ milk được mã hóa Hill m=2 thành AMVU. Hãy chọn khóa mã hóa đúng."
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "OSKB",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "OSKB"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "OSKB"
+        }
+      ]
+    },
+    "B": {
+      "text": "MAIG",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "MAIG"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "MAIG"
+        }
+      ]
+    },
+    "C": {
+      "text": "LCDF",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "LCDF"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "LCDF"
+        }
+      ]
+    },
+    "D": {
+      "text": "GJNK",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "GJNK"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "GJNK"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "test_all_Hill_key_options",
+      "computed": {
+        "A": "OQUA",
+        "B": "AWEI",
+        "C": "AMVU",
+        "D": "UGOR"
+      },
+      "valid_options": [
+        "C"
+      ],
+      "complete": true
+    },
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: {\"A\": \"OQUA\", \"B\": \"AWEI\", \"C\": \"AMVU\", \"D\": \"UGOR\"}. Các phương án khớp: ['C'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: {\"A\": \"OQUA\", \"B\": \"AWEI\", \"C\": \"AMVU\", \"D\": \"UGOR\"}. Các phương án khớp: ['C'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.07",
+      "name": "Hệ mật Hill"
+    },
+    "study_topic": "Mã Hill",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đổi bốn chữ khóa thành ma trận 2×2, thử riêng cặp MI trước với vector hàng và A=0.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Bản rõ milk được mã hóa Hill m=2 thành AMVU. Hãy chọn khóa mã hóa đúng."
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-37",
+    "source_question_number": "37",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 36,
+    "source_page": 3,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        3
+      ]
+    },
+    "question": "Lựa chọn khẳng định ĐÚNG về các hệ mật cổ điển (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn khẳng định ĐÚNG về các hệ mật cổ điển (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q37-p03-stem.png",
+        "alt": "Hình gốc câu 37, ca 2, trang 3"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "B": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "C": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "D": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Nhãn B mô tả khóa chạy nối bản rõ sau mầm khóa; là lựa chọn thứ nhất.",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Nhãn B mô tả khóa chạy nối bản rõ sau mầm khóa; là lựa chọn thứ nhất.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap7.pdf"
+      ],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.08",
+      "name": "Hệ mật khóa chạy (Autokey)"
+    },
+    "study_topic": "Mã khóa chạy",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt lặp từ khóa với nối bản rõ sau mầm khóa; giữ ánh xạ nhãn trong hình và lựa chọn giao diện.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn khẳng định ĐÚNG về các hệ mật cổ điển (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q37-p03-stem.png",
+        "alt": "Hình gốc câu 37, ca 2, trang 3"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q37-p03-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-38",
+    "source_question_number": "38",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 37,
+    "source_page": 4,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        4
+      ]
+    },
+    "question": "DES: L2R2=0010 1011 1100 0001 1011 0000 1110 0001 0100 0110 0000 1111 0000 1111 0010 0011. Tìm tám bit cao nhất của L3.",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "DES: L2R2=0010 1011 1100 0001 1011 0000 1110 0001 0100 0110 0000 1111 0000 1111 0010 0011. Tìm tám bit cao nhất của L3."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q38-p04-stem.png",
+        "alt": "Hình gốc câu 38, ca 2, trang 4"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "00101011",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "00101011"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "00101011"
+        }
+      ]
+    },
+    "B": {
+      "text": "00100011",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "00100011"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "00100011"
+        }
+      ]
+    },
+    "C": {
+      "text": "11100001",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "11100001"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "11100001"
+        }
+      ]
+    },
+    "D": {
+      "text": "01000110",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "01000110"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "01000110"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "01000110",
+      "valid_options": [
+        "D"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "00101011",
+        "B": "00100011",
+        "C": "11100001",
+        "D": "01000110"
+      }
+    },
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"01000110\". Các phương án khớp: ['D'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"01000110\". Các phương án khớp: ['D'].",
+      "sources": [
+        "https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf"
+      ],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.02",
+      "name": "DES – tổng quan và cấu trúc Feistel"
+    },
+    "study_topic": "Tổng quan DES và mạng Feistel",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Ở vòng tiếp theo, nửa trái bằng nửa phải trước đó; không cần tính hàm f để tìm L3.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "DES: L2R2=0010 1011 1100 0001 1011 0000 1110 0001 0100 0110 0000 1111 0000 1111 0010 0011. Tìm tám bit cao nhất của L3."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q38-p04-stem.png",
+        "alt": "Hình gốc câu 38, ca 2, trang 4"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q38-p04-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-39",
+    "source_question_number": "39",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 38,
+    "source_page": 4,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        4,
+        29
+      ]
+    },
+    "question": "Phần tử sinh nhỏ nhất của Z*97 là:",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Phần tử sinh nhỏ nhất của Z*97 là:"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q39-p04-stem.png",
+        "alt": "Hình gốc câu 39, ca 2, trang 4"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "6",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "6"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "6"
+        }
+      ]
+    },
+    "B": {
+      "text": "5",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "5"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "5"
+        }
+      ]
+    },
+    "C": {
+      "text": "4",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "4"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "4"
+        }
+      ]
+    },
+    "D": {
+      "text": "3",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "3"
+        }
+      ]
+    },
+    "independent_check": {
+      "method": "source_transcribed_arithmetic; no_selected_radio_input",
+      "computed": "5",
+      "valid_options": [
+        "B"
+      ],
+      "complete": true,
+      "option_values": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3"
+      }
+    },
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "independent_calculation_or_reference",
+    "verification_status": "verified",
+    "explanation": "Kết quả tính độc lập: \"5\". Các phương án khớp: ['B'].",
+    "answer_audit": {
+      "status": "verified",
+      "explanation": "Kết quả tính độc lập: \"5\". Các phương án khớp: ['B'].",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Phân tích 96 và thử \\(x^{96/r}\\) với mỗi thừa số nguyên tố r; kiểm tra lần lượt từ x nhỏ nhất.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Phần tử sinh nhỏ nhất của \\(\\mathbb{Z}_{97}^{*}\\) là:"
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q39-p04-stem.png",
+        "alt": "Hình gốc câu 39, ca 2, trang 4"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q39-p04-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-40",
+    "source_question_number": "40",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_exam_code": "AT2102 Ca 2",
+    "source_file": "degiuaki2_2026.pdf",
+    "source_order": 39,
+    "source_page": 29,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        29
+      ]
+    },
+    "question": "α là phần tử sinh của Z*n nếu: (nhãn trong hình).",
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "α là phần tử sinh của Z*n nếu: (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q40-p29-stem.png",
+        "alt": "Hình gốc câu 40, ca 2, trang 29"
+      }
+    ],
+    "source_fidelity_status": "visually_compared_to_original_scan",
+    "source_marked_answer": null,
+    "source_radio_selection_used_as_key": false,
+    "A": {
+      "text": "C",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ],
+      "source_label": "A",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "C"
+        }
+      ]
+    },
+    "B": {
+      "text": "A",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ],
+      "source_label": "B",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "A"
+        }
+      ]
+    },
+    "C": {
+      "text": "B",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ],
+      "source_label": "C",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "B"
+        }
+      ]
+    },
+    "D": {
+      "text": "D",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ],
+      "source_label": "D",
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "D"
+        }
+      ]
+    },
+    "correct_answer": null,
+    "needs_review": true,
+    "review_reasons": [
+      "Nhãn A dùng tập lũy thừa từ 0 tới φ(n), B từ 0 tới φ(n)−1; hai tập bằng nhau khi α sinh. Hai lựa chọn B,C trên giao diện đều đúng."
+    ],
+    "answer_evidence": "insufficient_or_ambiguous_source",
+    "verification_status": "needs_review",
+    "explanation": "Nhãn A dùng tập lũy thừa từ 0 tới φ(n), B từ 0 tới φ(n)−1; hai tập bằng nhau khi α sinh. Hai lựa chọn B,C trên giao diện đều đúng.",
+    "answer_audit": {
+      "status": "needs_review",
+      "explanation": "Nhãn A dùng tập lũy thừa từ 0 tới φ(n), B từ 0 tới φ(n)−1; hai tập bằng nhau khi α sinh. Hai lựa chọn B,C trên giao diện đều đúng.",
+      "sources": [
+        "https://cacr.uwaterloo.ca/hac/about/chap2.pdf"
+      ],
+      "valid_options": []
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-giua-ki-2026",
+    "collection_name": "Đề giữa kì 2026",
+    "chapter": "Chương 3. Các hệ mật khóa công khai",
+    "chapter_id": "3",
+    "chapter_ids": [
+      "3"
+    ],
+    "chapter_parent": {
+      "id": "3",
+      "name": "Các hệ mật khóa công khai"
+    },
+    "chapter_child": null,
+    "study_topic": "Cơ sở số học cho mật mã khóa công khai",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "Cây nguồn chỉ có mục lục chương này; không tự đặt mã chương con.",
+    "hint": "Mẹo: Một tập không đổi khi thêm lại phần tử α^φ(n)=1; hai khoảng số mũ trong hình có thể cùng đúng.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "α là phần tử sinh của \\(\\mathbb{Z}_{n}^{*}\\) nếu: (nhãn trong hình)."
+      },
+      {
+        "type": "image",
+        "src": "images/nmmmh/collections/de-giua-ki-2026-ca-2/q40-p29-stem.png",
+        "alt": "Hình gốc câu 40, ca 2, trang 29"
+      }
+    ],
+    "images": [
+      "images/nmmmh/collections/de-giua-ki-2026-ca-2/q40-p29-stem.png"
+    ],
+    "source_option_labels_in_figure": true,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  }
+]

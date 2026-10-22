@@ -1,0 +1,242 @@
+[
+  {
+    "id": "collection-e3ebf06b8ac6d9ec41fb",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-12",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "12",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-11",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "11",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-516d1af6084b9f4ec258",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-13",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "13",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-13",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "13",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-f3fda9a035951d1709e1",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-17",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "17",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-11",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "11",
+        "source_file": "Chuong2.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-98ce8eb0f2877f0b49a0",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-18",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "18",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-12",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "12",
+        "source_file": "Chuong2.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-00ef6cc1eb134d7ea571",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-3",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "3",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-4",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "4",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-5d859ef1144fb3186214",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-4",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "4",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-5",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "5",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-7f2766bd15b1685a6e48",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-5",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "5",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-7",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "7",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-6ec96f9c16b9778a8d0c",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-14",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "14",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop4-2",
+        "source_exam_id": "de-cuong-2025-tonghop4",
+        "source_exam_code": "Tonghop4",
+        "source_question_number": "2",
+        "source_file": "Tonghop4.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-a42c877e356046a3a357",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-15",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "15",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop4-5",
+        "source_exam_id": "de-cuong-2025-tonghop4",
+        "source_exam_code": "Tonghop4",
+        "source_question_number": "5",
+        "source_file": "Tonghop4.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-c7e75847aea71b2c2dd6",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-49",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "49",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-3",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "3",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-0de310bb0cb5c806460c",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-50",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "50",
+        "source_file": "Chuong2.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-6",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "6",
+        "source_file": "Chuong3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  },
+  {
+    "id": "collection-9ab8436120c4b9889404",
+    "sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop3-2",
+        "source_exam_id": "de-cuong-2025-tonghop3",
+        "source_exam_code": "Tonghop3",
+        "source_question_number": "2",
+        "source_file": "Tonghop3.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-tonghop3-4",
+        "source_exam_id": "de-cuong-2025-tonghop3",
+        "source_exam_code": "Tonghop3",
+        "source_question_number": "4",
+        "source_file": "Tonghop3.docx"
+      }
+    ],
+    "criterion": "exact normalized content, same image bytes, same correct option content"
+  }
+]

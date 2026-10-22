@@ -8,9 +8,12 @@ const read = file => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
 for (const file of ["app.js", "nmmmh.js", "nmmmh-practice.js"]) cp.execFileSync(process.execPath, ["--check", path.join(root, file)]);
 const manifest = read("subjects/nmmmh/manifest.json");
 const ids = new Set(); let formulae = 0; let images = 0; let hints = 0;
-for (const exam of manifest.exams) {
+const exams = [...manifest.exams, ...(manifest.collections || []).flatMap(c => c.exams)];
+let legacyQuestions = 0;
+for (const exam of exams) {
   const rows = read(exam.question_file);
   if (rows.length !== exam.question_count) throw new Error(`Question count: ${exam.id}`);
+  if (!exam.collection_id) legacyQuestions += rows.length;
   let previous = -1;
   for (const q of rows) {
     if (ids.has(q.id) || q.source_order <= previous) throw new Error(`Duplicate ID / reordered question: ${q.id}`);
@@ -36,5 +39,6 @@ for (const exam of manifest.exams) {
     }
   }
 }
-if (ids.size !== 173 || hints !== 173) throw new Error(`Coverage: ${ids.size} questions, ${hints} hints`);
-console.log(`PASS static build: ${manifest.exams.length} exams, ${ids.size} questions, ${hints} hints, ${formulae} KaTeX expressions, ${images} image references`);
+const expected = manifest.exams.reduce((s,e)=>s+e.question_count,0) + (manifest.collections || []).flatMap(c=>c.exams).reduce((s,e)=>s+e.question_count,0);
+if (legacyQuestions !== 173 || ids.size !== expected || hints !== expected) throw new Error(`Coverage: ${ids.size} questions, ${hints} hints`);
+console.log(`PASS static build: ${exams.length} exams, ${ids.size} questions, ${hints} hints, ${formulae} KaTeX expressions, ${images} image references; 173 legacy questions preserved`);

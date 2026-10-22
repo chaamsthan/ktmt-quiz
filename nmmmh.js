@@ -1,9 +1,24 @@
 // Additive subject adapter. Both subjects use startQuiz/resultFor/finishQuiz
 // and the existing localStorage store in app.js.
-const nmmmh = { manifest: null, questions: [], loading: null, route: {}, ktmt: null, routeSequence: 0 };
+const nmmmh = { manifest: null, catalog: null, questions: [], allQuestions: [], allExams: [], collection: "legacy", loading: null, route: {}, ktmt: null, routeSequence: 0 };
 
 function subjectLink(params = {}) {
-  return `#${new URLSearchParams({ subject: "nmmmh", ...params })}`;
+  return `#${new URLSearchParams({ subject: "nmmmh", ...(nmmmh.collection !== "legacy" ? { collection: nmmmh.collection } : {}), ...params })}`;
+}
+
+function selectNmmmhCollection(id = "legacy") {
+  const group = (nmmmh.catalog.collections || []).find(c => c.id === id);
+  if (id !== "legacy" && !group) throw new Error("Nhóm đề không tồn tại.");
+  nmmmh.collection = id;
+  const exams = group?.exams || nmmmh.catalog.exams;
+  const ids = new Set(exams.map(e => e.id));
+  nmmmh.questions = nmmmh.allQuestions.filter(q => ids.has(q.source_exam_id));
+  nmmmh.manifest = { ...nmmmh.catalog, exams, collection_name: group?.name || "Bộ đề các khóa", collection_id: id, report: group?.report || "subjects/nmmmh/REPORT.md", description: group?.description || "" };
+}
+
+function nmmmhCollectionsHtml() {
+  const groups = [...(nmmmh.catalog.collections || []), { id: "legacy", name: "Bộ đề các khóa", exams: nmmmh.catalog.exams }];
+  return `<nav class="collection-grid" aria-label="Chọn nhóm đề">${groups.map(c => `<a class="panel collection-card ${c.id === nmmmh.collection ? "is-active" : ""}" ${c.id === nmmmh.collection ? 'aria-current="page"' : ""} href="${subjectLink({ collection: c.id })}"><span class="active-set-label">${c.id === "legacy" ? "Bộ đề cũ · giữ nguyên" : "Nhóm đề"}</span><h2>${escapeHtml(c.name)}</h2><p>${c.exams.length} đề · ${c.exams.reduce((s, e) => s + e.question_count, 0)} câu</p><span>${c.id === nmmmh.collection ? "Đang chọn" : "Mở nhóm đề →"}</span></a>`).join("")}</nav>`;
 }
 
 async function loadNmmmh() {
@@ -16,15 +31,19 @@ async function loadNmmmh() {
     const questions = [];
     // Retain exam order as declared by the importer. Do not partially expose
     // the subject if one of its exam files fails to load.
-    for (const exam of manifest.exams) {
+    const exams = [...manifest.exams, ...(manifest.collections || []).flatMap(c => c.exams)];
+    const banks = await Promise.all(exams.map(async (exam) => {
       const file = await fetch(exam.question_file, { cache: "no-store" });
       if (!file.ok) throw new Error(`Không tải được đề ${exam.source_exam_code}`);
       const rows = await file.json();
       if (rows.length !== exam.question_count) throw new Error(`Sai số câu ở đề ${exam.source_exam_code}`);
-      questions.push(...rows);
-    }
-    nmmmh.questions = questions;
-    nmmmh.manifest = manifest;
+      return rows;
+    }));
+    questions.push(...banks.flat());
+    nmmmh.allQuestions = questions;
+    nmmmh.allExams = exams;
+    nmmmh.catalog = manifest;
+    selectNmmmhCollection();
   })();
   try { await nmmmh.loading; } finally { nmmmh.loading = null; }
 }
@@ -75,6 +94,7 @@ function nmmmhContext(examId, chapterId) {
   const chapter = nmmmh.manifest.chapters.find((c) => c.id === chapterId);
   return {
     subject_id: "nmmmh", subject: "Mật mã học", exam_id: examId,
+    collection_id: nmmmh.collection, collection: nmmmh.manifest.collection_name,
     exam: examId === "all" ? "Tất cả đề" : exam.source_exam_code,
     exam_title: examId === "all" ? "Tất cả đề" : exam.title,
     chapter_id: chapterId, chapter: chapterId === "all" ? "Cả đề" : chapter.label,
@@ -120,13 +140,16 @@ function renderNmmmhHome() {
   const total = nmmmh.questions.length;
   const graded = nmmmh.questions.filter((q) => q.correct_answer).length;
   const current = nmmmh.route.chapter || "2";
-  app.innerHTML = `<section class="results-head"><div><h1>Trắc nghiệm Mật mã học</h1><p class="muted">${nmmmh.manifest.exams.length} đề · ${total} bản ghi · ${graded} câu có đáp án kiểm chứng</p></div><a class="ghost-btn" href="${subjectLink({ view: "history" })}">Lịch sử làm bài</a></section>
+  app.innerHTML = `<section class="results-head"><div><h1>Trắc nghiệm Mật mã học</h1><p class="muted">${nmmmh.manifest.exams.length} đề · ${total} bản ghi · ${graded} câu có đáp án${nmmmh.collection === "legacy" ? " kiểm chứng" : " để chấm"}</p></div><a class="ghost-btn" href="${subjectLink({ view: "history" })}">Lịch sử làm bài</a></section>
+    ${nmmmhCollectionsHtml()}
+    <div class="section-heading"><h2>${escapeHtml(nmmmh.manifest.collection_name)}</h2></div>
+    ${nmmmh.manifest.description ? `<p class="notice">${escapeHtml(nmmmh.manifest.description)}</p>` : ""}
     ${nmmmhProgressHtml()}
     ${nmmmhPracticePanel()}
     <section class="panel aggregate-panel"><div class="panel-header"><div><h2>Làm theo chương của tất cả đề</h2><p>Gộp câu cùng chương; câu trùng có cùng đáp án được tính một lần.</p></div></div>
       <form id="aggregate-form" class="form-stack"><div class="field"><label for="aggregate-chapter">Chương</label><select id="aggregate-chapter">${chapterOptions("all", current)}</select></div>${sessionControls("aggregate")}<button class="primary-btn" type="submit">Làm nhóm chương từ tất cả đề →</button></form>
     </section>
-    <div class="section-heading"><h2>Chọn một đề</h2><a href="subjects/nmmmh/REPORT.md" class="muted" target="_blank" rel="noopener">Báo cáo nạp đề</a></div>
+    <div class="section-heading"><h2>Chọn một đề</h2><a href="${escapeHtml(nmmmh.manifest.report)}" class="muted" target="_blank" rel="noopener">Báo cáo nạp đề</a></div>
     <section class="exam-grid nmmmh-exams">${nmmmh.manifest.exams.map((exam) => `
       <article class="panel exam-detail-card"><span class="active-set-label">${escapeHtml(exam.source_exam_code)}</span><h2>${escapeHtml(exam.title)}</h2>
         <p class="muted">${escapeHtml([exam.year, exam.attempt ? `Lần ${exam.attempt}` : null].filter(Boolean).join(" · "))}</p>
@@ -134,7 +157,7 @@ function renderNmmmhHome() {
         <div class="chapter-counts">${nmmmh.manifest.chapters.map((c) => exam.chapter_counts[c.id] ? `<span>${c.id === "unclassified" ? "Chưa phân loại" : `Chương ${c.id}`}: ${exam.chapter_counts[c.id]}</span>` : "").join("")}</div>
         <div class="button-row"><a class="primary-btn" href="${subjectLink({ exam: exam.id, chapter: "all", action: "start" })}">Làm cả đề</a><a class="ghost-btn" href="${subjectLink({ exam: exam.id })}">Chọn chương trong đề</a></div>
       </article>`).join("")}</section>
-    <p class="notice">Điểm tính trên số câu có đáp án đã kiểm chứng. Câu chưa chốt đáp án vẫn xuất hiện để rà soát và không tính điểm.</p>`;
+    <p class="notice">Điểm tính trên số câu có đáp án đủ căn cứ: dấu đáp án trong đề cương hoặc kiểm chứng độc lập. Câu chưa chốt đáp án vẫn xuất hiện để rà soát và không tính điểm.</p>`;
   document.querySelector("#aggregate-form").addEventListener("submit", (event) => {
     event.preventDefault();
     startNmmmhQuiz("all", document.querySelector("#aggregate-chapter").value, document.querySelector("#aggregate-mode").value, document.querySelector("#aggregate-random").checked);
@@ -201,11 +224,12 @@ function nmmmhQuestionMeta(question) {
   const child = question.chapter_child;
   const sources = state.quiz.context?.exam_id === "all" && question.duplicate_status === "confirmed" ? question.duplicate_sources : [question];
   return `<div class="source-meta"><p><strong>Nguồn:</strong> ${sources.map((s) => `${escapeHtml(s.source_exam_code)} / câu ${escapeHtml(s.source_question_number)}`).join(" · ")}</p>
-    ${child ? `<p>${escapeHtml(child.code)} · ${escapeHtml(child.name)}${question.classification_needs_review ? " (nhãn đề xuất từ file phân loại)" : ""}</p>` : ""}
+    ${child ? `<p>${escapeHtml(child.code)} · ${escapeHtml(child.name)}${question.classification_needs_review ? " (nhãn đề xuất từ file phân loại)" : ""}</p>` : question.study_topic ? `<p>${escapeHtml(question.study_topic)}${question.classification_notes ? " · Chưa có mục chương con trong cây nguồn" : ""}</p>` : ""}
     ${question.classification_needs_review ? '<p class="side-note">Phân chương hiện có là đề xuất: cây kiến thức chưa có mục chi tiết cho nội dung này; cần đối chiếu tài liệu bổ sung.</p>' : ""}
     ${question.duplicate_group ? `<span class="session-chip">${question.duplicate_status === "confirmed" ? "Câu trùng đã xác minh" : "Nghi trùng · giữ riêng"}</span>` : ""}
     ${question.needs_review ? `<span class="review-badge">Cần rà soát${question.correct_answer ? " nguồn ảnh" : " · không tính điểm"}</span>` : ""}
     ${question.source_fidelity_status === "needs_review" ? '<p class="notice" role="note">Nguồn chưa xác minh đầy đủ: có ký tự hoặc ô ma trận chưa đọc/chốt được. Bản chép hiện tại không được coi là chuẩn; hãy đối chiếu ảnh và lưu ý kiểm định.</p>' : ""}
+    ${question.collection_id ? `<p class="side-note">${escapeHtml(question.collection_name)} · ${question.answer_audit?.status === "source_marked" ? "Đáp án theo dấu trong DOCX gốc; không coi là kiểm chứng độc lập." : question.correct_answer ? "Đáp án kiểm chứng độc lập." : "Chưa đủ căn cứ để chấm."}</p>` : ""}
     ${question.source_notes?.length ? `<details><summary>Ghi chú OCR cũ — không dùng làm đáp án</summary><p>${question.source_notes.map(escapeHtml).join("<br />")}</p></details>` : ""}</div>`;
 }
 
@@ -253,6 +277,8 @@ async function routeSubject() {
   try {
     await loadNmmmh();
     if (sequence !== nmmmh.routeSequence) return;
+    const requestedExam = nmmmh.allExams.find(e => e.id === params.get("exam"));
+    selectNmmmhCollection(params.get("collection") || requestedExam?.collection_id || "legacy");
     state.questions = nmmmh.questions; state.activeSet = null;
     state.chapters = nmmmh.manifest.chapters.map((c) => c.label);
     document.querySelector(".brand strong").textContent = "NMMMH";

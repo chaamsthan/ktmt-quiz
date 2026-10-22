@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-2",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "2",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 11
+    },
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-10",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "10",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 100
+    },
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-11",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "11",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 111
+    },
+    "review_reasons": [
+      "Tiêu chí “KHÔNG” bị cụt."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-14",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "14",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 143
+    },
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-15",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "15",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 154
+    },
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-16",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_question_number": "16",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 164
+    },
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong2-38",
+    "source_exam_id": "de-cuong-2025-chuong2",
+    "source_question_number": "38",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong2.docx",
+      "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
+      "docx_block": 265
+    },
+    "review_reasons": [
+      "Nguồn bỏ trống Rcon[j]."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong2-39",
+    "source_exam_id": "de-cuong-2025-chuong2",
+    "source_question_number": "39",
+    "correct_answer": "A",
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong2.docx",
+      "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
+      "docx_block": 272
+    },
+    "review_reasons": [
+      "Nguồn bỏ trống g(w3)."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong2-49",
+    "source_exam_id": "de-cuong-2025-chuong2",
+    "source_question_number": "49",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong2.docx",
+      "sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
+      "docx_block": 345
+    },
+    "review_reasons": [
+      "Nhận xét “thường gặp nhất” không nêu mô hình/ngữ cảnh."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-1",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "1",
+    "correct_answer": null,
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 3
+    },
+    "review_reasons": [
+      "Cả khẳng định về chứng minh bài toán khó và thay thế hệ đối xứng đều cần xem lại."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-22",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "22",
+    "correct_answer": null,
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 171
+    },
+    "review_reasons": [
+      "Hai phát biểu Fermat dạng a^p ≡ a (một phát biểu giới hạn a chẵn) cùng đúng."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-23",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "23",
+    "correct_answer": null,
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 179
+    },
+    "review_reasons": [
+      "Công thức đếm yêu cầu p,q là hai số nguyên tố lẻ; nguồn chưa nêu lẻ."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-24",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "24",
+    "correct_answer": null,
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 187
+    },
+    "review_reasons": [
+      "Hai khoảng số mũ đóng/mở đều tạo cùng tập vì α^φ(n)=1; nhiều phát biểu đúng."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-30",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "30",
+    "correct_answer": null,
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 235
+    },
+    "review_reasons": [
+      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['C']; giữ dấu gốc để đối chiếu, tạm không chấm."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-39",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "39",
+    "correct_answer": null,
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 307
+    },
+    "review_reasons": [
+      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong3-43",
+    "source_exam_id": "de-cuong-2025-chuong3",
+    "source_question_number": "43",
+    "correct_answer": null,
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong3.docx",
+      "sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+      "docx_block": 339
+    },
+    "review_reasons": [
+      "Hình ghi nhóm Z*19 nhưng phần yêu cầu lại ghi Z*10."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-1",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "1",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 0
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-4",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "4",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 36
+    },
+    "review_reasons": [
+      "Nguồn thiếu chỉ số Sij cần tính."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-6",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "6",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 63
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-7",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "7",
+    "correct_answer": null,
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 75
+    },
+    "review_reasons": [
+      "Nguồn không chứa hình đầu vào và vị trí abcd."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-9",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "9",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 100
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-17",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "17",
+    "correct_answer": null,
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 196
+    },
+    "review_reasons": [
+      "Dãy/hoán vị có 6 phần tử nhưng mỗi phương án chỉ có 5."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-20",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "20",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 233
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-28",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "28",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 329
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop1-38",
+    "source_exam_id": "de-cuong-2025-tonghop1",
+    "source_question_number": "38",
+    "correct_answer": null,
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop1.docx",
+      "sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+      "docx_block": 448
+    },
+    "review_reasons": [
+      "RSA và họ ElGamal đều có sơ đồ mã hóa/chữ ký; nhiều phát biểu đúng."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-4",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "4",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 38
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-8",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "8",
+    "correct_answer": "A",
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 86
+    },
+    "review_reasons": [
+      "Nguồn không có bảng S2 được nhắc tới."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-17",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "17",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 197
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-18",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "18",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 209
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-20",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "20",
+    "correct_answer": "A",
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 234
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-23",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "23",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 270
+    },
+    "review_reasons": [
+      "Nguồn không có hình C và vị trí ABCD."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-24",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "24",
+    "correct_answer": "B",
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 283
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-27",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "27",
+    "correct_answer": null,
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 320
+    },
+    "review_reasons": [
+      "Công thức số phần tử sinh cần giả thiết nhóm cyclic."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop2-34",
+    "source_exam_id": "de-cuong-2025-tonghop2",
+    "source_question_number": "34",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop2.docx",
+      "sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+      "docx_block": 407
+    },
+    "review_reasons": [
+      "Phương án A in “1r”, giữ nguyên thay vì đoán số."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-1",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "1",
+    "correct_answer": null,
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 0
+    },
+    "review_reasons": [
+      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập []; giữ dấu gốc để đối chiếu, tạm không chấm."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-10",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "10",
+    "correct_answer": "D",
+    "source_marked_answer": "D",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 110
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ ĐÚNG/SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-16",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "16",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 182
+    },
+    "review_reasons": [
+      "Hai phương án A,C cùng là 1100 và đều tô vàng.",
+      "Không có đúng một phương án được đánh dấu trong DOCX."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-23",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "23",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 270
+    },
+    "review_reasons": [
+      "Nguồn ghi hoán vị của 6 phần tử nhưng cho 7 giá trị và dãy 7 phần tử; M còn nhỏ hơn tổng dãy."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-26",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "26",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 307
+    },
+    "review_reasons": [
+      "Nguồn thiếu từ trong tiêu chí phủ định; đầu vào f gồm R và khóa vòng nên phát biểu B cần ngữ cảnh."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop3-34",
+    "source_exam_id": "de-cuong-2025-tonghop3",
+    "source_question_number": "34",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop3.docx",
+      "sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+      "docx_block": 406
+    },
+    "review_reasons": [
+      "Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-6",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "6",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 34
+    },
+    "review_reasons": [
+      "A và B in cùng một khoảng độ dài khóa, chỉ B được gạch chân."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-8",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "8",
+    "correct_answer": null,
+    "source_marked_answer": "A",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 50
+    },
+    "review_reasons": [
+      "Nguồn không cho bản rõ hay điều kiện xác định duy nhất khóa dịch vòng."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-16",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "16",
+    "correct_answer": null,
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 114
+    },
+    "review_reasons": [
+      "Dấu đáp án nguồn không khớp tập kết quả tính độc lập ['A']; giữ dấu gốc để đối chiếu, tạm không chấm."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-20",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "20",
+    "correct_answer": null,
+    "source_marked_answer": "B",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 146
+    },
+    "review_reasons": [
+      "Bản mã 16 chữ nhưng khóa 15 chữ; nguồn thiếu ký tự hoặc quy ước kéo dài khóa."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-21",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "21",
+    "correct_answer": null,
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 154
+    },
+    "review_reasons": [
+      "Cần xác nhận quy ước Vernam: A=0 và cộng modulo 26 không cho phương án nào."
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-tonghop4-39",
+    "source_exam_id": "de-cuong-2025-tonghop4",
+    "source_question_number": "39",
+    "correct_answer": "C",
+    "source_marked_answer": "C",
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Tonghop4.docx",
+      "sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+      "docx_block": 298
+    },
+    "review_reasons": [
+      "Từ “khác nhau” không đúng với mọi khóa DES; có ngoại lệ khóa yếu."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-5",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "5",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        3
+      ]
+    },
+    "review_reasons": [
+      "Thiếu toàn bộ thân câu 5; không biết yêu cầu ĐÚNG hay SAI."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-8",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "8",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "review_reasons": [
+      "Chưa chốt được toàn bộ hai chuỗi bit nhỏ trong ảnh; không lấy lựa chọn đang tích làm kết quả."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-9",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "9",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        5
+      ]
+    },
+    "review_reasons": [
+      "So sánh tốc độ/khả năng triển khai không có tiêu chí hay mô hình phần cứng xác định."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-12",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "12",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        6
+      ]
+    },
+    "review_reasons": [
+      "Theo HAC miền chuẩn là 1..p−2: A đầy đủ, D là một tập con hợp lệ; C thuộc quy ước mở rộng khác. Cách hỏi khoảng chưa xác định duy nhất."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-18",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "18",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "review_reasons": [
+      "Bỏ qua vị trí khối/lịch sử móc xích khiến phát biểu CBC không đúng tổng quát; ba phát biểu còn lại sai. Không có đáp án duy nhất đủ chặt chẽ."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-28",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "28",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "review_reasons": [
+      "Nguồn yêu cầu 9 bit nhưng cả bốn phương án đều có 10 bit. Không tự xóa một bit để khớp đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-30",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "30",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        13
+      ]
+    },
+    "review_reasons": [
+      "19036 chia hết cho 4 và lớn hơn 4 nên nhóm nhân không cyclic, có 0 phần tử sinh; không có phương án 0.",
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-32",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "32",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        14
+      ]
+    },
+    "review_reasons": [
+      "Cả dạng a^p≡a cho a dương nhỏ hơn p và trường hợp a chẵn đều đúng; phương án thứ tư bị cắt khỏi nguồn."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-33",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "33",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        15
+      ]
+    },
+    "review_reasons": [
+      "Phép tính cho D6; phương án thứ hai nhìn giống D8 ở độ phân giải nguồn. Chưa xác nhận được ký tự, không tự sửa để khớp.",
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-1-34",
+    "source_exam_id": "de-giua-ki-2026-ca-1",
+    "source_question_number": "34",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki12026.pdf",
+      "sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+      "pages": [
+        15
+      ]
+    },
+    "review_reasons": [
+      "Phương án D bị cắt; cần nguồn đầy đủ và đối chiếu các ô nhỏ trước khi chấm."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-1",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "1",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        5
+      ]
+    },
+    "review_reasons": [
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-2",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "2",
+    "correct_answer": "C",
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "review_reasons": [
+      "Công thức cần giả thiết p,q lẻ; nguồn chưa nêu điều kiện này."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-6",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "6",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        8
+      ]
+    },
+    "review_reasons": [
+      "A liệt kê hai chế độ đúng nhưng D cũng nêu một chế độ đúng; nếu yêu cầu duy nhất phải ghi “đầy đủ nhất”."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-7",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "7",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        9
+      ]
+    },
+    "review_reasons": [
+      "Yêu cầu 8 bit nhưng tất cả phương án in 9 bit; không tự sửa chuỗi để chọn một phương án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-12",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "12",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        11
+      ]
+    },
+    "review_reasons": [
+      "D sai với mã khối đối xứng; C không mô tả tương đồng cụ thể và cũng có thể sai theo cách phân loại của môn. Cần đáp án chuẩn/giải thích tiêu chí."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-17",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "17",
+    "correct_answer": "A",
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        13,
+        14,
+        15
+      ]
+    },
+    "review_reasons": [
+      "Bảng PC-1 trong nguồn bị ngắt giữa trang 14–15, hàng gần cuối không đủ; bốn vị trí cần tính ở hàng đầu vẫn đọc được."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-24",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "24",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        19
+      ]
+    },
+    "review_reasons": [
+      "Hai lựa chọn A,C giống nhau và đều là dãy siêu tăng; không thể chấm một nhãn duy nhất.",
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-26",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "26",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        21
+      ]
+    },
+    "review_reasons": [
+      "Không có đúng một phương án khớp phép tính; không sửa số liệu hay phương án nguồn để ép đáp án."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-28",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "28",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        2,
+        22
+      ]
+    },
+    "review_reasons": [
+      "Nguồn mâu thuẫn B5/B3. Tra S5 cho 1110 nhưng tra S3 cho 1001 (không có phương án); không tự sửa chỉ số nguồn."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-30",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "30",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "review_reasons": [
+      "Nguồn đồng thời ghi modulo 41 và Z*97. Không thay 41 bằng 97 để ép đáp án 48; cần xác minh đề gốc."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-34",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "34",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        27
+      ]
+    },
+    "review_reasons": [
+      "Chỉ lựa chọn thứ nhất C xuất hiện; ba lựa chọn sau bị cắt khỏi PDF. Công thức đúng là nhãn D trong hình nhưng chưa biết vị trí lựa chọn."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-35",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "35",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        28
+      ]
+    },
+    "review_reasons": [
+      "ECB,CBC,CTR và CFB đều giải mã một khối mà không giải mã các khối trước (CBC/CFB chỉ cần bản mã trước). Nhiều lựa chọn đúng theo đúng câu chữ."
+    ]
+  },
+  {
+    "id": "nmmmh-de-giua-ki-2026-ca-2-40",
+    "source_exam_id": "de-giua-ki-2026-ca-2",
+    "source_question_number": "40",
+    "correct_answer": null,
+    "source_marked_answer": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_giữa_kì_2026/degiuaki2_2026.pdf",
+      "sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+      "pages": [
+        29
+      ]
+    },
+    "review_reasons": [
+      "Nhãn A dùng tập lũy thừa từ 0 tới φ(n), B từ 0 tới φ(n)−1; hai tập bằng nhau khi α sinh. Hai lựa chọn B,C trên giao diện đều đúng."
+    ]
+  }
+]

@@ -1,0 +1,4648 @@
+[
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-1",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "1",
+    "source_order": 0,
+    "source_docx_block": 0,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin."
+      }
+    ],
+    "source_paragraphs": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Bí mật thông tin là dịch vụ bảo đảm không ai biết thông tin đó",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bí mật thông tin là dịch vụ bảo đảm không ai biết thông tin đó"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Bí mật thông tin là dịch vụ bảo đảm không ai biết thông tin đó"
+        }
+      ]
+    },
+    "B": {
+      "text": "Chống chối bỏ là dịch vụ bảo đảm bên gửi và bên nhân không thể chối bỏ nhau.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chống chối bỏ là dịch vụ bảo đảm bên gửi và bên nhân không thể chối bỏ nhau."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Chống chối bỏ là dịch vụ bảo đảm bên gửi và bên nhân không thể chối bỏ nhau."
+        }
+      ]
+    },
+    "C": {
+      "text": "Toàn vẹn thông tin là dịch vụ giúp phát hiện những sự thay đổi trái phép đối với thông tin",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Toàn vẹn thông tin là dịch vụ giúp phát hiện những sự thay đổi trái phép đối với thông tin"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Toàn",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "vẹn",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thông",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " tin ",
+          "run": 5
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "là",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dịch",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "vụ",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "giúp",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "phát",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "hiện",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "những",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "sự",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thay",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đổi",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trái",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "phép",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đối",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "với",
+          "run": 32
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thông",
+          "run": 34
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " tin",
+          "run": 35
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Toàn vẹn thông tin là dịch vụ giúp phát hiện những sự thay đổi trái phép đối với thông tin"
+        }
+      ]
+    },
+    "D": {
+      "text": "Xác thực thông tin là dịch vụ giúp kiểm tra, xác thực tính bí mật/toàn vẹn của thông tin.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Xác thực thông tin là dịch vụ giúp kiểm tra, xác thực tính bí mật/toàn vẹn của thông tin."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Xác thực thông tin là dịch vụ giúp kiểm tra, xác thực tính bí mật/toàn vẹn của thông tin."
+        }
+      ]
+    },
+    "question": "Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin.",
+    "source_mark_candidates": {
+      "highlight": [
+        "C"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "C",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 0
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt việc giữ dữ liệu không bị sửa với việc che nội dung và kiểm tra người gửi.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án ĐÚNG về các dịch vụ đảm bảo an toàn thông tin."
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-2",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "2",
+    "source_order": 1,
+    "source_docx_block": 11,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+      }
+    ],
+    "source_paragraphs": [
+      13,
+      15,
+      17,
+      19
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Luôn được sử dụng trong lĩnh vực quân sự",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Luôn được sử dụng trong lĩnh vực quân sự"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Luôn được sử dụng trong lĩnh vực quân sự"
+        }
+      ]
+    },
+    "B": {
+      "text": "Chuyển bản rõ có thể đọc được thành thông tin không thể đọc được và được gọi là bản mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chuyển bản rõ có thể đọc được thành thông tin không thể đọc được và được gọi là bản mã."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Chuyển",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "rõ",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "có",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thể",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đọc",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "được",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thành",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thông",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " tin ",
+          "run": 17
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "không",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thể",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đọc",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "được",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "được",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "gọi",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "là",
+          "run": 32
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 34
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 36
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 37
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Chuyển bản rõ có thể đọc được thành thông tin không thể đọc được và được gọi là bản mã."
+        }
+      ]
+    },
+    "C": {
+      "text": "Có mục đích là để che giấu sự tồn tại của thông điệp bí mật cần trao đổi.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Có mục đích là để che giấu sự tồn tại của thông điệp bí mật cần trao đổi."
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có mục đích là để che giấu sự tồn tại của thông điệp bí mật cần trao đổi."
+        }
+      ]
+    },
+    "D": {
+      "text": "Thường sử dụng hàm băm mật mã hoặc chữ kí số để mã hóa dữ liệu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Thường sử dụng hàm băm mật mã hoặc chữ kí số để mã hóa dữ liệu"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Thường sử dụng hàm băm mật mã hoặc chữ kí số để mã hóa dữ liệu"
+        }
+      ]
+    },
+    "question": "Phát biểu nào sau đây là  về mã hóa dữ liệu?",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 11
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": true,
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Xét riêng khả năng đọc thông điệp của người không có khóa; đừng gộp nhầm với khả dụng.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Phát biểu nào sau đây là  về mã hóa dữ liệu?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-3",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "3",
+    "source_order": 2,
+    "source_docx_block": 22,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Mật mã có tác dụng:"
+      }
+    ],
+    "source_paragraphs": [
+      24,
+      26,
+      28,
+      30
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và kịp thời của dữ liệu."
+        }
+      ]
+    },
+    "B": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật, xác thực và sẵn sàng của dữ liệu."
+        }
+      ]
+    },
+    "C": {
+      "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu."
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo bí mật, xác thực và kịp thời của dữ liệu."
+        }
+      ]
+    },
+    "D": {
+      "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Đảm",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bảo",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tính",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "toàn",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "vẹn",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ", ",
+          "run": 9
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bí",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "xác",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thực",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "của",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dữ",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "liệu",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 25
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo tính toàn vẹn, bí mật và xác thực của dữ liệu."
+        }
+      ]
+    },
+    "question": "Mật mã có tác dụng:",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 22
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Tách dịch vụ do kỹ thuật mật mã cung cấp khỏi khả năng duy trì hệ thống luôn hoạt động.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Mật mã có tác dụng:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-4",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "4",
+    "source_order": 3,
+    "source_docx_block": 33,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là khẳng định SAI?"
+      }
+    ],
+    "source_paragraphs": [
+      35,
+      37,
+      39,
+      41
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Giải mã là quá trình chuyển bản mã thành bản rõ và là quá trình ngược lại của mã hóa",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Giải mã là quá trình chuyển bản mã thành bản rõ và là quá trình ngược lại của mã hóa"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Giải mã là quá trình chuyển bản mã thành bản rõ và là quá trình ngược lại của mã hóa"
+        }
+      ]
+    },
+    "B": {
+      "text": "Mã hóa là quá trình biến đổi bản rõ thành bản mã, bên thứ 3 không có khóa thì không hiểu được bản mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã hóa là quá trình biến đổi bản rõ thành bản mã, bên thứ 3 không có khóa thì không hiểu được bản mã."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã hóa là quá trình biến đổi bản rõ thành bản mã, bên thứ 3 không có khóa thì không hiểu được bản mã."
+        }
+      ]
+    },
+    "C": {
+      "text": "Khóa mật mã là thông tin tham số dùng để mã hóa người gửi và nhận cần phải bảo vệ sự bí mật của khóa mật mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa mật mã là thông tin tham số dùng để mã hóa người gửi và nhận cần phải bảo vệ sự bí mật của khóa mật mã."
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Khóa",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "là",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thông",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " tin ",
+          "run": 9
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tham",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "số",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dùng",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "để",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "hóa",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "người",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "gửi",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "nhận",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cần",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "phải",
+          "run": 32
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bảo",
+          "run": 34
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "vệ",
+          "run": 36
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "sự",
+          "run": 38
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bí",
+          "run": 40
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 42
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "của",
+          "run": 44
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 46
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 48
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 50
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 51
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa mật mã là thông tin tham số dùng để mã hóa người gửi và nhận cần phải bảo vệ sự bí mật của khóa mật mã."
+        }
+      ]
+    },
+    "D": {
+      "text": "Bản mã là dạng mã của dữ liệu bản rõ.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bản mã là dạng mã của dữ liệu bản rõ."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Bản mã là dạng mã của dữ liệu bản rõ."
+        }
+      ]
+    },
+    "question": "Đâu là khẳng định SAI?",
+    "source_mark_candidates": {
+      "highlight": [
+        "C"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "C",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 33
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "C",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.06",
+      "name": "Mật mã đối xứng và bất đối xứng"
+    },
+    "study_topic": "Phân loại mật mã: đối xứng/bất đối xứng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Kiểm tra từ “tất cả”: khóa công khai và khóa giải mã có cùng yêu cầu giữ bí mật không?",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là khẳng định SAI?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-5",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "5",
+    "source_order": 4,
+    "source_docx_block": 44,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mã nào sau đây là hệ mã khối?"
+      }
+    ],
+    "source_paragraphs": [
+      46,
+      48,
+      50,
+      52
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Ceasar",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ceasar"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Ceasar"
+        }
+      ]
+    },
+    "B": {
+      "text": "DES",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "DES"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "DES",
+          "run": 0
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "DES"
+        }
+      ]
+    },
+    "C": {
+      "text": "Mã dịch vòng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã dịch vòng"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã dịch vòng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Affine",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Affine"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Affine"
+        }
+      ]
+    },
+    "question": "Hệ mã nào sau đây là hệ mã khối?",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 44
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.07",
+      "name": "Phân biệt mã khối và mã dòng"
+    },
+    "study_topic": "Mã khối và mã dòng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Xét DES xử lý một khối cố định hay tạo từng phần tử dòng khóa; không nhầm số vòng với kích thước khối.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mã nào sau đây là hệ mã khối?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-6",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "6",
+    "source_order": 5,
+    "source_docx_block": 55,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật DES là tên viết tắt của"
+      }
+    ],
+    "source_paragraphs": [
+      57,
+      59,
+      61,
+      63
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Delta Encryption Services.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Delta Encryption Services."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Delta Encryption Services."
+        }
+      ]
+    },
+    "B": {
+      "text": "Data Encryption Standard.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Data Encryption Standard."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Data Encryption Standard.",
+          "run": 0
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Data Encryption Standard."
+        }
+      ]
+    },
+    "C": {
+      "text": "Digital Encryption Standard",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Digital Encryption Standard"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Digital Encryption Standard"
+        }
+      ]
+    },
+    "D": {
+      "text": "Data Encryption Service",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Data Encryption Service"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Data Encryption Service"
+        }
+      ]
+    },
+    "question": "Hệ mật DES là tên viết tắt của",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 55
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.02",
+      "name": "DES – tổng quan và cấu trúc Feistel"
+    },
+    "study_topic": "Tổng quan DES và mạng Feistel",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đối chiếu từng chữ viết tắt DES, đặc biệt từ đầu tiên; bỏ các tên ghép gần giống.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật DES là tên viết tắt của"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-7",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "7",
+    "source_order": 6,
+    "source_docx_block": 66,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn khẳng định SAI về mật mã khóa đối xứng."
+      }
+    ],
+    "source_paragraphs": [
+      68,
+      70,
+      72,
+      74
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Trong mật mã khóa đối xứng, khóa mã hóa và khóa giải mã là giống nhau hoặc dễ dàng suy ra nhau.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trong mật mã khóa đối xứng, khóa mã hóa và khóa giải mã là giống nhau hoặc dễ dàng suy ra nhau."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Trong mật mã khóa đối xứng, khóa mã hóa và khóa giải mã là giống nhau hoặc dễ dàng suy ra nhau."
+        }
+      ]
+    },
+    "B": {
+      "text": "Mật mã khóa đối xứng thường có khả năng mã hóa/giải mã thông điệp nhanh hơn mật mã khóa bất đối xứng.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mật mã khóa đối xứng thường có khả năng mã hóa/giải mã thông điệp nhanh hơn mật mã khóa bất đối xứng."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mật mã khóa đối xứng thường có khả năng mã hóa/giải mã thông điệp nhanh hơn mật mã khóa bất đối xứng."
+        }
+      ]
+    },
+    "C": {
+      "text": "Khóa mã hóa của mât mã khóa đối xứng cần phải giữ bí mật và được bên gửi và nhận trao đổi trên kênh truyền an toàn.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa mã hóa của mât mã khóa đối xứng cần phải giữ bí mật và được bên gửi và nhận trao đổi trên kênh truyền an toàn."
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa mã hóa của mât mã khóa đối xứng cần phải giữ bí mật và được bên gửi và nhận trao đổi trên kênh truyền an toàn."
+        }
+      ]
+    },
+    "D": {
+      "text": "Khóa của mật mã khóa đối xứng là cặp (khóa riêng; khóa công khai).",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mật mã khóa đối xứng là cặp (khóa riêng; khóa công khai)."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Khóa",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "của",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đối",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "xứng",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "là",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cặp",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " (",
+          "run": 17
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "riêng",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "; ",
+          "run": 21
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "công",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khai",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ").",
+          "run": 27
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mật mã khóa đối xứng là cặp (khóa riêng; khóa công khai)."
+        }
+      ]
+    },
+    "question": "Lựa chọn khẳng định SAI về mật mã khóa đối xứng.",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 66
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.06",
+      "name": "Mật mã đối xứng và bất đối xứng"
+    },
+    "study_topic": "Phân loại mật mã: đối xứng/bất đối xứng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: So sánh cách cấp khóa của hệ đối xứng với cặp khóa công khai/riêng của hệ bất đối xứng.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn khẳng định SAI về mật mã khóa đối xứng."
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-8",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "8",
+    "source_order": 7,
+    "source_docx_block": 77,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?"
+      }
+    ],
+    "source_paragraphs": [
+      80,
+      82,
+      84,
+      86
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Mã hoán vị",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã hoán vị"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã hoán vị"
+        }
+      ]
+    },
+    "B": {
+      "text": "OTP",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "OTP"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "OTP",
+          "run": 0
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "OTP"
+        }
+      ]
+    },
+    "C": {
+      "text": "Affine",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Affine"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Affine"
+        }
+      ]
+    },
+    "D": {
+      "text": "Vigenere",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Vigenere"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Vigenere"
+        }
+      ]
+    },
+    "question": "Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 77
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.09",
+      "name": "One-Time Pad (OTP) dạng bit"
+    },
+    "study_topic": "Mã dùng một lần",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Chỉ xét tính mật hoàn thiện khi khóa ngẫu nhiên đều, dùng đúng một lần và đủ dài.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là thuật toán mã hóa được xem là có độ an toàn tốt nhất?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-9",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "9",
+    "source_order": 8,
+    "source_docx_block": 89,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+      }
+    ],
+    "source_paragraphs": [
+      91,
+      93,
+      95,
+      97
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Tính bí mật, sẵn sàng và chống chối bỏ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật, sẵn sàng và chống chối bỏ"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật, sẵn sàng và chống chối bỏ"
+        }
+      ]
+    },
+    "B": {
+      "text": "Tính chống chối bỏ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính chống chối bỏ"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính chống chối bỏ"
+        }
+      ]
+    },
+    "C": {
+      "text": "Tính bí mật và sẵn sàng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật và sẵn sàng"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật và sẵn sàng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Tính bí mật",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Tính",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bí",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 4
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính bí mật"
+        }
+      ]
+    },
+    "question": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 89
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.02",
+      "name": "Dịch vụ bảo mật và kỹ thuật mật mã"
+    },
+    "study_topic": "Mục tiêu và dịch vụ an toàn thông tin",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Hỏi khả năng ngăn đọc trộm, không phải phát hiện thay đổi hoặc kiểm tra người gửi.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật khóa bí mật đảm bảo tính chất an toàn nào của thông tin?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-10",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "10",
+    "source_order": 9,
+    "source_docx_block": 100,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+      }
+    ],
+    "source_paragraphs": [
+      102,
+      104,
+      106,
+      108
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Được sử dụng để tạo chữ kí số.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Được sử dụng để tạo chữ kí số."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Được sử dụng để tạo chữ kí số."
+        }
+      ]
+    },
+    "B": {
+      "text": "Sử dụng hai khóa khác nhau cho mã hóa/giải mã và được dùng để kí số.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng hai khóa khác nhau cho mã hóa/giải mã và được dùng để kí số."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng hai khóa khác nhau cho mã hóa/giải mã và được dùng để kí số."
+        }
+      ]
+    },
+    "C": {
+      "text": "Có tốc độ mã hóa/giải mã cao",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Có tốc độ mã hóa/giải mã cao"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Có",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tốc",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "độ",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "hóa",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "/",
+          "run": 9
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "giải",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cao",
+          "run": 14
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có tốc độ mã hóa/giải mã cao"
+        }
+      ]
+    },
+    "D": {
+      "text": "Có khả năng đảm bảo tính chống chối bỏ và tốc độ mã hóa/giải mã cao",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Có khả năng đảm bảo tính chống chối bỏ và tốc độ mã hóa/giải mã cao"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Có khả năng đảm bảo tính chống chối bỏ và tốc độ mã hóa/giải mã cao"
+        }
+      ]
+    },
+    "question": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?",
+    "source_mark_candidates": {
+      "highlight": [
+        "C"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "C",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 100
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "C",
+    "needs_review": true,
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: C. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+      "sources": [],
+      "valid_options": [
+        "C"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.05",
+      "name": "Định nghĩa hình thức của hệ mật"
+    },
+    "study_topic": "Các khái niệm cơ bản của hệ mật",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đọc lại chủ thể và mục đích mã hóa; loại phương án chỉ nói đến quân sự hoặc hàm không đảo được.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Phát biểu nào sau đây về mật mã khóa đối xứng là ?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-11",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "11",
+    "source_order": 10,
+    "source_docx_block": 111,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+      }
+    ],
+    "source_paragraphs": [
+      113,
+      115,
+      117,
+      119
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Đảm bảo được tính bí mật của thông tin.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo được tính bí mật của thông tin."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Đảm bảo được tính bí mật của thông tin."
+        }
+      ]
+    },
+    "B": {
+      "text": "Là hệ mật dùng một khóa cho quá trình mã và giải mã.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Là hệ mật dùng một khóa cho quá trình mã và giải mã."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Là hệ mật dùng một khóa cho quá trình mã và giải mã."
+        }
+      ]
+    },
+    "C": {
+      "text": "Mã khối và mã dòng là các hệ mật mã khóa đối xứng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã khối và mã dòng là các hệ mật mã khóa đối xứng"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã khối và mã dòng là các hệ mật mã khóa đối xứng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Được dùng để tạo chữ kí số.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Được dùng để tạo chữ kí số."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Được",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dùng",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "để",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tạo",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "chữ",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "kí",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "số",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 13
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Được dùng để tạo chữ kí số."
+        }
+      ]
+    },
+    "question": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 111
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": true,
+    "review_reasons": [
+      "Tiêu chí “KHÔNG” bị cụt."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Tiêu chí “KHÔNG” bị cụt.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Tiêu chí “KHÔNG” bị cụt.",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.05",
+      "name": "Định nghĩa hình thức của hệ mật"
+    },
+    "study_topic": "Các khái niệm cơ bản của hệ mật",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Câu nguồn thiếu một phần tiêu chí “KHÔNG”; đối chiếu ghi chú nguồn trước khi chốt lựa chọn.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mật mã khóa đối xứng là KHÔNG ?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-12",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "12",
+    "source_order": 11,
+    "source_docx_block": 122,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?"
+      }
+    ],
+    "source_paragraphs": [
+      124,
+      126,
+      128,
+      130
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Cách bản rõ được xử lí và cấu trúc toán học của hệ mật.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Cách bản rõ được xử lí và cấu trúc toán học của hệ mật."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Cách bản rõ được xử lí và cấu trúc toán học của hệ mật."
+        }
+      ]
+    },
+    "B": {
+      "text": "Số khóa được sử dụng khi mã/giải mã và cấu trúc toán học của hệ mật.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Số khóa được sử dụng khi mã/giải mã và cấu trúc toán học của hệ mật."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Số khóa được sử dụng khi mã/giải mã và cấu trúc toán học của hệ mật."
+        }
+      ]
+    },
+    "C": {
+      "text": "Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí"
+        }
+      ]
+    },
+    "D": {
+      "text": "Cấu trúc toán học của hệ mật, Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Cấu trúc toán học của hệ mật, Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Cấu",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trúc",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "toán",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "học",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "của",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "hệ",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mật",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ", ",
+          "run": 13
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Số",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "được",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "sử",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dụng",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khi",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "/",
+          "run": 27
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "giải",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 32
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cách",
+          "run": 34
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 36
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "rõ",
+          "run": 38
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "được",
+          "run": 40
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "xử",
+          "run": 42
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "lí",
+          "run": 44
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 45
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Cấu trúc toán học của hệ mật, Số khóa được sử dụng khi mã/giải mã và cách bản rõ được xử lí."
+        }
+      ]
+    },
+    "question": "Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 122
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.05",
+      "name": "Định nghĩa hình thức của hệ mật"
+    },
+    "study_topic": "Các khái niệm cơ bản của hệ mật",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Đếm các tiêu chí phân loại độc lập: phép biến đổi, quan hệ khóa và cách xử lý bản rõ.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật mã được đặc trưng bởi các yếu tố nào sau đây?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "confirmed",
+    "duplicate_group": "collection-e3ebf06b8ac6d9ec41fb",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-12",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "12",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-11",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "11",
+        "source_file": "Chuong3.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-13",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "13",
+    "source_order": 12,
+    "source_docx_block": 133,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là quá trình chuyển bản rõ thành bản mã?"
+      }
+    ],
+    "source_paragraphs": [
+      135,
+      137,
+      139,
+      141
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Encryption",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Encryption"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Encryption",
+          "run": 0
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Encryption"
+        }
+      ]
+    },
+    "B": {
+      "text": "Plaintext",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plaintext"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Plaintext"
+        }
+      ]
+    },
+    "C": {
+      "text": "Ciphertext",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ciphertext"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Ciphertext"
+        }
+      ]
+    },
+    "D": {
+      "text": "Decryption",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Decryption"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Decryption"
+        }
+      ]
+    },
+    "question": "Đâu là quá trình chuyển bản rõ thành bản mã?",
+    "source_mark_candidates": {
+      "highlight": [
+        "A"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "A",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 133
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.05",
+      "name": "Định nghĩa hình thức của hệ mật"
+    },
+    "study_topic": "Các khái niệm cơ bản của hệ mật",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt chiều biến đổi bản rõ → bản mã với chiều giải mã và kỹ thuật thám mã.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Đâu là quá trình chuyển bản rõ thành bản mã?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "confirmed",
+    "duplicate_group": "collection-516d1af6084b9f4ec258",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-13",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "13",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong3-13",
+        "source_exam_id": "de-cuong-2025-chuong3",
+        "source_exam_code": "Chuong3",
+        "source_question_number": "13",
+        "source_file": "Chuong3.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-14",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "14",
+    "source_order": 13,
+    "source_docx_block": 143,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án "
+      }
+    ],
+    "source_paragraphs": [
+      145,
+      147,
+      149,
+      151
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 2 bit trong bản mã tạo ra và ngược lại",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 2 bit trong bản mã tạo ra và ngược lại"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 2 bit trong bản mã tạo ra và ngược lại"
+        }
+      ]
+    },
+    "B": {
+      "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong khóa phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong khóa phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong khóa phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+        }
+      ]
+    },
+    "C": {
+      "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 1 bit trong bản mã tạo ra và ngược lại",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 1 bit trong bản mã tạo ra và ngược lại"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi 1 bit trong bản mã tạo ra và ngược lại"
+        }
+      ]
+    },
+    "D": {
+      "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Tính",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khuếch",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tán",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trong",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "nguyên",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "lí",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " Shannon ",
+          "run": 11
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "yêu",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cầu",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khi",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thay",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đổi",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "1 bit",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trong",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "rõ",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "phải",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dẫn",
+          "run": 32
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tới",
+          "run": 34
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "sự",
+          "run": 36
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thay",
+          "run": 38
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đổi",
+          "run": 40
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "một",
+          "run": 42
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "nửa",
+          "run": 44
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "số",
+          "run": 46
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " bit ",
+          "run": 47
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trong",
+          "run": 48
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 50
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 52
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tạo",
+          "run": 54
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "ra",
+          "run": 56
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 58
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "ngược",
+          "run": 60
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "lại",
+          "run": 62
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính khuếch tán trong nguyên lí Shannon yêu cầu khi thay đổi 1 bit trong bản rõ phải dẫn tới sự thay đổi một nửa số bit trong bản mã tạo ra và ngược lại"
+        }
+      ]
+    },
+    "question": "Lựa chọn đáp án ",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 143
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": true,
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.01",
+      "name": "Nguyên lý mã khối của Shannon"
+    },
+    "study_topic": "Nguyên lý thiết kế của Shannon",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Hiệu ứng thác lũ nói về số bit thay đổi ở đầu ra khi chỉ đảo một bit đầu vào.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án "
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-15",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "15",
+    "source_order": 14,
+    "source_docx_block": 154,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+      }
+    ],
+    "source_paragraphs": [
+      156,
+      158,
+      160,
+      162
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa."
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên sử dụng khóa bí mật của riêng mình để mã hóa."
+        }
+      ]
+    },
+    "B": {
+      "text": "Hai bên thỏa thuận trước để dùng chung một khóa.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên thỏa thuận trước để dùng chung một khóa."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Hai ",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bên",
+          "run": 1
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thỏa",
+          "run": 3
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "thuận",
+          "run": 5
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trước",
+          "run": 7
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "để",
+          "run": 9
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dùng",
+          "run": 11
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "chung",
+          "run": 13
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "một",
+          "run": 15
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 17
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 18
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên thỏa thuận trước để dùng chung một khóa."
+        }
+      ]
+    },
+    "C": {
+      "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hai bên không cần thỏa thuận trước vì từ khóa của riêng mình có thể dễ dàng suy ra khóa chung"
+        }
+      ]
+    },
+    "D": {
+      "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mỗi bên gửi cho bên còn lại một phần khóa riêng của mình để sử dụng"
+        }
+      ]
+    },
+    "question": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 154
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": true,
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.06",
+      "name": "Mật mã đối xứng và bất đối xứng"
+    },
+    "study_topic": "Phân loại mật mã: đối xứng/bất đối xứng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Kiểm tra hai bên có cần thống nhất bí mật dùng chung trước khi mã hóa hay không.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây là  về hệ mật mã đối xứng?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-16",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "16",
+    "source_order": 15,
+    "source_docx_block": 164,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án "
+      }
+    ],
+    "source_paragraphs": [
+      166,
+      168,
+      170,
+      172
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và bản mã là tuyến tính",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và bản mã là tuyến tính"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và bản mã là tuyến tính"
+        }
+      ]
+    },
+    "B": {
+      "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là phi tuyến",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là phi tuyến"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Tính",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "xáo",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trộn",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trong",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "nguyên",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "lí",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " Shannon ",
+          "run": 11
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tạo",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "ra",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "quan",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "hệ",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "của",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "bản",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 26
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 28
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "là",
+          "run": 30
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": " phi ",
+          "run": 31
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tuyến",
+          "run": 32
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là phi tuyến"
+        }
+      ]
+    },
+    "C": {
+      "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và khóa là phi tuyến",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và khóa là phi tuyến"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản rõ và khóa là phi tuyến"
+        }
+      ]
+    },
+    "D": {
+      "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là tuyến tính",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là tuyến tính"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Tính xáo trộn trong nguyên lí Shannon tạo ra quan hệ của bản mã và khóa là tuyến tính"
+        }
+      ]
+    },
+    "question": "Lựa chọn đáp án ",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 164
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": true,
+    "review_reasons": [
+      "Thân câu thiếu tiêu chí ĐÚNG/SAI."
+    ],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. Lưu ý nguồn: Thân câu thiếu tiêu chí ĐÚNG/SAI.",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.01",
+      "name": "Nguyên lý mã khối của Shannon"
+    },
+    "study_topic": "Nguyên lý thiết kế của Shannon",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Phân biệt che quan hệ khóa–bản mã với việc lan ảnh hưởng của một bit ra nhiều bit khác.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Lựa chọn đáp án "
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-17",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "17",
+    "source_order": 16,
+    "source_docx_block": 174,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Nguyên lí thiết kế mã khối của Shannon bao gồm:"
+      }
+    ],
+    "source_paragraphs": [
+      176,
+      178,
+      180,
+      182
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Khuếch tán, hoán vị và thay thế",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khuếch tán, hoán vị và thay thế"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khuếch tán, hoán vị và thay thế"
+        }
+      ]
+    },
+    "B": {
+      "text": "Xáo trộn và khuếch tán.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và khuếch tán."
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Xáo",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "trộn",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khuếch",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "tán",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": ".",
+          "run": 9
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và khuếch tán."
+        }
+      ]
+    },
+    "C": {
+      "text": "Xáo trộn và hoán vị",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và hoán vị"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và hoán vị"
+        }
+      ]
+    },
+    "D": {
+      "text": "Xáo trộn và thay thế",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và thay thế"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Xáo trộn và thay thế"
+        }
+      ]
+    },
+    "question": "Nguyên lí thiết kế mã khối của Shannon bao gồm:",
+    "source_mark_candidates": {
+      "highlight": [
+        "B"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "B",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 174
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "B",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: B. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "B"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.03.01",
+      "name": "Nguyên lý mã khối của Shannon"
+    },
+    "study_topic": "Nguyên lý thiết kế của Shannon",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Ghép đúng hai nguyên lý thiết kế mã khối; “thay thế” và “hoán vị” là công cụ, không phải tên cả hai nguyên lý.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Nguyên lí thiết kế mã khối của Shannon bao gồm:"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "confirmed",
+    "duplicate_group": "collection-f3fda9a035951d1709e1",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-17",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "17",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-11",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "11",
+        "source_file": "Chuong2.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-18",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "18",
+    "source_order": 17,
+    "source_docx_block": 185,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mã khối là SAI?"
+      }
+    ],
+    "source_paragraphs": [
+      187,
+      189,
+      191,
+      193
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Sử",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "dụng",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "cặp",
+          "run": 4
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 6
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "công",
+          "run": 8
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khai",
+          "run": 10
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 12
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "khóa",
+          "run": 14
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "riêng",
+          "run": 16
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "để",
+          "run": 18
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 20
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "và",
+          "run": 22
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "giải",
+          "run": 24
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "mã",
+          "run": 26
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Sử dụng cặp khóa công khai và khóa riêng để mã và giải mã"
+        }
+      ]
+    },
+    "B": {
+      "text": "Bản rõ có kích thước cố định",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bản rõ có kích thước cố định"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Bản rõ có kích thước cố định"
+        }
+      ]
+    },
+    "C": {
+      "text": "Hoạt động tương tự mã dòng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Hoạt động tương tự mã dòng"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Hoạt động tương tự mã dòng"
+        }
+      ]
+    },
+    "D": {
+      "text": "Khóa của mã khối là đối xứng.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mã khối là đối xứng."
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Khóa của mã khối là đối xứng."
+        }
+      ]
+    },
+    "question": "Khẳng định nào sau đây về mã khối là SAI?",
+    "source_mark_candidates": {
+      "highlight": [
+        "A"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "A",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 185
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 1. Tổng quan về mật mã học",
+    "chapter_id": "1",
+    "chapter_ids": [
+      "1"
+    ],
+    "chapter_parent": {
+      "id": "1",
+      "name": "Tổng quan về mật mã học"
+    },
+    "chapter_child": {
+      "code": "01.07",
+      "name": "Phân biệt mã khối và mã dòng"
+    },
+    "study_topic": "Mã khối và mã dòng",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Xét định nghĩa mã khối trong nhóm thuật toán đối xứng; không nhầm với phép RSA trên một số nguyên.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Khẳng định nào sau đây về mã khối là SAI?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "confirmed",
+    "duplicate_group": "collection-98ce8eb0f2877f0b49a0",
+    "duplicate_sources": [
+      {
+        "id": "nmmmh-de-cuong-2025-chuong1-18",
+        "source_exam_id": "de-cuong-2025-chuong1",
+        "source_exam_code": "Chuong1",
+        "source_question_number": "18",
+        "source_file": "Chuong1.docx"
+      },
+      {
+        "id": "nmmmh-de-cuong-2025-chuong2-12",
+        "source_exam_id": "de-cuong-2025-chuong2",
+        "source_exam_code": "Chuong2",
+        "source_question_number": "12",
+        "source_file": "Chuong2.docx"
+      }
+    ]
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-19",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "19",
+    "source_order": 18,
+    "source_docx_block": 196,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?"
+      }
+    ],
+    "source_paragraphs": [
+      198,
+      200,
+      202,
+      204
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Vigenere Caesar",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Vigenere Caesar"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Vigenere Caesar"
+        }
+      ]
+    },
+    "B": {
+      "text": "David Caesar",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "David Caesar"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "David Caesar"
+        }
+      ]
+    },
+    "C": {
+      "text": "Vladimir Caesar",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Vladimir Caesar"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Vladimir Caesar"
+        }
+      ]
+    },
+    "D": {
+      "text": "Caesar",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Caesar"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Caesar",
+          "run": 0
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Caesar"
+        }
+      ]
+    },
+    "question": "Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?",
+    "source_mark_candidates": {
+      "highlight": [
+        "D"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "D",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 196
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "D",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: D. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "D"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.03",
+      "name": "Mã dịch vòng Caesar (Shift cipher)"
+    },
+    "study_topic": "Mã dịch vòng Caesar",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: So sánh số bảng thay thế được dùng trong cùng một thông điệp ở bốn hệ mật.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mật dịch vòng có khóa k=3 có tên gọi là gì?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  },
+  {
+    "id": "nmmmh-de-cuong-2025-chuong1-20",
+    "source_exam_id": "de-cuong-2025-chuong1",
+    "source_file": "Chuong1.docx",
+    "source_question_number": "20",
+    "source_order": 19,
+    "source_docx_block": 207,
+    "question_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+      }
+    ],
+    "source_paragraphs": [
+      208,
+      209,
+      210,
+      211
+    ],
+    "implicit_options": true,
+    "A": {
+      "text": "Mã đa biểu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã đa biểu"
+        }
+      ],
+      "source_label": "A",
+      "mark_evidence": [
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "Mã",
+          "run": 0
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "đa",
+          "run": 2
+        },
+        {
+          "kind": "highlight",
+          "value": "yellow",
+          "text": "biểu",
+          "run": 4
+        }
+      ],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã đa biểu"
+        }
+      ]
+    },
+    "B": {
+      "text": "Mã dịch vòng",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã dịch vòng"
+        }
+      ],
+      "source_label": "B",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã dịch vòng"
+        }
+      ]
+    },
+    "C": {
+      "text": "Mã đơn biểu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã đơn biểu"
+        }
+      ],
+      "source_label": "C",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã đơn biểu"
+        }
+      ]
+    },
+    "D": {
+      "text": "Mã thay thế đơn biểu",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mã thay thế đơn biểu"
+        }
+      ],
+      "source_label": "D",
+      "mark_evidence": [],
+      "display_blocks": [
+        {
+          "type": "text",
+          "text": "Mã thay thế đơn biểu"
+        }
+      ]
+    },
+    "question": "Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?",
+    "source_mark_candidates": {
+      "highlight": [
+        "A"
+      ],
+      "underlined_option_label": [],
+      "font_color": []
+    },
+    "source_marked_answer": "A",
+    "mark_status": "unique_source_mark",
+    "source_issues": [],
+    "source_exam_code": "Chuong1",
+    "source_page": null,
+    "source_reference": {
+      "file": "NMMMH/NMMMH/Đề_cương_2025/Chuong1.docx",
+      "sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+      "docx_block": 207
+    },
+    "source_fidelity_status": "native_text_and_original_images",
+    "correct_answer": "A",
+    "needs_review": false,
+    "review_reasons": [],
+    "answer_evidence": "source_docx_formatting",
+    "verification_status": "source_marked",
+    "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+    "answer_audit": {
+      "status": "source_marked",
+      "explanation": "Đáp án theo dấu định dạng khác biệt trong DOCX gốc: A. Dấu tô vàng/gạch chân nhãn được lưu đầy đủ trong hồ sơ native; không dùng trạng thái nút radio. ",
+      "sources": [],
+      "valid_options": [
+        "A"
+      ]
+    },
+    "subject_id": "nmmmh",
+    "subject": "Mật mã học",
+    "collection_id": "de-cuong-2025",
+    "collection_name": "Đề cương 2025",
+    "chapter": "Chương 2. Các hệ mật khóa bí mật",
+    "chapter_id": "2",
+    "chapter_ids": [
+      "2"
+    ],
+    "chapter_parent": {
+      "id": "2",
+      "name": "Các hệ mật khóa bí mật"
+    },
+    "chapter_child": {
+      "code": "02.01.06",
+      "name": "Hệ mật Vigenère"
+    },
+    "study_topic": "Mã Vigenère",
+    "classification_needs_review": false,
+    "classification_evidence": "Đọc nội dung, tất cả phương án và hình; ánh xạ thủ công theo cây NMMMH_Cay_kien_thuc.md.",
+    "classification_notes": "",
+    "hint": "Mẹo: Vigenère thay bảng theo vị trí khóa; vì vậy không thể chỉ áp dụng tần suất toàn bản mã như mã đơn biểu.",
+    "verification_revision": "collections-20261022-v1",
+    "display_blocks": [
+      {
+        "type": "text",
+        "text": "Hệ mã nào dưới đây có khả năng chống lại tấn công phân tích tần suất?"
+      }
+    ],
+    "images": [],
+    "source_option_labels_in_figure": false,
+    "duplicate_status": "unique",
+    "duplicate_group": null,
+    "duplicate_sources": []
+  }
+]

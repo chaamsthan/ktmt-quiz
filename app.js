@@ -243,7 +243,7 @@ function feedbackHtml(question) {
   if (!feedback) return "";
   if (!question.correct_answer) return `<div class="feedback pending"><strong>Chưa có đáp án xác minh.</strong> Câu này được giữ lại để bạn rà soát nguồn.</div>`;
   const letter = question.subject_id === "nmmmh" ? displayOptionLetter(question, question.correct_answer) : question.correct_answer;
-  if (question.subject_id === "nmmmh" && !state.quiz.answers[question.id]) return `<div class="feedback pending">Đáp án đã kiểm chứng: <strong>${letter}</strong>. Chưa ghi nhận câu trả lời.</div>`;
+  if (question.subject_id === "nmmmh" && !state.quiz.answers[question.id]) return `<div class="feedback pending">${question.answer_audit?.status === "source_marked" ? "Đáp án theo dấu nguồn" : "Đáp án đã kiểm chứng"}: <strong>${letter}</strong>. Chưa ghi nhận câu trả lời.</div>`;
   if ((question.subject_id === "nmmmh" ? state.quiz.answers[question.id] : feedback) === question.correct_answer) return `<div class="feedback correct"><strong>Chính xác.</strong> Đáp án đúng là ${letter}.</div>`;
   return `<div class="feedback incorrect"><strong>Chưa đúng.</strong> Đáp án đúng là ${letter}.</div>`;
 }

@@ -1,0 +1,31 @@
+{
+  "scope": "Two new NMMMH collections; existing website and grading preserved",
+  "static_build": "PASS: 14 NMMMH exams, 540 questions, 540 hints, 278 KaTeX expressions, 149 image references",
+  "lint": "PASS: node --check; ruff E9,F63,F7,F82; compileall; git diff --cached --check",
+  "legacy_unit_tests": "PASS: 9 source/answer/crop/classification invariants in test_nmmmh_data.py",
+  "new_data_tests": "PASS: 9 new exams / 367 records; exact native marks and source option order; source SHA-256; 41 pixel-identical crops; poisoned-key arithmetic independence",
+  "browser_suites": {
+    "test_nmmmh.py": "PASS: existing NMMMH, KTMT, all three scopes, history, unknown answers, mobile",
+    "test_nmmmh_upgrade.py": "PASS: all 173 existing questions, math/images, shuffle, reload, storage error fallback",
+    "test_ktmt_chapter2.py": "PASS: all 59 existing chapter-2 source-highlight keys; six source crops; desktop/mobile",
+    "test_nmmmh_collections.py": "PASS: all 367 new questions rendered and graded against canonical IDs; all nine exams; collection separation; hints; all assets; 320/390/1440 px; reload/history"
+  },
+  "browser_errors": 0,
+  "browser_failed_asset_requests": 0,
+  "source_comparison": {
+    "native_docx_questions": 290,
+    "original_docx_figures_visually_reviewed": 80,
+    "pdf_screenshot_pages_visually_reviewed": 46,
+    "final_crops_visually_reviewed": 41,
+    "missing_source_questions": {"de-giua-ki-2026-ca-1": [21, 22, 23]},
+    "ungraded_questions": 43,
+    "source_review_flags": 69,
+    "independently_verified_keys": 104,
+    "source_marked_keys_not_claimed_independent": 220
+  },
+  "limits": [
+    "Source-marked DOCX keys are not all independently solved; this provenance is explicit in the JSON and interface.",
+    "Original PDFs contain clipped/missing content. It is not reconstructed by guessing.",
+    "Automated tests verify data/rendering/grading invariants, not the academic correctness of every source-marked answer."
+  ]
+}

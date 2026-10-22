@@ -1,0 +1,62 @@
+[
+  {
+    "exam": "de-cuong-2025-chuong1",
+    "questions": 20,
+    "source_sha256": "69c9027da7140218c49d202fde1bd16b563c5e6ea6121abff3d324eacc3649a8",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-chuong2",
+    "questions": 50,
+    "source_sha256": "6b65dd4a816edf56309a6ca969bf881eb89b813bd9b73b87f20bfe29e40661d4",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-chuong3",
+    "questions": 50,
+    "source_sha256": "290311611e3fdef1596232642e4735f64caa9562e055f636514fed2e342ae003",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-tonghop1",
+    "questions": 40,
+    "source_sha256": "b60adcb18b124b0d0af5ae23453f0bfce403f3640e7de57bb2d6dde787b6615b",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-tonghop2",
+    "questions": 40,
+    "source_sha256": "b4ee47781b426f140fde961128fe656ba2c0b0713ccc586f34daae0007493178",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-tonghop3",
+    "questions": 40,
+    "source_sha256": "98aaf3987f698add0de8491445ea9b7d28d40b326c752b38c7358e6b874b80c9",
+    "status": "written"
+  },
+  {
+    "exam": "de-cuong-2025-tonghop4",
+    "questions": 50,
+    "source_sha256": "0165f3b643b434cf606f19d7d75002522b05d175a8d21755830e71bc183e3f49",
+    "status": "written"
+  },
+  {
+    "exam": "de-giua-ki-2026-ca-1",
+    "questions": 37,
+    "source_sha256": "20c2a5185f3bd7b5d5fc472889cb9539bcf208fc2b9c047c212baab199dd13e2",
+    "status": "written",
+    "missing_numbers": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "exam": "de-giua-ki-2026-ca-2",
+    "questions": 40,
+    "source_sha256": "12b89b14c73bf29dc9806aa4186a3c37dccd9c5aca350eec75d43632a993e5f1",
+    "status": "written",
+    "missing_numbers": []
+  }
+]

@@ -1,0 +1,530 @@
+{
+  "source": "TONGQUANKIENTHUC/NMMMH_Phan_loai_kien_thuc.json",
+  "sha256": "4c0383bcf6f0803f3bdbab6a40441bbf32c99f65c536ce02d317cbf15a6d9f2b",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Tổng quan về mật mã học",
+      "pdf_pages": [
+        7,
+        33
+      ],
+      "status": "present"
+    },
+    {
+      "id": 2,
+      "name": "Các hệ mật khóa bí mật",
+      "pdf_pages": [
+        35,
+        168
+      ],
+      "status": "present"
+    },
+    {
+      "id": 3,
+      "name": "Các hệ mật khóa công khai",
+      "pdf_pages": null,
+      "status": "toc_only"
+    },
+    {
+      "id": 4,
+      "name": "Hàm băm, xác thực và chữ ký số",
+      "pdf_pages": null,
+      "status": "toc_only"
+    },
+    {
+      "id": 5,
+      "name": "Vấn đề phân phối và thỏa thuận khóa",
+      "pdf_pages": null,
+      "status": "toc_only"
+    }
+  ],
+  "topics": [
+    {
+      "code": "01.01",
+      "chapter": 1,
+      "topic": "Khái niệm an toàn thông tin và các mối đe dọa",
+      "pdf_pages": {
+        "start": 10,
+        "end": 13
+      }
+    },
+    {
+      "code": "01.02",
+      "chapter": 1,
+      "topic": "Dịch vụ bảo mật và kỹ thuật mật mã",
+      "pdf_pages": {
+        "start": 13,
+        "end": 15
+      }
+    },
+    {
+      "code": "01.03",
+      "chapter": 1,
+      "topic": "Sơ đồ hệ thống truyền tin số",
+      "pdf_pages": {
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "code": "01.04",
+      "chapter": 1,
+      "topic": "Ứng dụng mật mã trong thực tế",
+      "pdf_pages": {
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "code": "01.05",
+      "chapter": 1,
+      "topic": "Định nghĩa hình thức của hệ mật",
+      "pdf_pages": {
+        "start": 21,
+        "end": 23
+      }
+    },
+    {
+      "code": "01.06",
+      "chapter": 1,
+      "topic": "Mật mã đối xứng và bất đối xứng",
+      "pdf_pages": {
+        "start": 24,
+        "end": 26
+      }
+    },
+    {
+      "code": "01.07",
+      "chapter": 1,
+      "topic": "Phân biệt mã khối và mã dòng",
+      "pdf_pages": {
+        "start": 27,
+        "end": 28
+      }
+    },
+    {
+      "code": "01.08",
+      "chapter": 1,
+      "topic": "Vernam và ví dụ mã hóa cộng modulo",
+      "pdf_pages": {
+        "start": 28,
+        "end": 30
+      }
+    },
+    {
+      "code": "01.09",
+      "chapter": 1,
+      "topic": "Kiến trúc mã dòng và bộ sinh dòng khóa",
+      "pdf_pages": {
+        "start": 31,
+        "end": 33
+      }
+    },
+    {
+      "code": "02.01.01",
+      "chapter": 2,
+      "topic": "Hệ truyền tin mật khóa bí mật và nhóm hệ cổ điển",
+      "pdf_pages": {
+        "start": 37,
+        "end": 39
+      }
+    },
+    {
+      "code": "02.01.02",
+      "chapter": 2,
+      "topic": "Mật mã thay thế đơn biểu",
+      "pdf_pages": {
+        "start": 39,
+        "end": 39
+      }
+    },
+    {
+      "code": "02.01.03",
+      "chapter": 2,
+      "topic": "Mã dịch vòng Caesar (Shift cipher)",
+      "pdf_pages": {
+        "start": 40,
+        "end": 41
+      }
+    },
+    {
+      "code": "02.01.04",
+      "chapter": 2,
+      "topic": "Mã Affine",
+      "pdf_pages": {
+        "start": 42,
+        "end": 44
+      }
+    },
+    {
+      "code": "02.01.05",
+      "chapter": 2,
+      "topic": "Thay thế đa biểu và ý tưởng Vigenère",
+      "pdf_pages": {
+        "start": 45,
+        "end": 48
+      }
+    },
+    {
+      "code": "02.01.06",
+      "chapter": 2,
+      "topic": "Hệ mật Vigenère",
+      "pdf_pages": {
+        "start": 49,
+        "end": 53
+      }
+    },
+    {
+      "code": "02.01.07",
+      "chapter": 2,
+      "topic": "Hệ mật Hill",
+      "pdf_pages": {
+        "start": 54,
+        "end": 56
+      }
+    },
+    {
+      "code": "02.01.08",
+      "chapter": 2,
+      "topic": "Hệ mật khóa chạy (Autokey)",
+      "pdf_pages": {
+        "start": 57,
+        "end": 60
+      }
+    },
+    {
+      "code": "02.01.09",
+      "chapter": 2,
+      "topic": "One-Time Pad (OTP) dạng bit",
+      "pdf_pages": {
+        "start": 61,
+        "end": 61
+      }
+    },
+    {
+      "code": "02.01.10",
+      "chapter": 2,
+      "topic": "Hệ mật hoán vị (Transposition)",
+      "pdf_pages": {
+        "start": 62,
+        "end": 66
+      }
+    },
+    {
+      "code": "02.01.11",
+      "chapter": 2,
+      "topic": "Hệ mật tích / hợp thành",
+      "pdf_pages": {
+        "start": 67,
+        "end": 67
+      }
+    },
+    {
+      "code": "02.01.12",
+      "chapter": 2,
+      "topic": "Thám mã bằng thống kê tần suất",
+      "pdf_pages": {
+        "start": 68,
+        "end": 76
+      }
+    },
+    {
+      "code": "02.01.13",
+      "chapter": 2,
+      "topic": "Thám mã Hill bằng cặp bản rõ–bản mã",
+      "pdf_pages": {
+        "start": 77,
+        "end": 77
+      }
+    },
+    {
+      "code": "02.01.14",
+      "chapter": 2,
+      "topic": "Thám mã Vigenère – mục đọc thêm",
+      "pdf_pages": {
+        "start": 78,
+        "end": 78
+      }
+    },
+    {
+      "code": "02.02.01",
+      "chapter": 2,
+      "topic": "Bài tập tổng hợp mã cổ điển",
+      "pdf_pages": {
+        "start": 79,
+        "end": 81
+      }
+    },
+    {
+      "code": "02.03.01",
+      "chapter": 2,
+      "topic": "Nguyên lý mã khối của Shannon",
+      "pdf_pages": {
+        "start": 83,
+        "end": 84
+      }
+    },
+    {
+      "code": "02.03.02",
+      "chapter": 2,
+      "topic": "DES – tổng quan và cấu trúc Feistel",
+      "pdf_pages": {
+        "start": 85,
+        "end": 89
+      }
+    },
+    {
+      "code": "02.03.03",
+      "chapter": 2,
+      "topic": "DES – hàm f, E, S-box và P-box",
+      "pdf_pages": {
+        "start": 90,
+        "end": 98
+      }
+    },
+    {
+      "code": "02.03.04",
+      "chapter": 2,
+      "topic": "DES – sinh khóa con (Key Schedule)",
+      "pdf_pages": {
+        "start": 99,
+        "end": 101
+      }
+    },
+    {
+      "code": "02.03.05",
+      "chapter": 2,
+      "topic": "DES – tính chất và các khóa yếu",
+      "pdf_pages": {
+        "start": 102,
+        "end": 103
+      }
+    },
+    {
+      "code": "02.03.06",
+      "chapter": 2,
+      "topic": "Double DES và Triple DES (3DES)",
+      "pdf_pages": {
+        "start": 104,
+        "end": 105
+      }
+    },
+    {
+      "code": "02.03.07",
+      "chapter": 2,
+      "topic": "AES – nguồn gốc và thông số",
+      "pdf_pages": {
+        "start": 106,
+        "end": 107
+      }
+    },
+    {
+      "code": "02.03.08",
+      "chapter": 2,
+      "topic": "AES – toán học GF(2^8) và xtime",
+      "pdf_pages": {
+        "start": 108,
+        "end": 115
+      }
+    },
+    {
+      "code": "02.03.09",
+      "chapter": 2,
+      "topic": "AES – cấu trúc trạng thái và số vòng",
+      "pdf_pages": {
+        "start": 116,
+        "end": 117
+      }
+    },
+    {
+      "code": "02.03.10",
+      "chapter": 2,
+      "topic": "AES – SubBytes / S-box",
+      "pdf_pages": {
+        "start": 118,
+        "end": 121
+      }
+    },
+    {
+      "code": "02.03.11",
+      "chapter": 2,
+      "topic": "AES – ShiftRows / InvShiftRows",
+      "pdf_pages": {
+        "start": 122,
+        "end": 122
+      }
+    },
+    {
+      "code": "02.03.12",
+      "chapter": 2,
+      "topic": "AES – MixColumns / InvMixColumns",
+      "pdf_pages": {
+        "start": 123,
+        "end": 125
+      }
+    },
+    {
+      "code": "02.03.13",
+      "chapter": 2,
+      "topic": "AES – AddRoundKey",
+      "pdf_pages": {
+        "start": 126,
+        "end": 126
+      }
+    },
+    {
+      "code": "02.03.14",
+      "chapter": 2,
+      "topic": "AES – KeyExpansion",
+      "pdf_pages": {
+        "start": 127,
+        "end": 130
+      }
+    },
+    {
+      "code": "02.03.15",
+      "chapter": 2,
+      "topic": "AES – độ an toàn theo slide",
+      "pdf_pages": {
+        "start": 131,
+        "end": 131
+      }
+    },
+    {
+      "code": "02.04.01",
+      "chapter": 2,
+      "topic": "Thực hành DES 1 vòng và mô đun DES",
+      "pdf_pages": {
+        "start": 133,
+        "end": 135
+      }
+    },
+    {
+      "code": "02.05.01",
+      "chapter": 2,
+      "topic": "ECB – Electronic Codebook",
+      "pdf_pages": {
+        "start": 137,
+        "end": 140
+      }
+    },
+    {
+      "code": "02.05.02",
+      "chapter": 2,
+      "topic": "CBC – Cipher Block Chaining",
+      "pdf_pages": {
+        "start": 141,
+        "end": 142
+      }
+    },
+    {
+      "code": "02.05.03",
+      "chapter": 2,
+      "topic": "CFB – Cipher Feedback",
+      "pdf_pages": {
+        "start": 143,
+        "end": 145
+      }
+    },
+    {
+      "code": "02.05.04",
+      "chapter": 2,
+      "topic": "OFB – Output Feedback",
+      "pdf_pages": {
+        "start": 146,
+        "end": 148
+      }
+    },
+    {
+      "code": "02.05.05",
+      "chapter": 2,
+      "topic": "CTR – Counter Mode",
+      "pdf_pages": {
+        "start": 149,
+        "end": 150
+      }
+    },
+    {
+      "code": "02.06.01",
+      "chapter": 2,
+      "topic": "Mã dòng – khái niệm và đồng bộ",
+      "pdf_pages": {
+        "start": 152,
+        "end": 155
+      }
+    },
+    {
+      "code": "02.06.02",
+      "chapter": 2,
+      "topic": "Đặc trưng dãy sinh của mã dòng",
+      "pdf_pages": {
+        "start": 156,
+        "end": 158
+      }
+    },
+    {
+      "code": "02.06.03",
+      "chapter": 2,
+      "topic": "Nguyên lý thiết kế mã dòng",
+      "pdf_pages": {
+        "start": 159,
+        "end": 159
+      }
+    },
+    {
+      "code": "02.06.04",
+      "chapter": 2,
+      "topic": "RC4 – cấu trúc và lịch sử",
+      "pdf_pages": {
+        "start": 160,
+        "end": 162
+      }
+    },
+    {
+      "code": "02.06.05",
+      "chapter": 2,
+      "topic": "RC4 – khởi tạo S và T",
+      "pdf_pages": {
+        "start": 163,
+        "end": 163
+      }
+    },
+    {
+      "code": "02.06.06",
+      "chapter": 2,
+      "topic": "RC4 – KSA (Key Scheduling Algorithm)",
+      "pdf_pages": {
+        "start": 164,
+        "end": 164
+      }
+    },
+    {
+      "code": "02.06.07",
+      "chapter": 2,
+      "topic": "RC4 – PRGA (Pseudo Random Generation Algorithm)",
+      "pdf_pages": {
+        "start": 165,
+        "end": 165
+      }
+    },
+    {
+      "code": "02.06.08",
+      "chapter": 2,
+      "topic": "RC4 – XOR mã hóa và giải mã",
+      "pdf_pages": {
+        "start": 166,
+        "end": 166
+      }
+    },
+    {
+      "code": "02.06.09",
+      "chapter": 2,
+      "topic": "Ưu/nhược điểm của mật mã khóa bí mật",
+      "pdf_pages": {
+        "start": 167,
+        "end": 168
+      }
+    }
+  ]
+}

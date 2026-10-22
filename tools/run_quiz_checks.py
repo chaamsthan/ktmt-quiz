@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Own the temporary preview for parallel browser suites, or test public URL.
 
-uv run --with playwright==1.60.0 python tools/run_quiz_checks.py
-uv run --with playwright==1.60.0 python tools/run_quiz_checks.py --url https://chaamsthan.github.io/ktmt-quiz/
+uv run --with pillow --with playwright==1.60.0 python tools/run_quiz_checks.py
+uv run --with pillow --with playwright==1.60.0 python tools/run_quiz_checks.py --url https://chaamsthan.github.io/ktmt-quiz/
 """
 import argparse
 import functools
@@ -30,10 +30,10 @@ def main():
         threading.Thread(target=server.serve_forever,daemon=True).start()
         url=f'http://127.0.0.1:{server.server_port}/'
     print('Browser target: '+url,flush=True)
-    scripts=['test_nmmmh.py','test_nmmmh_upgrade.py','test_ktmt_chapter2.py']
+    scripts=['test_nmmmh.py','test_nmmmh_upgrade.py','test_ktmt_chapter2.py','test_nmmmh_collections.py']
     failures=[]
     try:
-        with ThreadPoolExecutor(max_workers=3) as executor:
+        with ThreadPoolExecutor(max_workers=4) as executor:
             running={executor.submit(subprocess.run,[sys.executable,str(ROOT/'tools'/script),'--url',url],
                                       cwd=ROOT,capture_output=True,text=True):script for script in scripts}
             for future in as_completed(running):
@@ -43,7 +43,7 @@ def main():
     finally:
         if server:server.shutdown();server.server_close()
     if failures:raise SystemExit('FAILED: '+', '.join(failures))
-    print('ALL THREE BROWSER SUITES PASSED',flush=True)
+    print('ALL FOUR BROWSER SUITES PASSED',flush=True)
 
 
 if __name__=='__main__':main()

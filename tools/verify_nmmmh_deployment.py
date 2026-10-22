@@ -19,7 +19,9 @@ def main():
            'subjects/nmmmh/answers.csv','vendor/katex/katex.min.js','vendor/katex/katex.min.css','vendor/katex/contrib/auto-render.min.js'}
     manifest=json.loads((ROOT/'subjects/nmmmh/manifest.json').read_text())
     rows=json.loads((ROOT/'questions.json').read_text())
-    for exam in manifest['exams']:
+    for collection in manifest.get('collections',[]):
+        if collection.get('report'):files.add(collection['report'])
+    for exam in manifest['exams']+[e for c in manifest.get('collections',[]) for e in c['exams']]:
         files.add(exam['question_file']);rows.extend(json.loads((ROOT/exam['question_file']).read_text()))
     for q in rows:
         if q.get('question_image'):files.add(q['question_image'])

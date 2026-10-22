@@ -205,7 +205,9 @@ def main():
         aggregate.append({'chapter_id':c['id'],'chapter':c['label'],'raw_count':len(pool),'unique_count':len(unique),'excluded_duplicates':len(pool)-len(unique),'graded_count':sum(bool(q['correct_answer']) for q in unique)})
     reviews=[{'id':q['id'],**source_reference(q),'chapter':q['chapter'],'reasons':q['review_reasons'],'answer_status':q['answer_audit']['status']} for q in questions if q['needs_review']]
     report={'exam_count':len(catalog),'record_count':len(questions),'readable_count':sum(not q.get('source_missing') for q in questions),'graded_count':sum(bool(q['correct_answer']) for q in questions),'review_count':len(reviews),'excluded_exam_ids':sorted(excluded),'exams':catalog,'aggregate':aggregate,'duplicate_groups':duplicate_report,'needs_review':reviews}
-    save(target/'manifest.json',{'id':'nmmmh','name':'Mật mã học','chapters':chapters,'exams':catalog,'answer_policy':'approved_verified_solutions'})
+    existing=json.loads((target/'manifest.json').read_text()) if (target/'manifest.json').exists() else {}
+    extension={'collections':existing['collections']} if 'collections' in existing else {}
+    save(target/'manifest.json',{'id':'nmmmh','name':'Mật mã học','chapters':chapters,'exams':catalog,'answer_policy':'approved_verified_solutions',**extension})
     save(target/'import_report.json',report)
     save(target/'needs_review.json',reviews)
     # Export only published exams. Preserve Excel's UTF-8 BOM and LF endings.

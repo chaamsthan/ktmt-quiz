@@ -53,6 +53,28 @@ Không chạy bộ trích xuất cũ để ghi đè bản chương 2 đã kiểm
 
 Môn mới dùng cùng HTML/CSS/JavaScript, máy chấm và khóa localStorage `ktmt-quiz-lab-v1` với KTMT. Dữ liệu KTMT trong `questions.json` và `exam_sets.json` không thay đổi.
 
+### Hai nhóm mới: Đề cương 2025 / Đề giữa kì 2026
+
+- `#subject=nmmmh&collection=de-cuong-2025`: 7 DOCX, 290 câu; giữ dấu đáp án tô vàng/gạch chân trong nguồn.
+- `#subject=nmmmh&collection=de-giua-ki-2026`: 2 PDF scan, 77 câu xuất hiện (ca 1: 37, ca 2: 40). Nguồn ca 1 không có câu 21–23; giữ dãy số gốc, không bù câu bịa.
+- `#subject=nmmmh` vẫn mở bộ đề cũ 5 đề/173 câu. Ba thẻ nhóm xuất hiện ngay trên trang môn; bộ lọc chương/đề, lịch sử và lượt đang làm hoạt động trong nhóm đang chọn.
+
+Hai nhóm thêm bằng thuộc tính **tùy chọn** `collections` trong manifest; không thay cấu trúc các đề cũ. Cả đề và luyện chương vẫn dùng cùng file JSON. Báo cáo theo từng đề/chương, câu trùng và trường hợp chưa chốt: [COLLECTIONS_2025_2026.md](subjects/nmmmh/COLLECTIONS_2025_2026.md).
+
+Phân biệt `source_marked` (đáp án theo dấu DOCX, không tuyên bố đã giải độc lập) và `verified` (có phép tính/đối chiếu độc lập). Mọi dấu gốc và vị trí run Word được giữ trong `audit/collections-2025-2026/*-native.json`. Khi dấu nguồn mâu thuẫn với phép tính hoặc đề có nhiều đáp án: giữ `source_marked_answer` để đối chiếu, tạm đặt `correct_answer: null`, không chấm bừa. Nút đã chọn trên ảnh PDF **không bao giờ** là đáp án chuẩn.
+
+Tái tạo hai nhóm (cần đúng thư mục `NMMMH/NMMMH/Đề_cương_2025` và `NMMMH/NMMMH/Đề_giữa_kì_2026` bên dưới nguồn):
+
+```bash
+uv run --with lxml --with pymupdf --with rapidocr_onnxruntime python tools/extract_nmmmh_collections.py --source '/đường/dẫn/NMMMH' --ocr
+uv run --with pillow python tools/import_nmmmh_collections.py
+uv run --with pillow --with playwright==1.60.0 python tools/run_quiz_checks.py
+```
+
+OCR chạy cục bộ; DOCX dùng văn bản và ảnh gốc, không OCR lại văn bản đã có. `nmmmh_collection_review.py` / `nmmmh_midterm_review.py` ghi nhận đọc từng câu, chương, mẹo, tọa độ crop và quyết định; `numeric_docx` / `numeric_midterm` tính trước rồi so đủ bốn phương án. Không truyền khóa cũ hoặc trạng thái radio vào máy tính kiểm chứng. Crop được lưu nguyên pixel trong `images/nmmmh/collections/`; `crop_manifest.json` ghi SHA-256, trang và hộp pixel. `crop_visual_review.json` chỉ xác nhận sau khi mở kiểm tra toàn bộ ảnh cuối; crop mới đổi hash phải được xem lại. DOCX/PDF gốc không sửa hoặc commit.
+
+Rollback: quay về commit trước đợt nhập, hoặc chỉ bỏ hai mục `collections` khỏi manifest; không phải xóa dữ liệu người học. Importer bộ cũ giữ nguyên `collections`, importer hai nhóm mới kiểm tra SHA-256 của mọi đề cũ và KTMT không đổi.
+
 - `nmmmh.js`: bộ điều phối môn, chọn đề/chương và loại trùng khi gộp.
 - `subjects/nmmmh/manifest.json`: tên/thứ tự chương và metadata năm đề đang xuất bản.
 - `subjects/nmmmh/exams/*.json`: từng đề độc lập, giữ số câu nguồn và các trường câu hỏi hiện có; các trường ảnh/bảng, chương con, căn cứ đáp án và nguồn được thêm tùy chọn.

@@ -237,6 +237,12 @@ a.primary-btn, a.secondary-btn, a.ghost-btn { display: inline-flex; align-items:
 .nmmmh-mode .side-note { overflow-wrap: anywhere; }
 .nmmmh-mode .result-item { min-width: 0; overflow-wrap: anywhere; }
 .nmmmh-progress { margin-bottom: 24px; }
+.collection-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin-bottom: 24px; }
+.collection-card { display: block; text-decoration: none; color: inherit; min-width: 0; border: 2px solid var(--line); }
+.collection-card h2 { margin: 10px 0; }
+.collection-card p { color: var(--muted); }
+.collection-card.is-active { border-color: #23aa8b; background: #effcf7; }
+.collection-card > span:last-child { color: #087e63; font-size: .86rem; font-weight: 700; }
 .nmmmh-progress .button-row { margin-top: 0; }
 .nmmmh-progress .stats-grid { margin-bottom: 15px; }
 .practice-panel { margin-bottom: 24px; }
@@ -270,6 +276,7 @@ a.primary-btn, a.secondary-btn, a.ghost-btn { display: inline-flex; align-items:
   .question-map { max-height: 180px; }
 }
 @media (max-width: 620px) {
+  .collection-grid { grid-template-columns: 1fr; gap: 10px; }
   .practice-fields { grid-template-columns: 1fr; }
   .subject-nav { width: calc(100% - 20px); }
   .nmmmh-exams { grid-template-columns: 1fr; }
