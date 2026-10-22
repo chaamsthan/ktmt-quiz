@@ -163,7 +163,9 @@ def main():
                     assert '\\frac' not in page.locator('.options').inner_text(),id
                 page.locator('#show-answer').click()
                 page.locator('.normalization-source > summary').click()
-                for img in page.locator('.normalization-source img').all():img.evaluate('img=>img.decode()')
+                for img in page.locator('.normalization-source img').all():
+                    assert img.get_attribute('loading')!='lazy'  # Hidden source must still be decodable after reveal.
+                    img.evaluate('img=>img.decode()')
                 assert page.locator('.katex-error').count()==0,id
                 assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(id,width)
             page.screenshot(path=str(folder/f'reference-archive-{width}.png'),full_page=True)

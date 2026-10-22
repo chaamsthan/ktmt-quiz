@@ -35,14 +35,18 @@ def main():
                 if b['type']=='image':files.add(b['src'])
     stamp=str(int(time.time()))
     def compare(file):
-        try:
-            request=urllib.request.Request(base+file+'?audit_verify='+stamp,headers={'Cache-Control':'no-cache'})
-            with urllib.request.urlopen(request,timeout=30) as response:data=response.read()
-            expected=hashlib.sha256((ROOT/file).read_bytes()).hexdigest()
-            actual=hashlib.sha256(data).hexdigest()
-            return None if expected==actual else {'file':file,'error':'content_hash_mismatch'}
-        except Exception as exc:return {'file':file,'error':str(exc)}
-    with ThreadPoolExecutor(max_workers=6) as executor:
+        # Pages/network can transiently time out even for an unchanged 50 KB
+        # asset. Retry transport failures only; never forgive a hash mismatch.
+        for attempt in range(3):
+            try:
+                request=urllib.request.Request(base+file+'?audit_verify='+stamp,headers={'Cache-Control':'no-cache'})
+                with urllib.request.urlopen(request,timeout=30) as response:data=response.read()
+                expected=hashlib.sha256((ROOT/file).read_bytes()).hexdigest()
+                actual=hashlib.sha256(data).hexdigest()
+                return None if expected==actual else {'file':file,'error':'content_hash_mismatch'}
+            except Exception as exc:
+                if attempt==2:return {'file':file,'error':str(exc)}
+    with ThreadPoolExecutor(max_workers=4) as executor:
         failures=[r for r in executor.map(compare,sorted(files)) if r]
     result={'url':base,'assets_compared':len(files),'all_sha256_match':not failures,'failures':failures}
     print(json.dumps(result,ensure_ascii=False,indent=2))
